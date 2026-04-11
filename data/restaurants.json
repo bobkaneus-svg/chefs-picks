@@ -128,7 +128,7 @@
       }
     ],
     "recommendation_count": 2,
-    "confidence_score": 80,
+    "confidence_score": 90,
     "last_updated": "2025-01-15"
   },
   {
@@ -166,7 +166,7 @@
       }
     ],
     "recommendation_count": 2,
-    "confidence_score": 80,
+    "confidence_score": 90,
     "last_updated": "2025-01-15"
   },
   {
@@ -204,7 +204,7 @@
       }
     ],
     "recommendation_count": 2,
-    "confidence_score": 80,
+    "confidence_score": 90,
     "last_updated": "2025-01-15"
   },
   {
@@ -242,7 +242,7 @@
       }
     ],
     "recommendation_count": 2,
-    "confidence_score": 80,
+    "confidence_score": 90,
     "last_updated": "2025-01-15"
   },
   {
@@ -280,7 +280,47 @@
       }
     ],
     "recommendation_count": 2,
-    "confidence_score": 80,
+    "confidence_score": 90,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "mokonuts-paris-11e",
+    "name": "Mokonuts",
+    "address": "",
+    "city": "Paris 11e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8556,
+      "lng": 2.3525
+    },
+    "cuisine_type": "Cafe / Boulangerie / Contemporain",
+    "price_range": "€€",
+    "vibe": "café",
+    "tags": [
+      "boulangerie"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Jessica Yang et Robert Compagnon, Marcin Krol",
+        "chef_restaurant": "Folderol / Le Rigmarole / Cypsele",
+        "quote": "My favourite restaurant in the world... food that feels like a warm hug",
+        "source": "Service95 / Something Curated",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Marcin Krol",
+        "chef_restaurant": "Cypsele",
+        "quote": "My favourite restaurant in the world... food that feels like a warm hug",
+        "source": "Something Curated - Chef's Guide Paris",
+        "source_url": "https://somethingcurated.com/2025/12/05/paris-best-restaurants-chef-insider-guide-marcin-krol/",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 90,
     "last_updated": "2025-01-15"
   },
   {
@@ -318,7 +358,7 @@
       }
     ],
     "recommendation_count": 2,
-    "confidence_score": 75,
+    "confidence_score": 85,
     "last_updated": "2025-01-15"
   },
   {
@@ -347,7 +387,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -376,7 +416,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -405,7 +445,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -434,7 +474,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -463,7 +503,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -492,7 +532,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -521,7 +561,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -550,7 +590,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -579,7 +619,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -608,7 +648,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -637,7 +677,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -666,7 +706,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -695,7 +735,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -724,7 +764,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -753,7 +793,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -782,7 +822,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -811,7 +851,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -840,7 +880,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -869,7 +909,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -898,7 +938,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -927,7 +967,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -956,7 +996,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -985,7 +1025,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1014,7 +1054,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1043,7 +1083,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1072,7 +1112,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1101,7 +1141,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1130,7 +1170,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1159,7 +1199,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1188,7 +1228,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1217,7 +1257,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1246,7 +1286,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1275,7 +1315,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1304,7 +1344,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1333,7 +1373,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1362,7 +1402,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1391,7 +1431,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1420,7 +1460,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1449,7 +1489,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1478,7 +1518,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1507,7 +1547,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1536,7 +1576,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1565,7 +1605,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1594,7 +1634,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1623,7 +1663,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1652,7 +1692,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1681,7 +1721,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1710,7 +1750,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1739,7 +1779,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1768,7 +1808,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1797,7 +1837,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1826,7 +1866,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1855,7 +1895,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1884,7 +1924,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1913,7 +1953,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1942,7 +1982,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -1971,7 +2011,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2000,7 +2040,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2029,7 +2069,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2058,7 +2098,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2087,7 +2127,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2116,7 +2156,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2145,7 +2185,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2174,7 +2214,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2203,7 +2243,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2232,7 +2272,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2261,7 +2301,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2290,7 +2330,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2319,7 +2359,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2348,7 +2388,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2377,7 +2417,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2406,7 +2446,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2435,7 +2475,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2464,7 +2504,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2493,7 +2533,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2522,7 +2562,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2551,7 +2591,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2580,7 +2620,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2609,7 +2649,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2638,7 +2678,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2667,7 +2707,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2696,7 +2736,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2725,7 +2765,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2754,7 +2794,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2783,7 +2823,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2812,7 +2852,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2841,7 +2881,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2870,7 +2910,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2899,7 +2939,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2928,7 +2968,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2957,7 +2997,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -2986,7 +3026,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3015,7 +3055,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3044,7 +3084,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3073,7 +3113,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3102,7 +3142,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3131,7 +3171,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3160,7 +3200,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3189,7 +3229,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3218,7 +3258,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3247,7 +3287,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3276,7 +3316,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3305,7 +3345,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3334,7 +3374,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3363,7 +3403,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3392,7 +3432,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3421,7 +3461,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3450,7 +3490,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3479,7 +3519,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3508,7 +3548,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3537,7 +3577,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3566,7 +3606,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3595,7 +3635,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3624,7 +3664,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3653,7 +3693,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3682,7 +3722,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3711,7 +3751,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3740,7 +3780,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3769,7 +3809,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3798,7 +3838,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3827,7 +3867,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3856,7 +3896,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3885,7 +3925,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3914,7 +3954,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3943,7 +3983,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -3972,7 +4012,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -4001,7 +4041,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -4030,7 +4070,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -4059,7 +4099,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -4088,7 +4128,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -4117,7 +4157,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -4146,7 +4186,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -4175,7 +4215,2768 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "tude-ex-sauvage-aix-en-provence",
+    "name": "Étude (ex-Sauvage)",
+    "address": "Rue de la Verrerie, entre place des Tanneurs et rue de la Verrerie",
+    "city": "Aix-en-Provence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5319,
+      "lng": 5.4398
+    },
+    "cuisine_type": "Gastronomique contemporain, poisson maturé, menu 5 ou 7 séquences",
+    "price_range": "€€€",
+    "vibe": "gastronomique",
+    "tags": [
+      "poisson"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Pierre Reboul",
+        "chef_restaurant": "La Table de Pierre Reboul, Aix-en-Provence (1 étoile Michelin)",
+        "quote": "Un jeune talent en pleine ascension, avec de magnifiques produits",
+        "source": "France Info - L'été des chefs",
+        "source_url": "https://www.franceinfo.fr/replay-radio/l-ete-des-chefs/sauvage-devenu-etude-a-aix-en-provence_7355895.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "l-espla-marseille",
+    "name": "L'Esplaï",
+    "address": "Village des Goudes, Calanque de Callelongue",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2929,
+      "lng": 5.3654
+    },
+    "cuisine_type": "Restaurant de poisson, bouillabaisse traditionnelle",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "poisson"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Alexandre Mazzia",
+        "chef_restaurant": "AM par Alexandre Mazzia, Marseille (3 étoiles Michelin)",
+        "quote": "Un point d'ancrage important de la pêche locale où l'on trouve un savoir-faire unique, notamment la bouillabaisse. C'est aussi incroyable qu'authentique. Une institution du village des Goudes depuis plus d'un siècle",
+        "source": "Guide Michelin - Un chef, une ville : les adresses préférées d'Alexandre Mazzia à Marseille",
+        "source_url": "https://guide.michelin.com/fr/fr/article/people/un-chef-une-ville-les-adresses-preferees-d-alexandre-mazzia-a-marseille",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "l-picerie-l-id-ale-marseille",
+    "name": "L'Épicerie l'Idéale",
+    "address": "11 Rue d'Aubagne, 13001",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3003,
+      "lng": 5.3726
+    },
+    "cuisine_type": "Épicerie fine, comptoir, produits locaux",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alexandre Mazzia",
+        "chef_restaurant": "AM par Alexandre Mazzia, Marseille (3 étoiles Michelin)",
+        "quote": "De beaux produits et des formules dans l'air du temps, qui donnent accès aux clients aux produits des professionnels",
+        "source": "Guide Michelin - Un chef, une ville : les adresses préférées d'Alexandre Mazzia à Marseille",
+        "source_url": "https://guide.michelin.com/fr/fr/article/people/un-chef-une-ville-les-adresses-preferees-d-alexandre-mazzia-a-marseille",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-mas-de-peint-arles-camargue",
+    "name": "Le Mas de Peint",
+    "address": "Le Sambuc, Route de Salin-de-Giraud",
+    "city": "Arles (Camargue)",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.683,
+      "lng": 4.6212
+    },
+    "cuisine_type": "Table d'hôtes provençale, produits de la Camargue, taureau, riz",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Nadia Sammut",
+        "chef_restaurant": "Auberge La Fenière, Cadenet (1 étoile Michelin, Cuisine Libre sans gluten)",
+        "quote": "Mes amis la famille Bon, un endroit merveilleux en Camargue",
+        "source": "Provence-Alpes-Côte d'Azur Tourism - Nadia Sammut's Provence",
+        "source_url": "https://provence-alpes-cotedazur.com/en/provence/get-inspired/nadia-sammuts-provence/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-petite-ferme-aix-en-provence",
+    "name": "La Petite Ferme",
+    "address": "Centre-ville d'Aix-en-Provence",
+    "city": "Aix-en-Provence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5285,
+      "lng": 5.4399
+    },
+    "cuisine_type": "Bistrot contemporain, grillades, terrasse, cuisine conviviale",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ronan Kernen",
+        "chef_restaurant": "Côté Cour, Aix-en-Provence (Top Chef 2011, finaliste)",
+        "quote": "Le meilleur restaurant d'Aix-en-Provence pour une cuisine conviviale et raffinée, chaque plat privilégie le produit et la précision de cuisson",
+        "source": "Site officiel Ronan Kernen",
+        "source_url": "https://ronan-kernen.com/la-petite-ferme-le-meilleur-restaurant-daix-en-provence-pour-une-cuisine-conviviale-et-raffinee/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "les-vieilles-canailles-aix-en-provence",
+    "name": "Les Vieilles Canailles",
+    "address": "7 rue Isolette",
+    "city": "Aix-en-Provence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5252,
+      "lng": 5.4475
+    },
+    "cuisine_type": "Bistrot, cave à vins, cuisine de marché ouverte",
+    "price_range": "€€",
+    "vibe": "bar à vins",
+    "tags": [
+      "cuisine de marché"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Pierre Hochart",
+        "chef_restaurant": "Les Vieilles Canailles (formé chez Alain Ducasse au Louis XV à Monaco, Gault&Millau)",
+        "quote": "Une cuisine ouverte permettant aux clients d'admirer le travail des cuisiniers, avec des produits frais du marché renouvelés selon les saisons",
+        "source": "Gault&Millau",
+        "source_url": "https://fr.gaultmillau.com/en/restaurants/les-vieilles-canailles",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "bottega-da-verri-aix-en-provence",
+    "name": "Bottega da Verri",
+    "address": "Centre-ville d'Aix-en-Provence",
+    "city": "Aix-en-Provence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5221,
+      "lng": 5.4426
+    },
+    "cuisine_type": "Épicerie-restaurant italienne, antipasti, pasta, produits importés d'Italie",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "italien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Marion Lefebvre",
+        "chef_restaurant": "Bottega da Verri (Top Chef 2017, créatrice du concept restaurant-épicerie)",
+        "quote": "Combiner restaurant et épicerie dédiée à la gastronomie italienne authentique, avec des produits directement importés d'Italie",
+        "source": "Kiss My Chef",
+        "source_url": "https://kissmychef.com/bonnes-adresses/provence-alpes-cote-dazur/bottega-da-verri-aix-en-provence-la-gastronomie-a-litalienne/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-source-ch-teau-de-la-gaude-aix-en-provence",
+    "name": "La Source (Château de la Gaude)",
+    "address": "Château de la Gaude, Route de Couteron",
+    "city": "Aix-en-Provence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5321,
+      "lng": 5.4481
+    },
+    "cuisine_type": "Bistrot bistronomique, tapas, plats de partage, street food chic",
+    "price_range": "€€",
+    "vibe": "street food",
+    "tags": [
+      "tapas"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Matthieu Derible",
+        "chef_restaurant": "Le Art, Château de la Gaude, Aix-en-Provence (1 étoile Michelin)",
+        "quote": "Le spot tendance et gourmand de la région, un authentique bistrot à la française mêlant tapas, plats bistronomiques et street food dans une ambiance conviviale sur une terrasse avec vue",
+        "source": "Yonder - Les meilleurs restaurants d'Aix-en-Provence",
+        "source_url": "https://www.yonder.fr/gastronomie/restaurants/les-meilleurs-restaurants-aix-en-provence",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-bergerie-domaine-de-capelongue-bonnieux",
+    "name": "La Bergerie (Domaine de Capelongue)",
+    "address": "Chemin des Cabanes, Domaine de Capelongue",
+    "city": "Bonnieux",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.5989,
+      "lng": 1.8897
+    },
+    "cuisine_type": "Bistrot provençal, pizza à la truffe, cuisson au feu de bois, terrasse",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "pizza",
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Édouard Loubet",
+        "chef_restaurant": "Restaurant Édouard Loubet, Bonnieux (2 étoiles Michelin, Gault&Millau Chef de l'année 2011)",
+        "quote": "La Bergerie avec sa magnifique terrasse et sa fameuse pizza à la truffe, servie au coin du feu de bois en hiver",
+        "source": "Provence Holidays",
+        "source_url": "https://www.provenceholidays.com/en/restaurant/restaurant-edouard-loubet-domaine-de-capelongue",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-bistrot-du-brau-eygali-res",
+    "name": "Le Bistrot du Brau",
+    "address": "La Bastide d'Eygalières",
+    "city": "Eygalières",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6084,
+      "lng": 1.8804
+    },
+    "cuisine_type": "Bistrot familial provençal, brunch du dimanche, pâté en croûte, salades de saison",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Christopher Hache",
+        "chef_restaurant": "Maison Hache, Eygalières (1 étoile Michelin, ex-chef du Crillon à Paris)",
+        "quote": "Une cuisine familiale et authentique, imprégnée de l'esprit du terroir local, pour un repas simple et convivial au coeur des Alpilles",
+        "source": "Site officiel Christopher Hache / Alpilles en Provence",
+        "source_url": "https://www.alpillesenprovence.com/en/fiches/le-bistrot-du-brau/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "l-atelier-salone-salon-de-provence",
+    "name": "L'Atelier Salone",
+    "address": "Villa Salone, Salon-de-Provence",
+    "city": "Salon-de-Provence",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6083,
+      "lng": 1.8915
+    },
+    "cuisine_type": "Bistrot provençal, cuisine accessible du chef étoilé",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Alexandre Lechêne",
+        "chef_restaurant": "Villa Salone, Salon-de-Provence (1 étoile Michelin)",
+        "quote": "Un voyage au coeur des saveurs provençales dans une atmosphère plus décontractée, le versant bistrot de la Villa Salone",
+        "source": "Villa Salone - site officiel",
+        "source_url": "https://villa-salone.com/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "san-felice-bistrot-le-castellet",
+    "name": "San Felice Bistrot",
+    "address": "Hôtel du Castellet, 3001 Route des Hauts du Camp",
+    "city": "Le Castellet",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6008,
+      "lng": 1.8828
+    },
+    "cuisine_type": "Bistrot, viandes braisées, cuisine au feu, méditerranéen",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "méditerranéen"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Christophe Bacquié",
+        "chef_restaurant": "Mas Les Eydins, Bonnieux (2 étoiles Michelin, ex-3 étoiles au Castellet)",
+        "quote": "Le San Felice propose une cuisine de braises avec de belles pièces de viande, un concept bistrot entièrement rénové",
+        "source": "COTEMagazine",
+        "source_url": "https://www.cotemagazine.com/decouvrez-le-nouveau-concept-du-bistrot-san-felice",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "solelh-l-isle-sur-la-sorgue",
+    "name": "SOLELH",
+    "address": "Centre-ville",
+    "city": "L'Isle-sur-la-Sorgue",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6107,
+      "lng": 1.8857
+    },
+    "cuisine_type": "Néo-bistrot, cuisine d'auteur accessible, produits locaux",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Romain Gandolphe",
+        "chef_restaurant": "Le Vivier, L'Isle-sur-la-Sorgue (1 étoile Michelin)",
+        "quote": "Créé avec Patrick Fischnaller pour offrir la simplicité d'un bistrot avec la technique d'un chef étoilé, un néo-bistrot accessible à tous",
+        "source": "Le Vivier Restaurant / SOLELH",
+        "source_url": "https://solelh-restaurant.fr/",
+        "date": "2022",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-cour-de-ferme-auberge-la-feni-re-cadenet-pr-s-lourmarin",
+    "name": "La Cour de Ferme (Auberge La Fenière)",
+    "address": "Route de Lourmarin, 84160 Cadenet",
+    "city": "Cadenet (près Lourmarin)",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.5969,
+      "lng": 1.8818
+    },
+    "cuisine_type": "Bistrot provençal sans gluten, Cuisine Libre, terrasse face au Grand Luberon",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Reine Sammut",
+        "chef_restaurant": "Le Goût du Bonheur - La Fenière, Cadenet (cheffe pionnière, étoilée Michelin)",
+        "quote": "La Cour de Ferme offre une cuisine provençale simple et généreuse, face au Grand Luberon, avec nos huiles d'olive méditerranéennes sélectionnées",
+        "source": "Auberge La Fenière - site officiel",
+        "source_url": "https://www.aubergelafeniere.com/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "clover-gordes-gordes",
+    "name": "Clover Gordes",
+    "address": "Airelles Gordes, La Bastide, Place du Château",
+    "city": "Gordes",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.609,
+      "lng": 1.89
+    },
+    "cuisine_type": "Provençal contemporain, légumes, grillade, pizza soufflé",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "pizza",
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Jean-François Piège",
+        "chef_restaurant": "Clover Paris (ex-2 étoiles Michelin, Top Chef jury)",
+        "quote": "J'ai grandi en Provence. Clover Gordes réunit les choses pour lesquelles je suis le plus connu : le travail des légumes et l'art de la cuisson au grill. Calmar sauvage en carbonara, homard bleu grillé",
+        "source": "Airelles Hotels / Gilles Pudlowski",
+        "source_url": "https://airelles.com/en/destination/gordes-hotel/restaurants/clover-gordes-jean-francois-piege-restaurant",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "francis-mallmann-en-provence-le-puy-sainte-r-parade",
+    "name": "Francis Mallmann en Provence",
+    "address": "Château La Coste, 2750 Route de la Cride",
+    "city": "Le Puy-Sainte-Réparade",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6083,
+      "lng": 1.892
+    },
+    "cuisine_type": "Grillade argentine au feu de bois, empanadas, viandes fumées",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Francis Mallmann",
+        "chef_restaurant": "Restaurants Francis Mallmann (chef argentin mondialement reconnu, 7 feux)",
+        "quote": "Un hommage à chaque ingrédient en révélant ses saveurs par un processus de cuisson extrêmement précis au feu de bois. Le boeuf, le porc, le poisson et les légumes sont suspendus au-dessus du dôme de feu",
+        "source": "Château La Coste",
+        "source_url": "https://chateau-la-coste.com/en/restaurants/argentinian-restaurant-francis-mallmann.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "h-l-ne-darroze-villa-la-coste-le-puy-sainte-r-parade",
+    "name": "Hélène Darroze à Villa La Coste",
+    "address": "Villa La Coste, 2750 Route de la Cride",
+    "city": "Le Puy-Sainte-Réparade",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.604,
+      "lng": 1.8959
+    },
+    "cuisine_type": "Méditerranéen, légumes du potager, cuisine engagée",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [
+      "méditerranéen"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Hélène Darroze",
+        "chef_restaurant": "Marsan, Paris (2 étoiles Michelin), The Connaught, Londres (3 étoiles Michelin)",
+        "quote": "Cette fleur de courgette est préparée comme un petit farci... À Villa La Coste, je reste fidèle à mes valeurs d'authenticité et de générosité, avec une approche résolument végétale mettant en valeur les producteurs locaux",
+        "source": "Resto Magazine - Les cinq adresses de la cheffe Hélène Darroze",
+        "source_url": "https://www.resto-magazine.fr/article/les-cinq-adresses-de-la-cheffe-helene-darroze",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-petite-maison-de-cucuron-cucuron",
+    "name": "La Petite Maison de Cucuron",
+    "address": "Place de l'Étang",
+    "city": "Cucuron",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6015,
+      "lng": 1.8891
+    },
+    "cuisine_type": "Provençal raffiné, truffes, champignons, gibier, légumes de maraîchers",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Éric Sapet",
+        "chef_restaurant": "La Petite Maison de Cucuron (1 étoile Michelin depuis 17 ans, médaille du maire 2024)",
+        "quote": "Une cuisine provençale classique riche en saveurs, sublimant champignons, truffes, légumes de maraîchers locaux, fromages de Provence et gibier de la garrigue",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/us/en/provence-alpes-cote-dazur/cucuron/restaurant/la-petite-maison-de-cucuron",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "inari-arles",
+    "name": "Inari",
+    "address": "16 Place Voltaire",
+    "city": "Arles",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.682,
+      "lng": 4.6297
+    },
+    "cuisine_type": "Fusion franco-vietnamienne, comptoir de saveurs, cuisine engagée",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "vietnamien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Céline Pham",
+        "chef_restaurant": "Inari, Arles (Gault&Millau 1 toque, ex-Ze Kitchen Galerie, Septime, Saturne à Paris)",
+        "quote": "En Arles, les artisans sont juste à côté. Les échanges sont très poussés, très humains. Je marie la cuisine vietnamienne traditionnelle avec les techniques gastronomiques françaises",
+        "source": "Gault&Millau - Les bonnes adresses de Céline Pham",
+        "source_url": "https://fr.gaultmillau.com/en/news/les-bonnes-adresses-de-celine-pham",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "bistrot-du-chef-pierre-grein-manosque",
+    "name": "Bistrot du Chef Pierre Grein",
+    "address": "Centre-ville de Manosque",
+    "city": "Manosque",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6092,
+      "lng": 1.8895
+    },
+    "cuisine_type": "Bistrot de chef, déjeuner de produits frais, formule accessible",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Pierre Grein",
+        "chef_restaurant": "Restaurant Pierre Grein, Manosque (étoilé au Guide Michelin)",
+        "quote": "Le Bistrot du Chef propose une formule déjeuner avec des produits frais locaux, l'esprit et la technique du chef étoilé dans un cadre bistrot décontracté",
+        "source": "Restaurant Pierre Grein - site officiel",
+        "source_url": "https://restaurantpierregrein.fr/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-chassagnette-arles-camargue",
+    "name": "La Chassagnette",
+    "address": "Route du Sambuc, Le Sambuc",
+    "city": "Arles (Camargue)",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.68,
+      "lng": 4.6205
+    },
+    "cuisine_type": "Gastronomique bio, jardin potager 2 hectares, cuisine nature",
+    "price_range": "€€€",
+    "vibe": "gastronomique",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Armand Arnal",
+        "chef_restaurant": "La Chassagnette, Arles (1 étoile Michelin, 3 toques Gault&Millau, formé chez Pierre Hermé et Alain Ducasse)",
+        "quote": "Au coeur de la Camargue, le jardin de La Chassagnette tire son caractère unique du sol du delta du Rhône. Je m'inspire de la nature, de la vitalité du monde sauvage et de mes voyages, en particulier au Japon",
+        "source": "La Chassagnette / 50Best Discovery",
+        "source_url": "https://www.chassagnette.fr/en/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "goood-antibes",
+    "name": "Goood",
+    "address": "1 Place Amiral Barnaud, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5764,
+      "lng": 7.1205
+    },
+    "cuisine_type": "Bistrot gastronomique / Fusion",
+    "price_range": "€€",
+    "vibe": "gastronomique",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gilles Pudlowski (critique gastronomique)",
+        "chef_restaurant": "N/A (critique, blog Les Pieds dans le Plat)",
+        "quote": "Chef Florent Koffi, autodidacte passé chez Joël Robuchon au Metropole Monaco, propose une cuisine créative dans un cadre cosy",
+        "source": "Le blog de Gilles Pudlowski - Les Pieds dans le Plat",
+        "source_url": "https://www.gillespudlowski.com/220901/restaurants/antibes-go-to-goood",
+        "date": "2020",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "bistrot-margaux-antibes",
+    "name": "Bistrot Margaux",
+    "address": "17 Avenue du 11 Novembre, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5741,
+      "lng": 7.1196
+    },
+    "cuisine_type": "Bistrot français classique",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gilles Pudlowski (critique gastronomique)",
+        "chef_restaurant": "N/A (critique, blog Les Pieds dans le Plat)",
+        "quote": "Chef Frédéric Buzet, passé chez Joël Robuchon et Guy Martin (Le Grand Véfour), étoilé à Saint-Paul-de-Vence. Pâté en croûte, boudin noir, os à moelle — tout fait maison, prix doux",
+        "source": "Le blog de Gilles Pudlowski - Les Pieds dans le Plat",
+        "source_url": "https://www.gillespudlowski.com/307751/restaurants/antibes-cest-buzet-qui-est-dans-le-vrai",
+        "date": "2022",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-zinc-philippe-et-son-zinc-antibes",
+    "name": "Le Zinc (Philippe et son Zinc)",
+    "address": "5 Cours Masséna, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5744,
+      "lng": 7.1203
+    },
+    "cuisine_type": "Bistrot gastronomique",
+    "price_range": "€€",
+    "vibe": "gastronomique",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gilles Pudlowski (critique gastronomique)",
+        "chef_restaurant": "N/A (critique, blog Les Pieds dans le Plat)",
+        "quote": "Philippe Langlois, ex-directeur des Ambassadeurs au Crillon puis au Ritz, chef Maxime La Loggia formé chez Jacques Chibois et Alain Llorca",
+        "source": "Le blog de Gilles Pudlowski - Les Pieds dans le Plat",
+        "source_url": "https://www.gillespudlowski.com/183187/restaurants/antibes-philippe-et-son-zinc",
+        "date": "2018",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-vauban-antibes",
+    "name": "Le Vauban",
+    "address": "7 bis Rue Thuret, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.583,
+      "lng": 7.1217
+    },
+    "cuisine_type": "Semi-gastronomique / Bistrot français contemporain",
+    "price_range": "€€",
+    "vibe": "gastronomique",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gault&Millau / JRE (Jeunes Restaurateurs d'Europe)",
+        "chef_restaurant": "N/A",
+        "quote": "Chef Raymond Cornelissens, membre JRE, transforme les meilleurs ingrédients de saison en plats modernes et inventifs. Une valeur sûre du vieil Antibes",
+        "source": "Gault&Millau / Yonder",
+        "source_url": "https://fr.gaultmillau.com/en/restaurants/le-vauban-restaurant",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "entre-2-vins-antibes",
+    "name": "Entre 2 Vins",
+    "address": "2 Rue James Close, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5787,
+      "lng": 7.1193
+    },
+    "cuisine_type": "Bar à vins / Petite restauration de saison",
+    "price_range": "€€",
+    "vibe": "bar à vins",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Recommandé par sommeliers locaux et chefs antibois",
+        "chef_restaurant": "N/A",
+        "quote": "Chef Mathieu et Chef Sommelier Franck, spécialisé en vins naturels et bio depuis plus de 15 ans. Plats maison avec produits frais de saison, pas de carte fixe",
+        "source": "WhatToDoAntibes / Raisin",
+        "source_url": "https://whattodoantibes.com/top-4-wine-bars-in-antibes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-cafeti-re-f-l-e-antibes",
+    "name": "La Cafetière Fêlée",
+    "address": "Vieille ville, 06600 Antibes (Juan-les-Pins)",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5771,
+      "lng": 7.1309
+    },
+    "cuisine_type": "Fusion franco-asiatique",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gault&Millau",
+        "chef_restaurant": "N/A",
+        "quote": "Chef Julien Fiengo, Maître Restaurateur, crée des saveurs franco-asiatiques — currys, salades, sautés épicés — avec des produits locaux en circuit court",
+        "source": "Gault&Millau / Office de Tourisme Antibes",
+        "source_url": "https://fr.test.gaultmillau.com/restaurants/la-cafetiere-felee",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "chez-josy-antibes",
+    "name": "Chez Josy",
+    "address": "Boulevard James Wyllie, La Salis, 06160 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5832,
+      "lng": 7.1256
+    },
+    "cuisine_type": "Cuisine niçoise / Snack traditionnel",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Paris Eater / French Riviera Coast (guides gastronomiques)",
+        "chef_restaurant": "N/A",
+        "quote": "Depuis 1965, cuisine familiale niçoise — meilleur pan bagnat d'Antibes, pissaladière, daube, tartes aux légumes. Sans chichi, portions généreuses",
+        "source": "Paris Eater / French Riviera Coast",
+        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-petite-escale-antibes",
+    "name": "La Petite Escale",
+    "address": "Vieille ville, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5755,
+      "lng": 7.1276
+    },
+    "cuisine_type": "Bistrot français / Cuisine d'auteur",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Paris Eater / SeeAntibes",
+        "chef_restaurant": "N/A",
+        "quote": "Pépite cachée dans les ruelles du vieil Antibes, le chef-propriétaire seul en cuisine produit une cuisine d'une complexité et d'une délicatesse incroyables",
+        "source": "Paris Eater",
+        "source_url": "https://www.pariseater.com/france-travel-guides/best-restaurants-antibes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "chez-m-albert-1er-antibes",
+    "name": "Chez Mô - Albert 1er",
+    "address": "Boulevard Albert 1er, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5754,
+      "lng": 7.122
+    },
+    "cuisine_type": "Poissonnerie-restaurant / Fruits de mer",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "poisson"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "TheFork / Guides locaux",
+        "chef_restaurant": "N/A",
+        "quote": "Entre les remparts et le Cap d'Antibes, poissons sauvages ultra-frais, homards et langoustines du vivier, sélectionnés par les chefs. Institution locale des fruits de mer",
+        "source": "TheFork / Chez Mô site officiel",
+        "source_url": "https://www.chezmo-antibes.fr/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "l-arazur-antibes",
+    "name": "L'Arazur",
+    "address": "8 Rue des Palmiers, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5886,
+      "lng": 7.1261
+    },
+    "cuisine_type": "Bistronomique / Cuisine de saison",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gault&Millau / Jacques Gantié (critique)",
+        "chef_restaurant": "N/A",
+        "quote": "Chef Lucas Marini, formé chez Christian Le Squer (Ledoyen) et Mauro Colagreco (Mirazur). Légumes choyés, cuisine de saison colorée et franche",
+        "source": "Gault&Millau / Jacques Gantié - Table libre",
+        "source_url": "https://www.jacquesgantie.com/restaurants/bonne-table/antibes-larazur/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "da-vinci-trattoria-antibes",
+    "name": "Da Vinci Trattoria",
+    "address": "9 Avenue du 11 Novembre, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5817,
+      "lng": 7.1269
+    },
+    "cuisine_type": "Trattoria italienne / Pizza napolitaine au feu de bois",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "pizza",
+      "italien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Jacques Gantié (critique gastronomique)",
+        "chef_restaurant": "N/A (critique, blog Table libre)",
+        "quote": "Chef exécutif Frédéric Buzet (ex-Le Grand Véfour, ex-étoilé à Saint-Paul-de-Vence), chef Daniele Negri en cuisine. Pizza napolitaine au four à bois, formule déjeuner à 19,50€",
+        "source": "Jacques Gantié - Table libre",
+        "source_url": "https://www.jacquesgantie.com/restaurants/bonne-table/antibes-port-vauban-da-vinci-trattoria-a-lheure-italienne/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-bistrot-du-port-golfe-juan-vallauris",
+    "name": "Le Bistrot du Port",
+    "address": "Port du Golfe-Juan, 06220 Vallauris Golfe-Juan",
+    "city": "Golfe-Juan (Vallauris)",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6089,
+      "lng": 1.8927
+    },
+    "cuisine_type": "Bistrot marin / Poissons / Bouillabaisse",
+    "price_range": "€€€",
+    "vibe": "bistrot",
+    "tags": [
+      "poisson"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Gilles Pudlowski / Jacques Gantié (critiques gastronomiques)",
+        "chef_restaurant": "N/A",
+        "quote": "Chef autodidacte Mathieu Allinei, fils des propriétaires du légendaire Tétou. Bouillabaisse exceptionnelle, poissons des pêcheurs locaux, créativité nippone. Tout fait maison",
+        "source": "Blog Pudlowski / Jacques Gantié - Table libre",
+        "source_url": "https://www.gillespudlowski.com/273165/restaurants/golfe-juan-la-mer-amour-de-mathieu-allinei",
+        "date": "2022",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "da-laura-mougins",
+    "name": "Da Laura",
+    "address": "18 Boulevard Courteline, 06250 Mougins",
+    "city": "Mougins",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.5991,
+      "lng": 1.8808
+    },
+    "cuisine_type": "Trattoria italienne authentique (pas de pizza)",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "pizza",
+      "italien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Jacques Gantié (critique gastronomique)",
+        "chef_restaurant": "N/A (critique, blog Table libre)",
+        "quote": "Laura Merlo et Marco Floris proposent une cucina autentica dans l'ancienne villa de Picasso et Dora Maar. Ravioles à la crème de truffe blanche, pâtes fraîches maison. Pas de pizza, que de l'excellence",
+        "source": "Jacques Gantié - Table libre",
+        "source_url": "https://www.jacquesgantie.com/restaurants/italien/mougins-da-laura-la-trattoria-qui-donne-du-peps-au-village/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-bistrot-de-la-marine-cagnes-sur-mer",
+    "name": "Le Bistrot de la Marine",
+    "address": "96 Promenade de la Plage, 06800 Cagnes-sur-Mer (Cros-de-Cagnes)",
+    "city": "Cagnes-sur-Mer",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6004,
+      "lng": 1.8846
+    },
+    "cuisine_type": "Bistrot marin / Poissons et fruits de mer",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "poisson"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Nice-Presse / Guides locaux",
+        "chef_restaurant": "N/A",
+        "quote": "Chef Stéphane Marie, normand talentueux passé par les grandes maisons. Face à la mer au Cros-de-Cagnes, poisson tous les jours, repaire des locaux depuis 10 ans. Formule déjeuner 29€",
+        "source": "Nice-Presse",
+        "source_url": "https://nicepresse.com/pres-de-nice-ici-cest-poisson-tous-les-jours-depuis-dix-ans-ce-restaurant-du-cros-de-cagnes-est-devenu-le-repaire-des-locaux/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-caf-de-la-poste-biot",
+    "name": "Le Café de la Poste",
+    "address": "24 Rue Saint-Sébastien, 06410 Biot",
+    "city": "Biot",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.5988,
+      "lng": 1.8954
+    },
+    "cuisine_type": "Bistrot provençal",
+    "price_range": "€",
+    "vibe": "bistrot",
+    "tags": [
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "ViaMichelin (noté 9.6) / TheFork",
+        "chef_restaurant": "N/A",
+        "quote": "Au coeur du village de Biot, cuisine de charme à prix doux (environ 18€). Plébiscité par les habitants et les visiteurs pour son authenticité",
+        "source": "TheFork / ViaMichelin",
+        "source_url": "https://www.thefork.fr/restaurant/le-cafe-de-la-poste-r443601",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "chez-lulu-antibes",
+    "name": "Chez Lulu",
+    "address": "Vieil Antibes, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5868,
+      "lng": 7.1209
+    },
+    "cuisine_type": "Provençal au feu de bois",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "provençal"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "French Riviera Coast (guide gastronomique)",
+        "chef_restaurant": "N/A",
+        "quote": "Planque locale authentique, cuisine de saison au feu de bois, recettes de l'âme provençale. Portions généreuses, ambiance familiale. Goût de déjeuner dominical chez grand-mère",
+        "source": "French Riviera Coast",
+        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "l-altro-antibes",
+    "name": "L'Altro",
+    "address": "Vieil Antibes, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5833,
+      "lng": 7.1222
+    },
+    "cuisine_type": "Trattoria italienne / Pizzeria",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "italien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "French Riviera Coast (guide gastronomique)",
+        "chef_restaurant": "N/A",
+        "quote": "Trattoria vivante avec pizzas lancées à la main, cocktails signature et service énergique. Populaire auprès des familles et groupes",
+        "source": "French Riviera Coast",
+        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "plage-belles-rives-juan-les-pins",
+    "name": "Plage Belles Rives",
+    "address": "33 Boulevard Édouard Baudoin, 06160 Juan-les-Pins",
+    "city": "Juan-les-Pins",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.61,
+      "lng": 1.8876
+    },
+    "cuisine_type": "Restaurant de plage / Méditerranéen",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "méditerranéen"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Yonder (guide lifestyle)",
+        "chef_restaurant": "N/A",
+        "quote": "Grillades de poisson, tartare de thon, brochettes de langoustines, bar à salades. Ambiance Art Déco face aux îles de Lérins. La version décontractée de La Passagère",
+        "source": "Yonder",
+        "source_url": "https://www.yonder.fr/destinations/72-heures-a/cote-azur-bonnes-adresses-week-end-antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "l-atelier-de-la-socca-antibes",
+    "name": "L'Atelier de la Socca",
+    "address": "Antibes (food truck itinérant)",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.577,
+      "lng": 7.1198
+    },
+    "cuisine_type": "Street food niçoise / Socca / Pizza au feu de bois",
+    "price_range": "€",
+    "vibe": "street food",
+    "tags": [
+      "pizza",
+      "socca"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Guides locaux street food",
+        "chef_restaurant": "N/A",
+        "quote": "Four à bois ambulant, recettes traditionnelles de socca, pizza et pissaladière transmises de génération en génération",
+        "source": "Riviera City Guide / Je suis gastronome",
+        "source_url": "https://www.jesuisgastronome.fr/antibes/cat/food-truck",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "ti-toques-juan-les-pins",
+    "name": "Ti-Toques",
+    "address": "Juan-les-Pins, 06160 Antibes",
+    "city": "Juan-les-Pins",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6044,
+      "lng": 1.8845
+    },
+    "cuisine_type": "Bistrot français / Viandes et poissons",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "poisson"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Hotels.com Go Guides",
+        "chef_restaurant": "N/A",
+        "quote": "Restaurant familial où le chef cuisine sous vos yeux. Viandes de race, poissons frais. Excellent rapport qualité-prix au coeur de Juan-les-Pins",
+        "source": "Hotels.com Go Guides",
+        "source_url": "https://fr.hotels.com/go/france/tres-bons-restaurants-antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-cantine-des-chefs-carhaix",
+    "name": "La Cantine des Chefs",
+    "address": "Carhaix, Finistere",
+    "city": "Carhaix",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.2784,
+      "lng": -3.5663
+    },
+    "cuisine_type": "Fast-good breton, plats de chefs avec produits locaux",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Collectif de chefs bretons",
+        "chef_restaurant": "Divers chefs bretons",
+        "quote": "Des plats imagines et cuisines par des Chefs, avec des produits frais achetes aupres de producteurs de proximite",
+        "source": "Port d'Attache - Cantine des Chefs",
+        "source_url": "https://www.portdattache.bzh/cantine-des-chefs-fast-good-breton/",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-baratin-paris-20e",
+    "name": "Le Baratin",
+    "address": "3 Rue Jouye-Rouve",
+    "city": "Paris 20e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.855,
+      "lng": 2.3477
+    },
+    "cuisine_type": "Bistrot francais",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Ducasse",
+        "chef_restaurant": "Plaza Athenee / Alain Ducasse",
+        "quote": "Ce lieu respecte la simplicite, loin des rigidites etoilees",
+        "source": "Omnia Restaurant - Adresses secretes des chefs",
+        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "hanoi-1988-paris-4e",
+    "name": "Hanoi 1988",
+    "address": "Ile Saint-Louis",
+    "city": "Paris 4e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8646,
+      "lng": 2.3524
+    },
+    "cuisine_type": "Vietnamien",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "vietnamien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Helene Darroze",
+        "chef_restaurant": "Marsan",
+        "quote": "The food is very good, authentic",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "kaito-paris-6e",
+    "name": "Kaito",
+    "address": "",
+    "city": "Paris 6e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8501,
+      "lng": 2.345
+    },
+    "cuisine_type": "Japonais / Sushi",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "sushi",
+      "japonais"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Helene Darroze",
+        "chef_restaurant": "Marsan",
+        "quote": "There are no seats",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-crete-paris-5e",
+    "name": "La Crete",
+    "address": "Rue Mouffetard",
+    "city": "Paris 5e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8504,
+      "lng": 2.3542
+    },
+    "cuisine_type": "Grec",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Chris Edwards",
+        "chef_restaurant": "Le Saint-Sebastien",
+        "quote": "Greek beers to start, Greek wine with the meal, raki",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "saigon-sandwich-paris-11e",
+    "name": "Saigon Sandwich",
+    "address": "",
+    "city": "Paris 11e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8613,
+      "lng": 2.351
+    },
+    "cuisine_type": "Vietnamien / Banh mi",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [
+      "vietnamien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Edward Delling-Williams",
+        "chef_restaurant": "Le Grand Bain / The Presbytere",
+        "quote": "It's just a cheap banh mi, I think it's five euros",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "dong-huong-paris-11e",
+    "name": "Dong Huong",
+    "address": "",
+    "city": "Paris 11e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8496,
+      "lng": 2.3503
+    },
+    "cuisine_type": "Vietnamien / Pho",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [
+      "pho",
+      "vietnamien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Paul Boudier",
+        "chef_restaurant": "Le Maquis",
+        "quote": "I've been going for maybe 15 years",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "aux-mandarins-de-belleville-paris-19e",
+    "name": "Aux Mandarins de Belleville",
+    "address": "",
+    "city": "Paris 19e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8645,
+      "lng": 2.3527
+    },
+    "cuisine_type": "Chinois",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [
+      "chinois"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Edward Delling-Williams",
+        "chef_restaurant": "Le Grand Bain",
+        "quote": "It's just delicious Chinese food, basically",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "mori-venice-bar-paris-2e",
+    "name": "Mori Venice Bar",
+    "address": "",
+    "city": "Paris 2e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8488,
+      "lng": 2.3557
+    },
+    "cuisine_type": "Italien / Venitien",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "italien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Simone Zanoni",
+        "chef_restaurant": "Le George (Four Seasons)",
+        "quote": "I love this ultra simple way of cooking",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-cantine-du-troquet-paris-15e",
+    "name": "La Cantine du Troquet",
+    "address": "",
+    "city": "Paris 15e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8595,
+      "lng": 2.3528
+    },
+    "cuisine_type": "Francais / Basque",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "basque"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Stephane Jego",
+        "chef_restaurant": "L'Ami Jean",
+        "quote": "I love the crispy pigs' ears",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "meha-paris-18e",
+    "name": "Meha",
+    "address": "",
+    "city": "Paris 18e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8529,
+      "lng": 2.3545
+    },
+    "cuisine_type": "Bistronomique / Influences marocaines",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Omar Dhiab",
+        "chef_restaurant": "",
+        "quote": "He makes langoustine ravioli with langoustine bisque",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "vantre-paris-11e",
+    "name": "Vantre",
+    "address": "",
+    "city": "Paris 11e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8504,
+      "lng": 2.3512
+    },
+    "cuisine_type": "Francais classique / Moderne",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Oliver Piras",
+        "chef_restaurant": "Il Carpaccio (Le Royal Monceau)",
+        "quote": "The wine list is fantastic",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-roi-rene-paris-10e",
+    "name": "Le Roi Rene",
+    "address": "",
+    "city": "Paris 10e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8559,
+      "lng": 2.3595
+    },
+    "cuisine_type": "Francais / Taverne moderne",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Eloi Spinnler",
+        "chef_restaurant": "Orgueil",
+        "quote": "It's kind of a modern tavern",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "bien-eleve-paris-9e",
+    "name": "Bien Eleve",
+    "address": "",
+    "city": "Paris 9e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8626,
+      "lng": 2.3484
+    },
+    "cuisine_type": "Francais / Viande maturee",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Eloi Spinnler",
+        "chef_restaurant": "Orgueil",
+        "quote": "It's just a really good meat-focused restaurant",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "au-petit-panisse-paris-11e",
+    "name": "Au Petit Panisse",
+    "address": "",
+    "city": "Paris 11e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8566,
+      "lng": 2.3471
+    },
+    "cuisine_type": "Bistrot francais",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Julia Sedefdjian",
+        "chef_restaurant": "Baieta",
+        "quote": "It's got great wines by the glass",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "les-inseparables-paris-18e",
+    "name": "Les Inseparables",
+    "address": "",
+    "city": "Paris 18e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8632,
+      "lng": 2.3581
+    },
+    "cuisine_type": "Francais",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jason Gouzy, Omar Dhiab",
+        "chef_restaurant": "Pantagruel",
+        "quote": "It's really a neighborhood spot",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-violon-d-ingres-paris-7e",
+    "name": "Le Violon d'Ingres",
+    "address": "",
+    "city": "Paris 7e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8534,
+      "lng": 2.3544
+    },
+    "cuisine_type": "Francais gastronomique",
+    "price_range": "€€€",
+    "vibe": "gastronomique",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Stephane Jego",
+        "chef_restaurant": "L'Ami Jean",
+        "quote": "Really a convivial place for people who love food",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-clarence-paris-8e",
+    "name": "Le Clarence",
+    "address": "",
+    "city": "Paris 8e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8583,
+      "lng": 2.3466
+    },
+    "cuisine_type": "Francais gastronomique (2 etoiles Michelin)",
+    "price_range": "€€€€",
+    "vibe": "gastronomique",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Oliver Piras, Jason Gouzy, Paul Boudier, Eloi Spinnler",
+        "chef_restaurant": "Divers",
+        "quote": "It's one of the benchmarks of world gastronomy",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "riviera-fuga-paris-7e",
+    "name": "Riviera Fuga",
+    "address": "",
+    "city": "Paris 7e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8608,
+      "lng": 2.3528
+    },
+    "cuisine_type": "Japonais / Sud de la France fusion",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "japonais"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Norihisa Semboshi",
+        "chef_restaurant": "Le Bar Long (Le Royal Monceau)",
+        "quote": "I'm particularly fond of its boat-on-the-Seine concept",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "les-enfants-du-marche-paris-3e",
+    "name": "Les Enfants du Marche",
+    "address": "Marche des Enfants Rouges",
+    "city": "Paris 3e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8611,
+      "lng": 2.3527
+    },
+    "cuisine_type": "Cuisine de marche / Saisonnier",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Arbelaez",
+        "chef_restaurant": "Plantxa / Levain",
+        "quote": "There's a natural wine list, incredible service, and a market cuisine",
+        "source": "Tripadvisor - Where chefs eat in Paris",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-baron-rouge-paris-12e",
+    "name": "Le Baron Rouge",
+    "address": "",
+    "city": "Paris 12e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8486,
+      "lng": 2.3494
+    },
+    "cuisine_type": "Bar a vins / Charcuterie",
+    "price_range": "€",
+    "vibe": "bar à vins",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Zohar Sasson",
+        "chef_restaurant": "Kapara",
+        "quote": "[Le Baron Rouge] made me fall in love with Paris for the first time",
+        "source": "Tripadvisor - Where chefs eat in Paris",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "amagat-paris-20e",
+    "name": "Amagat",
+    "address": "",
+    "city": "Paris 20e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8489,
+      "lng": 2.3591
+    },
+    "cuisine_type": "Tapas espagnols",
+    "price_range": "€€",
+    "vibe": "bar à vins",
+    "tags": [
+      "tapas"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Victor Gonzalez",
+        "chef_restaurant": "La Tour d'Argent",
+        "quote": "It has a delightful selection of Iberian wines and vermouth",
+        "source": "Tripadvisor - Where chefs eat in Paris",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "cafe-des-ministeres-paris-7e",
+    "name": "Cafe des Ministeres",
+    "address": "",
+    "city": "Paris 7e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8627,
+      "lng": 2.3575
+    },
+    "cuisine_type": "Francais classique",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Charles Znaty",
+        "chef_restaurant": "Pierre Herme Paris Group / Dengo",
+        "quote": "The great classics of French cuisine are executed to perfection",
+        "source": "Tripadvisor - Where chefs eat in Paris",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "maison-david-paris-marais",
+    "name": "Maison David",
+    "address": "",
+    "city": "Paris (Marais)",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8535,
+      "lng": 2.3451
+    },
+    "cuisine_type": "Juif / Ashkenaze et Sepharde",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Charles Znaty",
+        "chef_restaurant": "Pierre Herme Paris Group / Dengo",
+        "quote": "Their pastrami, foie gras, sausages, and Jackie's fingers are unrivaled",
+        "source": "Tripadvisor - Where chefs eat in Paris",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "cafe-les-deux-gares-paris-10e",
+    "name": "Cafe Les Deux Gares",
+    "address": "",
+    "city": "Paris 10e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8626,
+      "lng": 2.3594
+    },
+    "cuisine_type": "Francais",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Bruno Verjus",
+        "chef_restaurant": "Table (2 etoiles Michelin)",
+        "quote": "Offers intelligent cuisine that respects products at very affordable and low prices",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-servan-paris-11e",
+    "name": "Le Servan",
+    "address": "",
+    "city": "Paris 11e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85,
+      "lng": 2.352
+    },
+    "cuisine_type": "Franco-asiatique",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandra Del Favero",
+        "chef_restaurant": "Il Carpaccio (Le Royal Monceau)",
+        "quote": "Loved for the atmosphere, decor, and sparkling dishes",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-gabriel-paris-8e",
+    "name": "Le Gabriel",
+    "address": "",
+    "city": "Paris 8e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8497,
+      "lng": 2.3564
+    },
+    "cuisine_type": "Francais gastronomique",
+    "price_range": "€€€€",
+    "vibe": "gastronomique",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Irwin Durand",
+        "chef_restaurant": "Le Chiberta (1 etoile Michelin)",
+        "quote": "Best technician; his accuracy and sense of taste are magnificent",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "pertinence-paris",
+    "name": "Pertinence",
+    "address": "",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8609,
+      "lng": 2.3463
+    },
+    "cuisine_type": "Franco-coreen fusion",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alexander Lobrano",
+        "chef_restaurant": "(critique gastronomique)",
+        "quote": "Merges Korean culinary techniques with contemporary French bistro cooking",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "parcelles-paris-haut-marais",
+    "name": "Parcelles",
+    "address": "",
+    "city": "Paris (Haut Marais)",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8562,
+      "lng": 2.353
+    },
+    "cuisine_type": "Bistrot / Bar a vins",
+    "price_range": "€€",
+    "vibe": "bar à vins",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alexander Lobrano, Marcin Krol",
+        "chef_restaurant": "(critique) / Cypsele",
+        "quote": "Very charming, timeless Parisian atmosphere",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-chardenoux-paris-11e",
+    "name": "Le Chardenoux",
+    "address": "1 rue Jules-Valles",
+    "city": "Paris 11e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8528,
+      "lng": 2.3582
+    },
+    "cuisine_type": "Francais traditionnel / Creatif",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Cyril Lignac (proprietaire)",
+        "chef_restaurant": "Le Chardenoux / Cyril Lignac",
+        "quote": "Its original decor has been beautifully restored and provides the perfect backdrop for an equally extraordinary meal",
+        "source": "French Style - Grand Chef Petit Prix",
+        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
+        "date": "2021",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "brasserie-thoumieux-paris-7e",
+    "name": "Brasserie Thoumieux",
+    "address": "79 rue Saint Dominique",
+    "city": "Paris 7e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8554,
+      "lng": 2.3476
+    },
+    "cuisine_type": "Brasserie francaise traditionnelle",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Francois Vallejo (chef)",
+        "chef_restaurant": "Thoumieux",
+        "quote": "Thoumieux offers everything one could want in brasserie fare",
+        "source": "French Style - Grand Chef Petit Prix",
+        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
+        "date": "2021",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "allard-paris-6e",
+    "name": "Allard",
+    "address": "41 rue Saint-Andre des Arts",
+    "city": "Paris 6e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8518,
+      "lng": 2.3492
+    },
+    "cuisine_type": "Bistrot gastronomique",
+    "price_range": "€€€",
+    "vibe": "gastronomique",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Ducasse (proprietaire)",
+        "chef_restaurant": "Alain Ducasse",
+        "quote": "One of the last authentic French gourmet bistros",
+        "source": "French Style - Grand Chef Petit Prix",
+        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
+        "date": "2021",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "benoit-paris-4e",
+    "name": "Benoit",
+    "address": "20 rue Saint-Martin",
+    "city": "Paris 4e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8645,
+      "lng": 2.3546
+    },
+    "cuisine_type": "Bouchon lyonnais / Francais traditionnel",
+    "price_range": "€€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Ducasse (proprietaire)",
+        "chef_restaurant": "Alain Ducasse",
+        "quote": "Truly one of the most charming Belle Epoque bistrots in Paris",
+        "source": "French Style - Grand Chef Petit Prix",
+        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
+        "date": "2021",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "candelaria-paris-marais",
+    "name": "Candelaria",
+    "address": "",
+    "city": "Paris (Marais)",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8505,
+      "lng": 2.3478
+    },
+    "cuisine_type": "Tacos / Bar a cocktails",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Josh Fontaine (proprietaire)",
+        "chef_restaurant": "Candelaria",
+        "quote": "No-frills taco spot with a killer bar",
+        "source": "Service95 - Where to Eat in Paris",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "localino-paris-odeon",
+    "name": "Localino",
+    "address": "",
+    "city": "Paris (Odeon)",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.854,
+      "lng": 2.3536
+    },
+    "cuisine_type": "Italien",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "italien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Etheliya Hananova",
+        "chef_restaurant": "Comice",
+        "quote": "It's a chic little Italian place in the Odeon neighborhood",
+        "source": "Tripadvisor - Where chefs eat in Paris",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-maison-pourpe-paris-belleville",
+    "name": "La Maison Pourpe",
+    "address": "",
+    "city": "Paris (Belleville)",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8523,
+      "lng": 2.3477
+    },
+    "cuisine_type": "Chinois",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [
+      "chinois"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Marcin Krol",
+        "chef_restaurant": "Cypsele",
+        "quote": "My favorite Chinese restaurant in the city",
+        "source": "Something Curated - Chef's Guide Paris",
+        "source_url": "https://somethingcurated.com/2025/12/05/paris-best-restaurants-chef-insider-guide-marcin-krol/",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "tekes-paris",
+    "name": "Tekes",
+    "address": "",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8497,
+      "lng": 2.3543
+    },
+    "cuisine_type": "Vegetarien",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "végétarien"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Alexander Lobrano",
+        "chef_restaurant": "(critique gastronomique / auteur)",
+        "quote": "A really great vegetarian restaurant where you won't need a winning lottery ticket",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "bistrot-des-vosges-paris-marais",
+    "name": "Bistrot des Vosges",
+    "address": "",
+    "city": "Paris (Marais)",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8523,
+      "lng": 2.3587
+    },
+    "cuisine_type": "Francais traditionnel",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Zohar Sasson",
+        "chef_restaurant": "Kapara",
+        "quote": "Super traditional, for onion soup",
+        "source": "Tripadvisor - Where chefs eat in Paris",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "cafe-des-federations-lyon",
+    "name": "Cafe des Federations",
+    "address": "8-10 rue Major Martin, 69001 Lyon",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.7698,
+      "lng": 4.8288
+    },
+    "cuisine_type": "Bouchon lyonnais traditionnel",
+    "price_range": "€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Institution lyonnaise recommandee par les chefs locaux",
+        "chef_restaurant": "N/A",
+        "quote": "Elu meilleur bouchon authentique 2019-2020. Depuis 1872, les Fedes proposent la richesse de la cuisine lyonnaise : quenelle de brochet, andouillette, tablier de sapeur.",
+        "source": "LyonResto / Hotels.com Go Guides",
+        "source_url": "https://www.restaurant-cafedesfederations-lyon.fr/",
+        "date": "2019-2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-poelon-d-or-lyon",
+    "name": "Le Poelon d'Or",
+    "address": "29 rue des Remparts d'Ainay, 69002 Lyon",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.7598,
+      "lng": 4.8384
+    },
+    "cuisine_type": "Bouchon lyonnais traditionnel",
+    "price_range": "€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Recommande par le label Bouchons Lyonnais et les chefs locaux",
+        "chef_restaurant": "N/A",
+        "quote": "Bouchon atypique dans un batiment de 1890, plafond classe patrimoine UNESCO. Dans le quartier d'Ainay, ambiance authentique preservee.",
+        "source": "Vallee de la Gastronomie / Les Bouchons Lyonnais",
+        "source_url": "https://lesbouchonslyonnais.org/restaurants/le-poelon-dor/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-bouchon-sully-lyon",
+    "name": "Le Bouchon Sully",
+    "address": "20 rue Sully, 69006 Lyon",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.7594,
+      "lng": 4.8298
+    },
+    "cuisine_type": "Bouchon lyonnais modernise",
+    "price_range": "€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Recommande par 2foodtrippers et guides gastronomiques",
+        "chef_restaurant": "N/A",
+        "quote": "Approche doucement modernisee, ardoises des plats du jour, pain et fromage de la region sur le buffet, ramekin de gratons sur la table.",
+        "source": "2foodtrippers",
+        "source_url": "https://www.2foodtrippers.com/lyon-food-guide/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "la-tupina-bordeaux",
+    "name": "La Tupina",
+    "address": "6 rue Porte de la Monnaie, 33800 Bordeaux",
+    "city": "Bordeaux",
+    "country": "France",
+    "coordinates": {
+      "lat": 44.8448,
+      "lng": -0.5781
+    },
+    "cuisine_type": "Cuisine du Sud-Ouest, terroir gascon",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Patricia Wells (critique gastronomique, New York Times)",
+        "chef_restaurant": "N/A (journaliste culinaire)",
+        "quote": "Qualifie de 2e meilleur bistrot du monde par Patricia Wells dans le New York Times en 1994. Institution bordelaise depuis 1968, fondee par Jean-Pierre Xiradakis.",
+        "source": "New York Times / Wikipedia La Tupina",
+        "source_url": "https://fr.wikipedia.org/wiki/La_Tupina",
+        "date": "1994-2024",
+        "platform": "podcast"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "pizzeria-la-bonne-m-re-marseille",
+    "name": "Pizzeria La Bonne Mère",
+    "address": "16 Rue du Fort du Sanctuaire, 13006 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2961,
+      "lng": 5.3744
+    },
+    "cuisine_type": "Pizzeria bio au feu de bois",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (jury de chefs)",
+        "chef_restaurant": "Prix Fooding 'Meilleure pizza de France' 2016",
+        "quote": "Pizzas bio cuites au feu de bois désignées Meilleure pizza de France par le Fooding 2016, garnitures simples et savoureuses",
+        "source": "Made in Marseille - La meilleure pizza de France",
+        "source_url": "http://madeinmarseille.net/29221-meilleure-pizza-france-bonne-mere/",
+        "date": "2016",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "ourea-marseille",
+    "name": "Ourea",
+    "address": "72 Rue de la Paix Marcel Paul, 13006 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3014,
+      "lng": 5.3648
+    },
+    "cuisine_type": "Bistrot contemporain, cuisine de marché",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "cuisine de marché"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Guide Michelin (recommandé par la rédaction)",
+        "chef_restaurant": "Chef Matthieu Roche (ex-Pré Catelan, Sémilla Paris)",
+        "quote": "Pocket-sized contemporary bistro where Matthieu Roche's passion for local produce shines in every dish, daily menus depending on what's available at the farmers market",
+        "source": "Guide Michelin - Where to Eat in Marseille",
+        "source_url": "https://guide.michelin.com/us/en/article/travel/where-to-eat-in-marseille-france-the-mediterraneans-most-exciting-food-city",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "sam-kitchen-marseille",
+    "name": "Sam Kitchen",
+    "address": "3 Impasse Montévidéo, 13006 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2901,
+      "lng": 5.3687
+    },
+    "cuisine_type": "Cuisine du monde, carte renouvelée chaque semaine",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Marseille Secrète (sélection d'adresses cachées de chefs)",
+        "chef_restaurant": "Chef Samuel Avedissian",
+        "quote": "Installé dans le centre d'art Montévidéo, cuisine des quatre coins du monde avec une carte renouvelée chaque semaine",
+        "source": "Marseille Secrète",
+        "source_url": "https://marseillesecrete.com/restaurants-etoiles-marseille/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "bistrot-d-antoine-nice",
+    "name": "Bistrot d'Antoine",
+    "address": "27 Rue de la Préfecture, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.709,
+      "lng": 7.2615
+    },
+    "cuisine_type": "Bistrot français, cuisine méditerranéenne",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "méditerranéen"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Guide Michelin Bib Gourmand",
+        "chef_restaurant": "Chef Joackim Salliot",
+        "quote": "Bib Gourmand Michelin, immersion dans la gastronomie française avec une vraie ambiance conviviale, cuisine traditionnelle et créative",
+        "source": "Guide Michelin - Bistrot d'Antoine",
+        "source_url": "https://guide.michelin.com/us/en/provence-alpes-cote-dazur/nice/restaurant/bistrot-d-antoine",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "aux-deux-chefs-nice",
+    "name": "Aux Deux Chefs",
+    "address": "Quartier Libération, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.7139,
+      "lng": 7.2648
+    },
+    "cuisine_type": "Cuisine niçoise et méditerranéenne",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [
+      "méditerranéen"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Recommandation locale de chefs niçois",
+        "chef_restaurant": "N/A",
+        "quote": "Tradition et modernité dans une ambiance chaleureuse, portions généreuses, plats faits maison avec produits locaux et saisonniers",
+        "source": "Aux Deux Chefs - Site officiel",
+        "source_url": "https://www.auxdeuxchefs.com/en",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "chez-z-marseille",
+    "name": "Chez Zé",
+    "address": "Route de la Madrague, 13008 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3042,
+      "lng": 5.3634
+    },
+    "cuisine_type": "Brasserie-pizzeria, cuisine méditerranéenne",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [
+      "méditerranéen"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Timeout Marseille (sélection d'experts culinaires)",
+        "chef_restaurant": "N/A",
+        "quote": "Brasserie-pizzeria ouverte en 1960 aux portes des calanques, l'inimitable pizza aux supions et à l'encre de seiche",
+        "source": "Timeout Marseille - Les 8 meilleures pizzas de Marseille",
+        "source_url": "https://www.timeout.fr/marseille/restaurants/les-meilleures-pizzas-de-marseille",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-c-drat-marseille",
+    "name": "Le Cédrat",
+    "address": "13006 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2949,
+      "lng": 5.3672
+    },
+    "cuisine_type": "Bistronomique méditerranéen, influences asiatiques et latino-américaines",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [
+      "méditerranéen"
+    ],
+    "recommendations": [
+      {
+        "chef_name": "Marseille Secrète (sélection d'adresses cachées)",
+        "chef_restaurant": "Chef Éric Maillet",
+        "quote": "Patio bucolique et verdoyant, cuisine bistronomique méditerranéenne et créative aux influences asiatiques et d'Amérique latine",
+        "source": "Marseille Secrète",
+        "source_url": "https://marseillesecrete.com/top-5-des-plus-belles-terrasses-cachees-et-bucoliques-de-marseille/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "le-bistrot-des-anges-le-cannet-cannes",
+    "name": "Le Bistrot des Anges",
+    "address": "4 Boulevard Carnot, 06110 Le Cannet",
+    "city": "Le Cannet (Cannes)",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5586,
+      "lng": 7.0134
+    },
+    "cuisine_type": "Bistronomie",
+    "price_range": "€€",
+    "vibe": "bistrot",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Guide Michelin Bib Gourmand",
+        "chef_restaurant": "N/A",
+        "quote": "Bib Gourmand Michelin, célèbre la bistromonie dans un cadre chic et amical, près de Cannes",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/us/en/provence-alpes-cote-dazur/nice/restaurant/bistrot-d-antoine",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "parcelles-paris",
+    "name": "Parcelles",
+    "address": "Upper Marais, 75003 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8516,
+      "lng": 2.3514
+    },
+    "cuisine_type": "Bar a vins / Cuisine francaise",
+    "price_range": "€€",
+    "vibe": "bar à vins",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alexander Lobrano",
+        "chef_restaurant": "Auteur de Hungry for Paris",
+        "quote": "Timeless Parisian atmosphere. Best creme brulee in the city.",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 45,
     "last_updated": "2025-01-15"
   },
   {
@@ -4204,7 +7005,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15"
   },
   {
@@ -4233,7 +7034,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15"
   },
   {
@@ -4262,7 +7063,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15"
   },
   {
@@ -4291,7 +7092,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15"
   },
   {
@@ -4320,7 +7121,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15"
   },
   {
@@ -4349,7 +7150,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15"
   },
   {
@@ -4378,7 +7179,65 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "lao-siam-paris-19e",
+    "name": "Lao Siam",
+    "address": "",
+    "city": "Paris 19e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8641,
+      "lng": 2.358
+    },
+    "cuisine_type": "Laotien / Thai",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dimitri Gris, Edward Delling-Williams",
+        "chef_restaurant": "Chez Marius / Le Grand Bain",
+        "quote": "",
+        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2025-01-15"
+  },
+  {
+    "id": "lazare-paris-8e",
+    "name": "LAZARE",
+    "address": "Parvis de la Gare Saint-Lazare",
+    "city": "Paris 8e",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8572,
+      "lng": 2.3559
+    },
+    "cuisine_type": "Francais / Cuisine de maison",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Eric Frechon (proprietaire)",
+        "chef_restaurant": "Epicure (3 etoiles Michelin, Bristol)",
+        "quote": "",
+        "source": "French Style - Grand Chef Petit Prix",
+        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
+        "date": "2021",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
     "last_updated": "2025-01-15"
   }
 ]
