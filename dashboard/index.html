@@ -37,6 +37,7 @@ a{text-decoration:none;color:inherit}
 /* Views */
 .view{display:none;position:fixed;inset:0;background:#131313;overflow-y:auto;z-index:10}
 .view.on{display:block}
+.view-map{overflow:hidden}
 .view-slide{animation:.25s slideR}
 @keyframes slideR{from{transform:translateX(100%)}to{transform:translateX(0)}}
 
@@ -93,14 +94,20 @@ display:flex;justify-content:space-around;align-items:center}
 
 <body>
 <!-- ═══════ VIEW: EXPLORE ═══════ -->
-<div class="view on" id="v-explore">
-  <div class="hdr">
+<div class="view view-map on" id="v-explore">
+  <div class="w-full h-full relative"><div id="map" class="w-full h-full"></div><div class="map-fade"></div></div>
+</div>
+
+<!-- Explore overlays (OUTSIDE view to avoid fixed-in-scrollable bug in mobile WebViews) -->
+<div id="exploreUI" class="fixed inset-0 z-30 pointer-events-none" style="display:block">
+  <!-- Header -->
+  <div class="hdr pointer-events-auto" style="z-index:50">
     <span class="icon text-gold cursor-pointer" onclick="toggleDrawer()">menu</span>
     <span class="text-lg tracking-[.2em] font-light text-gold font-headline uppercase">CHEFS' PICKS</span>
     <span class="w-8 h-8 rounded-full bg-surface-highest border border-outline-var/30 flex items-center justify-center"><span class="icon text-gold text-sm">person</span></span>
   </div>
   <!-- Search -->
-  <div style="position:fixed;top:calc(64px + var(--st));left:0;right:0;z-index:30;padding:0 16px">
+  <div class="pointer-events-auto" style="position:fixed;top:calc(64px + var(--st));left:0;right:0;z-index:35;padding:0 16px">
     <div class="flex items-center bg-surface-high/80 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 mb-3">
       <span class="icon text-outline pl-3 pr-2 text-xl">search</span>
       <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label" placeholder="Find a hidden gem..."/>
@@ -108,13 +115,11 @@ display:flex;justify-content:space-around;align-items:center}
     </div>
     <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1"></div>
   </div>
-  <!-- Map -->
-  <div class="w-full h-full relative"><div id="map" class="w-full h-full"></div><div class="map-fade"></div></div>
   <!-- Carousel -->
-  <div id="iCarousel" style="position:fixed;left:0;right:0;z-index:30;bottom:calc(66px + var(--sb));padding:0 8px;display:none"></div>
+  <div id="iCarousel" class="pointer-events-auto" style="position:fixed;left:0;right:0;z-index:35;bottom:calc(66px + var(--sb));padding:0 8px;display:none"></div>
   <!-- FAB -->
-  <div style="position:fixed;right:20px;z-index:40;bottom:calc(86px + var(--sb))">
-    <button class="w-13 h-13 bg-gradient-to-br from-gold to-gold-light rounded-full shadow-2xl flex items-center justify-center text-gold-dark active:scale-90 transition-transform" style="width:52px;height:52px">
+  <div class="pointer-events-auto" style="position:fixed;right:20px;z-index:40;bottom:calc(86px + var(--sb))">
+    <button class="bg-gradient-to-br from-gold to-gold-light rounded-full shadow-2xl flex items-center justify-center text-gold-dark active:scale-90 transition-transform" style="width:52px;height:52px">
       <span class="icon" style="font-weight:700">add</span>
     </button>
   </div>
@@ -222,6 +227,9 @@ function boot(){
 function go(v){
   if(v!=='detail')document.getElementById('v-detail').classList.remove('on','view-slide');
   ['explore','discover','chefs'].forEach(function(n){document.getElementById('v-'+n).classList.toggle('on',n===v)});
+  // Show/hide explore overlays
+  var eui=document.getElementById('exploreUI');
+  if(eui)eui.style.display=(v==='explore')?'block':'none';
   curView=v;
   document.querySelectorAll('.bnav a[data-t]').forEach(function(a){
     var act=a.getAttribute('data-t')===v;
@@ -372,6 +380,8 @@ function initMap(){
   var cto=null;
   map.on('moveend zoomend',function(){clearTimeout(cto);cto=setTimeout(updateCarousel,300)});
   map.on('click',function(){document.getElementById('iCarousel').style.display='none'});
+  // Initial carousel after map is ready
+  setTimeout(updateCarousel,500);
 
   buildChips();
 }
