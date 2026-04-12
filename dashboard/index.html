@@ -2,7 +2,7 @@
 <html class="dark" lang="fr">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
 <title>Chefs' Picks</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
@@ -16,19 +16,57 @@ tailwind.config={darkMode:"class",theme:{extend:{
 }}}
 </script>
 <style>
+:root {
+  --safe-top: calc(env(safe-area-inset-top, 0px) + var(--tg-content-safe-area-inset-top, 0px));
+  --safe-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--tg-content-safe-area-inset-bottom, 0px));
+  --safe-bottom-raw: env(safe-area-inset-bottom, 0px);
+}
 .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 300,'GRAD' 0,'opsz' 24}
 .serif-quote{font-family:'Times New Roman',serif;font-style:italic}
 .no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}
 body{min-height:100dvh;overflow:hidden;background:#131313}
 a{text-decoration:none}
-.screen{display:none;position:fixed;inset:0;z-index:10;background:#131313;overflow-y:auto}
+.screen{display:none;position:fixed;inset:0;z-index:10;background:#131313;overflow-y:auto;
+  padding-top:var(--safe-top);padding-bottom:var(--safe-bottom)}
 .screen.active{display:block}
 .screen-enter{animation:slideIn .3s ease-out}
 @keyframes slideIn{from{transform:translateX(100%)}to{transform:translateX(0)}}
+/* Fixed headers: account for safe area top */
+.app-header{position:fixed;top:0;width:100%;z-index:50;
+  padding-top:calc(var(--safe-top) + 8px);height:calc(64px + var(--safe-top));
+  background:rgba(19,19,19,.6);backdrop-filter:blur(12px);
+  display:flex;justify-content:space-between;align-items:center;padding-left:24px;padding-right:24px}
+/* Search bar below header: offset by safe area */
+.search-area{position:fixed;left:0;right:0;z-index:30;
+  top:calc(80px + var(--safe-top));padding-left:24px;padding-right:24px}
+/* Bottom nav: account for safe area bottom */
+.bottom-nav{position:fixed;bottom:0;width:100%;z-index:50;
+  padding-top:12px;padding-bottom:calc(12px + var(--safe-bottom-raw));
+  padding-left:16px;padding-right:16px;
+  background:rgba(19,19,19,.8);backdrop-filter:blur(16px);
+  border-top-left-radius:16px;border-top-right-radius:16px;
+  display:flex;justify-content:space-around;align-items:center;
+  box-shadow:0 -20px 40px rgba(0,0,0,.15)}
+/* Map preview: above bottom nav + safe area */
+.map-preview-area{position:fixed;left:0;right:0;z-index:30;
+  bottom:calc(80px + var(--safe-bottom-raw));padding-left:24px;padding-right:24px}
+/* FAB: above bottom nav + safe area */
+.fab-area{position:fixed;right:24px;z-index:40;
+  bottom:calc(96px + var(--safe-bottom-raw))}
+/* Scrollable content padding */
+.content-scroll{padding-top:calc(80px + var(--safe-top));
+  padding-bottom:calc(96px + var(--safe-bottom-raw))}
+.content-scroll-search{padding-top:calc(140px + var(--safe-top));
+  padding-bottom:calc(96px + var(--safe-bottom-raw))}
+/* Drawer safe area */
+.drawer-content{padding-top:calc(32px + var(--safe-top));
+  padding-bottom:calc(32px + var(--safe-bottom-raw))}
+/* Leaflet */
 .leaflet-container{background:#0e0e0e!important}
 .leaflet-tile{filter:brightness(.35) saturate(0) contrast(1.4)}
 .leaflet-control-zoom,.leaflet-control-attribution{display:none!important}
 .map-gradient-overlay{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(circle at center,transparent 0%,rgba(19,19,19,.4) 100%)}
+/* Pins */
 .pin-wrap{display:flex;flex-direction:column;align-items:center;cursor:pointer}
 .pin-wrap:hover .pin-circle{transform:scale(1.15)}
 .pin-circle{transition:transform .2s;display:flex;align-items:center;justify-content:center;border-radius:50%;font-weight:700;font-family:'Manrope'}
@@ -39,6 +77,7 @@ a{text-decoration:none}
 .pin-warm .pin-stem{width:2px;height:8px;background:rgba(232,168,56,.4)}
 .pin-cool .pin-circle{background:#2a2a2a;color:#9d8e7c;border:2px solid #353534}
 .pin-cool .pin-stem{width:2px;height:6px;background:#353534}
+/* Badges */
 .badge-presse{background:rgba(206,201,255,.12);color:#cec9ff;border:1px solid rgba(206,201,255,.15)}
 .badge-social{background:rgba(232,168,56,.12);color:#e8a838;border:1px solid rgba(232,168,56,.15)}
 .badge-podcast{background:rgba(176,170,255,.12);color:#b0aaff;border:1px solid rgba(176,170,255,.15)}
@@ -48,14 +87,14 @@ a{text-decoration:none}
 
 <!-- EXPLORE -->
 <div class="screen active" id="screen-explore">
-  <header class="fixed top-0 w-full z-50 bg-[#131313]/60 backdrop-blur-md flex justify-between items-center px-6 h-16">
+  <header class="app-header">
     <span class="material-symbols-outlined text-[#e8a838] cursor-pointer active:scale-95 transition-transform" onclick="toggleDrawer()">menu</span>
     <h1 class="text-xl tracking-widest font-light text-[#e8a838] font-headline uppercase">CHEFS' PICKS</h1>
     <div class="w-8 h-8 rounded-full bg-surface-container-highest border border-outline-variant/30 flex items-center justify-center">
       <span class="material-symbols-outlined text-primary text-sm">person</span>
     </div>
   </header>
-  <div class="fixed top-20 left-0 right-0 z-30 px-6 space-y-4">
+  <div class="search-area space-y-4">
     <div class="w-full bg-surface-container-high/80 backdrop-blur-xl rounded-2xl p-1 flex items-center shadow-2xl border border-outline-variant/10">
       <div class="pl-4 pr-2"><span class="material-symbols-outlined text-outline">search</span></div>
       <input id="map-search" class="bg-transparent border-none focus:ring-0 text-on-surface placeholder:text-outline w-full py-3 font-label text-sm" placeholder="Find a hidden gem..." type="text"/>
@@ -67,8 +106,8 @@ a{text-decoration:none}
     <div id="map" class="w-full h-full"></div>
     <div class="map-gradient-overlay"></div>
   </div>
-  <div id="map-preview" class="fixed bottom-24 left-0 right-0 px-6 z-30" style="display:none"></div>
-  <div class="fixed bottom-28 right-6 z-40">
+  <div id="map-preview" class="map-preview-area" style="display:none"></div>
+  <div class="fab-area">
     <button class="w-14 h-14 bg-gradient-to-br from-[#e8a838] to-[#ffc66b] rounded-full shadow-2xl flex items-center justify-center text-[#281800] active:scale-90 transition-transform">
       <span class="material-symbols-outlined" style="font-weight:700">add</span>
     </button>
@@ -77,12 +116,12 @@ a{text-decoration:none}
 
 <!-- DISCOVER -->
 <div class="screen" id="screen-discover">
-  <header class="fixed top-0 w-full z-50 bg-[#131313]/60 backdrop-blur-md flex justify-between items-center px-6 h-16">
+  <header class="app-header">
     <span class="material-symbols-outlined text-[#e8a838] cursor-pointer" onclick="toggleDrawer()">menu</span>
     <h1 class="text-xl tracking-widest font-light text-[#e8a838] font-headline uppercase">CHEFS' PICKS</h1>
     <div class="w-8 h-8 rounded-full bg-surface-container-highest border border-outline-variant/30 flex items-center justify-center"><span class="material-symbols-outlined text-primary text-sm">person</span></div>
   </header>
-  <main class="pt-20 pb-28 px-6">
+  <main class="content-scroll px-6">
     <div class="mb-8 space-y-4">
       <div class="relative">
         <div class="absolute inset-y-0 left-4 flex items-center pointer-events-none"><span class="material-symbols-outlined text-outline">search</span></div>
@@ -102,12 +141,12 @@ a{text-decoration:none}
 
 <!-- CHEFS -->
 <div class="screen" id="screen-chefs">
-  <header class="fixed top-0 w-full z-50 bg-[#131313]/60 backdrop-blur-md flex justify-between items-center px-6 h-16">
+  <header class="app-header">
     <span class="material-symbols-outlined text-[#e8a838] cursor-pointer" onclick="toggleDrawer()">menu</span>
     <h1 class="text-xl tracking-widest font-light text-[#e8a838] font-headline uppercase">CHEFS</h1>
     <span class="text-xs text-outline font-label" id="chefs-count"></span>
   </header>
-  <main class="pt-20 pb-28 px-6">
+  <main class="content-scroll px-6">
     <input id="chef-search" class="w-full bg-surface-container-low border-none rounded-xl py-3 pl-4 pr-4 text-on-surface focus:ring-1 focus:ring-primary/50 placeholder:text-outline/50 text-sm mb-6" placeholder="Search a chef..." type="text"/>
     <div class="space-y-3" id="chefs-list"></div>
   </main>
@@ -119,7 +158,7 @@ a{text-decoration:none}
 <!-- DRAWER -->
 <div id="drawer-overlay" class="fixed inset-0 z-[90] bg-black/50 backdrop-blur-sm hidden" onclick="toggleDrawer()"></div>
 <aside id="drawer" class="fixed inset-y-0 left-0 z-[100] transform -translate-x-full transition-transform duration-300 ease-in-out">
-  <div class="h-full w-80 rounded-r-3xl bg-[#1c1b1b] shadow-2xl flex flex-col p-8 space-y-4">
+  <div class="h-full w-80 rounded-r-3xl bg-[#1c1b1b] shadow-2xl flex flex-col px-8 space-y-4 drawer-content">
     <div class="flex items-center gap-4 pb-8 mb-4 border-b border-outline-variant/10">
       <div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center"><span class="material-symbols-outlined text-[#e8a838] text-2xl">restaurant</span></div>
       <div><h3 class="text-[#e8a838] font-bold font-headline">Chefs' Picks</h3><p class="text-[10px] text-outline uppercase tracking-widest" id="drawer-stats"></p></div>
@@ -133,7 +172,7 @@ a{text-decoration:none}
 </aside>
 
 <!-- BOTTOM NAV -->
-<nav class="fixed bottom-0 w-full z-50 bg-[#131313]/80 backdrop-blur-xl rounded-t-2xl flex justify-around items-center pt-3 pb-8 px-4 shadow-[0_-20px_40px_rgba(0,0,0,.15)]">
+<nav class="bottom-nav">
   <a onclick="showScreen('explore')" class="nav-tab flex flex-col items-center cursor-pointer" data-tab="explore"><span class="material-symbols-outlined">map</span><span class="text-[10px] font-label tracking-[.5pt] uppercase mt-1">Explore</span></a>
   <a onclick="showScreen('discover')" class="nav-tab flex flex-col items-center cursor-pointer" data-tab="discover"><span class="material-symbols-outlined">restaurant</span><span class="text-[10px] font-label tracking-[.5pt] uppercase mt-1">Discover</span></a>
   <a class="nav-tab flex flex-col items-center cursor-pointer text-[#9d8e7c]" data-tab="curated"><span class="material-symbols-outlined">star</span><span class="text-[10px] font-label tracking-[.5pt] uppercase mt-1">Curated</span></a>

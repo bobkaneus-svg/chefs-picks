@@ -145,12 +145,12 @@ function showDetail(id) {
   var phoneHtml = r.phone ? '<a href="tel:' + r.phone + '" class="flex items-center gap-3 text-outline hover:text-primary"><span class="material-symbols-outlined text-lg">call</span><span class="text-sm">' + r.phone + '</span></a>' : '';
 
   document.getElementById('detail-content').innerHTML =
-    '<main class="pb-28">' +
+    '<main style="padding-bottom:calc(96px + var(--safe-bottom-raw))">' +
       '<section class="relative w-full h-[400px] overflow-hidden bg-surface-container-low">' +
         photoHtml +
         '<div class="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent"></div>' +
-        '<button onclick="goBack()" class="absolute top-6 left-6 w-10 h-10 bg-background/60 backdrop-blur-md rounded-full flex items-center justify-center z-10"><span class="material-symbols-outlined text-[#e8a838]">arrow_back</span></button>' +
-        '<div class="absolute top-6 right-6 bg-background/80 backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-2"><span class="text-primary font-bold text-sm">' + r.confidence_score + '</span><span class="text-[10px] text-outline uppercase font-bold tracking-tighter">Score</span></div>' +
+        '<button onclick="goBack()" class="absolute left-6 w-10 h-10 bg-background/60 backdrop-blur-md rounded-full flex items-center justify-center z-10" style="top:calc(24px + var(--safe-top))"><span class="material-symbols-outlined text-[#e8a838]">arrow_back</span></button>' +
+        '<div class="absolute right-6 bg-background/80 backdrop-blur-md px-3 py-1.5 rounded-full flex items-center gap-2" style="top:calc(24px + var(--safe-top))"><span class="text-primary font-bold text-sm">' + r.confidence_score + '</span><span class="text-[10px] text-outline uppercase font-bold tracking-tighter">Score</span></div>' +
         '<div class="absolute bottom-16 left-6 flex flex-wrap gap-2">' +
           '<span class="px-3 py-1 bg-surface-container-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-primary border border-primary/10">' + escapeHtml(r.cuisine_type) + '</span>' +
           '<span class="px-3 py-1 bg-surface-container-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-variant/10">' + r.price_range + '</span>' +
@@ -239,8 +239,8 @@ function showChefDetail(chefName) {
   }
 
   document.getElementById('detail-content').innerHTML =
-    '<main class="pb-28">' +
-      '<header class="sticky top-0 z-10 bg-[#131313]/80 backdrop-blur-md px-6 py-4 flex items-center gap-4">' +
+    '<main style="padding-bottom:calc(96px + var(--safe-bottom-raw))">' +
+      '<header class="sticky top-0 z-10 bg-[#131313]/80 backdrop-blur-md px-6 flex items-center gap-4" style="padding-top:calc(16px + var(--safe-top));padding-bottom:16px">' +
         '<button onclick="goBack()" class="w-10 h-10 bg-surface-container-high rounded-full flex items-center justify-center"><span class="material-symbols-outlined text-[#e8a838]">arrow_back</span></button>' +
         '<div><h1 class="font-headline font-bold text-lg">' + escapeHtml(chefName) + '</h1><p class="text-xs text-outline uppercase tracking-wider">' + escapeHtml(rec0.chef_restaurant || '') + '</p></div>' +
       '</header>' +
