@@ -100,23 +100,18 @@ display:flex;justify-content:space-around;align-items:center}
 
 <!-- Explore overlays (OUTSIDE view to avoid fixed-in-scrollable bug in mobile WebViews) -->
 <div id="exploreUI" class="fixed inset-0 z-30 pointer-events-none" style="display:block">
-  <!-- Header -->
-  <div class="hdr pointer-events-auto" style="z-index:50">
-    <span class="icon text-gold cursor-pointer" onclick="toggleDrawer()">menu</span>
-    <span class="text-lg tracking-[.2em] font-light text-gold font-headline uppercase">CHEFS' PICKS</span>
-    <span class="w-8 h-8 rounded-full bg-surface-highest border border-outline-var/30 flex items-center justify-center"><span class="icon text-gold text-sm">person</span></span>
-  </div>
-  <!-- Search -->
-  <div class="pointer-events-auto" style="position:fixed;top:calc(64px + var(--st));left:0;right:0;z-index:35;padding:0 16px">
+  <!-- Search (no header — fullscreen map) -->
+  <div class="pointer-events-auto" style="position:fixed;top:calc(12px + var(--st));left:0;right:0;z-index:35;padding:0 12px">
     <div class="flex items-center bg-surface-high/80 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 mb-3">
-      <span class="icon text-outline pl-3 pr-2 text-xl">search</span>
+      <span class="icon text-gold pl-3 pr-1 text-xl cursor-pointer" onclick="toggleDrawer()">menu</span>
+      <span class="icon text-outline pl-1 pr-1 text-xl">search</span>
       <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label" placeholder="Find a hidden gem..."/>
       <button class="p-2 bg-surface-highest/60 rounded-xl text-gold mr-1"><span class="icon text-xl">tune</span></button>
     </div>
     <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1"></div>
   </div>
   <!-- Carousel -->
-  <div id="iCarousel" class="pointer-events-auto" style="position:fixed;left:0;right:0;z-index:35;bottom:calc(66px + var(--sb));padding:0 8px;display:none"></div>
+  <div id="iCarousel" class="pointer-events-auto" style="position:fixed;left:0;right:0;z-index:35;bottom:calc(82px + var(--sb));padding:0 8px;display:none"></div>
   <!-- FAB -->
   <div class="pointer-events-auto" style="position:fixed;right:20px;z-index:40;bottom:calc(86px + var(--sb))">
     <button class="bg-gradient-to-br from-gold to-gold-light rounded-full shadow-2xl flex items-center justify-center text-gold-dark active:scale-90 transition-transform" style="width:52px;height:52px">
@@ -302,6 +297,8 @@ function openResto(id){
     '</div>';
   document.getElementById('v-detail').classList.add('on','view-slide');
   document.getElementById('v-detail').scrollTop=0;
+  // Hide explore overlays when detail is open
+  var eui=document.getElementById('exploreUI');if(eui)eui.style.display='none';
 }
 
 function openChef(name){
@@ -335,6 +332,7 @@ function openChef(name){
     '</div>';
   document.getElementById('v-detail').classList.add('on','view-slide');
   document.getElementById('v-detail').scrollTop=0;
+  var eui=document.getElementById('exploreUI');if(eui)eui.style.display='none';
 }
 
 function goBack(){
@@ -342,7 +340,11 @@ function goBack(){
   var prev=hist.length?hist[hist.length-1]:null;
   if(prev&&prev.indexOf('chef:')===0){hist.pop();openChef(prev.substring(5))}
   else if(prev&&prev.indexOf('resto:')===0){hist.pop();openResto(prev.substring(6))}
-  else document.getElementById('v-detail').classList.remove('on','view-slide');
+  else{
+    document.getElementById('v-detail').classList.remove('on','view-slide');
+    // Restore explore overlays if we're back to explore
+    if(curView==='explore'){var eui=document.getElementById('exploreUI');if(eui)eui.style.display='block'}
+  }
 }
 
 function share(id){
@@ -433,42 +435,112 @@ function onMapQ(e){
 }
 
 // ── CAROUSEL ──
+var cVis=[],cIdx=-1,cScrollLock=false;
+
+function highlightPin(id){
+  // Reset all pins to normal, highlight the active one
+  for(var mid in MK){
+    var el=MK[mid].getElement();
+    if(!el)continue;
+    var wrap=el.querySelector('.pin');
+    if(!wrap)continue;
+    if(mid===id){
+      wrap.style.transform='scale(1.3)';
+      wrap.style.zIndex='9999';
+      wrap.style.filter='drop-shadow(0 0 12px rgba(232,168,56,0.7))';
+    }else{
+      wrap.style.transform='';
+      wrap.style.zIndex='';
+      wrap.style.filter='';
+    }
+  }
+}
+
+function buildCard(r){
+  var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[36px] text-outline/30">restaurant</span></div>';
+  var av='';var lm=Math.min(r.recommendations.length,2);
+  for(var i=0;i<lm;i++)av+='<span class="w-5 h-5 rounded-full bg-surface-highest border border-surface-low flex items-center justify-center text-[8px] font-bold text-gold">'+r.recommendations[i].chef_name.charAt(0)+'</span>';
+  if(r.recommendation_count>2)av+='<span class="w-5 h-5 rounded-full bg-gold flex items-center justify-center text-[8px] font-bold text-gold-dark border border-surface-low">+'+(r.recommendation_count-2)+'</span>';
+  return '<div class="ccard" data-rid="'+esc(r.id)+'" onclick="openResto(\''+ea(r.id)+'\')">'+
+    '<div class="bg-surface-low/90 backdrop-blur-2xl rounded-2xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,.5)] border border-outline-var/10 flex cursor-pointer active:scale-[.98] transition-transform">'+
+      '<div class="w-24 h-24 flex-shrink-0 overflow-hidden">'+img+'</div>'+
+      '<div class="flex-1 p-3 flex flex-col justify-center min-w-0">'+
+        '<h3 class="text-sm font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
+        '<p class="text-[10px] text-outline uppercase tracking-wider truncate mt-0.5">'+esc(r.cuisine_type)+' · '+r.price_range+'</p>'+
+        '<div class="mt-2 flex items-center gap-2"><div class="flex -space-x-1.5">'+av+'</div><span class="text-[9px] font-bold text-gold uppercase">'+r.recommendation_count+' Chef'+(r.recommendation_count>1?'s':'')+'</span></div>'+
+      '</div>'+
+    '</div>'+
+  '</div>';
+}
+
 function updateCarousel(){
   var el=document.getElementById('iCarousel');
-  if(!map)return;
+  if(!map||cScrollLock)return;
   var b=map.getBounds(),vis=[];
   R.forEach(function(r){if(r.coordinates&&MK[r.id]&&CG.hasLayer(MK[r.id])&&b.contains([r.coordinates.lat,r.coordinates.lng]))vis.push(r)});
   vis.sort(function(a,b){return(b.confidence_score||0)-(a.confidence_score||0)});
   vis=vis.slice(0,30);
-  if(!vis.length){el.style.display='none';return}
+  cVis=vis;
+  if(!vis.length){el.style.display='none';highlightPin(null);return}
   el.style.display='block';
-  var cards='';vis.forEach(function(r){
-    var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[36px] text-outline/30">restaurant</span></div>';
-    var av='';var lm=Math.min(r.recommendations.length,2);
-    for(var i=0;i<lm;i++)av+='<span class="w-5 h-5 rounded-full bg-surface-highest border border-surface-low flex items-center justify-center text-[8px] font-bold text-gold">'+r.recommendations[i].chef_name.charAt(0)+'</span>';
-    if(r.recommendation_count>2)av+='<span class="w-5 h-5 rounded-full bg-gold flex items-center justify-center text-[8px] font-bold text-gold-dark border border-surface-low">+'+( r.recommendation_count-2)+'</span>';
-    cards+='<div class="ccard" onclick="openResto(\''+ea(r.id)+'\')">'+
-      '<div class="bg-surface-low/90 backdrop-blur-2xl rounded-2xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,.5)] border border-outline-var/10 flex cursor-pointer active:scale-[.98] transition-transform">'+
-        '<div class="w-24 h-24 flex-shrink-0 overflow-hidden">'+img+'</div>'+
-        '<div class="flex-1 p-3 flex flex-col justify-center min-w-0">'+
-          '<h3 class="text-sm font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
-          '<p class="text-[10px] text-outline uppercase tracking-wider truncate mt-0.5">'+esc(r.cuisine_type)+' · '+r.price_range+'</p>'+
-          '<div class="mt-2 flex items-center gap-2"><div class="flex -space-x-1.5">'+av+'</div><span class="text-[9px] font-bold text-gold uppercase">'+r.recommendation_count+' Chef'+(r.recommendation_count>1?'s':'')+'</span></div>'+
-        '</div>'+
-      '</div>'+
-    '</div>';
-  });
-  el.innerHTML='<div class="flex gap-2.5 overflow-x-auto cscroll noscroll">'+cards+'</div>';
+  var cards='';vis.forEach(function(r){cards+=buildCard(r)});
+  el.innerHTML='<div id="cscrollEl" class="flex gap-2.5 overflow-x-auto cscroll noscroll py-1">'+cards+'</div>';
+
+  // Attach scroll listener for swipe → pan map + highlight pin
+  var sc=document.getElementById('cscrollEl');
+  if(sc){
+    var scrollTimer=null;
+    sc.addEventListener('scroll',function(){
+      clearTimeout(scrollTimer);
+      scrollTimer=setTimeout(function(){
+        onCarouselSnap(sc);
+      },120);
+    },{passive:true});
+  }
+  // Highlight first
+  if(vis.length>0){
+    cIdx=0;
+    highlightPin(vis[0].id);
+  }
+}
+
+function onCarouselSnap(sc){
+  // Find which card is centered
+  var cards=sc.querySelectorAll('.ccard');
+  if(!cards.length)return;
+  var center=sc.scrollLeft+sc.offsetWidth/2;
+  var bestIdx=0,bestDist=Infinity;
+  for(var i=0;i<cards.length;i++){
+    var cardCenter=cards[i].offsetLeft+cards[i].offsetWidth/2;
+    var dist=Math.abs(center-cardCenter);
+    if(dist<bestDist){bestDist=dist;bestIdx=i}
+  }
+  if(bestIdx===cIdx)return;
+  cIdx=bestIdx;
+  var r=cVis[cIdx];
+  if(!r||!r.coordinates)return;
+
+  // Highlight pin
+  highlightPin(r.id);
+
+  // Pan map to this restaurant (without triggering carousel rebuild)
+  cScrollLock=true;
+  map.panTo([r.coordinates.lat,r.coordinates.lng],{animate:true,duration:0.4});
+  setTimeout(function(){cScrollLock=false},600);
 }
 
 function showPreview(r){
   updateCarousel();
-  // scroll to card
-  var el=document.getElementById('iCarousel');if(!el)return;
-  var cards=el.querySelectorAll('.ccard');
+  // scroll to the clicked restaurant's card
+  var sc=document.getElementById('cscrollEl');
+  if(!sc)return;
+  var cards=sc.querySelectorAll('.ccard');
   for(var i=0;i<cards.length;i++){
-    if(cards[i].getAttribute('onclick').indexOf(r.id)!==-1){
-      cards[i].scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});break;
+    if(cards[i].getAttribute('data-rid')===r.id){
+      cIdx=i;
+      cards[i].scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});
+      highlightPin(r.id);
+      break;
     }
   }
   if(map.getZoom()<12)map.setView([r.coordinates.lat,r.coordinates.lng],14,{animate:true});
