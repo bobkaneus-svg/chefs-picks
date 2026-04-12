@@ -259,11 +259,33 @@ function showChefDetail(chefName) {
 }
 
 // ── MAP ──
+var clusterGroup = null;
+
 function initMap() {
   if (typeof L === 'undefined') { console.error('Leaflet not loaded'); return; }
 
-  map = L.map('map', { zoomControl: false, attributionControl: false }).setView([46.5, 2.5], 6);
+  map = L.map('map', { zoomControl: false, attributionControl: false, tap: true }).setView([46.5, 2.5], 6);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+
+  // Cluster group for clean zoom behavior
+  clusterGroup = L.markerClusterGroup({
+    maxClusterRadius: 40,
+    spiderfyOnMaxZoom: true,
+    showCoverageOnHover: false,
+    zoomToBoundsOnClick: true,
+    disableClusteringAtZoom: 15,
+    iconCreateFunction: function(cluster) {
+      var count = cluster.getChildCount();
+      var size = count > 20 ? 52 : count > 5 ? 44 : 36;
+      var cls = count > 20 ? 'pin-hot' : count > 5 ? 'pin-warm' : 'pin-cool';
+      return L.divIcon({
+        className: '',
+        html: '<div class="pin-wrap ' + cls + '"><div class="pin-circle" style="width:' + size + 'px;height:' + size + 'px"><span>' + count + '</span></div><div class="pin-stem"></div></div>',
+        iconSize: [size, size + 12],
+        iconAnchor: [size / 2, size + 12]
+      });
+    }
+  });
 
   for (var i = 0; i < restaurants.length; i++) {
     var r = restaurants[i];
@@ -277,12 +299,23 @@ function initMap() {
       iconSize: [sz, sz + 12],
       iconAnchor: [sz / 2, sz + 12]
     });
-    var m = L.marker([r.coordinates.lat, r.coordinates.lng], { icon: icon }).addTo(map);
+    var m = L.marker([r.coordinates.lat, r.coordinates.lng], { icon: icon });
     (function(restaurant) {
-      m.on('click', function() { showMapPreview(restaurant); });
+      m.on('click', function(e) {
+        L.DomEvent.stopPropagation(e);
+        showMapPreview(restaurant);
+      });
     })(r);
     markers[r.id] = m;
+    clusterGroup.addLayer(m);
   }
+
+  map.addLayer(clusterGroup);
+
+  // Close preview when clicking on map
+  map.on('click', function() {
+    document.getElementById('map-preview').style.display = 'none';
+  });
 
   var chefs = {};
   for (var i = 0; i < restaurants.length; i++) {
@@ -325,7 +358,11 @@ function showMapPreview(r) {
         '</div>' +
       '</div>' +
     '</div>';
-  map.setView([r.coordinates.lat, r.coordinates.lng], 14, { animate: true });
+  if (map.getZoom() < 12) {
+    map.setView([r.coordinates.lat, r.coordinates.lng], 14, { animate: true });
+  } else {
+    map.panTo([r.coordinates.lat, r.coordinates.lng], { animate: true });
+  }
 }
 
 function buildMapFilters() {
@@ -346,6 +383,17 @@ function buildMapFilters() {
   document.getElementById('map-filters').innerHTML = html;
 }
 
+function rebuildCluster(filterFn) {
+  clusterGroup.clearLayers();
+  for (var id in markers) {
+    var r = null;
+    for (var i = 0; i < restaurants.length; i++) { if (restaurants[i].id === id) { r = restaurants[i]; break; } }
+    if (r && filterFn(r)) {
+      clusterGroup.addLayer(markers[id]);
+    }
+  }
+}
+
 function filterMapCity(btn, city) {
   var isActive = btn.classList.contains('bg-primary-container');
   var buttons = document.querySelectorAll('.map-city-btn');
@@ -359,26 +407,22 @@ function filterMapCity(btn, city) {
   }
 
   if (isActive) {
-    for (var id in markers) markers[id].addTo(map);
+    rebuildCluster(function() { return true; });
     map.setView([46.5, 2.5], 6);
   } else {
     btn.classList.remove('bg-surface-container-highest', 'text-on-surface-variant');
     btn.classList.add('bg-primary-container', 'text-on-primary-fixed', 'font-bold', 'shadow-lg');
     btn.innerHTML = escapeHtml(city) + ' <span class="material-symbols-outlined text-[16px]">close</span>';
 
+    rebuildCluster(function(r) { return r.city === city; });
+
     var cityCoords = [];
-    for (var id in markers) {
-      var r = null;
-      for (var i = 0; i < restaurants.length; i++) { if (restaurants[i].id === id) { r = restaurants[i]; break; } }
-      if (r && r.city === city) {
-        markers[id].addTo(map);
-        if (r.coordinates) cityCoords.push([r.coordinates.lat, r.coordinates.lng]);
-      } else {
-        map.removeLayer(markers[id]);
-      }
+    for (var i = 0; i < restaurants.length; i++) {
+      var r = restaurants[i];
+      if (r.city === city && r.coordinates) cityCoords.push([r.coordinates.lat, r.coordinates.lng]);
     }
     if (cityCoords.length > 0) {
-      map.fitBounds(L.latLngBounds(cityCoords), { padding: [80, 80], maxZoom: 14 });
+      map.fitBounds(L.latLngBounds(cityCoords), { padding: [80, 80], maxZoom: 15 });
     }
   }
   document.getElementById('map-preview').style.display = 'none';
@@ -387,26 +431,21 @@ function filterMapCity(btn, city) {
 function onMapSearch(e) {
   var q = e.target.value.toLowerCase().trim();
   if (!q) {
-    for (var id in markers) markers[id].addTo(map);
+    rebuildCluster(function() { return true; });
     map.setView([46.5, 2.5], 6);
     return;
   }
 
   var matching = [];
-  for (var i = 0; i < restaurants.length; i++) {
-    var r = restaurants[i];
+  rebuildCluster(function(r) {
     var parts = [r.name, r.city, r.country || '', r.cuisine_type];
     if (r.tags) parts = parts.concat(r.tags);
     for (var j = 0; j < r.recommendations.length; j++) parts.push(r.recommendations[j].chef_name);
     var hay = parts.join(' ').toLowerCase();
-
-    if (hay.indexOf(q) !== -1) {
-      if (markers[r.id]) markers[r.id].addTo(map);
-      if (r.coordinates) matching.push(r);
-    } else {
-      if (markers[r.id]) map.removeLayer(markers[r.id]);
-    }
-  }
+    var match = hay.indexOf(q) !== -1;
+    if (match && r.coordinates) matching.push(r);
+    return match;
+  });
 
   if (matching.length > 0) {
     var bounds = L.latLngBounds(matching.map(function(r) { return [r.coordinates.lat, r.coordinates.lng]; }));

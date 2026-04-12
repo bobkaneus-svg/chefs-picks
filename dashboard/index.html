@@ -8,6 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+<link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" rel="stylesheet"/>
+<link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" rel="stylesheet"/>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script>
 tailwind.config={darkMode:"class",theme:{extend:{
@@ -77,6 +79,15 @@ a{text-decoration:none}
 .pin-warm .pin-stem{width:2px;height:8px;background:rgba(232,168,56,.4)}
 .pin-cool .pin-circle{background:#2a2a2a;color:#9d8e7c;border:2px solid #353534}
 .pin-cool .pin-stem{width:2px;height:6px;background:#353534}
+/* Cluster overrides */
+.marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{
+  background:rgba(19,19,19,.8)!important;border:2px solid rgba(232,168,56,.4)!important;
+  box-shadow:0 0 20px rgba(232,168,56,.25)}
+.marker-cluster-small div,.marker-cluster-medium div,.marker-cluster-large div{
+  background:#e8a838!important;color:#281800!important;font-family:'Manrope'!important;
+  font-weight:700!important;font-size:13px!important}
+.marker-cluster-large{border-color:#e8a838!important;box-shadow:0 0 30px rgba(232,168,56,.4)}
+.marker-cluster-large div{font-size:14px!important}
 /* Badges */
 .badge-presse{background:rgba(206,201,255,.12);color:#cec9ff;border:1px solid rgba(206,201,255,.15)}
 .badge-social{background:rgba(232,168,56,.12);color:#e8a838;border:1px solid rgba(232,168,56,.15)}
@@ -181,6 +192,7 @@ a{text-decoration:none}
 </nav>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="app.js?v=2"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
