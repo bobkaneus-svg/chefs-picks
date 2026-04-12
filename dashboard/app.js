@@ -57,7 +57,7 @@ function escapeHtml(str) {
 
 function escapeAttr(str) {
   if (!str) return '';
-  return str.replace(/'/g, "\\'").replace(/"/g, '\\"').replace(/\\/g, '\\\\');
+  return str.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"');
 }
 
 // ── DRAWER ──
@@ -378,7 +378,7 @@ function buildMapFilters() {
 
   var html = '';
   for (var i = 0; i < top.length; i++) {
-    html += '<button onclick="filterMapCity(this,\'' + escapeAttr(top[i][0]) + '\')" class="map-city-btn flex items-center gap-2 px-5 py-2 rounded-full bg-surface-container-highest text-on-surface-variant font-label text-xs uppercase tracking-wider whitespace-nowrap border border-outline-variant/10">' + escapeHtml(top[i][0]) + ' <span class="text-outline text-[10px]">' + top[i][1] + '</span></button>';
+    html += '<button data-city="' + escapeHtml(top[i][0]) + '" onclick="filterMapCity(this,\'' + escapeAttr(top[i][0]) + '\')" class="map-city-btn flex items-center gap-2 px-5 py-2 rounded-full bg-surface-container-highest text-on-surface-variant font-label text-xs uppercase tracking-wider whitespace-nowrap border border-outline-variant/10">' + escapeHtml(top[i][0]) + ' <span class="text-outline text-[10px]">' + top[i][1] + '</span></button>';
   }
   document.getElementById('map-filters').innerHTML = html;
 }
@@ -400,7 +400,7 @@ function filterMapCity(btn, city) {
   for (var i = 0; i < buttons.length; i++) {
     buttons[i].classList.remove('bg-primary-container', 'text-on-primary-fixed', 'font-bold', 'shadow-lg');
     buttons[i].classList.add('bg-surface-container-highest', 'text-on-surface-variant');
-    var cname = buttons[i].getAttribute('data-city') || buttons[i].textContent.trim().split(/\s+/)[0];
+    var cname = buttons[i].getAttribute('data-city');
     var cnt = 0;
     for (var j = 0; j < restaurants.length; j++) { if (restaurants[j].city === cname) cnt++; }
     buttons[i].innerHTML = escapeHtml(cname) + ' <span class="text-outline text-[10px]">' + cnt + '</span>';

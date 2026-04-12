@@ -24,7 +24,7 @@
         "platform": "presse"
       },
       {
-        "chef_name": "Pierre Herme",
+        "chef_name": "Pierre Hermé",
         "chef_restaurant": "Maison Pierre Herme",
         "quote": "Pierre Herme y va au moins toutes les deux semaines pour se regaler de la cuisine menagere de Raquel Carena.",
         "source": "Timeout Paris - Les cantines preferees des chefs",
@@ -33,7 +33,7 @@
         "platform": "presse"
       },
       {
-        "chef_name": "Bertrand Grebaut",
+        "chef_name": "Bertrand Grébaut",
         "chef_restaurant": "Septime",
         "quote": "Le bistrot prefere des chefs, perche sur la colline de Belleville depuis 1987.",
         "source": "Timeout Paris",
@@ -64,17 +64,10 @@
     "cuisine_type": "Cafe / Boulangerie / Contemporain",
     "price_range": "€€",
     "vibe": "café",
-    "tags": [],
+    "tags": [
+      "boulangerie"
+    ],
     "recommendations": [
-      {
-        "chef_name": "Jessica Yang et Robert Compagnon, Marcin Krol",
-        "chef_restaurant": "Folderol / Le Rigmarole / Cypsele",
-        "quote": "My favourite restaurant in the world... food that feels like a warm hug",
-        "source": "Service95 / Something Curated",
-        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
-        "date": "2024-2025",
-        "platform": "presse"
-      },
       {
         "chef_name": "Marcin Krol",
         "chef_restaurant": "Cypsele",
@@ -85,7 +78,7 @@
         "platform": "presse"
       },
       {
-        "chef_name": "Jessica Yang & Robert Compagnon",
+        "chef_name": "Jessica Yang et Robert Compagnon",
         "chef_restaurant": "Le Rigmarole / Folderol",
         "quote": "Freshest, most delicious, personal food in Paris.",
         "source": "Service95 - Where to eat and drink in Paris",
@@ -94,8 +87,8 @@
         "platform": "presse"
       }
     ],
-    "recommendation_count": 3,
-    "confidence_score": 100,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweor9uc94q66T9Yl4HR9937pPUPNzfXUIDhP2Ln75Cj3bmtAerIes3UuFfN3Sdrn25fzIfOyr5rEz5CoxDR5unqbtlDjNiL7_tHdQ0EKk4QiU2zGjckOMowcoCktcHehvJjSObs=w408-h306-k-no",
     "rating": 4.7,
@@ -162,7 +155,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Bertrand Grebaut, Jessica Yang et Robert Compagnon",
+        "chef_name": "Bertrand Grébaut, Jessica Yang et Robert Compagnon",
         "chef_restaurant": "Septime / Folderol",
         "quote": "Natural-fermentation dough is amazing",
         "source": "Service95 - Where to Eat in Paris",
@@ -171,7 +164,7 @@
         "platform": "presse"
       },
       {
-        "chef_name": "Bertrand Grebaut",
+        "chef_name": "Bertrand Grébaut",
         "chef_restaurant": "Septime",
         "quote": "Sourdough pizza. Dough is amazing and light.",
         "source": "Service95 - Where to eat and drink in Paris",
@@ -201,19 +194,12 @@
     "cuisine_type": "Chinois",
     "price_range": "€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "chinois"
+    ],
     "recommendations": [
       {
         "chef_name": "Marcin Krol",
-        "chef_restaurant": "Cypsele",
-        "quote": "My favorite Chinese restaurant in the city",
-        "source": "Something Curated - Chef's Guide Paris",
-        "source_url": "https://somethingcurated.com/2025/12/05/paris-best-restaurants-chef-insider-guide-marcin-krol/",
-        "date": "2025",
-        "platform": "presse"
-      },
-      {
-        "chef_name": "Marcin Kral",
         "chef_restaurant": "Cypsele",
         "quote": "Whole crab, Hong Kong-style steamed fish, cumin-dusted lamb chops.",
         "source": "Something Curated",
@@ -222,8 +208,8 @@
         "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
-    "confidence_score": 80,
+    "recommendation_count": 1,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUO14j_LoThgdPUi7PGhRumnmUywJsHpcoy7R12JJ1T9PfLrFOOH0j7kqCF-RDxINOSFE46B1buUH4QZdtC4O_lZT8jeiDiiiIXOoNVMxm2Xojb45sqSV1NVuhjJHQvJDQoL9OqQ=w408-h544-k-no",
     "rating": 4.3,
@@ -248,15 +234,6 @@
     "recommendations": [
       {
         "chef_name": "Jessica Yang et Robert Compagnon",
-        "chef_restaurant": "Folderol / Le Rigmarole",
-        "quote": "Favourite udon, perfect for lunch",
-        "source": "Service95 - Where to Eat in Paris",
-        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
-        "date": "2024",
-        "platform": "presse"
-      },
-      {
-        "chef_name": "Jessica Yang & Robert Compagnon",
         "chef_restaurant": "Le Rigmarole / Folderol",
         "quote": "Open from 11.30am-10pm, perfect for off-hours quick meals.",
         "source": "Service95 - Where to eat and drink in Paris",
@@ -265,8 +242,8 @@
         "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
-    "confidence_score": 80,
+    "recommendation_count": 1,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerUstRG6XKVpsK_iu5ncj5uf_iJQVxH5hrBlTKVmG2KDd7U2yoZMra2vmy8Oie3PvMQHD2ImrUAz5G3mkzaN0vePXXVZbN-qWOvCDZry0pC_JAy3q07GkRhQdzP_t0FAujzJ5cS=w408-h306-k-no",
     "rating": 4.4,
@@ -291,15 +268,6 @@
     "recommendations": [
       {
         "chef_name": "Jessica Yang et Robert Compagnon",
-        "chef_restaurant": "Folderol / Le Rigmarole",
-        "quote": "Best balanced noodle-broth combination",
-        "source": "Service95 - Where to Eat in Paris",
-        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
-        "date": "2024",
-        "platform": "presse"
-      },
-      {
-        "chef_name": "Jessica Yang & Robert Compagnon",
         "chef_restaurant": "Le Rigmarole / Folderol",
         "quote": "Best balanced noodle-broth combination.",
         "source": "Service95 - Where to eat and drink in Paris",
@@ -308,59 +276,14 @@
         "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
-    "confidence_score": 80,
+    "recommendation_count": 1,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerhgv5VJVH7ewlcqlMgibBQ8pYENl2a-VncFwgOskZ9mLLLvkIB-1PPexKcCG74fO983-vDoQ0MUjJggy5g0SVrAc8jISvgUHNLdPLckBncEkhHVRohyp3B5gl4Kt3myOBLmm4=w408-h272-k-no",
     "rating": 4.4,
     "reviews_count": 1532,
     "phone": "+33 1 42 21 11 68",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Menkicchi%20Ramen&query_place_id=ChIJq99pfklv5kcRm0NDwGCXyjo"
-  },
-  {
-    "id": "mokonuts-paris-11e",
-    "name": "Mokonuts",
-    "address": "5 Rue Saint-Bernard, 75011 Paris, France",
-    "city": "Paris 11e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8507906,
-      "lng": 2.3813834
-    },
-    "cuisine_type": "Cafe / Boulangerie / Contemporain",
-    "price_range": "€€",
-    "vibe": "café",
-    "tags": [
-      "boulangerie"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Jessica Yang et Robert Compagnon, Marcin Krol",
-        "chef_restaurant": "Folderol / Le Rigmarole / Cypsele",
-        "quote": "My favourite restaurant in the world... food that feels like a warm hug",
-        "source": "Service95 / Something Curated",
-        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
-        "date": "2024-2025",
-        "platform": "presse"
-      },
-      {
-        "chef_name": "Marcin Krol",
-        "chef_restaurant": "Cypsele",
-        "quote": "My favourite restaurant in the world... food that feels like a warm hug",
-        "source": "Something Curated - Chef's Guide Paris",
-        "source_url": "https://somethingcurated.com/2025/12/05/paris-best-restaurants-chef-insider-guide-marcin-krol/",
-        "date": "2025",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 2,
-    "confidence_score": 80,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweor9uc94q66T9Yl4HR9937pPUPNzfXUIDhP2Ln75Cj3bmtAerIes3UuFfN3Sdrn25fzIfOyr5rEz5CoxDR5unqbtlDjNiL7_tHdQ0EKk4QiU2zGjckOMowcoCktcHehvJjSObs=w408-h306-k-no",
-    "rating": 4.7,
-    "reviews_count": 596,
-    "phone": "+33 9 80 81 82 85",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mokonuts&query_place_id=ChIJlSThMQly5kcR1fXHGctIH88"
   },
   {
     "id": "lao-siam-paris",
@@ -397,7 +320,7 @@
       }
     ],
     "recommendation_count": 2,
-    "confidence_score": 75,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF6F515F_F3BodTuxPUEcJXdXMTcPzAtAslQetA-8kq56HE-i8q2yAK-jMSFlKvZpDNtgC9u0HfeGQ2ku0MDaYB9_VxwZmjV2zQ4pOPOQlnjGPw7RDPp0O98VgfRJwsesudnn13D1ostTg1=w408-h306-k-no",
     "rating": 4.3,
@@ -760,7 +683,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Inaki Aizpitarte",
+        "chef_name": "Iñaki Aizpitarte",
         "chef_restaurant": "Le Chateaubriand (Paris, ex-chef)",
         "quote": "Aizpitarte a repris cette institution centenaire de Saint-Jean-de-Luz a 50 metres de la plage, avec ses boiseries sombres et pochoirs de Louis Floutier des annees trente",
         "source": "L'Hotellerie-Restauration / Gilles Pudlowski",
@@ -794,7 +717,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Helene Darroze",
+        "chef_name": "Hélène Darroze",
         "chef_restaurant": "Marsan par Helene Darroze (Paris, 2 etoiles Michelin)",
         "quote": "Une cantine de quartier le midi et une table raffinee le soir, avec de jolies assiettes de tapas et la tortilla du chef",
         "source": "Les Hardis - Meilleures tables Pays Basque",
@@ -828,7 +751,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Helene Darroze",
+        "chef_name": "Hélène Darroze",
         "chef_restaurant": "Marsan par Helene Darroze (Paris, 2 etoiles Michelin)",
         "quote": "Une auberge inauguree en 2024 sur les hauteurs d'Hasparren, cuisine authentique et simple a la mode basque",
         "source": "Les Hardis - Meilleures tables Pays Basque",
@@ -862,7 +785,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Helene Darroze",
+        "chef_name": "Hélène Darroze",
         "chef_restaurant": "Marsan par Helene Darroze (Paris, 2 etoiles Michelin)",
         "quote": "Une ferme-auberge reconvertie ou l'on mange une cuisine basque traditionnelle dans un cadre authentique",
         "source": "Food & Sens - Bonnes adresses Helene Darroze au Pays Basque",
@@ -896,7 +819,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Helene Darroze",
+        "chef_name": "Hélène Darroze",
         "chef_restaurant": "Marsan par Helene Darroze (Paris, 2 etoiles Michelin)",
         "quote": "L'incontournable Bar Jean pour ses pintxos et tous les bars autour du marche",
         "source": "Food & Sens - Bonnes adresses Helene Darroze au Pays Basque",
@@ -1163,7 +1086,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Inaki Aizpitarte",
+        "chef_name": "Iñaki Aizpitarte",
         "chef_restaurant": "Le Petit Grill Basque (Saint-Jean-de-Luz)",
         "quote": "Le chef Sergio Meylou travaille avec des produits locaux frais de maniere creative, une reference bistronomique a Saint-Jean-de-Luz",
         "source": "Barnes Cote Basque - Bonnes adresses Saint-Jean-de-Luz",
@@ -1197,7 +1120,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Andree Rosier",
+        "chef_name": "Andrée Rosier",
         "chef_restaurant": "Les Rosiers (Biarritz, ex-1 etoile Michelin, ferme en 2025)",
         "quote": "Brice Goeuriot et Margaux Le Bailliff, formes a Ferrandi et passes par des etoiles, proposent une cuisine de qualite a Bayonne",
         "source": "Les Hardis - Meilleures adresses de Bayonne",
@@ -1255,7 +1178,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Helene Darroze",
+        "chef_name": "Hélène Darroze",
         "chef_restaurant": "Marsan par Helene Darroze (Paris, 2 etoiles Michelin)",
         "quote": "Un endroit que j'adore pour les ceviches a Biarritz",
         "source": "Food & Sens - Bonnes adresses Helene Darroze au Pays Basque",
@@ -1286,10 +1209,12 @@
     "cuisine_type": "Vietnamien",
     "price_range": "€€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "vietnamien"
+    ],
     "recommendations": [
       {
-        "chef_name": "Helene Darroze",
+        "chef_name": "Hélène Darroze",
         "chef_restaurant": "Marsan",
         "quote": "The food is very good, authentic",
         "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
@@ -1320,10 +1245,13 @@
     "cuisine_type": "Japonais / Sushi",
     "price_range": "€€€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "japonais",
+      "sushi"
+    ],
     "recommendations": [
       {
-        "chef_name": "Helene Darroze",
+        "chef_name": "Hélène Darroze",
         "chef_restaurant": "Marsan",
         "quote": "There are no seats",
         "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
@@ -1387,7 +1315,9 @@
     "cuisine_type": "Vietnamien / Banh mi",
     "price_range": "€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "vietnamien"
+    ],
     "recommendations": [
       {
         "chef_name": "Edward Delling-Williams",
@@ -1421,7 +1351,10 @@
     "cuisine_type": "Vietnamien / Pho",
     "price_range": "€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "pho",
+      "vietnamien"
+    ],
     "recommendations": [
       {
         "chef_name": "Paul Boudier",
@@ -1455,7 +1388,9 @@
     "cuisine_type": "Chinois",
     "price_range": "€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "chinois"
+    ],
     "recommendations": [
       {
         "chef_name": "Edward Delling-Williams",
@@ -1489,7 +1424,9 @@
     "cuisine_type": "Italien / Venitien",
     "price_range": "€€€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "italien"
+    ],
     "recommendations": [
       {
         "chef_name": "Simone Zanoni",
@@ -1523,7 +1460,9 @@
     "cuisine_type": "Francais / Basque",
     "price_range": "€€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "basque"
+    ],
     "recommendations": [
       {
         "chef_name": "Stephane Jego",
@@ -1795,7 +1734,9 @@
     "cuisine_type": "Japonais / Sud de la France fusion",
     "price_range": "€€€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "japonais"
+    ],
     "recommendations": [
       {
         "chef_name": "Norihisa Semboshi",
@@ -1959,7 +1900,9 @@
     "cuisine_type": "Tapas espagnols",
     "price_range": "€€",
     "vibe": "bar à vins",
-    "tags": [],
+    "tags": [
+      "tapas"
+    ],
     "recommendations": [
       {
         "chef_name": "Victor Gonzalez",
@@ -2472,7 +2415,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Bertrand Grebaut",
+        "chef_name": "Bertrand Grébaut",
         "chef_restaurant": "Septime (1 etoile Michelin)",
         "quote": "Best fries in Paris",
         "source": "Service95 - Where to Eat in Paris",
@@ -2604,7 +2547,9 @@
     "cuisine_type": "Italien",
     "price_range": "€€",
     "vibe": "casual",
-    "tags": [],
+    "tags": [
+      "italien"
+    ],
     "recommendations": [
       {
         "chef_name": "Etheliya Hananova",
@@ -4637,7 +4582,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Bertrand Grebaut",
+        "chef_name": "Bertrand Grébaut",
         "chef_restaurant": "Septime",
         "quote": "Selection of natural wines and fish preserves from the Basque Country.",
         "source": "Service95 - Where to eat and drink in Paris",
@@ -5577,909 +5522,6 @@
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Cantine%20Des%20Chefs&query_place_id=ChIJkS9qwO4LEUgR55CgKYagJP8"
   },
   {
-    "id": "le-baratin-paris-20e",
-    "name": "Le Baratin",
-    "address": "3 Rue Jouye-Rouve, 75020 Paris, France",
-    "city": "Paris 20e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8730712,
-      "lng": 2.3828351
-    },
-    "cuisine_type": "Bistrot francais",
-    "price_range": "€€",
-    "vibe": "bistrot",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Alain Ducasse",
-        "chef_restaurant": "Plaza Athenee / Alain Ducasse",
-        "quote": "Ce lieu respecte la simplicite, loin des rigidites etoilees",
-        "source": "Omnia Restaurant - Adresses secretes des chefs",
-        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQANrAGyl1k5sKC72NkPad18tS3PWOOUtsCc1Ms-EjrHa8uMwUvgobHSaBJhWM5RhrlWYRfCpqfpmNF7Ajt7o5oqSVCfTBeT7WI8vDTXsspPsZ4OR7R-TGbwoo-L-fJk-56HDgtNjwPHYy=w426-h240-k-no",
-    "rating": 4.3,
-    "reviews_count": 734,
-    "phone": "+33 1 43 49 39 70",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Baratin&query_place_id=ChIJCwHgqelt5kcRLOl2lR9_tVE"
-  },
-  {
-    "id": "hanoi-1988-paris-4e",
-    "name": "Hanoi 1988",
-    "address": "16 Rue le Regrattier, 75004 Paris, France",
-    "city": "Paris 4e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8522544,
-      "lng": 2.3548363
-    },
-    "cuisine_type": "Vietnamien",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [
-      "vietnamien"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Helene Darroze",
-        "chef_restaurant": "Marsan",
-        "quote": "The food is very good, authentic",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoTxXH8_-lhOslC4bMsCO1C0z6nY1b4TKnGwqmmm9avwes_QiHG-sCDHMV9jbcliLU-DJIA08XP0XnPUdx-JXLs38T5PCIEZRlRaaqe0fI2Kfm0NQUxpX3cqQsRJD8qlB-_FuYx=w408-h612-k-no",
-    "rating": 4.5,
-    "reviews_count": 464,
-    "phone": "+33 7 65 21 68 68",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ha%20Noi%201988%20Sao%20Vang&query_place_id=ChIJo68_dbNx5kcRcemR1PiCKKg"
-  },
-  {
-    "id": "kaito-paris-6e",
-    "name": "Kaito",
-    "address": "71 Rue de Seine, 75006 Paris, France",
-    "city": "Paris 6e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8541356,
-      "lng": 2.3370418
-    },
-    "cuisine_type": "Japonais / Sushi",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [
-      "sushi",
-      "japonais"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Helene Darroze",
-        "chef_restaurant": "Marsan",
-        "quote": "There are no seats",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERrjFCqX20oRPdJ_cCYsxLWeGEMCfArguHZwGfvOgn6jNy_HqiXU-ZhwVWrt5FEThVEbI1ioUUhy7lS_o-LhJW_pniWIb6Rlg1KXMZDSN6Qn5jNl2fLZq3NstSLOhmPSyNPUEx=w408-h307-k-no",
-    "rating": 4.3,
-    "reviews_count": 294,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Takuto&query_place_id=ChIJHZ6sv6lx5kcRvF0KFMl_yDs"
-  },
-  {
-    "id": "la-crete-paris-5e",
-    "name": "La Crete",
-    "address": "85 Rue Mouffetard, 75005 Paris, France",
-    "city": "Paris 5e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8418388,
-      "lng": 2.3497867
-    },
-    "cuisine_type": "Grec",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Chris Edwards",
-        "chef_restaurant": "Le Saint-Sebastien",
-        "quote": "Greek beers to start, Greek wine with the meal, raki",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3rHbZcIPWyE9WOeLFbK17ZELcuPCM5k2v_lKdFF0-f8OiDkhdMYltBP6Ocfe3enbwtG-BJvRtZAF5PkjVyRGYaW5hKKgTJ-bWpfTocAXYTzi5U9c6Gv0c-rahobt6nnXJjmT2=w408-h405-k-no",
-    "rating": 4.7,
-    "reviews_count": 3006,
-    "phone": "+33 1 43 31 30 47",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Cr%C3%A8te&query_place_id=ChIJY57vuu5x5kcRvqnzn6Px2AA"
-  },
-  {
-    "id": "saigon-sandwich-paris-11e",
-    "name": "Saigon Sandwich",
-    "address": "8 Rue de la Présentation, 75011 Paris, France",
-    "city": "Paris 11e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8714321,
-      "lng": 2.376381
-    },
-    "cuisine_type": "Vietnamien / Banh mi",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [
-      "vietnamien"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Edward Delling-Williams",
-        "chef_restaurant": "Le Grand Bain / The Presbytere",
-        "quote": "It's just a cheap banh mi, I think it's five euros",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepGfsu78mTNZUL0JLZPb9IsXK-gM6DPGFnihD2i67pwwpTAv86YVir9gdLsXjSeRyFJ__5TQhDYrAo6cclkfXVnY77y9rt1SgmzwJcB-enJlavIXdjRzovBSS4swEOwVz73BT976BWwk8H6=w408-h306-k-no",
-    "rating": 4.7,
-    "reviews_count": 470,
-    "phone": "+33 1 43 38 30 38",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Saigon%20Sandwich&query_place_id=ChIJK7Afj-Zt5kcRtexAnd9H1ys"
-  },
-  {
-    "id": "dong-huong-paris-11e",
-    "name": "Dong Huong",
-    "address": "14 Rue Louis Bonnet, 75011 Paris, France",
-    "city": "Paris 11e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.871216,
-      "lng": 2.3768997
-    },
-    "cuisine_type": "Vietnamien / Pho",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [
-      "pho",
-      "vietnamien"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Paul Boudier",
-        "chef_restaurant": "Le Maquis",
-        "quote": "I've been going for maybe 15 years",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3ga7GUIP7TayFwilPW8JyXdY085ufQgjPdtYC2pFAxtJHRhlz4FrAu5rJkSh1qkfx_B1ddPJubnnMgsQwqvHFl62myoyT6BqKwhsM1IrLqBRypYjsFHZT2xdXc5XnR25Kl5cJEQ=w427-h240-k-no",
-    "rating": 4.2,
-    "reviews_count": 1788,
-    "phone": "+33 1 43 57 42 81",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dong%20Huong&query_place_id=ChIJpUyVfOZt5kcR2gQIUb0KM28"
-  },
-  {
-    "id": "aux-mandarins-de-belleville-paris-19e",
-    "name": "Aux Mandarins de Belleville",
-    "address": "12 Rue Jules Romains, 75019 Paris, France",
-    "city": "Paris 19e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8733139,
-      "lng": 2.3782134
-    },
-    "cuisine_type": "Chinois",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [
-      "chinois"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Edward Delling-Williams",
-        "chef_restaurant": "Le Grand Bain",
-        "quote": "It's just delicious Chinese food, basically",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep7X3PqI6U5_UgaLcQ_r0-uW-84KfaxR3O8ItCvvur5kL_kH-5DnixXhuDcbI0E5o_BXoHOw0VsRFS1mttI3ox-A6UTkX4GAA2JOgUWryEji36Gm-YFfdpYHwMK4925ReSQTsub=w408-h306-k-no",
-    "rating": 4.6,
-    "reviews_count": 863,
-    "phone": "+33 1 42 38 80 16",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Aux%20Mandarins%20de%20Belleville%20%E9%A3%9F%E5%85%A8%E9%A3%9F%E7%BE%8E&query_place_id=ChIJfYmUtedt5kcR3pzCfn7evek"
-  },
-  {
-    "id": "mori-venice-bar-paris-2e",
-    "name": "Mori Venice Bar",
-    "address": "27 Rue Vivienne, 75002 Paris, France",
-    "city": "Paris 2e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8691131,
-      "lng": 2.3399855
-    },
-    "cuisine_type": "Italien / Venitien",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [
-      "italien"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Simone Zanoni",
-        "chef_restaurant": "Le George (Four Seasons)",
-        "quote": "I love this ultra simple way of cooking",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFIZTb9zF_1Qs2ZvQ2xu1WB_Wzv8nCgzZNKrqMHcQkiLMox4HJ65L5efS5FrtngxOo5z1_ydhz0SgimOwQH69ok7ETnbmrhaXsRg-DY3CEr_EXYYCXR3-SJlWIZjkuJCFN6DDDE=w408-h408-k-no",
-    "rating": 4.5,
-    "reviews_count": 563,
-    "phone": "+33 1 44 55 51 55",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mori%20Venice%20Bar&query_place_id=ChIJKcoagTtu5kcR7w9__RYkVlM"
-  },
-  {
-    "id": "la-cantine-du-troquet-paris-15e",
-    "name": "La Cantine du Troquet",
-    "address": "53 Bd de Grenelle, 75015 Paris, France",
-    "city": "Paris 15e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8514023,
-      "lng": 2.2922836
-    },
-    "cuisine_type": "Francais / Basque",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [
-      "basque"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Stephane Jego",
-        "chef_restaurant": "L'Ami Jean",
-        "quote": "I love the crispy pigs' ears",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHBRP6LO-EAQFOLki0ynMrWyOIDC5xdxT31pZslpDyJKa0jzHNJ_hMbbGvdRNI3e-gx08ZYYNfWqZaWPHVIaMlrPSHm2OurXhUW1m5G96sdXZ5wpi0PPkCL2yn3VleSVl3c7gE=w408-h306-k-no",
-    "rating": 4.4,
-    "reviews_count": 761,
-    "phone": "+33 1 45 75 98 00",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Cantine%20Du%20Troquet%20Dupleix&query_place_id=ChIJNS-3Ufhx5kcRCRAhJa-85rw"
-  },
-  {
-    "id": "meha-paris-18e",
-    "name": "Meha",
-    "address": "35 Rue Ramey, 75018 Paris, France",
-    "city": "Paris 18e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8890908,
-      "lng": 2.3463016
-    },
-    "cuisine_type": "Bistronomique / Influences marocaines",
-    "price_range": "€€",
-    "vibe": "bistrot",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Omar Dhiab",
-        "chef_restaurant": "",
-        "quote": "He makes langoustine ravioli with langoustine bisque",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFnK5SSJ2Rmca6CehJ06cE8iv0x9OdzecCysquIAYRa9Zh8jtUQYNLb5JZs3ux6dTZiYyttaJNSB2aAy4orNuLC3tW1klEDdG0YK0hHqexkM1QK78nwBX9VEYAdxohTDCBu7kJXJA=w408-h612-k-no",
-    "rating": 4.9,
-    "reviews_count": 1239,
-    "phone": "+33 9 80 34 69 03",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Meha&query_place_id=ChIJW1QKfnVv5kcRS5PpZeX40HE"
-  },
-  {
-    "id": "vantre-paris-11e",
-    "name": "Vantre",
-    "address": "19 Rue de la Fontaine au Roi, 75011 Paris, France",
-    "city": "Paris 11e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8684957,
-      "lng": 2.3701262
-    },
-    "cuisine_type": "Francais classique / Moderne",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Oliver Piras",
-        "chef_restaurant": "Il Carpaccio (Le Royal Monceau)",
-        "quote": "The wine list is fantastic",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqpOAx5Hqn6KGZF50QEzM5WogX8nqUj261f0grENreZ7V1ezCt5h7vabXTfnqyXkOQvwZeEAkEYoKDtcKQWRlSGDBZtuupvqFYh5ZSUo_-eOCyBUJWfda8DmzNOcCW3fWV3U9L_=w408-h255-k-no",
-    "rating": 4.4,
-    "reviews_count": 665,
-    "phone": "+33 1 48 06 16 96",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Vantre&query_place_id=ChIJ34SrV-Jt5kcR9ZAebuU_c5Q"
-  },
-  {
-    "id": "le-roi-rene-paris-10e",
-    "name": "Le Roi Rene",
-    "address": "12 Rue Martel, 75010 Paris, France",
-    "city": "Paris 10e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8743298,
-      "lng": 2.3533781
-    },
-    "cuisine_type": "Francais / Taverne moderne",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Eloi Spinnler",
-        "chef_restaurant": "Orgueil",
-        "quote": "It's kind of a modern tavern",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepIW1dKXXLWLT0EihTA3MbcYMIWwwsMwvMpeVBe4m-7A_AvTW9y-1OJeKhSaUAiPJC4mwKpAw3FSU6krRgcR-efDHSTYdXowJ7co4YnzA1dLpULCGzKwqpo98PPhc3Sdx0Gi2jmZw=w408-h544-k-no",
-    "rating": 4.7,
-    "reviews_count": 142,
-    "phone": "+33 1 47 70 37 38",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Roi%20Ren%C3%A9&query_place_id=ChIJQ0Y8NUlv5kcREO325Pc7I7I"
-  },
-  {
-    "id": "bien-eleve-paris-9e",
-    "name": "Bien Eleve",
-    "address": "47 Rue Richer, 75009 Paris, France",
-    "city": "Paris 9e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8740003,
-      "lng": 2.3433307
-    },
-    "cuisine_type": "Francais / Viande maturee",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Eloi Spinnler",
-        "chef_restaurant": "Orgueil",
-        "quote": "It's just a really good meat-focused restaurant",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSxyUzuj-lPkrEO1HF5N8hLEW9ryJOrwKzbmLf-SOCy6b5cyZC0nR3L165yNocILZ7RpGNKeSzo8VWnPyDk3oE_8U6KWeyvvLBOeyRT1oey3mBkMyx4pwyncXtQ0KFbwNhgcHY=w426-h240-k-no",
-    "rating": 4.6,
-    "reviews_count": 1092,
-    "phone": "+33 1 45 81 44 35",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bien%20%C3%89lev%C3%A9&query_place_id=ChIJFU0rAj9u5kcRMB0C1loHk70"
-  },
-  {
-    "id": "au-petit-panisse-paris-11e",
-    "name": "Au Petit Panisse",
-    "address": "35 Rue de Montreuil, 75011 Paris, France",
-    "city": "Paris 11e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8505542,
-      "lng": 2.3866997
-    },
-    "cuisine_type": "Bistrot francais",
-    "price_range": "€€",
-    "vibe": "bistrot",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Julia Sedefdjian",
-        "chef_restaurant": "Baieta",
-        "quote": "It's got great wines by the glass",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwertSlTwvaajDiEsLO3hSPE-BF9_mlU7Glt2bufCVFOgTE9pxL79Ui1vRqlt1C_lIvogVHALmIRaNXGiI4D5XyKyaDMXt6DvrUSsnFuUo24iIGYRQCT5Tqe20D5-blKblgfIUrs=w408-h544-k-no",
-    "rating": 4.5,
-    "reviews_count": 677,
-    "phone": "+33 1 43 71 37 90",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Au%20petit%20Panisse&query_place_id=ChIJT7bvfAty5kcR-Sls7rcwHJg"
-  },
-  {
-    "id": "les-inseparables-paris-18e",
-    "name": "Les Inseparables",
-    "address": "12 Rue Francœur, 75018 Paris, France",
-    "city": "Paris 18e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.890292,
-      "lng": 2.342152
-    },
-    "cuisine_type": "Francais",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Jason Gouzy, Omar Dhiab",
-        "chef_restaurant": "Pantagruel",
-        "quote": "It's really a neighborhood spot",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEadk9tP9FPChrDW8vb5dJNripEQpwmqHutcqIgLVo_P_57V_sSf-eal7VoTpLmMY1WRoIAw38M3DQRbkao-_A98_ygw5NzCn2vcIQ9rBjkpcZDc1a4SoYyU0Pqo-xZI8aV7Jz6=w408-h272-k-no",
-    "rating": 4.9,
-    "reviews_count": 300,
-    "phone": "+33 1 42 55 42 41",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Les%20Ins%C3%A9parables&query_place_id=ChIJWXYkPZZv5kcRPFpZOhxNMTc"
-  },
-  {
-    "id": "le-violon-d-ingres-paris-7e",
-    "name": "Le Violon d'Ingres",
-    "address": "135 Rue Saint-Dominique, 75007 Paris, France",
-    "city": "Paris 7e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8582148,
-      "lng": 2.3019196
-    },
-    "cuisine_type": "Francais gastronomique",
-    "price_range": "€€€",
-    "vibe": "gastronomique",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Stephane Jego",
-        "chef_restaurant": "L'Ami Jean",
-        "quote": "Really a convivial place for people who love food",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBVLx6bf-JpxogTQVORNGypwOFGyC8nKHD_1kV7WvL7_O3ViDOseq-So90Fi0HEN28aa1X7yRrMmmli01FY5VymrUP0O2xN3eK_jxMEhpAfe_eQWAKaIeZhl-d5WgK_NM1tQuM=w408-h611-k-no",
-    "rating": 4.6,
-    "reviews_count": 1638,
-    "phone": "+33 1 45 55 15 05",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Violon%20d'Ingres&query_place_id=ChIJ3Z17mN9v5kcR6cy6VWhMWl8"
-  },
-  {
-    "id": "le-clarence-paris-8e",
-    "name": "Le Clarence",
-    "address": "31 Av. Franklin Delano Roosevelt, 75008 Paris, France",
-    "city": "Paris 8e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8674268,
-      "lng": 2.3097739
-    },
-    "cuisine_type": "Francais gastronomique (2 etoiles Michelin)",
-    "price_range": "€€€€",
-    "vibe": "gastronomique",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Oliver Piras, Jason Gouzy, Paul Boudier, Eloi Spinnler",
-        "chef_restaurant": "Divers",
-        "quote": "It's one of the benchmarks of world gastronomy",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepss5EsrNLTf3BKq50KxNfYq44jJd4Tvh6xBGvymSW-nK9NbPnL6H4Ubos7ZiMWH2D7_sToIp1R48spwewU821LCDKl4Ky2ROiweJaturrkXAZLnoAmhYqDWZGyUNK7nGTvcmmHCoYdnIs=w408-h408-k-no",
-    "rating": 4.7,
-    "reviews_count": 823,
-    "phone": "+33 1 82 82 10 10",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Clarence&query_place_id=ChIJH5K8McVv5kcRHrJn-zUA3KQ"
-  },
-  {
-    "id": "riviera-fuga-paris-7e",
-    "name": "Riviera Fuga",
-    "address": "10 Port des Invalides, 75007 Paris, France",
-    "city": "Paris 7e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.863142,
-      "lng": 2.312379
-    },
-    "cuisine_type": "Japonais / Sud de la France fusion",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [
-      "japonais"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Norihisa Semboshi",
-        "chef_restaurant": "Le Bar Long (Le Royal Monceau)",
-        "quote": "I'm particularly fond of its boat-on-the-Seine concept",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGa6YwCGRQnOdFS16excGfBs02QXek7EMVYJSm2MDmW8SiBI1m7S9G1fD3lovl7JAgO8uK4sc99aMyWuimGSb0ZwbFvRwZuqgSZfR4M5FVY3rp6qhQMdX4jJS7TgHs2qYjiBo9P=w426-h240-k-no",
-    "rating": 4.8,
-    "reviews_count": 8852,
-    "phone": "+33 6 61 05 87 80",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Riviera%20Fuga&query_place_id=ChIJRQJBH5Fv5kcRFXwf6qpaz6E"
-  },
-  {
-    "id": "les-enfants-du-marche-paris-3e",
-    "name": "Les Enfants du Marche",
-    "address": "39 Rue de Bretagne, 75003 Paris, France",
-    "city": "Paris 3e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8625855,
-      "lng": 2.3621245
-    },
-    "cuisine_type": "Cuisine de marche / Saisonnier",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Juan Arbelaez",
-        "chef_restaurant": "Plantxa / Levain",
-        "quote": "There's a natural wine list, incredible service, and a market cuisine",
-        "source": "Tripadvisor - Where chefs eat in Paris",
-        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerFOjq3GoKxNbsFGXoVHQPcWhrUJxKW_0gYrw3rkDqyVxH6uGrZo2uT9zsi374cI2UhJLNPN9JLnz88lJpstK6jxeWXzIztDri2Va6gqw3yS1rQRvrubYv2uZUd2IXsPmSV0TEEYakUHz6W=w408-h725-k-no",
-    "rating": 4.4,
-    "reviews_count": 1077,
-    "phone": "+33 1 40 24 01 43",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Les%20enfants%20du%20march%C3%A9&query_place_id=ChIJpTwIKARu5kcRUrI2FD8IWmE"
-  },
-  {
-    "id": "le-baron-rouge-paris-12e",
-    "name": "Le Baron Rouge",
-    "address": "1 Rue Théophile Roussel, 75012 Paris, France",
-    "city": "Paris 12e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8494461,
-      "lng": 2.3773588
-    },
-    "cuisine_type": "Bar a vins / Charcuterie",
-    "price_range": "€",
-    "vibe": "bar à vins",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Zohar Sasson",
-        "chef_restaurant": "Kapara",
-        "quote": "[Le Baron Rouge] made me fall in love with Paris for the first time",
-        "source": "Tripadvisor - Where chefs eat in Paris",
-        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqC2FB7lQitsQH-xk0bB9BzHAUlttOhc3-YOZjDPMnr1hNx-UtMlxmn4UIyUk_lFYufjUs9S4Fjf1JBMBnpGqIe3s2puFIA9Qz2nu4FlIjgSUeyB9EiQR2OgZHPJNJKtI7_sL3a=w408-h306-k-no",
-    "rating": 4.7,
-    "reviews_count": 1586,
-    "phone": "+33 1 43 43 14 32",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Baron%20Rouge&query_place_id=ChIJNTd-9QVy5kcRSktNBvRTsao"
-  },
-  {
-    "id": "amagat-paris-20e",
-    "name": "Amagat",
-    "address": "23 Villa Riberolle, 75020 Paris, France",
-    "city": "Paris 20e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8580454,
-      "lng": 2.3966948
-    },
-    "cuisine_type": "Tapas espagnols",
-    "price_range": "€€",
-    "vibe": "bar à vins",
-    "tags": [
-      "tapas"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Victor Gonzalez",
-        "chef_restaurant": "La Tour d'Argent",
-        "quote": "It has a delightful selection of Iberian wines and vermouth",
-        "source": "Tripadvisor - Where chefs eat in Paris",
-        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMjUevX9yG9t90Jjuu7H0kKFkQbBMEIJasTDwvkBYxl1_dF1KBhZmX0AxSRo2eHQRtiqpBVeOZ4Jlq87f-slxexmgGBexqVE_9bke50SORfPcvGrHtkSTeb98rykfmpkovP7s5=w408-h544-k-no",
-    "rating": 4,
-    "reviews_count": 334,
-    "phone": "+33 6 13 79 45 11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Amagat&query_place_id=ChIJhz9qXldt5kcRGzJ2nlZzm2g"
-  },
-  {
-    "id": "cafe-des-ministeres-paris-7e",
-    "name": "Cafe des Ministeres",
-    "address": "83 Rue de l'Université, 75007 Paris, France",
-    "city": "Paris 7e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8606173,
-      "lng": 2.3192166
-    },
-    "cuisine_type": "Francais classique",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Charles Znaty",
-        "chef_restaurant": "Pierre Herme Paris Group / Dengo",
-        "quote": "The great classics of French cuisine are executed to perfection",
-        "source": "Tripadvisor - Where chefs eat in Paris",
-        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerPR5tcUM7K-3ogxjdV04a43iWUpfSRlyHV23nJN2AvflavmOQ0DQqaQ16_n7b4BQDuTDl-vHjHOonnTq5pED5U-5yHwQwsvT1pGy2_YvTZyn05QtbWCmyJ1lp88HL-YF-UkMmT=w408-h306-k-no",
-    "rating": 4.6,
-    "reviews_count": 561,
-    "phone": "+33 1 45 33 73 34",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20des%20Minist%C3%A8res&query_place_id=ChIJ7ei1YNRv5kcRRf7j0QY-e2g"
-  },
-  {
-    "id": "maison-david-paris-marais",
-    "name": "Maison David",
-    "address": "11 Quai des Célestins, 69002 Lyon, France",
-    "city": "Paris (Marais)",
-    "country": "France",
-    "coordinates": {
-      "lat": 45.7597529,
-      "lng": 4.8303718
-    },
-    "cuisine_type": "Juif / Ashkenaze et Sepharde",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Charles Znaty",
-        "chef_restaurant": "Pierre Herme Paris Group / Dengo",
-        "quote": "Their pastrami, foie gras, sausages, and Jackie's fingers are unrivaled",
-        "source": "Tripadvisor - Where chefs eat in Paris",
-        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpB3th5pVwcysCMeQY9BoztlQQHvDcWJKDVR2BBnb9pf5vDZ_M9KF6ug8W3hPHRkgxdo0SQg7sfJ6zVV5oblUt2AW2d1s1J5pidAvVQRB9HONJTB-EASkjtBgkfVmlgXdBte9zjA=w408-h272-k-no",
-    "rating": 4.5,
-    "reviews_count": 936,
-    "phone": "+33 4 78 42 01 33",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MAISON%20L%C3%89A&query_place_id=ChIJ9TiRnlTq9EcRHQ4cM8HyzYk"
-  },
-  {
-    "id": "cafe-les-deux-gares-paris-10e",
-    "name": "Cafe Les Deux Gares",
-    "address": "1 Rue des Deux Gares, 75010 Paris, France",
-    "city": "Paris 10e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8783302,
-      "lng": 2.3582835
-    },
-    "cuisine_type": "Francais",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Bruno Verjus",
-        "chef_restaurant": "Table (2 etoiles Michelin)",
-        "quote": "Offers intelligent cuisine that respects products at very affordable and low prices",
-        "source": "Fodors - A Chef's Guide to Eating in Paris",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcHdYsI_njhKr6KyV8YHwPVamaLjZa7ZE6VojaMZbADoOZ7dqtJY3vOi5pXUp3ppIGr9gM8MMA7KhpGg2W3afyqeg2ojkdCUJtDqx3hpBEilurUb8vBJhEsvCiWCHNNoiDnZTr=w408-h306-k-no",
-    "rating": 4.4,
-    "reviews_count": 543,
-    "phone": "+33 1 40 38 17 05",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20les%20Deux%20Gares&query_place_id=ChIJ9Rc2j3Ju5kcRQyqSw-rNPT0"
-  },
-  {
-    "id": "le-servan-paris-11e",
-    "name": "Le Servan",
-    "address": "32 Rue Saint-Maur, 75011 Paris, France",
-    "city": "Paris 11e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8610156,
-      "lng": 2.3814506
-    },
-    "cuisine_type": "Franco-asiatique",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Alessandra Del Favero",
-        "chef_restaurant": "Il Carpaccio (Le Royal Monceau)",
-        "quote": "Loved for the atmosphere, decor, and sparkling dishes",
-        "source": "Fodors - A Chef's Guide to Eating in Paris",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepV6mWs8WcnN-Zxz0SStuADcRyx6e4OFLhdcNBP-tXoKUNBn-iQky5UorjSzE7VL-DpHunZd4Atc4GE8_9UNynv_SkOHWPqzwga6vwexv30BiifPII04xFW20YAnCltgKcKZIa6nA=w408-h272-k-no",
-    "rating": 4.5,
-    "reviews_count": 1087,
-    "phone": "+33 1 55 28 51 82",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Servan&query_place_id=ChIJDxNp1_Bt5kcRfBQ1nlGxQoQ"
-  },
-  {
-    "id": "le-gabriel-paris-8e",
-    "name": "Le Gabriel",
-    "address": "7 Rue du Garet, 69001 Lyon, France",
-    "city": "Paris 8e",
-    "country": "France",
-    "coordinates": {
-      "lat": 45.7669381,
-      "lng": 4.8369146
-    },
-    "cuisine_type": "Francais gastronomique",
-    "price_range": "€€€€",
-    "vibe": "gastronomique",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Irwin Durand",
-        "chef_restaurant": "Le Chiberta (1 etoile Michelin)",
-        "quote": "Best technician; his accuracy and sense of taste are magnificent",
-        "source": "Fodors - A Chef's Guide to Eating in Paris",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqD2kpwa5La9468ZTs5FuuxCcpw2V6pBSuoCEhAW3vypC17GSCM3Me3JT49NhFuVdSn_FMZ6Mg8p_DuUIoHe0ZSEIzdVHDxxr1gbEztMCLQx1jU7kuMUXvxOU9Me8fJVHJPeoUFaA=w532-h240-k-no",
-    "rating": 4.6,
-    "reviews_count": 1165,
-    "phone": "+33 4 78 28 16 94",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Garet&query_place_id=ChIJgXOHF_nq9EcRrTM_YPPMzI4"
-  },
-  {
     "id": "pertinence-paris",
     "name": "Pertinence",
     "address": "31 Av. Franklin Delano Roosevelt, 75008 Paris, France",
@@ -6517,7 +5559,7 @@
     "id": "parcelles-paris-haut-marais",
     "name": "Parcelles",
     "address": "1 Rue Commines, 75003 Paris, France",
-    "city": "Paris (Haut Marais)",
+    "city": "Paris",
     "country": "France",
     "coordinates": {
       "lat": 48.8617412,
@@ -6536,256 +5578,24 @@
         "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Alexander Lobrano",
+        "chef_restaurant": "Auteur de Hungry for Paris",
+        "quote": "Timeless Parisian atmosphere. Best creme brulee in the city.",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqbMXB9o_1XyWE_aLt22FCygFfzoPXPqpkD-0OtlgHHq7P804BLc2yaVCcGoVFZ_tp-tfWAI1xA9rrqJFU7T86rZCyFh979QvMeZf8YrZsUHkdojHMg1Uazo0AI0J7djUBnhC81=w408-h306-k-no",
     "rating": 4.3,
     "reviews_count": 1546,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Mary%20Celeste&query_place_id=ChIJh8xrJAdu5kcRa9A63MddGww"
-  },
-  {
-    "id": "le-chardenoux-paris-11e",
-    "name": "Le Chardenoux",
-    "address": "3 Rue Bachaumont, 75002 Paris, France",
-    "city": "Paris 11e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8658229,
-      "lng": 2.3464376
-    },
-    "cuisine_type": "Francais traditionnel / Creatif",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Cyril Lignac (proprietaire)",
-        "chef_restaurant": "Le Chardenoux / Cyril Lignac",
-        "quote": "Its original decor has been beautifully restored and provides the perfect backdrop for an equally extraordinary meal",
-        "source": "French Style - Grand Chef Petit Prix",
-        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
-        "date": "2021",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqF3gVgwfnF13H-g28VefJR-3JCjmaNkSOJ8xCYtpBWa5wIjkoGNC6W9v09lkUr25jkIpsiciw0s2-SLZzhi8jP61_KiXRv14Qubet9J1tqtRdPN-FbqqyI1rMEdU63UPWfpshNmJP8rE9k=w426-h240-k-no",
-    "rating": 4.6,
-    "reviews_count": 538,
-    "phone": "+33 1 40 20 08 74",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Chardonnay&query_place_id=ChIJ9YDF72Zv5kcRz6IOKoHPaOA"
-  },
-  {
-    "id": "brasserie-thoumieux-paris-7e",
-    "name": "Brasserie Thoumieux",
-    "address": "79 Rue Saint-Dominique, 75007 Paris, France",
-    "city": "Paris 7e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8595985,
-      "lng": 2.3088076
-    },
-    "cuisine_type": "Brasserie francaise traditionnelle",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Francois Vallejo (chef)",
-        "chef_restaurant": "Thoumieux",
-        "quote": "Thoumieux offers everything one could want in brasserie fare",
-        "source": "French Style - Grand Chef Petit Prix",
-        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
-        "date": "2021",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo56AUoFoey27S_N_UR2wrNwyjen44iriz1yeBOibHd2RjaVlzchIZBbLPQKAi5xzspqCslFSvcV7_TxEaMMOeSx26E0KmOnyJEyxTiXX_rYRW0nLpJKAyz_pKD4QFxzD7YQNer_Q=w408-h306-k-no",
-    "rating": 4.1,
-    "reviews_count": 767,
-    "phone": "+33 1 47 05 79 00",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thoumieux&query_place_id=ChIJGxsDsdlv5kcR_8x_z1iaRIo"
-  },
-  {
-    "id": "allard-paris-6e",
-    "name": "Allard",
-    "address": "41 Rue Saint-André des Arts, 75006 Paris, France",
-    "city": "Paris 6e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8533444,
-      "lng": 2.3410139
-    },
-    "cuisine_type": "Bistrot gastronomique",
-    "price_range": "€€€",
-    "vibe": "gastronomique",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Alain Ducasse (proprietaire)",
-        "chef_restaurant": "Alain Ducasse",
-        "quote": "One of the last authentic French gourmet bistros",
-        "source": "French Style - Grand Chef Petit Prix",
-        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
-        "date": "2021",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHPm-bSbY0kMwNLiECKyhpmAsRutg6JpnCqQ4xiEHR1lJhbjkZZ_NSSGApPnvG985Je2NsL53JSthhylowDUhRYki6HBMyzgtdDKG8a-aamm9B_JWJDbJEqTZLsw7bE9jtfhgtNt3DErQKq=w408-h528-k-no",
-    "rating": 4.3,
-    "reviews_count": 1251,
-    "phone": "+33 1 43 26 48 23",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Allard&query_place_id=ChIJfdZi-d5x5kcR2Ez_J64oZWY"
-  },
-  {
-    "id": "benoit-paris-4e",
-    "name": "Benoit",
-    "address": "20 Rue Saint-Martin, 75004 Paris, France",
-    "city": "Paris 4e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8584202,
-      "lng": 2.3500687
-    },
-    "cuisine_type": "Bouchon lyonnais / Francais traditionnel",
-    "price_range": "€€€",
-    "vibe": "bistrot",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Alain Ducasse (proprietaire)",
-        "chef_restaurant": "Alain Ducasse",
-        "quote": "Truly one of the most charming Belle Epoque bistrots in Paris",
-        "source": "French Style - Grand Chef Petit Prix",
-        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
-        "date": "2021",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweptPmcsNcs6coabLfCJOb6Ug7OYLI8NNUy3IW_WnnwRuixwB301DeMhsvrfd-QZ3XMOtPJapJw6NsS1dAmszRJfMyBZzht7w9ImvYqh05ly9eQs7ZsF6Yn5nSIKLp9XRwhapYye=w408-h408-k-no",
-    "rating": 4.3,
-    "reviews_count": 2846,
-    "phone": "+33 1 42 72 25 76",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Benoit%20Paris&query_place_id=ChIJQ0bNfR5u5kcR9Z0i41-E7sg"
-  },
-  {
-    "id": "candelaria-paris-marais",
-    "name": "Candelaria",
-    "address": "52 Rue de Saintonge, 75003 Paris, France",
-    "city": "Paris (Marais)",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8629825,
-      "lng": 2.3640307
-    },
-    "cuisine_type": "Tacos / Bar a cocktails",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Josh Fontaine (proprietaire)",
-        "chef_restaurant": "Candelaria",
-        "quote": "No-frills taco spot with a killer bar",
-        "source": "Service95 - Where to Eat in Paris",
-        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerskvHjcc0coltiw5ss0v0aj_-JvZDbnYCKSl06ZH5cRnCQmI3IGjvvYPSMg8whxu0tOSzWp1blUm71JYxNW7-B_aTle5yKTkBkwcKwvUEKES-6FbmFdPtzuX4wnWN0FIqj6KIt=w408-h272-k-no",
-    "rating": 4.4,
-    "reviews_count": 3013,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Candelaria&query_place_id=ChIJ5-Wt8AZu5kcRwI6zQEwdXv4"
-  },
-  {
-    "id": "localino-paris-odeon",
-    "name": "Localino",
-    "address": "10 Rue de l'Odéon, 75006 Paris, France",
-    "city": "Paris (Odeon)",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8510442,
-      "lng": 2.3385414
-    },
-    "cuisine_type": "Italien",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [
-      "italien"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Etheliya Hananova",
-        "chef_restaurant": "Comice",
-        "quote": "It's a chic little Italian place in the Odeon neighborhood",
-        "source": "Tripadvisor - Where chefs eat in Paris",
-        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF53cyr0At7mgMEiGwUJ4mapeFeZnVqkIkaFNOIfDC8LGEzQ0oOSZFS4bnQZAihxW7rAcxZDonkNfd8GkW3sVLl8VVNo6ST1e0kImtPc1FcNAFcg58sPRqJ_TLAGfLrXHD7XWqtFw=w408-h544-k-no",
-    "rating": 4.3,
-    "reviews_count": 335,
-    "phone": "+33 1 43 54 97 17",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Localino&query_place_id=ChIJS72j9xlx5kcRN6Lgmkb_wZ8"
-  },
-  {
-    "id": "la-maison-pourpe-paris-belleville",
-    "name": "La Maison Pourpe",
-    "address": "13 Rue Louis Bonnet, 75011 Paris, France",
-    "city": "Paris (Belleville)",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8709558,
-      "lng": 2.3765432
-    },
-    "cuisine_type": "Chinois",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [
-      "chinois"
-    ],
-    "recommendations": [
-      {
-        "chef_name": "Marcin Krol",
-        "chef_restaurant": "Cypsele",
-        "quote": "My favorite Chinese restaurant in the city",
-        "source": "Something Curated - Chef's Guide Paris",
-        "source_url": "https://somethingcurated.com/2025/12/05/paris-best-restaurants-chef-insider-guide-marcin-krol/",
-        "date": "2025",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUO14j_LoThgdPUi7PGhRumnmUywJsHpcoy7R12JJ1T9PfLrFOOH0j7kqCF-RDxINOSFE46B1buUH4QZdtC4O_lZT8jeiDiiiIXOoNVMxm2Xojb45sqSV1NVuhjJHQvJDQoL9OqQ=w408-h544-k-no",
-    "rating": 4.3,
-    "reviews_count": 119,
-    "phone": "+33 9 54 44 95 08",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Maison%20Pourpre&query_place_id=ChIJyxtHgOZt5kcRN-qu7eVD4Mw"
   },
   {
     "id": "tekes-paris",
@@ -6819,73 +5629,6 @@
     "last_updated": "2025-01-15"
   },
   {
-    "id": "bistrot-des-vosges-paris-marais",
-    "name": "Bistrot des Vosges",
-    "address": "31 Bd Beaumarchais, 75004 Paris, France",
-    "city": "Paris (Marais)",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8557294,
-      "lng": 2.3682196
-    },
-    "cuisine_type": "Francais traditionnel",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Zohar Sasson",
-        "chef_restaurant": "Kapara",
-        "quote": "Super traditional, for onion soup",
-        "source": "Tripadvisor - Where chefs eat in Paris",
-        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepjyk9eZrn7OKruyjiLp-cHAdxyWvxB4jBRCNLfOyEQJzsi_-enKCTmRi-c36ltaiX8RKCF403PV2LfKwBngaZGrlefC-tcBChiPVQ3X-Agg3Y-V9RWYR-WRxqP-wqi1lNse7EQ7g=w408-h270-k-no",
-    "rating": 4.5,
-    "reviews_count": 1199,
-    "phone": "+33 1 42 72 94 85",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bistrot%20des%20Vosges&query_place_id=ChIJu4LbdABy5kcRLjZl_ztRmkI"
-  },
-  {
-    "id": "parcelles-paris",
-    "name": "Parcelles",
-    "address": "1 Rue Commines, 75003 Paris, France",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8617412,
-      "lng": 2.3650124
-    },
-    "cuisine_type": "Bar a vins / Cuisine francaise",
-    "price_range": "€€",
-    "vibe": "bar à vins",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Alexander Lobrano",
-        "chef_restaurant": "Auteur de Hungry for Paris",
-        "quote": "Timeless Parisian atmosphere. Best creme brulee in the city.",
-        "source": "Fodors - A Chef's Guide to Eating in Paris",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqbMXB9o_1XyWE_aLt22FCygFfzoPXPqpkD-0OtlgHHq7P804BLc2yaVCcGoVFZ_tp-tfWAI1xA9rrqJFU7T86rZCyFh979QvMeZf8YrZsUHkdojHMg1Uazo0AI0J7djUBnhC81=w408-h306-k-no",
-    "rating": 4.3,
-    "reviews_count": 1546,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Mary%20Celeste&query_place_id=ChIJh8xrJAdu5kcRa9A63MddGww"
-  },
-  {
     "id": "le-winstub-du-chambard-kaysersberg-alsace",
     "name": "Le Winstub du Chambard",
     "address": "19 Rue de Toulouse, 35400 Saint-Malo, France",
@@ -6911,7 +5654,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAlx7wA2ZI_-j9QJHmazck7a2HmCsX2PCbx5Fmrz0pR8fEpvy7CXUmIb7qZKeYhKmhwj2UWSeDrGGySc9JZZp25GJ94qF0GzAxoxqzIxRYI0G0tMMyCwZyYuQtZh-Mvs1PwqAU6A=w408-h306-k-no",
     "rating": 4.7,
@@ -6945,7 +5688,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqIq5iWKOkcmpy0FtOijLYJgAW9vJ2KMayhhBm74RNuiJrzqJNXvs9cDgGQdJcTWqJHWAZt2AGF6sDfXbeU5zfdo-zk5UZD4ijkuRS0x71E9apVytKX3FVy9-zbZ27knwLvGmU5ew9iccbM=w408-h306-k-no",
     "rating": 4.6,
@@ -6979,7 +5722,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfjWYL3XGSOtMQR3KDhkv2gLoWBnpLRWxsN8Wfgo7x_MRa_rwftEU4votnZKvGqo0NdEFL3OUpuPGh3LX5GTFQyA31O6lN-E03kOiCyvUyPsJmu5_pjDY2VG0BdLX8B_4QLDU=w408-h272-k-no",
     "rating": 4.4,
@@ -7013,7 +5756,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
     "rating": 4,
@@ -7047,7 +5790,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3rHbZcIPWyE9WOeLFbK17ZELcuPCM5k2v_lKdFF0-f8OiDkhdMYltBP6Ocfe3enbwtG-BJvRtZAF5PkjVyRGYaW5hKKgTJ-bWpfTocAXYTzi5U9c6Gv0c-rahobt6nnXJjmT2=w408-h405-k-no",
     "rating": 4.7,
@@ -7071,7 +5814,7 @@
     "tags": [],
     "recommendations": [
       {
-        "chef_name": "Bertrand Grebaut",
+        "chef_name": "Bertrand Grébaut",
         "chef_restaurant": "Septime",
         "quote": "",
         "source": "Service95 - Where to Eat in Paris",
@@ -7081,7 +5824,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3ga7GUIP7TayFwilPW8JyXdY085ufQgjPdtYC2pFAxtJHRhlz4FrAu5rJkSh1qkfx_B1ddPJubnnMgsQwqvHFl62myoyT6BqKwhsM1IrLqBRypYjsFHZT2xdXc5XnR25Kl5cJEQ=w427-h240-k-no",
     "rating": 4.2,
@@ -7115,80 +5858,12 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 35,
+    "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
     "rating": 4,
     "reviews_count": 1508,
     "phone": "+33 5 56 79 76 58",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Commerce&query_place_id=ChIJU3eUL9AnVQ0RFzulhFPb2_c"
-  },
-  {
-    "id": "lao-siam-paris-19e",
-    "name": "Lao Siam",
-    "address": "49 Rue de Belleville, 75019 Paris, France",
-    "city": "Paris 19e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8731472,
-      "lng": 2.3809389
-    },
-    "cuisine_type": "Laotien / Thai",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Dimitri Gris, Edward Delling-Williams",
-        "chef_restaurant": "Chez Marius / Le Grand Bain",
-        "quote": "",
-        "source": "Fodors - Paris Chefs Share Their Favorite Restaurants",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 35,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF6F515F_F3BodTuxPUEcJXdXMTcPzAtAslQetA-8kq56HE-i8q2yAK-jMSFlKvZpDNtgC9u0HfeGQ2ku0MDaYB9_VxwZmjV2zQ4pOPOQlnjGPw7RDPp0O98VgfRJwsesudnn13D1ostTg1=w408-h306-k-no",
-    "rating": 4.3,
-    "reviews_count": 1721,
-    "phone": "+33 1 40 40 09 68",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lao%20Siam&query_place_id=ChIJbzglYOht5kcR3kcbx_uOXX0"
-  },
-  {
-    "id": "lazare-paris-8e",
-    "name": "LAZARE",
-    "address": "85 Rue Mouffetard, 75005 Paris, France",
-    "city": "Paris 8e",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8418388,
-      "lng": 2.3497867
-    },
-    "cuisine_type": "Francais / Cuisine de maison",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Eric Frechon (proprietaire)",
-        "chef_restaurant": "Epicure (3 etoiles Michelin, Bristol)",
-        "quote": "",
-        "source": "French Style - Grand Chef Petit Prix",
-        "source_url": "https://jeanninebergeron.com/2021/12/grand-chef-petit-prix-brasseries-and-bistros-of-paris/",
-        "date": "2021",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 35,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3rHbZcIPWyE9WOeLFbK17ZELcuPCM5k2v_lKdFF0-f8OiDkhdMYltBP6Ocfe3enbwtG-BJvRtZAF5PkjVyRGYaW5hKKgTJ-bWpfTocAXYTzi5U9c6Gv0c-rahobt6nnXJjmT2=w408-h405-k-no",
-    "rating": 4.7,
-    "reviews_count": 3006,
-    "phone": "+33 1 43 31 30 47",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Cr%C3%A8te&query_place_id=ChIJY57vuu5x5kcRvqnzn6Px2AA"
   }
 ]
