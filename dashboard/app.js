@@ -312,7 +312,16 @@ function initMap() {
 
   map.addLayer(clusterGroup);
 
-  // Close preview when clicking on map
+  // Update carousel when map moves or zooms
+  var carouselUpdateTimeout = null;
+  map.on('moveend zoomend', function() {
+    clearTimeout(carouselUpdateTimeout);
+    carouselUpdateTimeout = setTimeout(function() {
+      if (!carouselScrolling) updateCarousel();
+    }, 300);
+  });
+
+  // Close preview when clicking empty map area
   map.on('click', function() {
     document.getElementById('map-preview').style.display = 'none';
   });
@@ -328,9 +337,13 @@ function initMap() {
   buildMapFilters();
 }
 
-function showMapPreview(r) {
-  var el = document.getElementById('map-preview');
-  el.style.display = 'block';
+// ── CAROUSEL ──
+var carouselItems = [];
+var carouselIndex = 0;
+var carouselTouchStartX = 0;
+var carouselScrolling = false;
+
+function buildPreviewCard(r) {
   var photoHtml = r.photo_url
     ? '<img src="' + r.photo_url + '" class="w-full h-full object-cover" alt="' + escapeHtml(r.name) + '"/>'
     : '<div class="w-full h-full bg-surface-container-high flex items-center justify-center"><span class="material-symbols-outlined text-[40px] text-outline/30">restaurant</span></div>';
@@ -344,20 +357,140 @@ function showMapPreview(r) {
     chefsAvatars += '<div class="w-6 h-6 rounded-full bg-primary-container flex items-center justify-center text-[10px] font-bold text-on-primary-fixed border border-surface-container-low">+' + (r.recommendation_count - 2) + '</div>';
   }
 
-  el.innerHTML =
+  return '<div class="carousel-card flex-shrink-0 w-[85vw] max-w-[380px] snap-center" data-id="' + escapeHtml(r.id) + '">' +
     '<div onclick="showDetail(\'' + escapeAttr(r.id) + '\')" class="bg-surface-container-low/90 backdrop-blur-2xl rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,.5)] border border-outline-variant/10 flex cursor-pointer active:scale-[.98] transition-transform">' +
-      '<div class="w-32 h-32 flex-shrink-0 overflow-hidden">' + photoHtml + '</div>' +
-      '<div class="flex-1 p-5 flex flex-col justify-center">' +
-        '<div class="flex justify-between items-start">' +
-          '<div><h2 class="text-lg font-headline font-bold text-on-surface tracking-tight">' + escapeHtml(r.name) + '</h2><p class="text-sm text-outline font-label uppercase tracking-widest mt-1">' + escapeHtml(r.cuisine_type) + ' · ' + r.price_range + '</p></div>' +
-          '<span class="material-symbols-outlined text-primary">bookmark</span>' +
+      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden">' + photoHtml + '</div>' +
+      '<div class="flex-1 p-4 flex flex-col justify-center min-w-0">' +
+        '<div class="flex justify-between items-start gap-2">' +
+          '<div class="min-w-0"><h2 class="text-base font-headline font-bold text-on-surface tracking-tight truncate">' + escapeHtml(r.name) + '</h2><p class="text-xs text-outline font-label uppercase tracking-widest mt-0.5 truncate">' + escapeHtml(r.cuisine_type) + ' · ' + r.price_range + '</p></div>' +
+          '<span class="material-symbols-outlined text-primary flex-shrink-0 text-xl">bookmark</span>' +
         '</div>' +
-        '<div class="mt-4 flex items-center gap-3">' +
+        '<div class="mt-3 flex items-center gap-2">' +
           '<div class="flex -space-x-2">' + chefsAvatars + '</div>' +
-          '<span class="text-xs font-label font-semibold text-primary uppercase tracking-tighter">Chosen by ' + r.recommendation_count + ' Chef' + (r.recommendation_count > 1 ? 's' : '') + '</span>' +
+          '<span class="text-[10px] font-label font-semibold text-primary uppercase tracking-tighter">Chosen by ' + r.recommendation_count + ' Chef' + (r.recommendation_count > 1 ? 's' : '') + '</span>' +
         '</div>' +
       '</div>' +
-    '</div>';
+    '</div>' +
+  '</div>';
+}
+
+function getVisibleRestaurants() {
+  if (!map) return [];
+  var bounds = map.getBounds();
+  var visible = [];
+  for (var i = 0; i < restaurants.length; i++) {
+    var r = restaurants[i];
+    if (!r.coordinates) continue;
+    // Check if marker is in cluster group (not filtered out)
+    if (!markers[r.id]) continue;
+    if (!clusterGroup.hasLayer(markers[r.id])) continue;
+    if (bounds.contains([r.coordinates.lat, r.coordinates.lng])) {
+      visible.push(r);
+    }
+  }
+  // Sort by score
+  visible.sort(function(a, b) { return (b.confidence_score || 0) - (a.confidence_score || 0); });
+  return visible;
+}
+
+function updateCarousel() {
+  var el = document.getElementById('map-preview');
+  var visible = getVisibleRestaurants();
+  carouselItems = visible;
+
+  if (visible.length === 0) {
+    el.style.display = 'none';
+    return;
+  }
+
+  el.style.display = 'block';
+
+  // Dots indicator
+  var dotsHtml = '';
+  if (visible.length > 1 && visible.length <= 20) {
+    dotsHtml = '<div class="flex justify-center gap-1.5 mt-2">';
+    for (var i = 0; i < Math.min(visible.length, 10); i++) {
+      dotsHtml += '<div class="carousel-dot w-1.5 h-1.5 rounded-full ' + (i === 0 ? 'bg-primary' : 'bg-outline/30') + '" data-index="' + i + '"></div>';
+    }
+    if (visible.length > 10) dotsHtml += '<span class="text-[9px] text-outline ml-1">+' + (visible.length - 10) + '</span>';
+    dotsHtml += '</div>';
+  }
+
+  // Cards
+  var cardsHtml = '';
+  for (var i = 0; i < visible.length; i++) {
+    cardsHtml += buildPreviewCard(visible[i]);
+  }
+
+  el.innerHTML =
+    '<div class="carousel-container flex gap-3 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-1" id="carousel-scroll">' +
+      cardsHtml +
+    '</div>' +
+    dotsHtml;
+
+  // Scroll listener to highlight pin and update dots
+  var scrollEl = document.getElementById('carousel-scroll');
+  if (scrollEl) {
+    scrollEl.addEventListener('scroll', onCarouselScroll);
+  }
+}
+
+function onCarouselScroll() {
+  var scrollEl = document.getElementById('carousel-scroll');
+  if (!scrollEl || carouselScrolling) return;
+
+  var cardWidth = scrollEl.firstElementChild ? scrollEl.firstElementChild.offsetWidth + 12 : 300;
+  var newIndex = Math.round(scrollEl.scrollLeft / cardWidth);
+  if (newIndex === carouselIndex) return;
+  carouselIndex = newIndex;
+
+  // Update dots
+  var dots = document.querySelectorAll('.carousel-dot');
+  for (var i = 0; i < dots.length; i++) {
+    if (i === newIndex) {
+      dots[i].classList.remove('bg-outline/30');
+      dots[i].classList.add('bg-primary');
+    } else {
+      dots[i].classList.remove('bg-primary');
+      dots[i].classList.add('bg-outline/30');
+    }
+  }
+
+  // Pan map to current card's restaurant
+  if (carouselItems[newIndex] && carouselItems[newIndex].coordinates) {
+    var r = carouselItems[newIndex];
+    map.panTo([r.coordinates.lat, r.coordinates.lng], { animate: true, duration: 0.3 });
+  }
+}
+
+function showMapPreview(r) {
+  // Show carousel and scroll to the clicked restaurant
+  updateCarousel();
+
+  var scrollEl = document.getElementById('carousel-scroll');
+  if (!scrollEl) return;
+
+  // Find index of clicked restaurant in carousel
+  var targetIndex = -1;
+  for (var i = 0; i < carouselItems.length; i++) {
+    if (carouselItems[i].id === r.id) { targetIndex = i; break; }
+  }
+
+  if (targetIndex >= 0) {
+    var cardWidth = scrollEl.firstElementChild ? scrollEl.firstElementChild.offsetWidth + 12 : 300;
+    carouselScrolling = true;
+    scrollEl.scrollTo({ left: targetIndex * cardWidth, behavior: 'smooth' });
+    carouselIndex = targetIndex;
+    setTimeout(function() { carouselScrolling = false; }, 400);
+
+    // Update dots
+    var dots = document.querySelectorAll('.carousel-dot');
+    for (var i = 0; i < dots.length; i++) {
+      if (i === targetIndex) { dots[i].classList.remove('bg-outline/30'); dots[i].classList.add('bg-primary'); }
+      else { dots[i].classList.remove('bg-primary'); dots[i].classList.add('bg-outline/30'); }
+    }
+  }
+
   if (map.getZoom() < 12) {
     map.setView([r.coordinates.lat, r.coordinates.lng], 14, { animate: true });
   } else {
