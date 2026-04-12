@@ -6,6 +6,7 @@ let currentSort = 'score';
 let activeFilters = { city: '', price: '' };
 let map, markers = {}, currentScreen = 'explore';
 window.restaurants = [];
+var detailHistory = [];
 
 // ── INIT ──
 async function initApp() {
@@ -16,6 +17,8 @@ async function initApp() {
   } catch (e) {
     console.error('Data load error:', e);
     window.restaurants = [];
+    var mapEl = document.getElementById('map');
+    if (mapEl) mapEl.innerHTML = '<div class="flex items-center justify-center h-full text-outline text-sm">Impossible de charger les données. Réessayez plus tard.</div>';
     return;
   }
 
@@ -79,6 +82,7 @@ function toggleDrawer() {
 // ── NAVIGATION ──
 function showScreen(name) {
   if (name !== 'detail') {
+    detailHistory = [];
     var detailEl = document.getElementById('screen-detail');
     if (detailEl) detailEl.classList.remove('active', 'screen-enter');
   }
@@ -173,14 +177,23 @@ function showDetail(id) {
       '</section>' +
     '</main>';
 
+  detailHistory.push({ type: 'restaurant', id: id });
   document.getElementById('screen-detail').classList.add('active', 'screen-enter');
   document.getElementById('screen-detail').scrollTop = 0;
 }
 
 function goBack() {
-  document.getElementById('screen-detail').classList.remove('active', 'screen-enter');
-  if (window.Telegram && window.Telegram.WebApp) {
-    try { window.Telegram.WebApp.BackButton.hide(); } catch(e) {}
+  detailHistory.pop(); // Remove current screen
+  if (detailHistory.length > 0) {
+    var prev = detailHistory[detailHistory.length - 1];
+    detailHistory.pop(); // Will be re-pushed by show function
+    if (prev.type === 'chef') showChefDetail(prev.name);
+    else showDetail(prev.id);
+  } else {
+    document.getElementById('screen-detail').classList.remove('active', 'screen-enter');
+    if (window.Telegram && window.Telegram.WebApp) {
+      try { window.Telegram.WebApp.BackButton.hide(); } catch(e) {}
+    }
   }
 }
 
@@ -254,6 +267,7 @@ function showChefDetail(chefName) {
       '</section>' +
     '</main>';
 
+  detailHistory.push({ type: 'chef', name: chefName });
   document.getElementById('screen-detail').classList.add('active', 'screen-enter');
   document.getElementById('screen-detail').scrollTop = 0;
 }
@@ -416,9 +430,10 @@ function updateCarousel() {
     dotsHtml += '</div>';
   }
 
-  // Cards
+  // Cards (limit to 30 for performance)
+  var maxCards = Math.min(visible.length, 30);
   var cardsHtml = '';
-  for (var i = 0; i < visible.length; i++) {
+  for (var i = 0; i < maxCards; i++) {
     cardsHtml += buildPreviewCard(visible[i]);
   }
 
@@ -558,7 +573,8 @@ function filterMapCity(btn, city) {
       map.fitBounds(L.latLngBounds(cityCoords), { padding: [80, 80], maxZoom: 15 });
     }
   }
-  document.getElementById('map-preview').style.display = 'none';
+  // Reset carousel after filter change (moveend will also trigger updateCarousel)
+  updateCarousel();
 }
 
 function onMapSearch(e) {
