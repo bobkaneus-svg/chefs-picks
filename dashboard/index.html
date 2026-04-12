@@ -5,198 +5,546 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
 <title>Chefs' Picks</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
-<link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" rel="stylesheet"/>
-<link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script>
 tailwind.config={darkMode:"class",theme:{extend:{
-  colors:{"primary-fixed-dim":"#fdba49","surface-container-high":"#2a2a2a","surface-bright":"#3a3939","outline-variant":"#504535","outline":"#9d8e7c","surface-container-highest":"#353534","on-surface-variant":"#d5c4af","on-surface":"#e5e2e1","background":"#131313","surface":"#131313","surface-container":"#201f1f","on-primary":"#432c00","surface-container-lowest":"#0e0e0e","primary-fixed":"#ffddaf","tertiary":"#cec9ff","secondary":"#cdc5bc","surface-container-low":"#1c1b1b","primary-container":"#e8a838","secondary-container":"#4b463f","surface-variant":"#353534","on-secondary-container":"#bbb4ab","on-background":"#e5e2e1","primary":"#ffc66b","on-primary-fixed":"#281800","on-primary-container":"#5f3f00","on-primary-fixed-variant":"#614000","tertiary-container":"#b0aaff"},
-  fontFamily:{headline:["Plus Jakarta Sans"],body:["Manrope"],label:["Manrope"]}
+colors:{
+"surface-high":"#2a2a2a","surface-highest":"#353534","surface-low":"#1c1b1b",
+"surface-container":"#201f1f","surface-lowest":"#0e0e0e",
+"outline":"#9d8e7c","outline-var":"#504535",
+"on-surface":"#e5e2e1","on-surface-var":"#d5c4af",
+"bg":"#131313","gold":"#e8a838","gold-light":"#ffc66b","gold-dark":"#281800",
+"badge-purple":"#cec9ff","badge-purple-bg":"rgba(206,201,255,.12)"
+},
+fontFamily:{headline:["Plus Jakarta Sans"],body:["Manrope"],label:["Manrope"]}
 }}}
 </script>
 <style>
-:root {
-  --safe-top: calc(env(safe-area-inset-top, 0px) + var(--tg-content-safe-area-inset-top, 0px));
-  --safe-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--tg-content-safe-area-inset-bottom, 0px));
-  --safe-bottom-raw: env(safe-area-inset-bottom, 0px);
-}
-.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 300,'GRAD' 0,'opsz' 24}
-.serif-quote{font-family:'Times New Roman',serif;font-style:italic}
-.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}
-body{min-height:100dvh;overflow:hidden;background:#131313}
-a{text-decoration:none}
-.screen{display:none;position:fixed;inset:0;z-index:10;background:#131313;overflow-y:auto;
-  padding-top:var(--safe-top);padding-bottom:var(--safe-bottom)}
-.screen.active{display:block}
-.screen-enter{animation:slideIn .3s ease-out}
-@keyframes slideIn{from{transform:translateX(100%)}to{transform:translateX(0)}}
-/* Fixed headers: account for safe area top */
-.app-header{position:fixed;top:0;width:100%;z-index:50;
-  padding-top:calc(var(--safe-top) + 8px);height:calc(64px + var(--safe-top));
-  background:rgba(19,19,19,.6);backdrop-filter:blur(12px);
-  display:flex;justify-content:space-between;align-items:center;padding-left:24px;padding-right:24px}
-/* Search bar below header: offset by safe area */
-.search-area{position:fixed;left:0;right:0;z-index:30;
-  top:calc(80px + var(--safe-top));padding-left:24px;padding-right:24px}
-/* Bottom nav: account for safe area bottom */
-.bottom-nav{position:fixed;bottom:0;width:100%;z-index:50;
-  padding-top:12px;padding-bottom:calc(12px + var(--safe-bottom-raw));
-  padding-left:16px;padding-right:16px;
-  background:rgba(19,19,19,.8);backdrop-filter:blur(16px);
-  border-top-left-radius:16px;border-top-right-radius:16px;
-  display:flex;justify-content:space-around;align-items:center;
-  box-shadow:0 -20px 40px rgba(0,0,0,.15)}
-/* Map preview: above bottom nav + safe area */
-.map-preview-area{position:fixed;left:0;right:0;z-index:30;
-  bottom:calc(80px + var(--safe-bottom-raw));padding-left:24px;padding-right:24px}
-/* FAB: above bottom nav + safe area */
-.fab-area{position:fixed;right:24px;z-index:40;
-  bottom:calc(96px + var(--safe-bottom-raw))}
-/* Scrollable content padding */
-.content-scroll{padding-top:calc(80px + var(--safe-top));
-  padding-bottom:calc(96px + var(--safe-bottom-raw))}
-.content-scroll-search{padding-top:calc(140px + var(--safe-top));
-  padding-bottom:calc(96px + var(--safe-bottom-raw))}
-/* Drawer safe area */
-.drawer-content{padding-top:calc(32px + var(--safe-top));
-  padding-bottom:calc(32px + var(--safe-bottom-raw))}
-/* Leaflet */
+:root{--st:calc(env(safe-area-inset-top,0px) + var(--tg-content-safe-area-inset-top,0px));--sb:env(safe-area-inset-bottom,0px)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#131313;color:#e5e2e1;font-family:Manrope,sans-serif;height:100dvh;overflow:hidden}
+a{text-decoration:none;color:inherit}
+.icon{font-family:'Material Symbols Outlined';font-variation-settings:'FILL' 0,'wght' 300;font-size:24px}
+.icon-fill{font-variation-settings:'FILL' 1,'wght' 300}
+.serif{font-family:'Times New Roman',serif;font-style:italic}
+.noscroll::-webkit-scrollbar{display:none}.noscroll{-ms-overflow-style:none;scrollbar-width:none}
+
+/* Views */
+.view{display:none;position:fixed;inset:0;background:#131313;overflow-y:auto;z-index:10}
+.view.on{display:block}
+.view-slide{animation:.25s slideR}
+@keyframes slideR{from{transform:translateX(100%)}to{transform:translateX(0)}}
+
+/* Header */
+.hdr{position:fixed;top:0;left:0;right:0;z-index:50;height:calc(56px + var(--st));padding-top:var(--st);
+background:rgba(19,19,19,.7);backdrop-filter:blur(14px);display:flex;align-items:center;justify-content:space-between;padding-left:20px;padding-right:20px}
+
+/* Bottom nav */
+.bnav{position:fixed;bottom:0;left:0;right:0;z-index:50;
+padding:10px 0 calc(8px + var(--sb));
+background:rgba(19,19,19,.85);backdrop-filter:blur(14px);border-top-left-radius:16px;border-top-right-radius:16px;
+display:flex;justify-content:space-around;align-items:center}
+.bnav a{display:flex;flex-direction:column;align-items:center;color:#9d8e7c;font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-family:Manrope;cursor:pointer;transition:.2s}
+.bnav a.on{color:#ffc66b;font-weight:700;transform:scale(1.08)}
+.bnav a .icon{font-size:24px}
+
+/* Map */
 .leaflet-container{background:#0e0e0e!important}
 .leaflet-tile{filter:brightness(.35) saturate(0) contrast(1.4)}
 .leaflet-control-zoom,.leaflet-control-attribution{display:none!important}
-.map-gradient-overlay{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(circle at center,transparent 0%,rgba(19,19,19,.4) 100%)}
+.map-fade{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(circle,transparent 0%,rgba(19,19,19,.35) 100%)}
+
 /* Pins */
-.pin-wrap{display:flex;flex-direction:column;align-items:center;cursor:pointer}
-.pin-wrap:hover .pin-circle{transform:scale(1.15)}
-.pin-circle{transition:transform .2s;display:flex;align-items:center;justify-content:center;border-radius:50%;font-weight:700;font-family:'Manrope'}
-.pin-stem{margin-top:-1px}
-.pin-hot .pin-circle{background:#e8a838;color:#281800;border:4px solid #131313;box-shadow:0 0 20px rgba(232,168,56,.4)}
-.pin-hot .pin-stem{width:4px;height:12px;background:#e8a838}
-.pin-warm .pin-circle{background:#353534;color:#ffc66b;border:2px solid rgba(232,168,56,.4);box-shadow:0 4px 15px rgba(0,0,0,.4)}
-.pin-warm .pin-stem{width:2px;height:8px;background:rgba(232,168,56,.4)}
-.pin-cool .pin-circle{background:#2a2a2a;color:#9d8e7c;border:2px solid #353534}
-.pin-cool .pin-stem{width:2px;height:6px;background:#353534}
-/* Cluster overrides */
-.marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{
-  background:rgba(19,19,19,.8)!important;border:2px solid rgba(232,168,56,.4)!important;
-  box-shadow:0 0 20px rgba(232,168,56,.25)}
-.marker-cluster-small div,.marker-cluster-medium div,.marker-cluster-large div{
-  background:#e8a838!important;color:#281800!important;font-family:'Manrope'!important;
-  font-weight:700!important;font-size:13px!important}
-.marker-cluster-large{border-color:#e8a838!important;box-shadow:0 0 30px rgba(232,168,56,.4)}
-.marker-cluster-large div{font-size:14px!important}
+.pin{display:flex;flex-direction:column;align-items:center;cursor:pointer}
+.pin:hover .pc{transform:scale(1.15)}
+.pc{display:flex;align-items:center;justify-content:center;border-radius:50%;font-weight:700;font-family:Manrope;transition:transform .2s}
+.ps{margin-top:-1px}
+.pin-h .pc{background:#e8a838;color:#281800;border:4px solid #131313;box-shadow:0 0 20px rgba(232,168,56,.4)}
+.pin-h .ps{width:4px;height:12px;background:#e8a838}
+.pin-w .pc{background:#353534;color:#ffc66b;border:2px solid rgba(232,168,56,.4);box-shadow:0 4px 15px rgba(0,0,0,.4)}
+.pin-w .ps{width:2px;height:8px;background:rgba(232,168,56,.4)}
+.pin-c .pc{background:#2a2a2a;color:#9d8e7c;border:2px solid #353534}
+.pin-c .ps{width:2px;height:6px;background:#353534}
+
+/* Cluster */
+.marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background:rgba(19,19,19,.8)!important;border:2px solid rgba(232,168,56,.4)!important;box-shadow:0 0 20px rgba(232,168,56,.25)}
+.marker-cluster-small div,.marker-cluster-medium div,.marker-cluster-large div{background:#e8a838!important;color:#281800!important;font-family:Manrope!important;font-weight:700!important;font-size:13px!important}
+.marker-cluster-large{border-color:#e8a838!important}
+
 /* Carousel */
-.carousel-container{scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
-.carousel-card{scroll-snap-align:center}
-.carousel-dot{transition:background .2s}
+.cscroll{scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.ccard{scroll-snap-align:center;flex-shrink:0;width:82vw;max-width:370px}
+
 /* Badges */
-.badge-presse{background:rgba(206,201,255,.12);color:#cec9ff;border:1px solid rgba(206,201,255,.15)}
-.badge-social{background:rgba(232,168,56,.12);color:#e8a838;border:1px solid rgba(232,168,56,.15)}
-.badge-podcast{background:rgba(176,170,255,.12);color:#b0aaff;border:1px solid rgba(176,170,255,.15)}
+.bp{background:rgba(206,201,255,.12);color:#cec9ff;border:1px solid rgba(206,201,255,.15)}
+.bs{background:rgba(232,168,56,.12);color:#e8a838;border:1px solid rgba(232,168,56,.15)}
+.bk{background:rgba(176,170,255,.12);color:#b0aaff;border:1px solid rgba(176,170,255,.15)}
+
+/* Utility */
+.scroll-y{padding-top:calc(56px + var(--st));padding-bottom:calc(70px + var(--sb))}
+.card-img{aspect-ratio:16/10;overflow:hidden;border-radius:16px;background:#2a2a2a}
 </style>
 </head>
-<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
 
-<!-- EXPLORE -->
-<div class="screen active" id="screen-explore">
-  <header class="app-header">
-    <span class="material-symbols-outlined text-[#e8a838] cursor-pointer active:scale-95 transition-transform" onclick="toggleDrawer()">menu</span>
-    <h1 class="text-xl tracking-widest font-light text-[#e8a838] font-headline uppercase">CHEFS' PICKS</h1>
-    <div class="w-8 h-8 rounded-full bg-surface-container-highest border border-outline-variant/30 flex items-center justify-center">
-      <span class="material-symbols-outlined text-primary text-sm">person</span>
-    </div>
-  </header>
-  <div class="search-area space-y-4">
-    <div class="w-full bg-surface-container-high/80 backdrop-blur-xl rounded-2xl p-1 flex items-center shadow-2xl border border-outline-variant/10">
-      <div class="pl-4 pr-2"><span class="material-symbols-outlined text-outline">search</span></div>
-      <input id="map-search" class="bg-transparent border-none focus:ring-0 text-on-surface placeholder:text-outline w-full py-3 font-label text-sm" placeholder="Find a hidden gem..." type="text"/>
-      <div class="pr-2"><button class="p-2 bg-surface-variant rounded-xl text-primary"><span class="material-symbols-outlined">tune</span></button></div>
-    </div>
-    <div id="map-filters" class="flex gap-2 overflow-x-auto no-scrollbar pb-2"></div>
+<body>
+<!-- ═══════ VIEW: EXPLORE ═══════ -->
+<div class="view on" id="v-explore">
+  <div class="hdr">
+    <span class="icon text-gold cursor-pointer" onclick="toggleDrawer()">menu</span>
+    <span class="text-lg tracking-[.2em] font-light text-gold font-headline uppercase">CHEFS' PICKS</span>
+    <span class="w-8 h-8 rounded-full bg-surface-highest border border-outline-var/30 flex items-center justify-center"><span class="icon text-gold text-sm">person</span></span>
   </div>
-  <div class="relative w-full h-full">
-    <div id="map" class="w-full h-full"></div>
-    <div class="map-gradient-overlay"></div>
+  <!-- Search -->
+  <div style="position:fixed;top:calc(64px + var(--st));left:0;right:0;z-index:30;padding:0 16px">
+    <div class="flex items-center bg-surface-high/80 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 mb-3">
+      <span class="icon text-outline pl-3 pr-2 text-xl">search</span>
+      <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label" placeholder="Find a hidden gem..."/>
+      <button class="p-2 bg-surface-highest/60 rounded-xl text-gold mr-1"><span class="icon text-xl">tune</span></button>
+    </div>
+    <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1"></div>
   </div>
-  <div id="map-preview" class="map-preview-area" style="display:none"></div>
-  <div class="fab-area">
-    <button class="w-14 h-14 bg-gradient-to-br from-[#e8a838] to-[#ffc66b] rounded-full shadow-2xl flex items-center justify-center text-[#281800] active:scale-90 transition-transform">
-      <span class="material-symbols-outlined" style="font-weight:700">add</span>
+  <!-- Map -->
+  <div class="w-full h-full relative"><div id="map" class="w-full h-full"></div><div class="map-fade"></div></div>
+  <!-- Carousel -->
+  <div id="iCarousel" style="position:fixed;left:0;right:0;z-index:30;bottom:calc(66px + var(--sb));padding:0 8px;display:none"></div>
+  <!-- FAB -->
+  <div style="position:fixed;right:20px;z-index:40;bottom:calc(86px + var(--sb))">
+    <button class="w-13 h-13 bg-gradient-to-br from-gold to-gold-light rounded-full shadow-2xl flex items-center justify-center text-gold-dark active:scale-90 transition-transform" style="width:52px;height:52px">
+      <span class="icon" style="font-weight:700">add</span>
     </button>
   </div>
 </div>
 
-<!-- DISCOVER -->
-<div class="screen" id="screen-discover">
-  <header class="app-header">
-    <span class="material-symbols-outlined text-[#e8a838] cursor-pointer" onclick="toggleDrawer()">menu</span>
-    <h1 class="text-xl tracking-widest font-light text-[#e8a838] font-headline uppercase">CHEFS' PICKS</h1>
-    <div class="w-8 h-8 rounded-full bg-surface-container-highest border border-outline-variant/30 flex items-center justify-center"><span class="material-symbols-outlined text-primary text-sm">person</span></div>
-  </header>
-  <main class="content-scroll px-6">
-    <div class="mb-8 space-y-4">
-      <div class="relative">
-        <div class="absolute inset-y-0 left-4 flex items-center pointer-events-none"><span class="material-symbols-outlined text-outline">search</span></div>
-        <input id="list-search" class="w-full bg-surface-container-low border-none rounded-xl py-4 pl-12 pr-4 text-on-surface focus:ring-1 focus:ring-primary/50 placeholder:text-outline/50 text-sm" placeholder="Search curated tables..." type="text"/>
-      </div>
-      <div class="flex gap-3 overflow-x-auto no-scrollbar items-center" id="list-filters"></div>
-      <div class="flex gap-2 items-center">
-        <button onclick="setSort('score')" class="sort-btn px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap flex items-center gap-1" data-sort="score">Score</button>
-        <button onclick="setSort('chefs')" class="sort-btn px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap flex items-center gap-1" data-sort="chefs">Chefs</button>
-        <button onclick="setSort('name')" class="sort-btn px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap flex items-center gap-1" data-sort="name">A-Z</button>
-        <span class="ml-auto text-xs text-outline font-label" id="list-count"></span>
-      </div>
-    </div>
-    <div class="space-y-10" id="list-cards"></div>
-  </main>
-</div>
-
-<!-- CHEFS -->
-<div class="screen" id="screen-chefs">
-  <header class="app-header">
-    <span class="material-symbols-outlined text-[#e8a838] cursor-pointer" onclick="toggleDrawer()">menu</span>
-    <h1 class="text-xl tracking-widest font-light text-[#e8a838] font-headline uppercase">CHEFS</h1>
-    <span class="text-xs text-outline font-label" id="chefs-count"></span>
-  </header>
-  <main class="content-scroll px-6">
-    <input id="chef-search" class="w-full bg-surface-container-low border-none rounded-xl py-3 pl-4 pr-4 text-on-surface focus:ring-1 focus:ring-primary/50 placeholder:text-outline/50 text-sm mb-6" placeholder="Search a chef..." type="text"/>
-    <div class="space-y-3" id="chefs-list"></div>
-  </main>
-</div>
-
-<!-- DETAIL -->
-<div class="screen" id="screen-detail"><div id="detail-content"></div></div>
-
-<!-- DRAWER -->
-<div id="drawer-overlay" class="fixed inset-0 z-[90] bg-black/50 backdrop-blur-sm hidden" onclick="toggleDrawer()"></div>
-<aside id="drawer" class="fixed inset-y-0 left-0 z-[100] transform -translate-x-full transition-transform duration-300 ease-in-out">
-  <div class="h-full w-80 rounded-r-3xl bg-[#1c1b1b] shadow-2xl flex flex-col px-8 space-y-4 drawer-content">
-    <div class="flex items-center gap-4 pb-8 mb-4 border-b border-outline-variant/10">
-      <div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center"><span class="material-symbols-outlined text-[#e8a838] text-2xl">restaurant</span></div>
-      <div><h3 class="text-[#e8a838] font-bold font-headline">Chefs' Picks</h3><p class="text-[10px] text-outline uppercase tracking-widest" id="drawer-stats"></p></div>
-    </div>
-    <nav class="space-y-2">
-      <a onclick="showScreen('explore');toggleDrawer()" class="flex items-center gap-4 p-4 text-[#e5e2e1] hover:bg-[#353534] transition-colors rounded-xl font-headline font-light cursor-pointer"><span class="material-symbols-outlined text-[#e8a838]">map</span>Explorer la carte</a>
-      <a onclick="showScreen('discover');toggleDrawer()" class="flex items-center gap-4 p-4 text-[#e5e2e1] hover:bg-[#353534] transition-colors rounded-xl font-headline font-light cursor-pointer"><span class="material-symbols-outlined text-[#e8a838]">flatware</span>Découvrir</a>
-      <a onclick="showScreen('chefs');toggleDrawer()" class="flex items-center gap-4 p-4 text-[#e5e2e1] hover:bg-[#353534] transition-colors rounded-xl font-headline font-light cursor-pointer"><span class="material-symbols-outlined text-[#e8a838]">person_pin</span>Les Chefs</a>
-    </nav>
+<!-- ═══════ VIEW: DISCOVER ═══════ -->
+<div class="view" id="v-discover">
+  <div class="hdr">
+    <span class="icon text-gold cursor-pointer" onclick="toggleDrawer()">menu</span>
+    <span class="text-lg tracking-[.2em] font-light text-gold font-headline uppercase">CHEFS' PICKS</span>
+    <span class="text-xs text-outline font-label" id="oListN"></span>
   </div>
+  <main class="scroll-y px-5 overflow-y-auto h-full">
+    <div class="mb-6 space-y-3">
+      <div class="relative">
+        <span class="icon text-outline absolute left-3 top-1/2 -translate-y-1/2 text-xl">search</span>
+        <input id="iListQ" class="w-full bg-surface-low border-none rounded-xl py-3.5 pl-11 pr-4 text-on-surface text-sm outline-none focus:ring-1 focus:ring-gold/40 placeholder:text-outline/50" placeholder="Search curated tables..."/>
+      </div>
+      <div class="flex gap-2 noscroll overflow-x-auto" id="iListFilters"></div>
+      <div class="flex gap-2 items-center">
+        <button onclick="setSort('score')" data-s="score" class="sbtn px-3 py-1.5 rounded-full text-xs font-semibold">Score</button>
+        <button onclick="setSort('chefs')" data-s="chefs" class="sbtn px-3 py-1.5 rounded-full text-xs font-semibold">Chefs</button>
+        <button onclick="setSort('name')" data-s="name" class="sbtn px-3 py-1.5 rounded-full text-xs font-semibold">A-Z</button>
+        <span class="ml-auto text-xs text-outline" id="oListCount"></span>
+      </div>
+    </div>
+    <div class="space-y-8 pb-4" id="oListCards"></div>
+  </main>
+</div>
+
+<!-- ═══════ VIEW: CHEFS ═══════ -->
+<div class="view" id="v-chefs">
+  <div class="hdr">
+    <span class="icon text-gold cursor-pointer" onclick="toggleDrawer()">menu</span>
+    <span class="text-lg tracking-[.2em] font-light text-gold font-headline uppercase">CHEFS</span>
+    <span class="text-xs text-outline font-label" id="oChefsN"></span>
+  </div>
+  <main class="scroll-y px-5 overflow-y-auto h-full">
+    <input id="iChefQ" class="w-full bg-surface-low border-none rounded-xl py-3 px-4 text-on-surface text-sm outline-none focus:ring-1 focus:ring-gold/40 placeholder:text-outline/50 mb-5" placeholder="Search a chef..."/>
+    <div class="space-y-3 pb-4" id="oChefsList"></div>
+  </main>
+</div>
+
+<!-- ═══════ VIEW: DETAIL ═══════ -->
+<div class="view" id="v-detail"><div id="oDetail"></div></div>
+
+<!-- ═══════ DRAWER ═══════ -->
+<div id="drawerBg" class="fixed inset-0 z-[90] bg-black/50 backdrop-blur-sm hidden" onclick="toggleDrawer()"></div>
+<aside id="drawer" class="fixed inset-y-0 left-0 z-[100] w-72 rounded-r-3xl bg-surface-low shadow-2xl transform -translate-x-full transition-transform duration-300 flex flex-col" style="padding:calc(24px + var(--st)) 24px calc(24px + var(--sb))">
+  <div class="flex items-center gap-3 pb-6 mb-4 border-b border-outline-var/10">
+    <span class="w-10 h-10 rounded-full bg-surface-highest flex items-center justify-center"><span class="icon text-gold">restaurant</span></span>
+    <div><b class="text-gold font-headline text-sm">Chefs' Picks</b><p class="text-[9px] text-outline uppercase tracking-widest" id="oDrawerStats"></p></div>
+  </div>
+  <nav class="space-y-1">
+    <a onclick="go('explore');toggleDrawer()" class="flex items-center gap-3 p-3 text-on-surface hover:bg-surface-highest/50 rounded-xl cursor-pointer text-sm font-headline font-light"><span class="icon text-gold text-xl">map</span>Explorer</a>
+    <a onclick="go('discover');toggleDrawer()" class="flex items-center gap-3 p-3 text-on-surface hover:bg-surface-highest/50 rounded-xl cursor-pointer text-sm font-headline font-light"><span class="icon text-gold text-xl">flatware</span>Découvrir</a>
+    <a onclick="go('chefs');toggleDrawer()" class="flex items-center gap-3 p-3 text-on-surface hover:bg-surface-highest/50 rounded-xl cursor-pointer text-sm font-headline font-light"><span class="icon text-gold text-xl">person_pin</span>Chefs</a>
+  </nav>
 </aside>
 
-<!-- BOTTOM NAV -->
-<nav class="bottom-nav">
-  <a onclick="showScreen('explore')" class="nav-tab flex flex-col items-center cursor-pointer" data-tab="explore"><span class="material-symbols-outlined">map</span><span class="text-[10px] font-label tracking-[.5pt] uppercase mt-1">Explore</span></a>
-  <a onclick="showScreen('discover')" class="nav-tab flex flex-col items-center cursor-pointer" data-tab="discover"><span class="material-symbols-outlined">restaurant</span><span class="text-[10px] font-label tracking-[.5pt] uppercase mt-1">Discover</span></a>
-  <a class="nav-tab flex flex-col items-center cursor-pointer text-[#9d8e7c]" data-tab="curated"><span class="material-symbols-outlined">star</span><span class="text-[10px] font-label tracking-[.5pt] uppercase mt-1">Curated</span></a>
-  <a onclick="showScreen('chefs')" class="nav-tab flex flex-col items-center cursor-pointer" data-tab="chefs"><span class="material-symbols-outlined">person_pin</span><span class="text-[10px] font-label tracking-[.5pt] uppercase mt-1">Chefs</span></a>
-  <a class="nav-tab flex flex-col items-center cursor-pointer text-[#9d8e7c]" data-tab="saved"><span class="material-symbols-outlined">bookmark</span><span class="text-[10px] font-label tracking-[.5pt] uppercase mt-1">Saved</span></a>
+<!-- ═══════ BOTTOM NAV ═══════ -->
+<nav class="bnav">
+  <a onclick="go('explore')" data-t="explore" class="on"><span class="icon icon-fill">map</span><span>Explore</span></a>
+  <a onclick="go('discover')" data-t="discover"><span class="icon">restaurant</span><span>Discover</span></a>
+  <a data-t="curated" style="opacity:.4"><span class="icon">star</span><span>Curated</span></a>
+  <a onclick="go('chefs')" data-t="chefs"><span class="icon">person_pin</span><span>Chefs</span></a>
+  <a data-t="saved" style="opacity:.4"><span class="icon">bookmark</span><span>Saved</span></a>
 </nav>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<script src="app.js?v=3"></script>
+<script>
+// ══════════════════════════════════
+// DATA & STATE
+// ══════════════════════════════════
+var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[];
+
+function esc(s){return s?s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'):''}
+function ea(s){return s?s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"'):''}
+
+// ══════════════════════════════════
+// INIT
+// ══════════════════════════════════
+document.addEventListener('DOMContentLoaded',function(){
+  if(window.Telegram&&window.Telegram.WebApp){try{Telegram.WebApp.ready();Telegram.WebApp.expand();Telegram.WebApp.setHeaderColor('#131313');Telegram.WebApp.setBackgroundColor('#131313')}catch(e){}}
+  fetch('data.json').then(function(r){return r.json()}).then(function(d){R=d;boot()}).catch(function(){R=[];boot()});
+});
+
+function boot(){
+  initMap();
+  go('explore');
+  var el;
+  el=document.getElementById('iMapQ');if(el)el.addEventListener('input',onMapQ);
+  el=document.getElementById('iListQ');if(el)el.addEventListener('input',function(){renderList()});
+  el=document.getElementById('iChefQ');if(el)el.addEventListener('input',function(){renderChefs()});
+  // Stats
+  var ch={};R.forEach(function(r){r.recommendations.forEach(function(c){ch[c.chef_name]=1})});
+  var se=document.getElementById('oDrawerStats');
+  if(se)se.textContent=R.length+' adresses · '+Object.keys(ch).length+' chefs';
+}
+
+// ══════════════════════════════════
+// NAV
+// ══════════════════════════════════
+function go(v){
+  if(v!=='detail')document.getElementById('v-detail').classList.remove('on','view-slide');
+  ['explore','discover','chefs'].forEach(function(n){document.getElementById('v-'+n).classList.toggle('on',n===v)});
+  curView=v;
+  document.querySelectorAll('.bnav a[data-t]').forEach(function(a){
+    var act=a.getAttribute('data-t')===v;
+    a.classList.toggle('on',act);
+    var ic=a.querySelector('.icon');
+    if(ic){ic.classList.toggle('icon-fill',act)}
+  });
+  if(v==='explore')setTimeout(function(){if(map)map.invalidateSize()},150);
+  if(v==='discover')renderList();
+  if(v==='chefs')renderChefs();
+  hist=[];
+}
+
+function toggleDrawer(){
+  var d=document.getElementById('drawer'),o=document.getElementById('drawerBg');
+  var closed=d.style.transform!=='translateX(0px)';
+  d.style.transform=closed?'translateX(0px)':'';
+  o.classList.toggle('hidden',!closed);
+}
+
+// ══════════════════════════════════
+// DETAIL
+// ══════════════════════════════════
+function openResto(id){
+  var r=R.find(function(x){return x.id===id});if(!r)return;
+  hist.push('resto:'+id);
+  var mu=r.google_maps_url||('https://www.google.com/maps/search/?api=1&query='+encodeURIComponent((r.address||'')+' '+r.city));
+  var ph=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover brightness-75" alt="'+esc(r.name)+'"/>':'<div class="w-full h-full bg-gradient-to-br from-surface-high to-surface-lowest flex items-center justify-center"><span class="icon text-[80px] text-outline/20">restaurant</span></div>';
+  var tgs='';(r.tags||[]).forEach(function(t){tgs+='<span class="flex items-center gap-1.5 px-3 py-1.5 bg-surface-highest rounded-full text-xs uppercase tracking-wider flex-shrink-0"><span class="w-1.5 h-1.5 bg-gold rounded-full"></span>'+esc(t)+'</span>'});
+  var recs='';r.recommendations.forEach(function(c){
+    var bc=c.platform==='social'?'bs':c.platform==='podcast'?'bk':'bp';
+    var bl=c.platform==='social'?'Social':c.platform==='podcast'?'Podcast':'Presse';
+    recs+='<div class="flex-shrink-0 w-[280px] bg-surface-high rounded-xl p-5 space-y-3 border border-outline-var/5 shadow-xl">'+
+      '<div onclick="openChef(\''+ea(c.chef_name)+'\')" class="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">'+
+        '<span class="w-11 h-11 rounded-full bg-surface-highest ring-2 ring-gold/20 flex items-center justify-center text-gold font-bold flex-shrink-0">'+c.chef_name.charAt(0)+'</span>'+
+        '<div><p class="font-headline font-semibold text-sm">'+esc(c.chef_name)+'</p><p class="text-[10px] text-outline uppercase tracking-wider">'+esc(c.chef_restaurant||'')+'</p></div>'+
+      '</div>'+
+      (c.quote?'<p class="serif text-on-surface text-base leading-relaxed">"'+esc(c.quote)+'"</p>':'')+
+      '<div class="flex items-center justify-between"><span class="px-2 py-0.5 '+bc+' text-[10px] font-bold uppercase rounded tracking-wider">'+bl+' — '+esc(c.source||'')+'</span><span class="text-[10px] text-outline">'+esc(c.date||'')+'</span></div>'+
+    '</div>'});
+  var rat=r.rating?'<div class="flex items-center gap-1.5"><span class="icon icon-fill text-gold text-base">star</span><span class="text-sm">'+r.rating+'/5</span><span class="text-xs text-outline">('+( r.reviews_count||0)+' avis)</span></div>':'';
+  var tel=r.phone?'<a href="tel:'+r.phone+'" class="flex items-center gap-2 text-outline hover:text-gold text-sm"><span class="icon text-base">call</span>'+r.phone+'</a>':'';
+
+  document.getElementById('oDetail').innerHTML=
+    '<div style="padding-bottom:calc(80px + var(--sb))">'+
+      '<section class="relative w-full h-[380px] overflow-hidden bg-surface-high">'+ph+
+        '<div class="absolute inset-0 bg-gradient-to-t from-bg via-bg/20 to-transparent"></div>'+
+        '<button onclick="goBack()" class="absolute left-5 w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center z-10" style="top:calc(20px + var(--st))"><span class="icon text-gold">arrow_back</span></button>'+
+        '<div class="absolute right-5 bg-bg/80 backdrop-blur-md px-3 py-1 rounded-full flex items-center gap-1.5" style="top:calc(20px + var(--st))"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[9px] text-outline uppercase font-bold">Score</span></div>'+
+        '<div class="absolute bottom-14 left-5 flex flex-wrap gap-1.5">'+
+          '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-gold border border-gold/10">'+esc(r.cuisine_type)+'</span>'+
+          '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+r.price_range+'</span>'+
+          (r.vibe?'<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.vibe)+'</span>':'')+
+        '</div>'+
+        '<h2 class="absolute bottom-3 left-5 right-5 font-headline font-extrabold text-4xl tracking-tighter drop-shadow-lg">'+esc(r.name)+'</h2>'+
+      '</section>'+
+      '<section class="px-5 mt-5 space-y-3">'+
+        '<a href="'+mu+'" target="_blank" rel="noopener" class="flex items-center gap-2.5 text-outline hover:text-gold transition-colors"><span class="icon text-base">location_on</span><span class="text-sm font-light border-b border-outline-var/30 hover:border-gold/50">'+esc(r.address||'')+( r.address?', ':'')+esc(r.city)+'</span></a>'+
+        rat+tel+
+        '<div class="flex gap-2.5 overflow-x-auto noscroll pt-1">'+tgs+'</div>'+
+      '</section>'+
+      '<section class="mt-10 bg-surface-low py-8">'+
+        '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">Recommandé par <span class="text-gold font-bold">'+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span></h3></div>'+
+        '<div class="flex gap-4 overflow-x-auto noscroll px-5">'+recs+'</div>'+
+      '</section>'+
+      '<section class="px-5 mt-10 grid grid-cols-2 gap-3">'+
+        '<a href="'+mu+'" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-gradient-to-tr from-gold to-gold-light text-gold-dark font-bold uppercase tracking-widest text-sm active:scale-95 transition-transform shadow-lg"><span class="icon text-xl">directions</span>Y ALLER</a>'+
+        '<button onclick="share(\''+ea(r.id)+'\')" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-surface-high border border-outline-var/20 font-semibold uppercase tracking-widest text-sm active:scale-95 transition-transform"><span class="icon text-xl">share</span>PARTAGER</button>'+
+      '</section>'+
+    '</div>';
+  document.getElementById('v-detail').classList.add('on','view-slide');
+  document.getElementById('v-detail').scrollTop=0;
+}
+
+function openChef(name){
+  var picks=[],seen={};
+  R.forEach(function(r){r.recommendations.forEach(function(c){if(c.chef_name===name&&!seen[r.id]){seen[r.id]=1;picks.push({r:r,c:c})}})});
+  if(!picks.length)return;
+  hist.push('chef:'+name);
+  var c0=picks[0].c;
+  var cards='';picks.forEach(function(p){
+    var r=p.r,c=p.c;
+    var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover"/>':'<span class="icon text-[48px] text-outline/15">restaurant</span>';
+    cards+='<div onclick="openResto(\''+ea(r.id)+'\')" class="bg-surface-low rounded-2xl overflow-hidden cursor-pointer active:scale-[.98] transition-transform border border-outline-var/5">'+
+      '<div class="h-36 bg-surface-high flex items-center justify-center overflow-hidden">'+img+'</div>'+
+      '<div class="p-4"><div class="flex justify-between items-start mb-1.5"><div><h4 class="font-headline font-bold text-base">'+esc(r.name)+'</h4><p class="text-[10px] text-outline uppercase tracking-wider">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+r.price_range+'</p></div><span class="bg-bg/80 px-2 py-0.5 rounded-full text-gold font-bold text-xs">'+r.confidence_score+'</span></div>'+
+      (c.quote?'<p class="serif text-sm text-on-surface-var mt-2">"'+esc(c.quote)+'"</p>':'')+
+      '</div></div>'});
+
+  document.getElementById('oDetail').innerHTML=
+    '<div style="padding-bottom:calc(80px + var(--sb))">'+
+      '<header class="sticky top-0 z-10 bg-bg/80 backdrop-blur-md px-5 flex items-center gap-3" style="padding-top:calc(12px + var(--st));padding-bottom:12px">'+
+        '<button onclick="goBack()" class="w-9 h-9 bg-surface-high rounded-full flex items-center justify-center"><span class="icon text-gold text-xl">arrow_back</span></button>'+
+        '<div><h1 class="font-headline font-bold text-base">'+esc(name)+'</h1><p class="text-[10px] text-outline uppercase tracking-wider">'+esc(c0.chef_restaurant||'')+'</p></div>'+
+      '</header>'+
+      '<section class="px-5 mt-4">'+
+        '<div class="flex items-center gap-5 mb-6">'+
+          '<span class="w-16 h-16 rounded-full bg-surface-highest ring-2 ring-gold/20 flex items-center justify-center text-gold font-bold text-2xl flex-shrink-0">'+name.charAt(0)+'</span>'+
+          '<div><h2 class="font-headline font-bold text-xl">'+esc(name)+'</h2><p class="text-sm text-outline mt-0.5">'+esc(c0.chef_restaurant||'')+'</p><p class="text-gold font-bold mt-1.5">'+picks.length+' pick'+(picks.length>1?'s':'')+'</p></div>'+
+        '</div>'+
+        '<div class="space-y-5">'+cards+'</div>'+
+      '</section>'+
+    '</div>';
+  document.getElementById('v-detail').classList.add('on','view-slide');
+  document.getElementById('v-detail').scrollTop=0;
+}
+
+function goBack(){
+  hist.pop();
+  var prev=hist.length?hist[hist.length-1]:null;
+  if(prev&&prev.indexOf('chef:')===0){hist.pop();openChef(prev.substring(5))}
+  else if(prev&&prev.indexOf('resto:')===0){hist.pop();openResto(prev.substring(6))}
+  else document.getElementById('v-detail').classList.remove('on','view-slide');
+}
+
+function share(id){
+  var r=R.find(function(x){return x.id===id});if(!r)return;
+  var t=r.name+' — '+r.city+'\n'+r.cuisine_type+' · '+r.price_range+'\n'+r.recommendation_count+' chef(s)\n'+location.href;
+  if(navigator.share)navigator.share({title:r.name,text:t,url:location.href}).catch(function(){});
+  else if(navigator.clipboard)navigator.clipboard.writeText(t).then(function(){alert('Copié !')});
+}
+
+// ══════════════════════════════════
+// MAP
+// ══════════════════════════════════
+function initMap(){
+  if(typeof L==='undefined')return;
+  map=L.map('map',{zoomControl:false,attributionControl:false,tap:true}).setView([46.5,2.5],6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19}).addTo(map);
+
+  CG=L.markerClusterGroup({maxClusterRadius:40,showCoverageOnHover:false,zoomToBoundsOnClick:true,disableClusteringAtZoom:15,
+    iconCreateFunction:function(cl){
+      var n=cl.getChildCount(),sz=n>20?52:n>5?44:36,c=n>20?'pin-h':n>5?'pin-w':'pin-c';
+      return L.divIcon({className:'',html:'<div class="pin '+c+'"><div class="pc" style="width:'+sz+'px;height:'+sz+'px"><span>'+n+'</span></div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]})
+    }
+  });
+
+  R.forEach(function(r){
+    if(!r.coordinates||!r.coordinates.lat||!r.coordinates.lng)return;
+    var n=r.recommendation_count||1,c=n>=3?'pin-h':n>=2?'pin-w':'pin-c',sz=n>=3?48:n>=2?40:32;
+    var ic=L.divIcon({className:'',html:'<div class="pin '+c+'"><div class="pc" style="width:'+sz+'px;height:'+sz+'px"><span>'+n+'</span></div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]});
+    var m=L.marker([r.coordinates.lat,r.coordinates.lng],{icon:ic});
+    m.on('click',function(e){L.DomEvent.stopPropagation(e);showPreview(r)});
+    MK[r.id]=m;CG.addLayer(m);
+  });
+  map.addLayer(CG);
+
+  var cto=null;
+  map.on('moveend zoomend',function(){clearTimeout(cto);cto=setTimeout(updateCarousel,300)});
+  map.on('click',function(){document.getElementById('iCarousel').style.display='none'});
+
+  buildChips();
+}
+
+function buildChips(){
+  var ct={};R.forEach(function(r){ct[r.city]=(ct[r.city]||0)+1});
+  var arr=[];for(var c in ct)arr.push([c,ct[c]]);
+  arr.sort(function(a,b){return b[1]-a[1]});
+  var h='';arr.slice(0,8).forEach(function(e){
+    h+='<button data-city="'+esc(e[0])+'" onclick="chipCity(this)" class="chip px-4 py-1.5 rounded-full bg-surface-highest text-on-surface-var text-xs uppercase tracking-wider whitespace-nowrap border border-outline-var/10 flex-shrink-0">'+esc(e[0])+' <span class="text-outline text-[10px]">'+e[1]+'</span></button>'
+  });
+  document.getElementById('iMapChips').innerHTML=h;
+}
+
+function chipCity(btn){
+  var city=btn.getAttribute('data-city'),active=btn.classList.contains('bg-gold');
+  document.querySelectorAll('.chip').forEach(function(b){
+    b.classList.remove('bg-gold','text-gold-dark','font-bold','shadow-lg');
+    b.classList.add('bg-surface-highest','text-on-surface-var');
+    var cn=b.getAttribute('data-city'),n=0;R.forEach(function(r){if(r.city===cn)n++});
+    b.innerHTML=esc(cn)+' <span class="text-outline text-[10px]">'+n+'</span>';
+  });
+  if(active){rebuildCG(function(){return true});map.setView([46.5,2.5],6)}
+  else{
+    btn.classList.remove('bg-surface-highest','text-on-surface-var');
+    btn.classList.add('bg-gold','text-gold-dark','font-bold','shadow-lg');
+    btn.innerHTML=esc(city)+' <span class="icon text-[14px] align-middle">close</span>';
+    rebuildCG(function(r){return r.city===city});
+    var pts=[];R.forEach(function(r){if(r.city===city&&r.coordinates)pts.push([r.coordinates.lat,r.coordinates.lng])});
+    if(pts.length)map.fitBounds(L.latLngBounds(pts),{padding:[80,80],maxZoom:15});
+  }
+  document.getElementById('iCarousel').style.display='none';
+}
+
+function rebuildCG(fn){CG.clearLayers();for(var id in MK){var r=R.find(function(x){return x.id===id});if(r&&fn(r))CG.addLayer(MK[id])}}
+
+function onMapQ(e){
+  var q=e.target.value.toLowerCase().trim();
+  if(!q){rebuildCG(function(){return true});map.setView([46.5,2.5],6);return}
+  var pts=[];
+  rebuildCG(function(r){
+    var h=[r.name,r.city,r.country||'',r.cuisine_type].concat(r.tags||[]);
+    r.recommendations.forEach(function(c){h.push(c.chef_name)});
+    var ok=h.join(' ').toLowerCase().indexOf(q)!==-1;
+    if(ok&&r.coordinates)pts.push([r.coordinates.lat,r.coordinates.lng]);
+    return ok;
+  });
+  if(pts.length)map.fitBounds(L.latLngBounds(pts),{padding:[80,80],maxZoom:14});
+}
+
+// ── CAROUSEL ──
+function updateCarousel(){
+  var el=document.getElementById('iCarousel');
+  if(!map)return;
+  var b=map.getBounds(),vis=[];
+  R.forEach(function(r){if(r.coordinates&&MK[r.id]&&CG.hasLayer(MK[r.id])&&b.contains([r.coordinates.lat,r.coordinates.lng]))vis.push(r)});
+  vis.sort(function(a,b){return(b.confidence_score||0)-(a.confidence_score||0)});
+  vis=vis.slice(0,30);
+  if(!vis.length){el.style.display='none';return}
+  el.style.display='block';
+  var cards='';vis.forEach(function(r){
+    var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[36px] text-outline/30">restaurant</span></div>';
+    var av='';var lm=Math.min(r.recommendations.length,2);
+    for(var i=0;i<lm;i++)av+='<span class="w-5 h-5 rounded-full bg-surface-highest border border-surface-low flex items-center justify-center text-[8px] font-bold text-gold">'+r.recommendations[i].chef_name.charAt(0)+'</span>';
+    if(r.recommendation_count>2)av+='<span class="w-5 h-5 rounded-full bg-gold flex items-center justify-center text-[8px] font-bold text-gold-dark border border-surface-low">+'+( r.recommendation_count-2)+'</span>';
+    cards+='<div class="ccard" onclick="openResto(\''+ea(r.id)+'\')">'+
+      '<div class="bg-surface-low/90 backdrop-blur-2xl rounded-2xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,.5)] border border-outline-var/10 flex cursor-pointer active:scale-[.98] transition-transform">'+
+        '<div class="w-24 h-24 flex-shrink-0 overflow-hidden">'+img+'</div>'+
+        '<div class="flex-1 p-3 flex flex-col justify-center min-w-0">'+
+          '<h3 class="text-sm font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
+          '<p class="text-[10px] text-outline uppercase tracking-wider truncate mt-0.5">'+esc(r.cuisine_type)+' · '+r.price_range+'</p>'+
+          '<div class="mt-2 flex items-center gap-2"><div class="flex -space-x-1.5">'+av+'</div><span class="text-[9px] font-bold text-gold uppercase">'+r.recommendation_count+' Chef'+(r.recommendation_count>1?'s':'')+'</span></div>'+
+        '</div>'+
+      '</div>'+
+    '</div>';
+  });
+  el.innerHTML='<div class="flex gap-2.5 overflow-x-auto cscroll noscroll">'+cards+'</div>';
+}
+
+function showPreview(r){
+  updateCarousel();
+  // scroll to card
+  var el=document.getElementById('iCarousel');if(!el)return;
+  var cards=el.querySelectorAll('.ccard');
+  for(var i=0;i<cards.length;i++){
+    if(cards[i].getAttribute('onclick').indexOf(r.id)!==-1){
+      cards[i].scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});break;
+    }
+  }
+  if(map.getZoom()<12)map.setView([r.coordinates.lat,r.coordinates.lng],14,{animate:true});
+  else map.panTo([r.coordinates.lat,r.coordinates.lng],{animate:true});
+}
+
+// ══════════════════════════════════
+// LIST
+// ══════════════════════════════════
+function renderList(){
+  var q=(document.getElementById('iListQ')||{}).value||'';q=q.toLowerCase();
+  var d=R.filter(function(r){
+    if(fCity&&r.city!==fCity)return false;
+    if(fPrice&&r.price_range!==fPrice)return false;
+    if(q){var h=[r.name,r.city,r.cuisine_type].concat(r.tags||[]);r.recommendations.forEach(function(c){h.push(c.chef_name)});if(h.join(' ').toLowerCase().indexOf(q)===-1)return false}
+    return true;
+  });
+  if(sort==='score')d.sort(function(a,b){return(b.confidence_score||0)-(a.confidence_score||0)});
+  else if(sort==='chefs')d.sort(function(a,b){return(b.recommendation_count||0)-(a.recommendation_count||0)});
+  else d.sort(function(a,b){return a.name.localeCompare(b.name)});
+
+  var ne=document.getElementById('oListCount')||document.getElementById('oListN');
+  if(ne)ne.textContent=d.length+' tables';
+
+  // Sort buttons
+  document.querySelectorAll('.sbtn').forEach(function(b){
+    var a=b.getAttribute('data-s')===sort;
+    b.className='sbtn px-3 py-1.5 rounded-full text-xs font-semibold '+(a?'bg-gold text-gold-dark shadow-lg':'bg-surface-highest text-on-surface-var border border-outline-var/10');
+  });
+
+  // Filters
+  var cities={};R.forEach(function(r){cities[r.city]=1});var cl=Object.keys(cities).sort();
+  var fh='<select onchange="fCity=this.value;renderList()" class="bg-surface-high border-none rounded-full px-3 py-1.5 text-xs text-on-surface-var"><option value="">Toutes villes</option>';
+  cl.forEach(function(c){fh+='<option value="'+esc(c)+'"'+(fCity===c?' selected':'')+'>'+esc(c)+'</option>'});
+  fh+='</select><select onchange="fPrice=this.value;renderList()" class="bg-surface-high border-none rounded-full px-3 py-1.5 text-xs text-on-surface-var"><option value="">Tous prix</option><option value="€"'+(fPrice==='€'?' selected':'')+'>€</option><option value="€€"'+(fPrice==='€€'?' selected':'')+'>€€</option><option value="€€€"'+(fPrice==='€€€'?' selected':'')+'>€€€</option><option value="€€€€"'+(fPrice==='€€€€'?' selected':'')+'>€€€€</option></select>';
+  document.getElementById('iListFilters').innerHTML=fh;
+
+  // Cards
+  var h='';d.slice(0,50).forEach(function(r){
+    var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"/>':'<div class="w-full h-full flex items-center justify-center"><span class="icon text-[56px] text-outline/10">restaurant</span></div>';
+    var tg='';(r.tags||[]).slice(0,2).forEach(function(t){tg+='<span class="bg-gold/15 backdrop-blur-md text-gold px-2.5 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider">'+esc(t)+'</span>'});
+    var av='';r.recommendations.slice(0,2).forEach(function(c){av+='<span class="w-7 h-7 rounded-full bg-surface-highest border-2 border-bg flex items-center justify-center text-[9px] font-bold text-gold">'+c.chef_name.charAt(0)+'</span>'});
+    if(r.recommendation_count>2)av+='<span class="w-7 h-7 rounded-full bg-surface-high border-2 border-bg flex items-center justify-center text-[9px] font-bold">+'+(r.recommendation_count-2)+'</span>';
+    h+='<article onclick="openResto(\''+ea(r.id)+'\')" class="group cursor-pointer">'+
+      '<div class="card-img relative mb-3">'+img+
+        '<div class="absolute top-3 right-3 bg-bg/80 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1.5"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[9px] text-outline uppercase font-bold">Score</span></div>'+
+        '<div class="absolute bottom-3 left-3 flex gap-1.5">'+tg+'</div>'+
+      '</div>'+
+      '<div class="flex justify-between items-start">'+
+        '<div><h3 class="text-xl font-light font-headline tracking-tight">'+esc(r.name)+'</h3><p class="text-outline text-xs mt-0.5">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+r.price_range+'</p></div>'+
+        '<div class="flex -space-x-2 mt-0.5">'+av+'</div>'+
+      '</div>'+
+    '</article>';
+  });
+  document.getElementById('oListCards').innerHTML=h;
+}
+function setSort(s){sort=s;renderList()}
+
+// ══════════════════════════════════
+// CHEFS
+// ══════════════════════════════════
+function renderChefs(){
+  var cm={};
+  R.forEach(function(r){r.recommendations.forEach(function(c){
+    if(!cm[c.chef_name])cm[c.chef_name]={name:c.chef_name,rest:c.chef_restaurant,picks:[]};
+    cm[c.chef_name].picks.push({id:r.id,name:r.name});
+  })});
+  var arr=[];for(var k in cm)arr.push(cm[k]);
+  arr.sort(function(a,b){return b.picks.length-a.picks.length});
+  var q=(document.getElementById('iChefQ')||{}).value||'';q=q.toLowerCase();
+  if(q)arr=arr.filter(function(c){return c.name.toLowerCase().indexOf(q)!==-1});
+
+  var ne=document.getElementById('oChefsN');if(ne)ne.textContent=arr.length+' chefs';
+
+  var h='';arr.forEach(function(c){
+    var pks='';c.picks.forEach(function(p){pks+='<span class="flex-shrink-0 px-2.5 py-1 bg-surface-highest rounded-full text-[10px] text-on-surface-var uppercase tracking-wider">'+esc(p.name)+'</span>'});
+    h+='<div onclick="openChef(\''+ea(c.name)+'\')" class="bg-surface-low rounded-xl p-4 border border-outline-var/5 cursor-pointer active:scale-[.98] transition-transform">'+
+      '<div class="flex items-center gap-3 mb-2.5">'+
+        '<span class="w-10 h-10 rounded-full bg-surface-highest ring-2 ring-gold/20 flex items-center justify-center text-gold font-bold flex-shrink-0">'+c.name.charAt(0)+'</span>'+
+        '<div class="min-w-0 flex-1"><p class="font-headline font-semibold text-sm truncate">'+esc(c.name)+'</p><p class="text-[10px] text-outline uppercase tracking-wider truncate">'+esc(c.rest||'')+'</p></div>'+
+        '<div class="text-right flex-shrink-0"><span class="text-gold font-bold text-lg">'+c.picks.length+'</span><span class="text-[9px] text-outline uppercase block">pick'+(c.picks.length>1?'s':'')+'</span></div>'+
+      '</div>'+
+      '<div class="flex gap-1.5 overflow-x-auto noscroll">'+pks+'</div>'+
+    '</div>'});
+  document.getElementById('oChefsList').innerHTML=h;
+}
+</script>
 </body>
 </html>
