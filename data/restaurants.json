@@ -40,9 +40,18 @@
         "source_url": "https://www.timeout.fr/paris/restaurants/le-baratin",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Pierre Herme / Inaki Aizpitarte / Bertrand Grebaut",
+        "chef_restaurant": "Multiple (Pierre Herme, Le Chateaubriand, Septime)",
+        "quote": "The bistro preferred by chefs, Raquel Carena is the chef of chefs since three decades",
+        "source": "TimeOut Paris",
+        "source_url": "https://www.timeout.fr/paris/restaurants/que-valent-les-restaurants-des-candidats-top-chef-a-paris",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 3,
+    "recommendation_count": 4,
     "confidence_score": 100,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQANrAGyl1k5sKC72NkPad18tS3PWOOUtsCc1Ms-EjrHa8uMwUvgobHSaBJhWM5RhrlWYRfCpqfpmNF7Ajt7o5oqSVCfTBeT7WI8vDTXsspPsZ4OR7R-TGbwoo-L-fJk-56HDgtNjwPHYy=w426-h240-k-no",
@@ -85,10 +94,19 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Jessica Yang & Robert Compagnon",
+        "chef_restaurant": "Folderol / Le Rigmarole",
+        "quote": "Freshest, most delicious, personal food in Paris",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
-    "confidence_score": 80,
+    "recommendation_count": 3,
+    "confidence_score": 100,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweor9uc94q66T9Yl4HR9937pPUPNzfXUIDhP2Ln75Cj3bmtAerIes3UuFfN3Sdrn25fzIfOyr5rEz5CoxDR5unqbtlDjNiL7_tHdQ0EKk4QiU2zGjckOMowcoCktcHehvJjSObs=w408-h306-k-no",
     "rating": 4.7,
@@ -171,10 +189,19 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Bertrand Grebaut",
+        "chef_restaurant": "Septime",
+        "quote": "Sourdough pizza, natural fermentation focus",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
-    "confidence_score": 80,
+    "recommendation_count": 3,
+    "confidence_score": 100,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepuDf0jQZM_CWt17PECguaTxBNxR9LoOFJIUil5ncZWs2el_u88TzbBfgLupPyzZXu-RstKzaqURynDC0EXlHIsQjgiPh0P_pTWY3I5hi7ntb2t2NsJGo82M5uWd2obpHNLwjYf9dOIZ8au=w408-h544-k-no",
     "rating": 4.5,
@@ -240,10 +267,19 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Jessica Yang & Robert Compagnon",
+        "chef_restaurant": "Folderol / Le Rigmarole",
+        "quote": "Fry game is on point",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerUstRG6XKVpsK_iu5ncj5uf_iJQVxH5hrBlTKVmG2KDd7U2yoZMra2vmy8Oie3PvMQHD2ImrUAz5G3mkzaN0vePXXVZbN-qWOvCDZry0pC_JAy3q07GkRhQdzP_t0FAujzJ5cS=w408-h306-k-no",
     "rating": 4.4,
@@ -274,10 +310,19 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Jessica Yang & Robert Compagnon",
+        "chef_restaurant": "Folderol / Le Rigmarole",
+        "quote": "Best balanced noodle-broth combination",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerhgv5VJVH7ewlcqlMgibBQ8pYENl2a-VncFwgOskZ9mLLLvkIB-1PPexKcCG74fO983-vDoQ0MUjJggy5g0SVrAc8jISvgUHNLdPLckBncEkhHVRohyp3B5gl4Kt3myOBLmm4=w408-h272-k-no",
     "rating": 4.4,
@@ -317,10 +362,19 @@
         "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Edward Delling-Williams",
+        "chef_restaurant": "Le Grand Bain",
+        "quote": "Open Sundays and Mondays, a real go-to for chefs",
+        "source": "Fodors",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024-01",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
-    "confidence_score": 75,
+    "recommendation_count": 3,
+    "confidence_score": 100,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF6F515F_F3BodTuxPUEcJXdXMTcPzAtAslQetA-8kq56HE-i8q2yAK-jMSFlKvZpDNtgC9u0HfeGQ2ku0MDaYB9_VxwZmjV2zQ4pOPOQlnjGPw7RDPp0O98VgfRJwsesudnn13D1ostTg1=w408-h306-k-no",
     "rating": 4.3,
@@ -1221,10 +1275,19 @@
         "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Helene Darroze",
+        "chef_restaurant": "Marsan",
+        "quote": "The food is very good, authentic",
+        "source": "Fodors",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
+        "date": "2024-01",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoTxXH8_-lhOslC4bMsCO1C0z6nY1b4TKnGwqmmm9avwes_QiHG-sCDHMV9jbcliLU-DJIA08XP0XnPUdx-JXLs38T5PCIEZRlRaaqe0fI2Kfm0NQUxpX3cqQsRJD8qlB-_FuYx=w408-h612-k-no",
     "rating": 4.5,
@@ -2422,10 +2485,19 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Bertrand Grebaut",
+        "chef_restaurant": "Septime",
+        "quote": "Natural wines from Beaujolais, steak au poivre",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerS8NIJSlMauRb56JoAUhSW-xHYUYZqlbB1dD6J9jIfoAslVay2lr92z1siUKUwVKp8knr97ckDdGkshX3zCRWPwU3H3KQ7DDvFFTCFFc5K0E0s5gzq2pDqdOefZXYQXA7puyxXzA=w408-h325-k-no",
     "rating": 4.6,
@@ -2966,10 +3038,19 @@
         "source_url": "https://fr.hotels.com/go/france/fr-meilleurs-restaurants-lyon",
         "date": "2023",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Brigitte Josserand",
+        "chef_restaurant": "Cafe du Jura (cheffe-patronne)",
+        "quote": "Institution familiale ou Brigitte prepare les recettes traditionnelles en cuisine",
+        "source": "Vallee de la Gastronomie",
+        "source_url": "https://www.valleedelagastronomie.com/en/gastronomie/the-seven-best-bouchons-in-lyon",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcHdYsI_njhKr6KyV8YHwPVamaLjZa7ZE6VojaMZbADoOZ7dqtJY3vOi5pXUp3ppIGr9gM8MMA7KhpGg2W3afyqeg2ojkdCUJtDqx3hpBEilurUb8vBJhEsvCiWCHNNoiDnZTr=w408-h306-k-no",
     "rating": 4.4,
@@ -4589,10 +4670,19 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Bertrand Grebaut",
+        "chef_restaurant": "Septime",
+        "quote": "Natural wines, Basque fish preserves",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweobe-g193GmmhhrapQKOuDB6uA9H8TFHMV74MAlKJbI54Eb0mDRgwWUEEHXDP-G-NJTEiRBJGdClE1ySx8jJhx0TeYBQGUmOb0rL-Q4rwx49ARz1CckiDILWB5LCFdasL8FDJfn0w=w408-h544-k-no",
     "rating": 4.7,
@@ -5821,10 +5911,19 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Bertrand Grebaut",
+        "chef_restaurant": "Septime",
+        "quote": "Best beef pho",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 35,
+    "recommendation_count": 2,
+    "confidence_score": 75,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3ga7GUIP7TayFwilPW8JyXdY085ufQgjPdtYC2pFAxtJHRhlz4FrAu5rJkSh1qkfx_B1ddPJubnnMgsQwqvHFl62myoyT6BqKwhsM1IrLqBRypYjsFHZT2xdXc5XnR25Kl5cJEQ=w427-h240-k-no",
     "rating": 4.2,
@@ -7104,6 +7203,3457 @@
         "source": "Cronica Global / El Espanol",
         "source_url": "https://cronicaglobal.elespanol.com/gastronomia/20260210/restaurante-favorito-joan-roca-costa-brava-no-trt/1003742731298_0.html",
         "date": "2026-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "brasserie-rosie-paris",
+    "name": "Brasserie Rosie",
+    "address": "53 Rue du Faubourg Saint-Antoine, 75011",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85899,
+      "lng": 2.35081
+    },
+    "cuisine_type": "Brasserie francaise / Brunch",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Bettina Campolucci Bordi",
+        "chef_restaurant": "Chef vegetale independante / Retreat Chef Academy",
+        "quote": "Cool vibes and great food, old school furniture, cute and kitschy decor",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/where-to-eat-paris-chef-guide/",
+        "date": "2025-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "mamiche-paris",
+    "name": "Mamiche",
+    "address": "32 Rue du Chateau d'Eau, 75010",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85452,
+      "lng": 2.35478
+    },
+    "cuisine_type": "Boulangerie artisanale",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Bettina Campolucci Bordi",
+        "chef_restaurant": "Chef vegetale independante / Retreat Chef Academy",
+        "quote": "Plump, buttery, flakey and golden croissants that melt in your mouth",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/where-to-eat-paris-chef-guide/",
+        "date": "2025-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-atelier-entrecote-et-volaille-paris",
+    "name": "L'Atelier Entrecote et Volaille",
+    "address": "128 Rue Reaumur, 75002",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85352,
+      "lng": 2.35201
+    },
+    "cuisine_type": "Steak frites / Bistrot",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Bettina Campolucci Bordi",
+        "chef_restaurant": "Chef vegetale independante / Retreat Chef Academy",
+        "quote": "By far the best steak frites, quaint, affordable, and full of locals",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/where-to-eat-paris-chef-guide/",
+        "date": "2025-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "aux-merveilleux-de-fred-paris",
+    "name": "Aux Merveilleux de Fred",
+    "address": "Plusieurs adresses",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85706,
+      "lng": 2.35309
+    },
+    "cuisine_type": "Patisserie / Boulangerie",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Bettina Campolucci Bordi",
+        "chef_restaurant": "Chef vegetale independante / Retreat Chef Academy",
+        "quote": "Warm, fluffy, soft brioche served piping hot",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/where-to-eat-paris-chef-guide/",
+        "date": "2025-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "abstract-bistro-paris-paris",
+    "name": "Abstract Bistro Paris",
+    "address": "Voisin de De Vie",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85376,
+      "lng": 2.35325
+    },
+    "cuisine_type": "Bistrot",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Barney O'Kane",
+        "chef_restaurant": "De Vie",
+        "quote": "Martini Patisserie is a must-try",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "mardi-paris",
+    "name": "Mardi",
+    "address": "",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8566,
+      "lng": 2.35501
+    },
+    "cuisine_type": "Cafe",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Josh Fontaine",
+        "chef_restaurant": "Le Mary Celeste / Candelaria / Lutece",
+        "quote": "Local cafe where I can be found meeting neighbourhood friends over coffee",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "paulownia-paris",
+    "name": "Paulownia",
+    "address": "20e arrondissement",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85283,
+      "lng": 2.35586
+    },
+    "cuisine_type": "Contemporain",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Josh Fontaine",
+        "chef_restaurant": "Le Mary Celeste / Candelaria / Lutece",
+        "quote": "Unassuming, great new restaurant by my friends",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "the-beans-on-fire-paris",
+    "name": "The Beans On Fire",
+    "address": "Square Maurice Gardette",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85398,
+      "lng": 2.35471
+    },
+    "cuisine_type": "Coffee shop",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Bertrand Grebaut",
+        "chef_restaurant": "Septime",
+        "quote": "Coffee and sugar rolls",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cafe-caractere-paris",
+    "name": "Cafe Caractere",
+    "address": "",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85666,
+      "lng": 2.35489
+    },
+    "cuisine_type": "Coffee shop",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jessica Yang & Robert Compagnon",
+        "chef_restaurant": "Folderol / Le Rigmarole",
+        "quote": "Coffees are always so perfectly balanced",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "shana-paris",
+    "name": "Shana",
+    "address": "",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85406,
+      "lng": 2.35077
+    },
+    "cuisine_type": "Israelien",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Zohar Sasson",
+        "chef_restaurant": "Kapara",
+        "quote": "Super good vibes with young people appreciating good food, wine, hospitality",
+        "source": "TripAdvisor",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024-06",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bouche-paris",
+    "name": "Bouche",
+    "address": "11e arrondissement",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8533,
+      "lng": 2.35443
+    },
+    "cuisine_type": "Partage / Convivial",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victor Blanchet",
+        "chef_restaurant": "Halo",
+        "quote": "Big round table, exchange dishes with friends in superb atmosphere",
+        "source": "TripAdvisor",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024-06",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-table-de-colette-paris",
+    "name": "La Table de Colette",
+    "address": "",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85687,
+      "lng": 2.34984
+    },
+    "cuisine_type": "Traditionnel francais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Yves Camdeborde",
+        "chef_restaurant": "Le Comptoir du Pantheon",
+        "quote": "Retour aux sources avec recettes authentiques oubliees",
+        "source": "Omnia Restaurant",
+        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
+        "date": "2025-12",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-winstub-du-chambard-kaysersberg",
+    "name": "Le Winstub du Chambard",
+    "address": "",
+    "city": "Kaysersberg",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.13753,
+      "lng": 7.26065
+    },
+    "cuisine_type": "Alsacien revisite",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Nasti",
+        "chef_restaurant": "La Table d'Olivier Nasti (Le Chambard)",
+        "quote": "Cuisine alsacienne revisitee dans un cadre authentique",
+        "source": "Omnia Restaurant",
+        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
+        "date": "2025-12",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "simple-et-meilleur-saint-martin-de-belleville",
+    "name": "Simple et Meilleur",
+    "address": "",
+    "city": "Saint-Martin-de-Belleville",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.3806,
+      "lng": 6.51748
+    },
+    "cuisine_type": "Cuisine de montagne raffinee",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Rene et Maxime Meilleur",
+        "chef_restaurant": "La Bouitte",
+        "quote": "Cuisine de montagne accessible des chefs etoiles de La Bouitte",
+        "source": "Omnia Restaurant",
+        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
+        "date": "2025-12",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bobo-bistro-cannes",
+    "name": "Bobo Bistro",
+    "address": "21 Rue du Commandant Andre, 06400",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5525,
+      "lng": 7.01863
+    },
+    "cuisine_type": "Francais mediterraneen / Pizza",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandro Pizza",
+        "chef_restaurant": "Lucia",
+        "quote": "Their pizza is my favourite",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/chefs-guide-to-cannes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "al-charq-cannes",
+    "name": "Al Charq",
+    "address": "15-20 Rue Rouaze, 06400",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.54961,
+      "lng": 7.01972
+    },
+    "cuisine_type": "Libanais / Mezze",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandro Pizza",
+        "chef_restaurant": "Lucia",
+        "quote": "Relaxed atmosphere, affordable prices, great mezze",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/chefs-guide-to-cannes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "tuk-tuk-cannes",
+    "name": "Tuk Tuk",
+    "address": "3 Rue Latour-Maubourg, 06400",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.55686,
+      "lng": 7.01892
+    },
+    "cuisine_type": "Thai",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandro Pizza",
+        "chef_restaurant": "Lucia",
+        "quote": "A hidden gem with fantastic, friendly service",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/chefs-guide-to-cannes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "salama-cannes",
+    "name": "Salama",
+    "address": "10 Rue Florian, 06400",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.55495,
+      "lng": 7.0198
+    },
+    "cuisine_type": "Moyen-Orient",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandro Pizza",
+        "chef_restaurant": "Lucia",
+        "quote": "Casual dining with evening entertainment, sister of Salama St Tropez",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/chefs-guide-to-cannes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "virtus-paris",
+    "name": "Virtus",
+    "address": "29 rue de Cotte, 75012",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85336,
+      "lng": 2.35189
+    },
+    "cuisine_type": "Francais contemporain / Saison",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Arnaud Donckele",
+        "chef_restaurant": "Plenitude (Cheval Blanc Paris)",
+        "quote": "Run by two of my former colleagues from Vague d'Or, elegant and convivial, seasonal dishes",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/fr/fr/article/people/un-chef-une-ville-les-adresses-preferees-d-arnaud-donckele-a-paris",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-ami-jean-paris",
+    "name": "L'Ami Jean",
+    "address": "27 Rue Malar, 75007",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85323,
+      "lng": 2.35445
+    },
+    "cuisine_type": "Basque / Bistrot genereux",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dominique Crenn",
+        "chef_restaurant": "Atelier Crenn (San Francisco)",
+        "quote": "Reminds me of my grandmother's house in Brittany, simplicity and conviviality, delicious heartfelt cooking",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/ca/fr/article/travel/les-adresses-preferees-de-dominique-crenn-a-paris",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-ecailler-du-bistrot-paris",
+    "name": "L'Ecailler du Bistrot",
+    "address": "22 Rue Paul Bert, 75011",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8569,
+      "lng": 2.34905
+    },
+    "cuisine_type": "Fruits de mer / Huitres",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dominique Crenn",
+        "chef_restaurant": "Atelier Crenn (San Francisco)",
+        "quote": "Takes me back to my Breton roots, really good fish and incredible oysters with Sancerre",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/ca/fr/article/travel/les-adresses-preferees-de-dominique-crenn-a-paris",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-etiquette-paris",
+    "name": "L'Etiquette",
+    "address": "Ile Saint-Louis",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85616,
+      "lng": 2.35441
+    },
+    "cuisine_type": "Bar a vins naturels",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dominique Crenn",
+        "chef_restaurant": "Atelier Crenn (San Francisco)",
+        "quote": "I love natural wines and I often go to L'Etiquette",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/ca/fr/article/travel/les-adresses-preferees-de-dominique-crenn-a-paris",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-comptoir-paris",
+    "name": "Le Comptoir",
+    "address": "Saint-Germain",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85702,
+      "lng": 2.34917
+    },
+    "cuisine_type": "Bistrot francais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dominique Crenn",
+        "chef_restaurant": "Atelier Crenn (San Francisco)",
+        "quote": "One of my favorites in Paris, it's very simple",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/ca/fr/article/travel/les-adresses-preferees-de-dominique-crenn-a-paris",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-nicolas-brousse-toulouse",
+    "name": "Chez Nicolas Brousse",
+    "address": "38 Rue Pierre-Paul Riquet, 31000",
+    "city": "Toulouse",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.60849,
+      "lng": 1.44045
+    },
+    "cuisine_type": "Cuisine de marche / Vins naturels",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Michel Sarran",
+        "chef_restaurant": "Michel Sarran",
+        "quote": "A small restaurant by size but large by the proposal, about 300 natural wine references",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/fr/fr/article/people/les-adresses-preferees-de-michel-sarran-a-toulouse",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "georges-camuzet-toulouse",
+    "name": "Georges Camuzet",
+    "address": "6 Rue Jules Chalande, 31000",
+    "city": "Toulouse",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.60774,
+      "lng": 1.44779
+    },
+    "cuisine_type": "Bistrot classique revisite",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Michel Sarran",
+        "chef_restaurant": "Michel Sarran",
+        "quote": "Classic but reworked cuisine at very reasonable prices, former chef of mine",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/fr/fr/article/people/les-adresses-preferees-de-michel-sarran-a-toulouse",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "auberge-du-corsaire-chez-paul-aux-goudes-marseille",
+    "name": "Auberge du Corsaire (Chez Paul aux Goudes)",
+    "address": "35 Avenue Desiree Pelaprat, 13008",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29851,
+      "lng": 5.37337
+    },
+    "cuisine_type": "Poisson / Soupe de poisson",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alexandre Mazzia",
+        "chef_restaurant": "AM par Alexandre Mazzia",
+        "quote": "Notre rituel en famille, on s'installe en terrasse pour la soupe de poisson, souvent apres une randonnee",
+        "source": "Guide Michelin / Gault&Millau",
+        "source_url": "https://guide.michelin.com/fr/fr/article/people/un-chef-une-ville-les-adresses-preferees-d-alexandre-mazzia-a-marseille",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-comptoir-du-relais-paris",
+    "name": "Le Comptoir du Relais",
+    "address": "9 Carrefour de l'Odeon, 75006",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85685,
+      "lng": 2.34995
+    },
+    "cuisine_type": "Bistrot francais / Cuisine de marche",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Paul Osborne",
+        "chef_restaurant": "Santa Barbara Fish Market",
+        "quote": "A classic French bistro, one of my favorite dishes is the stuffed pig's foot",
+        "source": "Eat This Not That",
+        "source_url": "https://www.eatthis.com/best-restaurants-paris-chefs-recommend/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bistrot-paul-bert-paris",
+    "name": "Bistrot Paul Bert",
+    "address": "18 Rue Paul Bert, 75011",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85638,
+      "lng": 2.35411
+    },
+    "cuisine_type": "Bistrot traditionnel francais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Rena Awada",
+        "chef_restaurant": "Healthy Fitness Meals",
+        "quote": "Genuine, traditional Parisian bistro experience and is not overly touristy",
+        "source": "Eat This Not That",
+        "source_url": "https://www.eatthis.com/best-restaurants-paris-chefs-recommend/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-janou-paris",
+    "name": "Chez Janou",
+    "address": "2 Rue Roger Verlomme, 75003",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85875,
+      "lng": 2.35127
+    },
+    "cuisine_type": "Provencal / Francais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Eleftheria Sioulas",
+        "chef_restaurant": "Avli on The Park (Chicago)",
+        "quote": "Warm, unpretentious atmosphere and its dedication to classic, honest cooking",
+        "source": "Eat This Not That",
+        "source_url": "https://www.eatthis.com/best-restaurants-paris-chefs-recommend/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cabanes-ostreicoles-du-port-de-larros-gujan-mestras",
+    "name": "Cabanes ostreicoles du port de Larros",
+    "address": "Port de Larros",
+    "city": "Gujan-Mestras",
+    "country": "France",
+    "coordinates": {
+      "lat": 44.63758,
+      "lng": -1.07072
+    },
+    "cuisine_type": "Huitres / Fruits de mer",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Philippe Etchebest",
+        "chef_restaurant": "Le Quatrieme Mur / Maison Nouvelle",
+        "quote": "Mon tout petit coin prefere pour deguster des huitres dans les cabanes du port",
+        "source": "CultInfos / Buzz",
+        "source_url": "https://cultinfos.com/buzz/1558942-installe-a-bordeaux-philippe-etchebest-ne-va-loin-restaurant-prefere-un-petit-coin",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "daniel-denise-lyon",
+    "name": "Daniel & Denise",
+    "address": "156 Rue de Crequi, 69003",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.76397,
+      "lng": 4.83232
+    },
+    "cuisine_type": "Bouchon lyonnais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Joseph Viola",
+        "chef_restaurant": "Daniel & Denise (chef-patron)",
+        "quote": "Pate en croute champion du monde 2009, cuisine lyonnaise ultra-maitrisee",
+        "source": "Vallee de la Gastronomie / 2FoodTrippers",
+        "source_url": "https://www.valleedelagastronomie.com/en/gastronomie/the-seven-best-bouchons-in-lyon",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-poelon-d-or-lyon",
+    "name": "Le Poelon d'Or",
+    "address": "29 Rue des Remparts d'Ainay, 69002",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.76286,
+      "lng": 4.83991
+    },
+    "cuisine_type": "Bouchon lyonnais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Yann Lalle",
+        "chef_restaurant": "Le Poelon d'Or (chef-patron)",
+        "quote": "Plafond classe UNESCO, un des meilleurs bouchons de Lyon, tradition depuis 1890",
+        "source": "Vallee de la Gastronomie",
+        "source_url": "https://www.valleedelagastronomie.com/en/gastronomie/the-seven-best-bouchons-in-lyon",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cloche-paris",
+    "name": "Cloche",
+    "address": "1 Rue Coq Heron, 75001",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85354,
+      "lng": 2.35609
+    },
+    "cuisine_type": "Partage / Assiettes a partager",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Bettina Campolucci Bordi",
+        "chef_restaurant": "Chef vegetale independante / Retreat Chef Academy",
+        "quote": "Place to be seen, delicious sharing plates",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/where-to-eat-paris-chef-guide/",
+        "date": "2025-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "origines-paris",
+    "name": "Origines",
+    "address": "Proche Champs-Elysees",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85984,
+      "lng": 2.35371
+    },
+    "cuisine_type": "Francais contemporain / Produits",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Pierre Gagnaire",
+        "chef_restaurant": "Pierre Gagnaire",
+        "quote": "Julien Boscus, a chef who worked with me, obsessed with quality products",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/fr/fr/article/travel/les-adresses-preferees-de-pierre-gagnaire-a-paris",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "classique-paris",
+    "name": "Classique",
+    "address": "",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85305,
+      "lng": 2.35197
+    },
+    "cuisine_type": "Bar a cocktails / Petites assiettes",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victor Gonzalez",
+        "chef_restaurant": "La Tour d'Argent",
+        "quote": "Great cocktail bar, place to share small plates and wine or coffee",
+        "source": "TripAdvisor",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024-06",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "folderol-paris",
+    "name": "Folderol",
+    "address": "",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85814,
+      "lng": 2.34896
+    },
+    "cuisine_type": "Glacier artisanal",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Marc Le Berre",
+        "chef_restaurant": "Donna",
+        "quote": "Stop to taste new ice cream flavors, staff always welcoming",
+        "source": "TripAdvisor",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024-06",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cravan-paris",
+    "name": "Cravan",
+    "address": "Saint-Germain",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85499,
+      "lng": 2.34893
+    },
+    "cuisine_type": "Bar a cocktails / Cafe",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Etheliya Hananova",
+        "chef_restaurant": "Comice",
+        "quote": "Unique, no frou-frou, sophisticated cocktails served in beautiful glassware",
+        "source": "TripAdvisor",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024-06",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-merenda-nice",
+    "name": "La Merenda",
+    "address": "4 rue Raoul Bosio, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71275,
+      "lng": 7.26532
+    },
+    "cuisine_type": "Niçoise traditionnelle",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dominique Le Stanc",
+        "chef_restaurant": "La Merenda (ex-chef 2 étoiles au Negresco)",
+        "quote": "Une cuisine de femmes, simple et authentique, à base de produits du Cours Saleya",
+        "source": "Gilles Pudlowski / Le blog Les Pieds dans le Plat",
+        "source_url": "https://www.gillespudlowski.com/26174/restaurants/nice-le-meilleur-bouchon-du-monde",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-palmyre-nice",
+    "name": "Chez Palmyre",
+    "address": "5 rue Droite, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71339,
+      "lng": 7.26401
+    },
+    "cuisine_type": "Niçoise traditionnelle",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dominique Le Stanc",
+        "chef_restaurant": "La Merenda",
+        "quote": "Un restaurant simple et authentique du Vieux-Nice, cuisine maison avec produits frais",
+        "source": "Côte d'Azur France / Office du Tourisme",
+        "source_url": "https://cotedazurfrance.com/discover/cities-of-the-cote-dazur/visit-nice-the-cote-dazurs-multi-faceted-city/restaurants-where-to-eat-in-nice-our-top-addresses-in-nice/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-davia-nice",
+    "name": "Chez Davia",
+    "address": "11 bis rue Grimaldi, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.7106,
+      "lng": 7.2585
+    },
+    "cuisine_type": "Liguro-niçoise",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Keisuke Matsushima",
+        "chef_restaurant": "Keisuke Matsushima (1 étoile)",
+        "quote": "Pierre Altobelli, passé par les cuisines étoilées des plus grands chefs, est revenu à ses racines liguro-niçoises",
+        "source": "Yonder",
+        "source_url": "https://www.yonder.fr/gastronomie/restaurants/les-meilleurs-restaurants-nice-france",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "lou-balico-nice",
+    "name": "Lou Balico",
+    "address": "20 avenue Simon Veil, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.70985,
+      "lng": 7.26409
+    },
+    "cuisine_type": "Niçoise traditionnelle",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Keisuke Matsushima",
+        "chef_restaurant": "Keisuke Matsushima (1 étoile)",
+        "quote": "Institution de la cuisine niçoise depuis 1979, socca et petits farcis dans une ambiance bistrot authentique",
+        "source": "Côte d'Azur France",
+        "source_url": "https://cotedazurfrance.com/discover/cities-of-the-cote-dazur/visit-nice-the-cote-dazurs-multi-faceted-city/restaurants-where-to-eat-in-nice-our-top-addresses-in-nice/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-bistrot-saint-georges-nice",
+    "name": "Le Bistrot Saint-Georges",
+    "address": "Quartier du Port, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71205,
+      "lng": 7.25821
+    },
+    "cuisine_type": "Bistronomique",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "David Faure",
+        "chef_restaurant": "Aphrodite (ex-1 étoile, fermé)",
+        "quote": "Produits frais et cuisine recherchée, un vrai restaurant bistronomique derrière le port",
+        "source": "La souris globe-trotteuse",
+        "source_url": "https://www.lasourisglobe-trotteuse.fr/ou-manger-a-nice-adresses/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-table-d-alziari-nice",
+    "name": "La Table d'Alziari",
+    "address": "Vieux-Nice, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.70607,
+      "lng": 7.25871
+    },
+    "cuisine_type": "Niçoise / Provençale",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Julia Sedefdjian",
+        "chef_restaurant": "Baieta (1 étoile, Paris, originaire de Nice)",
+        "quote": "Honore les produits locaux, stockfish à la niçoise et capouns dans le vieux Nice",
+        "source": "Côte d'Azur France",
+        "source_url": "https://cotedazurfrance.com/discover/cities-of-the-cote-dazur/visit-nice-the-cote-dazurs-multi-faceted-city/restaurants-where-to-eat-in-nice-our-top-addresses-in-nice/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "pirouette-nice",
+    "name": "Pirouette",
+    "address": "Quartier du Port, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71339,
+      "lng": 7.25891
+    },
+    "cuisine_type": "Néo-bistrot",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Samuel Victori",
+        "chef_restaurant": "Les Agitateurs (1 étoile, Nice)",
+        "quote": "Néo-bistrot ouvert en 2023 par l'équipe des Agitateurs, à proximité de leur restaurant étoilé",
+        "source": "Les Agitateurs",
+        "source_url": "https://lesagitateurs.com/pirouette",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "lucia-cannes",
+    "name": "Lucia",
+    "address": "Boulevard de la Croisette, 06400 Cannes",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.55212,
+      "lng": 7.01681
+    },
+    "cuisine_type": "Méditerranéenne / Cuisine du Soleil",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandro Pizza",
+        "chef_restaurant": "Lucia / Nikki Beach (Corporate Executive Chef)",
+        "quote": "Chaque plat est comme une aventure culinaire, avec des saveurs qui vous transportent sur les rives de la Méditerranée",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/chefs-guide-to-cannes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "sens-cannes",
+    "name": "Sens",
+    "address": "9 rue d'Oran, 06400 Cannes",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.55607,
+      "lng": 7.01408
+    },
+    "cuisine_type": "Contemporaine / Française",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandro Pizza",
+        "chef_restaurant": "Lucia / Nikki Beach (Corporate Executive Chef)",
+        "quote": "Les chefs se relaient en cuisine, créant des plats savoureux à partir de produits locaux",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/chefs-guide-to-cannes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "mido-cannes",
+    "name": "Mido",
+    "address": "5 rue Florian, 06400 Cannes",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.55109,
+      "lng": 7.01918
+    },
+    "cuisine_type": "Nikkei (Japonaise-Péruvienne)",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandro Pizza",
+        "chef_restaurant": "Lucia / Nikki Beach (Corporate Executive Chef)",
+        "quote": "",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/chefs-guide-to-cannes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "anna-cannes",
+    "name": "Anna",
+    "address": "63 boulevard de la Croisette, 06400 Cannes",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.54969,
+      "lng": 7.01431
+    },
+    "cuisine_type": "Grecque",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alessandro Pizza",
+        "chef_restaurant": "Lucia / Nikki Beach (Corporate Executive Chef)",
+        "quote": "Ce hotspot se spécialise dans une cuisine grecque chic, avec un focus sur les mezzés et leurs pâtes à la truffe signature",
+        "source": "Country & Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/chefs-guide-to-cannes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "march-de-la-condamine-monaco",
+    "name": "Marché de la Condamine",
+    "address": "Place d'Armes, 98000 Monaco",
+    "city": "Monaco",
+    "country": "Monaco",
+    "coordinates": {
+      "lat": 43.7342,
+      "lng": 7.42867
+    },
+    "cuisine_type": "Marché / Spécialités monégasques",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Ducasse",
+        "chef_restaurant": "Le Louis XV (3 étoiles, Monaco)",
+        "quote": "Ce marché a été rénové il y a quelques années, créant des espaces avec des tables où l'on peut manger ce qu'on achète aux étals",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.com/explore/articles/monaco-where-eat-according-alain-ducasse",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "casa-del-caff-monaco",
+    "name": "Casa del Caffè",
+    "address": "25 avenue de la Costa, 98000 Monaco",
+    "city": "Monaco",
+    "country": "Monaco",
+    "coordinates": {
+      "lat": 43.73587,
+      "lng": 7.42501
+    },
+    "cuisine_type": "Café / Italien",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Ducasse",
+        "chef_restaurant": "Le Louis XV (3 étoiles, Monaco)",
+        "quote": "Je commence souvent ma matinée avec un café dans ce café local près de chez moi",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.com/explore/articles/monaco-where-eat-according-alain-ducasse",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "il-terrazzino-monaco",
+    "name": "Il Terrazzino",
+    "address": "2 rue des Iris, 98000 Monaco",
+    "city": "Monaco",
+    "country": "Monaco",
+    "coordinates": {
+      "lat": 43.73703,
+      "lng": 7.42885
+    },
+    "cuisine_type": "Italienne / Napolitaine",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Ducasse",
+        "chef_restaurant": "Le Louis XV (3 étoiles, Monaco)",
+        "quote": "Chez Il Terrazzino, Raffaele Russo met en valeur son héritage du sud de l'Italie",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.com/explore/articles/monaco-where-eat-according-alain-ducasse",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "maya-bay-monaco",
+    "name": "Maya Bay",
+    "address": "24 avenue Princesse Grace, 98000 Monaco",
+    "city": "Monaco",
+    "country": "Monaco",
+    "coordinates": {
+      "lat": 43.7397,
+      "lng": 7.42581
+    },
+    "cuisine_type": "Japonaise / Thaïlandaise",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Ducasse",
+        "chef_restaurant": "Le Louis XV (3 étoiles, Monaco)",
+        "quote": "Maya Bay propose à la fois cuisine japonaise et thaïlandaise, il est difficile de choisir",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.com/explore/articles/monaco-where-eat-according-alain-ducasse",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "song-qi-monaco",
+    "name": "Song Qi",
+    "address": "7 avenue Princesse Grace, 98000 Monaco",
+    "city": "Monaco",
+    "country": "Monaco",
+    "coordinates": {
+      "lat": 43.73792,
+      "lng": 7.42314
+    },
+    "cuisine_type": "Chinoise contemporaine",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Marcel Ravin",
+        "chef_restaurant": "Blue Bay (2 étoiles, Monaco)",
+        "quote": "Dim sum de homard et bar chilien, woks élaborés et canard laqué, la cuisine chinoise classique avec une touche élégante",
+        "source": "Monaco Life",
+        "source_url": "https://monacolife.net/monacos-must-visit-restaurants-without-a-michelin-star/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-table-d-elise-monaco",
+    "name": "La Table d'Elise",
+    "address": "Rue Princesse Caroline, 98000 Monaco",
+    "city": "Monaco",
+    "country": "Monaco",
+    "coordinates": {
+      "lat": 43.74071,
+      "lng": 7.42182
+    },
+    "cuisine_type": "Française contemporaine",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Marcel Ravin",
+        "chef_restaurant": "Blue Bay (2 étoiles, Monaco)",
+        "quote": "Cuisine juste, sans chichis, généreuse et savoureuse. Menu déjeuner très abordable à 29 euros",
+        "source": "Monaco Life",
+        "source_url": "https://monacolife.net/monacos-must-visit-restaurants-without-a-michelin-star/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "beefbar-monaco",
+    "name": "Beefbar",
+    "address": "42 quai Jean-Charles Rey, 98000 Monaco",
+    "city": "Monaco",
+    "country": "Monaco",
+    "coordinates": {
+      "lat": 43.73897,
+      "lng": 7.42336
+    },
+    "cuisine_type": "Viandes / Steakhouse",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Yannick Alléno",
+        "chef_restaurant": "Pavyllon Monte-Carlo (1 étoile, Monaco)",
+        "quote": "Un paradis pour les amateurs de viande, un concept qui est devenu mondial",
+        "source": "Monaco Life",
+        "source_url": "https://monacolife.net/monacos-must-visit-restaurants-without-a-michelin-star/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "premi-re-dition-avignon",
+    "name": "Première Édition",
+    "address": "Avignon, 84000",
+    "city": "Avignon",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.94721,
+      "lng": 4.80563
+    },
+    "cuisine_type": "Française contemporaine",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Florent Pietravalle",
+        "chef_restaurant": "La Mirande (1 étoile, Avignon)",
+        "quote": "Un de mes endroits préférés à Avignon",
+        "source": "Gault & Millau",
+        "source_url": "https://fr.gaultmillau.com/en/news/les-bonnes-adresses-de-florent-pietravalle",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-questel-n-mes",
+    "name": "Le Questel",
+    "address": "Nîmes, 30000",
+    "city": "Nîmes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.83451,
+      "lng": 4.36073
+    },
+    "cuisine_type": "Française traditionnelle",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Florent Pietravalle",
+        "chef_restaurant": "La Mirande (1 étoile, Avignon)",
+        "quote": "J'aime y déguster les cuisses de grenouilles",
+        "source": "Konbini Food",
+        "source_url": "https://www.konbini.com/food/que-mangent-vraiment-les-grands-chefs-dans-la-vraie-vie/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "georgi-au-n-mes",
+    "name": "Georgi'AU",
+    "address": "Parc Georges Besse, 30000 Nîmes",
+    "city": "Nîmes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.83357,
+      "lng": 4.35615
+    },
+    "cuisine_type": "Italienne-Méditerranéenne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jérôme Nutile",
+        "chef_restaurant": "Jérôme Nutile (1 étoile, MOF, Nîmes)",
+        "quote": "Cuisine contemporaine avec des planches gourmandes au coeur du Parc Georges-Besse",
+        "source": "Jérôme Nutile site officiel",
+        "source_url": "http://georgiau.fr/",
+        "date": "2022",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-bistr-au-n-mes",
+    "name": "Le Bistr'AU",
+    "address": "Parc Georges Besse, 30000 Nîmes",
+    "city": "Nîmes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.83413,
+      "lng": 4.35672
+    },
+    "cuisine_type": "Bistronomique",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jérôme Nutile",
+        "chef_restaurant": "Jérôme Nutile (1 étoile, MOF, Nîmes)",
+        "quote": "La bistronomie revisitée par Jérôme Nutile dans une authentique bastide provençale",
+        "source": "Jérôme Nutile site officiel",
+        "source_url": "https://www.jerome-nutile.com/en/bistrau.html",
+        "date": "2014",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "terminal-1-montpellier",
+    "name": "Terminal #1",
+    "address": "Bord du Lez, Port Marianne, 34000 Montpellier",
+    "city": "Montpellier",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.61403,
+      "lng": 3.87708
+    },
+    "cuisine_type": "Bistrot gastronomique / Méditerranéenne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jacques et Laurent Pourcel",
+        "chef_restaurant": "Le Jardin des Sens (1 étoile, Montpellier)",
+        "quote": "Cuisine raffinée à prix modérés, produits locaux, alliant qualité et créativité dans un ancien chai réhabilité",
+        "source": "Comptoir d'Envies",
+        "source_url": "https://www.comptoirdenvies.com/le-terminal-1-le-bistrot-gastronomique-des-freres-pourcel/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-canourgue-montpellier",
+    "name": "La Canourgue",
+    "address": "Place de la Canourgue, Hôtel Richer de Belleval, 34000 Montpellier",
+    "city": "Montpellier",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.61243,
+      "lng": 3.87923
+    },
+    "cuisine_type": "Bistrot de chef / Française",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jacques et Laurent Pourcel",
+        "chef_restaurant": "Le Jardin des Sens (1 étoile, Montpellier)",
+        "quote": "Rafraîchir les produits authentiques et dépoussiérer les classiques en magnifiant chaque produit, même le plus simple",
+        "source": "Gilles Pudlowski",
+        "source_url": "https://www.gillespudlowski.com/299126/restaurants/montpellier-la-canourgue-ou-les-pourcel-en-version-simplees-pourcel-version-simple",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "manita-montpellier",
+    "name": "Manita",
+    "address": "Marché du Lez, 34000 Montpellier",
+    "city": "Montpellier",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.60832,
+      "lng": 3.88061
+    },
+    "cuisine_type": "Street food méditerranéenne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jacques et Laurent Pourcel",
+        "chef_restaurant": "Le Jardin des Sens (1 étoile, Montpellier)",
+        "quote": "La cuisine des frères Pourcel en version décontractée au marché du Lez",
+        "source": "Chefs Doc",
+        "source_url": "https://www.chefsdoc.fr/jacques-et-laurent-pourcel/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "au-coin-des-pucelles-strasbourg",
+    "name": "Au Coin des Pucelles",
+    "address": "12 rue des Pucelles, 67000 Strasbourg",
+    "city": "Strasbourg",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.57207,
+      "lng": 7.75168
+    },
+    "cuisine_type": "Winstub alsacienne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Nasti",
+        "chef_restaurant": "La Table d'Olivier Nasti (2 étoiles, Kaysersberg)",
+        "quote": "Winstub de l'année 2026 selon le Pudlo, tenue par Alexis Albrecht",
+        "source": "France 3 Grand Est",
+        "source_url": "https://france3-regions.franceinfo.fr/grand-est/alsace/chef-winstub-brasserie-de-l-annee-le-palmares-du-guide-gastronomique-pudlo-devoile-ses-meilleurs-etablissements-d-alsace-3307725.html",
+        "date": "2026",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-clou-strasbourg",
+    "name": "Le Clou",
+    "address": "Rue du Chaudron, 67000 Strasbourg",
+    "city": "Strasbourg",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.57291,
+      "lng": 7.75356
+    },
+    "cuisine_type": "Winstub alsacienne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Marc Haeberlin",
+        "chef_restaurant": "Auberge de l'Ill (2 étoiles, Illhaeusern)",
+        "quote": "L'un des restaurants alsaciens les plus réputés de Strasbourg, choucroute douce et savoureuse, cuisine traditionnelle authentique",
+        "source": "Mon week-end en Alsace",
+        "source_url": "https://www.mon-week-end-en-alsace.com/winstub-strasbourg/",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-yvonne-s-burjerstuewel-strasbourg",
+    "name": "Chez Yvonne (S'Burjerstuewel)",
+    "address": "10 rue du Sanglier, 67000 Strasbourg",
+    "city": "Strasbourg",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.57515,
+      "lng": 7.74955
+    },
+    "cuisine_type": "Winstub alsacienne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Marc Haeberlin",
+        "chef_restaurant": "Auberge de l'Ill (2 étoiles, Illhaeusern)",
+        "quote": "Winstub emblématique depuis 1873, cuisine alsacienne généreuse et traditionnelle",
+        "source": "Chez Yvonne site officiel",
+        "source_url": "https://www.restaurant-chez-yvonne.net/la-winstub/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "winstub-du-pont-corbeau-strasbourg",
+    "name": "Winstub du Pont Corbeau",
+    "address": "21 quai Saint-Nicolas, 67000 Strasbourg",
+    "city": "Strasbourg",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.57563,
+      "lng": 7.75142
+    },
+    "cuisine_type": "Winstub alsacienne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Nasti",
+        "chef_restaurant": "La Table d'Olivier Nasti (2 étoiles, Kaysersberg)",
+        "quote": "Bib Gourmand Michelin, restaurant familial de Christophe Andt, plats traditionnels maison avec produits frais de producteurs locaux depuis plus de 30 ans",
+        "source": "Mon week-end en Alsace",
+        "source_url": "https://www.mon-week-end-en-alsace.com/winstub-strasbourg/",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-cave-saverne",
+    "name": "La Cave",
+    "address": "Saverne, 67700",
+    "city": "Saverne",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.74001,
+      "lng": 7.36591
+    },
+    "cuisine_type": "Bistrot alsacien",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Nasti",
+        "chef_restaurant": "La Table d'Olivier Nasti (2 étoiles, Kaysersberg)",
+        "quote": "Bistrot de l'année 2026 au Pudlo, par Sébastien Schmitt et Christian Matt",
+        "source": "France 3 Grand Est",
+        "source_url": "https://france3-regions.franceinfo.fr/grand-est/alsace/chef-winstub-brasserie-de-l-annee-le-palmares-du-guide-gastronomique-pudlo-devoile-ses-meilleurs-etablissements-d-alsace-3307725.html",
+        "date": "2026",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "brasserie-dufour-lille",
+    "name": "Brasserie Dufour",
+    "address": "Vieux-Lille, 59000 Lille",
+    "city": "Lille",
+    "country": "France",
+    "coordinates": {
+      "lat": 50.63198,
+      "lng": 3.05986
+    },
+    "cuisine_type": "Brasserie française",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gérald Guille",
+        "chef_restaurant": "Pureté (1 étoile, Lille)",
+        "quote": "Mon adresse préférée pour manger à Lille",
+        "source": "France Info / C'est mon assiette",
+        "source_url": "https://www.franceinfo.fr/replay-radio/c-est-mon-assiette/a-lille-une-brasserie-francaise-appreciee-par-un-jeune-chef-etoile_7648973.html",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-bloempot-lille",
+    "name": "Le Bloempot",
+    "address": "22 rue des Bouchers, 59800 Lille",
+    "city": "Lille",
+    "country": "France",
+    "coordinates": {
+      "lat": 50.62759,
+      "lng": 3.06031
+    },
+    "cuisine_type": "Cantine flamande",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Florent Ladeyn",
+        "chef_restaurant": "Auberge du Vert Mont (1 étoile, Boeschèpe)",
+        "quote": "Cuisine basée sur les produits de notre belle région, dans un ancien atelier de menuisier du vieux Lille",
+        "source": "Le Bloempot site officiel",
+        "source_url": "https://www.bloempot.fr/?lang=en",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bierbuik-lille",
+    "name": "BierBuik",
+    "address": "Vieux-Lille, 59000 Lille",
+    "city": "Lille",
+    "country": "France",
+    "coordinates": {
+      "lat": 50.63121,
+      "lng": 3.06076
+    },
+    "cuisine_type": "Estaminet / Brewpub flamand",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Florent Ladeyn",
+        "chef_restaurant": "Auberge du Vert Mont (1 étoile, Boeschèpe)",
+        "quote": "Distingué comme meilleure cantine par Très Très Bon en 2020. Cuisine 100% locale, terroir flamand",
+        "source": "BierBuik site officiel",
+        "source_url": "https://bierbuik.fr/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "krevette-lille",
+    "name": "Krevette",
+    "address": "Avenue Jean-Baptiste Lebas, 59000 Lille",
+    "city": "Lille",
+    "country": "France",
+    "coordinates": {
+      "lat": 50.63104,
+      "lng": 3.061
+    },
+    "cuisine_type": "Fruits de mer / Bar à huîtres",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Florent Ladeyn",
+        "chef_restaurant": "Auberge du Vert Mont (1 étoile, Boeschèpe)",
+        "quote": "Concept autour des produits de la mer, plateaux d'huîtres accompagnés de vin blanc dès 17h30 pour un afterwork original",
+        "source": "Néo Restauration",
+        "source_url": "https://www.neorestauration.com/article/florent-ladeyn-ouvre-krevette-a-lille,72746",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "pigments-villeneuve-d-ascq-lille-m-tropole",
+    "name": "Pigments",
+    "address": "LAM, Musée d'Art Moderne, 59650 Villeneuve-d'Ascq",
+    "city": "Villeneuve-d'Ascq (Lille Métropole)",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.59982,
+      "lng": 2.00199
+    },
+    "cuisine_type": "Française contemporaine",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Florent Ladeyn",
+        "chef_restaurant": "Auberge du Vert Mont (1 étoile, Boeschèpe)",
+        "quote": "Restaurant ouvert en février 2026 au coeur du LAM, Musée d'Art Moderne de Villeneuve-d'Ascq",
+        "source": "Mange Lille",
+        "source_url": "https://mangelille.com/chefs/florent-ladeyn/",
+        "date": "2026",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "lamaccotte-nantes",
+    "name": "Lamaccotte",
+    "address": "Nantes, 44000",
+    "city": "Nantes",
+    "country": "France",
+    "coordinates": {
+      "lat": 47.22025,
+      "lng": -1.5538
+    },
+    "cuisine_type": "Bistronomique / Produits du marché",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ludovic Pouzelgues",
+        "chef_restaurant": "LuluRouget (1 étoile, Nantes)",
+        "quote": "Inspiré des produits de saison et du marché de Talensac",
+        "source": "Yonder",
+        "source_url": "https://www.yonder.fr/les-tops/restaurants/meilleurs-restaurants-a-nantes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "sain-nantes",
+    "name": "Sain",
+    "address": "Nantes, 44000",
+    "city": "Nantes",
+    "country": "France",
+    "coordinates": {
+      "lat": 47.21803,
+      "lng": -1.5548
+    },
+    "cuisine_type": "Bistrot / Vins naturels",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ludovic Pouzelgues",
+        "chef_restaurant": "LuluRouget (1 étoile, Nantes)",
+        "quote": "Bistrot cool des frères Samuel et Josselin Huitric, cuisine de qualité et accords vins percutants",
+        "source": "France.fr",
+        "source_url": "https://www.france.fr/en/article/restaurants-nantes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "contresens-annecy",
+    "name": "ContreSens",
+    "address": "Près de la gare, 74000 Annecy",
+    "city": "Annecy",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.90195,
+      "lng": 6.12803
+    },
+    "cuisine_type": "Brasserie contemporaine",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Laurent Petit",
+        "chef_restaurant": "Le Clos des Sens (ex-3 étoiles, Annecy)",
+        "quote": "Brasserie contemporaine créée en 2005 par Laurent Petit près de la gare d'Annecy",
+        "source": "France Bleu Pays de Savoie",
+        "source_url": "https://www.francebleu.fr/emissions/la-vie-en-bleu-l-assiette-savoyarde-cuisine-ensemble/pays-de-savoie/laurent-petit-chef-3-etoiles-du-restaurant-le-clos-des-sens-a-annecy-le-vieux",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "gill-c-t-bistro-rouen",
+    "name": "Gill Côté Bistro",
+    "address": "Place du Vieux-Marché, 76000 Rouen",
+    "city": "Rouen",
+    "country": "France",
+    "coordinates": {
+      "lat": 49.44497,
+      "lng": 1.10049
+    },
+    "cuisine_type": "Bistrot normand",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gilles Tournadre",
+        "chef_restaurant": "Restaurant Gill (ex-2 étoiles, Rouen)",
+        "quote": "Cuisine franco-française rénovée dans un décor moderne, au coeur du Rouen médiéval sur la Place du Vieux-Marché",
+        "source": "Gilles Pudlowski",
+        "source_url": "https://www.gillespudlowski.com/43292/restaurants/rouen-gill-version-modeste",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "caf-hamlet-rouen",
+    "name": "Café Hamlet",
+    "address": "Rouen, 76000",
+    "city": "Rouen",
+    "country": "France",
+    "coordinates": {
+      "lat": 49.44466,
+      "lng": 1.09847
+    },
+    "cuisine_type": "Café-restaurant / Pâtisserie",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gilles Tournadre",
+        "chef_restaurant": "Restaurant Gill (ex-2 étoiles, Rouen)",
+        "quote": "Lancé en 2021 avec son chef pâtissier Christophe Maillet dans une belle maison à colombages",
+        "source": "Terroirs de Chefs",
+        "source_url": "https://www.terroirsdechefs.com/les-grands-chefs-etoiles-de-france/biographies-des-grands-chefs-cuisiniers-de-france/Gilles-Tournadre",
+        "date": "2021",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "a-nepita-ajaccio",
+    "name": "A Nepita",
+    "address": "4 rue San Lazaro, 20000 Ajaccio",
+    "city": "Ajaccio",
+    "country": "France",
+    "coordinates": {
+      "lat": 41.91563,
+      "lng": 8.7404
+    },
+    "cuisine_type": "Corse contemporaine / Marché",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Simon Andrews",
+        "chef_restaurant": "A Nepita (1 étoile, Ajaccio)",
+        "quote": "Menu unique chaque jour au gré du marché, de la pêche du jour et de l'inspiration, avec le poulpe grillé signature",
+        "source": "ATC Corsica / Visit Corsica",
+        "source_url": "https://www.visit-corsica.com/fr/La-destination-Corse/Gastronomie-et-saveurs/Paroles-de-passionnes/Rencontre-avec-le-chef-Simon-Andrews-restaurant-A-Nepita",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "a-spuntinata-ajaccio",
+    "name": "A Spuntinata",
+    "address": "Rue Fesch, 20000 Ajaccio",
+    "city": "Ajaccio",
+    "country": "France",
+    "coordinates": {
+      "lat": 41.91616,
+      "lng": 8.73788
+    },
+    "cuisine_type": "Corse créative / Bistrot",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Simon Andrews",
+        "chef_restaurant": "A Nepita (1 étoile, Ajaccio)",
+        "quote": "Petite terrasse au milieu de la rue Fesch où le chef Antoine, ancien étoilé, propose un moment gourmand et original",
+        "source": "Corsica Lovers",
+        "source_url": "https://corsicalovers.fr/meilleurs-restaurants-ajaccio-manger/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-pech-ajaccio",
+    "name": "Chez Pech",
+    "address": "Plage de Barbicaja, 20000 Ajaccio",
+    "city": "Ajaccio",
+    "country": "France",
+    "coordinates": {
+      "lat": 41.92125,
+      "lng": 8.73539
+    },
+    "cuisine_type": "Poisson / Fruits de mer",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Simon Andrews",
+        "chef_restaurant": "A Nepita (1 étoile, Ajaccio)",
+        "quote": "Restaurant familial sur la sublime plage de Barbicaja, spécialiste du poisson à Ajaccio",
+        "source": "Barnes Corse",
+        "source_url": "https://barnes-corse.com/5-restaurants-incontournables-a-ajaccio/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "los-caracoles-barcelona",
+    "name": "Los Caracoles",
+    "address": "Carrer dels Escudellers, 14",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38929,
+      "lng": 2.17071
+    },
+    "cuisine_type": "Catalan traditionnel, caracoles",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ferran Adria",
+        "chef_restaurant": "elBulli (ferme)",
+        "quote": "Un lieu emblematique qui a maintenu son essence et sa qualite pendant pres de 200 ans",
+        "source": "Directo al Paladar",
+        "source_url": "https://www.directoalpaladar.com/viajes/restaurante-casi-200-anos-historia-centro-barcelona-que-enamora-a-ferran-adria-su-plato-estrella-caracoles",
+        "date": "2025-01",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "can-vilaro-barcelona",
+    "name": "Can Vilaro",
+    "address": "Carrer del Comte Borrell, 61",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38649,
+      "lng": 2.17142
+    },
+    "cuisine_type": "Catalan traditionnel",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ferran Adria",
+        "chef_restaurant": "elBulli (ferme)",
+        "quote": "Un de mes restaurants de confiance a Barcelona, cuisine catalane authentique pres du marche Sant Antoni",
+        "source": "Tot Barcelona",
+        "source_url": "https://www.totbarcelona.cat/es/cultura-ocio/los-restaurantes-de-barcelona-que-no-te-puedes-perder-segun-ferran-adria-668425/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "come-by-paco-mendez-barcelona",
+    "name": "Come by Paco Mendez",
+    "address": "Avinguda de Mistral, 54",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38246,
+      "lng": 2.16618
+    },
+    "cuisine_type": "Mexicain",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ferran Adria",
+        "chef_restaurant": "elBulli (ferme)",
+        "quote": "La meilleure cuisine mexicaine en dehors du Mexique",
+        "source": "South China Morning Post / Tot Barcelona",
+        "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3226589/where-eat-and-drink-barcelona-4-top-spanish-chefs-reveal-where-go-tapas-catalan-cuisine-and-michelin",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "granja-elena-barcelona",
+    "name": "Granja Elena",
+    "address": "Passeig de la Zona Franca, 228",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38776,
+      "lng": 2.17069
+    },
+    "cuisine_type": "Catalan traditionnel, cuisine de marche",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ferran Adria / Eduard Xatruch",
+        "chef_restaurant": "elBulli (ferme) / Disfrutar",
+        "quote": "Cuisine de marche authentique, cap i pota, fricando, omelette de morue",
+        "source": "Tot Barcelona / South China Morning Post",
+        "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3226589/where-eat-and-drink-barcelona-4-top-spanish-chefs-reveal-where-go-tapas-catalan-cuisine-and-michelin",
+        "date": "2023-2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "ca-l-isidre-barcelona",
+    "name": "Ca l'Isidre",
+    "address": "Carrer de les Flors, 12",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38712,
+      "lng": 2.17259
+    },
+    "cuisine_type": "Catalan-mediterraneen, cuisine de marche",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Albert Adria",
+        "chef_restaurant": "Enigma",
+        "quote": "Le meilleur restaurant de cuisine catalane a Barcelona, produits du marche de la Boqueria depuis 1970",
+        "source": "Cronica Global",
+        "source_url": "https://cronicaglobal.elespanol.com/gastronomia/20241119/asi-el-restaurante-de-barcelona-albert-adria/902409812_0.html",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "granja-viader-barcelona",
+    "name": "Granja Viader",
+    "address": "Carrer d'en Xucla, 4",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38417,
+      "lng": 2.16729
+    },
+    "cuisine_type": "Cafe traditionnel, churros, sandwiches",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Albert Adria",
+        "chef_restaurant": "Enigma",
+        "quote": "J'adore l'ambiance old-school et le melange de locaux et de touristes",
+        "source": "South China Morning Post",
+        "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3226589/where-eat-and-drink-barcelona-4-top-spanish-chefs-reveal-where-go-tapas-catalan-cuisine-and-michelin",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bar-canete-barcelona",
+    "name": "Bar Canete",
+    "address": "Carrer de la Unio, 17",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38975,
+      "lng": 2.16648
+    },
+    "cuisine_type": "Tapas, cuisine catalane",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Albert Adria",
+        "chef_restaurant": "Enigma",
+        "quote": "Excellentes tapas, notamment les cannelloni de poulet roti et la tortilla espagnole",
+        "source": "South China Morning Post",
+        "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3226589/where-eat-and-drink-barcelona-4-top-spanish-chefs-reveal-where-go-tapas-catalan-cuisine-and-michelin",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "al-kostat-barcelona",
+    "name": "Al Kostat",
+    "address": "Ronda de Sant Antoni, 41",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38613,
+      "lng": 2.17099
+    },
+    "cuisine_type": "Catalan contemporain",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Eduard Xatruch",
+        "chef_restaurant": "Disfrutar",
+        "quote": "Macaronis et tortilla de pommes de terre et oignon extraordinaires, chef Jordi Vila",
+        "source": "South China Morning Post / Tot Barcelona",
+        "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3226589/where-eat-and-drink-barcelona-4-top-spanish-chefs-reveal-where-go-tapas-catalan-cuisine-and-michelin",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "ultramarinos-marin-barcelona",
+    "name": "Ultramarinos Marin",
+    "address": "Carrer de Balmes, 187",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38964,
+      "lng": 2.16669
+    },
+    "cuisine_type": "Petit-dejeuner catalan, tapas",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sergio Torres",
+        "chef_restaurant": "Cocina Hermanos Torres",
+        "quote": "Escalivada, chistorra, butifarra avec aioli, un excellent spot pour le petit-dejeuner",
+        "source": "South China Morning Post",
+        "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3226589/where-eat-and-drink-barcelona-4-top-spanish-chefs-reveal-where-go-tapas-catalan-cuisine-and-michelin",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "tapas-24-barcelona",
+    "name": "Tapas 24",
+    "address": "Carrer de la Diputacio, 269",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38762,
+      "lng": 2.16663
+    },
+    "cuisine_type": "Tapas creatives",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jordi Roca",
+        "chef_restaurant": "El Celler de Can Roca",
+        "quote": "Le bikini au jambon et truffe et la bomba Barcelona sont exceptionnels",
+        "source": "South China Morning Post",
+        "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3226589/where-eat-and-drink-barcelona-4-top-spanish-chefs-reveal-where-go-tapas-catalan-cuisine-and-michelin",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "els-pescadors-barcelona",
+    "name": "Els Pescadors",
+    "address": "Placa Prim, 1",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38563,
+      "lng": 2.17096
+    },
+    "cuisine_type": "Fruits de mer, cuisine maritime",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Carme Ruscalleda",
+        "chef_restaurant": "Sant Pau (ferme)",
+        "quote": "Quand je passe par Barcelona, c'est un de mes favoris pour ses recettes maritimes, son service et son ambiance",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/donde-comen-los-cocineros-carme-ruscalleda/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "hispania-arenys-de-mar-barcelona",
+    "name": "Hispania",
+    "address": "Carretera Real, 54",
+    "city": "Arenys de Mar (Barcelona)",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.60279,
+      "lng": 1.99638
+    },
+    "cuisine_type": "Catalan traditionnel, fruits de mer",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Carme Ruscalleda",
+        "chef_restaurant": "Sant Pau (ferme)",
+        "quote": "Pour nous c'est un endroit cher ou nous profitons en famille. C'est une reference et leur cuisine est impeccable",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/donde-comen-los-cocineros-carme-ruscalleda/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "collsacreu-arenys-de-munt-barcelona",
+    "name": "Collsacreu",
+    "address": "Masia Collsacreu, s/n",
+    "city": "Arenys de Munt (Barcelona)",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.60199,
+      "lng": 1.99719
+    },
+    "cuisine_type": "Catalan de montagne, cuisine de masia",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Carme Ruscalleda",
+        "chef_restaurant": "Sant Pau (ferme)",
+        "quote": "Les cuisiniers te preparent les plats sur mesure. C'est comme etre a la maison",
+        "source": "Cronica Global / El Espanol",
+        "source_url": "https://cronicaglobal.elespanol.com/gastronomia/20251101/restaurante-favorito-carme-ruscalleda-barcelona-cocineros-preparan-trt/1003742703345_0.html",
+        "date": "2025-10",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bar-txepetxa-san-sebastian",
+    "name": "Bar Txepetxa",
+    "address": "Calle Pescaderia, 5",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32024,
+      "lng": -1.98115
+    },
+    "cuisine_type": "Pintxos, anchois",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Martin Berasategui / Juan Mari Arzak",
+        "chef_restaurant": "Martin Berasategui / Arzak",
+        "quote": "La Chapelle Sixtine de l'anchois. Les meilleurs pintxos d'anchois du monde, resultat de 100 ans de travail",
+        "source": "Guia Repsol / The World's 50 Best",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/los-restaurantes-favoritos-de-martin-berasategui/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "antonio-bar-san-sebastian",
+    "name": "Antonio Bar",
+    "address": "Calle Bergara, 3",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.3238,
+      "lng": -1.98839
+    },
+    "cuisine_type": "Cuisine de marche, pintxos",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Martin Berasategui",
+        "chef_restaurant": "Martin Berasategui",
+        "quote": "Un classique donostiarra avec une equipe jeune et fraiche",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/los-restaurantes-favoritos-de-martin-berasategui/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "narru-san-sebastian",
+    "name": "Narru",
+    "address": "Calle San Martin, 22",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.31704,
+      "lng": -1.98875
+    },
+    "cuisine_type": "Cuisine contemporaine basque",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Martin Berasategui",
+        "chef_restaurant": "Martin Berasategui",
+        "quote": "Le meilleur jeune chef avec le plus de potentiel",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/los-restaurantes-favoritos-de-martin-berasategui/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "mendizorrotz-san-sebastian",
+    "name": "Mendizorrotz",
+    "address": "Plaza Lizardia, 4, Igeldo",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32325,
+      "lng": -1.98869
+    },
+    "cuisine_type": "Ragouts de gibier, cuisine basque traditionnelle",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Martin Berasategui",
+        "chef_restaurant": "Martin Berasategui",
+        "quote": "Cuisine de racines, plats reconfortants traditionnels",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/los-restaurantes-favoritos-de-martin-berasategui/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "kaia-kaipe-getaria-gipuzkoa",
+    "name": "Kaia Kaipe",
+    "address": "Calle General Arnao, 4",
+    "city": "Getaria (Gipuzkoa)",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.60228,
+      "lng": 2.00246
+    },
+    "cuisine_type": "Grillade de poisson, fruits de mer",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Martin Berasategui",
+        "chef_restaurant": "Martin Berasategui",
+        "quote": "Le roi de la grillade, une personne formidable et ancien eleve",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/los-restaurantes-favoritos-de-martin-berasategui/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bar-bergara-san-sebastian",
+    "name": "Bar Bergara",
+    "address": "Calle General Artetxe, 8",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32354,
+      "lng": -1.98151
+    },
+    "cuisine_type": "Pintxos",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak / Martin Berasategui",
+        "chef_restaurant": "Arzak / Martin Berasategui",
+        "quote": "Le meilleur bacalao ajoarriero que l'on puisse trouver. C'etait presque impossible de choisir",
+        "source": "The World's 50 Best / Gastroactitud",
+        "source_url": "https://www.theworlds50best.com/stories/News/juan-mari-elena-arzak-guide-best-pintxo-bars-san-sebastian.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bar-ganbara-san-sebastian",
+    "name": "Bar Ganbara",
+    "address": "Calle San Jeronimo, 21",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32207,
+      "lng": -1.9824
+    },
+    "cuisine_type": "Pintxos, fruits de mer",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak",
+        "chef_restaurant": "Arzak",
+        "quote": "Le proprietaire est un ami de toute une vie... ici on trouve le meilleur merlu frit",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/de-pintxos-con-juan-mari-arzak/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "el-tamboril-san-sebastian",
+    "name": "El Tamboril",
+    "address": "Calle Pescaderia, 2",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32134,
+      "lng": -1.98365
+    },
+    "cuisine_type": "Pintxos",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak",
+        "chef_restaurant": "Arzak",
+        "quote": "Champignons, anchois panes frais, beignets de morue, poivrons farcis - tenu par les cousins du proprietaire de Ganbara",
+        "source": "The World's 50 Best / Gastroactitud",
+        "source_url": "https://www.theworlds50best.com/stories/News/juan-mari-elena-arzak-guide-best-pintxo-bars-san-sebastian.html",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "a-fuego-negro-san-sebastian",
+    "name": "A Fuego Negro",
+    "address": "Calle 31 de Agosto, 31",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.31756,
+      "lng": -1.98459
+    },
+    "cuisine_type": "Pintxos modernes, creatifs",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak",
+        "chef_restaurant": "Arzak",
+        "quote": "Pintxos modernes... tres bien faits, avec beaucoup d'humour",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/de-pintxos-con-juan-mari-arzak/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bar-haizea-san-sebastian",
+    "name": "Bar Haizea",
+    "address": "Calle Aldamar, 8",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32492,
+      "lng": -1.98589
+    },
+    "cuisine_type": "Pintxos chauds, gildas",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak",
+        "chef_restaurant": "Arzak",
+        "quote": "C'est ici que je retrouve mes amis de passage. Je me sens chez moi avec Inaki et Concha",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/de-pintxos-con-juan-mari-arzak/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "borda-berri-san-sebastian",
+    "name": "Borda Berri",
+    "address": "Calle Fermin Calbeton, 12",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32272,
+      "lng": -1.98757
+    },
+    "cuisine_type": "Pintxos cuisines a la commande",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak / Andoni Luis Aduriz",
+        "chef_restaurant": "Arzak / Mugaritz",
+        "quote": "Ce bar est similaire a La Cuchara de San Telmo. Oreille de porc croustillante, tortilla, gildas - tout est prepare a la commande",
+        "source": "Gastroactitud / FED Guides",
+        "source_url": "https://www.gastroactitud.com/pista/de-pintxos-con-juan-mari-arzak/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-vina-san-sebastian",
+    "name": "La Vina",
+    "address": "Calle 31 de Agosto, 3",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32085,
+      "lng": -1.98467
+    },
+    "cuisine_type": "Pintxos, cheesecake basque",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak",
+        "chef_restaurant": "Arzak",
+        "quote": "Pintxos de qualite prepares a la commande et le fameux cheesecake basque",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/de-pintxos-con-juan-mari-arzak/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bar-nestor-san-sebastian",
+    "name": "Bar Nestor",
+    "address": "Calle Pescaderia, 11",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32316,
+      "lng": -1.98642
+    },
+    "cuisine_type": "Pintxos, tortilla de patatas",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak",
+        "chef_restaurant": "Arzak",
+        "quote": "La meilleure tortilla de patatas de San Sebastian",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/de-pintxos-con-juan-mari-arzak/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "resaca-san-sebastian",
+    "name": "Resaca",
+    "address": "Paseo de Miraconcha, 22",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32075,
+      "lng": -1.98748
+    },
+    "cuisine_type": "Pintxos, tortilla, oeufs frits",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak",
+        "chef_restaurant": "Arzak",
+        "quote": "Dans ce bar je me sens chez moi... les proprietaires sont des amis tres chers",
+        "source": "Gastroactitud / The World's 50 Best",
+        "source_url": "https://www.gastroactitud.com/pista/de-pintxos-con-juan-mari-arzak/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-paloma-ii-madrid",
+    "name": "La Paloma II",
+    "address": "Avenida del Marques de Corbera, 56",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41762,
+      "lng": -3.70048
+    },
+    "cuisine_type": "Riz, fruits de mer, cuisine espagnole traditionnelle",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dabiz Munoz",
+        "chef_restaurant": "DiverXO",
+        "quote": "El arroz con bogavante esta de locos (le riz au homard est dingue). 30 ans d'histoire sans fioritures",
+        "source": "Trendencias / El Espanol",
+        "source_url": "https://www.trendencias.com/gourmet/estos-restaurantes-preferidos-dabiz-munoz-madrid-barcelona-londres",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "lhardy-madrid",
+    "name": "Lhardy",
+    "address": "Carrera de San Jeronimo, 8",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41609,
+      "lng": -3.70273
+    },
+    "cuisine_type": "Cuisine madrilene traditionnelle, cocido",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dabiz Munoz",
+        "chef_restaurant": "DiverXO",
+        "quote": "C'est le meilleur cocido. Je ne connais aucune soupe comme celle du cocido de Lhardy - la texture, la consistance, l'umami",
+        "source": "The Objective",
+        "source_url": "https://theobjective.com/gente/2025-10-14/restaurante-favorito-dabiz-munoz-madrid-cocido/",
+        "date": "2025-10",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "gustoo-mercado-de-san-anton-madrid",
+    "name": "Gustoo (Mercado de San Anton)",
+    "address": "Calle de Augusto Figueroa, 24 (Mercado de San Anton)",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41745,
+      "lng": -3.70644
+    },
+    "cuisine_type": "Cuisine de marche, fusion",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dabiz Munoz",
+        "chef_restaurant": "DiverXO",
+        "quote": "Un endroit frais ou manger pour moins de 20 euros, comme manger 3 etoiles Michelin au marche",
+        "source": "El Espanol / Moncloa",
+        "source_url": "https://www.elespanol.com/madrid/ocio/20260126/dabiz-munoz-desvela-restaurantes-favoritos-comer-madrid-puede-eur/1003744103771_0.html",
+        "date": "2026-01",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "viridiana-madrid",
+    "name": "Viridiana",
+    "address": "Calle de Juan de Mena, 14",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41857,
+      "lng": -3.70631
+    },
+    "cuisine_type": "Cuisine espagnole d'auteur",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dabiz Munoz",
+        "chef_restaurant": "DiverXO",
+        "quote": "Un classique madrilene avec une cuisine d'auteur a touches internationales",
+        "source": "Trendencias",
+        "source_url": "https://www.trendencias.com/gourmet/estos-restaurantes-preferidos-dabiz-munoz-madrid-barcelona-londres",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "casa-adriano-madrid",
+    "name": "Casa Adriano",
+    "address": "Calle Pamplona, 19",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41791,
+      "lng": -3.70005
+    },
+    "cuisine_type": "Galicien traditionnel",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "David de Jorge (Robin Food)",
+        "chef_restaurant": "Presentateur TV Robin Food",
+        "quote": "Cuisine galicienne traditionnelle avec des formes precises",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/donde-comen-los-cocineros-david-de-jorge/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "el-bigotes-santa-eularia-des-riu-ibiza",
+    "name": "El Bigotes",
+    "address": "Cala Mastella, s/n",
+    "city": "Santa Eularia des Riu, Ibiza",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.59845,
+      "lng": 2.00135
+    },
+    "cuisine_type": "Chiringuito, bullit de peix traditionnel",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Hari Shetty",
+        "chef_restaurant": "Nagai Ibiza",
+        "quote": "Tables sur les rochers, pas d'electricite, un seul plat... c'est comme remonter dans le temps",
+        "source": "Country and Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/ibiza-chefs-guide/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "fish-shack-ibiza",
+    "name": "Fish Shack",
+    "address": "Punta dels Andreus, Cap Martinet",
+    "city": "Ibiza",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 38.90772,
+      "lng": 1.43415
+    },
+    "cuisine_type": "Chiringuito, poisson grille",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Hari Shetty",
+        "chef_restaurant": "Nagai Ibiza",
+        "quote": "Totalement sans pretention, pas d'enseigne, pas de reservation. On s'assoit sur des chaises en plastique, on boit du rose frais et on mange le poisson grille le plus frais",
+        "source": "Country and Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/ibiza-chefs-guide/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "pou-des-lleo-santa-eularia-des-riu-ibiza",
+    "name": "Pou des Lleo",
+    "address": "Es Pou des Lleo, s/n",
+    "city": "Santa Eularia des Riu, Ibiza",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.59753,
+      "lng": 2.00001
+    },
+    "cuisine_type": "Chiringuito, paella, fruits de mer",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Hari Shetty",
+        "chef_restaurant": "Nagai Ibiza",
+        "quote": "Il y a quelque chose de vraiment special a regarder les pecheurs travailler pendant qu'on deguste une assiette de fruits de mer",
+        "source": "Country and Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/ibiza-chefs-guide/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "ses-roques-sant-josep-de-sa-talaia-ibiza",
+    "name": "Ses Roques",
+    "address": "Cala Conta, s/n",
+    "city": "Sant Josep de sa Talaia, Ibiza",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.60228,
+      "lng": 1.99771
+    },
+    "cuisine_type": "Chiringuito, poisson grille, mediterraneen",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Hari Shetty",
+        "chef_restaurant": "Nagai Ibiza",
+        "quote": "Un endroit genial en bord de mer ou profiter de poisson grille et de vues infinies sur la mer, special mais pas exagere",
+        "source": "Country and Town House",
+        "source_url": "https://www.countryandtownhouse.com/food-and-drink/ibiza-chefs-guide/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "ses-boques-sant-josep-de-sa-talaia-ibiza",
+    "name": "Ses Boques",
+    "address": "Playa de Ses Salines, s/n",
+    "city": "Sant Josep de sa Talaia, Ibiza",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.59884,
+      "lng": 1.99781
+    },
+    "cuisine_type": "Chiringuito, riz mariniers, paella, poisson grille",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Divers chefs locaux",
+        "chef_restaurant": "Institution locale depuis 1974",
+        "quote": "Un demi-siecle a servir des riz mariniers, paella et poissons frais a la braise - une institution depuis 1974",
+        "source": "Infobae / Ibiza Food Lovers",
+        "source_url": "https://www.ibizafoodlovers.com/blog/tag/chiringuitos",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "rekondo-san-sebastian",
+    "name": "Rekondo",
+    "address": "Paseo de Igeldo, 57",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.31826,
+      "lng": -1.98364
+    },
+    "cuisine_type": "Asador traditionnel, grillades",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Martin Berasategui",
+        "chef_restaurant": "Martin Berasategui",
+        "quote": "Magnifique grillade traditionnelle avec la meilleure cave a vins du monde",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/comer/donde-comen-los-cocineros/los-restaurantes-favoritos-de-martin-berasategui/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "hidalgo-56-san-sebastian",
+    "name": "Hidalgo 56",
+    "address": "Paseo Colon, 15",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32365,
+      "lng": -1.98479
+    },
+    "cuisine_type": "Pintxos creatifs",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Juan Mari Arzak / Elena Arzak",
+        "chef_restaurant": "Arzak",
+        "quote": "Le volcan de morcilla avec jaune d'oeuf et les riz sont extraordinaires",
+        "source": "The World's 50 Best",
+        "source_url": "https://www.theworlds50best.com/stories/News/juan-mari-elena-arzak-guide-best-pintxo-bars-san-sebastian.html",
+        "date": "2024",
         "platform": "presse"
       }
     ],
