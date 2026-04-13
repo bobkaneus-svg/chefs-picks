@@ -268,13 +268,50 @@ function toggleFav(id,e){
 // GEOLOCATION
 // ══════════════════════════════════
 function geolocate(){
-  if(!navigator.geolocation){alert('Géolocalisation non disponible');return}
-  navigator.geolocation.getCurrentPosition(function(pos){
-    var lat=pos.coords.latitude,lng=pos.coords.longitude;
-    if(geoMarker)map.removeLayer(geoMarker);
-    geoMarker=L.circleMarker([lat,lng],{radius:8,fillColor:'#4285f4',fillOpacity:1,color:'#fff',weight:3,opacity:1}).addTo(map);
-    map.setView([lat,lng],14,{animate:true});
-  },function(){alert('Impossible de vous géolocaliser')},{enableHighAccuracy:true,timeout:10000});
+  // Try Telegram LocationManager first (works in Mini Apps)
+  if(window.Telegram&&Telegram.WebApp&&Telegram.WebApp.LocationManager){
+    var lm=Telegram.WebApp.LocationManager;
+    if(!lm.isInited){
+      lm.init(function(){
+        if(lm.isLocationAvailable){requestTgLocation()}
+        else{fallbackGeo()}
+      });
+    }else if(lm.isLocationAvailable){requestTgLocation()}
+    else{fallbackGeo()}
+    return;
+  }
+  fallbackGeo();
+}
+
+function requestTgLocation(){
+  Telegram.WebApp.LocationManager.getLocation(function(loc){
+    if(loc&&loc.latitude){showGeoPosition(loc.latitude,loc.longitude)}
+    else{fallbackGeo()}
+  });
+}
+
+function fallbackGeo(){
+  if(!navigator.geolocation){
+    alert('Active la géolocalisation dans les réglages de ton téléphone');
+    return;
+  }
+  navigator.geolocation.getCurrentPosition(
+    function(pos){showGeoPosition(pos.coords.latitude,pos.coords.longitude)},
+    function(err){
+      if(err.code===1)alert('Autorise la géolocalisation pour cette app');
+      else alert('Impossible de te géolocaliser. Vérifie tes réglages.');
+    },
+    {enableHighAccuracy:true,timeout:15000,maximumAge:60000}
+  );
+}
+
+function showGeoPosition(lat,lng){
+  if(geoMarker)map.removeLayer(geoMarker);
+  // Blue dot with pulse
+  geoMarker=L.circleMarker([lat,lng],{radius:8,fillColor:'#4285f4',fillOpacity:1,color:'#fff',weight:3,opacity:1}).addTo(map);
+  // Pulse ring
+  L.circleMarker([lat,lng],{radius:20,fillColor:'#4285f4',fillOpacity:0.15,color:'#4285f4',weight:1,opacity:0.3}).addTo(map);
+  map.setView([lat,lng],14,{animate:true});
 }
 
 // ══════════════════════════════════
