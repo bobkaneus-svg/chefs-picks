@@ -647,39 +647,57 @@ function buildCard(r){
   '</div>';
 }
 
+// Track last carousel content to avoid unnecessary rebuilds
+var cLastIds='';
+
 function updateCarousel(){
   var el=document.getElementById('iCarousel');
   if(!map||cScrollLock)return;
-  var b=map.getBounds(),vis=[];
-  R.forEach(function(r){if(r.coordinates&&MK[r.id]&&CG.hasLayer(MK[r.id])&&b.contains([r.coordinates.lat,r.coordinates.lng]))vis.push(r)});
+  var b=map.getBounds(),vis=[],seen={};
+  R.forEach(function(r){
+    if(!r.coordinates||!MK[r.id]||!CG.hasLayer(MK[r.id]))return;
+    if(!b.contains([r.coordinates.lat,r.coordinates.lng]))return;
+    if(seen[r.id])return; // strict dedup
+    seen[r.id]=true;
+    vis.push(r);
+  });
   vis.sort(function(a,b){return(b.confidence_score||0)-(a.confidence_score||0)});
   vis=vis.slice(0,30);
+
+  // Check if content actually changed
+  var newIds=vis.map(function(r){return r.id}).join(',');
+  if(newIds===cLastIds){return} // same cards, don't rebuild
+  cLastIds=newIds;
   cVis=vis;
+
   if(!vis.length){el.style.display='none';highlightPin(null);return}
   el.style.display='block';
   var cards='';vis.forEach(function(r){cards+=buildCard(r)});
-  el.innerHTML='<div id="cscrollEl" class="flex gap-2.5 overflow-x-auto cscroll noscroll py-1">'+cards+'</div>';
+  el.innerHTML='<div id="cscrollEl" class="flex gap-2.5 overflow-x-auto cscroll noscroll py-1" style="scroll-padding:0 40vw">'+cards+'</div>';
 
-  // Attach scroll listener for swipe → pan map + highlight pin
+  // Attach scroll listener
   var sc=document.getElementById('cscrollEl');
   if(sc){
     var scrollTimer=null;
+    var isUserScrolling=false;
+    sc.addEventListener('touchstart',function(){isUserScrolling=true},{passive:true});
+    sc.addEventListener('touchend',function(){
+      // Debounce snap detection after touch ends
+      setTimeout(function(){isUserScrolling=false},100);
+    },{passive:true});
     sc.addEventListener('scroll',function(){
+      if(!isUserScrolling)return; // only react to user swipes, not programmatic scrolls
       clearTimeout(scrollTimer);
       scrollTimer=setTimeout(function(){
         onCarouselSnap(sc);
-      },120);
+      },150);
     },{passive:true});
   }
   // Highlight first
-  if(vis.length>0){
-    cIdx=0;
-    highlightPin(vis[0].id);
-  }
+  if(vis.length>0){cIdx=0;highlightPin(vis[0].id)}
 }
 
 function onCarouselSnap(sc){
-  // Find which card is centered
   var cards=sc.querySelectorAll('.ccard');
   if(!cards.length)return;
   var center=sc.scrollLeft+sc.offsetWidth/2;
@@ -697,10 +715,11 @@ function onCarouselSnap(sc){
   // Highlight pin
   highlightPin(r.id);
 
-  // Pan map to this restaurant (without triggering carousel rebuild)
+  // Zoom + pan to the restaurant (lock carousel so moveend doesn't rebuild)
   cScrollLock=true;
-  map.panTo([r.coordinates.lat,r.coordinates.lng],{animate:true,duration:0.4});
-  setTimeout(function(){cScrollLock=false},600);
+  cLastIds='LOCKED'; // force rebuild after unlock
+  map.setView([r.coordinates.lat,r.coordinates.lng],Math.max(map.getZoom(),15),{animate:true,duration:0.5});
+  setTimeout(function(){cScrollLock=false},800);
 }
 
 function showPreview(r){
