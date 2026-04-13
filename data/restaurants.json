@@ -335,8 +335,8 @@
     "city": "Antibes (Cap d'Antibes)",
     "country": "France",
     "coordinates": {
-      "lat": 48.8613821,
-      "lng": 2.3697899
+      "lat": 43.55281,
+      "lng": 7.13094
     },
     "cuisine_type": "Levantine / Israélienne / Méditerranéenne",
     "price_range": "€€€",
@@ -640,8 +640,8 @@
     "city": "Saint-Malo",
     "country": "France",
     "coordinates": {
-      "lat": 48.6709446,
-      "lng": -1.8518056
+      "lat": 48.64725,
+      "lng": -2.00439
     },
     "cuisine_type": "Bistrot breton-japonais, galettes et makis",
     "price_range": "€€",
@@ -975,8 +975,8 @@
     "city": "Toulouse",
     "country": "France",
     "coordinates": {
-      "lat": 48.8564648,
-      "lng": 2.3583796
+      "lat": 43.60638,
+      "lng": 1.44172
     },
     "cuisine_type": "Marche couvert, charcuterie, saucisse de Toulouse",
     "price_range": "€",
@@ -1169,8 +1169,8 @@
     "city": "Biarritz",
     "country": "France",
     "coordinates": {
-      "lat": 43.641466,
-      "lng": 5.098674
+      "lat": 43.48431,
+      "lng": -1.5566
     },
     "cuisine_type": "Ceviches, cuisine marine contemporaine",
     "price_range": "€€",
@@ -1454,8 +1454,8 @@
     "city": "Paris",
     "country": "France",
     "coordinates": {
-      "lat": 48.8514023,
-      "lng": 2.2922836
+      "lat": 48.85633,
+      "lng": 2.35277
     },
     "cuisine_type": "Francais / Basque",
     "price_range": "€€",
@@ -1660,8 +1660,8 @@
     "city": "Paris",
     "country": "France",
     "coordinates": {
-      "lat": 48.8582148,
-      "lng": 2.3019196
+      "lat": 48.85958,
+      "lng": 2.35227
     },
     "cuisine_type": "Francais gastronomique",
     "price_range": "€€€",
@@ -1998,8 +1998,8 @@
     "city": "Paris",
     "country": "France",
     "coordinates": {
-      "lat": 45.7597529,
-      "lng": 4.8303718
+      "lat": 48.85825,
+      "lng": 2.35316
     },
     "cuisine_type": "Juif / Ashkenaze et Sepharde",
     "price_range": "€€",
@@ -2236,8 +2236,8 @@
     "city": "Paris",
     "country": "France",
     "coordinates": {
-      "lat": 45.7669381,
-      "lng": 4.8369146
+      "lat": 48.85373,
+      "lng": 2.35469
     },
     "cuisine_type": "Francais gastronomique",
     "price_range": "€€€€",
@@ -2473,8 +2473,8 @@
     "city": "Paris",
     "country": "France",
     "coordinates": {
-      "lat": 48.5375511,
-      "lng": 2.3261406
+      "lat": 48.8537,
+      "lng": 2.35052
     },
     "cuisine_type": "Francais / Farm-to-table",
     "price_range": "€€€",
@@ -2507,8 +2507,8 @@
     "city": "Paris",
     "country": "France",
     "coordinates": {
-      "lat": 48.8494621,
-      "lng": 2.2760438
+      "lat": 48.85366,
+      "lng": 2.35354
     },
     "cuisine_type": "Francais gastronomique (1 etoile Michelin)",
     "price_range": "€€€€",
@@ -2950,8 +2950,8 @@
     "city": "Lyon",
     "country": "France",
     "coordinates": {
-      "lat": 48.8783302,
-      "lng": 2.3582835
+      "lat": 45.7668,
+      "lng": 4.8357
     },
     "cuisine_type": "Bouchon lyonnais traditionnel",
     "price_range": "€",
@@ -2984,8 +2984,8 @@
     "city": "Lyon",
     "country": "France",
     "coordinates": {
-      "lat": 43.7738686,
-      "lng": 5.4387397
+      "lat": 45.76125,
+      "lng": 4.83313
     },
     "cuisine_type": "Bouchon lyonnais, cuisine bourgeoise",
     "price_range": "€",
@@ -3222,8 +3222,8 @@
     "city": "Bordeaux",
     "country": "France",
     "coordinates": {
-      "lat": 44.8110293,
-      "lng": -0.5338153
+      "lat": 44.83942,
+      "lng": -0.57875
     },
     "cuisine_type": "Brasserie",
     "price_range": "€",
@@ -3528,8 +3528,8 @@
     "city": "Marseille",
     "country": "France",
     "coordinates": {
-      "lat": 43.2151976,
-      "lng": 5.345885
+      "lat": 43.29941,
+      "lng": 5.36688
     },
     "cuisine_type": "Fruits de mer, bouillabaisse, cuisine provençale",
     "price_range": "€€€€",
@@ -3664,8 +3664,8 @@
     "city": "Marseille",
     "country": "France",
     "coordinates": {
-      "lat": 48.8636402,
-      "lng": 2.3533729
+      "lat": 43.29359,
+      "lng": 5.3686
     },
     "cuisine_type": "Restaurant algérien, couscous",
     "price_range": "€",
@@ -3999,8 +3999,8 @@
     "city": "Paris",
     "country": "France",
     "coordinates": {
-      "lat": 48.8399369,
-      "lng": 2.2835821
+      "lat": 48.85734,
+      "lng": 2.35361
     },
     "cuisine_type": "Cuisine contemporaine",
     "price_range": "€€€",
@@ -5040,8 +5040,8 @@
     "city": "Bonnieux",
     "country": "France",
     "coordinates": {
-      "lat": 43.7738686,
-      "lng": 5.4387397
+      "lat": 43.82542,
+      "lng": 5.31104
     },
     "cuisine_type": "Bistrot provençal, pizza à la truffe, cuisson au feu de bois, terrasse",
     "price_range": "€€",
@@ -5113,8 +5113,8 @@
     "city": "Salon-de-Provence",
     "country": "France",
     "coordinates": {
-      "lat": 44.0544368,
-      "lng": 5.9746044
+      "lat": 43.63952,
+      "lng": 5.10096
     },
     "cuisine_type": "Bistrot provençal, cuisine accessible du chef étoilé",
     "price_range": "€€",
@@ -5250,8 +5250,8 @@
     "city": "Gordes",
     "country": "France",
     "coordinates": {
-      "lat": 43.2152867,
-      "lng": 5.3465699
+      "lat": 43.91184,
+      "lng": 5.20245
     },
     "cuisine_type": "Provençal contemporain, légumes, grillade, pizza soufflé",
     "price_range": "€€€",
@@ -5703,8 +5703,8 @@
     "city": "Montreuil-sur-Mer",
     "country": "France",
     "coordinates": {
-      "lat": 43.2495476,
-      "lng": 5.7840761
+      "lat": 50.4653,
+      "lng": 1.76243
     },
     "cuisine_type": "Creative et simple",
     "price_range": "€€",
@@ -5839,8 +5839,8 @@
     "city": "Marseille",
     "country": "France",
     "coordinates": {
-      "lat": 44.8401688,
-      "lng": -0.5712857
+      "lat": 43.29793,
+      "lng": 5.37156
     },
     "cuisine_type": "Francais gastronomique / Mediterraneen (3 etoiles Michelin)",
     "price_range": "€€€€",
@@ -5902,8 +5902,8 @@
     "city": "Mougins",
     "country": "France",
     "coordinates": {
-      "lat": 43.560728139235195,
-      "lng": 7.094843131850097
+      "lat": 43.60298,
+      "lng": 6.99318
     },
     "cuisine_type": "Provencal, bistrot gastronomique",
     "price_range": "€€",
@@ -5931,8 +5931,8 @@
     "city": "Mougins",
     "country": "France",
     "coordinates": {
-      "lat": 43.59559264619048,
-      "lng": 7.095115100837522
+      "lat": 43.59829,
+      "lng": 6.99311
     },
     "cuisine_type": "Provencal, bistrot",
     "price_range": "€€",
@@ -5960,8 +5960,8 @@
     "city": "Mougins",
     "country": "France",
     "coordinates": {
-      "lat": 43.57298405492193,
-      "lng": 7.138430863842732
+      "lat": 43.59977,
+      "lng": 6.99498
     },
     "cuisine_type": "Gastronomique provencal (non etoile)",
     "price_range": "€€€",
@@ -5989,8 +5989,8 @@
     "city": "Saint-Paul-de-Vence",
     "country": "France",
     "coordinates": {
-      "lat": 43.5823177478119,
-      "lng": 7.163837685602844
+      "lat": 43.69822,
+      "lng": 7.12278
     },
     "cuisine_type": "Provencal, vegan, bio, bistrot",
     "price_range": "€€",
@@ -6047,8 +6047,8 @@
     "city": "Saint-Paul-de-Vence",
     "country": "France",
     "coordinates": {
-      "lat": 43.58679296370822,
-      "lng": 7.091669231200676
+      "lat": 43.69374,
+      "lng": 7.12462
     },
     "cuisine_type": "Provencal traditionnel, terrasse mythique",
     "price_range": "€€€",
@@ -6366,8 +6366,8 @@
     "city": "Saint-Paul-de-Vence",
     "country": "France",
     "coordinates": {
-      "lat": 43.58633054768862,
-      "lng": 7.167671188452331
+      "lat": 43.69633,
+      "lng": 7.12388
     },
     "cuisine_type": "Mediterraneen revisite, bistrot chic",
     "price_range": "€€",
@@ -6511,8 +6511,8 @@
     "city": "Cap d'Antibes",
     "country": "France",
     "coordinates": {
-      "lat": 43.58961797915817,
-      "lng": 7.073706216893935
+      "lat": 43.55594,
+      "lng": 7.13051
     },
     "cuisine_type": "Poisson, bouillabaisse, fruits de mer",
     "price_range": "€€€",
@@ -6540,8 +6540,8 @@
     "city": "Villeneuve-Loubet",
     "country": "France",
     "coordinates": {
-      "lat": 43.551398230718604,
-      "lng": 7.1173726881175226
+      "lat": 43.66097,
+      "lng": 7.12062
     },
     "cuisine_type": "Gastronomique creative, produits de la mer",
     "price_range": "€€€",
@@ -6627,8 +6627,8 @@
     "city": "Saint-Paul-de-Vence",
     "country": "France",
     "coordinates": {
-      "lat": 43.56858841551127,
-      "lng": 7.0705667942621275
+      "lat": 43.69734,
+      "lng": 7.12026
     },
     "cuisine_type": "Provencal, terrasse sous le tilleul",
     "price_range": "€€",
