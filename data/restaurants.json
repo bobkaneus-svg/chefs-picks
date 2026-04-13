@@ -320,7 +320,7 @@
       }
     ],
     "recommendation_count": 2,
-    "confidence_score": 80,
+    "confidence_score": 75,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF6F515F_F3BodTuxPUEcJXdXMTcPzAtAslQetA-8kq56HE-i8q2yAK-jMSFlKvZpDNtgC9u0HfeGQ2ku0MDaYB9_VxwZmjV2zQ4pOPOQlnjGPw7RDPp0O98VgfRJwsesudnn13D1ostTg1=w408-h306-k-no",
     "rating": 4.3,
@@ -5654,7 +5654,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 35,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAlx7wA2ZI_-j9QJHmazck7a2HmCsX2PCbx5Fmrz0pR8fEpvy7CXUmIb7qZKeYhKmhwj2UWSeDrGGySc9JZZp25GJ94qF0GzAxoxqzIxRYI0G0tMMyCwZyYuQtZh-Mvs1PwqAU6A=w408-h306-k-no",
     "rating": 4.7,
@@ -5688,7 +5688,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 35,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqIq5iWKOkcmpy0FtOijLYJgAW9vJ2KMayhhBm74RNuiJrzqJNXvs9cDgGQdJcTWqJHWAZt2AGF6sDfXbeU5zfdo-zk5UZD4ijkuRS0x71E9apVytKX3FVy9-zbZ27knwLvGmU5ew9iccbM=w408-h306-k-no",
     "rating": 4.6,
@@ -5722,7 +5722,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 35,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfjWYL3XGSOtMQR3KDhkv2gLoWBnpLRWxsN8Wfgo7x_MRa_rwftEU4votnZKvGqo0NdEFL3OUpuPGh3LX5GTFQyA31O6lN-E03kOiCyvUyPsJmu5_pjDY2VG0BdLX8B_4QLDU=w408-h272-k-no",
     "rating": 4.4,
@@ -5756,7 +5756,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 35,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
     "rating": 4,
@@ -5790,7 +5790,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 35,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3rHbZcIPWyE9WOeLFbK17ZELcuPCM5k2v_lKdFF0-f8OiDkhdMYltBP6Ocfe3enbwtG-BJvRtZAF5PkjVyRGYaW5hKKgTJ-bWpfTocAXYTzi5U9c6Gv0c-rahobt6nnXJjmT2=w408-h405-k-no",
     "rating": 4.7,
@@ -5824,7 +5824,7 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 35,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3ga7GUIP7TayFwilPW8JyXdY085ufQgjPdtYC2pFAxtJHRhlz4FrAu5rJkSh1qkfx_B1ddPJubnnMgsQwqvHFl62myoyT6BqKwhsM1IrLqBRypYjsFHZT2xdXc5XnR25Kl5cJEQ=w427-h240-k-no",
     "rating": 4.2,
@@ -5858,12 +5858,1257 @@
       }
     ],
     "recommendation_count": 1,
-    "confidence_score": 40,
+    "confidence_score": 35,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
     "rating": 4,
     "reviews_count": 1508,
     "phone": "+33 5 56 79 76 58",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Commerce&query_place_id=ChIJU3eUL9AnVQ0RFzulhFPb2_c"
+  },
+  {
+    "id": "le-bistrot-de-la-marine-cagnes-sur-mer-cros-de-cagnes",
+    "name": "Le Bistrot de la Marine",
+    "address": "96 Promenade de la Plage",
+    "city": "Cagnes-sur-Mer (Cros-de-Cagnes)",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.57423868449662,
+      "lng": 7.090007544457495
+    },
+    "cuisine_type": "Bistrot de poisson, fruits de mer",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jacques Maximin",
+        "chef_restaurant": "Le Theatre (2 etoiles Michelin, Nice) / Jacques Maximin (2 etoiles, Vence)",
+        "quote": "Bistrot de la Marine est le projet personnel de Jacques Maximin apres ses grands restaurants etoiles - un bistrot marin face a la mer avec des produits ultra-frais des pecheurs locaux.",
+        "source": "Gilles Pudlowski - Les Pieds dans le Plat / France Today",
+        "source_url": "https://www.gillespudlowski.com/10647/restaurants",
+        "date": "2010-2016",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-amandier-de-mougins-mougins",
+    "name": "L'Amandier de Mougins",
+    "address": "48 Avenue Jean-Charles Mallet",
+    "city": "Mougins",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.560728139235195,
+      "lng": 7.094843131850097
+    },
+    "cuisine_type": "Provencal, bistrot gastronomique",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Roger Verge",
+        "chef_restaurant": "Le Moulin de Mougins (3 etoiles Michelin, Mougins)",
+        "quote": "Roger Verge a cree L'Amandier en 1977 comme son bistrot accessible, pour partager sa Cuisine du Soleil avec tous, pas seulement les clients du Moulin.",
+        "source": "Site officiel L'Amandier / Mougins Tourisme",
+        "source_url": "https://www.amandier.fr/histoire.php",
+        "date": "1977-2003",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-bistrot-de-mougins-mougins",
+    "name": "Le Bistrot de Mougins",
+    "address": "Place du village, Vieux Mougins",
+    "city": "Mougins",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.59559264619048,
+      "lng": 7.095115100837522
+    },
+    "cuisine_type": "Provencal, bistrot",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Denis Fetisson",
+        "chef_restaurant": "La Place de Mougins (2 toques Gault Millau, Mougins)",
+        "quote": "Le Bistrot de Mougins, installe dans le vieux village depuis 1973 dans une ancienne ecurie du XVIIIe siecle, est recommande par le Michelin et le Gault Millau pour sa cuisine provencale raffinee et delicate.",
+        "source": "See Cannes / Gault Millau",
+        "source_url": "https://www.seecannes.com/mougins/restaurants/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-place-de-mougins-mougins",
+    "name": "La Place de Mougins",
+    "address": "41 Place du Commandant Lamy",
+    "city": "Mougins",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.57298405492193,
+      "lng": 7.138430863842732
+    },
+    "cuisine_type": "Gastronomique provencal (non etoile)",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Denis Fetisson",
+        "chef_restaurant": "Forme par Roger Verge au Moulin de Mougins (3 etoiles). Meilleur Espoir de la Cuisine Francaise 2008",
+        "quote": "Denis Fetisson, enfant du Sud plein de verve et de passion sincere, a fait de La Place de Mougins l'une des meilleures tables de la Cote d'Azur, chaque mois un produit de saison est decline de l'entree au dessert.",
+        "source": "Gault Millau / Gilles Pudlowski",
+        "source_url": "https://fr.gaultmillau.com/en/restaurants/la-place-de-mougins",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bistrot-lis-orto-saint-paul-de-vence",
+    "name": "Bistrot Lis Orto",
+    "address": "Domaine du Mas de Pierre, 2320 Route des Serres",
+    "city": "Saint-Paul-de-Vence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.5823177478119,
+      "lng": 7.163837685602844
+    },
+    "cuisine_type": "Provencal, vegan, bio, bistrot",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Llorca",
+        "chef_restaurant": "Restaurant Alain Llorca (1 etoile Michelin, La Colle-sur-Loup)",
+        "quote": "Un bistrot provencal, vegan et bio dans le jardin provencal du Domaine du Mas de Pierre, a deux pas du restaurant etoile d'Alain Llorca.",
+        "source": "Saint-Paul de Vence Tourisme",
+        "source_url": "https://www.saint-pauldevence.com/en/fiches/restaurants/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-bistrot-du-port-golfe-juan-vallauris",
+    "name": "Le Bistrot du Port",
+    "address": "Port de Golfe-Juan",
+    "city": "Golfe-Juan (Vallauris)",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.57935649746632,
+      "lng": 7.1121639291362655
+    },
+    "cuisine_type": "Poisson, fruits de mer, bouillabaisse",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Matthieu Allinei",
+        "chef_restaurant": "Chef proprietaire, cuisine inventive a Golfe-Juan",
+        "quote": "Le chef Matthieu Allinei propose une cuisine inventive et originale mettant en avant la bouillabaisse, le poisson et les fruits de mer frais du port.",
+        "source": "Provence Lovers / Hotels.com Go Guide",
+        "source_url": "https://provencelovers.fr/meilleurs-restaurants-antibes-manger-avis/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-colombe-d-or-saint-paul-de-vence",
+    "name": "La Colombe d'Or",
+    "address": "Place du General de Gaulle",
+    "city": "Saint-Paul-de-Vence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.58679296370822,
+      "lng": 7.091669231200676
+    },
+    "cuisine_type": "Provencal traditionnel, terrasse mythique",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Llorca",
+        "chef_restaurant": "Restaurant Alain Llorca (1 etoile Michelin, La Colle-sur-Loup)",
+        "quote": "La Colombe d'Or est un lieu mythique de Saint-Paul-de-Vence, une cuisine sensuelle et sans pretention, un art de vivre a table reconnu par tous les grands chefs de la region.",
+        "source": "Saint-Paul de Vence Tourisme / Evancy",
+        "source_url": "https://www.evancy.com/blog/where-to-eat-in-st-paul-de-vence-discover-the-best-restaurants",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-lulu-antibes",
+    "name": "Chez Lulu",
+    "address": "Vieille ville d'Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.604119958931946,
+      "lng": 7.10739797832245
+    },
+    "cuisine_type": "Bistrot francais, cuisine du marche",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Christian Morisset",
+        "chef_restaurant": "Le Figuier de Saint-Esprit (1 etoile Michelin, Antibes)",
+        "quote": "Chez Lulu offre une experience chaleureuse et casual-chic, avec des ingredients frais du marche et un menu creatif en perpetuelle evolution, dans un cadre retro au coeur du vieil Antibes.",
+        "source": "See Antibes / French Riviera Coast",
+        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-gravette-antibes",
+    "name": "La Gravette",
+    "address": "48 Boulevard d'Aguillon, Le Port",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.57328671106465,
+      "lng": 7.138236881652915
+    },
+    "cuisine_type": "Poisson, bouillabaisse, provencal",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Christian Morisset",
+        "chef_restaurant": "Le Figuier de Saint-Esprit (1 etoile Michelin, Antibes)",
+        "quote": "La Gravette sert sa bouillabaisse sur une genereuse terrasse face au port d'Antibes depuis plus de 50 ans. Trois generations de la famille Barale se sont succede pour offrir aux amateurs de poisson des menus authentiques et une cuisine provencale typique.",
+        "source": "Paris Eater / Petit Fute",
+        "source_url": "https://www.pariseater.com/france-travel-guides/best-restaurants-antibes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-mo-poissonnerie-restaurant-antibes",
+    "name": "Chez Mo - Poissonnerie & Restaurant",
+    "address": "Square Albert 1er, entre Cap d'Antibes et les remparts",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.55913659205801,
+      "lng": 7.136056789591164
+    },
+    "cuisine_type": "Poissonnerie, fruits de mer, poisson sauvage",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Nicolas Rondelli",
+        "chef_restaurant": "Les Pecheurs (1 etoile Michelin, Cap d'Antibes)",
+        "quote": "Chez Mo est une institution antiboise, constante en rapport qualite/prix et fraicheur des produits. Les poissons sauvages et fruits de mer y sont ultra-frais, avec un vivier sur place.",
+        "source": "Provence Lovers / Hotels.com",
+        "source_url": "https://www.chezmo-antibes.fr/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-oursin-antibes",
+    "name": "L'Oursin",
+    "address": "Vieil Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.60099803160142,
+      "lng": 7.103880673410718
+    },
+    "cuisine_type": "Fruits de mer, bar a huitres",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Nicolas Rondelli",
+        "chef_restaurant": "Les Pecheurs (1 etoile Michelin, Cap d'Antibes)",
+        "quote": "L'Oursin est une institution depuis 1962, avec ses plateaux de fruits de mer, huitres fraiches et langoustines. 6 huitres + vin a 16 euros - un bar a huitres incontournable dans le vieil Antibes.",
+        "source": "See Antibes / French Riviera Coast",
+        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-cafetiere-felee-antibes",
+    "name": "La Cafetiere Felee",
+    "address": "Vieille ville, Juan-les-Pins / Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.60681154402346,
+      "lng": 7.122871616689397
+    },
+    "cuisine_type": "Fusion franco-asiatique, wok, flexitarien",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Julien Fiengo (Maitre Restaurateur)",
+        "chef_restaurant": "Chef-proprietaire, La Cafetiere Felee (titre Maitre Restaurateur)",
+        "quote": "Depuis 2008, le chef Julien Fiengo et sa femme Christine proposent une cuisine 100% maison, fusion franco-asiatique avec des woks, des plats flexitariens et vegan. Chaque plat est prepare a la commande.",
+        "source": "Flash Matin / Petit Fute",
+        "source_url": "https://flashmatin.fr/restaurant-la-cafetiere-felee-a-antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bistrot-margaux-antibes",
+    "name": "Bistrot Margaux",
+    "address": "Port Vauban",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.59646841380945,
+      "lng": 7.116903904763147
+    },
+    "cuisine_type": "Bistrot francais, provencal",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Frederic Buzet",
+        "chef_restaurant": "Chef-proprietaire, ancien de grandes maisons",
+        "quote": "Le chef Frederic Buzet propose des plats classiques et intemporels, avec une terrasse en pierre cachee et une vue panoramique sur la marina. Un bistrot so chic recommande par Gilles Pudlowski.",
+        "source": "Gilles Pudlowski - Les Pieds dans le Plat / What About Nice",
+        "source_url": "https://www.gillespudlowski.com/307751/restaurants/antibes-cest-buzet-qui-est-dans-le-vrai",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-comptoir-de-la-tourraque-antibes",
+    "name": "Le Comptoir de la Tourraque",
+    "address": "Vieil Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.57415736379146,
+      "lng": 7.096939921496773
+    },
+    "cuisine_type": "Bistronomique, cuisine du marche",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Christian Morisset",
+        "chef_restaurant": "Le Figuier de Saint-Esprit (1 etoile Michelin, Antibes)",
+        "quote": "Cache au coeur du vieil Antibes, Le Comptoir de la Tourraque propose un menu bistronomique qui change toutes les 3 semaines, avec des produits frais et de qualite. Note 9.6/10.",
+        "source": "See Antibes / The Fork",
+        "source_url": "https://www.seeantibes.com/restaurants/le-comptoir-de-la-tourraque-restaurant-antibes-679528",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-tour-antique-antibes",
+    "name": "La Tour Antique",
+    "address": "Vieil Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.55045718763405,
+      "lng": 7.09037644115279
+    },
+    "cuisine_type": "Italien, trattoria",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Lucas Marini",
+        "chef_restaurant": "L'Arazur (1 etoile Michelin, Antibes) - forme au Mirazur 3 etoiles",
+        "quote": "La Tour Antique est un restaurant italien intime au coeur du vieil Antibes, tenu par Federica et Davide, experts en restauration, avec des plats traditionnels et revisites prepares avec des produits frais importes d'Italie.",
+        "source": "French Riviera Coast / See Antibes",
+        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-p-tit-cageot-antibes",
+    "name": "Le P'tit Cageot",
+    "address": "Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.609374198138624,
+      "lng": 7.123431002855909
+    },
+    "cuisine_type": "Bistrot, cuisine du marche, provencal",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Nicolas Rondelli",
+        "chef_restaurant": "Les Pecheurs (1 etoile Michelin, Cap d'Antibes)",
+        "quote": "Le P'tit Cageot offre une atmosphere rustique et cosy, concentree sur les ingredients frais de saison et les specialites regionales, avec un menu 3 plats entre 35 et 45 euros par personne.",
+        "source": "French Riviera Coast",
+        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-cap-restaurant-de-plage-cap-d-antibes",
+    "name": "Le Cap - Restaurant de plage",
+    "address": "Cap d'Antibes Beach Hotel, 10 Boulevard Marechal Juin",
+    "city": "Cap d'Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.577725200884935,
+      "lng": 7.160024226306438
+    },
+    "cuisine_type": "Restaurant de plage, grillades, ceviches",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Nicolas Rondelli",
+        "chef_restaurant": "Les Pecheurs (1 etoile Michelin, Cap d'Antibes)",
+        "quote": "Le Cap est le restaurant decontracte de Nicolas Rondelli, en complement de son etoile Les Pecheurs. Grillades, ceviches et cuisine de plage en journee, face a la Mediterranee.",
+        "source": "180C La revue culture food",
+        "source_url": "https://www.180c.fr/la-gazette/reportages/nicolas-rondelli-cap-antibes-beach-hotel-restaurant-les-pecheurs/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-fontaine-saint-paul-de-vence",
+    "name": "La Fontaine",
+    "address": "Saint-Paul-de-Vence",
+    "city": "Saint-Paul-de-Vence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.58633054768862,
+      "lng": 7.167671188452331
+    },
+    "cuisine_type": "Mediterraneen revisite, bistrot chic",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jerome Garello",
+        "chef_restaurant": "Chef de La Fontaine, forme dans des maisons etoilees",
+        "quote": "Le chef Jerome Garello presente une cuisine mediterraneenne revisitee, preparee exclusivement avec des produits frais de saison, dans une ambiance de bistrot chic.",
+        "source": "Saint-Paul de Vence Tourisme",
+        "source_url": "https://www.saint-pauldevence.com/en/fiches/restaurants/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cote-terroir-antibes",
+    "name": "Cote Terroir",
+    "address": "Pres de la gare routiere",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.57145149549654,
+      "lng": 7.091582330727895
+    },
+    "cuisine_type": "Bistrot, produits locaux, menu court",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Christian Morisset",
+        "chef_restaurant": "Le Figuier de Saint-Esprit (1 etoile Michelin, Antibes)",
+        "quote": "Tenu par un jeune couple, Cote Terroir propose des menus deliberement courts mettant en avant des produits frais, artisanaux, locaux et de saison, dans un petit restaurant convivial.",
+        "source": "See Antibes / Paris Eater",
+        "source_url": "https://www.seeantibes.com/restaurants/guide",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-safranier-antibes",
+    "name": "Le Safranier",
+    "address": "Quartier du Safranier",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.60524585368416,
+      "lng": 7.086081195881596
+    },
+    "cuisine_type": "Poisson grille, risotto fruits de mer, aioli",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Christian Morisset",
+        "chef_restaurant": "Le Figuier de Saint-Esprit (1 etoile Michelin, Antibes)",
+        "quote": "Le Safranier est un joyau cache dans le quartier le plus calme d'Antibes, servant du poisson grille, du risotto aux fruits de mer et un aioli maison dans un cadre decontracte.",
+        "source": "Paris Eater / See Antibes",
+        "source_url": "https://www.pariseater.com/france-travel-guides/best-restaurants-antibes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-josy-antibes",
+    "name": "Chez Josy",
+    "address": "Boulevard James Wyllie",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.59751034666972,
+      "lng": 7.129541752133404
+    },
+    "cuisine_type": "Street food nicoise, pan bagnat, snack",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Nicolas Rondelli",
+        "chef_restaurant": "Les Pecheurs (1 etoile Michelin, Cap d'Antibes)",
+        "quote": "Chez Josy, institution familiale depuis 1965, est le spot sans chichi pour un pan bagnat exceptionnel, des paninis et des frites croustillantes maison a prix doux.",
+        "source": "Paris Eater / Lifeguin French Riviera Guide",
+        "source_url": "https://lifeguin.com/where-to-eat-on-the-french-riviera/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-vauban-antibes",
+    "name": "Le Vauban",
+    "address": "Centre ville, Vieil Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.60897328533722,
+      "lng": 7.16439105950534
+    },
+    "cuisine_type": "Provencal classique, bistrot",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Christian Morisset",
+        "chef_restaurant": "Le Figuier de Saint-Esprit (1 etoile Michelin, Antibes)",
+        "quote": "Le Vauban est un excellent restaurant au centre du vieil Antibes qui sert des classiques provencaux raffines. On y croise plus de locaux ages que de jeunes - signe d'authenticite.",
+        "source": "Paris Eater",
+        "source_url": "https://www.pariseater.com/france-travel-guides/best-restaurants-antibes/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "maison-de-bacon-cap-d-antibes",
+    "name": "Maison de Bacon",
+    "address": "664 Boulevard de Bacon",
+    "city": "Cap d'Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.58961797915817,
+      "lng": 7.073706216893935
+    },
+    "cuisine_type": "Poisson, bouillabaisse, fruits de mer",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Nicolas Davouze (Bocuse d'Or France)",
+        "chef_restaurant": "Chef executif Maison de Bacon, ancien du Bristol et Bocuse d'Or 2014",
+        "quote": "Nicolas Davouze, Bocuse d'Or France 2014, celebre les plats signatures de la maison fondee en 1948 : soupe de roche, bouillabaisse, mille-feuille, et poissons grilles au feu de bois. 3 toques 15/20 au Gault Millau.",
+        "source": "References CHR / Gault Millau",
+        "source_url": "https://www.referenceschr.com/restaurants/maison-bacon-gastronomie-nicolas-davouze/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-flibuste-villeneuve-loubet",
+    "name": "La Flibuste",
+    "address": "Port Marina Baie des Anges",
+    "city": "Villeneuve-Loubet",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.551398230718604,
+      "lng": 7.1173726881175226
+    },
+    "cuisine_type": "Gastronomique creative, produits de la mer",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Klervi Poulain et Valerio Borriero",
+        "chef_restaurant": "Chefs proprietaires, 1 etoile Michelin depuis 2020",
+        "quote": "La Flibuste cuisine ce que la nature offre au rythme des saisons, avec le bon produit au bon moment. Menu degustation a l'aveugle base sur les arrivages du jour et l'intuition du chef.",
+        "source": "Guide Michelin / Jacques Gantie Table Libre",
+        "source_url": "https://guide.michelin.com/us/en/provence-alpes-cote-dazur/villeneuve-loubet/restaurant/la-flibuste-martin-s",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-arazur-antibes",
+    "name": "L'Arazur",
+    "address": "8 Rue des Palmiers",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.59918008390919,
+      "lng": 7.07811601499966
+    },
+    "cuisine_type": "Bistrot-gastro, tapas, cuisine creative",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Lucas Marini",
+        "chef_restaurant": "Chef proprietaire, forme au Ledoyen 3*, Grand Vefour 2* et Mirazur 3*. 1 etoile Michelin 2025",
+        "quote": "Lucas Marini, forme chez les plus grands (Ledoyen, Grand Vefour, Mirazur), celebre les saisons avec des plats frais, colores et simplement prepares. Bistrot-gastro avec table d'hotes et carte des vins eclectique.",
+        "source": "Jacques Gantie Table Libre / Email Gourmand",
+        "source_url": "https://www.jacquesgantie.com/restaurants/bonne-table/antibes-larazur/",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-escale-juan-les-pins-antibes",
+    "name": "L'Escale",
+    "address": "Bord de mer, Juan-les-Pins",
+    "city": "Juan-les-Pins (Antibes)",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.575525213762525,
+      "lng": 7.078601889120722
+    },
+    "cuisine_type": "Poisson du jour, mediterraneen, restaurant de plage",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Aurelien Vequaud",
+        "chef_restaurant": "La Passagere (1 etoile Michelin, Hotel Belles Rives, Juan-les-Pins)",
+        "quote": "L'Escale propose du poisson frais peche du jour, 7 jours sur 7, en bord de mer a Juan-les-Pins. Le chef revisite les fondamentaux de la cuisine francaise et italienne avec une touche provencale.",
+        "source": "Site officiel L'Escale / Office du Tourisme Antibes",
+        "source_url": "https://www.lescalejlp.fr/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-tilleul-saint-paul-de-vence",
+    "name": "Le Tilleul",
+    "address": "Place du Tilleul",
+    "city": "Saint-Paul-de-Vence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.56858841551127,
+      "lng": 7.0705667942621275
+    },
+    "cuisine_type": "Provencal, terrasse sous le tilleul",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Llorca",
+        "chef_restaurant": "Restaurant Alain Llorca (1 etoile Michelin, La Colle-sur-Loup)",
+        "quote": "Le Tilleul est une institution de Saint-Paul-de-Vence, avec sa terrasse ombragee sous le tilleul centenaire sur la place du village, servant une cuisine provencale authentique.",
+        "source": "Restaurant Le Tilleul / Saint-Paul Tourisme",
+        "source_url": "https://www.restaurant-letilleul.com/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "compartir-cadaques",
+    "name": "Compartir",
+    "address": "Riera Sant Vicenc s/n, 17488 Cadaques",
+    "city": "Cadaques",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2914,
+      "lng": 3.2753
+    },
+    "cuisine_type": "Mediterraneenne creative, plats a partager",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jordi Cruz",
+        "chef_restaurant": "ABaC (Barcelona, 3 etoiles Michelin)",
+        "quote": "Son los herederos tranquilos de El Bulli. Crearon un modelo que era tan bestia que era insostenible.",
+        "source": "Infobae Espana",
+        "source_url": "https://www.infobae.com/espana/2024/10/18/jordi-cruz-confiesa-cual-es-su-restaurante-favorito-en-espana-son-los-herederos-de-el-bulli/",
+        "date": "2024-10",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Ferran Adria",
+        "chef_restaurant": "elBulli (Roses, ferme - 3 etoiles Michelin historique)",
+        "quote": "Les chefs de Disfrutar/Compartir sont les personnes les plus creatives au monde.",
+        "source": "Hola.com",
+        "source_url": "https://www.hola.com/cocina/noticias/20191107153362/entrevista-ferran-adria-chefs-restaurante-disfrutar/",
+        "date": "2019-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 80,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "rafa-s-roses",
+    "name": "Rafa's",
+    "address": "Carrer Sant Sebastia 56, 17480 Roses",
+    "city": "Roses",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.26,
+      "lng": 3.1733
+    },
+    "cuisine_type": "Poissons et fruits de mer grilles, cuisine marine traditionnelle",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ferran Adria",
+        "chef_restaurant": "elBulli (Roses, ferme - 3 etoiles Michelin historique)",
+        "quote": "Both serve the freshest fish, simply prepared. Toute ma philosophie du poisson et des fruits de mer vient de Rafa's.",
+        "source": "Food and Travel Magazine / Gastroeconomy",
+        "source_url": "https://foodandtravel.com/food/after-hours/ferran-adria",
+        "date": "2012-07",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cal-campaner-roses",
+    "name": "Cal Campaner",
+    "address": "Carrer Mossen Carles Feliu 23, 17480 Roses",
+    "city": "Roses",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2646,
+      "lng": 3.1779
+    },
+    "cuisine_type": "Poissons et fruits de mer frais, cuisine de la lonja, grillades au Josper",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ferran Adria",
+        "chef_restaurant": "elBulli (Roses, ferme - 3 etoiles Michelin historique)",
+        "quote": "Both serve the freshest fish, simply prepared.",
+        "source": "Food and Travel Magazine",
+        "source_url": "https://foodandtravel.com/food/after-hours/ferran-adria",
+        "date": "2012",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Mateu Casanas, Oriol Castro, Eduard Xatruch",
+        "chef_restaurant": "Disfrutar (Barcelona, 3 etoiles Michelin, meilleur restaurant du monde 2024)",
+        "quote": "Toca el producto del mar como pocos.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 80,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "santallucia-santa-llucia-roses",
+    "name": "Santallucia (Santa Llucia)",
+    "address": "Avda. Diaz Pacheco 72-78, Cala de l'Almadrava, 17480 Roses",
+    "city": "Roses",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2661,
+      "lng": 3.172
+    },
+    "cuisine_type": "Mediterraneenne traditionnelle, fruits de mer, paella, fideua",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Fina Puigdevall, Martina Puigvert",
+        "chef_restaurant": "Les Cols (Olot, 2 etoiles Michelin)",
+        "quote": "Gambas de Roses hervidas en agua de mar. Un sitio en la arena con los pies en la playa.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bar-boia-boia-nit-cadaques",
+    "name": "Bar Boia / Boia Nit",
+    "address": "Passeig de Cadaques 17, 17488 Cadaques",
+    "city": "Cadaques",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2892,
+      "lng": 3.2753
+    },
+    "cuisine_type": "Bar a cocktails, tapas, chiringuito de plage",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Paco Perez",
+        "chef_restaurant": "Miramar (Llanca, 2 etoiles Michelin)",
+        "quote": "Cocteles fantasticos, terraza con aroma de mar, lugar con duende.",
+        "source": "Guia Repsol - Chiringuitos y terrazas favoritos de los cocineros",
+        "source_url": "https://www.guiarepsol.com/es/soletes/chiringuitos-terrazas-favoritos-de-los-cocineros-con-soles/",
+        "date": "2024",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Fina Puigdevall, Marina Puigvert",
+        "chef_restaurant": "Les Cols (Olot, 2 etoiles Michelin)",
+        "quote": "Para tomar algo en Cadaques, hay pocas dudas: Bar Boia.",
+        "source": "Guia Repsol - Chiringuitos y terrazas favoritos de los cocineros",
+        "source_url": "https://www.guiarepsol.com/es/soletes/chiringuitos-terrazas-favoritos-de-los-cocineros-con-soles/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 80,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "joia-heladeria-cadaques",
+    "name": "Joia (heladeria)",
+    "address": "Passeig de Cadaques, 17488 Cadaques",
+    "city": "Cadaques",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2872,
+      "lng": 3.2801
+    },
+    "cuisine_type": "Glaces artisanales, heladeria",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mateu Casanas, Oriol Castro, Eduard Xatruch",
+        "chef_restaurant": "Disfrutar (Barcelona, 3 etoiles Michelin, meilleur restaurant du monde 2024) / Compartir (Cadaques)",
+        "quote": "Jengibre fresco con frutas del bosque, chocolate de naranja con naranja confitada. En primera linea de playa.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "soca-rel-llofriu-palafrugell",
+    "name": "Soca-rel",
+    "address": "Carrer Ramal 74, 17134 Llofriu, Palafrugell",
+    "city": "Llofriu (Palafrugell)",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2853,
+      "lng": 3.277
+    },
+    "cuisine_type": "Riz au feu de bois, cuisine de barraca, mediterraneenne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mateu Casanas, Oriol Castro, Eduard Xatruch",
+        "chef_restaurant": "Disfrutar (Barcelona, 3 etoiles Michelin, meilleur restaurant du monde 2024)",
+        "quote": "Cocina de barraca como hilo conductor, propuesta interesante y divertida. Arroces de sepia, calamar y gamba roja.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "toc-al-mar-begur",
+    "name": "Toc al Mar",
+    "address": "Carrer Platja d'Aiguablava 8, 17255 Begur",
+    "city": "Begur",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.9559,
+      "lng": 3.2071
+    },
+    "cuisine_type": "Poissons et fruits de mer, riz au four a bois, mediterraneenne",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Pere Monje",
+        "chef_restaurant": "Via Veneto (Barcelona, 1 etoile Michelin)",
+        "quote": "Producto extraordinario practicamente encima del mar. Una cala maravillosa del Baix Emporda.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "uain-bar-store-l-escala",
+    "name": "Uain Bar & Store",
+    "address": "Carrer Germans Masferrer 24, 17130 L'Escala",
+    "city": "L'Escala",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.1175,
+      "lng": 3.1365
+    },
+    "cuisine_type": "Bar a vins, tapas creatives, gastronomique",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mateu Casanas, Oriol Castro, Eduard Xatruch",
+        "chef_restaurant": "Disfrutar (Barcelona, 3 etoiles Michelin, meilleur restaurant du monde 2024)",
+        "quote": "El punto de encuentro predilecto de los chefs de Disfrutar. Saam de pollo payes, brioche de cordero, gambas de Roses.",
+        "source": "Guia Repsol / El Espanol Cocinillas",
+        "source_url": "https://www.elespanol.com/cocinillas/actualidad-gastronomica/20240627/bar-vinos-pueblo-girona-favorito-chefs-disfrutar-mejor-restaurante-mundo/865913710_0.html",
+        "date": "2024-06",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-escata-el-port-de-la-selva",
+    "name": "L'Escata",
+    "address": "Moll Pesquer, 17489 El Port de la Selva",
+    "city": "El Port de la Selva",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.3403,
+      "lng": 3.1965
+    },
+    "cuisine_type": "Chiringuito, fruits de mer, terrasse sur le port",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Paco Perez",
+        "chef_restaurant": "Miramar (Llanca, 2 etoiles Michelin)",
+        "quote": "Productos del mar en el puerto. Un sitio imprescindible en el Port de la Selva.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "galiana-gelats-artesans-el-port-de-la-selva",
+    "name": "Galiana Gelats Artesans",
+    "address": "Carrer Platja 16, 17489 El Port de la Selva",
+    "city": "El Port de la Selva",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.3403,
+      "lng": 3.2034
+    },
+    "cuisine_type": "Glaces artisanales, heladeria depuis 1970",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Paco Perez",
+        "chef_restaurant": "Miramar (Llanca, 2 etoiles Michelin)",
+        "quote": "Avellana y chocolate. Una heladeria emblematica del pueblo.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "pacu-pacu-llanca",
+    "name": "Pacu Pacu",
+    "address": "Port de Llanca, 17490 Llanca",
+    "city": "Llanca",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2884,
+      "lng": 3.2766
+    },
+    "cuisine_type": "Mediterraneenne, produits de l'Alt Emporda, fruits de mer",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Paco Perez",
+        "chef_restaurant": "Miramar (Llanca, 2 etoiles Michelin)",
+        "quote": "Productos del Alt Emporda cocinados a la manera mediterranea. Francisco Fabreca lo dirige desde hace 35 anos.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-gabia-dels-mussols-sant-feliu-de-guixols",
+    "name": "La Gabia dels Mussols",
+    "address": "Platja de Sant Feliu de Guixols, 17220 Sant Feliu de Guixols",
+    "city": "Sant Feliu de Guixols",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2946,
+      "lng": 3.2784
+    },
+    "cuisine_type": "Chiringuito de plage, tapas mediterraneennes, cocktails",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Javier Torres, Sergio Torres",
+        "chef_restaurant": "Cocina Hermanos Torres (Barcelona, 3 etoiles Michelin)",
+        "quote": "Alargar la noche con los pies en la arena. Coca de jamon iberico con queso brie, brioche de tartar de atun.",
+        "source": "Guia Repsol - Donde comer en la Costa Brava segun los chefs / Cronica Global",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024-07",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "casa-anita-cadaques",
+    "name": "Casa Anita",
+    "address": "Carrer Miquel Roset 16, 17488 Cadaques",
+    "city": "Cadaques",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2859,
+      "lng": 3.276
+    },
+    "cuisine_type": "Cuisine catalane traditionnelle, poissons frais, casa de comidas",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Institution historique frequentee par Salvador Dali, Kirk Douglas et chefs locaux",
+        "chef_restaurant": "N/A - reference culturelle et gastronomique historique de Cadaques depuis 1960",
+        "quote": "Juanito dicta la carta de viva voz. Entrantes simples, pescados frescos a la plancha y postres caseros de nivel.",
+        "source": "Plateselector / Tripadvisor / Turismo Cadaques",
+        "source_url": "https://plateselector.com/casa-anita/",
+        "date": "2023",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "ca-la-pepa-platja-d-aro",
+    "name": "Ca la Pepa",
+    "address": "Platja d'Aro, Costa Brava",
+    "city": "Platja d'Aro",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.8188,
+      "lng": 3.0691
+    },
+    "cuisine_type": "Cuisine catalane de marche, traditionnelle, bonne carte des vins",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Joan Roca",
+        "chef_restaurant": "El Celler de Can Roca (Girona, 3 etoiles Michelin)",
+        "quote": "No esta en primera linea de mar, sino algo mas retirado, pero merece mucho la pena. Cocinan muy bien, tienen una buena carta de vinos y es aparentemente muy sencillo.",
+        "source": "Cronica Global / El Espanol",
+        "source_url": "https://cronicaglobal.elespanol.com/gastronomia/20260210/restaurante-favorito-joan-roca-costa-brava-no-trt/1003742731298_0.html",
+        "date": "2026-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
   }
 ]

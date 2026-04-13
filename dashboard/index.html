@@ -100,22 +100,25 @@ display:flex;justify-content:space-around;align-items:center}
 
 <!-- Explore overlays (OUTSIDE view to avoid fixed-in-scrollable bug in mobile WebViews) -->
 <div id="exploreUI" class="fixed inset-0 z-30 pointer-events-none" style="display:block">
-  <!-- Search (no header — fullscreen map) -->
+  <!-- Search with autocomplete -->
   <div class="pointer-events-auto" style="position:fixed;top:calc(12px + var(--st));left:0;right:0;z-index:35;padding:0 12px">
-    <div class="flex items-center bg-surface-high/80 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 mb-3">
+    <div class="flex items-center bg-surface-high/80 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 mb-2">
       <span class="icon text-gold pl-3 pr-1 text-xl cursor-pointer" onclick="toggleDrawer()">menu</span>
       <span class="icon text-outline pl-1 pr-1 text-xl">search</span>
-      <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label" placeholder="Find a hidden gem..."/>
-      <button class="p-2 bg-surface-highest/60 rounded-xl text-gold mr-1"><span class="icon text-xl">tune</span></button>
+      <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label" placeholder="Ville, chef, restaurant..." autocomplete="off"/>
+      <button id="btnSearchGo" onclick="confirmSearch()" class="px-3 py-1.5 bg-gold rounded-xl text-gold-dark text-xs font-bold mr-1 uppercase tracking-wider" style="display:none">Go</button>
+      <button id="btnSearchClear" onclick="clearSearch()" class="p-2 text-outline mr-1" style="display:none"><span class="icon text-xl">close</span></button>
     </div>
-    <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1"></div>
+    <!-- Autocomplete suggestions -->
+    <div id="iSuggestions" class="bg-surface-high/95 backdrop-blur-xl rounded-xl border border-outline-var/10 overflow-hidden" style="display:none"></div>
+    <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1 mt-1"></div>
   </div>
   <!-- Carousel -->
   <div id="iCarousel" class="pointer-events-auto" style="position:fixed;left:0;right:0;z-index:35;bottom:calc(82px + var(--sb));padding:0 8px;display:none"></div>
-  <!-- FAB -->
-  <div class="pointer-events-auto" style="position:fixed;right:20px;z-index:40;bottom:calc(86px + var(--sb))">
-    <button class="bg-gradient-to-br from-gold to-gold-light rounded-full shadow-2xl flex items-center justify-center text-gold-dark active:scale-90 transition-transform" style="width:52px;height:52px">
-      <span class="icon" style="font-weight:700">add</span>
+  <!-- Geolocation button (replaces FAB +) -->
+  <div class="pointer-events-auto" style="position:fixed;right:16px;z-index:40;bottom:calc(86px + var(--sb))">
+    <button onclick="geolocate()" class="w-12 h-12 bg-surface-high/90 backdrop-blur-xl rounded-full shadow-2xl flex items-center justify-center border border-outline-var/20 active:scale-90 transition-transform">
+      <span class="icon text-gold text-xl">my_location</span>
     </button>
   </div>
 </div>
@@ -158,6 +161,23 @@ display:flex;justify-content:space-around;align-items:center}
   </main>
 </div>
 
+<!-- ═══════ VIEW: SAVED ═══════ -->
+<div class="view" id="v-saved">
+  <div class="hdr">
+    <span class="icon text-gold cursor-pointer" onclick="toggleDrawer()">menu</span>
+    <span class="text-lg tracking-[.2em] font-light text-gold font-headline uppercase">FAVORIS</span>
+    <span class="text-xs text-outline font-label" id="oSavedN"></span>
+  </div>
+  <main class="scroll-y px-5 overflow-y-auto h-full">
+    <div id="oSavedEmpty" class="flex flex-col items-center justify-center pt-20 text-center" style="display:none">
+      <span class="icon text-outline/30 text-[64px] mb-4">favorite_border</span>
+      <p class="text-outline text-sm">Aucun favori pour l'instant</p>
+      <p class="text-outline/50 text-xs mt-1">Appuie sur le coeur d'un restaurant pour le sauvegarder</p>
+    </div>
+    <div class="space-y-8 pb-4" id="oSavedCards"></div>
+  </main>
+</div>
+
 <!-- ═══════ VIEW: DETAIL ═══════ -->
 <div class="view" id="v-detail" style="z-index:60"><div id="oDetail"></div></div>
 
@@ -181,7 +201,7 @@ display:flex;justify-content:space-around;align-items:center}
   <a onclick="go('discover')" data-t="discover"><span class="icon">restaurant</span><span>Discover</span></a>
   <a data-t="curated" style="opacity:.4"><span class="icon">star</span><span>Curated</span></a>
   <a onclick="go('chefs')" data-t="chefs"><span class="icon">person_pin</span><span>Chefs</span></a>
-  <a data-t="saved" style="opacity:.4"><span class="icon">bookmark</span><span>Saved</span></a>
+  <a onclick="go('saved')" data-t="saved"><span class="icon">bookmark</span><span>Saved</span></a>
 </nav>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -190,7 +210,7 @@ display:flex;justify-content:space-around;align-items:center}
 // ══════════════════════════════════
 // DATA & STATE
 // ══════════════════════════════════
-var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[];
+var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null;
 
 function esc(s){return s?s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'):''}
 function ea(s){return s?s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"'):''}
@@ -204,12 +224,24 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 
 function boot(){
+  // Load favorites from localStorage
+  try{var f=localStorage.getItem('chefspicks_favs');if(f)favs=JSON.parse(f)}catch(e){}
+
   initMap();
   go('explore');
   var el;
-  el=document.getElementById('iMapQ');if(el)el.addEventListener('input',onMapQ);
+  el=document.getElementById('iMapQ');if(el){
+    el.addEventListener('input',onSearchInput);
+    el.addEventListener('focus',function(){if(el.value.length>0)showSuggestions(el.value)});
+    el.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();confirmSearch()}});
+  }
   el=document.getElementById('iListQ');if(el)el.addEventListener('input',function(){renderList()});
   el=document.getElementById('iChefQ');if(el)el.addEventListener('input',function(){renderChefs()});
+  // Close suggestions on outside click
+  document.addEventListener('click',function(e){
+    var sg=document.getElementById('iSuggestions');
+    if(sg&&!sg.contains(e.target)&&e.target.id!=='iMapQ')sg.style.display='none';
+  });
   // Stats
   var ch={};R.forEach(function(r){r.recommendations.forEach(function(c){ch[c.chef_name]=1})});
   var se=document.getElementById('oDrawerStats');
@@ -217,11 +249,143 @@ function boot(){
 }
 
 // ══════════════════════════════════
+// FAVORITES
+// ══════════════════════════════════
+function isFav(id){return !!favs[id]}
+function toggleFav(id,e){
+  if(e)e.stopPropagation();
+  if(favs[id])delete favs[id];else favs[id]=Date.now();
+  try{localStorage.setItem('chefspicks_favs',JSON.stringify(favs))}catch(e){}
+  // Update heart icon
+  var icons=document.querySelectorAll('.fav-btn[data-id="'+id+'"]');
+  for(var i=0;i<icons.length;i++){
+    icons[i].querySelector('.icon').textContent=favs[id]?'favorite':'favorite_border';
+    icons[i].querySelector('.icon').classList.toggle('icon-fill',!!favs[id]);
+  }
+}
+
+// ══════════════════════════════════
+// GEOLOCATION
+// ══════════════════════════════════
+function geolocate(){
+  if(!navigator.geolocation){alert('Géolocalisation non disponible');return}
+  navigator.geolocation.getCurrentPosition(function(pos){
+    var lat=pos.coords.latitude,lng=pos.coords.longitude;
+    if(geoMarker)map.removeLayer(geoMarker);
+    geoMarker=L.circleMarker([lat,lng],{radius:8,fillColor:'#4285f4',fillOpacity:1,color:'#fff',weight:3,opacity:1}).addTo(map);
+    map.setView([lat,lng],14,{animate:true});
+  },function(){alert('Impossible de vous géolocaliser')},{enableHighAccuracy:true,timeout:10000});
+}
+
+// ══════════════════════════════════
+// SEARCH WITH AUTOCOMPLETE
+// ══════════════════════════════════
+function onSearchInput(e){
+  var q=e.target.value.trim();
+  // Show/hide Go and Clear buttons
+  document.getElementById('btnSearchGo').style.display=q.length>0?'block':'none';
+  document.getElementById('btnSearchClear').style.display=q.length>0?'block':'none';
+  if(q.length>=2){showSuggestions(q)}
+  else{document.getElementById('iSuggestions').style.display='none';onMapQ(e)}
+}
+
+function showSuggestions(q){
+  var ql=q.toLowerCase();
+  var sg=document.getElementById('iSuggestions');
+  // Collect matching cities, chefs, restaurants
+  var cityMatch={},chefMatch={},restoMatch=[];
+  R.forEach(function(r){
+    if(r.city.toLowerCase().indexOf(ql)!==-1)cityMatch[r.city]=(cityMatch[r.city]||0)+1;
+    r.recommendations.forEach(function(c){if(c.chef_name.toLowerCase().indexOf(ql)!==-1)chefMatch[c.chef_name]=c.chef_restaurant||''});
+    if(r.name.toLowerCase().indexOf(ql)!==-1)restoMatch.push(r);
+  });
+  var html='';
+  // Cities
+  var cityArr=[];for(var c in cityMatch)cityArr.push([c,cityMatch[c]]);
+  cityArr.sort(function(a,b){return b[1]-a[1]});
+  cityArr.slice(0,4).forEach(function(c){
+    html+='<div onclick="selectSuggestion(\'city\',\''+ea(c[0])+'\')" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-surface-highest/50 active:bg-surface-highest border-b border-outline-var/5">'+
+      '<span class="icon text-gold text-lg">location_on</span>'+
+      '<div class="flex-1"><span class="text-sm font-semibold">'+esc(c[0])+'</span></div>'+
+      '<span class="text-xs text-outline">'+c[1]+' restos</span>'+
+    '</div>';
+  });
+  // Chefs
+  var chefArr=[];for(var c in chefMatch)chefArr.push([c,chefMatch[c]]);
+  chefArr.slice(0,3).forEach(function(c){
+    html+='<div onclick="selectSuggestion(\'chef\',\''+ea(c[0])+'\')" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-surface-highest/50 active:bg-surface-highest border-b border-outline-var/5">'+
+      '<span class="icon text-gold text-lg">person</span>'+
+      '<div><span class="text-sm font-semibold">'+esc(c[0])+'</span><span class="text-xs text-outline ml-2">'+esc(c[1])+'</span></div>'+
+    '</div>';
+  });
+  // Restaurants
+  restoMatch.slice(0,3).forEach(function(r){
+    html+='<div onclick="selectSuggestion(\'resto\',\''+ea(r.id)+'\')" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-surface-highest/50 active:bg-surface-highest border-b border-outline-var/5">'+
+      '<span class="icon text-gold text-lg">restaurant</span>'+
+      '<div><span class="text-sm font-semibold">'+esc(r.name)+'</span><span class="text-xs text-outline ml-2">'+esc(r.city)+'</span></div>'+
+    '</div>';
+  });
+  if(!html){sg.style.display='none';return}
+  sg.innerHTML=html;
+  sg.style.display='block';
+}
+
+function selectSuggestion(type,val){
+  document.getElementById('iSuggestions').style.display='none';
+  var input=document.getElementById('iMapQ');
+  if(type==='city'){
+    input.value=val;
+    // Filter to this city
+    rebuildCG(function(r){return r.city===val});
+    var pts=[];R.forEach(function(r){if(r.city===val&&r.coordinates)pts.push([r.coordinates.lat,r.coordinates.lng])});
+    if(pts.length)map.fitBounds(L.latLngBounds(pts),{padding:[80,80],maxZoom:15});
+  }else if(type==='chef'){
+    input.value=val;
+    openChef(val);
+  }else if(type==='resto'){
+    input.value='';
+    openResto(val);
+  }
+  document.getElementById('btnSearchGo').style.display='none';
+  document.getElementById('btnSearchClear').style.display=input.value.length>0?'block':'none';
+  input.blur();
+}
+
+function confirmSearch(){
+  document.getElementById('iSuggestions').style.display='none';
+  var input=document.getElementById('iMapQ');
+  var q=input.value.trim().toLowerCase();
+  if(!q)return;
+  input.blur();
+  // Apply filter
+  var pts=[];
+  rebuildCG(function(r){
+    var h=[r.name,r.city,r.country||'',r.cuisine_type].concat(r.tags||[]);
+    r.recommendations.forEach(function(c){h.push(c.chef_name)});
+    var ok=h.join(' ').toLowerCase().indexOf(q)!==-1;
+    if(ok&&r.coordinates)pts.push([r.coordinates.lat,r.coordinates.lng]);
+    return ok;
+  });
+  if(pts.length)map.fitBounds(L.latLngBounds(pts),{padding:[80,80],maxZoom:14});
+  document.getElementById('btnSearchGo').style.display='none';
+}
+
+function clearSearch(){
+  var input=document.getElementById('iMapQ');
+  input.value='';
+  document.getElementById('iSuggestions').style.display='none';
+  document.getElementById('btnSearchGo').style.display='none';
+  document.getElementById('btnSearchClear').style.display='none';
+  rebuildCG(function(){return true});
+  map.setView([46.5,2.5],6);
+}
+
+// ══════════════════════════════════
 // NAV
 // ══════════════════════════════════
 function go(v){
   if(v!=='detail')document.getElementById('v-detail').classList.remove('on','view-slide');
-  ['explore','discover','chefs'].forEach(function(n){document.getElementById('v-'+n).classList.toggle('on',n===v)});
+  ['explore','discover','chefs','saved'].forEach(function(n){var e=document.getElementById('v-'+n);if(e)e.classList.toggle('on',n===v)});
   // Show/hide explore overlays
   var eui=document.getElementById('exploreUI');
   if(eui)eui.style.display=(v==='explore')?'block':'none';
@@ -235,6 +399,7 @@ function go(v){
   if(v==='explore')setTimeout(function(){if(map)map.invalidateSize()},150);
   if(v==='discover')renderList();
   if(v==='chefs')renderChefs();
+  if(v==='saved')renderSaved();
   hist=[];
 }
 
@@ -273,7 +438,10 @@ function openResto(id){
       '<section class="relative w-full h-[380px] overflow-hidden bg-surface-high">'+ph+
         '<div class="absolute inset-0 bg-gradient-to-t from-bg via-bg/20 to-transparent"></div>'+
         '<button onclick="goBack()" class="absolute left-5 w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center z-10" style="top:calc(20px + var(--st))"><span class="icon text-gold">arrow_back</span></button>'+
-        '<div class="absolute right-5 bg-bg/80 backdrop-blur-md px-3 py-1 rounded-full flex items-center gap-1.5" style="top:calc(20px + var(--st))"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[9px] text-outline uppercase font-bold">Score</span></div>'+
+        '<div class="absolute right-5 flex gap-2 items-center" style="top:calc(20px + var(--st))">'+
+          '<button class="fav-btn w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+r.id+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\')"><span class="icon text-gold text-xl '+(isFav(r.id)?'icon-fill':'')+'">'+(isFav(r.id)?'favorite':'favorite_border')+'</span></button>'+
+          '<div class="bg-bg/80 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[8px] text-outline uppercase font-bold">Fiabilit\u00e9</span></div>'+
+        '</div>'+
         '<div class="absolute bottom-14 left-5 flex flex-wrap gap-1.5">'+
           '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-gold border border-gold/10">'+esc(r.cuisine_type)+'</span>'+
           '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+r.price_range+'</span>'+
@@ -586,7 +754,7 @@ function renderList(){
     if(r.recommendation_count>2)av+='<span class="w-7 h-7 rounded-full bg-surface-high border-2 border-bg flex items-center justify-center text-[9px] font-bold">+'+(r.recommendation_count-2)+'</span>';
     h+='<article onclick="openResto(\''+ea(r.id)+'\')" class="group cursor-pointer">'+
       '<div class="card-img relative mb-3">'+img+
-        '<div class="absolute top-3 right-3 bg-bg/80 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1.5"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[9px] text-outline uppercase font-bold">Score</span></div>'+
+        '<div class="absolute top-3 right-3 bg-bg/80 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1.5"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[9px] text-outline uppercase font-bold">Fiabilit\u00e9</span></div>'+
         '<div class="absolute bottom-3 left-3 flex gap-1.5">'+tg+'</div>'+
       '</div>'+
       '<div class="flex justify-between items-start">'+
@@ -598,6 +766,32 @@ function renderList(){
   document.getElementById('oListCards').innerHTML=h;
 }
 function setSort(s){sort=s;renderList()}
+
+// ══════════════════════════════════
+// SAVED / FAVORITES
+// ══════════════════════════════════
+function renderSaved(){
+  var saved=R.filter(function(r){return isFav(r.id)});
+  var ne=document.getElementById('oSavedN');if(ne)ne.textContent=saved.length+' favoris';
+  var emptyEl=document.getElementById('oSavedEmpty');
+  var cardsEl=document.getElementById('oSavedCards');
+  if(!saved.length){if(emptyEl)emptyEl.style.display='flex';if(cardsEl)cardsEl.innerHTML='';return}
+  if(emptyEl)emptyEl.style.display='none';
+  var h='';saved.forEach(function(r){
+    var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full flex items-center justify-center"><span class="icon text-[56px] text-outline/10">restaurant</span></div>';
+    var av='';r.recommendations.slice(0,2).forEach(function(c){av+='<span class="w-7 h-7 rounded-full bg-surface-highest border-2 border-bg flex items-center justify-center text-[9px] font-bold text-gold">'+c.chef_name.charAt(0)+'</span>'});
+    h+='<article onclick="openResto(\''+ea(r.id)+'\')" class="cursor-pointer">'+
+      '<div class="card-img relative mb-3">'+img+
+        '<button class="fav-btn absolute top-3 right-3 w-9 h-9 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+r.id+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\');renderSaved()"><span class="icon text-gold icon-fill text-lg">favorite</span></button>'+
+      '</div>'+
+      '<div class="flex justify-between items-start">'+
+        '<div><h3 class="text-xl font-light font-headline tracking-tight">'+esc(r.name)+'</h3><p class="text-outline text-xs mt-0.5">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+r.price_range+'</p></div>'+
+        '<div class="flex -space-x-2 mt-0.5">'+av+'</div>'+
+      '</div>'+
+    '</article>';
+  });
+  cardsEl.innerHTML=h;
+}
 
 // ══════════════════════════════════
 // CHEFS
