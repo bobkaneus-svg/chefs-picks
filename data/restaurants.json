@@ -691,11 +691,11 @@
     "id": "comptoir-breizh-cafe-saint-malo",
     "name": "Comptoir Breizh Cafe",
     "address": "7 Quai Admis en Chef Thomas, 35260 Cancale, France",
-    "city": "Saint-Malo",
+    "city": "Cancale",
     "country": "France",
     "coordinates": {
-      "lat": 48.64725,
-      "lng": -2.00439
+      "lat": 48.67342,
+      "lng": -1.8528
     },
     "cuisine_type": "Bistrot breton-japonais, galettes et makis",
     "price_range": "€€",
@@ -715,11 +715,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr-z_JMvrAkgMP5A4gpEYAbNRY98qmXbX6zVVUXUldimhICuplmExZagKFBy3P0SewoS4NIVsXu6hEfzIYtrJYSfVNFJm4FSfUoBsV-KpLCBa33da51ZikpZvBu0w6lswvqfCY=w408-h281-k-no",
-    "rating": 4.5,
-    "reviews_count": 1495,
-    "phone": "+33 2 99 89 61 76",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Breizh%20Caf%C3%A9%20Cancale&query_place_id=ChIJGzp3Jq6dDkgRQcS6yM2rX8o"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr-z_JMvrAkgMP5A4gpEYAbNRY98qmXbX6zVVUXUldimhICuplmExZagKFBy3P0SewoS4NIVsXu6hEfzIYtrJYSfVNFJm4FSfUoBsV-KpLCBa33da51ZikpZvBu0w6lswvqfCY=w408-h281-k-no"
   },
   {
     "id": "le-petit-grill-basque-chez-maya-saint-jean-de-luz",
@@ -1025,12 +1021,12 @@
   {
     "id": "marche-victor-hugo-maison-garcia-toulouse",
     "name": "Marche Victor Hugo - Maison Garcia",
-    "address": "6 Rue des Écouffes, 75004 Paris, France",
+    "address": "Place Victor Hugo, 31000 Toulouse",
     "city": "Toulouse",
     "country": "France",
     "coordinates": {
-      "lat": 43.60638,
-      "lng": 1.44172
+      "lat": 43.60307,
+      "lng": 1.44249
     },
     "cuisine_type": "Marche couvert, charcuterie, saucisse de Toulouse",
     "price_range": "€",
@@ -1050,11 +1046,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerhp0TVrHwLaBYZMAM57TzVL0mPJSfd6CEdJcwee02rYiFhvoK2JFWsQ9QGPajE-yIpsAmuaXVoWPbJT9U-erICUitZR1hWTy0oVTPkg0JiHA62QTKciYsYmCfuw2RPpnu-eil-=w408-h408-k-no",
-    "rating": 3.9,
-    "reviews_count": 102,
-    "phone": "+33 1 77 18 23 62",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Michel%20Kalifa%20-%20Maison%20David&query_place_id=ChIJSZFXhgJu5kcROxFagy8sr9o"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerhp0TVrHwLaBYZMAM57TzVL0mPJSfd6CEdJcwee02rYiFhvoK2JFWsQ9QGPajE-yIpsAmuaXVoWPbJT9U-erICUitZR1hWTy0oVTPkg0JiHA62QTKciYsYmCfuw2RPpnu-eil-=w408-h408-k-no"
   },
   {
     "id": "la-cassonade-ile-de-batz",
@@ -1223,8 +1215,8 @@
     "city": "Biarritz",
     "country": "France",
     "coordinates": {
-      "lat": 43.48431,
-      "lng": -1.5566
+      "lat": 43.48456,
+      "lng": -1.56049
     },
     "cuisine_type": "Ceviches, cuisine marine contemporaine",
     "price_range": "€€",
@@ -1244,11 +1236,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXnq7vPSIauAXWkIXOeNnLTMr3vPAlqqAmB9dhbaV_ezJ-7Hck6NLSVmLD2U-A2-ZtSQTLx9tHhg-vU-6tpqYjs2gVd5iifp83kuR_aFifNKsP0IjV7pDhar0DmllQOUaFhMhF=w408-h272-k-no",
-    "rating": 4.7,
-    "reviews_count": 619,
-    "phone": "+33 4 90 56 28 01",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Villa%20Salone&query_place_id=ChIJSyyhL0f_yRIRv9yTrhLHZKQ"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXnq7vPSIauAXWkIXOeNnLTMr3vPAlqqAmB9dhbaV_ezJ-7Hck6NLSVmLD2U-A2-ZtSQTLx9tHhg-vU-6tpqYjs2gVd5iifp83kuR_aFifNKsP0IjV7pDhar0DmllQOUaFhMhF=w408-h272-k-no"
   },
   {
     "id": "hanoi-1988-paris",
@@ -2058,11 +2046,11 @@
     "id": "maison-david-paris",
     "name": "Maison David",
     "address": "11 Quai des Célestins, 69002 Lyon, France",
-    "city": "Paris",
+    "city": "Lyon",
     "country": "France",
     "coordinates": {
-      "lat": 48.85825,
-      "lng": 2.35316
+      "lat": 45.7633,
+      "lng": 4.83711
     },
     "cuisine_type": "Juif / Ashkenaze et Sepharde",
     "price_range": "€€",
@@ -2082,11 +2070,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpB3th5pVwcysCMeQY9BoztlQQHvDcWJKDVR2BBnb9pf5vDZ_M9KF6ug8W3hPHRkgxdo0SQg7sfJ6zVV5oblUt2AW2d1s1J5pidAvVQRB9HONJTB-EASkjtBgkfVmlgXdBte9zjA=w408-h272-k-no",
-    "rating": 4.5,
-    "reviews_count": 936,
-    "phone": "+33 4 78 42 01 33",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MAISON%20L%C3%89A&query_place_id=ChIJ9TiRnlTq9EcRHQ4cM8HyzYk"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpB3th5pVwcysCMeQY9BoztlQQHvDcWJKDVR2BBnb9pf5vDZ_M9KF6ug8W3hPHRkgxdo0SQg7sfJ6zVV5oblUt2AW2d1s1J5pidAvVQRB9HONJTB-EASkjtBgkfVmlgXdBte9zjA=w408-h272-k-no"
   },
   {
     "id": "l-empire-celeste-paris",
@@ -2296,11 +2280,11 @@
     "id": "le-gabriel-paris",
     "name": "Le Gabriel",
     "address": "7 Rue du Garet, 69001 Lyon, France",
-    "city": "Paris",
+    "city": "Lyon",
     "country": "France",
     "coordinates": {
-      "lat": 48.85373,
-      "lng": 2.35469
+      "lat": 45.76423,
+      "lng": 4.83863
     },
     "cuisine_type": "Francais gastronomique",
     "price_range": "€€€€",
@@ -2320,11 +2304,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqD2kpwa5La9468ZTs5FuuxCcpw2V6pBSuoCEhAW3vypC17GSCM3Me3JT49NhFuVdSn_FMZ6Mg8p_DuUIoHe0ZSEIzdVHDxxr1gbEztMCLQx1jU7kuMUXvxOU9Me8fJVHJPeoUFaA=w532-h240-k-no",
-    "rating": 4.6,
-    "reviews_count": 1165,
-    "phone": "+33 4 78 28 16 94",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Garet&query_place_id=ChIJgXOHF_nq9EcRrTM_YPPMzI4"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqD2kpwa5La9468ZTs5FuuxCcpw2V6pBSuoCEhAW3vypC17GSCM3Me3JT49NhFuVdSn_FMZ6Mg8p_DuUIoHe0ZSEIzdVHDxxr1gbEztMCLQx1jU7kuMUXvxOU9Me8fJVHJPeoUFaA=w532-h240-k-no"
   },
   {
     "id": "le-chardenoux-paris",
@@ -2542,11 +2522,11 @@
     "id": "le-doyenne-paris",
     "name": "Le Doyenne",
     "address": "5 Rue Saint-Antoine, 91770 Saint-Vrain, France",
-    "city": "Paris",
+    "city": "Saint-Vrain",
     "country": "France",
     "coordinates": {
-      "lat": 48.8537,
-      "lng": 2.35052
+      "lat": 48.53794,
+      "lng": 2.32553
     },
     "cuisine_type": "Francais / Farm-to-table",
     "price_range": "€€€",
@@ -2566,11 +2546,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoKmGVY_P_lwgod2WZgfOT9Xdg07InJC8W1MuTCCbB5AgYNi3kMyl6XSxdJH1S9sDwEbT45pHuRvE62a17a1vp21r6C7S9qYsXkGCdtgu32pukx4mfhazwOCOx4cQpEvcnQhxdFnQ=w408-h541-k-no",
-    "rating": 4.8,
-    "reviews_count": 409,
-    "phone": "+33 1 60 80 00 99",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Doyenn%C3%A9&query_place_id=ChIJFddyE7rb5UcRaA53AIRo_gw"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoKmGVY_P_lwgod2WZgfOT9Xdg07InJC8W1MuTCCbB5AgYNi3kMyl6XSxdJH1S9sDwEbT45pHuRvE62a17a1vp21r6C7S9qYsXkGCdtgu32pukx4mfhazwOCOx4cQpEvcnQhxdFnQ=w408-h541-k-no"
   },
   {
     "id": "comice-paris",
@@ -3018,12 +2994,12 @@
   {
     "id": "cafe-du-jura-lyon",
     "name": "Cafe du Jura",
-    "address": "1 Rue des Deux Gares, 75010 Paris, France",
-    "city": "Lyon",
+    "address": "1 Rue des Deux Gares, 75010 Paris",
+    "city": "Paris",
     "country": "France",
     "coordinates": {
-      "lat": 45.7668,
-      "lng": 4.8357
+      "lat": 48.85768,
+      "lng": 2.3503
     },
     "cuisine_type": "Bouchon lyonnais traditionnel",
     "price_range": "€",
@@ -3052,21 +3028,17 @@
     "recommendation_count": 2,
     "confidence_score": 80,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcHdYsI_njhKr6KyV8YHwPVamaLjZa7ZE6VojaMZbADoOZ7dqtJY3vOi5pXUp3ppIGr9gM8MMA7KhpGg2W3afyqeg2ojkdCUJtDqx3hpBEilurUb8vBJhEsvCiWCHNNoiDnZTr=w408-h306-k-no",
-    "rating": 4.4,
-    "reviews_count": 543,
-    "phone": "+33 1 40 38 17 05",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20les%20Deux%20Gares&query_place_id=ChIJ9Rc2j3Ju5kcRQyqSw-rNPT0"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcHdYsI_njhKr6KyV8YHwPVamaLjZa7ZE6VojaMZbADoOZ7dqtJY3vOi5pXUp3ppIGr9gM8MMA7KhpGg2W3afyqeg2ojkdCUJtDqx3hpBEilurUb8vBJhEsvCiWCHNNoiDnZTr=w408-h306-k-no"
   },
   {
     "id": "la-mere-lea-maison-lea-lyon",
     "name": "La Mere Lea (Maison Lea)",
-    "address": "Pl. de l'Étang, 84160 Cucuron, France",
+    "address": "Place Antonin Gourju, 69002 Lyon",
     "city": "Lyon",
     "country": "France",
     "coordinates": {
-      "lat": 45.76125,
-      "lng": 4.83313
+      "lat": 45.76641,
+      "lng": 4.83524
     },
     "cuisine_type": "Bouchon lyonnais, cuisine bourgeoise",
     "price_range": "€",
@@ -3086,11 +3058,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweozp4f9zEdRkFhy_6mOU3YqxVy-EJnuMIH1cIGpYwiUmA4OSvFS-XLLL14D-9ZLrm7WM6IDvA_NLHqEtUzrgjK4ur_8x0OQ36JpAwz6OV5rcdSfK_KCuS_bbDf0AqhN-XHLkaPJeA=w408-h306-k-no",
-    "rating": 4.7,
-    "reviews_count": 419,
-    "phone": "+33 4 90 68 21 99",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Petite%20Maison%20de%20Cucuron&query_place_id=ChIJvTYxoqsjyhIRqIueAaXbmk8"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweozp4f9zEdRkFhy_6mOU3YqxVy-EJnuMIH1cIGpYwiUmA4OSvFS-XLLL14D-9ZLrm7WM6IDvA_NLHqEtUzrgjK4ur_8x0OQ36JpAwz6OV5rcdSfK_KCuS_bbDf0AqhN-XHLkaPJeA=w408-h306-k-no"
   },
   {
     "id": "bistrot-des-voraces-lyon",
@@ -3303,8 +3271,8 @@
     "city": "Bordeaux",
     "country": "France",
     "coordinates": {
-      "lat": 44.83942,
-      "lng": -0.57875
+      "lat": 46.59933,
+      "lng": 2.00109
     },
     "cuisine_type": "Brasserie",
     "price_range": "€",
@@ -3324,11 +3292,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqdG5f7-RmbzDqpFUkyJzJq2WG_ZXWcC4S_DGjo3Qc0qctNGJtHlMcfj8ybYor7ouNQ1c3hILiphhjkExRidahAXgCHZmB6wI-8YADoajAaIoKQ6c8cNNYr4yOJvp1031hNf6zuQ=w408-h544-k-no",
-    "rating": 4.4,
-    "reviews_count": 806,
-    "phone": "+33 5 56 85 62 41",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Chiopot&query_place_id=ChIJ7QqTkYcmVQ0RoZhf0d7-_Kc"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqdG5f7-RmbzDqpFUkyJzJq2WG_ZXWcC4S_DGjo3Qc0qctNGJtHlMcfj8ybYor7ouNQ1c3hILiphhjkExRidahAXgCHZmB6wI-8YADoajAaIoKQ6c8cNNYr4yOJvp1031hNf6zuQ=w408-h544-k-no"
   },
   {
     "id": "cabanes-a-huitres-du-port-de-larros-gujan-mestras-bassin-d-arcachon",
@@ -3741,12 +3705,12 @@
   {
     "id": "le-f-mina-marseille",
     "name": "Le Fémina",
-    "address": "46 Rue de Montmorency, 75003 Paris, France",
+    "address": "1 Rue du Musée, 13001 Marseille",
     "city": "Marseille",
     "country": "France",
     "coordinates": {
-      "lat": 43.29359,
-      "lng": 5.3686
+      "lat": 43.29491,
+      "lng": 5.37096
     },
     "cuisine_type": "Restaurant algérien, couscous",
     "price_range": "€",
@@ -3766,11 +3730,7 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHLRt4JtLdYwSRjwmFwyp5wVRTLgcegzaZjuRnTgVuh36Tv3kpaH28hqnTWxxaWQHfqEoLijguKusOmnMUokIluSdudwS_mSbe3R3TkWy2l-3Y3Xeq9ngwEUhn3xN5jrUcyEdZ4=w408-h272-k-no",
-    "rating": 4.5,
-    "reviews_count": 567,
-    "phone": "+33 6 42 83 79 52",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20MaZenay&query_place_id=ChIJvbCbVRpu5kcRfMWl3JeGW4s"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHLRt4JtLdYwSRjwmFwyp5wVRTLgcegzaZjuRnTgVuh36Tv3kpaH28hqnTWxxaWQHfqEoLijguKusOmnMUokIluSdudwS_mSbe3R3TkWy2l-3Y3Xeq9ngwEUhn3xN5jrUcyEdZ4=w408-h272-k-no"
   },
   {
     "id": "u-mio-paese-marseille",
@@ -5730,12 +5690,12 @@
   {
     "id": "le-winstub-du-chambard-kaysersberg-alsace",
     "name": "Le Winstub du Chambard",
-    "address": "19 Rue de Toulouse, 35400 Saint-Malo, France",
-    "city": "Kaysersberg, Alsace",
+    "address": "9-13 Rue du Général de Gaulle, 68240 Kaysersberg",
+    "city": "Kaysersberg",
     "country": "France",
     "coordinates": {
-      "lat": 48.6467181,
-      "lng": -2.0262231
+      "lat": 48.1421,
+      "lng": 7.26303
     },
     "cuisine_type": "Alsacien revisite",
     "price_range": "€€",
@@ -5755,21 +5715,17 @@
     "recommendation_count": 1,
     "confidence_score": 35,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAlx7wA2ZI_-j9QJHmazck7a2HmCsX2PCbx5Fmrz0pR8fEpvy7CXUmIb7qZKeYhKmhwj2UWSeDrGGySc9JZZp25GJ94qF0GzAxoxqzIxRYI0G0tMMyCwZyYuQtZh-Mvs1PwqAU6A=w408-h306-k-no",
-    "rating": 4.7,
-    "reviews_count": 396,
-    "phone": "+33 2 99 40 82 05",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Bistrot%20du%20Rocher&query_place_id=ChIJR2vRrxCBDkgR9TNjlSgwDXM"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAlx7wA2ZI_-j9QJHmazck7a2HmCsX2PCbx5Fmrz0pR8fEpvy7CXUmIb7qZKeYhKmhwj2UWSeDrGGySc9JZZp25GJ94qF0GzAxoxqzIxRYI0G0tMMyCwZyYuQtZh-Mvs1PwqAU6A=w408-h306-k-no"
   },
   {
     "id": "la-yole-de-chris-la-rochelle",
     "name": "La Yole de Chris",
-    "address": "74 Av. Victor Hugo, 29270 Carhaix-Plouguer, France",
+    "address": "Port des Minimes, 17000 La Rochelle",
     "city": "La Rochelle",
     "country": "France",
     "coordinates": {
-      "lat": 48.2779413,
-      "lng": -3.5541056
+      "lat": 46.16268,
+      "lng": -1.15083
     },
     "cuisine_type": "Cuisine raffinee / Fruits de mer",
     "price_range": "€€€",
@@ -5789,11 +5745,7 @@
     "recommendation_count": 1,
     "confidence_score": 35,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqIq5iWKOkcmpy0FtOijLYJgAW9vJ2KMayhhBm74RNuiJrzqJNXvs9cDgGQdJcTWqJHWAZt2AGF6sDfXbeU5zfdo-zk5UZD4ijkuRS0x71E9apVytKX3FVy9-zbZ27knwLvGmU5ew9iccbM=w408-h306-k-no",
-    "rating": 4.6,
-    "reviews_count": 224,
-    "phone": "+33 2 98 93 71 56",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Cantine%20Des%20Chefs&query_place_id=ChIJkS9qwO4LEUgR55CgKYagJP8"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqIq5iWKOkcmpy0FtOijLYJgAW9vJ2KMayhhBm74RNuiJrzqJNXvs9cDgGQdJcTWqJHWAZt2AGF6sDfXbeU5zfdo-zk5UZD4ijkuRS0x71E9apVytKX3FVy9-zbZ27knwLvGmU5ew9iccbM=w408-h306-k-no"
   },
   {
     "id": "anecdote-montreuil-sur-mer",
@@ -5802,8 +5754,8 @@
     "city": "Montreuil-sur-Mer",
     "country": "France",
     "coordinates": {
-      "lat": 50.4653,
-      "lng": 1.76243
+      "lat": 50.46465,
+      "lng": 1.76481
     },
     "cuisine_type": "Creative et simple",
     "price_range": "€€",
@@ -5823,21 +5775,17 @@
     "recommendation_count": 1,
     "confidence_score": 35,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfjWYL3XGSOtMQR3KDhkv2gLoWBnpLRWxsN8Wfgo7x_MRa_rwftEU4votnZKvGqo0NdEFL3OUpuPGh3LX5GTFQyA31O6lN-E03kOiCyvUyPsJmu5_pjDY2VG0BdLX8B_4QLDU=w408-h272-k-no",
-    "rating": 4.4,
-    "reviews_count": 331,
-    "phone": "+33 4 94 98 37 77",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=San%20Felice&query_place_id=ChIJ_9xovUcJyRIRtnZCwBF0wrE"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfjWYL3XGSOtMQR3KDhkv2gLoWBnpLRWxsN8Wfgo7x_MRa_rwftEU4votnZKvGqo0NdEFL3OUpuPGh3LX5GTFQyA31O6lN-E03kOiCyvUyPsJmu5_pjDY2VG0BdLX8B_4QLDU=w408-h272-k-no"
   },
   {
     "id": "simple-et-meilleur-saint-martin-de-belleville-savoie",
     "name": "Simple et Meilleur",
     "address": "22 Rue Parlement Saint-Pierre, 33000 Bordeaux, France",
-    "city": "Saint-Martin-de-Belleville, Savoie",
+    "city": "Saint-Martin-de-Belleville",
     "country": "France",
     "coordinates": {
-      "lat": 44.8401688,
-      "lng": -0.5712857
+      "lat": 45.38242,
+      "lng": 6.51562
     },
     "cuisine_type": "Cuisine de montagne raffinee",
     "price_range": "€€",
@@ -5857,11 +5805,7 @@
     "recommendation_count": 1,
     "confidence_score": 35,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
-    "rating": 4,
-    "reviews_count": 1508,
-    "phone": "+33 5 56 79 76 58",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Commerce&query_place_id=ChIJU3eUL9AnVQ0RFzulhFPb2_c"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no"
   },
   {
     "id": "lazare-paris",
@@ -5943,12 +5887,12 @@
   {
     "id": "le-petit-nice-marseille",
     "name": "Le Petit Nice",
-    "address": "22 Rue Parlement Saint-Pierre, 33000 Bordeaux, France",
+    "address": "Anse de Maldormé, 13007 Marseille",
     "city": "Marseille",
     "country": "France",
     "coordinates": {
-      "lat": 43.29793,
-      "lng": 5.37156
+      "lat": 43.29405,
+      "lng": 5.36822
     },
     "cuisine_type": "Francais gastronomique / Mediterraneen (3 etoiles Michelin)",
     "price_range": "€€€€",
@@ -5968,11 +5912,7 @@
     "recommendation_count": 1,
     "confidence_score": 35,
     "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
-    "rating": 4,
-    "reviews_count": 1508,
-    "phone": "+33 5 56 79 76 58",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Commerce&query_place_id=ChIJU3eUL9AnVQ0RFzulhFPb2_c"
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no"
   },
   {
     "id": "le-bistrot-de-la-marine-cagnes-sur-mer-cros-de-cagnes",
@@ -7110,8 +7050,8 @@
     "city": "Llanca",
     "country": "Espagne",
     "coordinates": {
-      "lat": 42.2884,
-      "lng": 3.2766
+      "lat": 42.3608,
+      "lng": 3.1536
     },
     "cuisine_type": "Mediterraneenne, produits de l'Alt Emporda, fruits de mer",
     "price_range": "€",
