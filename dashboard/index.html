@@ -229,6 +229,29 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
   </main>
 </div>
 
+<!-- ═══════ VIEW: TRENDING ═══════ -->
+<div class="view" id="v-trending">
+  <div class="hdr">
+    <span class="icon text-gold cursor-pointer" onclick="toggleDrawer()">menu</span>
+    <span class="text-lg tracking-[.2em] font-light text-gold font-headline uppercase">TRENDING</span>
+    <span class="text-xs text-outline font-label" id="oTrendingN"></span>
+  </div>
+  <main class="scroll-y px-5 overflow-y-auto h-full">
+    <p class="text-on-surface-var text-xs mb-4">Les restaurants les mieux notés récemment, avec des avis vérifiés authentiques.</p>
+    <div class="mb-4">
+      <select id="iTrendingCity" onchange="renderTrending()" class="bg-surface-high border-none rounded-full px-4 py-2 text-sm text-on-surface-var w-full">
+        <option value="">Toutes les villes</option>
+      </select>
+    </div>
+    <div class="space-y-4 pb-4" id="oTrendingCards"></div>
+    <div id="oTrendingEmpty" class="flex flex-col items-center justify-center pt-16 text-center" style="display:none">
+      <span class="icon text-outline/30 text-[56px] mb-3">trending_up</span>
+      <p class="text-outline text-sm">Bientôt disponible pour cette ville</p>
+      <p class="text-outline/50 text-xs mt-1">Les données trending arrivent ville par ville</p>
+    </div>
+  </main>
+</div>
+
 <!-- ═══════ VIEW: SAVED ═══════ -->
 <div class="view" id="v-saved">
   <div class="hdr">
@@ -267,7 +290,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 <nav class="bnav">
   <a onclick="go('explore')" data-t="explore" class="on"><span class="icon icon-fill">map</span><span>Explore</span></a>
   <a onclick="go('discover')" data-t="discover"><span class="icon">restaurant</span><span>Discover</span></a>
-  <a data-t="curated" style="opacity:.4"><span class="icon">star</span><span>Curated</span></a>
+  <a onclick="go('trending')" data-t="trending"><span class="icon">trending_up</span><span>Trending</span></a>
   <a onclick="go('chefs')" data-t="chefs"><span class="icon">person_pin</span><span>Chefs</span></a>
   <a onclick="go('saved')" data-t="saved"><span class="icon">bookmark</span><span>Saved</span></a>
 </nav>
@@ -296,6 +319,7 @@ function boot(){
   try{var f=localStorage.getItem('chefspicks_favs');if(f)favs=JSON.parse(f)}catch(e){}
 
   initMap();
+  loadTrending();
   go('explore');
   var el;
   el=document.getElementById('iMapQ');if(el){
@@ -504,7 +528,7 @@ function clearSearch(){
 // ══════════════════════════════════
 function go(v){
   if(v!=='detail')document.getElementById('v-detail').classList.remove('on','view-slide');
-  ['explore','discover','chefs','saved'].forEach(function(n){var e=document.getElementById('v-'+n);if(e){e.classList.remove('view-fade-in');e.classList.toggle('on',n===v);if(n===v&&n!=='explore'){e.classList.add('view-fade-in')}}});
+  ['explore','discover','chefs','saved','trending'].forEach(function(n){var e=document.getElementById('v-'+n);if(e){e.classList.remove('view-fade-in');e.classList.toggle('on',n===v);if(n===v&&n!=='explore'){e.classList.add('view-fade-in')}}});
   // Show/hide explore overlays
   var eui=document.getElementById('exploreUI');
   if(eui)eui.style.display=(v==='explore')?'block':'none';
@@ -519,6 +543,7 @@ function go(v){
   if(v==='discover')renderList();
   if(v==='chefs')renderChefs();
   if(v==='saved')renderSaved();
+  if(v==='trending')renderTrending();
   hist=[];
 }
 
@@ -951,6 +976,71 @@ function renderList(){
 }
 var listPageSize=50;
 function setSort(s){sort=s;listPageSize=50;renderList()}
+
+// ══════════════════════════════════
+// TRENDING
+// ══════════════════════════════════
+var trendingData=[];
+
+function loadTrending(){
+  fetch('trending.json').then(function(r){return r.json()}).then(function(d){
+    trendingData=d;
+    if(curView==='trending')renderTrending();
+  }).catch(function(){trendingData=[]});
+}
+
+function renderTrending(){
+  var cityFilter=(document.getElementById('iTrendingCity')||{}).value||'';
+  var data=trendingData;
+  if(cityFilter)data=data.filter(function(r){return r.city===cityFilter});
+  data.sort(function(a,b){return(b.google_rating||0)-(a.google_rating||0)});
+
+  var ne=document.getElementById('oTrendingN');
+  if(ne)ne.textContent=data.length+' spots';
+
+  // Populate city filter
+  var citySelect=document.getElementById('iTrendingCity');
+  if(citySelect&&citySelect.options.length<=1){
+    var cities={};trendingData.forEach(function(r){cities[r.city]=(cities[r.city]||0)+1});
+    var sorted=Object.entries(cities).sort(function(a,b){return b[1]-a[1]});
+    sorted.forEach(function(c){
+      var opt=document.createElement('option');opt.value=c[0];opt.textContent=c[0]+' ('+c[1]+')';
+      citySelect.appendChild(opt);
+    });
+  }
+
+  var emptyEl=document.getElementById('oTrendingEmpty');
+  var cardsEl=document.getElementById('oTrendingCards');
+  if(!data.length){if(emptyEl)emptyEl.style.display='flex';if(cardsEl)cardsEl.innerHTML='';return}
+  if(emptyEl)emptyEl.style.display='none';
+
+  var h='';data.forEach(function(r){
+    var authColor=r.authenticity_score==='A'?'text-green-400 bg-green-400/10':r.authenticity_score==='B'?'text-gold bg-gold/10':'text-red-400 bg-red-400/10';
+    var authLabel=r.authenticity_score==='A'?'Vérifié':r.authenticity_score==='B'?'Fiable':'À vérifier';
+    var trendIcon=r.recent_trend==='hausse'?'trending_up':r.recent_trend==='stable'?'trending_flat':'trending_down';
+    var trendColor=r.recent_trend==='hausse'?'text-green-400':r.recent_trend==='stable'?'text-gold':'text-red-400';
+    var dishes='';if(r.recommended_dishes){r.recommended_dishes.forEach(function(d){dishes+='<span class="px-2 py-0.5 bg-surface-highest rounded-full text-[10px] text-on-surface-var">'+esc(d)+'</span>'})}
+    var tags='';if(r.best_for){r.best_for.forEach(function(t){tags+='<span class="px-2 py-0.5 bg-gold/10 text-gold rounded-full text-[10px]">'+esc(t)+'</span>'})}
+
+    h+='<div class="bg-surface-low rounded-2xl p-4 border border-outline-var/5">'+
+      '<div class="flex justify-between items-start mb-2">'+
+        '<div><h3 class="font-headline font-bold text-base">'+esc(r.name)+'</h3><p class="text-xs text-outline mt-0.5">'+esc(r.city)+' · '+esc(r.cuisine_type||'')+' · '+esc(r.price_range||'€€')+'</p></div>'+
+        '<div class="flex items-center gap-2">'+
+          '<span class="icon '+trendColor+' text-lg">'+trendIcon+'</span>'+
+          '<div class="text-right"><span class="text-gold font-bold text-lg">'+(r.google_rating||'?')+'</span><span class="text-[9px] text-outline block">'+(r.reviews_count||0)+' avis</span></div>'+
+        '</div>'+
+      '</div>'+
+      '<div class="flex items-center gap-2 mb-3">'+
+        '<span class="px-2 py-0.5 rounded-full text-[10px] font-bold '+authColor+'">'+authLabel+'</span>'+
+        '<span class="text-[10px] text-outline">'+esc(r.authenticity_notes||'')+'</span>'+
+      '</div>'+
+      '<p class="text-sm text-on-surface-var mb-3">'+esc(r.recent_reviews_summary||r.highlights||'')+'</p>'+
+      (dishes?'<div class="flex gap-1.5 flex-wrap mb-2">'+dishes+'</div>':'')+
+      (tags?'<div class="flex gap-1.5 flex-wrap">'+tags+'</div>':'')+
+    '</div>';
+  });
+  cardsEl.innerHTML=h;
+}
 
 // ══════════════════════════════════
 // SAVED / FAVORITES

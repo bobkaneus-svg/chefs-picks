@@ -58,9 +58,45 @@
         "source_url": null,
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Joan Roca",
+        "chef_restaurant": "El Celler de Can Roca (3 etoiles Michelin, Girona)",
+        "quote": "Un bistro informal con una senora que cocina maravillosamente bien - dans le quartier de Belleville",
+        "source": "Infobae Espana / Telecinco",
+        "source_url": "https://www.telecinco.es/gastronomia/restaurantes/20241125/joan-roca-restaurantes-recomienda-mejor-comida-tradicional-girona_18_013343195.html",
+        "date": "2024-11",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Iñaki Aizpitarte",
+        "chef_restaurant": "Le Chateaubriand",
+        "quote": "Raquel Carena est la meilleure cheffe de Paris",
+        "source": "Timeout Paris / Le Fooding",
+        "source_url": "https://www.timeout.fr/paris/restaurants/le-baratin",
+        "date": "2024",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Bertrand Grebaut",
+        "chef_restaurant": "Septime",
+        "quote": "Le bistrot prefere des chefs parisiens depuis 1987",
+        "source": "Timeout Paris",
+        "source_url": "https://www.timeout.fr/paris/restaurants/le-baratin",
+        "date": "2024",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Pierre Herme",
+        "chef_restaurant": "Pierre Herme (patisseries)",
+        "quote": "Une adresse que les chefs se passent de bouche a oreille",
+        "source": "Mint Magazine",
+        "source_url": "https://www.magazine-mint.fr/articles/le-baratin/",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 5,
+    "recommendation_count": 9,
     "confidence_score": 100,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQANrAGyl1k5sKC72NkPad18tS3PWOOUtsCc1Ms-EjrHa8uMwUvgobHSaBJhWM5RhrlWYRfCpqfpmNF7Ajt7o5oqSVCfTBeT7WI8vDTXsspPsZ4OR7R-TGbwoo-L-fJk-56HDgtNjwPHYy=w426-h240-k-no",
@@ -216,9 +252,18 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024-08",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Le Fooding (palmares 2025)",
+        "chef_restaurant": "Dan Pearson, Jessica Yang, Robert Compagnon",
+        "quote": "Meilleure pizza - Le magicien des fermentations maitrise feu et levain pour les plus fabuleuses pizzas",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 3,
+    "recommendation_count": 4,
     "confidence_score": 100,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepuDf0jQZM_CWt17PECguaTxBNxR9LoOFJIUil5ncZWs2el_u88TzbBfgLupPyzZXu-RstKzaqURynDC0EXlHIsQjgiPh0P_pTWY3I5hi7ntb2t2NsJGo82M5uWd2obpHNLwjYf9dOIZ8au=w408-h544-k-no",
@@ -1445,10 +1490,19 @@
         "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Adrien Cachot",
+        "chef_restaurant": "Vaisseau",
+        "quote": "Restaurant ou je craque regulierement pour les phos et soupes",
+        "source": "750g",
+        "source_url": "https://www.750g.com/du-kebab-au-gastro-l-ex-top-chef-adrien-cachot-devoile-ses-adresses-favorites-a-paris-pour-bien-manger-a37645.htm",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3ga7GUIP7TayFwilPW8JyXdY085ufQgjPdtYC2pFAxtJHRhlz4FrAu5rJkSh1qkfx_B1ddPJubnnMgsQwqvHFl62myoyT6BqKwhsM1IrLqBRypYjsFHZT2xdXc5XnR25Kl5cJEQ=w427-h240-k-no",
     "rating": 4.2,
@@ -3842,10 +3896,19 @@
         "source_url": "https://www.750g.com/c-est-tellement-bon-jean-francois-piege-devoile-deux-de-ses-restaurants-preferes-a-paris-pour-se-regaler-a36323.htm",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Laurent Mariotte",
+        "chef_restaurant": "Presentateur Petits Plats en Equilibre (TF1)",
+        "quote": "J'aime bien les bons bistrots",
+        "source": "750g",
+        "source_url": "https://www.750g.com/j-aime-bien-les-bons-bistrots-laurent-mariotte-devoile-ses-adresses-preferees-pour-bien-manger-a-paris-a38838.htm",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKWLjBZnLpV-B-VMbSDrBoZeGsiEG4hu6N9l-NkISZ-boaOog9H21elZ-tpAwQfagA36eUPkn_ETxyfe4MQAGe_bMsQCjrwoSwpVSN5uYtj0ClM4_gRK5KpQRvU6yTnsBkb5FuTQ=w408-h408-k-no",
     "rating": 4.6,
@@ -3919,10 +3982,19 @@
         "source_url": null,
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Louise Bourrat",
+        "chef_restaurant": "Boubou's (Lisbonne)",
+        "quote": "Je partirai aussi pour un restaurant de fruits de mer",
+        "source": "Infrarouge",
+        "source_url": "https://www.infrarouge.fr/les-bonnes-adresses-de-louise-bourrat-et-robin-le-texier/",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
-    "confidence_score": 70,
+    "recommendation_count": 3,
+    "confidence_score": 100,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGW_vNGqPu1ADACP007yFJjx8jPY6ud3qsDy6pmCEEi-YflnCTaukTon4XYfiILPWfQhBAurVhODEzFBScQOPKW_kfKrKG2f91QbS-nHi0KRd8AFodnhh3WSFqTeUoyDwKBa0uzxDG1ruo=w408-h306-k-no",
     "rating": 4.4,
@@ -6365,10 +6437,19 @@
         "source_url": null,
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Pere Monje / Chefs Disfrutar",
+        "chef_restaurant": "Via Veneto (Barcelona) / Disfrutar",
+        "quote": "Buena gente, buen producto y buena brasa - producto extraordinario encima del mar",
+        "source": "Guia Repsol / Telecinco",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024-2025",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
-    "confidence_score": 70,
+    "recommendation_count": 3,
+    "confidence_score": 100,
     "last_updated": "2026-04-13"
   },
   {
@@ -6626,10 +6707,28 @@
         "source_url": "https://www.countryandtownhouse.com/food-and-drink/where-to-eat-paris-chef-guide/",
         "date": "2025-02",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Helene Darroze",
+        "chef_restaurant": "Marsan / Joia",
+        "quote": "Ce ne sont pas des patisseries comme dans une patisserie. Il s'agit de plats reconfortants",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/explorer/articles/helene-darroze-nous-devoile-les-noms-de-ses-restaurants-preferes",
+        "date": "2024",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Mory Sacko",
+        "chef_restaurant": "MoSuke",
+        "quote": "La boulangerie parisienne moderne avec ses viennoiseries et beignets iconiques",
+        "source": "750g",
+        "source_url": "https://www.750g.com/tu-prends-une-grosse-claque-mory-sacko-devoile-ses-restaurants-preferes-a-paris-a36151.htm",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 3,
+    "confidence_score": 100,
     "last_updated": "2026-04-13"
   },
   {
@@ -9136,10 +9235,19 @@
         "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3226589/where-eat-and-drink-barcelona-4-top-spanish-chefs-reveal-where-go-tapas-catalan-cuisine-and-michelin",
         "date": "2023",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Ferran Adria",
+        "chef_restaurant": "elBulli (ferme) / elBulli1846 (musee)",
+        "quote": "Si tu vas avec une biere, tu depenses 30 euros. Mais si tu veux vraiment profiter, ca ferait 50 ou 55 euros",
+        "source": "El Espanol Cocinillas / Infobae",
+        "source_url": "https://www.elespanol.com/cocinillas/actualidad-gastronomica/20240214/bar-favorito-ferran-adria-tapear-barcelona-cocina-artesanal-buen-precio/832667040_0.html",
+        "date": "2024-02",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 80,
     "last_updated": "2026-04-13"
   },
   {
@@ -30374,6 +30482,2219 @@
     ],
     "recommendation_count": 1,
     "confidence_score": 30,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "talla-cadaques",
+    "name": "Talla",
+    "address": "Riba Pitxot, 18",
+    "city": "Cadaques",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.59942,
+      "lng": 1.9982
+    },
+    "cuisine_type": "Mediterraneenne creative",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mateu Casanas, Oriol Castro, Eduard Xatruch (chefs Disfrutar/Compartir)",
+        "chef_restaurant": "Disfrutar (3 etoiles Michelin, Barcelona) / Compartir (Cadaques)",
+        "quote": "Anciens chefs de Can Jubany, cuisine intuitive et exigeante avec un ton informel et jeune",
+        "source": "Bravissima.cat / Homanie",
+        "source_url": "https://bravissima.cat/en/i/3540-talla/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "narita-cadaques-cadaques",
+    "name": "Narita Cadaques",
+    "address": "Placa del Passeig, 13",
+    "city": "Cadaques",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.59807,
+      "lng": 1.99849
+    },
+    "cuisine_type": "Izakaya mediterraneo (fusion nippo-mediterraneenne)",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Chef Pablo (proprietaire)",
+        "chef_restaurant": "Narita Cadaques",
+        "quote": "Alma japonesa, cuerpo mediterraneo - la rencontre plutot que la fusion",
+        "source": "Restaurant Guru / Narita Cadaques",
+        "source_url": "https://naritacadaques.com/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "soca-rel-palafrugell",
+    "name": "Soca-rel",
+    "address": "Palafrugell",
+    "city": "Palafrugell",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.91956,
+      "lng": 3.16151
+    },
+    "cuisine_type": "Arroceria a la lena",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mateu Casanas, Oriol Castro, Eduard Xatruch",
+        "chef_restaurant": "Disfrutar (3 etoiles Michelin, Barcelona)",
+        "quote": "Cocina de barraca como hilo conductor - una propuesta interesante y divertida",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "santall-cia-roses",
+    "name": "Santallúcia",
+    "address": "Playa Almadrava",
+    "city": "Roses",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.2613,
+      "lng": 3.17711
+    },
+    "cuisine_type": "Fruits de mer, fideua",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Martina Puigvert, Fina Puigdevall",
+        "chef_restaurant": "Les Cols (2 etoiles Michelin, Olot)",
+        "quote": "Gambas frescas hervidas en agua de mar, mejillones a la marinera, fideua",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comer-en-la-costa-brava-segun-los-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-pelosa-roses",
+    "name": "La Pelosa",
+    "address": "Cala Pelosa, s/n",
+    "city": "Roses",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.26223,
+      "lng": 3.17863
+    },
+    "cuisine_type": "Chiringuito, anchois de Roses, paella",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mateu Casanas, Oriol Castro, Eduard Xatruch",
+        "chef_restaurant": "Disfrutar (3 etoiles Michelin, Barcelona)",
+        "quote": "Pres du Cap de Creus, specialites d'anchois de Rosas et riz au homard",
+        "source": "Telecinco",
+        "source_url": "https://www.telecinco.es/gastronomia/restaurantes/20250719/chiringuitos-costa-brava-recomiendan-chefs-restaurante-disfrutar_18_016132428.html",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cala-joncols-roses",
+    "name": "Cala Joncols",
+    "address": "Cala Joncols, s/n",
+    "city": "Roses",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 42.26194,
+      "lng": 3.17553
+    },
+    "cuisine_type": "Gastronomique, produits locaux",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mateu Casanas, Oriol Castro, Eduard Xatruch",
+        "chef_restaurant": "Disfrutar (3 etoiles Michelin, Barcelona)",
+        "quote": "Buena opcion para desconectar, pasar un buen rato",
+        "source": "Telecinco",
+        "source_url": "https://www.telecinco.es/gastronomia/restaurantes/20250719/chiringuitos-costa-brava-recomiendan-chefs-restaurante-disfrutar_18_016132428.html",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "gresca-barcelona",
+    "name": "Gresca",
+    "address": "Carrer Provenca, 230",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38668,
+      "lng": 2.1683
+    },
+    "cuisine_type": "Bistronomique catalane",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Joan Roca",
+        "chef_restaurant": "El Celler de Can Roca (3 etoiles Michelin, Girona)",
+        "quote": "Se come mucho y muy bien - no tiene estrella Michelin pero tiene muy buena carta de vinos",
+        "source": "Infobae / Cronica Global",
+        "source_url": "https://cronicaglobal.elespanol.com/gastronomia/20260213/ni-botafumeiro-via-veneto-restaurante-favorito-joan-roca-barcelona-come-mucho-muy-bien-trt/1003742732405_0.html",
+        "date": "2025-2026",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "dit-i-fet-girona",
+    "name": "Dit i Fet",
+    "address": "Carrer Calderers, 10",
+    "city": "Girona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.60241,
+      "lng": 1.99924
+    },
+    "cuisine_type": "Cuisine de saison, produits locaux",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Joan Roca",
+        "chef_restaurant": "El Celler de Can Roca (3 etoiles Michelin, Girona)",
+        "quote": "Es un restaurante que esta muy bien, es de unos chicos que ya habian trabajado con nosotros",
+        "source": "Infobae Espana",
+        "source_url": "https://www.infobae.com/espana/2025/05/21/los-restaurantes-favoritos-de-joan-roca-en-girona-un-lugar-para-comer-una-cafeteria-para-merendar-y-un-bar-de-vinos-para-beber-y-picar/",
+        "date": "2025-05",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "safo-girona",
+    "name": "Safo",
+    "address": "Barri Vell",
+    "city": "Girona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.59933,
+      "lng": 2.00109
+    },
+    "cuisine_type": "Bar a vins naturels, tapas",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Joan Roca",
+        "chef_restaurant": "El Celler de Can Roca (3 etoiles Michelin, Girona)",
+        "quote": "No solo son amigos y vecinos nuestros, tambien tienen muy buenos vinos naturales. Y se come muy bien",
+        "source": "Infobae Espana",
+        "source_url": "https://www.infobae.com/espana/2025/05/21/los-restaurantes-favoritos-de-joan-roca-en-girona-un-lugar-para-comer-una-cafeteria-para-merendar-y-un-bar-de-vinos-para-beber-y-picar/",
+        "date": "2025-05",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "can-jubany-calldetenes-barcelona",
+    "name": "Can Jubany",
+    "address": "Carretera de Vic, Calldetenes",
+    "city": "Calldetenes (Barcelona)",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38391,
+      "lng": 2.17096
+    },
+    "cuisine_type": "Catalane traditionnelle etoilee",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Ferran Adria",
+        "chef_restaurant": "elBulli (ferme) / elBulli1846 (musee)",
+        "quote": "Les meilleurs canelones - cuisine catalane traditionnelle avec touches d'auteur",
+        "source": "El Espanol Cocinillas",
+        "source_url": "https://www.elespanol.com/cocinillas/actualidad-gastronomica/20240201/restaurante-favorito-ferran-adria-barcelona-comer-canelones/828917299_0.html",
+        "date": "2024-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "el-suculent-barcelona",
+    "name": "El Suculent",
+    "address": "Rambla del Raval, 43",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.3881,
+      "lng": 2.16903
+    },
+    "cuisine_type": "Menu degustation, cuisine d'auteur",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Albert Adria",
+        "chef_restaurant": "Enigma (1 etoile Michelin, Barcelona)",
+        "quote": "Recommande pour son menu degustation dans le Raval",
+        "source": "TimeOut Barcelona",
+        "source_url": "https://www.timeout.es/barcelona/es/noticias/estos-son-los-restaurantes-preferidos-del-raval-de-albert-adria-011024",
+        "date": "2024-10",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "makan-makan-barcelona",
+    "name": "Makan Makan",
+    "address": "Carrer de la Lluna, 4",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38868,
+      "lng": 2.17017
+    },
+    "cuisine_type": "Sud-est asiatique",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Albert Adria",
+        "chef_restaurant": "Enigma (1 etoile Michelin, Barcelona)",
+        "quote": "La cocina es minuscula como un rincon, de juguete, pero todo esta buenisimo",
+        "source": "TimeOut Barcelona",
+        "source_url": "https://www.timeout.es/barcelona/es/noticias/estos-son-los-restaurantes-preferidos-del-raval-de-albert-adria-011024",
+        "date": "2024-10",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "ugo-chan-madrid",
+    "name": "Ugo Chan",
+    "address": "Barrio Chamartin",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41865,
+      "lng": -3.70419
+    },
+    "cuisine_type": "Japonaise avant-gardiste fusion espagnole",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dabiz Munoz",
+        "chef_restaurant": "DiverXO (3 etoiles Michelin, Madrid)",
+        "quote": "En muy poco tiempo se ha convertido en una referencia en la ciudad y en uno de mis favoritos absolutos para comer",
+        "source": "El Espanol / Infobae",
+        "source_url": "https://www.infobae.com/espana/2025/09/19/este-es-el-restaurante-preferido-de-dabiz-munoz-en-madrid-ha-llegado-hace-poco-pero-se-ha-convertido-en-una-referencia-y-en-uno-de-mis-favoritos/",
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "tripea-madrid",
+    "name": "Tripea",
+    "address": "Mercado (puesto de mercado)",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41642,
+      "lng": -3.70538
+    },
+    "cuisine_type": "Fusion, cuisine d'auteur au marche",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dabiz Munoz",
+        "chef_restaurant": "DiverXO (3 etoiles Michelin, Madrid)",
+        "quote": "Cuisine avec beaucoup d'influences mais une signature tres marquee, un talent qui rend le lieu unique",
+        "source": "El Espanol",
+        "source_url": "https://www.elespanol.com/madrid/ocio/20260126/dabiz-munoz-desvela-restaurantes-favoritos-comer-madrid-puede-eur/1003744103771_0.html",
+        "date": "2025-2026",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "nanum-madrid",
+    "name": "Nanum",
+    "address": "Madrid",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41405,
+      "lng": -3.70578
+    },
+    "cuisine_type": "Coreenne",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dabiz Munoz",
+        "chef_restaurant": "DiverXO (3 etoiles Michelin, Madrid)",
+        "quote": "Lo mejor que ha abierto coreano en Madrid",
+        "source": "El Espanol",
+        "source_url": "https://www.elespanol.com/madrid/ocio/20260126/dabiz-munoz-desvela-restaurantes-favoritos-comer-madrid-puede-eur/1003744103771_0.html",
+        "date": "2025-2026",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bascoat-madrid",
+    "name": "Bascoat",
+    "address": "Paseo de la Habana, Chamartin",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41994,
+      "lng": -3.70379
+    },
+    "cuisine_type": "Basque reinterpretee",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mario Sandoval, Paulo Airaudo, Miguel Cano",
+        "chef_restaurant": "Coque (2 etoiles Michelin, Madrid) / Amelia (1 etoile, San Sebastian)",
+        "quote": "Meilleure ouverture gastronomique 2023 selon 50+ chefs etoiles",
+        "source": "Infobae / TheFork Awards",
+        "source_url": "https://www.infobae.com/espana/2024/11/13/los-diez-nuevos-restaurantes-que-no-te-puedes-perder-este-ano-segun-los-chefs-mas-prestigiosos-y-los-propios-clientes/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "pabu-madrid",
+    "name": "Pabu",
+    "address": "Madrid",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41677,
+      "lng": -3.7016
+    },
+    "cuisine_type": "Japonaise",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Dabiz Munoz, Ramon Freixa, Miguel Carretero",
+        "chef_restaurant": "DiverXO (3 etoiles) / Ramon Freixa (2 etoiles) / La Tasqueria (1 etoile)",
+        "quote": "Recommande par trois chefs multi-etoiles de Madrid",
+        "source": "Infobae / TheFork Awards",
+        "source_url": "https://www.infobae.com/espana/2024/11/13/los-diez-nuevos-restaurantes-que-no-te-puedes-perder-este-ano-segun-los-chefs-mas-prestigiosos-y-los-propios-clientes/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "palodu-malaga",
+    "name": "Palodu",
+    "address": "Malaga",
+    "city": "Malaga",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 36.72163,
+      "lng": -4.41814
+    },
+    "cuisine_type": "Cuisine creative andalouse",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Paco Morales, Jose Carlos Garcia",
+        "chef_restaurant": "Noor (1 etoile Michelin, Cordoba) / Jose Carlos Garcia (1 etoile, Malaga)",
+        "quote": "Recommande par plusieurs chefs andalous etoiles",
+        "source": "Infobae / TheFork Awards",
+        "source_url": "https://www.infobae.com/espana/2024/11/13/los-diez-nuevos-restaurantes-que-no-te-puedes-perder-este-ano-segun-los-chefs-mas-prestigiosos-y-los-propios-clientes/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bolboreta-madrid",
+    "name": "Bolboreta",
+    "address": "Madrid",
+    "city": "Madrid",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 40.41615,
+      "lng": -3.70571
+    },
+    "cuisine_type": "Cuisine creative",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Diego Guerrero",
+        "chef_restaurant": "DSTAgE (2 etoiles Michelin, Madrid)",
+        "quote": "Parmi les 10 meilleurs nouveaux restaurants d'Espagne 2024",
+        "source": "Infobae / TheFork Awards",
+        "source_url": "https://www.infobae.com/espana/2024/11/13/los-diez-nuevos-restaurantes-que-no-te-puedes-perder-este-ano-segun-los-chefs-mas-prestigiosos-y-los-propios-clientes/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "elkano-getaria",
+    "name": "Elkano",
+    "address": "Herrerieta Kalea, 2",
+    "city": "Getaria",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.30852,
+      "lng": -2.20604
+    },
+    "cuisine_type": "Asador, poisson grille",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jordi Cruz",
+        "chef_restaurant": "ABaC (3 etoiles Michelin, Barcelona)",
+        "quote": "Por decir uno de producto - ouvert depuis 1964 dans le petit village basque de Getaria",
+        "source": "El Debate / Infobae",
+        "source_url": "https://www.eldebate.com/gente/20241005/jordi-cruz-desvela-cual-restaurante-favorito-espana_233307.html",
+        "date": "2024-10",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bodegon-alejandro-san-sebastian",
+    "name": "Bodegon Alejandro",
+    "address": "C/ Fermin Calbeton, 4",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32275,
+      "lng": -1.98443
+    },
+    "cuisine_type": "Basque traditionnelle",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Andoni Luis Aduriz",
+        "chef_restaurant": "Mugaritz (2 etoiles Michelin, Errenteria)",
+        "quote": "Me gusta pedir cosas muy nuestras, como la merluza rebozada o el bacalao",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/andoni-aduriz-restaurantes-guipuzcoa-favoritos/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "gerald-s-bar-san-sebastian",
+    "name": "Gerald's Bar",
+    "address": "Iparragirre Kalea, 13",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.3239,
+      "lng": -1.98234
+    },
+    "cuisine_type": "Contemporaine, tapas",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Andoni Luis Aduriz",
+        "chef_restaurant": "Mugaritz (2 etoiles Michelin, Errenteria)",
+        "quote": "Me encanta el steak tartar",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/andoni-aduriz-restaurantes-guipuzcoa-favoritos/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "abarka-jatetxea-hondarribia",
+    "name": "Abarka Jatetxea",
+    "address": "Baserritar Etorbidea, 36",
+    "city": "Hondarribia",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.36796,
+      "lng": -1.79878
+    },
+    "cuisine_type": "Basque, produit",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Andoni Luis Aduriz",
+        "chef_restaurant": "Mugaritz (2 etoiles Michelin, Errenteria)",
+        "quote": "Tiene un cocinero perfecto y muy buen producto",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comen-los-cocineros-en-la-costa-vasca/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "saltxipi-san-sebastian",
+    "name": "Saltxipi",
+    "address": "Calzada vieja de Ategorrieta, 3",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.31814,
+      "lng": -1.98516
+    },
+    "cuisine_type": "Basque, fruits de mer",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Andoni Luis Aduriz",
+        "chef_restaurant": "Mugaritz (2 etoiles Michelin, Errenteria)",
+        "quote": "Lugar perfecto para ir a celebrar algo especial",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/andoni-aduriz-restaurantes-guipuzcoa-favoritos/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cafe-de-la-concha-san-sebastian",
+    "name": "Cafe de La Concha",
+    "address": "Kontxa Pasealekua, s/n",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.32292,
+      "lng": -1.98751
+    },
+    "cuisine_type": "Bar-restaurant, vue mer",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Elena Arzak",
+        "chef_restaurant": "Arzak (3 etoiles Michelin, San Sebastian)",
+        "quote": "Vistas maravillosas y gastronomia variada",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comen-los-cocineros-en-la-costa-vasca/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "balearri-jatetxea-getaria",
+    "name": "Balearri Jatetxea",
+    "address": "Puerto, 25",
+    "city": "Getaria",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.30555,
+      "lng": -2.20648
+    },
+    "cuisine_type": "Fruits de mer, grillades",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Aitor Arregi",
+        "chef_restaurant": "Elkano (1 etoile Michelin, Getaria)",
+        "quote": "Espectacular",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comen-los-cocineros-en-la-costa-vasca/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "badia-taberna-hondarribia",
+    "name": "Badia Taberna",
+    "address": "Gipuzkoa Plaza, 1",
+    "city": "Hondarribia",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.36586,
+      "lng": -1.79897
+    },
+    "cuisine_type": "Bar a vins, tapas",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Gorka Txapartegui / Andoni Luis Aduriz",
+        "chef_restaurant": "Alameda (2 Soles Repsol) / Mugaritz (2 etoiles Michelin)",
+        "quote": "Tiene una oferta de vinos muy bien elegidos que varia continuamente",
+        "source": "Guia Repsol / Gastroactitud",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comen-los-cocineros-en-la-costa-vasca/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "jondal-ibiza",
+    "name": "Jondal",
+    "address": "Playa de Jondal",
+    "city": "Ibiza",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 38.90798,
+      "lng": 1.43314
+    },
+    "cuisine_type": "Chiringuito, poisson et fruits de mer",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Rafa Zafra (ancien chef de cuisine elBulli)",
+        "chef_restaurant": "Ex-elBulli, Estimar",
+        "quote": "Chiringuito sans musique, qualite de poisson et fruits de mer insuperable",
+        "source": "7 Canibales",
+        "source_url": "https://www.7canibales.com/restaurantes/comedores-ibiza/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-finca-elche",
+    "name": "La Finca",
+    "address": "Partida de Perleta, 1-7",
+    "city": "Elche",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.5982,
+      "lng": 2.00172
+    },
+    "cuisine_type": "Haute cuisine contemporaine ilicitaine",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Quique Dacosta",
+        "chef_restaurant": "Quique Dacosta (3 etoiles Michelin, Denia)",
+        "quote": "Haute cuisine d'innovation",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/quique-dacosta-restaurantes-favoritos-provincia-alicante/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "casa-elias-chinorlet-alicante",
+    "name": "Casa Elias",
+    "address": "C/ Rosales, 7",
+    "city": "Chinorlet (Alicante)",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 38.34233,
+      "lng": -0.48273
+    },
+    "cuisine_type": "Traditionnelle, riz",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Quique Dacosta",
+        "chef_restaurant": "Quique Dacosta (3 etoiles Michelin, Denia)",
+        "quote": "Cocinado a llama viva, el resultado es un arroz suelto y sabroso",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/quique-dacosta-restaurantes-favoritos-provincia-alicante/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cala-moraig-benitachell-alicante",
+    "name": "Cala Moraig",
+    "address": "Cumbres del Sol, Benitachell",
+    "city": "Benitachell (Alicante)",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 38.34355,
+      "lng": -0.48158
+    },
+    "cuisine_type": "Chiringuito, paella, poisson frais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Quique Dacosta",
+        "chef_restaurant": "Quique Dacosta (3 etoiles Michelin, Denia)",
+        "quote": "Es el lugar al que vamos con la familia cuando queremos comer un arrocito rico",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/quique-dacosta-restaurantes-favoritos-provincia-alicante/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-taberna-gourmet-alicante",
+    "name": "La Taberna Gourmet",
+    "address": "Calle San Fernando, 10",
+    "city": "Alicante",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 38.34658,
+      "lng": -0.48188
+    },
+    "cuisine_type": "Fruits de mer, tapas, legumes de saison",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Quique Dacosta",
+        "chef_restaurant": "Quique Dacosta (3 etoiles Michelin, Denia)",
+        "quote": "Hacen una gran cocina de producto marinera",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/quique-dacosta-restaurantes-favoritos-provincia-alicante/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "ame-barcelona",
+    "name": "Ame",
+    "address": "Barcelona",
+    "city": "Barcelona",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 41.38717,
+      "lng": 2.17253
+    },
+    "cuisine_type": "Francaise, produits locaux de saison",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Raul Balam",
+        "chef_restaurant": "Via Veneto (Barcelona)",
+        "quote": "Reconnu aussi par le Guide Michelin",
+        "source": "Infobae / TheFork Awards",
+        "source_url": "https://www.infobae.com/espana/2024/11/13/los-diez-nuevos-restaurantes-que-no-te-puedes-perder-este-ano-segun-los-chefs-mas-prestigiosos-y-los-propios-clientes/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "passerini-paris",
+    "name": "Passerini",
+    "address": "65 Rue Traversiere",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85479,
+      "lng": 2.35418
+    },
+    "cuisine_type": "Italienne, pates maison",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Helene Darroze",
+        "chef_restaurant": "Marsan (2 etoiles Michelin, Paris)",
+        "quote": "C'est un restaurant italien, mais il a aussi une boutique, ou il vend des pates faites maison",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/explorer/articles/helene-darroze-nous-devoile-les-noms-de-ses-restaurants-preferes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-arpege-paris",
+    "name": "L'Arpege",
+    "address": "84 Rue de Varenne",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8576,
+      "lng": 2.35348
+    },
+    "cuisine_type": "Gastronomique, vegetale, 3 etoiles",
+    "price_range": "€€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Helene Darroze",
+        "chef_restaurant": "Marsan (2 etoiles Michelin, Paris)",
+        "quote": "Il n'a pas son pareil pour rotir une piece de viande ou de poisson...toujours tres simple, mais si savoureux",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/explorer/articles/helene-darroze-nous-devoile-les-noms-de-ses-restaurants-preferes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "les-arlots-paris",
+    "name": "Les Arlots",
+    "address": "136 Rue du Faubourg-Poissonniere",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85765,
+      "lng": 2.35145
+    },
+    "cuisine_type": "Bistrot, cuisine canaille",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Pierre Gagnaire",
+        "chef_restaurant": "Pierre Gagnaire (3 etoiles Michelin, Paris)",
+        "quote": "Son favori pour la saucisse-puree, un bistrot convivial",
+        "source": "Guide Michelin",
+        "source_url": "https://guide.michelin.com/fr/fr/article/travel/les-adresses-preferees-de-pierre-gagnaire-a-paris",
+        "date": "2024",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Outgo Mag (elu meilleur bistrot de Paris)",
+        "chef_restaurant": "Thomas Brachet",
+        "quote": "Elu meilleur bistrot de Paris, cuisine menagere dans un decor typiquement parisien",
+        "source": "Outgo Mag",
+        "source_url": "https://www.outgomag.com/les-10-meilleurs-bistrots-de-paris-a-tester-absolument-en-2024/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 80,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "kol-londres",
+    "name": "Kol",
+    "address": "9 Seymour St, Marylebone",
+    "city": "Londres",
+    "country": "Royaume-Uni",
+    "coordinates": {
+      "lat": 46.59758,
+      "lng": 1.99786
+    },
+    "cuisine_type": "Mexicaine revisitee, produits britanniques",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Helene Darroze",
+        "chef_restaurant": "Marsan (2 etoiles Michelin, Paris)",
+        "quote": "Santiago Lastra propose une cuisine mexicaine avec des produits britanniques, remarquable",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/explorer/articles/helene-darroze-nous-devoile-les-noms-de-ses-restaurants-preferes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "da-enzo-al-29-rome",
+    "name": "Da Enzo al 29",
+    "address": "Via dei Vascellari, 29",
+    "city": "Rome",
+    "country": "Italie",
+    "coordinates": {
+      "lat": 41.90004,
+      "lng": 12.49407
+    },
+    "cuisine_type": "Romaine traditionnelle (cacio e pepe)",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Helene Darroze",
+        "chef_restaurant": "Marsan (2 etoiles Michelin, Paris)",
+        "quote": "C'est ici que j'ai mange le meilleur cacio e pepe de tous les temps",
+        "source": "Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/explorer/articles/helene-darroze-nous-devoile-les-noms-de-ses-restaurants-preferes",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "zelai-txiki-san-sebastian",
+    "name": "Zelai Txiki",
+    "address": "Travesia Rodil, 79",
+    "city": "San Sebastian",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 43.31887,
+      "lng": -1.98675
+    },
+    "cuisine_type": "Basque moderne",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Andoni Luis Aduriz",
+        "chef_restaurant": "Mugaritz (2 etoiles Michelin, Errenteria)",
+        "quote": "Un lugar especial en el que disfruto mucho",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/andoni-aduriz-restaurantes-guipuzcoa-favoritos/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "asador-trinkete-borda-irun",
+    "name": "Asador Trinkete Borda",
+    "address": "Caserio Borda, Barrio Olaberria, 39",
+    "city": "Irun",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.60037,
+      "lng": 2.00162
+    },
+    "cuisine_type": "Asador traditionnel",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Andoni Luis Aduriz",
+        "chef_restaurant": "Mugaritz (2 etoiles Michelin, Errenteria)",
+        "quote": "Preciosos caserios perdidos en mitad del bosque",
+        "source": "Gastroactitud",
+        "source_url": "https://www.gastroactitud.com/pista/andoni-aduriz-restaurantes-guipuzcoa-favoritos/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "hondartzape-plentzia-bizkaia",
+    "name": "Hondartzape",
+    "address": "Erribera, 3",
+    "city": "Plentzia (Bizkaia)",
+    "country": "Espagne",
+    "coordinates": {
+      "lat": 46.60179,
+      "lng": 2.00208
+    },
+    "cuisine_type": "Bar, conserves, pintxos",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "David Garcia",
+        "chef_restaurant": "El Corral de la Moreria (3 Soles Repsol)",
+        "quote": "Bonito en conserva con una picadita de piparra que hacen ellos",
+        "source": "Guia Repsol",
+        "source_url": "https://www.guiarepsol.com/es/soletes/donde-comen-los-cocineros-en-la-costa-vasca/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cantine-du-troquet-paris",
+    "name": "Cantine du Troquet",
+    "address": "101 rue de l'Ouest, 75014 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8547,
+      "lng": 2.35393
+    },
+    "cuisine_type": "Bistrot basque, cuisine canaille",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Adrien Cachot",
+        "chef_restaurant": "Vaisseau",
+        "quote": "J'adore y dejeuner pour le parmentier de boudin, l'axoa de veau et le gateau basque",
+        "source": "750g",
+        "source_url": "https://www.750g.com/du-kebab-au-gastro-l-ex-top-chef-adrien-cachot-devoile-ses-adresses-favorites-a-paris-pour-bien-manger-a37645.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "gemuse-paris",
+    "name": "Gemuse",
+    "address": "61 rue Ramey, 75018 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85512,
+      "lng": 2.34943
+    },
+    "cuisine_type": "Kebab berlinois",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Adrien Cachot",
+        "chef_restaurant": "Vaisseau",
+        "quote": "J'adore les kebabs !",
+        "source": "750g",
+        "source_url": "https://www.750g.com/du-kebab-au-gastro-l-ex-top-chef-adrien-cachot-devoile-ses-adresses-favorites-a-paris-pour-bien-manger-a37645.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "tais-paris",
+    "name": "Tais",
+    "address": "Est de Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85573,
+      "lng": 2.35251
+    },
+    "cuisine_type": "Couscous",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Adrien Cachot",
+        "chef_restaurant": "Vaisseau",
+        "quote": "Mon adresse reguliere pour un bon couscous",
+        "source": "750g",
+        "source_url": "https://www.750g.com/du-kebab-au-gastro-l-ex-top-chef-adrien-cachot-devoile-ses-adresses-favorites-a-paris-pour-bien-manger-a37645.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "delices-de-tunisie-paris",
+    "name": "Delices de Tunisie",
+    "address": "Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85429,
+      "lng": 2.3503
+    },
+    "cuisine_type": "Tunisien, makloubs",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Adrien Cachot",
+        "chef_restaurant": "Vaisseau",
+        "quote": "Mon restaurant favori pour les makloubs",
+        "source": "750g",
+        "source_url": "https://www.750g.com/du-kebab-au-gastro-l-ex-top-chef-adrien-cachot-devoile-ses-adresses-favorites-a-paris-pour-bien-manger-a37645.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "siseng-paris",
+    "name": "Siseng",
+    "address": "82 quai de Jemmapes, 75010 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85639,
+      "lng": 2.35393
+    },
+    "cuisine_type": "Asiatique fusion, bao burgers, bobuns",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mory Sacko",
+        "chef_restaurant": "MoSuke",
+        "quote": "Ils font des bao burgers et des bobuns formidables, bien avant que ce soit a la mode",
+        "source": "750g",
+        "source_url": "https://www.750g.com/tu-prends-une-grosse-claque-mory-sacko-devoile-ses-restaurants-preferes-a-paris-a36151.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-perchoir-menilmontant-paris",
+    "name": "Le Perchoir Menilmontant",
+    "address": "14 rue Crespin du Gast, 75011 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8564,
+      "lng": 2.35148
+    },
+    "cuisine_type": "Francais contemporain, rooftop",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Louise Bourrat",
+        "chef_restaurant": "Boubou's (Lisbonne)",
+        "quote": "Belle vue sur les toits de Paris et la simplicite de la carte",
+        "source": "Infrarouge",
+        "source_url": "https://www.infrarouge.fr/les-bonnes-adresses-de-louise-bourrat-et-robin-le-texier/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bouillon-chartier-paris",
+    "name": "Bouillon Chartier",
+    "address": "7 rue du Faubourg Montmartre, 75009 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85623,
+      "lng": 2.34956
+    },
+    "cuisine_type": "Francais traditionnel, bouillon",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Louise Bourrat",
+        "chef_restaurant": "Boubou's (Lisbonne)",
+        "quote": "Pour impressionner les beaux-parents, un classique indemodable",
+        "source": "Infrarouge",
+        "source_url": "https://www.infrarouge.fr/les-bonnes-adresses-de-louise-bourrat-et-robin-le-texier/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "baca-v-paris",
+    "name": "Baca'v",
+    "address": "5e arrondissement, Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85928,
+      "lng": 2.35454
+    },
+    "cuisine_type": "Bistrot francais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Laurent Mariotte",
+        "chef_restaurant": "Presentateur Petits Plats en Equilibre (TF1)",
+        "quote": "Une de mes bonnes adresses parisiennes",
+        "source": "750g",
+        "source_url": "https://www.750g.com/j-aime-bien-les-bons-bistrots-laurent-mariotte-devoile-ses-adresses-preferees-pour-bien-manger-a-paris-a38838.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "paul-bert-paris",
+    "name": "Paul Bert",
+    "address": "18 rue Paul Bert, 75011 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85833,
+      "lng": 2.35139
+    },
+    "cuisine_type": "Bistrot francais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Laurent Mariotte",
+        "chef_restaurant": "Presentateur Petits Plats en Equilibre (TF1)",
+        "quote": "Figure dans ma selection de bonnes adresses",
+        "source": "750g",
+        "source_url": "https://www.750g.com/j-aime-bien-les-bons-bistrots-laurent-mariotte-devoile-ses-adresses-preferees-pour-bien-manger-a-paris-a38838.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "vitelloni-paris",
+    "name": "Vitelloni",
+    "address": "3e arrondissement, Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85666,
+      "lng": 2.35087
+    },
+    "cuisine_type": "Italien",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Laurent Mariotte",
+        "chef_restaurant": "Presentateur Petits Plats en Equilibre (TF1)",
+        "quote": "Un bon Italien",
+        "source": "750g",
+        "source_url": "https://www.750g.com/j-aime-bien-les-bons-bistrots-laurent-mariotte-devoile-ses-adresses-preferees-pour-bien-manger-a-paris-a38838.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "soma-paris",
+    "name": "Soma",
+    "address": "3e arrondissement, Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85793,
+      "lng": 2.35292
+    },
+    "cuisine_type": "Bistrot japonais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Laurent Mariotte",
+        "chef_restaurant": "Presentateur Petits Plats en Equilibre (TF1)",
+        "quote": "J'apprecie la diversite des cuisines a Paris",
+        "source": "750g",
+        "source_url": "https://www.750g.com/j-aime-bien-les-bons-bistrots-laurent-mariotte-devoile-ses-adresses-preferees-pour-bien-manger-a-paris-a38838.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "oui-mon-general-paris",
+    "name": "Oui Mon General",
+    "address": "7e arrondissement, Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85586,
+      "lng": 2.35425
+    },
+    "cuisine_type": "Bistrot francais",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Laurent Mariotte",
+        "chef_restaurant": "Presentateur Petits Plats en Equilibre (TF1)",
+        "quote": "Parmi mes restaurants preferes",
+        "source": "750g",
+        "source_url": "https://www.750g.com/j-aime-bien-les-bons-bistrots-laurent-mariotte-devoile-ses-adresses-preferees-pour-bien-manger-a-paris-a38838.htm",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-epi-d-or-paris",
+    "name": "L'Epi d'Or",
+    "address": "25 rue Jean-Jacques Rousseau, 75001 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85832,
+      "lng": 2.35031
+    },
+    "cuisine_type": "Bistrot canaille, classiques parisiens",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Jean-Francois Piege",
+        "chef_restaurant": "Clover (ex-Le Grand Restaurant)",
+        "quote": "Cuisine bistrotiere canaille et classiques parisiens",
+        "source": "Les Hardis",
+        "source_url": "https://www.leshardis.com/2024/02/les-cinq-meilleures-brasseries-de-chefs-a-paris/",
+        "date": "2024-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-chardenoux-paris",
+    "name": "Le Chardenoux",
+    "address": "1 rue Jules Valles, 75011 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85886,
+      "lng": 2.35305
+    },
+    "cuisine_type": "Brasserie modernisee, influences variees",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Cyril Lignac",
+        "chef_restaurant": "Le Bar des Pres / Aux Pres",
+        "quote": "Brasserie modernisee avec influences variees par Cyril Lignac",
+        "source": "Les Hardis",
+        "source_url": "https://www.leshardis.com/2024/02/les-cinq-meilleures-brasseries-de-chefs-a-paris/",
+        "date": "2024-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "lazare-paris",
+    "name": "Lazare",
+    "address": "Rue interieure, Gare Saint-Lazare, 75008 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.8555,
+      "lng": 2.35078
+    },
+    "cuisine_type": "Bistrot, brasserie classique",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Eric Frechon",
+        "chef_restaurant": "Epicure (Bristol)",
+        "quote": "Esprit cafe de la gare conserve avec une carte bistrotiere",
+        "source": "Les Hardis",
+        "source_url": "https://www.leshardis.com/2024/02/les-cinq-meilleures-brasseries-de-chefs-a-paris/",
+        "date": "2024-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "aux-lyonnais-paris",
+    "name": "Aux Lyonnais",
+    "address": "32 rue Saint-Marc, 75002 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85851,
+      "lng": 2.34948
+    },
+    "cuisine_type": "Lyonnaise traditionnelle, bouchon",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Alain Ducasse",
+        "chef_restaurant": "Alain Ducasse (groupe)",
+        "quote": "La meilleure cuisine lyonnaise a Paris sous la direction de Victoria Boller",
+        "source": "Les Hardis",
+        "source_url": "https://www.leshardis.com/2024/02/les-cinq-meilleures-brasseries-de-chefs-a-paris/",
+        "date": "2024-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "piero-tt-paris",
+    "name": "Piero TT",
+    "address": "44 rue du Bac, 75007 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85663,
+      "lng": 2.35478
+    },
+    "cuisine_type": "Italien moderne, creatif",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Pierre Gagnaire",
+        "chef_restaurant": "Pierre Gagnaire (restaurant gastronomique)",
+        "quote": "Cuisine italienne moderne et creative par Pierre Gagnaire",
+        "source": "Les Hardis",
+        "source_url": "https://www.leshardis.com/2024/02/les-cinq-meilleures-brasseries-de-chefs-a-paris/",
+        "date": "2024-02",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-cheval-d-or-paris",
+    "name": "Le Cheval d'Or",
+    "address": "21 rue de la Villette, 75019 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85554,
+      "lng": 2.35202
+    },
+    "cuisine_type": "Francais creatif, regalade",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2024)",
+        "chef_restaurant": "Luis Andrade, Hanz Gueco",
+        "quote": "Meilleure Regalade - Un festin qui eblouit avec excellence culinaire",
+        "source": "Le Fooding / Outgo Mag",
+        "source_url": "https://www.outgomag.com/le-fooding-2024-decouvrez-les-5-adresses-qui-font-vibrer-paris/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "dandelion-paris",
+    "name": "Dandelion",
+    "address": "46 rue des Vignoles, 75020 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85944,
+      "lng": 2.35425
+    },
+    "cuisine_type": "Neo-bistrot, vins naturels",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025)",
+        "chef_restaurant": "Morgane Souris (ex-Parcelles) et Antoine Villard (ex-Septime)",
+        "quote": "Meilleur sophistroquet - Neo-bistro qui a pris racine dans le 20e",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "buttes-paris",
+    "name": "Buttes",
+    "address": "10 rue Pradier, 75019 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85873,
+      "lng": 2.3522
+    },
+    "cuisine_type": "Francais creatif, cuisine inventive",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2024)",
+        "chef_restaurant": "Benoit Baud, Pierre Forest, Clement Vezat",
+        "quote": "Meilleur antidepresseur - Fusion entre cuisine inventive et ambiance conviviale avec plats reconfortants",
+        "source": "Le Fooding / Outgo Mag",
+        "source_url": "https://www.outgomag.com/le-fooding-2024-decouvrez-les-5-adresses-qui-font-vibrer-paris/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "mam-from-hanoi-paris",
+    "name": "Mam from Hanoi",
+    "address": "39 rue de Clery, 75002 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85958,
+      "lng": 2.35054
+    },
+    "cuisine_type": "Vietnamien, pho",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2024)",
+        "chef_restaurant": "Tuyet Ngan Bui, Tuan Anh Tran Luu",
+        "quote": "Meilleur pho - Perle vietnamienne offrant une experience gustative authentique",
+        "source": "Le Fooding / Outgo Mag",
+        "source_url": "https://www.outgomag.com/le-fooding-2024-decouvrez-les-5-adresses-qui-font-vibrer-paris/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "meida-saint-ouen-sur-seine",
+    "name": "Meida",
+    "address": "Place de la Mairie, 93400 Saint-Ouen-sur-Seine",
+    "city": "Saint-Ouen-sur-Seine",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.60229,
+      "lng": 1.99946
+    },
+    "cuisine_type": "Brasserie mediterraneenne, cuisine du soleil",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Mohamed Cheikh (Top Chef 2021)",
+        "chef_restaurant": "Meida (son propre restaurant)",
+        "quote": "Cuisine genereuse, spontanee et sans frontieres entre Italie, Grece, Algerie et Espagne. Menu dejeuner a 19,50 EUR",
+        "source": "Paris Select Book",
+        "source_url": "https://www.parisselectbook.com/en/2024/09/02/mohamed-cheikh-opens-his-first-restaurant-meida/",
+        "date": "2024-09",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "blossom-bistrot-vernon",
+    "name": "Blossom Bistrot",
+    "address": "35 quai Anatole Camere, 27200 Vernon",
+    "city": "Vernon",
+    "country": "France",
+    "coordinates": {
+      "lat": 49.09395,
+      "lng": 1.48667
+    },
+    "cuisine_type": "Neo-bistrot normand, locavore",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025)",
+        "chef_restaurant": "Gabin Rodes",
+        "quote": "Meilleur bistrot a flot - Cuisine nordique avec produits normands sources a moins de 100 km",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bistrot-des-rosiers-strasbourg",
+    "name": "Bistrot des Rosiers",
+    "address": "Strasbourg",
+    "city": "Strasbourg",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.57169,
+      "lng": 7.75307
+    },
+    "cuisine_type": "Cuisine du marche",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025)",
+        "chef_restaurant": "Non precise",
+        "quote": "Meilleure cuisine du marche au palmares Fooding 2025",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "atelier-renata-marseille",
+    "name": "Atelier Renata",
+    "address": "2A rue Guy Fabre, 13001 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29763,
+      "lng": 5.37292
+    },
+    "cuisine_type": "Italien, table d'hote",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2024)",
+        "chef_restaurant": "Erika Blu",
+        "quote": "Meilleure table d'hote - Cuisine sentimentale italienne dans un ancien atelier d'artiste",
+        "source": "Le Fooding / Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/article/palmares-guide-fooding-2024",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "ripaille-marseille",
+    "name": "Ripaille",
+    "address": "54 rue Lorette, 13002 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.298,
+      "lng": 5.36964
+    },
+    "cuisine_type": "Bistrot, petites assiettes, vins naturels",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2024)",
+        "chef_restaurant": "Alix Eliard, Simon Erouart, Chloe Langlais, Quentin Panabieres",
+        "quote": "Meilleur antidepresseur - Petites assiettes et canons nature dans le quartier du Panier",
+        "source": "Le Fooding / Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/article/palmares-guide-fooding-2024",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "palegrie-chez-l-henri-autrans-meaudre-en-vercors",
+    "name": "Palegrie chez l'Henri",
+    "address": "66 rue de la Tour, 38112 Autrans-Meaudre en Vercors",
+    "city": "Autrans-Meaudre en Vercors",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.59928,
+      "lng": 2.00232
+    },
+    "cuisine_type": "Gastronomique, cuisson au four a bois",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2024)",
+        "chef_restaurant": "Guillaume Monjure, Chrystel Barnier",
+        "quote": "Meilleure table - Cuisine creative au four a bois en pleine montagne du Vercors",
+        "source": "Le Fooding / Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/article/palmares-guide-fooding-2024",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-arpaon-paris",
+    "name": "L'Arpaon",
+    "address": "57 rue Montcalm, 75018 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85607,
+      "lng": 2.353
+    },
+    "cuisine_type": "Fusion Tunis-Tel Aviv-Paris",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025) / Outgo Mag meilleurs bistrots",
+        "chef_restaurant": "Yann Botbol et Nathan Sebagh",
+        "quote": "Meilleur petit luxe - Cuisine inventive et impertinente qui marie les saveurs de Tunis, Tel-Aviv et Paris",
+        "source": "Le Fooding / Outgo Mag",
+        "source_url": "https://www.outgomag.com/les-10-meilleurs-bistrots-de-paris-a-tester-absolument-en-2024/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "pristine-paris",
+    "name": "Pristine",
+    "address": "8 rue de Maubeuge, 75009 Paris",
+    "city": "Paris",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.85817,
+      "lng": 2.35479
+    },
+    "cuisine_type": "Vegetale, vins nature",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Outgo Mag (meilleurs bistrots 2024)",
+        "chef_restaurant": "Michelle Primc et Jeremy Grosdidier",
+        "quote": "Cantine vegetale energique avec decoration industrielle moderne",
+        "source": "Outgo Mag",
+        "source_url": "https://www.outgomag.com/les-10-meilleurs-bistrots-de-paris-a-tester-absolument-en-2024/",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-flores-saint-hilaire-d-ozilhan",
+    "name": "Le Flores",
+    "address": "Saint-Hilaire-d'Ozilhan, 30210 Gard",
+    "city": "Saint-Hilaire-d'Ozilhan",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.59816,
+      "lng": 2.00099
+    },
+    "cuisine_type": "Francais creatif, cuisine du terroir",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025 - Fooding d'amour)",
+        "chef_restaurant": "Emmanuelle Lachaud",
+        "quote": "Fooding d'amour 2025 - Pepite dans le Gard",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "petit-grill-basque-saint-jean-de-luz",
+    "name": "Petit Grill Basque",
+    "address": "Saint-Jean-de-Luz, 64500",
+    "city": "Saint-Jean-de-Luz",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.38403,
+      "lng": -1.65916
+    },
+    "cuisine_type": "Basque, grill",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025 - Fooding d'honneur)",
+        "chef_restaurant": "Iñaki Aizpitarte (Le Chateaubriand Paris)",
+        "quote": "Fooding d'honneur pour Iñaki Aizpitarte et son retour au Pays Basque",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cafe-enez-douarnenez",
+    "name": "Cafe Enez",
+    "address": "Douarnenez, 29100 Finistere",
+    "city": "Douarnenez",
+    "country": "France",
+    "coordinates": {
+      "lat": 48.09394,
+      "lng": -4.32754
+    },
+    "cuisine_type": "Cafe de quartier, cuisine simple",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025)",
+        "chef_restaurant": "Non precise",
+        "quote": "Meilleur cafe de quartier au palmares Fooding 2025",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-turlutte-lege-cap-ferret",
+    "name": "La Turlutte",
+    "address": "Lege-Cap-Ferret, 33950 Gironde",
+    "city": "Lege-Cap-Ferret",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.6022,
+      "lng": 1.99839
+    },
+    "cuisine_type": "Bar a delices, cuisine de bord de mer",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025)",
+        "chef_restaurant": "Non precise",
+        "quote": "Meilleur bar a delices au palmares Fooding 2025 - Pepite du bassin d'Arcachon",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "glaz-pont-croix",
+    "name": "Glaz",
+    "address": "Pont-Croix, 29790 Finistere",
+    "city": "Pont-Croix",
+    "country": "France",
+    "coordinates": {
+      "lat": 46.60216,
+      "lng": 1.99907
+    },
+    "cuisine_type": "Popote, cuisine de terroir breton",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2025)",
+        "chef_restaurant": "Non precise",
+        "quote": "Meilleure popote au palmares Fooding 2025 - Pepite bretonne",
+        "source": "Le Fooding / Tendance Food",
+        "source_url": "https://www.tendancefood.com/decouvrez-le-palmares-du-fooding-2025/",
+        "date": "2024-11",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "manat-perpignan",
+    "name": "Manat",
+    "address": "Perpignan, 66000",
+    "city": "Perpignan",
+    "country": "France",
+    "coordinates": {
+      "lat": 42.6984,
+      "lng": 2.89267
+    },
+    "cuisine_type": "Cuisine creative, franco-japonaise",
+    "price_range": "€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Le Fooding (palmares 2024 - Fooding d'amour)",
+        "chef_restaurant": "Marc Meya et Yuka Okugawa",
+        "quote": "Fooding d'amour 2024 - Cuisine creative a Perpignan",
+        "source": "Le Fooding / Fine Dining Lovers",
+        "source_url": "https://www.finedininglovers.fr/article/palmares-guide-fooding-2024",
+        "date": "2024",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 40,
     "last_updated": "2026-04-13"
   }
 ]
