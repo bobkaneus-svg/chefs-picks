@@ -603,25 +603,31 @@ function onMapQ(e){
 }
 
 // ── CAROUSEL ──
-var cVis=[],cIdx=-1,cScrollLock=false;
+var cVis=[],cIdx=-1,cScrollLock=false,activeHighlight=null;
 
 function highlightPin(id){
-  // Reset all pins to normal, highlight the active one
-  for(var mid in MK){
-    var el=MK[mid].getElement();
-    if(!el)continue;
-    var wrap=el.querySelector('.pin');
-    if(!wrap)continue;
-    if(mid===id){
-      wrap.style.transform='scale(1.3)';
-      wrap.style.zIndex='9999';
-      wrap.style.filter='drop-shadow(0 0 12px rgba(232,168,56,0.7))';
-    }else{
-      wrap.style.transform='';
-      wrap.style.zIndex='';
-      wrap.style.filter='';
-    }
+  // Reset previous highlight
+  if(activeHighlight&&MK[activeHighlight]){
+    try{
+      var prev=MK[activeHighlight].getElement();
+      if(prev){var pw=prev.querySelector('.pin');if(pw){pw.style.transform='';pw.style.zIndex='';pw.style.filter=''}}
+    }catch(e){}
   }
+  activeHighlight=id;
+  if(!id||!MK[id])return;
+
+  // Try to highlight — marker may not be rendered yet if in cluster
+  try{
+    var el=MK[id].getElement();
+    if(el){
+      var wrap=el.querySelector('.pin');
+      if(wrap){
+        wrap.style.transform='scale(1.4)';
+        wrap.style.zIndex='9999';
+        wrap.style.filter='drop-shadow(0 0 14px rgba(232,168,56,0.8))';
+      }
+    }
+  }catch(e){}
 }
 
 function buildCard(r){
@@ -698,21 +704,38 @@ function onCarouselSnap(sc){
 }
 
 function showPreview(r){
-  updateCarousel();
-  // scroll to the clicked restaurant's card
-  var sc=document.getElementById('cscrollEl');
-  if(!sc)return;
-  var cards=sc.querySelectorAll('.ccard');
-  for(var i=0;i<cards.length;i++){
-    if(cards[i].getAttribute('data-rid')===r.id){
-      cIdx=i;
-      cards[i].scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});
-      highlightPin(r.id);
-      break;
-    }
+  // Lock carousel rebuild during the whole sequence
+  cScrollLock=true;
+
+  // 1. Zoom/pan to the pin first
+  var needZoom=map.getZoom()<13;
+  if(needZoom){
+    map.setView([r.coordinates.lat,r.coordinates.lng],15,{animate:true});
+  }else{
+    map.panTo([r.coordinates.lat,r.coordinates.lng],{animate:true});
   }
-  if(map.getZoom()<12)map.setView([r.coordinates.lat,r.coordinates.lng],14,{animate:true});
-  else map.panTo([r.coordinates.lat,r.coordinates.lng],{animate:true});
+
+  // 2. After map settles, build carousel and scroll to card
+  var delay=needZoom?600:300;
+  setTimeout(function(){
+    cScrollLock=false;
+    updateCarousel();
+    highlightPin(r.id);
+
+    // Scroll to the right card
+    var sc=document.getElementById('cscrollEl');
+    if(!sc)return;
+    var cards=sc.querySelectorAll('.ccard');
+    for(var i=0;i<cards.length;i++){
+      if(cards[i].getAttribute('data-rid')===r.id){
+        cIdx=i;
+        // Use scrollLeft instead of scrollIntoView (more reliable on mobile)
+        var cardLeft=cards[i].offsetLeft-sc.offsetLeft-(sc.offsetWidth-cards[i].offsetWidth)/2;
+        sc.scrollTo({left:Math.max(0,cardLeft),behavior:'smooth'});
+        break;
+      }
+    }
+  },delay);
 }
 
 // ══════════════════════════════════
