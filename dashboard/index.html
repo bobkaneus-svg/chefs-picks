@@ -35,11 +35,14 @@ a{text-decoration:none;color:inherit}
 .noscroll::-webkit-scrollbar{display:none}.noscroll{-ms-overflow-style:none;scrollbar-width:none}
 
 /* Views */
-.view{display:none;position:fixed;inset:0;background:#131313;overflow-y:auto;z-index:10}
-.view.on{display:block}
+.view{display:none;position:fixed;inset:0;background:#131313;overflow-y:auto;z-index:10;opacity:0;transition:opacity .3s ease}
+.view.on{display:block;opacity:1}
 .view-map{overflow:hidden}
-.view-slide{animation:.25s slideR}
-@keyframes slideR{from{transform:translateX(100%)}to{transform:translateX(0)}}
+.view-slide{animation:.3s slideR}
+@keyframes slideR{from{transform:translateX(100%);opacity:0}to{transform:translateX(0);opacity:1}}
+/* Fade transition for tab views */
+.view-fade-in{animation:.3s fadeIn}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 
 /* Header */
 .hdr{position:fixed;top:0;left:0;right:0;z-index:50;height:calc(56px + var(--st));padding-top:var(--st);
@@ -48,10 +51,11 @@ background:rgba(19,19,19,.7);backdrop-filter:blur(14px);display:flex;align-items
 /* Bottom nav */
 .bnav{position:fixed;bottom:0;left:0;right:0;z-index:50;
 padding:10px 0 calc(8px + var(--sb));
-background:rgba(19,19,19,.85);backdrop-filter:blur(14px);border-top-left-radius:16px;border-top-right-radius:16px;
-display:flex;justify-content:space-around;align-items:center}
-.bnav a{display:flex;flex-direction:column;align-items:center;color:#9d8e7c;font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-family:Manrope;cursor:pointer;transition:.2s}
-.bnav a.on{color:#ffc66b;font-weight:700;transform:scale(1.08)}
+background:rgba(19,19,19,.92);backdrop-filter:blur(18px);border-top-left-radius:16px;border-top-right-radius:16px;
+display:flex;justify-content:space-around;align-items:center;border-top:1px solid rgba(232,168,56,.06)}
+.bnav a{display:flex;flex-direction:column;align-items:center;gap:2px;color:#6d6054;font-size:11px;text-transform:uppercase;letter-spacing:.6px;font-family:Manrope;font-weight:500;cursor:pointer;transition:all .25s ease;padding:4px 8px;border-radius:12px;position:relative}
+.bnav a.on{color:#ffc66b;font-weight:700;transform:scale(1.05)}
+.bnav a.on::before{content:'';position:absolute;top:-2px;left:50%;transform:translateX(-50%);width:20px;height:3px;background:#e8a838;border-radius:0 0 3px 3px}
 .bnav a .icon{font-size:24px}
 
 /* Map */
@@ -78,13 +82,53 @@ display:flex;justify-content:space-around;align-items:center}
 .marker-cluster-large{border-color:#e8a838!important}
 
 /* Carousel */
-.cscroll{scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
-.ccard{scroll-snap-align:center;flex-shrink:0;width:82vw;max-width:370px}
+.cscroll{scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-left:16px;padding-right:16px}
+.ccard{scroll-snap-align:center;flex-shrink:0;width:88vw;max-width:400px}
+.ccard:first-child{margin-left:4px}
+.ccard:last-child{margin-right:4px}
 
 /* Badges */
 .bp{background:rgba(206,201,255,.12);color:#cec9ff;border:1px solid rgba(206,201,255,.15)}
 .bs{background:rgba(232,168,56,.12);color:#e8a838;border:1px solid rgba(232,168,56,.15)}
 .bk{background:rgba(176,170,255,.12);color:#b0aaff;border:1px solid rgba(176,170,255,.15)}
+
+/* Loading skeleton */
+.skeleton{position:relative;overflow:hidden;background:#2a2a2a;border-radius:16px}
+.skeleton::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.04),transparent);animation:shimmer 1.8s infinite}
+@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.loading-overlay{position:fixed;inset:0;z-index:200;background:#131313;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;transition:opacity .4s ease}
+.loading-overlay.hide{opacity:0;pointer-events:none}
+.spinner{width:40px;height:40px;border:3px solid #2a2a2a;border-top-color:#e8a838;border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Empty states */
+.empty-state{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 24px;text-align:center}
+.empty-state .icon{font-size:64px;color:rgba(157,142,124,.2);margin-bottom:16px}
+.empty-state p{color:#9d8e7c;font-size:14px;line-height:1.6}
+.empty-state .sub{color:rgba(157,142,124,.5);font-size:12px;margin-top:6px}
+
+/* Search suggestions improved */
+.suggest-item{display:flex;align-items:center;gap:12px;padding:12px 16px;cursor:pointer;transition:background .15s ease;border-bottom:1px solid rgba(80,69,53,.08)}
+.suggest-item:hover,.suggest-item:active{background:rgba(53,53,52,.6)}
+.suggest-item:last-child{border-bottom:none}
+.suggest-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.suggest-icon-city{background:rgba(232,168,56,.12)}
+.suggest-icon-chef{background:rgba(206,201,255,.12)}
+.suggest-icon-resto{background:rgba(176,170,255,.12)}
+
+/* About section in detail */
+.about-section{background:linear-gradient(135deg,rgba(42,42,42,.5),rgba(28,27,27,.5));border:1px solid rgba(80,69,53,.1);border-radius:16px;padding:20px}
+
+/* Discover cards improved */
+.discover-card .city-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;background:rgba(232,168,56,.1);border:1px solid rgba(232,168,56,.12);border-radius:20px;font-size:10px;color:#e8a838;text-transform:uppercase;letter-spacing:.8px;font-weight:600}
+.discover-card .score-pill{display:flex;align-items:center;gap:6px;padding:6px 12px;background:rgba(19,19,19,.85);backdrop-filter:blur(12px);border-radius:12px;border:1px solid rgba(232,168,56,.15)}
+.discover-card .score-pill .score-num{font-size:18px;font-weight:800;color:#e8a838;font-family:'Plus Jakarta Sans',sans-serif;line-height:1}
+.discover-card .score-pill .score-label{font-size:8px;color:#9d8e7c;text-transform:uppercase;font-weight:700;letter-spacing:.5px;line-height:1.2}
+.discover-card .chefs-count{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;background:rgba(206,201,255,.08);border:1px solid rgba(206,201,255,.1);border-radius:20px;font-size:11px;color:#cec9ff;font-weight:600}
+
+/* Chefs view header */
+.chefs-header{display:flex;align-items:center;justify-content:space-between;padding:8px 0 16px;border-bottom:1px solid rgba(80,69,53,.1);margin-bottom:20px}
+.chefs-header .total-picks{font-size:13px;color:#e8a838;font-weight:700}
 
 /* Utility */
 .scroll-y{padding-top:calc(56px + var(--st));padding-bottom:calc(70px + var(--sb))}
@@ -93,6 +137,13 @@ display:flex;justify-content:space-around;align-items:center}
 </head>
 
 <body>
+<!-- ═══════ LOADING STATE ═══════ -->
+<div id="loadingOverlay" class="loading-overlay">
+  <div class="spinner"></div>
+  <span class="text-gold font-headline text-sm tracking-[.3em] uppercase">Chefs' Picks</span>
+  <span class="text-outline text-xs">Chargement des recommandations...</span>
+</div>
+
 <!-- ═══════ VIEW: EXPLORE ═══════ -->
 <div class="view view-map on" id="v-explore">
   <div class="w-full h-full relative"><div id="map" class="w-full h-full"></div><div class="map-fade"></div></div>
@@ -110,7 +161,7 @@ display:flex;justify-content:space-around;align-items:center}
       <button id="btnSearchClear" onclick="clearSearch()" class="p-2 text-outline mr-1" style="display:none"><span class="icon text-xl">close</span></button>
     </div>
     <!-- Autocomplete suggestions -->
-    <div id="iSuggestions" class="bg-surface-high/95 backdrop-blur-xl rounded-xl border border-outline-var/10 overflow-hidden" style="display:none"></div>
+    <div id="iSuggestions" class="bg-surface-high/95 backdrop-blur-xl rounded-2xl border border-outline-var/10 overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,.5)]" style="display:none;max-height:420px;overflow-y:auto"></div>
     <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1 mt-1"></div>
   </div>
   <!-- Carousel -->
@@ -144,6 +195,11 @@ display:flex;justify-content:space-around;align-items:center}
         <span class="ml-auto text-xs text-outline" id="oListCount"></span>
       </div>
     </div>
+    <div id="oListEmpty" class="empty-state" style="display:none">
+      <span class="icon">search_off</span>
+      <p>Aucun restaurant trouve</p>
+      <p class="sub">Essaie d'autres mots-cles ou modifie les filtres</p>
+    </div>
     <div class="space-y-8 pb-4" id="oListCards"></div>
   </main>
 </div>
@@ -156,7 +212,19 @@ display:flex;justify-content:space-around;align-items:center}
     <span class="text-xs text-outline font-label" id="oChefsN"></span>
   </div>
   <main class="scroll-y px-5 overflow-y-auto h-full">
-    <input id="iChefQ" class="w-full bg-surface-low border-none rounded-xl py-3 px-4 text-on-surface text-sm outline-none focus:ring-1 focus:ring-gold/40 placeholder:text-outline/50 mb-5" placeholder="Search a chef..."/>
+    <div class="relative mb-4">
+      <span class="icon text-outline absolute left-3 top-1/2 -translate-y-1/2 text-xl">search</span>
+      <input id="iChefQ" class="w-full bg-surface-low border-none rounded-xl py-3.5 pl-11 pr-4 text-on-surface text-sm outline-none focus:ring-1 focus:ring-gold/40 placeholder:text-outline/50" placeholder="Rechercher un chef..."/>
+    </div>
+    <div class="chefs-header" id="oChefsHeader">
+      <span class="text-xs text-outline uppercase tracking-wider" id="oChefsCount"></span>
+      <span class="total-picks" id="oChefsTotalPicks"></span>
+    </div>
+    <div id="oChefsEmpty" class="empty-state" style="display:none">
+      <span class="icon">person_off</span>
+      <p>Aucun chef trouve</p>
+      <p class="sub">Modifie ta recherche</p>
+    </div>
     <div class="space-y-3 pb-4" id="oChefsList"></div>
   </main>
 </div>
@@ -210,10 +278,10 @@ display:flex;justify-content:space-around;align-items:center}
 // ══════════════════════════════════
 // DATA & STATE
 // ══════════════════════════════════
-var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null;
+var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null,geoPulse=null;
 
 function esc(s){return s?s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'):''}
-function ea(s){return s?s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"'):''}
+function ea(s){return s?s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"').replace(/\n/g,'\\n').replace(/\r/g,'\\r').replace(/`/g,'\\`'):''}
 
 // ══════════════════════════════════
 // INIT
@@ -235,8 +303,10 @@ function boot(){
     el.addEventListener('focus',function(){if(el.value.length>0)showSuggestions(el.value)});
     el.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();confirmSearch()}});
   }
-  el=document.getElementById('iListQ');if(el)el.addEventListener('input',function(){renderList()});
-  el=document.getElementById('iChefQ');if(el)el.addEventListener('input',function(){renderChefs()});
+  var listTimer=null;
+  el=document.getElementById('iListQ');if(el)el.addEventListener('input',function(){clearTimeout(listTimer);listTimer=setTimeout(renderList,200)});
+  var chefTimer=null;
+  el=document.getElementById('iChefQ');if(el)el.addEventListener('input',function(){clearTimeout(chefTimer);chefTimer=setTimeout(renderChefs,200)});
   // Close suggestions on outside click
   document.addEventListener('click',function(e){
     var sg=document.getElementById('iSuggestions');
@@ -245,7 +315,10 @@ function boot(){
   // Stats
   var ch={};R.forEach(function(r){r.recommendations.forEach(function(c){ch[c.chef_name]=1})});
   var se=document.getElementById('oDrawerStats');
-  if(se)se.textContent=R.length+' adresses · '+Object.keys(ch).length+' chefs';
+  if(se)se.textContent=R.length+' adresses \u00b7 '+Object.keys(ch).length+' chefs';
+  // Hide loading overlay
+  var lo=document.getElementById('loadingOverlay');
+  if(lo){lo.classList.add('hide');setTimeout(function(){lo.style.display='none'},500)}
 }
 
 // ══════════════════════════════════
@@ -255,9 +328,10 @@ function isFav(id){return !!favs[id]}
 function toggleFav(id,e){
   if(e)e.stopPropagation();
   if(favs[id])delete favs[id];else favs[id]=Date.now();
-  try{localStorage.setItem('chefspicks_favs',JSON.stringify(favs))}catch(e){}
+  try{localStorage.setItem('chefspicks_favs',JSON.stringify(favs))}catch(ex){}
   // Update heart icon
-  var icons=document.querySelectorAll('.fav-btn[data-id="'+id+'"]');
+  var safeId=id.replace(/\\/g,'\\\\').replace(/"/g,'\\"');
+  var icons=document.querySelectorAll('.fav-btn[data-id="'+safeId+'"]');
   for(var i=0;i<icons.length;i++){
     icons[i].querySelector('.icon').textContent=favs[id]?'favorite':'favorite_border';
     icons[i].querySelector('.icon').classList.toggle('icon-fill',!!favs[id]);
@@ -307,10 +381,11 @@ function fallbackGeo(){
 
 function showGeoPosition(lat,lng){
   if(geoMarker)map.removeLayer(geoMarker);
+  if(geoPulse)map.removeLayer(geoPulse);
   // Blue dot with pulse
   geoMarker=L.circleMarker([lat,lng],{radius:8,fillColor:'#4285f4',fillOpacity:1,color:'#fff',weight:3,opacity:1}).addTo(map);
   // Pulse ring
-  L.circleMarker([lat,lng],{radius:20,fillColor:'#4285f4',fillOpacity:0.15,color:'#4285f4',weight:1,opacity:0.3}).addTo(map);
+  geoPulse=L.circleMarker([lat,lng],{radius:20,fillColor:'#4285f4',fillOpacity:0.15,color:'#4285f4',weight:1,opacity:0.3}).addTo(map);
   map.setView([lat,lng],14,{animate:true});
 }
 
@@ -336,30 +411,37 @@ function showSuggestions(q){
     r.recommendations.forEach(function(c){if(c.chef_name.toLowerCase().indexOf(ql)!==-1)chefMatch[c.chef_name]=c.chef_restaurant||''});
     if(r.name.toLowerCase().indexOf(ql)!==-1)restoMatch.push(r);
   });
-  var html='';
+  var html='',totalCount=0,maxResults=8;
   // Cities
   var cityArr=[];for(var c in cityMatch)cityArr.push([c,cityMatch[c]]);
   cityArr.sort(function(a,b){return b[1]-a[1]});
-  cityArr.slice(0,4).forEach(function(c){
-    html+='<div onclick="selectSuggestion(\'city\',\''+ea(c[0])+'\')" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-surface-highest/50 active:bg-surface-highest border-b border-outline-var/5">'+
-      '<span class="icon text-gold text-lg">location_on</span>'+
-      '<div class="flex-1"><span class="text-sm font-semibold">'+esc(c[0])+'</span></div>'+
-      '<span class="text-xs text-outline">'+c[1]+' restos</span>'+
+  if(cityArr.length>0)html+='<div class="px-4 pt-3 pb-1"><span class="text-[9px] text-outline uppercase tracking-widest font-bold">Villes</span></div>';
+  cityArr.slice(0,3).forEach(function(c){
+    if(totalCount>=maxResults)return;totalCount++;
+    html+='<div onclick="selectSuggestion(\'city\',\''+ea(c[0])+'\')" class="suggest-item">'+
+      '<div class="suggest-icon suggest-icon-city"><span class="icon text-gold text-lg">location_city</span></div>'+
+      '<div class="flex-1 min-w-0"><p class="text-sm font-semibold truncate">'+esc(c[0])+'</p></div>'+
+      '<span class="text-[11px] text-outline bg-surface-highest px-2 py-0.5 rounded-full">'+c[1]+' restos</span>'+
     '</div>';
   });
   // Chefs
   var chefArr=[];for(var c in chefMatch)chefArr.push([c,chefMatch[c]]);
+  if(chefArr.length>0&&totalCount<maxResults)html+='<div class="px-4 pt-3 pb-1"><span class="text-[9px] text-outline uppercase tracking-widest font-bold">Chefs</span></div>';
   chefArr.slice(0,3).forEach(function(c){
-    html+='<div onclick="selectSuggestion(\'chef\',\''+ea(c[0])+'\')" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-surface-highest/50 active:bg-surface-highest border-b border-outline-var/5">'+
-      '<span class="icon text-gold text-lg">person</span>'+
-      '<div><span class="text-sm font-semibold">'+esc(c[0])+'</span><span class="text-xs text-outline ml-2">'+esc(c[1])+'</span></div>'+
+    if(totalCount>=maxResults)return;totalCount++;
+    html+='<div onclick="selectSuggestion(\'chef\',\''+ea(c[0])+'\')" class="suggest-item">'+
+      '<div class="suggest-icon suggest-icon-chef"><span class="icon text-badge-purple text-lg">person</span></div>'+
+      '<div class="min-w-0"><p class="text-sm font-semibold truncate">'+esc(c[0])+'</p>'+(c[1]?'<p class="text-[10px] text-outline truncate">'+esc(c[1])+'</p>':'')+'</div>'+
     '</div>';
   });
   // Restaurants
-  restoMatch.slice(0,3).forEach(function(r){
-    html+='<div onclick="selectSuggestion(\'resto\',\''+ea(r.id)+'\')" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-surface-highest/50 active:bg-surface-highest border-b border-outline-var/5">'+
-      '<span class="icon text-gold text-lg">restaurant</span>'+
-      '<div><span class="text-sm font-semibold">'+esc(r.name)+'</span><span class="text-xs text-outline ml-2">'+esc(r.city)+'</span></div>'+
+  if(restoMatch.length>0&&totalCount<maxResults)html+='<div class="px-4 pt-3 pb-1"><span class="text-[9px] text-outline uppercase tracking-widest font-bold">Restaurants</span></div>';
+  restoMatch.slice(0,4).forEach(function(r){
+    if(totalCount>=maxResults)return;totalCount++;
+    html+='<div onclick="selectSuggestion(\'resto\',\''+ea(r.id)+'\')" class="suggest-item">'+
+      '<div class="suggest-icon suggest-icon-resto"><span class="icon text-[#b0aaff] text-lg">restaurant</span></div>'+
+      '<div class="min-w-0"><p class="text-sm font-semibold truncate">'+esc(r.name)+'</p><p class="text-[10px] text-outline truncate">'+esc(r.city)+' · '+esc(r.cuisine_type)+'</p></div>'+
+      '<span class="text-gold font-bold text-xs flex-shrink-0">'+r.confidence_score+'</span>'+
     '</div>';
   });
   if(!html){sg.style.display='none';return}
@@ -422,7 +504,7 @@ function clearSearch(){
 // ══════════════════════════════════
 function go(v){
   if(v!=='detail')document.getElementById('v-detail').classList.remove('on','view-slide');
-  ['explore','discover','chefs','saved'].forEach(function(n){var e=document.getElementById('v-'+n);if(e)e.classList.toggle('on',n===v)});
+  ['explore','discover','chefs','saved'].forEach(function(n){var e=document.getElementById('v-'+n);if(e){e.classList.remove('view-fade-in');e.classList.toggle('on',n===v);if(n===v&&n!=='explore'){e.classList.add('view-fade-in')}}});
   // Show/hide explore overlays
   var eui=document.getElementById('exploreUI');
   if(eui)eui.style.display=(v==='explore')?'block':'none';
@@ -454,12 +536,12 @@ function openResto(id){
   var r=R.find(function(x){return x.id===id});if(!r)return;
   hist.push('resto:'+id);
   var mu=r.google_maps_url||('https://www.google.com/maps/search/?api=1&query='+encodeURIComponent((r.address||'')+' '+r.city));
-  var ph=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover brightness-75" alt="'+esc(r.name)+'"/>':'<div class="w-full h-full bg-gradient-to-br from-surface-high to-surface-lowest flex items-center justify-center"><span class="icon text-[80px] text-outline/20">restaurant</span></div>';
+  var ph=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover brightness-75" alt="'+esc(r.name)+'"/>':'<div class="w-full h-full bg-gradient-to-br from-surface-high to-surface-lowest flex items-center justify-center"><span class="icon text-[80px] text-outline/20">restaurant</span></div>';
   var tgs='';(r.tags||[]).forEach(function(t){tgs+='<span class="flex items-center gap-1.5 px-3 py-1.5 bg-surface-highest rounded-full text-xs uppercase tracking-wider flex-shrink-0"><span class="w-1.5 h-1.5 bg-gold rounded-full"></span>'+esc(t)+'</span>'});
   var recs='';r.recommendations.forEach(function(c){
     var bc=c.platform==='social'?'bs':c.platform==='podcast'?'bk':'bp';
     var bl=c.platform==='social'?'Social':c.platform==='podcast'?'Podcast':'Presse';
-    recs+='<div class="flex-shrink-0 w-[280px] bg-surface-high rounded-xl p-5 space-y-3 border border-outline-var/5 shadow-xl">'+
+    recs+='<div class="flex-shrink-0 w-[300px] bg-surface-high rounded-2xl p-6 space-y-4 border border-outline-var/5 shadow-xl">'+
       '<div onclick="openChef(\''+ea(c.chef_name)+'\')" class="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">'+
         '<span class="w-11 h-11 rounded-full bg-surface-highest ring-2 ring-gold/20 flex items-center justify-center text-gold font-bold flex-shrink-0">'+c.chef_name.charAt(0)+'</span>'+
         '<div><p class="font-headline font-semibold text-sm">'+esc(c.chef_name)+'</p><p class="text-[10px] text-outline uppercase tracking-wider">'+esc(c.chef_restaurant||'')+'</p></div>'+
@@ -468,7 +550,7 @@ function openResto(id){
       '<div class="flex items-center justify-between"><span class="px-2 py-0.5 '+bc+' text-[10px] font-bold uppercase rounded tracking-wider">'+bl+' — '+esc(c.source||'')+'</span><span class="text-[10px] text-outline">'+esc(c.date||'')+'</span></div>'+
     '</div>'});
   var rat=r.rating?'<div class="flex items-center gap-1.5"><span class="icon icon-fill text-gold text-base">star</span><span class="text-sm">'+r.rating+'/5</span><span class="text-xs text-outline">('+( r.reviews_count||0)+' avis)</span></div>':'';
-  var tel=r.phone?'<a href="tel:'+r.phone+'" class="flex items-center gap-2 text-outline hover:text-gold text-sm"><span class="icon text-base">call</span>'+r.phone+'</a>':'';
+  var tel=r.phone?'<a href="tel:'+esc(r.phone)+'" class="flex items-center gap-2 text-outline hover:text-gold text-sm"><span class="icon text-base">call</span>'+esc(r.phone)+'</a>':'';
 
   document.getElementById('oDetail').innerHTML=
     '<div style="padding-bottom:calc(80px + var(--sb))">'+
@@ -476,12 +558,12 @@ function openResto(id){
         '<div class="absolute inset-0 bg-gradient-to-t from-bg via-bg/20 to-transparent"></div>'+
         '<button onclick="goBack()" class="absolute left-5 w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center z-10" style="top:calc(20px + var(--st))"><span class="icon text-gold">arrow_back</span></button>'+
         '<div class="absolute right-5 flex gap-2 items-center" style="top:calc(20px + var(--st))">'+
-          '<button class="fav-btn w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+r.id+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\')"><span class="icon text-gold text-xl '+(isFav(r.id)?'icon-fill':'')+'">'+(isFav(r.id)?'favorite':'favorite_border')+'</span></button>'+
+          '<button class="fav-btn w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+esc(r.id)+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\')"><span class="icon text-gold text-xl '+(isFav(r.id)?'icon-fill':'')+'">'+(isFav(r.id)?'favorite':'favorite_border')+'</span></button>'+
           '<div class="bg-bg/80 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[8px] text-outline uppercase font-bold">Fiabilit\u00e9</span></div>'+
         '</div>'+
         '<div class="absolute bottom-14 left-5 flex flex-wrap gap-1.5">'+
           '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-gold border border-gold/10">'+esc(r.cuisine_type)+'</span>'+
-          '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+r.price_range+'</span>'+
+          '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.price_range)+'</span>'+
           (r.vibe?'<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.vibe)+'</span>':'')+
         '</div>'+
         '<h2 class="absolute bottom-3 left-5 right-5 font-headline font-extrabold text-4xl tracking-tighter drop-shadow-lg">'+esc(r.name)+'</h2>'+
@@ -491,9 +573,13 @@ function openResto(id){
         rat+tel+
         '<div class="flex gap-2.5 overflow-x-auto noscroll pt-1">'+tgs+'</div>'+
       '</section>'+
+      '<section class="px-5 mt-8"><div class="about-section"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">A propos</h3><p class="text-on-surface-var text-sm leading-relaxed">'+
+      (function(){var desc=[];if(r.cuisine_type)desc.push('Restaurant '+esc(r.cuisine_type).toLowerCase());if(r.vibe)desc.push(esc(r.vibe).toLowerCase());desc.push(r.price_range);if(r.city)desc.push('a '+esc(r.city));var tagStr='';(r.tags||[]).forEach(function(t,i){if(i<3)tagStr+=(i>0?', ':'')+esc(t)});if(tagStr)desc.push('— '+tagStr);return desc.join(' ')+'.'})()+'</p>'+
+      '<p class="text-outline text-xs mt-3">Recommande par '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+' de renom.</p>'+
+      '</div></section>'+
       '<section class="mt-10 bg-surface-low py-8">'+
         '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">Recommandé par <span class="text-gold font-bold">'+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span></h3></div>'+
-        '<div class="flex gap-4 overflow-x-auto noscroll px-5">'+recs+'</div>'+
+        '<div class="flex gap-5 overflow-x-auto noscroll px-5 pb-2">'+recs+'</div>'+
       '</section>'+
       '<section class="px-5 mt-10 grid grid-cols-2 gap-3">'+
         '<a href="'+mu+'" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-gradient-to-tr from-gold to-gold-light text-gold-dark font-bold uppercase tracking-widest text-sm active:scale-95 transition-transform shadow-lg"><span class="icon text-xl">directions</span>Y ALLER</a>'+
@@ -514,10 +600,10 @@ function openChef(name){
   var c0=picks[0].c;
   var cards='';picks.forEach(function(p){
     var r=p.r,c=p.c;
-    var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover"/>':'<span class="icon text-[48px] text-outline/15">restaurant</span>';
+    var img=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>':'<span class="icon text-[48px] text-outline/15">restaurant</span>';
     cards+='<div onclick="openResto(\''+ea(r.id)+'\')" class="bg-surface-low rounded-2xl overflow-hidden cursor-pointer active:scale-[.98] transition-transform border border-outline-var/5">'+
       '<div class="h-36 bg-surface-high flex items-center justify-center overflow-hidden">'+img+'</div>'+
-      '<div class="p-4"><div class="flex justify-between items-start mb-1.5"><div><h4 class="font-headline font-bold text-base">'+esc(r.name)+'</h4><p class="text-[10px] text-outline uppercase tracking-wider">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+r.price_range+'</p></div><span class="bg-bg/80 px-2 py-0.5 rounded-full text-gold font-bold text-xs">'+r.confidence_score+'</span></div>'+
+      '<div class="p-4"><div class="flex justify-between items-start mb-1.5"><div><h4 class="font-headline font-bold text-base">'+esc(r.name)+'</h4><p class="text-[10px] text-outline uppercase tracking-wider">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p></div><span class="bg-bg/80 px-2 py-0.5 rounded-full text-gold font-bold text-xs">'+r.confidence_score+'</span></div>'+
       (c.quote?'<p class="serif text-sm text-on-surface-var mt-2">"'+esc(c.quote)+'"</p>':'')+
       '</div></div>'});
 
@@ -554,7 +640,7 @@ function goBack(){
 
 function share(id){
   var r=R.find(function(x){return x.id===id});if(!r)return;
-  var t=r.name+' — '+r.city+'\n'+r.cuisine_type+' · '+r.price_range+'\n'+r.recommendation_count+' chef(s)\n'+location.href;
+  var t=r.name+' — '+r.city+'\n'+r.cuisine_type+' · '+(r.price_range||'')+'\n'+r.recommendation_count+' chef(s)\n'+location.href;
   if(navigator.share)navigator.share({title:r.name,text:t,url:location.href}).catch(function(){});
   else if(navigator.clipboard)navigator.clipboard.writeText(t).then(function(){alert('Copié !')});
 }
@@ -623,7 +709,9 @@ function chipCity(btn){
   document.getElementById('iCarousel').style.display='none';
 }
 
-function rebuildCG(fn){CG.clearLayers();for(var id in MK){var r=R.find(function(x){return x.id===id});if(r&&fn(r))CG.addLayer(MK[id])}}
+var RMap={};// id->restaurant lookup, built once
+function ensureRMap(){if(Object.keys(RMap).length!==R.length){RMap={};R.forEach(function(r){RMap[r.id]=r})}}
+function rebuildCG(fn){ensureRMap();CG.clearLayers();for(var id in MK){var r=RMap[id];if(r&&fn(r))CG.addLayer(MK[id])}}
 
 function onMapQ(e){
   var q=e.target.value.toLowerCase().trim();
@@ -668,17 +756,17 @@ function highlightPin(id){
 }
 
 function buildCard(r){
-  var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[36px] text-outline/30">restaurant</span></div>';
+  var img=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[40px] text-outline/30">restaurant</span></div>';
   var av='';var lm=Math.min(r.recommendations.length,2);
-  for(var i=0;i<lm;i++)av+='<span class="w-5 h-5 rounded-full bg-surface-highest border border-surface-low flex items-center justify-center text-[8px] font-bold text-gold">'+r.recommendations[i].chef_name.charAt(0)+'</span>';
-  if(r.recommendation_count>2)av+='<span class="w-5 h-5 rounded-full bg-gold flex items-center justify-center text-[8px] font-bold text-gold-dark border border-surface-low">+'+(r.recommendation_count-2)+'</span>';
+  for(var i=0;i<lm;i++)av+='<span class="w-6 h-6 rounded-full bg-surface-highest border border-surface-low flex items-center justify-center text-[9px] font-bold text-gold">'+r.recommendations[i].chef_name.charAt(0)+'</span>';
+  if(r.recommendation_count>2)av+='<span class="w-6 h-6 rounded-full bg-gold flex items-center justify-center text-[9px] font-bold text-gold-dark border border-surface-low">+'+(r.recommendation_count-2)+'</span>';
   return '<div class="ccard" data-rid="'+esc(r.id)+'" onclick="openResto(\''+ea(r.id)+'\')">'+
     '<div class="bg-surface-low/90 backdrop-blur-2xl rounded-2xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,.5)] border border-outline-var/10 flex cursor-pointer active:scale-[.98] transition-transform">'+
-      '<div class="w-24 h-24 flex-shrink-0 overflow-hidden">'+img+'</div>'+
-      '<div class="flex-1 p-3 flex flex-col justify-center min-w-0">'+
-        '<h3 class="text-sm font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
-        '<p class="text-[10px] text-outline uppercase tracking-wider truncate mt-0.5">'+esc(r.cuisine_type)+' · '+r.price_range+'</p>'+
-        '<div class="mt-2 flex items-center gap-2"><div class="flex -space-x-1.5">'+av+'</div><span class="text-[9px] font-bold text-gold uppercase">'+r.recommendation_count+' Chef'+(r.recommendation_count>1?'s':'')+'</span></div>'+
+      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden">'+img+'</div>'+
+      '<div class="flex-1 p-4 flex flex-col justify-center min-w-0">'+
+        '<h3 class="text-base font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
+        '<p class="text-[11px] text-outline uppercase tracking-wider truncate mt-1">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p>'+
+        '<div class="mt-2.5 flex items-center gap-2.5"><div class="flex -space-x-1.5">'+av+'</div><span class="text-[10px] font-bold text-gold uppercase">'+r.recommendation_count+' Chef'+(r.recommendation_count>1?'s':'')+'</span></div>'+
       '</div>'+
     '</div>'+
   '</div>';
@@ -710,7 +798,7 @@ function updateCarousel(){
   if(!vis.length){el.style.display='none';highlightPin(null);return}
   el.style.display='block';
   var cards='';vis.forEach(function(r){cards+=buildCard(r)});
-  el.innerHTML='<div id="cscrollEl" class="flex gap-2.5 overflow-x-auto cscroll noscroll py-1" style="scroll-padding:0 40vw">'+cards+'</div>';
+  el.innerHTML='<div id="cscrollEl" class="flex gap-2 overflow-x-auto cscroll noscroll py-1" style="scroll-padding:0 40vw">'+cards+'</div>';
 
   // Attach scroll listener
   var sc=document.getElementById('cscrollEl');
@@ -721,6 +809,14 @@ function updateCarousel(){
     sc.addEventListener('touchend',function(){
       // Debounce snap detection after touch ends
       setTimeout(function(){isUserScrolling=false},100);
+    },{passive:true});
+    // Also support desktop mouse/trackpad scrolling
+    sc.addEventListener('mousedown',function(){isUserScrolling=true});
+    sc.addEventListener('mouseup',function(){setTimeout(function(){isUserScrolling=false},100)});
+    sc.addEventListener('wheel',function(){
+      isUserScrolling=true;
+      clearTimeout(scrollTimer);
+      scrollTimer=setTimeout(function(){onCarouselSnap(sc);isUserScrolling=false},200);
     },{passive:true});
     sc.addEventListener('scroll',function(){
       if(!isUserScrolling)return; // only react to user swipes, not programmatic scrolls
@@ -810,7 +906,7 @@ function renderList(){
   else d.sort(function(a,b){return a.name.localeCompare(b.name)});
 
   var ne=document.getElementById('oListCount')||document.getElementById('oListN');
-  if(ne)ne.textContent=d.length+' tables';
+  if(ne)ne.textContent=d.length+' table'+(d.length>1?'s':'');
 
   // Sort buttons
   document.querySelectorAll('.sbtn').forEach(function(b){
@@ -820,31 +916,41 @@ function renderList(){
 
   // Filters
   var cities={};R.forEach(function(r){cities[r.city]=1});var cl=Object.keys(cities).sort();
-  var fh='<select onchange="fCity=this.value;renderList()" class="bg-surface-high border-none rounded-full px-3 py-1.5 text-xs text-on-surface-var"><option value="">Toutes villes</option>';
+  var fh='<select onchange="fCity=this.value;listPageSize=50;renderList()" class="bg-surface-high border-none rounded-full px-3 py-1.5 text-xs text-on-surface-var"><option value="">Toutes villes</option>';
   cl.forEach(function(c){fh+='<option value="'+esc(c)+'"'+(fCity===c?' selected':'')+'>'+esc(c)+'</option>'});
-  fh+='</select><select onchange="fPrice=this.value;renderList()" class="bg-surface-high border-none rounded-full px-3 py-1.5 text-xs text-on-surface-var"><option value="">Tous prix</option><option value="€"'+(fPrice==='€'?' selected':'')+'>€</option><option value="€€"'+(fPrice==='€€'?' selected':'')+'>€€</option><option value="€€€"'+(fPrice==='€€€'?' selected':'')+'>€€€</option><option value="€€€€"'+(fPrice==='€€€€'?' selected':'')+'>€€€€</option></select>';
+  fh+='</select><select onchange="fPrice=this.value;listPageSize=50;renderList()" class="bg-surface-high border-none rounded-full px-3 py-1.5 text-xs text-on-surface-var"><option value="">Tous prix</option><option value="€"'+(fPrice==='€'?' selected':'')+'>€</option><option value="€€"'+(fPrice==='€€'?' selected':'')+'>€€</option><option value="€€€"'+(fPrice==='€€€'?' selected':'')+'>€€€</option><option value="€€€€"'+(fPrice==='€€€€'?' selected':'')+'>€€€€</option></select>';
   document.getElementById('iListFilters').innerHTML=fh;
 
+  // Empty state
+  var emptyEl=document.getElementById('oListEmpty');
+  if(emptyEl)emptyEl.style.display=d.length===0?'flex':'none';
+
   // Cards
-  var h='';d.slice(0,50).forEach(function(r){
-    var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"/>':'<div class="w-full h-full flex items-center justify-center"><span class="icon text-[56px] text-outline/10">restaurant</span></div>';
+  var listLim=listPageSize||50;
+  var h='';d.slice(0,listLim).forEach(function(r){
+    var img=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"/>':'<div class="w-full h-full flex items-center justify-center"><span class="icon text-[56px] text-outline/10">restaurant</span></div>';
     var tg='';(r.tags||[]).slice(0,2).forEach(function(t){tg+='<span class="bg-gold/15 backdrop-blur-md text-gold px-2.5 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider">'+esc(t)+'</span>'});
     var av='';r.recommendations.slice(0,2).forEach(function(c){av+='<span class="w-7 h-7 rounded-full bg-surface-highest border-2 border-bg flex items-center justify-center text-[9px] font-bold text-gold">'+c.chef_name.charAt(0)+'</span>'});
     if(r.recommendation_count>2)av+='<span class="w-7 h-7 rounded-full bg-surface-high border-2 border-bg flex items-center justify-center text-[9px] font-bold">+'+(r.recommendation_count-2)+'</span>';
-    h+='<article onclick="openResto(\''+ea(r.id)+'\')" class="group cursor-pointer">'+
+    h+='<article onclick="openResto(\''+ea(r.id)+'\')" class="discover-card group cursor-pointer">'+
       '<div class="card-img relative mb-3">'+img+
-        '<div class="absolute top-3 right-3 bg-bg/80 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1.5"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[9px] text-outline uppercase font-bold">Fiabilit\u00e9</span></div>'+
+        '<div class="absolute top-3 right-3 score-pill"><span class="score-num">'+r.confidence_score+'</span><div><span class="score-label">Score</span><br/><span class="score-label">Fiabilite</span></div></div>'+
+        '<div class="absolute top-3 left-3 city-badge"><span class="icon text-[12px] text-gold">location_on</span>'+esc(r.city)+'</div>'+
         '<div class="absolute bottom-3 left-3 flex gap-1.5">'+tg+'</div>'+
       '</div>'+
       '<div class="flex justify-between items-start">'+
-        '<div><h3 class="text-xl font-light font-headline tracking-tight">'+esc(r.name)+'</h3><p class="text-outline text-xs mt-0.5">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+r.price_range+'</p></div>'+
+        '<div><h3 class="text-xl font-light font-headline tracking-tight">'+esc(r.name)+'</h3><p class="text-outline text-xs mt-0.5">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p></div>'+
         '<div class="flex -space-x-2 mt-0.5">'+av+'</div>'+
       '</div>'+
     '</article>';
   });
+  if(d.length>listLim){
+    h+='<div class="flex justify-center pt-4 pb-2"><button onclick="listPageSize='+(listLim+50)+';renderList()" class="px-6 py-2.5 bg-surface-high rounded-full text-sm text-gold border border-outline-var/10 active:scale-95 transition-transform">Voir plus ('+(d.length-listLim)+' restants)</button></div>';
+  }
   document.getElementById('oListCards').innerHTML=h;
 }
-function setSort(s){sort=s;renderList()}
+var listPageSize=50;
+function setSort(s){sort=s;listPageSize=50;renderList()}
 
 // ══════════════════════════════════
 // SAVED / FAVORITES
@@ -857,14 +963,14 @@ function renderSaved(){
   if(!saved.length){if(emptyEl)emptyEl.style.display='flex';if(cardsEl)cardsEl.innerHTML='';return}
   if(emptyEl)emptyEl.style.display='none';
   var h='';saved.forEach(function(r){
-    var img=r.photo_url?'<img src="'+r.photo_url+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full flex items-center justify-center"><span class="icon text-[56px] text-outline/10">restaurant</span></div>';
+    var img=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full flex items-center justify-center"><span class="icon text-[56px] text-outline/10">restaurant</span></div>';
     var av='';r.recommendations.slice(0,2).forEach(function(c){av+='<span class="w-7 h-7 rounded-full bg-surface-highest border-2 border-bg flex items-center justify-center text-[9px] font-bold text-gold">'+c.chef_name.charAt(0)+'</span>'});
     h+='<article onclick="openResto(\''+ea(r.id)+'\')" class="cursor-pointer">'+
       '<div class="card-img relative mb-3">'+img+
-        '<button class="fav-btn absolute top-3 right-3 w-9 h-9 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+r.id+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\');renderSaved()"><span class="icon text-gold icon-fill text-lg">favorite</span></button>'+
+        '<button class="fav-btn absolute top-3 right-3 w-9 h-9 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+esc(r.id)+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\');renderSaved()"><span class="icon text-gold icon-fill text-lg">favorite</span></button>'+
       '</div>'+
       '<div class="flex justify-between items-start">'+
-        '<div><h3 class="text-xl font-light font-headline tracking-tight">'+esc(r.name)+'</h3><p class="text-outline text-xs mt-0.5">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+r.price_range+'</p></div>'+
+        '<div><h3 class="text-xl font-light font-headline tracking-tight">'+esc(r.name)+'</h3><p class="text-outline text-xs mt-0.5">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p></div>'+
         '<div class="flex -space-x-2 mt-0.5">'+av+'</div>'+
       '</div>'+
     '</article>';
@@ -878,8 +984,8 @@ function renderSaved(){
 function renderChefs(){
   var cm={};
   R.forEach(function(r){r.recommendations.forEach(function(c){
-    if(!cm[c.chef_name])cm[c.chef_name]={name:c.chef_name,rest:c.chef_restaurant,picks:[]};
-    cm[c.chef_name].picks.push({id:r.id,name:r.name});
+    if(!cm[c.chef_name])cm[c.chef_name]={name:c.chef_name,rest:c.chef_restaurant,picks:[],_seen:{}};
+    if(!cm[c.chef_name]._seen[r.id]){cm[c.chef_name]._seen[r.id]=1;cm[c.chef_name].picks.push({id:r.id,name:r.name})}
   })});
   var arr=[];for(var k in cm)arr.push(cm[k]);
   arr.sort(function(a,b){return b.picks.length-a.picks.length});
@@ -887,6 +993,13 @@ function renderChefs(){
   if(q)arr=arr.filter(function(c){return c.name.toLowerCase().indexOf(q)!==-1});
 
   var ne=document.getElementById('oChefsN');if(ne)ne.textContent=arr.length+' chefs';
+  // Header with total picks
+  var totalPicks=0;arr.forEach(function(c){totalPicks+=c.picks.length});
+  var chefsCountEl=document.getElementById('oChefsCount');if(chefsCountEl)chefsCountEl.textContent=arr.length+' chefs';
+  var totalPicksEl=document.getElementById('oChefsTotalPicks');if(totalPicksEl)totalPicksEl.textContent=totalPicks+' picks au total';
+  // Empty state
+  var chefsEmptyEl=document.getElementById('oChefsEmpty');
+  if(chefsEmptyEl)chefsEmptyEl.style.display=arr.length===0?'flex':'none';
 
   var h='';arr.forEach(function(c){
     var pks='';c.picks.forEach(function(p){pks+='<span class="flex-shrink-0 px-2.5 py-1 bg-surface-highest rounded-full text-[10px] text-on-surface-var uppercase tracking-wider">'+esc(p.name)+'</span>'});

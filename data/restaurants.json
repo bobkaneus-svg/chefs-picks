@@ -12943,9 +12943,18 @@
         "source_url": "https://www.thegentlemansjournal.com/article/where-londons-best-chefs-eat-out-in-the-capital/",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Chefs Picks",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 35,
     "last_updated": "2026-04-13"
   },
@@ -15745,7 +15754,7 @@
     "id": "aamanns-1921-niels-hemmingsens-gade-19-21",
     "name": "Aamanns 1921",
     "address": "Niels Hemmingsens Gade 19-21, 1153 Copenhagen, Denmark",
-    "city": "Niels Hemmingsens Gade 19-21",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60322,
@@ -15774,7 +15783,7 @@
     "id": "sch-nnemann-hauser-pl-16",
     "name": "Schønnemann",
     "address": "Hauser Pl. 16, 1127 Copenhagen, Denmark",
-    "city": "Hauser Pl. 16",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60021,
@@ -15803,7 +15812,7 @@
     "id": "bottega-estadio-gunnar-nu-hansens-pl-9",
     "name": "Bottega Estadio",
     "address": "Gunnar Nu Hansens Pl. 9, 2100 Copenhagen, Denmark",
-    "city": "Gunnar Nu Hansens Pl. 9",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60282,
@@ -15832,7 +15841,7 @@
     "id": "marchal-kongens-nytorv-34",
     "name": "Marchal",
     "address": "Hotel d'Angleterre, Kongens Nytorv 34, 1050 Copenhagen, Denmark",
-    "city": "Kongens Nytorv 34",
+    "city": "Hotel d'Angleterre",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59708,
@@ -15861,7 +15870,7 @@
     "id": "mielcke-hurtigkarl-frederiksberg-runddel-1",
     "name": "Mielcke & Hurtigkarl",
     "address": "Frederiksberg Runddel 1, 2000 Frederiksberg, Denmark",
-    "city": "Frederiksberg Runddel 1",
+    "city": "Frederiksberg",
     "country": "Danemark",
     "coordinates": {
       "lat": 55.67598,
@@ -15890,7 +15899,7 @@
     "id": "famo-metro-ster-s-gade-114",
     "name": "Famo Metro",
     "address": "Øster Søgade 114, 2100 Copenhagen, Denmark",
-    "city": "Øster Søgade 114",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59739,
@@ -15919,7 +15928,7 @@
     "id": "juju-ster-farimagsgade-8",
     "name": "Juju",
     "address": "Øster Farimagsgade 8, 2100 Copenhagen, Denmark",
-    "city": "Øster Farimagsgade 8",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60136,
@@ -15948,7 +15957,7 @@
     "id": "c-t-gothersgade-39",
     "name": "À Côté",
     "address": "Gothersgade 39, 1101 Copenhagen, Denmark",
-    "city": "Gothersgade 39",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59731,
@@ -15977,7 +15986,7 @@
     "id": "restaurant-tingg-rden-frederiksv-kvej-182",
     "name": "Restaurant Tinggården",
     "address": "Frederiksvækvej 182, 3300 Frederiksvær, Denmark",
-    "city": "Frederiksvækvej 182",
+    "city": "Frederiksvær",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60289,
@@ -16006,7 +16015,7 @@
     "id": "ranees-bl-g-rds-pl-10",
     "name": "Ranees",
     "address": "Blågårds Pl. 10, 2200 Copenhagen, Denmark",
-    "city": "Blågårds Pl. 10",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60322,
@@ -16035,7 +16044,7 @@
     "id": "caf-de-parel-westerstraat-266",
     "name": "Café de Parel",
     "address": "Westerstraat 266, 1015 MT Amsterdam, Netherlands",
-    "city": "Westerstraat 266",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.60303,
@@ -16093,7 +16102,7 @@
     "id": "silberbauers-bistro-j-gerborggade-40",
     "name": "Silberbauers Bistro",
     "address": "Jægerborggade 40, 2200 Copenhagen, Denmark",
-    "city": "Jægerborggade 40",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60381,
@@ -16238,7 +16247,7 @@
     "id": "violet-london-e8-3ed",
     "name": "Violet",
     "address": "47 Wilton Way, London E8 3ED, United Kingdom",
-    "city": "London E8 3ED",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50606,
@@ -16267,7 +16276,7 @@
     "id": "kronenhalle-r-mistrasse-4",
     "name": "Kronenhalle",
     "address": "Rämistrasse 4, 8001 Zürich, Switzerland",
-    "city": "Rämistrasse 4",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.59943,
@@ -16296,7 +16305,7 @@
     "id": "caf-deco-london-wc1e-7db",
     "name": "Café Deco",
     "address": "43 Store St, London WC1E 7DB, United Kingdom",
-    "city": "London WC1E 7DB",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50982,
@@ -16354,7 +16363,7 @@
     "id": "formosa-cafe-ca-90046",
     "name": "Formosa Cafe",
     "address": "7156 Santa Monica Blvd, West Hollywood, CA 90046, United States",
-    "city": "CA 90046",
+    "city": "Santa Monica Blvd",
     "country": "USA",
     "coordinates": {
       "lat": 46.59668,
@@ -16441,7 +16450,7 @@
     "id": "einer-prinsens-gate-18",
     "name": "Einer",
     "address": "Prinsens gate 18, 0152 Oslo, Norway",
-    "city": "Prinsens gate 18",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.59972,
@@ -16528,7 +16537,7 @@
     "id": "gem-ny-10002",
     "name": "Gem",
     "address": "116 Forsyth St, New York, NY 10002, United States",
-    "city": "NY 10002",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.6015,
@@ -16818,7 +16827,7 @@
     "id": "arroyo-chop-house-ca-91105",
     "name": "Arroyo Chop House",
     "address": "536 S Arroyo Pkwy, Pasadena, CA 91105, United States",
-    "city": "CA 91105",
+    "city": "Pasadena",
     "country": "USA",
     "coordinates": {
       "lat": 46.60047,
@@ -16847,7 +16856,7 @@
     "id": "demo-barranco-15063",
     "name": "Demo",
     "address": "Jr, 28 De Julio 204, Barranco 15063, Peru",
-    "city": "Barranco 15063",
+    "city": "Barranco",
     "country": "Pérou",
     "coordinates": {
       "lat": -12.1421,
@@ -16963,7 +16972,7 @@
     "id": "olivia-restaurant-singapore-089158",
     "name": "Olivia restaurant",
     "address": "55 Keong Saik Rd., #01-03, Singapore 089158",
-    "city": "Singapore 089158",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.35569,
@@ -16992,7 +17001,7 @@
     "id": "cadence-by-dan-bark-bangkok-10110",
     "name": "Cadence by Dan Bark",
     "address": "225 Soi Pridi Banomyong 25, Wattana, Khlong Toei, Bangkok 10110, Thailand",
-    "city": "Bangkok 10110",
+    "city": "Wattana",
     "country": "Thaïlande",
     "coordinates": {
       "lat": 13.75743,
@@ -17021,7 +17030,7 @@
     "id": "caf-china-ny-10018",
     "name": "Café China",
     "address": "59 W 37th St, New York, NY 10018, United States",
-    "city": "NY 10018",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.60394,
@@ -17050,7 +17059,7 @@
     "id": "dinings-london-w1h-4hh",
     "name": "Dinings",
     "address": "22 Harcourt St, London W1H 4HH, United Kingdom",
-    "city": "London W1H 4HH",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.5054,
@@ -17079,7 +17088,7 @@
     "id": "schmaltz-delicatessan-nybrogatan-19",
     "name": "Schmaltz Delicatessan",
     "address": "Nybrogatan 19, 114 39 Stockholm, Sweden",
-    "city": "Nybrogatan 19",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.59826,
@@ -17137,7 +17146,7 @@
     "id": "rufino-osteria-strandgade-14",
     "name": "Rufino Osteria",
     "address": "Strandgade 14, 1401 Copenhagen, Denmark",
-    "city": "Strandgade 14",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60333,
@@ -17311,7 +17320,7 @@
     "id": "tia-tia-rua-do-almada-501",
     "name": "Tia Tia",
     "address": "Rua do Almada 501, 4050-039 Porto, Portugal",
-    "city": "Rua do Almada 501",
+    "city": "Porto",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.6016,
@@ -17427,7 +17436,7 @@
     "id": "kosmos-lagerstrasse-104",
     "name": "Kosmos",
     "address": "Lagerstrasse 104, 8004 Zürich, Switzerland",
-    "city": "Lagerstrasse 104",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.59888,
@@ -17514,7 +17523,7 @@
     "id": "hot-shop-k-benhavngata-18",
     "name": "Hot Shop",
     "address": "Københavngata 18, 0566 Oslo, Norway",
-    "city": "Københavngata 18",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.59916,
@@ -17543,7 +17552,7 @@
     "id": "breda-singel-210",
     "name": "Breda",
     "address": "Singel 210, 1016 AB Amsterdam, Netherlands",
-    "city": "Singel 210",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.59898,
@@ -17688,7 +17697,7 @@
     "id": "bise-norra-vallgatan-88",
     "name": "BISe",
     "address": "Norra Vallgatan 88, 211 22 Malmö, Sweden",
-    "city": "Norra Vallgatan 88",
+    "city": "Malmö",
     "country": "Suède",
     "coordinates": {
       "lat": 46.59702,
@@ -17862,7 +17871,7 @@
     "id": "les-brigittines-pl-de-la-chapelle-5",
     "name": "Les Brigittines",
     "address": "Pl. de la Chapelle 5, 1000 Bruxelles, Belgium",
-    "city": "Pl. de la Chapelle 5",
+    "city": "Bruxelles",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.60228,
@@ -17949,7 +17958,7 @@
     "id": "bistro-na-s-ca-91780",
     "name": "Bistro Na's",
     "address": "9055 Las Tunas Dr #105, Temple City, CA 91780, United States",
-    "city": "CA 91780",
+    "city": "Temple City",
     "country": "USA",
     "coordinates": {
       "lat": 46.59691,
@@ -18065,7 +18074,7 @@
     "id": "gazela-tv-cimo-de-vila-4",
     "name": "Gazela",
     "address": "Tv. Cimo de Vila 4, 4000-434 Porto, Portugal",
-    "city": "Tv. Cimo de Vila 4",
+    "city": "Porto",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.60301,
@@ -18152,7 +18161,7 @@
     "id": "planque-london-e8-4ea",
     "name": "Planque",
     "address": "322-324 Acton Mews, London E8 4EA, United Kingdom",
-    "city": "London E8 4EA",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50919,
@@ -18210,7 +18219,7 @@
     "id": "frantz-n-klara-norra-kyrkogata-26",
     "name": "Frantzén",
     "address": "Klara Norra kyrkogata 26, 111 22 Stockholm, Sweden",
-    "city": "Klara Norra kyrkogata 26",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.60261,
@@ -18297,7 +18306,7 @@
     "id": "supreme-roastworks-thorvald-meyers-gate-18a",
     "name": "Supreme Roastworks",
     "address": "Thorvald Meyers gate 18A, 0555 Oslo, Norway",
-    "city": "Thorvald Meyers gate 18A",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.60197,
@@ -18500,7 +18509,7 @@
     "id": "friture-rene-pl-de-la-r-sistance-14",
     "name": "Friture Rene",
     "address": "Pl. de la Résistance 14, 1070 Anderlecht, Belgium",
-    "city": "Pl. de la Résistance 14",
+    "city": "Anderlecht",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.60255,
@@ -18558,7 +18567,7 @@
     "id": "methavalai-sorndaeng-bangkok-10200",
     "name": "Methavalai Sorndaeng",
     "address": "78/2 Ratchadamnoen Ave, Wat Bowon Niwet, Phra Nakhon, Bangkok 10200, Thailand",
-    "city": "Bangkok 10200",
+    "city": "Wat Bowon Niwet",
     "country": "Thaïlande",
     "coordinates": {
       "lat": 13.75371,
@@ -18616,7 +18625,7 @@
     "id": "cote-korean-steakhouse-ny-10010",
     "name": "COTE Korean Steakhouse",
     "address": "16 W 22nd St, New York, NY 10010, United States",
-    "city": "NY 10010",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.59772,
@@ -18645,7 +18654,7 @@
     "id": "riche-birger-jarlsgatan-4",
     "name": "Riche",
     "address": "Birger Jarlsgatan 4, 114 34 Stockholm, Sweden",
-    "city": "Birger Jarlsgatan 4",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.59745,
@@ -18674,7 +18683,7 @@
     "id": "flawd-manchester-m4-6gl",
     "name": "Flawd",
     "address": "9 Keepers Quay, Manchester M4 6GL, United Kingdom",
-    "city": "Manchester M4 6GL",
+    "city": "Manchester",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 53.48092,
@@ -18703,7 +18712,7 @@
     "id": "o-thessalos-athina-104-47",
     "name": "O Thessalos",
     "address": "Melenikou 2, Athina 104 47, Greece",
-    "city": "Athina 104 47",
+    "city": "Athens",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.98744,
@@ -18732,7 +18741,7 @@
     "id": "savant-bar-tegn-rgatan-4",
     "name": "Savant Bar",
     "address": "Tegnérgatan 4, 113 58 Stockholm, Sweden",
-    "city": "Tegnérgatan 4",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.60222,
@@ -18761,7 +18770,7 @@
     "id": "noma-refshalevej-96",
     "name": "Noma",
     "address": "Refshalevej 96, 1432 Copenhagen, Denmark",
-    "city": "Refshalevej 96",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59835,
@@ -18790,7 +18799,7 @@
     "id": "merito-barranco-15063",
     "name": "Merito",
     "address": "Jr, 28 De Julio 206, Barranco 15063, Peru",
-    "city": "Barranco 15063",
+    "city": "Barranco",
     "country": "Pérou",
     "coordinates": {
       "lat": -12.14205,
@@ -18819,7 +18828,7 @@
     "id": "bavel-ca-90013",
     "name": "Bavel",
     "address": "500 Mateo St, Los Angeles, CA 90013, United States",
-    "city": "CA 90013",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.60286,
@@ -18935,7 +18944,7 @@
     "id": "avli-psiri-athina-105-54",
     "name": "Avli psiri",
     "address": "Ag. Dimitriou 12, Athina 105 54, Greece",
-    "city": "Athina 105 54",
+    "city": "Athens",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.98234,
@@ -19080,7 +19089,7 @@
     "id": "saltimportern-canteen-grimsbygatan-24",
     "name": "Saltimportern Canteen",
     "address": "Grimsbygatan 24, 211 20 Malmö, Sweden",
-    "city": "Grimsbygatan 24",
+    "city": "Malmö",
     "country": "Suède",
     "coordinates": {
       "lat": 46.59667,
@@ -19138,7 +19147,7 @@
     "id": "semea-by-euskalduna-cais-das-pedras-15",
     "name": "Semea by Euskalduna",
     "address": "Cais das Pedras 15, 4050-265 Porto, Portugal",
-    "city": "Cais das Pedras 15",
+    "city": "Porto",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59702,
@@ -19225,7 +19234,7 @@
     "id": "yi-chan-rue-jules-van-praet-13",
     "name": "Yi Chan",
     "address": "Rue Jules Van Praet 13, 1000 Bruxelles, Belgium",
-    "city": "Rue Jules Van Praet 13",
+    "city": "Bruxelles",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.59994,
@@ -19254,7 +19263,7 @@
     "id": "ama-lachei-athina-106-83",
     "name": "Ama Lachei",
     "address": "Kallidromiou 69, Athina 106 83, Greece",
-    "city": "Athina 106 83",
+    "city": "Athens",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.98613,
@@ -19428,7 +19437,7 @@
     "id": "kol-london-w1h-7ba",
     "name": "KOL",
     "address": "Lower Ground Floor, 9 Seymour St, London W1H 7BA, United Kingdom",
-    "city": "London W1H 7BA",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50779,
@@ -19573,7 +19582,7 @@
     "id": "lolo-los-angeles-ca-90027",
     "name": "Lolo (Los Angeles)",
     "address": "5140 Sunset Blvd, Los Angeles, CA 90027, United States",
-    "city": "CA 90027",
+    "city": "Sunset Blvd",
     "country": "USA",
     "coordinates": {
       "lat": 46.60313,
@@ -19660,7 +19669,7 @@
     "id": "le-tobsil-marrakech-40000",
     "name": "Le Tobsil",
     "address": "Derb Abdellah Ben Hessein, R'Mila Bab Ksour, Medina, Marrakech 40000, Morocco",
-    "city": "Marrakech 40000",
+    "city": "Derb Abdellah Ben Hessein",
     "country": "Maroc",
     "coordinates": {
       "lat": 31.62646,
@@ -19689,7 +19698,7 @@
     "id": "contra-ny-10002",
     "name": "Contra",
     "address": "138 Orchard St, New York, NY 10002, United States",
-    "city": "NY 10002",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.59977,
@@ -19718,7 +19727,7 @@
     "id": "r-publique-caf-bakery-r-publique-restaurant-ca-90036",
     "name": "République Café Bakery & République Restaurant",
     "address": "624 S La Brea Ave, Los Angeles, CA 90036, United States",
-    "city": "CA 90036",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.60295,
@@ -19747,7 +19756,7 @@
     "id": "caf-nizza-s-gatan-171",
     "name": "Café Nizza",
     "address": "Åsögatan 171, 116 32 Stockholm, Sweden",
-    "city": "Åsögatan 171",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.60381,
@@ -19863,7 +19872,7 @@
     "id": "ostria-idra-180-40",
     "name": "Ostria",
     "address": "Votsi, Idra 180 40, Greece",
-    "city": "Idra 180 40",
+    "city": "Hydra",
     "country": "Grèce",
     "coordinates": {
       "lat": 46.60115,
@@ -19892,7 +19901,7 @@
     "id": "comida-independente-r-cais-do-tojo-28",
     "name": "Comida Independente",
     "address": "R. Cais do Tojo 28, 1200-649 Lisboa, Portugal",
-    "city": "R. Cais do Tojo 28",
+    "city": "Lisbon",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59732,
@@ -19921,7 +19930,7 @@
     "id": "a-wong-london-sw1v-1de",
     "name": "A.Wong",
     "address": "70 Wilton Rd, Pimlico, London SW1V 1DE, United Kingdom",
-    "city": "London SW1V 1DE",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50594,
@@ -19950,7 +19959,7 @@
     "id": "sushi-noz-ny-10075",
     "name": "Sushi Noz",
     "address": "181 E 78th St, New York, NY 10075, United States",
-    "city": "NY 10075",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.60098,
@@ -20066,7 +20075,7 @@
     "id": "brutus-eiriks-gate-2",
     "name": "Brutus",
     "address": "Eiriks gate 2, 0650 Oslo, Norway",
-    "city": "Eiriks gate 2",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.59909,
@@ -20124,7 +20133,7 @@
     "id": "etiquette-wines-av-louise-326",
     "name": "Etiquette Wines",
     "address": "Av. Louise 326, 1050 Bruxelles, Belgium",
-    "city": "Av. Louise 326",
+    "city": "Bruxelles",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.59733,
@@ -20182,7 +20191,7 @@
     "id": "sauced-ny-11211",
     "name": "Sauced",
     "address": "331 Bedford Ave, Brooklyn, NY 11211, United States",
-    "city": "NY 11211",
+    "city": "Brooklyn",
     "country": "USA",
     "coordinates": {
       "lat": 46.59773,
@@ -20240,7 +20249,7 @@
     "id": "the-argyll-arms-london-w1f-7tp",
     "name": "The Argyll Arms",
     "address": "18 Argyll St, Greater, London W1F 7TP, United Kingdom",
-    "city": "London W1F 7TP",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50866,
@@ -20269,7 +20278,7 @@
     "id": "le-coucou-ny-10013",
     "name": "Le Coucou",
     "address": "138 Lafayette St, New York, NY 10013, United States",
-    "city": "NY 10013",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.59637,
@@ -20356,7 +20365,7 @@
     "id": "taberna-da-rua-das-flores-rua-das-flores-103",
     "name": "Taberna da Rua das Flores",
     "address": "Rua das Flores 103, 1200-194 Lisboa, Portugal",
-    "city": "Rua das Flores 103",
+    "city": "Lisbon",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59914,
@@ -20646,7 +20655,7 @@
     "id": "boston-lobster-seafood-restaurant-ca-91770",
     "name": "Boston Lobster Seafood Restaurant",
     "address": "4501 Rosemead Blvd, Rosemead, CA 91770, United States",
-    "city": "CA 91770",
+    "city": "Rosemead Blvd",
     "country": "USA",
     "coordinates": {
       "lat": 46.59614,
@@ -20675,7 +20684,7 @@
     "id": "julie-vinbar-tegelg-rdsgatan-9",
     "name": "Julie Vinbar",
     "address": "Tegelgårdsgatan 9, 211 33 Malmö, Sweden",
-    "city": "Tegelgårdsgatan 9",
+    "city": "Malmö",
     "country": "Suède",
     "coordinates": {
       "lat": 46.60111,
@@ -20762,7 +20771,7 @@
     "id": "soot-bull-jeep-ca-90005",
     "name": "Soot Bull Jeep",
     "address": "3136 W 8th St, Los Angeles, CA 90005, United States",
-    "city": "CA 90005",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.59607,
@@ -20849,7 +20858,7 @@
     "id": "la-natural-fl-33150",
     "name": "La Natural",
     "address": "7289 NW 2nd Ave, Miami, FL 33150, United States",
-    "city": "FL 33150",
+    "city": "Miami",
     "country": "USA",
     "coordinates": {
       "lat": 46.59649,
@@ -20936,7 +20945,7 @@
     "id": "vermeer-prins-hendrikkade-59-72",
     "name": "Vermeer",
     "address": "Prins Hendrikkade 59-72, 1012 AD Amsterdam, Netherlands",
-    "city": "Prins Hendrikkade 59-72",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.60065,
@@ -20965,7 +20974,7 @@
     "id": "arakataka-mariboes-gate-7b",
     "name": "Arakataka",
     "address": "Mariboes gate 7B, 0183 Oslo, Norway",
-    "city": "Mariboes gate 7B",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.59881,
@@ -20994,7 +21003,7 @@
     "id": "g-l-express-zollstrasse-11",
     "name": "Gül Express",
     "address": "Zollstrasse 11, 8005 Zürich, Switzerland",
-    "city": "Zollstrasse 11",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.60362,
@@ -21052,7 +21061,7 @@
     "id": "jatak-rantzausgade-39",
     "name": "JaTak",
     "address": "Rantzausgade 39, 2200 Copenhagen, Denmark",
-    "city": "Rantzausgade 39",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59732,
@@ -21081,7 +21090,7 @@
     "id": "gamper-bar-dienerstrasse-75",
     "name": "Gamper Bar",
     "address": "Dienerstrasse 75, 8004 Zürich, Switzerland",
-    "city": "Dienerstrasse 75",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.59801,
@@ -21168,7 +21177,7 @@
     "id": "guisados-ca-90033",
     "name": "Guisados",
     "address": "2100 E Cesar E Chavez Ave, Los Angeles, CA 90033",
-    "city": "CA 90033",
+    "city": "Cesar E Chavez Ave",
     "country": "France",
     "coordinates": {
       "lat": 46.59681,
@@ -21226,7 +21235,7 @@
     "id": "bar-lupo-badenerstrasse-155",
     "name": "Bar Lupo",
     "address": "Badenerstrasse 155, 8004 Zürich, Switzerland",
-    "city": "Badenerstrasse 155",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.60354,
@@ -21284,7 +21293,7 @@
     "id": "din-tai-fung-covent-garden-london-wc2e-8ps",
     "name": "Din Tai Fung Covent Garden",
     "address": "5 Henrietta St, London WC2E 8PS, United Kingdom",
-    "city": "London WC2E 8PS",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50873,
@@ -21313,7 +21322,7 @@
     "id": "mylos-by-the-sea-leros-854-00",
     "name": "Mylos by the sea",
     "address": "Leros 854 00, Greece",
-    "city": "Leros 854 00",
+    "city": "Leros",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.15205,
@@ -21342,7 +21351,7 @@
     "id": "brat-london-e1-6jl",
     "name": "BRAT",
     "address": "4 Redchurch St, London E1 6JL, United Kingdom",
-    "city": "London E1 6JL",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.51044,
@@ -21429,7 +21438,7 @@
     "id": "chopsuey-cafe-singapore-247700",
     "name": "chopsuey cafe",
     "address": "10 Dempsey Rd, #01-23, Singapore 247700",
-    "city": "Singapore 247700",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.35453,
@@ -21516,7 +21525,7 @@
     "id": "hunan-london-sw1w-8ne",
     "name": "Hunan",
     "address": "51 Pimlico Rd, London SW1W 8NE, United Kingdom",
-    "city": "London SW1W 8NE",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50859,
@@ -21574,7 +21583,7 @@
     "id": "fradelai-bistro-ny-11217",
     "name": "Fradelai Bistro",
     "address": "99 S Portland Ave, Brooklyn, NY 11217, United States",
-    "city": "NY 11217",
+    "city": "Brooklyn",
     "country": "USA",
     "coordinates": {
       "lat": 46.59889,
@@ -21603,7 +21612,7 @@
     "id": "the-izaka-ya-by-katsu-ya-west-hollywood-ca-90048",
     "name": "The IZAKA-YA by KATSU-YA West Hollywood",
     "address": "8420 W 3rd St, Los Angeles, CA 90048, United States",
-    "city": "CA 90048",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.6011,
@@ -21690,7 +21699,7 @@
     "id": "kin-meinrad-lienert-strasse-1",
     "name": "KIN",
     "address": "Meinrad-Lienert-Strasse 1, 8003 Zürich, Switzerland",
-    "city": "Meinrad-Lienert-Strasse 1",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.59963,
@@ -21748,7 +21757,7 @@
     "id": "bouch-ry-chau-d-alsemberg-812-a",
     "name": "Bouchéry",
     "address": "Chau. d'Alsemberg 812/A, 1180 Bruxelles, Belgium",
-    "city": "Chau. d'Alsemberg 812/A",
+    "city": "Bruxelles",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.59996,
@@ -21777,7 +21786,7 @@
     "id": "as-bifanas-do-afonso-r-da-madalena-146",
     "name": "As Bifanas do Afonso",
     "address": "R. da Madalena 146, 1100-340 Lisboa, Portugal",
-    "city": "R. da Madalena 146",
+    "city": "Lisbon",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.60233,
@@ -21835,7 +21844,7 @@
     "id": "orilla-miami-fl-33139",
     "name": "Orilla Miami",
     "address": "426 Euclid Ave, Miami Beach, FL 33139, United States",
-    "city": "FL 33139",
+    "city": "Miami Beach",
     "country": "USA",
     "coordinates": {
       "lat": 46.5972,
@@ -21864,7 +21873,7 @@
     "id": "sintrofi-thessaloniki-546-25",
     "name": "Sintrofi",
     "address": "Doxis 7, Thessaloniki 546 25, Greece",
-    "city": "Thessaloniki 546 25",
+    "city": "Thessaloniki",
     "country": "Grèce",
     "coordinates": {
       "lat": 40.63778,
@@ -21922,7 +21931,7 @@
     "id": "cheli-ny-10003",
     "name": "CheLI",
     "address": "19 St Marks Pl, New York, NY 10003, United States",
-    "city": "NY 10003",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.59756,
@@ -22038,7 +22047,7 @@
     "id": "library-street-d02-w3y7",
     "name": "Library Street",
     "address": "101 Setanta Pl, Dublin 2, D02 W3Y7, Ireland",
-    "city": "D02 W3Y7",
+    "city": "Dublin",
     "country": "Irlande",
     "coordinates": {
       "lat": 46.59953,
@@ -22212,7 +22221,7 @@
     "id": "le-mangeoire-rue-du-congr-s-34",
     "name": "Le Mangeoire",
     "address": "Rue du Congrès 34, 1000 Bruxelles, Belgium",
-    "city": "Rue du Congrès 34",
+    "city": "Bruxelles",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.6033,
@@ -22299,7 +22308,7 @@
     "id": "certo-rue-longue-vie-48",
     "name": "Certo",
     "address": "Rue Longue Vie 48, 1050 Bruxelles, Belgium",
-    "city": "Rue Longue Vie 48",
+    "city": "Bruxelles",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.6026,
@@ -22386,7 +22395,7 @@
     "id": "cloudstreet-singapore-069903",
     "name": "Cloudstreet",
     "address": "84 Amoy St, Singapore 069903",
-    "city": "Singapore 069903",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.3524,
@@ -22444,7 +22453,7 @@
     "id": "grezzo-bernt-ankers-gate",
     "name": "Grezzo",
     "address": "Bernt Ankers gate, 0183 Oslo, Norway",
-    "city": "Bernt Ankers gate",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.59929,
@@ -22502,7 +22511,7 @@
     "id": "flippin-burgers-observatoriegatan-8",
     "name": "Flippin Burgers",
     "address": "Observatoriegatan 8, 113 29 Stockholm, Sweden",
-    "city": "Observatoriegatan 8",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.60343,
@@ -22589,7 +22598,7 @@
     "id": "mathias-dahlgren-matbaren-s-dra-blasieholmshamnen-6",
     "name": "Mathias Dahlgren Matbaren",
     "address": "Södra Blasieholmshamnen 6, 111 48 Stockholm, Sweden",
-    "city": "Södra Blasieholmshamnen 6",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.59957,
@@ -22647,7 +22656,7 @@
     "id": "destroyer-ca-90232",
     "name": "Destroyer",
     "address": "3578 Hayden Ave, Culver City, CA 90232, United States",
-    "city": "CA 90232",
+    "city": "Hayden Ave",
     "country": "USA",
     "coordinates": {
       "lat": 46.60346,
@@ -22676,7 +22685,7 @@
     "id": "newport-seafood-restaurant-ca-91776",
     "name": "Newport Seafood Restaurant",
     "address": "518 W Las Tunas Dr, San Gabriel, CA 91776, United States",
-    "city": "CA 91776",
+    "city": "San Gabriel",
     "country": "USA",
     "coordinates": {
       "lat": 46.60318,
@@ -22705,7 +22714,7 @@
     "id": "p-franco-london-e5-0np",
     "name": "P Franco",
     "address": "107 Lower Clapton Rd, Lower Clapton, London E5 0NP, United Kingdom",
-    "city": "London E5 0NP",
+    "city": "Lower Clapton",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.51082,
@@ -22908,7 +22917,7 @@
     "id": "bar-exer-tellstrasse-10",
     "name": "Bar Exer",
     "address": "Tellstrasse 10, 8004 Zürich, Switzerland",
-    "city": "Tellstrasse 10",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.60281,
@@ -22937,7 +22946,7 @@
     "id": "golden-deli-san-gabriel-ca-91776",
     "name": "Golden Deli San Gabriel",
     "address": "815 W Las Tunas Dr, San Gabriel, CA 91776, United States",
-    "city": "CA 91776",
+    "city": "San Gabriel",
     "country": "USA",
     "coordinates": {
       "lat": 46.6027,
@@ -22995,7 +23004,7 @@
     "id": "bao-london-w1f-9as",
     "name": "BAO",
     "address": "53 Lexington St, Carnaby, London W1F 9AS, United Kingdom",
-    "city": "London W1F 9AS",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.51043,
@@ -23024,7 +23033,7 @@
     "id": "la-grande-table-marocaine-rue-abou-abbas-el-sebti-h-tel-royal-mansour",
     "name": "La Grande table marocaine",
     "address": "Rue Abou Abbas El Sebti Hôtel Royal Mansour, 40000, Morocco",
-    "city": "Rue Abou Abbas El Sebti Hôtel Royal Mansour",
+    "city": "Marrakech",
     "country": "Maroc",
     "coordinates": {
       "lat": 46.6008,
@@ -23053,7 +23062,7 @@
     "id": "k-dbyens-fiskebar-fl-sketorvet-100",
     "name": "Kødbyens Fiskebar",
     "address": "Flæsketorvet 100, 1711 Copenhagen, Denmark",
-    "city": "Flæsketorvet 100",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60007,
@@ -23198,7 +23207,7 @@
     "id": "kinijiro-ca-90012",
     "name": "Kinijiro",
     "address": "424 E 2nd St, Los Angeles, CA 90012, United States",
-    "city": "CA 90012",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.59618,
@@ -23343,7 +23352,7 @@
     "id": "wils-bakery-cafe-stadionplein-24",
     "name": "Wils Bakery Cafe",
     "address": "Stadionplein 24, 1076 CM Amsterdam, Netherlands",
-    "city": "Stadionplein 24",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.60229,
@@ -23372,7 +23381,7 @@
     "id": "konstantin-filippou-dominikanerbastei-17",
     "name": "Konstantin Filippou",
     "address": "Dominikanerbastei 17, 1010 Wien, Austria",
-    "city": "Dominikanerbastei 17",
+    "city": "Wien",
     "country": "Autriche",
     "coordinates": {
       "lat": 46.59816,
@@ -23517,7 +23526,7 @@
     "id": "little-prince-ny-10012",
     "name": "Little Prince",
     "address": "199 Prince St, New York, NY 10012, United States",
-    "city": "NY 10012",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.60053,
@@ -23575,7 +23584,7 @@
     "id": "l-kka-deli-olaf-ryes-glass-3",
     "name": "Løkka Deli",
     "address": "olaf ryes glass 3, 0552 Oslo, Norway",
-    "city": "olaf ryes glass 3",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.59792,
@@ -23633,7 +23642,7 @@
     "id": "toupeirinho-r-godinho-27",
     "name": "Toupeirinho",
     "address": "R. Godinho 27, 4450-148 Matosinhos, Portugal",
-    "city": "R. Godinho 27",
+    "city": "Matosinhos",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59729,
@@ -23749,7 +23758,7 @@
     "id": "cho-dang-gol-ny-10001",
     "name": "Cho Dang Gol",
     "address": "55 W 35th St, New York, NY 10001, United States",
-    "city": "NY 10001",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.59902,
@@ -23836,40 +23845,11 @@
     "id": "la-banchina-refshalevej-141",
     "name": "La Banchina",
     "address": "Refshalevej 141, 1432 Copenhagen, Denmark",
-    "city": "Refshalevej 141",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60035,
       "lng": 1.99979
-    },
-    "cuisine_type": "",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Chefs Picks",
-        "chef_restaurant": "",
-        "quote": "",
-        "source": "The Chefs Guide",
-        "source_url": null,
-        "date": "2025",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 30,
-    "last_updated": "2026-04-13"
-  },
-  {
-    "id": "hoppers-london-w1d-4sg",
-    "name": "Hoppers",
-    "address": "49 Frith St, London W1D 4SG, United Kingdom",
-    "city": "London W1D 4SG",
-    "country": "Royaume-Uni",
-    "coordinates": {
-      "lat": 51.50349,
-      "lng": -0.13152
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -24068,7 +24048,7 @@
     "id": "mijot-ca-94110",
     "name": "Mijoté",
     "address": "2400 Harrison St, San Francisco, CA 94110, United States",
-    "city": "CA 94110",
+    "city": "Harrison St",
     "country": "USA",
     "coordinates": {
       "lat": 46.59921,
@@ -24097,7 +24077,7 @@
     "id": "rest-kirkegata-1-3",
     "name": "Rest",
     "address": "Kirkegata 1-3, 0153 Oslo, Norway",
-    "city": "Kirkegata 1-3",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.60225,
@@ -24184,7 +24164,7 @@
     "id": "ela-patmos-dodecanese-855-00",
     "name": "Ela!",
     "address": "Kampos Patmos, Patmos Dodecanese 855 00, Greece",
-    "city": "Patmos Dodecanese 855 00",
+    "city": "Patmos",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.32492,
@@ -24213,7 +24193,7 @@
     "id": "mosu-itaewon-ro-55ga-gil",
     "name": "Mosu",
     "address": "Seoul, Yongsan-gu, Itaewon-ro 55ga-gil, 45, South Korea",
-    "city": "Itaewon-ro 55ga-gil",
+    "city": "Seoul",
     "country": "Corée du Sud",
     "coordinates": {
       "lat": 46.60355,
@@ -24300,7 +24280,7 @@
     "id": "wijnbar-titulus-chau-de-wavre-167a",
     "name": "Wijnbar Titulus",
     "address": "Chau. de Wavre 167A, 1050 Ixelles, Belgium",
-    "city": "Chau. de Wavre 167A",
+    "city": "Ixelles",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.60182,
@@ -24329,7 +24309,7 @@
     "id": "timberyard-edinburgh-eh3-9ds",
     "name": "TIMBERYARD",
     "address": "10 Lady Lawson St, Edinburgh EH3 9DS, United Kingdom",
-    "city": "Edinburgh EH3 9DS",
+    "city": "Edinburgh",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 55.94929,
@@ -24358,7 +24338,7 @@
     "id": "pichet-d02-t998",
     "name": "Pichet",
     "address": "14-15 Trinity St, Dublin 2, D02 T998, Ireland",
-    "city": "D02 T998",
+    "city": "Dublin",
     "country": "Irlande",
     "coordinates": {
       "lat": 46.59838,
@@ -24387,7 +24367,7 @@
     "id": "kobawoo-house-ca-90005",
     "name": "Kobawoo House",
     "address": "698 S Vermont Ave #109, Los Angeles, CA 90005, United States",
-    "city": "CA 90005",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.60166,
@@ -24416,7 +24396,7 @@
     "id": "the-coconut-club-singapore-199546",
     "name": "The coconut club",
     "address": "269 Beach Rd, Singapore 199546",
-    "city": "Singapore 199546",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.35391,
@@ -24503,7 +24483,7 @@
     "id": "le-caravane-marrakech-40000",
     "name": "Le Caravane",
     "address": "Km 12 Route D'Amizmiz, Marrakech 40000, Morocco",
-    "city": "Marrakech 40000",
+    "city": "Marrakech",
     "country": "Maroc",
     "coordinates": {
       "lat": 31.62702,
@@ -24590,7 +24570,7 @@
     "id": "old-boy-rue-de-tenbosch-110",
     "name": "OLD BOY",
     "address": "Rue de Tenbosch 110, 1050 Ixelles, Belgium",
-    "city": "Rue de Tenbosch 110",
+    "city": "Ixelles",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.5972,
@@ -24619,7 +24599,7 @@
     "id": "selma-r-mersgade-20",
     "name": "Selma",
     "address": "Rømersgade 20, 1362 Copenhagen, Denmark",
-    "city": "Rømersgade 20",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60301,
@@ -24677,7 +24657,7 @@
     "id": "the-little-yellow-door-london-w11-1hh",
     "name": "The Little Yellow Door",
     "address": "6-8 All Saints Rd, London W11 1HH, United Kingdom",
-    "city": "London W11 1HH",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50991,
@@ -24735,7 +24715,7 @@
     "id": "via-carota-ny-10014",
     "name": "Via Carota",
     "address": "51 Grove St, New York, NY 10014, United States",
-    "city": "NY 10014",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.60156,
@@ -24822,7 +24802,7 @@
     "id": "a-cozinha-do-manel-rua-do-heroismo-215",
     "name": "A Cozinha do Manel",
     "address": "Rua do Heroismo 215, 4300-255 Porto, Portugal",
-    "city": "Rua do Heroismo 215",
+    "city": "Porto",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59773,
@@ -24851,7 +24831,7 @@
     "id": "sushi-yasuda-ny-10017",
     "name": "Sushi Yasuda",
     "address": "204 E 43rd St, New York, NY 10017, United States",
-    "city": "NY 10017",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.59893,
@@ -24909,7 +24889,7 @@
     "id": "st-john-london-ec1m-4ay",
     "name": "St. JOHN",
     "address": "26 St John St, Barbican, London EC1M 4AY, United Kingdom",
-    "city": "London EC1M 4AY",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50791,
@@ -24967,7 +24947,7 @@
     "id": "iluka-peder-skrams-gade-15",
     "name": "Iluka",
     "address": "Peder Skrams Gade 15, 1054 Copenhagen, Denmark",
-    "city": "Peder Skrams Gade 15",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59944,
@@ -25199,7 +25179,7 @@
     "id": "il-casta-idra-180-40",
     "name": "Il Casta",
     "address": "Tompazi, Idra 180 40, Greece",
-    "city": "Idra 180 40",
+    "city": "Hydra",
     "country": "Grèce",
     "coordinates": {
       "lat": 46.60396,
@@ -25547,7 +25527,7 @@
     "id": "europizza-gedempt-hamerkanaal-79",
     "name": "Europizza",
     "address": "Gedempt Hamerkanaal 79, 1021 KP Amsterdam, Netherlands",
-    "city": "Gedempt Hamerkanaal 79",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.59627,
@@ -25605,7 +25585,7 @@
     "id": "pedro-lemos-r-do-padre-lu-s-cabral-974",
     "name": "Pedro Lemos",
     "address": "R. do Padre Luís Cabral 974, 4150-464 Porto, Portugal",
-    "city": "R. do Padre Luís Cabral 974",
+    "city": "Porto",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59915,
@@ -25634,7 +25614,7 @@
     "id": "tippling-club-singapore-088461",
     "name": "Tippling club",
     "address": "38 Tg Pagar Rd, Singapore 088461",
-    "city": "Singapore 088461",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.34961,
@@ -25750,7 +25730,7 @@
     "id": "apotek-57-fredericiagade-57",
     "name": "Apotek 57",
     "address": "Fredericiagade 57, 1310 Copenhagen, Denmark",
-    "city": "Fredericiagade 57",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59795,
@@ -25837,7 +25817,7 @@
     "id": "mo-rga-thessaloniki-546-35",
     "name": "Moúrga",
     "address": "Christopoulou 12, Thessaloniki 546 35, Greece",
-    "city": "Thessaloniki 546 35",
+    "city": "Thessaloniki",
     "country": "Grèce",
     "coordinates": {
       "lat": 40.64167,
@@ -25982,7 +25962,7 @@
     "id": "playa-provisions-ca-90293",
     "name": "Playa Provisions",
     "address": "119 Culver Blvd, Playa Del Rey, CA 90293, United States",
-    "city": "CA 90293",
+    "city": "Playa Del Rey",
     "country": "USA",
     "coordinates": {
       "lat": 46.5974,
@@ -26040,7 +26020,7 @@
     "id": "mendi-av-da-boavista-1430",
     "name": "Mendi",
     "address": "Av. da Boavista 1430, 4100-114 Porto, Portugal",
-    "city": "Av. da Boavista 1430",
+    "city": "Porto",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59607,
@@ -26098,7 +26078,7 @@
     "id": "seychelles-athina-104-36",
     "name": "Seychelles",
     "address": "Keramikou 49, Athina 104 36, Greece",
-    "city": "Athina 104 36",
+    "city": "Athens",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.98654,
@@ -26243,7 +26223,7 @@
     "id": "f-brica-coffee-roasters-r-das-portas-de-santo-ant-o-136",
     "name": "Fábrica Coffee Roasters",
     "address": "R. das Portas de Santo Antão 136, 1150-269 Lisboa, Portugal",
-    "city": "R. das Portas de Santo Antão 136",
+    "city": "Lisbon",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59997,
@@ -26272,7 +26252,7 @@
     "id": "vietnamese-delight-pho-99-singapore-069883",
     "name": "Vietnamese Delight Pho 99",
     "address": "57/58 Amoy St, Singapore 069883",
-    "city": "Singapore 069883",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.35597,
@@ -26359,7 +26339,7 @@
     "id": "4850-camperstraat-48-50",
     "name": "4850",
     "address": "Camperstraat 48-50, 1091 AH Amsterdam, Netherlands",
-    "city": "Camperstraat 48-50",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.60042,
@@ -26417,7 +26397,7 @@
     "id": "side-pie-ca-91001",
     "name": "Side Pie",
     "address": "900 E Altadena Dr, Altadena, CA 91001, United States",
-    "city": "CA 91001",
+    "city": "Altadena",
     "country": "USA",
     "coordinates": {
       "lat": 46.60397,
@@ -26678,7 +26658,7 @@
     "id": "juntos-arhusgade-48",
     "name": "Juntos",
     "address": "Arhusgade 48, 2100 Copenhagen, Denmark",
-    "city": "Arhusgade 48",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60056,
@@ -26823,7 +26803,7 @@
     "id": "becco-kristian-augusts-gate-11",
     "name": "Becco",
     "address": "Kristian Augusts gate 11, 0164 Oslo, Norway",
-    "city": "Kristian Augusts gate 11",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.60339,
@@ -26968,7 +26948,7 @@
     "id": "greyhound-london-w1t-3lz",
     "name": "Greyhound",
     "address": "37 Berners St, London W1T 3LZ, United Kingdom",
-    "city": "London W1T 3LZ",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50406,
@@ -27113,7 +27093,7 @@
     "id": "101-gowrie-govert-flinckstraat-326hs",
     "name": "101 Gowrie",
     "address": "Govert Flinckstraat 326HS, 1073 CJ Amsterdam, Netherlands",
-    "city": "Govert Flinckstraat 326HS",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.60247,
@@ -27229,7 +27209,7 @@
     "id": "majordomo-ca-90012",
     "name": "Majordomo",
     "address": "1725 Naud St, Los Angeles, CA 90012, United States",
-    "city": "CA 90012",
+    "city": "Naud St",
     "country": "USA",
     "coordinates": {
       "lat": 46.59653,
@@ -27287,7 +27267,7 @@
     "id": "gr-ca-90026",
     "name": "Grá",
     "address": "1524 Pizarro St, Los Angeles, CA 90026, United States",
-    "city": "CA 90026",
+    "city": "Pizarro St",
     "country": "USA",
     "coordinates": {
       "lat": 46.59949,
@@ -27461,7 +27441,7 @@
     "id": "le-tanjia-marrakech-40000",
     "name": "Le Tanjia",
     "address": "Place des Ferblantiers, Marrakech 40000, Morocco",
-    "city": "Marrakech 40000",
+    "city": "Place des Ferblantiers",
     "country": "Maroc",
     "coordinates": {
       "lat": 31.63075,
@@ -27490,7 +27470,7 @@
     "id": "to-pefkaki-idra-180-40",
     "name": "To Pefkaki",
     "address": "Idra 180 40, Greece",
-    "city": "Idra 180 40",
+    "city": "Hydra",
     "country": "Grèce",
     "coordinates": {
       "lat": 46.60174,
@@ -27519,7 +27499,7 @@
     "id": "bar-jackalope-ca-90014",
     "name": "Bar Jackalope",
     "address": "515 W 7th St #200, Los Angeles, CA 90014, United States",
-    "city": "CA 90014",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.59805,
@@ -27635,7 +27615,7 @@
     "id": "the-culpeper-london-e1-6lp",
     "name": "The Culpeper",
     "address": "40 Commercial St, London E1 6LP, United Kingdom",
-    "city": "London E1 6LP",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.51052,
@@ -27693,7 +27673,7 @@
     "id": "rosi-sihlfeld-stra-e-89",
     "name": "Rosi",
     "address": "Sihlfeld straße 89, 8004 Zürich, Switzerland",
-    "city": "Sihlfeld straße 89",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.60135,
@@ -27722,7 +27702,7 @@
     "id": "atelier-september-gothersgade-30",
     "name": "Atelier September",
     "address": "Gothersgade 30, 1123 Copenhagen, Denmark",
-    "city": "Gothersgade 30",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.5998,
@@ -27751,7 +27731,7 @@
     "id": "gamper-restaurant-nietengasse-1",
     "name": "Gamper Restaurant",
     "address": "Nietengasse 1, 8004 Zürich, Switzerland",
-    "city": "Nietengasse 1",
+    "city": "Zürich",
     "country": "Suisse",
     "coordinates": {
       "lat": 46.604,
@@ -27867,7 +27847,7 @@
     "id": "cafe-avissinia-athina-105-55",
     "name": "Cafe Avissinia",
     "address": "Kinetou 7, Athina 105 55, Greece",
-    "city": "Athina 105 55",
+    "city": "Athens",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.98061,
@@ -27983,7 +27963,7 @@
     "id": "chez-colin-fredensborveien-44",
     "name": "Chez Colin",
     "address": "Fredensborveien 44, 0177 Oslo, Norway",
-    "city": "Fredensborveien 44",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.60098,
@@ -28128,7 +28108,7 @@
     "id": "hand-in-hand-beijing-restaurant-singapore-208859",
     "name": "Hand In Hand Beijing Restaurant",
     "address": "143 Jln Besar, Singapore 208859",
-    "city": "Singapore 208859",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.3502,
@@ -28157,7 +28137,7 @@
     "id": "mother-wolf-ca-90028",
     "name": "Mother Wolf",
     "address": "1545 Wilcox Ave, Los Angeles, CA 90028, United States",
-    "city": "CA 90028",
+    "city": "Wilcox Ave",
     "country": "USA",
     "coordinates": {
       "lat": 46.60051,
@@ -28186,7 +28166,7 @@
     "id": "le-benjamin-s-ndre-gate-6",
     "name": "Le Benjamin",
     "address": "Søndre gate 6, 0550 Oslo, Norway",
-    "city": "Søndre gate 6",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.59712,
@@ -28302,7 +28282,7 @@
     "id": "experimental-cocktail-club-chinatown-london-w1d-5ps",
     "name": "Experimental Cocktail Club Chinatown",
     "address": "13a Gerrard St, London W1D 5PS, United Kingdom",
-    "city": "London W1D 5PS",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50433,
@@ -28331,7 +28311,7 @@
     "id": "bak-van-diemenstraat-408",
     "name": "BAK",
     "address": "Van Diemenstraat 408, 1013 CR Amsterdam, Netherlands",
-    "city": "Van Diemenstraat 408",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.59904,
@@ -28389,7 +28369,7 @@
     "id": "hangawi-ny-10016",
     "name": "Hangawi",
     "address": "12 E 32nd St, New York, NY 10016, United States",
-    "city": "NY 10016",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.60235,
@@ -28418,7 +28398,7 @@
     "id": "propaganda-vester-farimagsgade-2",
     "name": "Propaganda",
     "address": "Vester Farimagsgade 2, 1606 Copenhagen, Denmark",
-    "city": "Vester Farimagsgade 2",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60152,
@@ -28447,7 +28427,7 @@
     "id": "hos-fischer-victor-borges-pl-12",
     "name": "Hos Fischer",
     "address": "Victor Borges Pl. 12, 2100 Copenhagen, Denmark",
-    "city": "Victor Borges Pl. 12",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59839,
@@ -28505,7 +28485,7 @@
     "id": "sugarfish-ca-90017",
     "name": "Sugarfish",
     "address": "600 W 7th St Ste 150, Los Angeles, CA 90017, United States",
-    "city": "CA 90017",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.6005,
@@ -28534,7 +28514,7 @@
     "id": "sushi-tetsu-london-ec1v-4jp",
     "name": "Sushi Tetsu",
     "address": "12 Jerusalem Passage, London EC1V 4JP, United Kingdom",
-    "city": "London EC1V 4JP",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50689,
@@ -28650,7 +28630,7 @@
     "id": "brawn-london-e2-7rg",
     "name": "Brawn",
     "address": "49 Columbia Rd, London E2 7RG, United Kingdom",
-    "city": "London E2 7RG",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50633,
@@ -28679,7 +28659,7 @@
     "id": "mariscos-jalisco-ca-90023",
     "name": "Mariscos Jalisco",
     "address": "3040 E Olympic Blvd, Los Angeles, CA 90023, United States",
-    "city": "CA 90023",
+    "city": "Olympic Blvd",
     "country": "USA",
     "coordinates": {
       "lat": 46.60315,
@@ -28882,7 +28862,7 @@
     "id": "condesa-df-cdmx-06700",
     "name": "Condesa DF",
     "address": "Av. Veracruz 102, Roma Nte., Ciudad de México, CDMX 06700",
-    "city": "CDMX 06700",
+    "city": "Roma Nte.",
     "country": "France",
     "coordinates": {
       "lat": 46.598,
@@ -28969,7 +28949,7 @@
     "id": "westwind-orchard-ny-12404",
     "name": "Westwind Orchard",
     "address": "215 Lower Whitfield Rd, Accord, NY 12404, United States",
-    "city": "NY 12404",
+    "city": "Accord",
     "country": "USA",
     "coordinates": {
       "lat": 46.6005,
@@ -29027,7 +29007,7 @@
     "id": "kafeteria-august-universitetsgata-9",
     "name": "Kafeteria August",
     "address": "Universitetsgata 9, 0164 Oslo, Norway",
-    "city": "Universitetsgata 9",
+    "city": "Oslo",
     "country": "Norvège",
     "coordinates": {
       "lat": 46.60303,
@@ -29172,7 +29152,7 @@
     "id": "bincho-singapore-singapore-162078",
     "name": "Bincho Singapore",
     "address": "78 Moh Guan Terrace, #01-19, Singapore 162078",
-    "city": "Singapore 162078",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.35182,
@@ -29201,7 +29181,7 @@
     "id": "camphor-ca-90013",
     "name": "Camphor",
     "address": "923 E 3rd St Suite 109, Los Angeles, CA 90013, United States",
-    "city": "CA 90013",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.60233,
@@ -29317,7 +29297,7 @@
     "id": "jolene-well-street-london-e9-6rg",
     "name": "Jolene Well Street",
     "address": "263 Well St, London E9 6RG, United Kingdom",
-    "city": "London E9 6RG",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.50537,
@@ -29404,7 +29384,7 @@
     "id": "s-ng-qu-caf-london-e2-8dy",
     "name": "Sông Quê Café",
     "address": "134 Kingsland Rd, London E2 8DY, United Kingdom",
-    "city": "London E2 8DY",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.51027,
@@ -29462,7 +29442,7 @@
     "id": "tian-tian-hainanese-chicken-rice-singapore-069184",
     "name": "Tian Tian Hainanese Chicken Rice",
     "address": "1 Kadayanallur St, #01-10/11, Singapore 069184",
-    "city": "Singapore 069184",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.3519,
@@ -29520,7 +29500,7 @@
     "id": "b-st-guldbergsgade-29",
     "name": "Bæst",
     "address": "Guldbergsgade 29, 2200 København N, Denmark",
-    "city": "Guldbergsgade 29",
+    "city": "København N",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59699,
@@ -29607,7 +29587,7 @@
     "id": "brasserie-prins-gl-kongevej-33b",
     "name": "Brasserie Prins",
     "address": "Gl. Kongevej 33B, 1610 Copenhagen, Denmark",
-    "city": "Gl. Kongevej 33B",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59811,
@@ -29694,7 +29674,7 @@
     "id": "hams-and-clams-pireas-185-37",
     "name": "Hams and Clams",
     "address": "Marina Zeas, Pireas 185 37, Greece",
-    "city": "Pireas 185 37",
+    "city": "Piraeus",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.94168,
@@ -29723,7 +29703,7 @@
     "id": "gaarden-gaden-n-rrebrogade-88",
     "name": "Gaarden & Gaden",
     "address": "Nørrebrogade 88, 2200 Copenhagen, Denmark",
-    "city": "Nørrebrogade 88",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.59939,
@@ -29752,7 +29732,7 @@
     "id": "gielina-ca-90291",
     "name": "Gielina",
     "address": "1429 Abbot Kinney Blvd, Venice, CA 90291, United States",
-    "city": "CA 90291",
+    "city": "Abbot Kinney Blvd",
     "country": "USA",
     "coordinates": {
       "lat": 46.59664,
@@ -29839,7 +29819,7 @@
     "id": "sollip-london-se1-3qp",
     "name": "Sollip",
     "address": "Unit 1, 8 Melior St, London SE1 3QP, United Kingdom",
-    "city": "London SE1 3QP",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.51047,
@@ -29868,7 +29848,7 @@
     "id": "tayyabs-london-e1-1ju",
     "name": "Tayyabs",
     "address": "83-89 Fieldgate St, London E1 1JU, United Kingdom",
-    "city": "London E1 1JU",
+    "city": "London",
     "country": "Royaume-Uni",
     "coordinates": {
       "lat": 51.51025,
@@ -29984,7 +29964,7 @@
     "id": "kato-ca-90021",
     "name": "Kato",
     "address": "777 S Alameda St Building 1, Suite 114, Los Angeles, CA 90021, United States",
-    "city": "CA 90021",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.59627,
@@ -30245,7 +30225,7 @@
     "id": "atoboy-ny-10016",
     "name": "Atoboy",
     "address": "43 E 28th St, New York, NY 10016, United States",
-    "city": "NY 10016",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.5972,
@@ -30332,7 +30312,7 @@
     "id": "la-palette-marrakesh-40000",
     "name": "La Palette",
     "address": "Rue Moulay Ali, Marrakesh 40000, Morocco",
-    "city": "Marrakesh 40000",
+    "city": "Marrakech",
     "country": "Maroc",
     "coordinates": {
       "lat": 31.63151,
@@ -30390,7 +30370,7 @@
     "id": "legendary-bak-kut-teh-at-south-bridge-singapore-058679",
     "name": "Legendary Bak Kut Teh At South Bridge",
     "address": "46 South Bridge Rd, Singapore 058679",
-    "city": "Singapore 058679",
+    "city": "Singapore",
     "country": "Singapour",
     "coordinates": {
       "lat": 1.35407,
@@ -30535,7 +30515,7 @@
     "id": "gjusta-ca-90291",
     "name": "Gjusta",
     "address": "320 Sunset Ave, Venice, CA 90291, United States",
-    "city": "CA 90291",
+    "city": "Venice",
     "country": "USA",
     "coordinates": {
       "lat": 46.60253,
@@ -30564,7 +30544,7 @@
     "id": "sqirl-ca-90029",
     "name": "Sqirl",
     "address": "720 N Virgil Ave #4, Los Angeles, CA 90029, United States",
-    "city": "CA 90029",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.59711,
@@ -30593,7 +30573,7 @@
     "id": "bar-pitti-ny-10014",
     "name": "Bar Pitti",
     "address": "268 6th Ave, New York, NY 10014, United States",
-    "city": "NY 10014",
+    "city": "New York",
     "country": "USA",
     "coordinates": {
       "lat": 46.60124,
@@ -30854,7 +30834,7 @@
     "id": "granja-dos-moinhos-n-3",
     "name": "Granja dos Moinhos",
     "address": "Rua do Moinho, nº3, 2065-631 Maçussa, Portugal",
-    "city": "nº3",
+    "city": "Maçussa",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59625,
@@ -30912,7 +30892,7 @@
     "id": "diporto-athina-105-52",
     "name": "Diporto",
     "address": "Sokratous 9 & Theatrou, Athina 105 52, Greece",
-    "city": "Athina 105 52",
+    "city": "Athens",
     "country": "Grèce",
     "coordinates": {
       "lat": 37.98447,
@@ -30970,7 +30950,7 @@
     "id": "horses-ca-90046",
     "name": "Horses",
     "address": "7617 Sunset Blvd, Los Angeles, CA 90046, United States",
-    "city": "CA 90046",
+    "city": "Sunset Blvd",
     "country": "USA",
     "coordinates": {
       "lat": 46.59737,
@@ -30999,7 +30979,7 @@
     "id": "sonoratown-ca-90014",
     "name": "Sonoratown",
     "address": "208 E 8th St, Los Angeles, CA 90014, United States",
-    "city": "CA 90014",
+    "city": "Los Angeles",
     "country": "USA",
     "coordinates": {
       "lat": 46.59885,
@@ -31115,7 +31095,7 @@
     "id": "punk-royale-folkungagatan-128",
     "name": "Punk Royale",
     "address": "Folkungagatan 128, 116 30 Stockholm, Sweden",
-    "city": "Folkungagatan 128",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.6017,
@@ -31202,7 +31182,7 @@
     "id": "caf-binnenvisser-bilderdijkstraat-36",
     "name": "Café Binnenvisser",
     "address": "Bilderdijkstraat 36, 1052 NB Amsterdam, Netherlands",
-    "city": "Bilderdijkstraat 36",
+    "city": "Amsterdam",
     "country": "Pays-Bas",
     "coordinates": {
       "lat": 46.60348,
@@ -31289,7 +31269,7 @@
     "id": "ideal-casa-r-ten-maia-22",
     "name": "Ideal Casa",
     "address": "R. Ten. Maia 22, 2825-322 Trafaria, Portugal",
-    "city": "R. Ten. Maia 22",
+    "city": "Trafaria",
     "country": "Portugal",
     "coordinates": {
       "lat": 46.59882,
@@ -31347,7 +31327,7 @@
     "id": "studio-x-kitchen-dronningens-tv-ergade-52",
     "name": "Studio x Kitchen",
     "address": "Dronningens Tvæergade 52, 1302 Copenhagen, Denmark",
-    "city": "Dronningens Tvæergade 52",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60167,
@@ -31434,7 +31414,7 @@
     "id": "barabba-store-kongensgade-34",
     "name": "Barabba",
     "address": "Store Kongensgade 34, 1264 Copenhagen, Denmark",
-    "city": "Store Kongensgade 34",
+    "city": "Copenhagen",
     "country": "Danemark",
     "coordinates": {
       "lat": 46.60104,
@@ -31463,7 +31443,7 @@
     "id": "l-a-r-de-rien-pl-du-vieux-tilleul-14",
     "name": "L'Aïr de Rien",
     "address": "Pl. du Vieux Tilleul 14, 4130 Esneux, Belgium",
-    "city": "Pl. du Vieux Tilleul 14",
+    "city": "Esneux",
     "country": "Belgique",
     "coordinates": {
       "lat": 46.60262,
@@ -31695,7 +31675,7 @@
     "id": "coco-carmen-ban-rgatan-7",
     "name": "Coco & Carmen",
     "address": "Banérgatan 7, 114 56 Stockholm, Sweden",
-    "city": "Banérgatan 7",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.59879,
@@ -31724,7 +31704,7 @@
     "id": "sturehof-stureplan-2",
     "name": "Sturehof",
     "address": "Stureplan 2, 114 35 Stockholm, Sweden",
-    "city": "Stureplan 2",
+    "city": "Stockholm",
     "country": "Suède",
     "coordinates": {
       "lat": 46.60136,
