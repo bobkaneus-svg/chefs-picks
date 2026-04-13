@@ -1,0 +1,67 @@
+chef_name,restaurant_name,address,cuisine_type,chef_comment,best_dish
+Olivier Daniel,Babel Babel,"2 Cr Jacques Chirac, 06300 Nice",French,,
+Olivier Daniel,Cinq,"5 Rue de la Bourgade, 06140 Tourrettes-sur-Loup",Nordic/Danish,"5-course menu that changes every day, Danish chef, unique location.",
+Olivier Daniel,Le Ponpon,"4 Rue Emile Négrin, 06400 Cannes",,,
+Olivier Daniel,Le Canon,"23 Rue Meyerbeer, 06000 Nice",Bistro,"Bistro with 100% local products, a lot of seafood and meat on the plate, and vintage natural wines, a must!",
+Olivier Daniel,Dussal Cave a Manger,"2 Pl. Surian, 06140 Vence",,"Hugo has worked in some beautiful establishments, Christophe Dufau among others, and has opened a cave à manger full of surprises.",
+Olivier Daniel,Les Dilettants,"1193 Chem. de Saint-Bernard, 06220 Vallauris",,,
+Olivier Daniel,La Part des Anges,"17 Rue Gubernatis, 06000 Nice",,"For a very boozy lunch, the lunch menu changes every day, its set, there is no choice and that is what is good.",
+Olivier Daniel,L'Autobus,"142 Av. de Gairaut, 06100 Nice",Niçoise,"Niçoise cuisine, ravioli, daube, farcis and more (served by the fireplace in winter and in the garden with a petanque court in summer).",
+Olivier Daniel,Hostellerie Jérôme,"20 Rue du Comté de Cessole, 06320 La Turbie",Gastro,"A pretty classic gastro which is very good value for money, a must!",
+Olivier Daniel,La Merenda,"4 Rue Raoul Bosio, 06300 Nice",,To eat local chic.,
+Olivier Daniel,Banh Mei,"6 Rue Rossetti, 06300 Nice",Vietnamese,The pho is to die for.,Pho
+Olivier Daniel,Epiro,"53 Bd Stalingrad, 06300 Nice",Italian,"Amatriciana + deep fried burrata, mama mia!!","Amatriciana, Deep fried burrata"
+Sébastien Perinetti,Le Canon,"23 Rue Meyerbeer, 06000 Nice",French,,
+Sébastien Perinetti,L'Auberge de la Roche,"La Roche, 06420 Valdeblore",,"A must. The products and the precision, a journey!",Bouillabaisse
+Sébastien Perinetti,Le Bistrot du Port,"53 Av. des Frères Roustan, 06220 Golfe Juan",,"We come here for the fish. Super bouillabaisse.",Bouillabaisse
+Sébastien Perinetti,Lou'Bar,"3 Rue des Mesures, 06270 Villeneuve-Loubet",,"Pierrot's pirate lair. Beautiful wines, snacks to nibble on.",
+Sébastien Perinetti,Entre 2 Vins,"2 Rue James Close, 06600 Antibes",,"Mathieu's delicious dishes and Franck's superb selection of wines make this a very appealing bistro!",
+Sébastien Perinetti,La Table des Baous,"42 Rue nationale, 06640 Saint-Jeannet",,"The show on the plate, and in the room when Seb comes out of the kitchen.",
+Sébastien Perinetti,Auberge de Sauze,"Pl. de la Mairie, 06470 Sauze",,"Beautiful local produce and exciting cuisine from Thomas.",
+Sébastien Perinetti,Lavomatique,"11 Rue du Pont Vieux, 06300 Nice",,"Hugo serves bomb small dishes, gourmet and tasty, a blast!",
+Sébastien Perinetti,Mallard,"6 Rue Maraldi, 06300 Nice",,"Nino's beautiful touch in the kitchen, a bistro menu, and a lot of things to drink.",
+Sébastien Perinetti,Les Dilettants,"1193 Chem. de Saint-Bernard, 06220 Vallauris",,"Thomas's lively cuisine, with produce from the adjoining garden.",
+Sébastien Perinetti,Banh Mei,"6 Rue Rossetti, 06300 Nice",Vietnamese,"You's great food, lively and fresh, wontons to die for.",Wontons
+Sébastien Perinetti,La Part des Anges,"17 Rue Gubernatis, 06000 Nice",,"Unmissable and timeless. A place to learn about natural wine!",
+Sébastien Perinetti,Epiro,"53 Bd Stalingrad, 06300 Nice",Italian,"Rome - Nice, beautiful pasta made in-house, generous and bright dishes.",Pasta
+Sébastien Perinetti,Casa Sallusti,"670 Chem. des Collets, 06640 Saint-Jeannet",,"A magical place, in a calm environment.",
+Sébastien Perinetti,Cinq,"5 Rue de la Bourgade, 06140 Tourrettes-sur-Loup",,"Big miams on every bite of the menu.",
+Sébastien Perinetti,La pêche à la vigne,"13 Rue Cassini, 06300 Nice",,"Beautiful selection of products, atypical and exciting wine list.",
+Sébastien Perinetti,Chez Davia,"11bis Rue Grimaldi, 06000 Nice",French,"Pierre's cooking is precise and delicious.",
+Sébastien Perinetti,Jeanne,"10 Rue Sade, 06600 Antibes",,"Fine wine selection, cuisine full of inspiration.",
+Sébastien Perinetti,Le Ponpon,"4 Rue Emile Négrin, 06400 Cannes",,"Bruno's delicious and playful dishes and a fine selection of natural wines.",
+Sébastien Perinetti,Amarea,"Lungomare Argentina 1, 18012 Bordighera, Italy",Italian,"The sea all around and on the plate!",
+Sébastien Perinetti,Maido,"31 Rue Gioffredo, 06000 Nice",Japanese,"The Izakaya of Nice. Lots of delicious dishes, superb gyoza.",Gyoza
+Sébastien Perinetti,Babel Babel,"2 Cr Jacques Chirac, 06300 Nice",Mediterranean,"Exciting cocktails, Mediterranean wines, dishes that make your head spin.",
+Victoria Gil & Guilhem Malisson,Le Bec Du Coq,"28 Boulevard Notre Dame, 13006 Marseille",French,,
+Victoria Gil & Guilhem Malisson,Sépia,"2 Rue Vauvenaroques, 13007 Marseille",,,
+Victoria Gil & Guilhem Malisson,Chez Yassine,"8 Rue d'Aubagne, 13001 Marseille",,For the fish couscous on Sundays.,
+Victoria Gil & Guilhem Malisson,Hako +,"218 Chem. du Roucas Blanc, 13007 Marseille",,Perfect bento lunch.,
+Victoria Gil & Guilhem Malisson,Chez Etienne,"43 Rue Lorette, 13002 Marseille",,"We don't go to a restaurant, we go Chez Etienne, an institution.",
+Victoria Gil & Guilhem Malisson,Ouréa,"72 Rue de la Paix Marcel Paul, 13006 Marseille",,,
+Victoria Gil & Guilhem Malisson,Shanghai Kitchen,"14 Cr Jean Ballard, 13001 Marseille",Chinese,The best Chinese restaurant in Marseille.,
+Victoria Gil & Guilhem Malisson,Limmat,"41 Rue Estelle, 13006 Marseille",,"Modern primarily vegetable-centered cuisine.",
+Victoria Gil & Guilhem Malisson,Jeanne,"10 Rue Sade, 06600 Antibes",,"Fine wine selection, cuisine full of inspiration.",
+Victoria Gil & Guilhem Malisson,La Courtille Tavel,"208 Chem. des Cravailleux, 30126 Tavel",,Great offal dishes in the heart of the vineyards.,
+Victoria Gil & Guilhem Malisson,Mouné,"30 Rue Fortia, 13001 Marseille",Lebanese,The best Lebanese restaurant in Marseille.,
+Catalin Indreica,Bocca Nissa,"3 Rue Saint-François de Paule, 06300 Nice",Mediterranean,,
+Catalin Indreica,Comptoir du Marché,"8 Rue du Marché, 06000 Nice",,,
+Catalin Indreica,La Merenda,"4 Rue Raoul Bosio, 06300 Nice",,,
+Catalin Indreica,Le Bar des Oiseaux,"5 Rue Saint-Vincent, 06300 Nice",,Pop art decoration with an authentic feel.,
+Catalin Indreica,La Cave du Fromager,"29 Rue Benoît Bunico, 06000 Nice",,The best fondue I have ever tasted!,Fondue
+Catalin Indreica,Olive & Artichaut,"6 Rue Sainte-Reparate, 06300 Nice",,,
+Catalin Indreica,Babel Babel,"2 Cr Jacques Chirac, 06300 Nice",,,
+Catalin Indreica,Lavomatique,"11 Rue du Pont Vieux, 06300 Nice",,,
+Catalin Indreica,Geppetto,"9 Rue Chauvain, 06000 Nice",Italian,Italian cuisine the way we like it!,Carbonara
+Catalin Indreica,Peixes,"4 Rue Jacques Médecin, 06300 Nice",Seafood,Fresh seafood.,Ceviche
+Catalin Indreica,Farago on the roof,"Rooftop AC Hotel, 59 Prom. des Anglais, 06000 Nice",,,
+Guillaume Tran-tu,Mallard,"6 Rue Maraldi, 06300 Nice",French,,
+Guillaume Tran-tu,Le Glouphile,"41 Bd Stalingrad, 06300 Nice",,Wine cellar and Spanish charcuterie.,
+Guillaume Tran-tu,La Cave Rembrandt,"54 Bd Général Louis Delfino, 06300 Nice",,Organic natural wine cellar.,
+Guillaume Tran-tu,Lavomatique,"11 Rue du Pont Vieux, 06300 Nice",,Innovative bar food and natural wines.,
+Guillaume Tran-tu,Chabrol,"12 Rue Bavastro, 06300 Nice",,Charming restaurant and refined cuisine.,
+Guillaume Tran-tu,Le Canon,"23 Rue Meyerbeer, 06000 Nice",,Changing menu on chalkboard and great wines.,
+Guillaume Tran-tu,ROUGE,"2 Rue de Foresta, 06300 Nice",,Small sharing plates with port view.,Croquettes de parmesan
+Guillaume Tran-tu,Babel Babel,"2 Cr Jacques Chirac, 06300 Nice",,All day dining on the boardwalk.,
+Guillaume Tran-tu,D'AQUI,"28 Rue Cassini, 06300 Nice",,Socca-based Nissart street food.,
+Guillaume Tran-tu,La treille bar a vin,"7 Rue Saint-Augustin, 06300 Nice",,Cheap sharing plates in Vieux Nice.,

@@ -8315,10 +8315,28 @@
         "source_url": "https://www.gillespudlowski.com/26174/restaurants/nice-le-meilleur-bouchon-du-monde",
         "date": "2023",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "To eat local chic.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 3,
+    "confidence_score": 100,
     "last_updated": "2026-04-13"
   },
   {
@@ -8373,10 +8391,19 @@
         "source_url": "https://www.yonder.fr/gastronomie/restaurants/les-meilleurs-restaurants-nice-france",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Pierre's cooking is precise and delicious.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
+    "recommendation_count": 2,
+    "confidence_score": 75,
     "last_updated": "2026-04-13"
   },
   {
@@ -14021,6 +14048,1533 @@
     ],
     "recommendation_count": 1,
     "confidence_score": 40,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "babel-babel-nice",
+    "name": "Babel Babel",
+    "address": "2 Cr Jacques Chirac, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.70742,
+      "lng": 7.26161
+    },
+    "cuisine_type": "French",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Exciting cocktails, Mediterranean wines, dishes that make your head spin.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "All day dining on the boardwalk.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 4,
+    "confidence_score": 100,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "cinq-tourrettes-sur-loup",
+    "name": "Cinq",
+    "address": "5 Rue de la Bourgade, 06140 Tourrettes-sur-Loup",
+    "city": "Tourrettes-sur-Loup",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71548,
+      "lng": 7.05867
+    },
+    "cuisine_type": "Nordic/Danish",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "5-course menu that changes every day, Danish chef, unique location.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Big miams on every bite of the menu.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 70,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-ponpon-cannes",
+    "name": "Le Ponpon",
+    "address": "4 Rue Emile Négrin, 06400 Cannes",
+    "city": "Cannes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.55154,
+      "lng": 7.01917
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Bruno's delicious and playful dishes and a fine selection of natural wines.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 65,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-canon-nice",
+    "name": "Le Canon",
+    "address": "23 Rue Meyerbeer, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71036,
+      "lng": 7.26347
+    },
+    "cuisine_type": "Bistro",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "Bistro with 100% local products, a lot of seafood and meat on the plate, and vintage natural wines, a must!",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "Changing menu on chalkboard and great wines.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 3,
+    "confidence_score": 100,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "dussal-cave-a-manger-vence",
+    "name": "Dussal Cave a Manger",
+    "address": "2 Pl. Surian, 06140 Vence",
+    "city": "Vence",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.72456,
+      "lng": 7.11197
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "Hugo has worked in some beautiful establishments, Christophe Dufau among others, and has opened a cave à manger full of surprises.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "les-dilettants-vallauris",
+    "name": "Les Dilettants",
+    "address": "1193 Chem. de Saint-Bernard, 06220 Vallauris",
+    "city": "Vallauris",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.57981,
+      "lng": 7.05177
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Thomas's lively cuisine, with produce from the adjoining garden.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 65,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-part-des-anges-nice",
+    "name": "La Part des Anges",
+    "address": "17 Rue Gubernatis, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71171,
+      "lng": 7.25942
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "For a very boozy lunch, the lunch menu changes every day, its set, there is no choice and that is what is good.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Unmissable and timeless. A place to learn about natural wine!",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 70,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-autobus-nice",
+    "name": "L'Autobus",
+    "address": "142 Av. de Gairaut, 06100 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.70918,
+      "lng": 7.26
+    },
+    "cuisine_type": "Niçoise",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "Niçoise cuisine, ravioli, daube, farcis and more (served by the fireplace in winter and in the garden with a petanque court in summer).",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "hostellerie-j-r-me-la-turbie",
+    "name": "Hostellerie Jérôme",
+    "address": "20 Rue du Comté de Cessole, 06320 La Turbie",
+    "city": "La Turbie",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.74837,
+      "lng": 7.40175
+    },
+    "cuisine_type": "Gastro",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "A pretty classic gastro which is very good value for money, a must!",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "banh-mei-nice",
+    "name": "Banh Mei",
+    "address": "6 Rue Rossetti, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71003,
+      "lng": 7.26217
+    },
+    "cuisine_type": "Vietnamese",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "The pho is to die for. Best dish: Pho",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "You's great food, lively and fresh, wontons to die for. Best dish: Wontons",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 70,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "epiro-nice",
+    "name": "Epiro",
+    "address": "53 Bd Stalingrad, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71206,
+      "lng": 7.26488
+    },
+    "cuisine_type": "Italian",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Olivier Daniel",
+        "chef_restaurant": "",
+        "quote": "Amatriciana + deep fried burrata, mama mia!! Best dish: Amatriciana, Deep fried burrata",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Rome - Nice, beautiful pasta made in-house, generous and bright dishes. Best dish: Pasta",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 70,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "l-auberge-de-la-roche-valdeblore",
+    "name": "L'Auberge de la Roche",
+    "address": "La Roche, 06420 Valdeblore",
+    "city": "Valdeblore",
+    "country": "France",
+    "coordinates": {
+      "lat": 44.06722,
+      "lng": 7.18528
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "A must. The products and the precision, a journey! Best dish: Bouillabaisse",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-bistrot-du-port-golfe-juan",
+    "name": "Le Bistrot du Port",
+    "address": "53 Av. des Frères Roustan, 06220 Golfe Juan",
+    "city": "Golfe Juan",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.56526,
+      "lng": 7.07718
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "We come here for the fish. Super bouillabaisse. Best dish: Bouillabaisse",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "lou-bar-villeneuve-loubet",
+    "name": "Lou'Bar",
+    "address": "3 Rue des Mesures, 06270 Villeneuve-Loubet",
+    "city": "Villeneuve-Loubet",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.66086,
+      "lng": 7.11923
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Pierrot's pirate lair. Beautiful wines, snacks to nibble on.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "entre-2-vins-antibes",
+    "name": "Entre 2 Vins",
+    "address": "2 Rue James Close, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.57991,
+      "lng": 7.1239
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Mathieu's delicious dishes and Franck's superb selection of wines make this a very appealing bistro!",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-table-des-baous-saint-jeannet",
+    "name": "La Table des Baous",
+    "address": "42 Rue nationale, 06640 Saint-Jeannet",
+    "city": "Saint-Jeannet",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.74784,
+      "lng": 7.14175
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "The show on the plate, and in the room when Seb comes out of the kitchen.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "auberge-de-sauze-sauze",
+    "name": "Auberge de Sauze",
+    "address": "Pl. de la Mairie, 06470 Sauze",
+    "city": "Sauze",
+    "country": "France",
+    "coordinates": {
+      "lat": 44.0862,
+      "lng": 7.20253
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Beautiful local produce and exciting cuisine from Thomas.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "lavomatique-nice",
+    "name": "Lavomatique",
+    "address": "11 Rue du Pont Vieux, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71282,
+      "lng": 7.26426
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Hugo serves bomb small dishes, gourmet and tasty, a blast!",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "Innovative bar food and natural wines.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 3,
+    "confidence_score": 100,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "mallard-nice",
+    "name": "Mallard",
+    "address": "6 Rue Maraldi, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71176,
+      "lng": 7.26144
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Nino's beautiful touch in the kitchen, a bistro menu, and a lot of things to drink.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 65,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "casa-sallusti-saint-jeannet",
+    "name": "Casa Sallusti",
+    "address": "670 Chem. des Collets, 06640 Saint-Jeannet",
+    "city": "Saint-Jeannet",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.74786,
+      "lng": 7.14242
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "A magical place, in a calm environment.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-p-che-la-vigne-nice",
+    "name": "La pêche à la vigne",
+    "address": "13 Rue Cassini, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.7071,
+      "lng": 7.25971
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Beautiful selection of products, atypical and exciting wine list.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "jeanne-antibes",
+    "name": "Jeanne",
+    "address": "10 Rue Sade, 06600 Antibes",
+    "city": "Antibes",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.58084,
+      "lng": 7.12349
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "Fine wine selection, cuisine full of inspiration.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "Fine wine selection, cuisine full of inspiration.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 2,
+    "confidence_score": 70,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "amarea-bordighera",
+    "name": "Amarea",
+    "address": "Lungomare Argentina 1, 18012 Bordighera, Italy",
+    "city": "Bordighera",
+    "country": "Italie",
+    "coordinates": {
+      "lat": 43.78192,
+      "lng": 7.67136
+    },
+    "cuisine_type": "Italian",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "The sea all around and on the plate!",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "maido-nice",
+    "name": "Maido",
+    "address": "31 Rue Gioffredo, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.7076,
+      "lng": 7.26409
+    },
+    "cuisine_type": "Japanese",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Sébastien Perinetti",
+        "chef_restaurant": "",
+        "quote": "The Izakaya of Nice. Lots of delicious dishes, superb gyoza. Best dish: Gyoza",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-bec-du-coq-marseille",
+    "name": "Le Bec Du Coq",
+    "address": "28 Boulevard Notre Dame, 13006 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29656,
+      "lng": 5.36987
+    },
+    "cuisine_type": "French",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 30,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "s-pia-marseille",
+    "name": "Sépia",
+    "address": "2 Rue Vauvenaroques, 13007 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29623,
+      "lng": 5.3692
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 30,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-yassine-marseille",
+    "name": "Chez Yassine",
+    "address": "8 Rue d'Aubagne, 13001 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29952,
+      "lng": 5.3728
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "For the fish couscous on Sundays.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "hako-marseille",
+    "name": "Hako +",
+    "address": "218 Chem. du Roucas Blanc, 13007 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2951,
+      "lng": 5.37251
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "Perfect bento lunch.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chez-etienne-marseille",
+    "name": "Chez Etienne",
+    "address": "43 Rue Lorette, 13002 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29886,
+      "lng": 5.37194
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "We don't go to a restaurant, we go Chez Etienne, an institution.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "our-a-marseille",
+    "name": "Ouréa",
+    "address": "72 Rue de la Paix Marcel Paul, 13006 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2957,
+      "lng": 5.37239
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 30,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "shanghai-kitchen-marseille",
+    "name": "Shanghai Kitchen",
+    "address": "14 Cr Jean Ballard, 13001 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29749,
+      "lng": 5.36975
+    },
+    "cuisine_type": "Chinese",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "The best Chinese restaurant in Marseille.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "limmat-marseille",
+    "name": "Limmat",
+    "address": "41 Rue Estelle, 13006 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29421,
+      "lng": 5.3701
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "Modern primarily vegetable-centered cuisine.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-courtille-tavel-tavel",
+    "name": "La Courtille Tavel",
+    "address": "208 Chem. des Cravailleux, 30126 Tavel",
+    "city": "Tavel",
+    "country": "France",
+    "coordinates": {
+      "lat": 44.00105,
+      "lng": 4.69673
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "Great offal dishes in the heart of the vineyards.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "moun-marseille",
+    "name": "Mouné",
+    "address": "30 Rue Fortia, 13001 Marseille",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2992,
+      "lng": 5.36906
+    },
+    "cuisine_type": "Lebanese",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Victoria Gil & Guilhem Malisson",
+        "chef_restaurant": "",
+        "quote": "The best Lebanese restaurant in Marseille.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "bocca-nissa-nice",
+    "name": "Bocca Nissa",
+    "address": "3 Rue Saint-François de Paule, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71189,
+      "lng": 7.2612
+    },
+    "cuisine_type": "Mediterranean",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 30,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "comptoir-du-march-nice",
+    "name": "Comptoir du Marché",
+    "address": "8 Rue du Marché, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.70769,
+      "lng": 7.26139
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 30,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-bar-des-oiseaux-nice",
+    "name": "Le Bar des Oiseaux",
+    "address": "5 Rue Saint-Vincent, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.708,
+      "lng": 7.25992
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "Pop art decoration with an authentic feel.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-cave-du-fromager-nice",
+    "name": "La Cave du Fromager",
+    "address": "29 Rue Benoît Bunico, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71104,
+      "lng": 7.26318
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "The best fondue I have ever tasted! Best dish: Fondue",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "olive-artichaut-nice",
+    "name": "Olive & Artichaut",
+    "address": "6 Rue Sainte-Reparate, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.7081,
+      "lng": 7.26338
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 30,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "geppetto-nice",
+    "name": "Geppetto",
+    "address": "9 Rue Chauvain, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71021,
+      "lng": 7.2596
+    },
+    "cuisine_type": "Italian",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "Italian cuisine the way we like it! Best dish: Carbonara",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "peixes-nice",
+    "name": "Peixes",
+    "address": "4 Rue Jacques Médecin, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.7076,
+      "lng": 7.26321
+    },
+    "cuisine_type": "Seafood",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "Fresh seafood. Best dish: Ceviche",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "farago-on-the-roof-nice",
+    "name": "Farago on the roof",
+    "address": "Rooftop AC Hotel, 59 Prom. des Anglais, 06000 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71247,
+      "lng": 7.26394
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Catalin Indreica",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 30,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "le-glouphile-nice",
+    "name": "Le Glouphile",
+    "address": "41 Bd Stalingrad, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.7106,
+      "lng": 7.2594
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "Wine cellar and Spanish charcuterie.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-cave-rembrandt-nice",
+    "name": "La Cave Rembrandt",
+    "address": "54 Bd Général Louis Delfino, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71145,
+      "lng": 7.25937
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "Organic natural wine cellar.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "chabrol-nice",
+    "name": "Chabrol",
+    "address": "12 Rue Bavastro, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71168,
+      "lng": 7.25953
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "Charming restaurant and refined cuisine.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "rouge-nice",
+    "name": "ROUGE",
+    "address": "2 Rue de Foresta, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.71284,
+      "lng": 7.26189
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "Small sharing plates with port view. Best dish: Croquettes de parmesan",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "d-aqui-nice",
+    "name": "D'AQUI",
+    "address": "28 Rue Cassini, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.7083,
+      "lng": 7.25959
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "Socca-based Nissart street food.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
+    "last_updated": "2026-04-13"
+  },
+  {
+    "id": "la-treille-bar-a-vin-nice",
+    "name": "La treille bar a vin",
+    "address": "7 Rue Saint-Augustin, 06300 Nice",
+    "city": "Nice",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.70858,
+      "lng": 7.26323
+    },
+    "cuisine_type": "",
+    "price_range": "€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [
+      {
+        "chef_name": "Guillaume Tran-tu",
+        "chef_restaurant": "",
+        "quote": "Cheap sharing plates in Vieux Nice.",
+        "source": "The Chefs Restaurants Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
+      }
+    ],
+    "recommendation_count": 1,
+    "confidence_score": 35,
     "last_updated": "2026-04-13"
   }
 ]
