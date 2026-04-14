@@ -1,97 +1,887 @@
 [
   {
     "name": "Oli Bar",
-    "address": "Carrer d'en Guillem de Bruguera, 17488 Cadaqués",
+    "address": "Carrer d'en Guillem de Bruguera, 10, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
     "country": "Espagne",
-    "cuisine_type": "Contemporain / Méditerranéen",
-    "price_range": "€€€€",
-    "google_rating": 5.0,
-    "reviews_count": 49,
-    "recent_trend": "hausse",
-    "last_15_pattern": "14/15 en 5★ (1 avis 4/5 en janvier 2026)",
-    "latest_3_reviews": "5★ avril 2026, 5★ oct 2025, 5★ oct 2025",
-    "authenticity_score": "A",
-    "authenticity_notes": "Chef Monty cité nommément, reviewers multilingues avec historique, avis longs détaillés avec plats spécifiques, photos nombreuses.",
-    "highlights": "Nouveau restaurant dans un ancien moulin à huile (ouvert mai 2025). Cuisine audacieuse, chef formé à Londres. Service exceptionnel, accueil personnalisé.",
-    "recent_reviews_summary": "Avril 2026 : 'hidden gem dans une ruelle'. Tous les avis récents louent Chef Monty, créativité, ambiance.",
-    "recommended_dishes": ["Foie gras crème caramel", "Crudo de lubina", "Scotch egg", "Aged beef blue cheese", "Tarta Guinness"],
-    "best_for": ["dîner gastro", "expérience unique", "nouveau hype"]
-  },
-  {
-    "name": "Compartir",
-    "address": "Riera Sant Vicenç, 17488 Cadaqués",
-    "city": "Cadaqués",
-    "country": "Espagne",
-    "cuisine_type": "Gastronomique / Partage",
-    "price_range": "€€€€",
-    "google_rating": 4.6,
-    "reviews_count": 2100,
-    "recent_trend": "hausse",
-    "last_15_pattern": "10/15 en 5★ (67%) — dernier avis mars 2026 en 5★",
-    "latest_3_reviews": "5★ mars 2026, 5★ sept 2025, 5★ sept 2025",
-    "authenticity_score": "A",
-    "authenticity_notes": "2100 avis, volume massif. Chefs Casañas/Castro/Xatruch (ex-elBulli) cités dans les avis. Plats spécifiques mentionnés. Reviews en multiples langues.",
-    "highlights": "Par les ex-chefs d'elBulli (Disfrutar Barcelona). Plats pour partager au centre de table. Ambiance décontractée malgré la haute gastronomie.",
-    "recent_reviews_summary": "Mars 2026 : 'A jewel to discover!!'. Les derniers avis louent le canard, poisson, chocolat liquide. Régularité sur 13 ans. Quelques critiques isolées sur les prix.",
-    "recommended_dishes": ["Canneloni au thon", "Canard", "Poisson frais", "Chocolat liquide", "Sardines", "Riz noir"],
-    "best_for": ["haute gastronomie", "plats à partager", "cuisine créative", "occasion spéciale"]
-  },
-  {
-    "name": "Cadaq's",
-    "address": "Port de Cadaqués, 17488 Cadaqués",
-    "city": "Cadaqués",
-    "country": "Espagne",
-    "cuisine_type": "Méditerranéen",
+    "cuisine_type": "Restaurant",
     "price_range": "€€€",
     "google_rating": 4.9,
-    "reviews_count": 270,
+    "reviews_count": 454,
     "recent_trend": "hausse",
-    "last_15_pattern": "Majorité 5★ sur 2025-2026",
-    "latest_3_reviews": "Tous positifs ≥4★",
+    "last_15_pattern": "15/15 en 5★ (100%)",
+    "latest_review_date": "2026-04-13",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
     "authenticity_score": "A",
-    "authenticity_notes": "270 avis, volume élevé, propriétaire cité personnellement, styles variés, reviewers avec historique.",
-    "highlights": "Petit restaurant sur le port. Décoration chaleureuse. Accueil du propriétaire. Tout est fait maison, excellent rapport qualité-prix.",
-    "recent_reviews_summary": "Cuisine excellente, service rapide et attentionné, personnalité du propriétaire qui rend l'expérience chaleureuse.",
-    "recommended_dishes": ["Poisson frais du jour", "Tapas maison", "Desserts maison"],
-    "best_for": ["vue port", "ambiance chaleureuse", "homemade", "qualité-prix"]
+    "authenticity_notes": "10/15 avis avec texte détaillé, 2 avec photos, longueur moyenne 123 chars",
+    "recent_reviews_summary": "\"Nos encantó. Los platos no son abundantes, por eso pedimos 4 y el postre. No es barato, pero es comida fusión, de ahí el precio y sinceramente la combinación que hacen con los alim...\" — Lorena García Trinidad (2026-04-04) | \"Vam anar a sopar a l’Oli Bar, ens va sorprendre molt cap a bé, molt bon tracte per part de tot l’equip, joves, simpàtics i amb moltes ganes! El menjar al primer moment pot sorprend...\" — Aida Lluch (2026-04-05)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Nos encantó. Los platos no son abundantes, por eso pedimos 4 y el postre. No es barato, pero es comida fusión, de ahí el precio y sinceramente la combinación que hacen con los alimentos está francamente buena. La atención genial y el vino exquisito. ",
+        "author": "Lorena García Trinidad"
+      },
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Vam anar a sopar a l’Oli Bar, ens va sorprendre molt cap a bé, molt bon tracte per part de tot l’equip, joves, simpàtics i amb moltes ganes! El menjar al primer moment pot sorprendre la carta, ja que són plats una mica diferents, però ens van encanta",
+        "author": "Aida Lluch"
+      },
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Une expérience extraordinaire pour ce \"repas spectacle \" avec une vue imprenable sur les préparations!!\nPrésentation, saveurs et accueil sont au rendez-vous !\nNous recommandons très fortement !\nUne seule frustration...ne pas avoir pu goûter plus de p",
+        "author": "claire limousin"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2878329,
+      "lng": 3.275893
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Oli%20Bar&query_place_id=ChIJ8QZcQIhvuhIRWHoHwx0yS9o",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwegfwVVvoZm5kcfyYgNjxyIuaq6bKyNMmkTKVSV12cqQzw6AbactSRArC1urL8IMLUQkQ0CnflsFw9EvOnGLfbQ4Z7MuXwgzb80SHpGAYOdwXwc3VRFo5p8-IOUsRYIx2iX14bj_smwgc=w408-h272-k-no"
   },
   {
-    "name": "Vincle Cadaqués",
-    "address": "Carrer Vigilant 8, 17488 Cadaqués",
+    "name": "Restaurant Norai",
+    "address": "Carrer del Doctor Bartomeus, 37, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
     "country": "Espagne",
-    "cuisine_type": "Français / Méditerranéen fine dining",
-    "price_range": "€€€€",
+    "cuisine_type": "Fish restaurant",
+    "price_range": "€€€",
     "google_rating": 4.9,
-    "reviews_count": 220,
+    "reviews_count": 271,
     "recent_trend": "hausse",
-    "last_15_pattern": "Majorité 5★ (Restaurant Guru 220 avis)",
-    "latest_3_reviews": "5★ janvier 2026, 5★ oct 2025, 5★ oct 2025",
+    "last_15_pattern": "14/15 en 5★ (93%)",
+    "latest_review_date": "2026-04-12",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ],
     "authenticity_score": "A",
-    "authenticity_notes": "Chef Alexandre nommément cité. Plats spécifiques mentionnés (kokotxas, turbot, morilles). Salle voûtée décrite par plusieurs.",
-    "highlights": "Fine dining dans belle salle voûtée avec pierres apparentes et vue cuisine ouverte. Service jeune et dynamique, carte de vins excellente.",
-    "recent_reviews_summary": "Avis récents louent la cuisine délicieuse, la découverte d'une pépite. Plats innovants et artistiques.",
-    "recommended_dishes": ["Kokotxas de morue", "Mulet", "Turbot", "Morilles aux truffes", "Cake chocolat amandes"],
-    "best_for": ["fine dining", "occasion spéciale", "vins", "salle unique"]
+    "authenticity_notes": "10/15 avis avec texte détaillé, 4 avec photos, longueur moyenne 109 chars",
+    "recent_reviews_summary": "\"En lo posible reserva siempre está lleno, después de 3 días logramos hacer una reserva, nos recibió Juan el dueño nos aconsejo como eran los platos, pedimos entrante calabacín con ...\" — Chef Hilda Pelandino (2025-09-17) | \"Excel.lent tot. El propietari super amable i atès al mínim detall. El menjar d’increible qualitat, producte local i s’aprecia també el toque d’innovació.\nSóc valenciana i l’arròs h...\" — MARIA EUGÈNIA CONTELLES REBANAL (2026-04-12)",
+    "top_recent_quotes": [
+      {
+        "date": "2025-09-17",
+        "stars": 5,
+        "text": "En lo posible reserva siempre está lleno, después de 3 días logramos hacer una reserva, nos recibió Juan el dueño nos aconsejo como eran los platos, pedimos entrante calabacín con queso de cabra y un toque de trufas una explosión de sabores únicos.\n\n",
+        "author": "Chef Hilda Pelandino"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Excel.lent tot. El propietari super amable i atès al mínim detall. El menjar d’increible qualitat, producte local i s’aprecia també el toque d’innovació.\nSóc valenciana i l’arròs ho fan perfecte al punt i super aconseguit el sabor.\nL’ambient tranquil",
+        "author": "MARIA EUGÈNIA CONTELLES REBANAL"
+      },
+      {
+        "date": "2025-09-11",
+        "stars": 5,
+        "text": "Fuimos a comer cuatro personas. Pedimos unos entrantes y dos paellas (una marinera y otra mixta). Estaba todo exquisito. Los productos de gran calidad y la atención perfecta. Un sitio más que recomendable.",
+        "author": "Álvaro G. Buiza"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2828878,
+      "lng": 3.2756919
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Norai&query_place_id=ChIJwQ5wl_VvuhIROf1eUAGS9gc",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUS1brUDgApXdGbE0hErgeNwHCJHwG8uhcYrmXlu1fQ7RI2HE5MACoI0YftIzN3FclqU6QUBBL9C-sTTzsSFO3W_ba3p8kPfezwEJmOUybis6FQTBeHDYVUDvtNm8HmaGp=w408-h306-k-no"
   },
   {
-    "name": "El Sueño",
-    "address": "Cadaqués centre, 17488 Cadaqués",
+    "name": "Celeste",
+    "address": "Carrer Nou, 1, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
     "country": "Espagne",
-    "cuisine_type": "Contemporain",
+    "cuisine_type": "Italian restaurant",
     "price_range": "€€€",
     "google_rating": 4.8,
-    "reviews_count": 116,
+    "reviews_count": 1520,
     "recent_trend": "hausse",
-    "last_15_pattern": "Très majoritaire 5★",
-    "latest_3_reviews": "Tous ≥4★",
+    "last_15_pattern": "15/15 en 5★ (100%)",
+    "latest_review_date": "2026-04-12",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
     "authenticity_score": "A",
-    "authenticity_notes": "Ouvert février 2024, propriétaires néerlandais cités, 116 avis variés. Plats spécifiques mentionnés.",
-    "highlights": "Restaurant moderne ouvert début 2024 par des propriétaires néerlandais expérimentés. Cadre impeccable, tout frais et fait maison (sauces incluses).",
-    "recent_reviews_summary": "Service au top, food délicieuse, plats ultra-frais. Attention aux détails soulignée.",
-    "recommended_dishes": ["Plats frais du marché", "Sauces maison"],
-    "best_for": ["cuisine moderne", "fait maison", "cadre soigné"]
+    "authenticity_notes": "13/15 avis avec texte détaillé, 4 avec photos, longueur moyenne 214 chars",
+    "recent_reviews_summary": "\"Paramos por casualidad de forma espontánea sin mirar las reseñas, ese tipo de sitios que nada más mirar un poco adentro, te da buena sensación. Atención y comida de diez (pedimos s...\" — Sandra Garrido (2026-03-24) | \"This place is a not-so-hidden gem. The atmosphere is lovely (small, cozy, candle lit) the food is very afforadable and delicious: I ordered the octopus pasta for 14 euros and it wa...\" — Chris Robinson (2026-03-29)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-24",
+        "stars": 5,
+        "text": "Paramos por casualidad de forma espontánea sin mirar las reseñas, ese tipo de sitios que nada más mirar un poco adentro, te da buena sensación. Atención y comida de diez (pedimos spaghetti pulpo, por recomendación del camarero, tiramisú y café, y ni ",
+        "author": "Sandra Garrido"
+      },
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "This place is a not-so-hidden gem. The atmosphere is lovely (small, cozy, candle lit) the food is very afforadable and delicious: I ordered the octopus pasta for 14 euros and it was a surprisingly big portion with a lot of fresh octopus. We were plan",
+        "author": "Chris Robinson"
+      },
+      {
+        "date": "2026-01-02",
+        "stars": 5,
+        "text": "Estic enamorada d’aquest lloc. Ho recomano 100%! Qualitat preu genial. El menjar esta absolutament riquíssim i no passaràs pas gana.\nLa Gemma una dona maquíssima sempre molt atenta amb els seus clients.\nOs recomano el ceviche de tunyina i qualsevol d",
+        "author": "Sara G-M F"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.287275,
+      "lng": 3.2755124
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Celeste&query_place_id=ChIJ7VhRzEFvuhIRsSEyaRR1vS0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1LP6KkGAGr1oICGDL_tiEQ_WlavKFthkhixnNsVYrjggx9mb3UW-ACCnEd2IYA9-Qs2oGaWDf0opDLFMw5mCEDNm_oYkSTpW1GCgkRufMHsjoMZdw0A9U6D8iiSwyraX3FtxgDRcTWchD=w426-h240-k-no"
+  },
+  {
+    "name": "Cadaq’s",
+    "address": "Plaça del Passeig, 3, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.8,
+    "reviews_count": 1067,
+    "recent_trend": "hausse",
+    "last_15_pattern": "12/15 en 5★ (80%)",
+    "latest_review_date": "2026-04-14",
+    "recent_stars": [
+      4,
+      5,
+      5,
+      5,
+      4,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "A",
+    "authenticity_notes": "10/15 avis avec texte détaillé, 5 avec photos, longueur moyenne 96 chars",
+    "recent_reviews_summary": "\"Ich hatte das große Glück, dieses wunderbare Familienrestaurant zu entdecken, und bin absolut begeistert! Das Essen ist authentisch und unglaublich lecker, mit frisch zubereiteten ...\" — Stephanie Szoltysek (2026-04-06) | \"Excellent food and very warm service, they are on top of everything. We ordered some croquetas to start (all of them delicious - couldnt decide which one was best - jamon, gorgonzo...\" — lluc pc (2026-04-12)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-06",
+        "stars": 5,
+        "text": "Ich hatte das große Glück, dieses wunderbare Familienrestaurant zu entdecken, und bin absolut begeistert! Das Essen ist authentisch und unglaublich lecker, mit frisch zubereiteten Zutaten, die den Geschmack perfekt unterstreichen. Man merkt sofort, d",
+        "author": "Stephanie Szoltysek"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Excellent food and very warm service, they are on top of everything. We ordered some croquetas to start (all of them delicious - couldnt decide which one was best - jamon, gorgonzola or chicken). And we went for the poke bowls, delicious!",
+        "author": "lluc pc"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Arrivés à 9 avec 2 chiens sans réservation, le patron nous fait une place en terrasse! Adorable et surtout très très bon !!",
+        "author": "Claire Moiroud"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2891002,
+      "lng": 3.2781429
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cadaq%E2%80%99s&query_place_id=ChIJH5l1gMtvuhIR-phT4h004AE",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEkNR_FVft69tl3VJCNeOL-R-Yv3MGKGNGgGRbR5eyl4gp1TE-sAgPsxGw-Y1uXLBXZsGqLpgUGuTS3iYIxOJQnsZETsRoWQwd73UofBTG6L8142k0ijKMiPn48k0euVEKwnlViQ=w408-h408-k-no"
+  },
+  {
+    "name": "Restaurant El Viatge",
+    "address": "Plaça del Dr. Pont, 5, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.8,
+    "reviews_count": 918,
+    "recent_trend": "hausse",
+    "last_15_pattern": "13/15 en 5★ (87%)",
+    "latest_review_date": "2026-04-13",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "A",
+    "authenticity_notes": "13/15 avis avec texte détaillé, 4 avec photos, longueur moyenne 146 chars",
+    "recent_reviews_summary": "\"Un super moment dans ce délicieux restaurant.\nLe resto est vraiment joli, l’ambiance sympa, et la cuisine délicieuse ! Les serveurs sont aussi très sympathiques et efficaces.\nOn pe...\" — Ribes Diane-Elody (2026-03-22) | \"A fusion restaurant in the touristic center of Cadaqués - what could possibly go wrong. Well, almost everything but somehow here it does not. Instead it is fusion done right, i.e. ...\" — Art Lukas (2026-03-22)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-22",
+        "stars": 5,
+        "text": "Un super moment dans ce délicieux restaurant.\nLe resto est vraiment joli, l’ambiance sympa, et la cuisine délicieuse ! Les serveurs sont aussi très sympathiques et efficaces.\nOn peut voir les cuisiniers travailler, avec leur barbecue. La nourriture e",
+        "author": "Ribes Diane-Elody"
+      },
+      {
+        "date": "2026-03-22",
+        "stars": 5,
+        "text": "A fusion restaurant in the touristic center of Cadaqués - what could possibly go wrong. Well, almost everything but somehow here it does not. Instead it is fusion done right, i.e. the best parts of the world cuisine are used and combined. The result ",
+        "author": "Art Lukas"
+      },
+      {
+        "date": "2026-01-22",
+        "stars": 5,
+        "text": "Fui este verano con una amiga y la experiencia fue inmejorable a pesar de ser pleno Agosto!\nProbamos bastantes platos y todos estaban riquísimos, originales y con una presentación preciosa.\nEl trato por parte del servicio fue estupendo.\nLa ubicación ",
+        "author": "Celia López"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.287582,
+      "lng": 3.2758234
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20El%20Viatge&query_place_id=ChIJ8UpJk59vuhIRmgRrs0OoOOk",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVLqU56HF_CUV4E0-Nip1CjzUb1YmYNUsUtTyhIOnmgwj0GQNvSiTPNdX3hrDjCiMaEYBlMek4NW_fFW57bv5Ayfd39d4Hna0erGwRr-wF624-4g0vXlPgHCXWEdnap9gAhPHd=w408-h305-k-no"
+  },
+  {
+    "name": "Restaurant Es Grec",
+    "address": "Carrer Unió, 11, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 602,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★ (93%)",
+    "latest_review_date": "2026-04-09",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "A",
+    "authenticity_notes": "12/15 avis avec texte détaillé, 2 avec photos, longueur moyenne 218 chars",
+    "recent_reviews_summary": "\"Fuimos a comer un sábado y salimos encantados. Reservé porque vi muy buenas reseñas en google maps y sin duda fue todo un acierto.\n\nPedimos los mejillones que, a pesar de ser peque...\" — Oscar HG (2026-04-09) | \"Por recomendación , tuvimos la gran suerte que pudimos cenar aqui en nuestra primera vez en Cadaqués !!!\nEscogimos un arroz  con un carpaccio de gamba por encima que eso señores no...\" — Vanessa Baseca (2025-09-08)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "Fuimos a comer un sábado y salimos encantados. Reservé porque vi muy buenas reseñas en google maps y sin duda fue todo un acierto.\n\nPedimos los mejillones que, a pesar de ser pequeños, estaban llenos de sabor. Y el gyros que es una especie de kebab g",
+        "author": "Oscar HG"
+      },
+      {
+        "date": "2025-09-08",
+        "stars": 5,
+        "text": "Por recomendación , tuvimos la gran suerte que pudimos cenar aqui en nuestra primera vez en Cadaqués !!!\nEscogimos un arroz  con un carpaccio de gamba por encima que eso señores no lo he visto en ningún otro sitio! Buenísimo ! El marisco se nota que ",
+        "author": "Vanessa Baseca"
+      },
+      {
+        "date": "2025-08-27",
+        "stars": 5,
+        "text": "Hoy hemos visitado Cadaqués, el pueblo estaba a rebosar de gente y llegamos sin reserva. Paseando por una de sus calles descubrimos este pequeño restaurante y decidimos probar suerte. La elección no pudo ser mejor: unos mejillones pequeños, carnosos ",
+        "author": "Marga"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2890248,
+      "lng": 3.2758449
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Es%20Grec&query_place_id=ChIJ04BJYmpvuhIRI3NLJli8_eM",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6KPLoiTEyz3JQ1D-Ad4rqhl_1kwBZHSLRAy1FOAG6rcRHco8wckuSh79jdIGNDxxJe4PcBDw5JlkSx5GjVcTx3EhfAQCO8d7F0tZ-aLXIgkSkhJhGZ4_UZXs1RC64sTwI16-r=w426-h240-k-no"
+  },
+  {
+    "name": "El Gato Azul",
+    "address": "Carrer Curós, 10, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 597,
+    "recent_trend": "hausse",
+    "last_15_pattern": "15/15 en 5★ (100%)",
+    "latest_review_date": "2026-04-12",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "A",
+    "authenticity_notes": "13/15 avis avec texte détaillé, 1 avec photos, longueur moyenne 178 chars",
+    "recent_reviews_summary": "\"¡Nos ha encantado! La comida estaba muy rica y el hombre que nos atendió fue muy amable y nos preguntó varias veces que tal estaba la comida o si necesitabamos algo mas.\nCogimos la...\" — Tania Romero (2026-04-05) | \"C’était vraiment délicieux Le serveur était très sympathique ainsi que la cuisinière ambiance hyper sympathique très mignon, restaurant un petit peu Petit je recommande très fortem...\" — Emilie Cambournac (2026-04-09)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "¡Nos ha encantado! La comida estaba muy rica y el hombre que nos atendió fue muy amable y nos preguntó varias veces que tal estaba la comida o si necesitabamos algo mas.\nCogimos la bandeja de caprichos libaneses (el humos de lentejas lo mejor!) Nos f",
+        "author": "Tania Romero"
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "C’était vraiment délicieux Le serveur était très sympathique ainsi que la cuisinière ambiance hyper sympathique très mignon, restaurant un petit peu Petit je recommande très fortement ce restaurant car il est vraiment délicieux, on a adoré, on s’est ",
+        "author": "Emilie Cambournac"
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "C’était délicieux, on s’est régalé avec une joue de bœuf exceptionnelle. Restaurant très mignon et très convivial. Pas beaucoup de couverts. Ils ne sont que deux mais travaillent bien et rapidement. Je recommande ce couple de restaurateur.",
+        "author": "Edouard rabineau"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.288085,
+      "lng": 3.276306
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=El%20Gato%20Azul&query_place_id=ChIJPU0mKkBvuhIRhKlAtg9yMms",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6Zmnjp_ZrME1_lBXGJw47zcmxlEuZ90etKM2lLCigklz6BXW_SAqeDiqzOFk0rUd_lpF6MIkC9XoQbo8PFoAzUmcTkyJTc02jdevyqZckFcbogrPI-ntWeXFqYsFo5pATXNEvUQ=w408-h306-k-no"
+  },
+  {
+    "name": "El Rebost de Cadaqués",
+    "address": "Carrer Miquel Rosset, 13, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 428,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★ (93%)",
+    "latest_review_date": "2026-04-08",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "A",
+    "authenticity_notes": "13/15 avis avec texte détaillé, 5 avec photos, longueur moyenne 271 chars",
+    "recent_reviews_summary": "\"Quelle magnifique découverte 🥰\nHabitués de Cadaques cela fais quelques temps que nous voulions tester EL REBOST ce petit restaurant intimiste un peu a l'écart des \"attrapes tourist...\" — Dylewski Romain (2026-04-08) | \"Un imprescindible si viajas a Cadaqués y una experiencia increíble. Local pequeño y muy acogedor, de esos que ya no se encuentran y en los que apetece quedarse y disfrutar sin pris...\" — Victoria Adsuara Lopez (2026-03-24)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Quelle magnifique découverte 🥰\nHabitués de Cadaques cela fais quelques temps que nous voulions tester EL REBOST ce petit restaurant intimiste un peu a l'écart des \"attrapes touristes\"....de l'accueil, a la présentation des plats par Aniol qui est un ",
+        "author": "Dylewski Romain"
+      },
+      {
+        "date": "2026-03-24",
+        "stars": 5,
+        "text": "Un imprescindible si viajas a Cadaqués y una experiencia increíble. Local pequeño y muy acogedor, de esos que ya no se encuentran y en los que apetece quedarse y disfrutar sin prisas. Me recibió Aniol, el dueño, y su único objetivo fue que estuviera ",
+        "author": "Victoria Adsuara Lopez"
+      },
+      {
+        "date": "2026-03-22",
+        "stars": 5,
+        "text": "Nous avons passé un merveilleux dîner dans ce restaurant où le chef est aux petits soins avec ses clients. Il explique absolument tous ces plats, propose des ajustements, s’adapte au client. Pour un repas tout simplement excellent, les entrées tapas ",
+        "author": "Mathilde Grand"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.290125,
+      "lng": 3.2781287
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=El%20Rebost%20de%20Cadaqu%C3%A9s&query_place_id=ChIJtdxqYfFvuhIR49R_ysMvqBc",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwxagnkbHFjunObhpdUkb1bdMYKog9Zwn63NI7S7p7wtYWcNEQe0In0ioA1Geh2FPBCozNwF_Iljn5m7vZXi4mtcIWnA7qEb0Dnht5GjxxZ5QnIyDsqbyxLGgi08ZUsYHBDusYSA=w425-h240-k-no"
+  },
+  {
+    "name": "ReMei - Restaurant Cadaqués",
+    "address": "RIBA DES PIANC, 11, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 397,
+    "recent_trend": "hausse",
+    "last_15_pattern": "15/15 en 5★ (100%)",
+    "latest_review_date": "2026-04-13",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "B",
+    "authenticity_notes": "9/15 avis avec texte détaillé, 3 avec photos, longueur moyenne 93 chars",
+    "recent_reviews_summary": "\"El restaurant és preciós i té unes vistes fantàstiques. En el nostre cas vam decidir sopar a la barra i ens va encantar l’ambient tan proper. El menjar estava espectacular i les ra...\" — Anna Sánchez Miró (2026-04-07) | \"Such a cozy place with very friendly staff. The food was absolutely delicious and everything was prepared with care.\n\nYou can really feel the warmth and care they put into everythi...\" — Eli Krawinckel (2026-04-02)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-07",
+        "stars": 5,
+        "text": "El restaurant és preciós i té unes vistes fantàstiques. En el nostre cas vam decidir sopar a la barra i ens va encantar l’ambient tan proper. El menjar estava espectacular i les racions molt proporcionades. El servei va ser excel·lent i les recomanac",
+        "author": "Anna Sánchez Miró"
+      },
+      {
+        "date": "2026-04-02",
+        "stars": 5,
+        "text": "Such a cozy place with very friendly staff. The food was absolutely delicious and everything was prepared with care.\n\nYou can really feel the warmth and care they put into everything they do. We truly enjoyed our time here and would definitely recomm",
+        "author": "Eli Krawinckel"
+      },
+      {
+        "date": "2026-04-13",
+        "stars": 5,
+        "text": "Primera vegada que ha estat una gran sorpresa. Un restaurant petit i elegant amb una carta original i deliciosa servida per un equip de professionals de 5 estrelles, a cuina i a sala. Aneu-hi!",
+        "author": "Mike Ribalta"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2874695,
+      "lng": 3.281856
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=ReMei%20-%20Restaurant%20Cadaqu%C3%A9s&query_place_id=ChIJp44wHcNvuhIRtkSX6VrGcE0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFP3t5DJF86Npfj_eEdSc_lnGlMAiNyyr9WrBmyO0V56HvN9z02mDHS022popapxD-Zro3en1lgwKP7OX0ce7ZzCNsz_yzhoeqUX2YLFiro0qxI9xFRWPz9D_PhTjx6W5G1OBlbEiCmc0L1=w408-h544-k-no"
+  },
+  {
+    "name": "Restaurant Vincle Cadaqués",
+    "address": "Carrer Vigilant, 8, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Mediterranean restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 227,
+    "recent_trend": "hausse",
+    "last_15_pattern": "11/15 en 5★ (73%)",
+    "latest_review_date": "2026-04-08",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      3,
+      5,
+      4,
+      5,
+      1,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "B",
+    "authenticity_notes": "9/15 avis avec texte détaillé, 2 avec photos, longueur moyenne 151 chars",
+    "recent_reviews_summary": "\"Increíble! El restaurante es precioso, la comida espectacular, cada plato superó al anterior . Lo mejor sin duda fue la atención de la camarera, que por cierto me ayudó con un plat...\" — Belita Cedeño (2026-04-04) | \"Petit restaurant tenu par un jeune chef de la région. Sa cuisine met l'accent sur des ingrédients de grande qualité, notamment des produits de saison et locaux. Ne manquez pas les ...\" — Norberto Courcy (2026-03-30)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Increíble! El restaurante es precioso, la comida espectacular, cada plato superó al anterior . Lo mejor sin duda fue la atención de la camarera, que por cierto me ayudó con un plato especial, ya que justo me había enfermado y no podía comer de todo. ",
+        "author": "Belita Cedeño"
+      },
+      {
+        "date": "2026-03-30",
+        "stars": 5,
+        "text": "Petit restaurant tenu par un jeune chef de la région. Sa cuisine met l'accent sur des ingrédients de grande qualité, notamment des produits de saison et locaux. Ne manquez pas les morilles à la crème et à la \"poudre de foie gras\".",
+        "author": "Norberto Courcy"
+      },
+      {
+        "date": "2026-02-21",
+        "stars": 5,
+        "text": "Ce restaurant est vraiment une pépite !\nNous avons été très bien accueillis.\nLa cuisine est excellente, mention spéciale pour les croquettes de crevettes et le gâteau au chocolat praliné.\nUne très belle expérience",
+        "author": "Marion Thomas"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2886832,
+      "lng": 3.2769862
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Vincle%20Cadaqu%C3%A9s&query_place_id=ChIJ_3hSAgBvuhIR54PJSoVXUhs",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_XJ5wlsvsPoWchrU--tNgBghpoU-8jxTuMgaFTQBnUIgs5TwhJSZe5UD2LbdUmlOhynwAh4ybrfj-zDyRI5LHwsVUZZ7AGI5fZcZ-aActJffFqqSO5jxPBTKglNfJCyz7BXaX3b70w44=w408-h544-k-no"
+  },
+  {
+    "name": "El Sueño, Cadaqués",
+    "address": "Avinguda Caritat Serinyana, 13, Baixos, Local 4, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 184,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★ (93%)",
+    "latest_review_date": "2026-04-09",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      5,
+      5
+    ],
+    "authenticity_score": "A",
+    "authenticity_notes": "13/15 avis avec texte détaillé, 5 avec photos, longueur moyenne 144 chars",
+    "recent_reviews_summary": "\"Hemos comido allí\nEl trato ha sido excelente.\nSon pet friendly, así que esi estás por la zona con tu peludo es de agradecer.\nHe visto que hay muchos comentarios sobre las raciones,...\" — Laura Garcia Rodriguez (2026-03-01) | \"Un lugar muy agradable, con un servicio muy atento y simpático. Atendieron nuestras peticiones sin problema, como por ejemplo sacar todos los platos a la vez. Tomamos tanto tapas c...\" — Xavier Fa (2026-04-05)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-01",
+        "stars": 5,
+        "text": "Hemos comido allí\nEl trato ha sido excelente.\nSon pet friendly, así que esi estás por la zona con tu peludo es de agradecer.\nHe visto que hay muchos comentarios sobre las raciones,en mi opinión, yo las he visto normales, teniendo en cuenta que estás ",
+        "author": "Laura Garcia Rodriguez"
+      },
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Un lugar muy agradable, con un servicio muy atento y simpático. Atendieron nuestras peticiones sin problema, como por ejemplo sacar todos los platos a la vez. Tomamos tanto tapas como plato principal como cócteles y todo fue muy bien. Todos los plato",
+        "author": "Xavier Fa"
+      },
+      {
+        "date": "2026-04-06",
+        "stars": 5,
+        "text": "Absolutely loved El Sueño in Cadaqués. Super chill atmosphere, great vibe all around. Food was tasty and honestly, for the quality you get, the prices are more than fair. Oh, and the Moscow Mule... not only does it look amazing, it actually tastes ju",
+        "author": "Bart Verstegen"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2897786,
+      "lng": 3.2766902
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=El%20Sue%C3%B1o%2C%20Cadaqu%C3%A9s&query_place_id=ChIJ91uXZU9vuhIRbJcIvO-k9_I",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9dLi1Bt3xfOjhPFVpoUZoD3QxhMtgbPmjtf1Ia3m9LoqlPGahzGp9rWjOMCLh9jzWxa6mRkkZlYzLmzJ14Q3EwiGXakyDU_-vQmVmz0bj6P6nJd6bAaXpHzCLoFb5qT89ynfAeQAPg1Xy=w408-h261-k-no"
+  },
+  {
+    "name": "Talla Restaurant",
+    "address": "Riba Pitxot, 18, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.6,
+    "reviews_count": 1966,
+    "recent_trend": "hausse",
+    "last_15_pattern": "13/15 en 5★ (87%)",
+    "latest_review_date": "2026-04-13",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      1,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "B",
+    "authenticity_notes": "8/15 avis avec texte détaillé, 1 avec photos, longueur moyenne 154 chars",
+    "recent_reviews_summary": "\"Dos anys perseguint el moment d’aconseguir taula al Talla, i finalment arriba. La recomanació d’uns bons amics ens hi porta, i ja d’entrada l’escena acompanya: taula llarga, estova...\" — Roger Llopis (2026-04-09) | \"Nos encanta, un imprescindible de Cadaqués.\nQue pediríamos CASI todo.\nExcepto la tapa entrante: tosta de buey de mar. La cantidad del entrante a pesar de ser un entrante rico, la c...\" — Guillermo Mena (2026-04-09)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "Dos anys perseguint el moment d’aconseguir taula al Talla, i finalment arriba. La recomanació d’uns bons amics ens hi porta, i ja d’entrada l’escena acompanya: taula llarga, estovalles blanques impecables i una sensació de calma que convida a parar a",
+        "author": "Roger Llopis"
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "Nos encanta, un imprescindible de Cadaqués.\nQue pediríamos CASI todo.\nExcepto la tapa entrante: tosta de buey de mar. La cantidad del entrante a pesar de ser un entrante rico, la cantidad es muy muy justa, subir el precio con más cantidad de producto",
+        "author": "Guillermo Mena"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Ce restaurant mérite certainement plusieurs étoiles. Une cuisine aussi délicate que délicieuse face à un cadre extraordinaire. Bravo et merci à toutes l’équipe pour faire décoller les sens!",
+        "author": "Marie Fertin"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2862052,
+      "lng": 3.2763502
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Talla%20Restaurant&query_place_id=ChIJAQAAwBRvuhIRtJf6xerD6-M",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKqhBP_XNRxPW1ARS2nJSz7gWx5w5nDpFMlH9ttTMudkj3Qeiz7mo3Nyog6N0O05Y61WeUPGGmLuJIVpS93KUz1BH36SR5_X9dX06ly6odFkUDwozkuUsZtxfGdnDqvp0-1b6Z=w408-h306-k-no"
+  },
+  {
+    "name": "Lua Cadaqués",
+    "address": "Carrer de Santa Maria, 1, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.6,
+    "reviews_count": 877,
+    "recent_trend": "hausse",
+    "last_15_pattern": "15/15 en 5★ (100%)",
+    "latest_review_date": "2026-04-13",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "B",
+    "authenticity_notes": "9/15 avis avec texte détaillé, 3 avec photos, longueur moyenne 90 chars",
+    "recent_reviews_summary": "\"Da gusto ver un auténtico restaurante familiar entre tantas tourist trap! Nos gustó mucho la comida. En este caso el precio sí nos pareció justificado de acuerdo a la calidad de la...\" — Axdan 8 (2026-04-08) | \"An incredible restaurant in Cadaqués, a real hidden gem. We had the avocado and tomato salad, followed by the mango and coconut dessert and the chestnut tiramisù. Everything was ma...\" — 15gdetortilla (2025-10-11)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Da gusto ver un auténtico restaurante familiar entre tantas tourist trap! Nos gustó mucho la comida. En este caso el precio sí nos pareció justificado de acuerdo a la calidad de la misma. Además nos gustó especialmente la atención de las camareras, ¡",
+        "author": "Axdan 8"
+      },
+      {
+        "date": "2025-10-11",
+        "stars": 5,
+        "text": "An incredible restaurant in Cadaqués, a real hidden gem. We had the avocado and tomato salad, followed by the mango and coconut dessert and the chestnut tiramisù. Everything was made with top-quality ingredients and the service was outstanding. Plus,",
+        "author": "15gdetortilla"
+      },
+      {
+        "date": "2026-03-24",
+        "stars": 5,
+        "text": "Una grata sorpresa con comida diferente y de mucha calidad. Destacar la focaccia de mortadela. El servicio y la atención muy bueno. ¡Para repetir!",
+        "author": "Carmen Atienzar"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2877966,
+      "lng": 3.2767326
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Lua%20Cadaqu%C3%A9s&query_place_id=ChIJV34yqvtvuhIRdnlqjDR9R3E",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4umBVZfRs4nIk4pESK2B-QiTuVUhji5kS6VrVQH9ci0SJCljWZo9oAIt-KmLUSoljkqKcatxJYfSI1JrjS4prWkbAJ_kdgshOSroB9Cq1jrIxUFMNcBQg0xwZjbMG2vXMfuNs=w408-h306-k-no"
+  },
+  {
+    "name": "Restaurant Nord Est",
+    "address": "Pujada des Pianc, 5, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.5,
+    "reviews_count": 4840,
+    "recent_trend": "hausse",
+    "last_15_pattern": "12/15 en 5★ (80%)",
+    "latest_review_date": "2026-04-13",
+    "recent_stars": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "authenticity_score": "A",
+    "authenticity_notes": "13/15 avis avec texte détaillé, 2 avec photos, longueur moyenne 90 chars",
+    "recent_reviews_summary": "\"Belle adresse à Cadaques. Bons produits dans les assiettes et service avec Namo au top. 2ème fois que nous venons et bien sûr nous y reviendrons. Belle salle de restaurant bien déc...\" — Thierry Villat (2026-04-12) | \"Fely nos  dio un servicio especial, ha sido muy atenta y paciente. La comida ha estado a la altura, hay relación calidad - precio....\" — Carlos Alberto Castaño Torres (2026-04-11)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Belle adresse à Cadaques. Bons produits dans les assiettes et service avec Namo au top. 2ème fois que nous venons et bien sûr nous y reviendrons. Belle salle de restaurant bien décorée.",
+        "author": "Thierry Villat"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Fely nos  dio un servicio especial, ha sido muy atenta y paciente. La comida ha estado a la altura, hay relación calidad - precio.",
+        "author": "Carlos Alberto Castaño Torres"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Comida muy buena, servicio bueno, el camarero Nano nos atendió muy bien, hemos venido más veces y volveremos, lo recomiendo",
+        "author": "Ani Arakelyan"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.288217,
+      "lng": 3.2810118
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Nord%20Est&query_place_id=ChIJX3mLOklvuhIRdcWYnKHAzus",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9SqjrkLzjXzCMtfH5-UFp2rH5Qym-Vc1kLYFc7G4wC6BMBA8Hk9L534UWGlUP6KDMpCzqCw6-LP79ecUZfSlnZ47QV39gNclvFR-WnW5OqW74-BmRvd5A0GIJJ3RoZJpiUpvl=w408-h306-k-no"
+  },
+  {
+    "name": "Restaurant Es Baluard",
+    "address": "Riba Nemesi Llorens, 2, 17488 Cadaqués, Girona, Spain",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Mediterranean restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.5,
+    "reviews_count": 877,
+    "recent_trend": "hausse",
+    "last_15_pattern": "12/15 en 5★ (80%)",
+    "latest_review_date": "2026-04-10",
+    "recent_stars": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      4,
+      5,
+      5,
+      4
+    ],
+    "authenticity_score": "A",
+    "authenticity_notes": "12/15 avis avec texte détaillé, 3 avec photos, longueur moyenne 166 chars",
+    "recent_reviews_summary": "\"Es Baluard es un restaurante imprescindible en Cadaqués, ubicado en una localización emblemática con vistas privilegiadas. Tuvimos la suerte de sentarnos en una mesa junto a la ven...\" — Gonzalo Rodríguez Sevilla (2026-04-05) | \"Siempre es un placer vstar este lugar, hoy a sido algo diferente poque han sufrido una perdida hace poco de unos de sus pilares fundamentales en el negocio. Sin embargo y gracias a...\" — Josema (2026-03-22)",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Es Baluard es un restaurante imprescindible en Cadaqués, ubicado en una localización emblemática con vistas privilegiadas. Tuvimos la suerte de sentarnos en una mesa junto a la ventana, disfrutando de unas vistas espectaculares a la playa de Cadaqués",
+        "author": "Gonzalo Rodríguez Sevilla"
+      },
+      {
+        "date": "2026-03-22",
+        "stars": 5,
+        "text": "Siempre es un placer vstar este lugar, hoy a sido algo diferente poque han sufrido una perdida hace poco de unos de sus pilares fundamentales en el negocio. Sin embargo y gracias al esfuerzo de Aina sigue siendo el mejor sitio de Cadaqués.\nEl teu esf",
+        "author": "Josema"
+      },
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Excelente comida, servicio y lugar. El arroz de centollo tenía un sabor muy potente, nos ha encantado. El servicio muy atento. El lugar simplemente precioso, bonita decoración, luz natural. Sin duda repetiremos.",
+        "author": "Claudia De Miguel Martínez"
+      }
+    ],
+    "coordinates": {
+      "lat": 42.2880942,
+      "lng": 3.2770355
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Es%20Baluard&query_place_id=ChIJdQEds2pvuhIRo5bwTJJDrdc",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0YWnrq1iYtWLMKvzPNSidU_g-mVdaY2mYQux7dFEK_Ru-pH5NZKNV37jJ_w5vGpOXSYrp1fLqB42z7g5Gr8whc5J4jWFpKCNHG4g4eg1ooKTbnmQrbH9WCxX_CH-IdEzQE9mN=w408-h272-k-no"
   }
 ]
