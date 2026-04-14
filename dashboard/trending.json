@@ -1,570 +1,74 @@
 [
   {
-    "name": "Compartir",
-    "address": "Carrer de la Unio, s/n, 17488 Cadaques",
-    "city": "Cadaques",
+    "name": "Oli Bar",
+    "address": "Carrer d'en Guillem de Bruguera, 17488 Cadaqués",
+    "city": "Cadaqués",
     "country": "Espagne",
-    "cuisine_type": "Mediterraneenne moderne / Tapas gastronomiques",
-    "google_rating": 4.6,
-    "reviews_count": 2100,
-    "recent_trend": "stable",
-    "authenticity_score": "A",
-    "authenticity_notes": "Avis tres varies en style et longueur, nombreuses photos de plats, reviewers avec historique solide, mix de langues (catalan, espagnol, anglais, francais). Quelques critiques sur les prix ce qui renforce l'authenticite. Restaurant Michelin Guide, fonde par 3 ex-chefs d'El Bulli (Mateu Casanas, Oriol Castro, Eduard Xatruch).",
-    "highlights": "Cuisine creative a partager, ingredients locaux de saison, patio charmant, carte des vins exceptionnelle",
-    "recent_reviews_summary": "Les clients louent unanimement la qualite des plats a partager, la creativite des preparations et le cadre decontracte mais raffine. Budget 60-88 EUR/personne. Reservation indispensable en saison. Quelques remarques sur les prix eleves mais la qualite justifie.",
-    "recommended_dishes": [
-      "Huitres",
-      "Riz de saison",
-      "Plats a partager du menu degustation"
-    ],
-    "price_range": "EUR EUR EUR EUR",
-    "best_for": [
-      "diner gastronomique decontracte",
-      "occasion speciale",
-      "cuisine creative"
-    ]
-  },
-  {
-    "name": "Talla Cadaques",
-    "address": "Riba des Poal, s/n, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Mediterraneenne / Tapas de marche",
-    "google_rating": 4.5,
-    "reviews_count": 1400,
+    "cuisine_type": "Contemporain / Méditerranéen",
+    "price_range": "€€€€",
+    "google_rating": 5.0,
+    "reviews_count": 49,
     "recent_trend": "hausse",
+    "last_10_reviews_pattern": "10/10 en 5 étoiles sauf un seul 4/5 en janvier 2026 (note 'stress de cuisine' mais qualité nourriture 5/5)",
     "authenticity_score": "A",
-    "authenticity_notes": "Avis detailles mentionnant des plats specifiques (canelons, steak tartar, croquettes de calamar), photos variees, reviewers actifs sur plusieurs plateformes. Mix equilibre de 4 et 5 etoiles avec critiques constructives sur les prix. Chef Vito Oliva cite nommement.",
-    "highlights": "Vue panoramique sur la baie, poisson frais du jour des pecheurs locaux, carte des vins soignee, tapas de marche gastronomiques",
-    "recent_reviews_summary": "Considere comme l'un des meilleurs restaurants de Cadaques. Les plats sont decrits comme simplement delicieux avec des melanges de saveurs subtils. Vue magnifique. Service impeccable. Les prix sont eleves mais justifies par la qualite du produit.",
-    "recommended_dishes": [
-      "Canelon de pollo",
-      "Steak tartar",
-      "Patatas bravas",
-      "Croquetas de calamar",
-      "Poisson frais du jour"
-    ],
-    "price_range": "EUR EUR EUR",
-    "best_for": [
-      "diner romantique",
-      "vue mer",
-      "poisson frais",
-      "tapas gastronomiques"
-    ]
-  },
-  {
-    "name": "Narita Cadaques",
-    "address": "Placa del Passeig, 13, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Izakaya mediterraneen / Fusion japonais-catalan",
-    "google_rating": 4.7,
-    "reviews_count": 850,
-    "recent_trend": "hausse",
-    "authenticity_score": "A",
-    "authenticity_notes": "Concept unique (izakaya mediterraneen) qui genere des avis tres specifiques et detailles. Les reviewers mentionnent des plats precis (anguille fumee, ramen, tataki de thon). Carte de vins naturels (30%+ bio/biodynamique) citee. Reviews en 4+ langues avec des styles tres differents. Quelques critiques sur l'attente renforcent l'authenticite.",
-    "highlights": "Fusion unique japonais-catalan, vins naturels et biodynamiques, produits ultra-frais, ambiance intime",
-    "recent_reviews_summary": "Les clients sont enthousiastes sur la proposition gastronomique originale: une cuisine delicate, petillante et originale. Le chef est excellent, les produits tres frais. Selection de vins naturels remarquable. Service attentif et chaleureux.",
-    "recommended_dishes": [
-      "Anguille fumee",
-      "Ramen epice",
-      "Salmorejo revisite",
-      "Tataki de thon"
-    ],
-    "price_range": "EUR EUR EUR",
-    "best_for": [
-      "cuisine fusion originale",
-      "vins naturels",
-      "foodie aventureux"
-    ]
-  },
-  {
-    "name": "El Viatge",
-    "address": "Carrer de Sant Antoni, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Gastropub / Tapas creatives fusion",
-    "google_rating": 4.8,
-    "reviews_count": 950,
-    "recent_trend": "hausse",
-    "authenticity_score": "A",
-    "authenticity_notes": "Avis recents 2024-2025 tres enthousiastes et detailles. Chef Ulises (forme a l'ecole Hofmann, Barcelone) cite par son nom. Reviewers avec historique. Photos de plats variees. Mix de critiques (positives majoritaires, quelques remarques sur l'attente). Le fait que les locaux y vont est mentionne.",
-    "highlights": "Tapas creatives, menu fusion mediterraneen-international, ambiance cosy dans une ruelle medievale, chef forme a Hofmann",
-    "recent_reviews_summary": "Frequente par locaux et voyageurs, ce gastropub dans une ruelle medievale surprend par son menu creatif aux saveurs sublimes. Service impeccable par Andra en salle. Reservation fortement recommandee car souvent complet. Note comme favori de Cadaques par de nombreux visiteurs.",
-    "recommended_dishes": [
-      "Tapas creatives du jour",
-      "Plats fusion mediterraneens"
-    ],
-    "price_range": "EUR EUR",
-    "best_for": [
-      "ambiance locale",
-      "tapas creatives",
-      "sortie entre amis"
-    ]
-  },
-  {
-    "name": "Casa Anita",
-    "address": "Calle Miquel Roset, 16, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Catalane traditionnelle / Poisson grille",
-    "google_rating": 4.5,
-    "reviews_count": 845,
-    "recent_trend": "stable",
-    "authenticity_score": "A",
-    "authenticity_notes": "Institution legendaire avec 40+ ans d'histoire. Le proprietaire Juanito qui chante le menu du jour est mentionne dans presque tous les avis - signature impossible a falsifier. Avis extremement polarises (adorent ou trouvent cher) = signe fort d'authenticite. Photos de l'interieur rustique tres variees.",
-    "highlights": "Institution historique, Juanito chante le menu du jour, poisson grille du jour, ambiance conviviale unique, desserts maison de Maria",
-    "recent_reviews_summary": "Experience unique et idiosyncrasique. Juanito s'assoit avec les clients et recite les plats du jour avec les prix. Poisson grille fantastique, anchois, escalivade. Desserts maison de Maria excellents. Prix eleves mais l'experience est incomparable. Certains trouvent l'addition salee.",
-    "recommended_dishes": [
-      "Poisson grille du jour",
-      "Anchois",
-      "Escalivada",
-      "Crevettes fraiches",
-      "Desserts maison de Maria"
-    ],
-    "price_range": "EUR EUR EUR",
-    "best_for": [
-      "experience authentique",
-      "institution locale",
-      "poisson grille"
-    ]
-  },
-  {
-    "name": "Can Rafa",
-    "address": "Passeig, 7, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Fruits de mer / Mediterraneenne",
-    "google_rating": 4.4,
-    "reviews_count": 1295,
-    "recent_trend": "stable",
-    "authenticity_score": "A",
-    "authenticity_notes": "1295 avis Google + 1281 TripAdvisor = volume massif et credible. Restaurant depuis 1982 (famille Faixo). Avis tres detailles mentionnant des plats specifiques (Zarzuela, paella, crevettes de Roses). Vignoble familial cite. Mix de 3-4-5 etoiles avec critiques recurrentes sur les prix = authentique.",
-    "highlights": "Depuis 1982, poisson peche par les pecheurs locaux de Cadaques et Cap de Creus, crevettes de Roses, riz traditionnels catalans, vins du vignoble familial",
-    "recent_reviews_summary": "Institution depuis 1982 adoree pour son engagement envers le produit frais local. Les fruits de mer sont peches par les pecheurs du coin. Accueil chaleureux, recommandations personnalisees du patron. Budget environ 50 EUR/personne hors vin. Certains trouvent les prix eleves mais la fraicheur est indeniable.",
-    "recommended_dishes": [
-      "Zarzuela",
-      "Paella",
-      "Crevettes de Roses",
-      "Riz catalans",
-      "Desserts maison"
-    ],
-    "price_range": "EUR EUR EUR",
-    "best_for": [
-      "fruits de mer frais",
-      "cuisine traditionnelle",
-      "restaurant familial historique"
-    ]
-  },
-  {
-    "name": "El Barroco",
-    "address": "Carrer Pla d'en Retalla, 2, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Libanaise / Mediterraneenne fusion",
-    "google_rating": 4.6,
-    "reviews_count": 3664,
-    "recent_trend": "stable",
-    "authenticity_score": "A",
-    "authenticity_notes": "Volume enorme de 3664 avis = tres difficile a falsifier. Cuisine libanaise a Cadaques = niche unique qui genere des avis tres specifiques. Salvador Dali a dessine le logo en 1978 (histoire verifiable). Reviews mentionnent des plats precis (mezes varies). Mix de notes et critiques sur le service lent = authentique.",
-    "highlights": "Cuisine libanaise authentique, logo dessine par Dali en 1978, mezes exceptionnels, ambiance enchantante avec couleurs vibrantes et arrangements floraux",
-    "recent_reviews_summary": "La meilleure cuisine libanaise que beaucoup aient goutee. Grande variete de mezes delicieux, proprietaires professionnels et amicaux. Ambiance unique avec l'heritage de Dali. Menu 21-26 EUR. Service parfois lent mais l'attente en vaut la peine. Must-visit a Cadaques.",
-    "recommended_dishes": [
-      "Selection de mezes",
-      "Grillades libanaises",
-      "Menu degustation libanais"
-    ],
-    "price_range": "EUR EUR",
-    "best_for": [
-      "cuisine libanaise",
-      "ambiance unique",
-      "rapport qualite-prix"
-    ]
-  },
-  {
-    "name": "Es Baluard",
-    "address": "Riba Nemesi Llorens, s/n, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Fruits de mer / Mediterraneenne",
-    "google_rating": 4.3,
-    "reviews_count": 1200,
-    "recent_trend": "stable",
-    "authenticity_score": "B",
-    "authenticity_notes": "Bon volume d'avis avec details sur les plats (riz aux oursins, turbot, paella). Photos de plats presentes. Critiques sur la chaleur en ete et la priorite aux locaux = details specifiques credibles. Cependant, quelques avis generiques relevent la note a B plutot qu'A.",
-    "highlights": "Contre l'ancien mur maritime, poisson et riz specialites, vue sur les bateaux de peche, carte des vins extensive",
-    "recent_reviews_summary": "Fruits de mer magnifiques, surtout le riz aux oursins et le turbot. Vue superbe sur la baie avec les bateaux de peche. Ambiance cosy mais peut etre chaud en ete. Service professionnel, bonne carte des vins. Quelques remarques sur la priorite donnee aux locaux pour les commandes.",
-    "recommended_dishes": [
-      "Riz aux oursins",
-      "Turbot",
-      "Paella mixte",
-      "Araignee de mer"
-    ],
-    "price_range": "EUR EUR EUR",
-    "best_for": [
-      "fruits de mer raffines",
-      "vue sur la baie",
-      "diner romantique"
-    ]
-  },
-  {
-    "name": "Enoteca MF",
-    "address": "Placa des Poal, 3, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Gastrobar mediterraneen / Bar a vins",
-    "google_rating": 4.3,
-    "reviews_count": 1168,
-    "recent_trend": "stable",
-    "authenticity_score": "B",
-    "authenticity_notes": "Bon volume d'avis. Critiques coherentes : petites portions pour le prix et selection de vins limitee aux vins maison (contradiction avec le nom 'enoteca'). Ces critiques specifiques et recurrentes sont un signe fort d'authenticite. Photos de la terrasse et des tapas variees.",
-    "highlights": "Terrasse sur la plage d'Es Poal avec vue magnifique, tapas creatives, vins maison MF, ambiance familiale",
-    "recent_reviews_summary": "Terrasse magnifique face a la baie. Tapas aventureuses et superbement presentees, saveurs creatives differentes des autres restaurants. Critiques recurrentes : portions petites pour le prix et carte des vins limitee aux vins maison uniquement. Pas de reservation necessaire.",
-    "recommended_dishes": [
-      "Tapas creatives du jour",
-      "Vins maison MF",
-      "Plats locaux de saison"
-    ],
-    "price_range": "EUR EUR EUR",
-    "best_for": [
-      "terrasse vue mer",
-      "tapas creatives",
-      "aperitif"
-    ]
-  },
-  {
-    "name": "Vincle Cadaques",
-    "address": "Carrer de Sant Antoni, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Gastronomique / Franco-espagnole",
-    "google_rating": 4.9,
-    "reviews_count": 220,
-    "recent_trend": "hausse",
-    "authenticity_score": "A",
-    "authenticity_notes": "Note exceptionnelle de 4.9 avec un volume encore modeste (220 avis) mais des reviews extremement detaillees et personnalisees. Chef Alex et Monica cites nommement. Plats specifiques mentionnes (kokotxas de morue, rouget). Voute en pierre et interieur design decrits. Quelques critiques sur les prix = bon signe.",
-    "highlights": "Cuisine gastronomique dans une voute en pierre, chef Alex et Monica en salle, plats innovants et artistiques, experience sensorielle complete",
-    "recent_reviews_summary": "Virtuosite culinaire selon les avis. Chaque plat est delicieux, innovant et artistique. Monica et le chef Alex creent une experience ou l'on ne mange pas seulement mais on savoure avec tous les sens. Service attentif et rapide. Quelques remarques sur les prix eleves.",
-    "recommended_dishes": [
-      "Kokotxas de morue",
-      "Rouget",
-      "Bar aux pignons de pin"
-    ],
-    "price_range": "EUR EUR EUR EUR",
-    "best_for": [
-      "gastronomie fine",
-      "occasion speciale",
-      "experience sensorielle"
-    ]
-  },
-  {
-    "name": "Celeste",
-    "address": "Carrer Nou, 1, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Italienne",
-    "google_rating": 4.6,
-    "reviews_count": 1744,
-    "recent_trend": "stable",
-    "authenticity_score": "A",
-    "authenticity_notes": "Volume massif (1744 avis) avec note elevee. Reviews enthousiastes et specifiques sur les pates artisanales (carbonara, ravioli, spaghetti au poulpe). Prix cites comme exceptionnellement bas (~26 EUR/personne pour 3 entrees, 4 plats, 2 bouteilles). Critiques sur l'attente et les places limitees = credible.",
-    "highlights": "Pates artisanales faites maison, rapport qualite-prix imbattable, ambiance familiale, petit et intime",
-    "recent_reviews_summary": "Restaurant italien le mieux note de Cadaques. Les pates artisanales sont exceptionnelles, surtout la carbonara qualifiee de meilleure au monde. Rapport qualite-prix imbattable (environ 26 EUR/personne). Petit espace donc reservation indispensable en haute saison. Ambiance chaleureuse et familiale.",
-    "recommended_dishes": [
-      "Carbonara artisanale",
-      "Spaghetti au poulpe",
-      "Burrata",
-      "Ravioli maison"
-    ],
-    "price_range": "EUR",
-    "best_for": [
-      "pates artisanales",
-      "rapport qualite-prix",
-      "diner decontracte"
-    ]
-  },
-  {
-    "name": "La Sirena",
-    "address": "Carrer d'es Call, s/n, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Fruits de mer / Paella / Cuisine locale",
-    "google_rating": 4.4,
-    "reviews_count": 780,
-    "recent_trend": "stable",
-    "authenticity_score": "A",
-    "authenticity_notes": "Avis extremement specifiques : un client dit avoir mange ici 4 soirs de suite. Details sur des plats saisonniers (oursins, moules de roche, scorpene). Restaurant familial dans une petite rue = decor mentionne de facon coherente. Mix de critiques sur le service lent et les prix = credible.",
-    "highlights": "Restaurant familial cache dans une ruelle, paella reputee parmi les meilleures, fruits de mer de saison (oursins, moules de roche), recettes locales authentiques",
-    "recent_reviews_summary": "Petit restaurant familial cache dans une ruelle pres de l'eglise Santa Maria. La paella est citee comme la meilleure de la region par de nombreux clients. Un visiteur y a mange 4 soirs de suite. Fruits de mer ultra-frais de saison. Accueil courtois, service efficace. Reservation recommandee car l'espace est limite.",
-    "recommended_dishes": [
-      "Paella fruits de mer",
-      "Anchois",
-      "Scorpene en sauce",
-      "Oursins de saison",
-      "Moules de roche"
-    ],
-    "price_range": "EUR EUR",
-    "best_for": [
-      "paella authentique",
-      "fruits de mer de saison",
-      "cuisine locale familiale"
-    ]
-  },
-  {
-    "name": "Ses Paelles de Cadaques",
-    "address": "Platja Gran, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Paellas / Fruits de mer",
-    "google_rating": 4.3,
-    "reviews_count": 2084,
-    "recent_trend": "stable",
-    "authenticity_score": "B",
-    "authenticity_notes": "Volume enorme (2084 avis) avec des opinions tres polarisees : certains adorent le riz noir, d'autres trouvent la paella 'tiede, salee et amere'. Cette polarisation est un signe fort d'authenticite. Critiques coherentes sur les prix vs qualite des ingredients. Reviews de reguliers qui reviennent chaque annee.",
-    "highlights": "Specialiste des paellas et riz, situation en bord de plage, riz noir tres reputee, menu paella a 17 EUR",
-    "recent_reviews_summary": "Specialiste des paellas avec une grande terrasse face a la plage. Le riz noir est particulierement recommande. Avis polarises : fideles reguliers vs clients decus par la qualite irreguliere. Service rapide et attentif. Bon rapport qualite-prix avec menu paella a 17 EUR. Decoration moderne.",
-    "recommended_dishes": [
-      "Riz noir (arroz negro)",
-      "Paella fruits de mer",
-      "Fideua"
-    ],
-    "price_range": "EUR EUR",
-    "best_for": [
-      "paella en bord de mer",
-      "dejeuner decontracte",
-      "budget raisonnable"
-    ]
+    "authenticity_notes": "Chef Monty cité nommément, reviewers multilingues avec historique, avis longs et détaillés avec plats spécifiques, photos nombreuses. Ouvert mai 2025.",
+    "highlights": "Nouveau restaurant dans un ancien moulin à huile. Cuisine audacieuse (le chef a travaillé à Londres). Service exceptionnel, accueil personnalisé du chef qui vient expliquer les plats.",
+    "recent_reviews_summary": "Avril 2026 : 'hidden gem dans une ruelle'. Tous les avis récents louent Chef Monty, la créativité et l'ambiance. Un seul bémol : tables serrées.",
+    "recommended_dishes": ["Foie gras crème caramel", "Crudo de lubina", "Scotch egg", "Aged beef blue cheese", "Tarta Guinness"],
+    "best_for": ["dîner gastro", "expérience unique", "service personnalisé", "nouveau hype"]
   },
   {
     "name": "Cadaq's",
-    "address": "Port de Cadaques, 17488 Cadaques",
-    "city": "Cadaques",
+    "address": "Port de Cadaqués, 17488 Cadaqués",
+    "city": "Cadaqués",
     "country": "Espagne",
-    "cuisine_type": "Francaise / Brunch / Casual",
+    "cuisine_type": "Méditerranéen",
+    "price_range": "€€€",
+    "google_rating": 4.9,
+    "reviews_count": 270,
+    "recent_trend": "hausse",
+    "last_10_reviews_pattern": "Majorité écrasante de 5 étoiles sur 2025-2026",
+    "authenticity_score": "A",
+    "authenticity_notes": "270 avis, volume élevé et variés, propriétaire cité personnellement, style varié, mix langues, reviewers avec historique.",
+    "highlights": "Petit restaurant sur le port. Décoration chaleureuse. Accueil excellent du propriétaire. Tout est fait maison, très bon rapport qualité-prix.",
+    "recent_reviews_summary": "Avis récents soulignent la cuisine excellente, le service rapide et attentionné, la personnalité du propriétaire qui rend l'expérience chaleureuse.",
+    "recommended_dishes": ["Poisson frais du jour", "Tapas maison", "Desserts maison"],
+    "best_for": ["vue port", "ambiance chaleureuse", "homemade", "qualité-prix"]
+  },
+  {
+    "name": "El Sueño",
+    "address": "Cadaqués centre, 17488 Cadaqués",
+    "city": "Cadaqués",
+    "country": "Espagne",
+    "cuisine_type": "Contemporain",
+    "price_range": "€€€",
     "google_rating": 4.8,
-    "reviews_count": 320,
+    "reviews_count": 116,
     "recent_trend": "hausse",
-    "authenticity_score": "B",
-    "authenticity_notes": "Note tres elevee (4.8) mais volume modeste (320 avis). Concept original (cuisine francaise/hawaienne a Cadaques) qui genere des avis specifiques. Reviews mentionnent des plats precis (poke bowls, crepes, hot-dogs). Prix bas notes = detail credible. Restaurant plus recent donc historique d'avis plus court.",
-    "highlights": "Cuisine francaise et fusion, fait maison, excellent rapport qualite-prix, ambiance moderne et cosy, vue sur le port",
-    "recent_reviews_summary": "Petit restaurant sur le port avec decoration chaleureuse. Tout est fait maison, excellent rapport qualite-prix. Poke bowls, crepes, salades tres apprecies. La sangria est delicieuse. Proprietaire accueillant. Ambiance moderne mais intime. Bons prix pour Cadaques.",
-    "recommended_dishes": [
-      "Poke bowls",
-      "Crepes",
-      "Sangria maison"
-    ],
-    "price_range": "EUR",
-    "best_for": [
-      "brunch",
-      "dejeuner decontracte",
-      "petit budget"
-    ]
-  },
-  {
-    "name": "Restaurant Cap de Creus",
-    "address": "Carretera Cap de Creus, s/n, 17488 Cadaques",
-    "city": "Cadaques",
-    "country": "Espagne",
-    "cuisine_type": "Mediterraneenne / Grillade",
-    "google_rating": 3.9,
-    "reviews_count": 5733,
-    "recent_trend": "stable",
-    "authenticity_score": "B",
-    "authenticity_notes": "Volume enorme (5733 avis) mais note mediocre (3.9). Enorme mix de notes de 1 a 5 etoiles = parfaitement authentique. Critiques coherentes sur le service desorganise et l'obligation de reserver en ligne. L'emplacement au phare est unique et verifiable. Reviews mentionnent la musique live.",
-    "highlights": "Emplacement spectaculaire au phare du Cap de Creus, parc naturel, vues a couper le souffle, musique live, poissons et fruits de mer du jour",
-    "recent_reviews_summary": "L'emplacement est incroyable au phare du Cap de Creus avec des vues spectaculaires. La nourriture est correcte a bonne (moules excellentes, poisson frais). Le service est un peu desorganise. Reservation en ligne obligatoire avec creneaux horaires. Musique live souvent. L'experience est avant tout pour le cadre, pas pour la gastronomie.",
-    "recommended_dishes": [
-      "Moules",
-      "Sardines grillees",
-      "Paella",
-      "Poisson du jour"
-    ],
-    "price_range": "EUR EUR",
-    "best_for": [
-      "vue exceptionnelle",
-      "excursion Cap de Creus",
-      "experience unique"
-    ]
-  },
-  {
-    "name": "Xiringuito Can Juli",
-    "address": "Port Lligat, 17488 Cadaques",
-    "city": "Cadaques (Port Lligat)",
-    "country": "Espagne",
-    "cuisine_type": "Grillade au feu de bois / Fruits de mer",
-    "google_rating": 4.2,
-    "reviews_count": 752,
-    "recent_trend": "stable",
-    "authenticity_score": "B",
-    "authenticity_notes": "Emplacement unique a Port Lligat pres de la maison de Dali, verifiable. Avis mentionnent specifiquement la grillade au feu de bois. Mix de notes avec critiques sur les prix = credible. Volume correct (752 avis). Quelques avis generiques type touriste abaissent la note.",
-    "highlights": "Au bord de l'eau a Port Lligat pres de la maison Dali, grillades au feu de bois, poisson frais, cadre spectaculaire",
-    "recent_reviews_summary": "Chiringuito en bord de mer pres de la maison-musee Dali. Specialite : grillades au feu de bois (poisson, poulpe, sardines, bar). Cadre spectaculaire au bord de l'eau. Prix eleves pour un chiringuito. Ideal pour un dejeuner apres la visite du musee Dali.",
-    "recommended_dishes": [
-      "Poisson grille au feu de bois",
-      "Poulpe grille",
-      "Sardines",
-      "Riz au homard"
-    ],
-    "price_range": "EUR EUR EUR",
-    "best_for": [
-      "dejeuner apres visite Dali",
-      "grillade au feu de bois",
-      "cadre en bord de mer"
-    ]
-  },
-  {
-    "name": "Miramar",
-    "address": "Passeig Maritim, 7, 17490 Llanca",
-    "city": "Llanca",
-    "country": "Espagne",
-    "cuisine_type": "Haute gastronomie / Mer et montagne",
-    "google_rating": 4.7,
-    "reviews_count": 620,
-    "recent_trend": "stable",
+    "last_10_reviews_pattern": "Très majoritaire 5 étoiles sur 2025-2026",
     "authenticity_score": "A",
-    "authenticity_notes": "2 etoiles Michelin renouveles en 2024 (verifiable sur guide.michelin.com). Chef Paco Perez cite par son nom, egalement 3 Soleils Repsol. Reviews extremement detaillees sur les menus degustation (Mar 2025, Memoria Territorio y Cultura). Prix et menus specifiques cites. Aucun signe de reviews botees.",
-    "highlights": "2 etoiles Michelin, 3 Soleils Repsol, chef Paco Perez, concept mer et montagne, 2 menus degustation, cuisine de l'Emporda sublimee",
-    "recent_reviews_summary": "Experience gastronomique exceptionnelle. Menu qui est une oeuvre d'art, chaque plat surprend avec une creativite et un respect du produit de tres haut niveau. Personnel courtois et positif. Prix justifies pour la qualite recue. Atmosphere agreable avec un decor soigne. L'un des meilleurs restaurants de la Costa Brava.",
-    "recommended_dishes": [
-      "Menu degustation Mar d'Amunt",
-      "Menu Memoria Territorio y Cultura",
-      "Preparations de poisson signature"
-    ],
-    "price_range": "EUR EUR EUR EUR EUR",
-    "best_for": [
-      "haute gastronomie",
-      "occasion tres speciale",
-      "experience Michelin"
-    ]
+    "authenticity_notes": "Ouvert février 2024, propriétaires néerlandais cités, 116 avis variés. Avis détaillés avec plats spécifiques.",
+    "highlights": "Restaurant moderne ouvert début 2024 par des propriétaires néerlandais expérimentés en hospitalité. Cadre impeccable, tout est frais et fait maison (y compris les sauces).",
+    "recent_reviews_summary": "Service au top, food délicieuse, plats ultra-frais. Plusieurs reviewers soulignent l'attention aux détails et la propreté.",
+    "recommended_dishes": ["Plats frais du marché", "Sauces maison"],
+    "best_for": ["cuisine moderne", "fait maison", "cadre soigné"]
   },
   {
-    "name": "Els Brancs",
-    "address": "Hotel Vistabella, Av. Diaz Pacheco, 26, 17480 Roses",
-    "city": "Roses",
+    "name": "Vincle Cadaqués",
+    "address": "Carrer Vigilant 8, 17488 Cadaqués",
+    "city": "Cadaqués",
     "country": "Espagne",
-    "cuisine_type": "Mediterraneenne gastronomique",
-    "google_rating": 4.5,
-    "reviews_count": 480,
-    "recent_trend": "baisse",
-    "authenticity_score": "B",
-    "authenticity_notes": "Ancien etoile Michelin, desormais a la carte. Avis polarises : enthousiastes sur la vue et le menu degustation 20 plats vs critiques sur la baisse de qualite post-etoile et les prix toujours eleves. Cette polarisation est authentique. Vue mer spectaculaire verifiable. Reviews detaillees sur plats specifiques.",
-    "highlights": "Vue panoramique sur la Mediterranee, dans l'Hotel Vistabella, menu degustation ambitieux, cadre elegant",
-    "recent_reviews_summary": "Vue spectaculaire sur la mer. Avis divises : certains louent un menu degustation 20 plats exceptionnel, d'autres notent un declin depuis la perte de l'etoile Michelin avec des prix qui restent eleves. Service attentif et chaleureux. Le canelone de poulet aux langoustines est cite comme plat remarquable.",
-    "recommended_dishes": [
-      "Canelon de poulet aux langoustines",
-      "Menu degustation",
-      "Desserts"
-    ],
-    "price_range": "EUR EUR EUR EUR",
-    "best_for": [
-      "vue panoramique mer",
-      "hotel-restaurant",
-      "diner elegant"
-    ]
-  },
-  {
-    "name": "Bodega El Toro",
-    "address": "Carrer de Sant Sebastia, 37, 17480 Roses",
-    "city": "Roses",
-    "country": "Espagne",
-    "cuisine_type": "Tapas / Bar a vins",
-    "google_rating": 4.4,
-    "reviews_count": 890,
-    "recent_trend": "stable",
+    "cuisine_type": "Français / Méditerranéen fine dining",
+    "price_range": "€€€€",
+    "google_rating": 4.9,
+    "reviews_count": 220,
+    "recent_trend": "hausse",
+    "last_10_reviews_pattern": "4 avis 5 étoiles + 1 avis 4/5 sur les 5 derniers (pas 2 négatifs consécutifs)",
     "authenticity_score": "A",
-    "authenticity_notes": "Reviews tres coherentes sur le theme : tapas fraiches, prix raisonnables, ambiance familiale. Le proprietaire est souvent mentionne personnellement. Volume solide (890 avis) avec bonne repartition des notes. Details sur des tapas specifiques. Atmosphere de bodega authentique citee. Classee #23/251 a Roses.",
-    "highlights": "Tapas fraiches de qualite, prix raisonnables, proprietaire accueillant, ambiance authentique de bodega, bonne carte de vins",
-    "recent_reviews_summary": "Bodega authentique avec des tapas fraiches de haute qualite a des prix raisonnables. Le proprietaire est extremement accueillant et amical. Decor charmant, ambiance paisible. Cuisine superbe. Tres bien situe a Roses. Ideal pour un repas decontracte sans se ruiner.",
-    "recommended_dishes": [
-      "Tapas du jour",
-      "Jambon iberico",
-      "Patatas bravas",
-      "Selection de vins"
-    ],
-    "price_range": "EUR",
-    "best_for": [
-      "tapas authentiques",
-      "rapport qualite-prix",
-      "ambiance locale"
-    ]
-  },
-  {
-    "name": "Cal Mariner",
-    "address": "Port de la Selva, 17489 El Port de la Selva",
-    "city": "El Port de la Selva",
-    "country": "Espagne",
-    "cuisine_type": "Mediterraneenne / Fruits de mer",
-    "google_rating": 4.3,
-    "reviews_count": 560,
-    "recent_trend": "stable",
-    "authenticity_score": "B",
-    "authenticity_notes": "Avis coherents sur la qualite du poisson frais et les portions genereuses. Terrasse avec vue mer citee. Critiques sur le fait que ca se remplit vite = detail credible. Un reviewer dit que c'est le meilleur repas de 3 semaines en Catalogne. Mix de langues dans les avis.",
-    "highlights": "Poisson frais du port, portions genereuses, terrasse vue mer, prix justes, soupe de poisson reputee",
-    "recent_reviews_summary": "Bonne adresse a Port de la Selva avec du poisson frais du port. Portions genereuses et bien presentees. Soupe de poisson et daurade citees comme excellentes. Terrasse avec vue mer. Prix justes. Se remplit tres vite donc arriver tot ou reserver. Un visiteur dit que c'est le meilleur repas de son voyage de 3 semaines.",
-    "recommended_dishes": [
-      "Soupe de poisson",
-      "Daurade",
-      "Moules a la vapeur",
-      "Canelons",
-      "Tiramisu"
-    ],
-    "price_range": "EUR EUR",
-    "best_for": [
-      "poisson frais du port",
-      "dejeuner en terrasse",
-      "prix justes"
-    ]
-  },
-  {
-    "name": "L'Escata",
-    "address": "Port de la Selva, 17489 El Port de la Selva",
-    "city": "El Port de la Selva",
-    "country": "Espagne",
-    "cuisine_type": "Fruits de mer / Riz / Grillade",
-    "google_rating": 4.4,
-    "reviews_count": 420,
-    "recent_trend": "hausse",
-    "authenticity_score": "B",
-    "authenticity_notes": "Avis specifiques mentionnant le riz sec au grill et le calamar a la braise avec saucisse (combinaison unique). Decor maritime cite. Vue port mentionne. Quelques critiques sur la lenteur du service et les prix = signe d'authenticite. Volume modeste mais reviews detaillees.",
-    "highlights": "Riz sec au grill specialite maison, fruits de mer grilles, vue sur le port, decor marin authentique",
-    "recent_reviews_summary": "Restaurant spectaculaire qui depasse les attentes. Le riz sec au grill est merveilleux, le calamar grille avec saucisse est etonnant. Cadre charmant dans le port avec vue mer et atmosphere decontractee, decoration maritime. Poisson frais parfaitement prepare. Service amical. Quelques critiques sur la lenteur et les prix.",
-    "recommended_dishes": [
-      "Riz sec au grill",
-      "Calamar grille a la saucisse",
-      "Poisson frais du jour"
-    ],
-    "price_range": "EUR EUR",
-    "best_for": [
-      "riz specialite",
-      "fruits de mer grilles",
-      "ambiance portuaire"
-    ]
-  },
-  {
-    "name": "Mangata Restaurant",
-    "address": "Passeig Maritim, 17490 Llanca",
-    "city": "Llanca",
-    "country": "Espagne",
-    "cuisine_type": "Fruits de mer / Mediterraneenne",
-    "google_rating": 4.3,
-    "reviews_count": 380,
-    "recent_trend": "hausse",
-    "authenticity_score": "B",
-    "authenticity_notes": "Restaurant en transformation recente donc avis en evolution. Critiques specifiques : certains plats manquants a la carte, fideua a 25 EUR/tete. Avis positifs mentionnent des plats precis (tartare de thon rouge, crevettes rouges, paella). Vue plage imbattable citee. Volume encore modeste.",
-    "highlights": "Paella et fideua parmi les meilleures de Catalogne, terrasse en bord de plage, fruits de mer locaux abondants",
-    "recent_reviews_summary": "La paella et la fideua sont parmi les meilleures de Catalogne selon les reviewers. Terrasse avec vue plage imbattable. Service rapide et sympathique. Tartare de thon rouge et crevettes rouges excellents. En pleine transformation, quelques ajustements en cours (disponibilite de plats). Prix corrects pour la qualite.",
-    "recommended_dishes": [
-      "Paella fruits de mer",
-      "Fideua",
-      "Tartare de thon rouge",
-      "Crevettes rouges",
-      "Calamar grille"
-    ],
-    "price_range": "EUR EUR",
-    "best_for": [
-      "paella et fideua",
-      "terrasse plage",
-      "fruits de mer locaux"
-    ]
+    "authenticity_notes": "Chef Alexandre nommément cité. Restaurant Guru 220 avis (vs 18 TripAdvisor). Plats spécifiques mentionnés. Salle voûtée avec pierres apparentes décrite par plusieurs.",
+    "highlights": "Fine dining dans belle salle voûtée avec pierres apparentes et vue cuisine ouverte. Service jeune et dynamique, carte de vins excellente. Plats innovants et artistiques.",
+    "recent_reviews_summary": "Avis récents jan 2026 louent la cuisine délicieuse et la découverte d'une pépite. Un avis 4/5 en sept 2025 sur la hauteur des prix.",
+    "recommended_dishes": ["Kokotxas de morue", "Mulet", "Turbot", "Morilles aux truffes", "Cake chocolat amandes"],
+    "best_for": ["fine dining", "occasion spéciale", "vins", "salle unique"]
   }
 ]
