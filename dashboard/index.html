@@ -279,15 +279,15 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
   </div>
   <!-- Carousel -->
   <div id="iCarousel" class="pointer-events-auto" style="position:fixed;left:0;right:0;z-index:35;bottom:calc(82px + var(--sb));padding:0 8px;display:none"></div>
-  <!-- Toggle Map/List button (Airbnb-style) -->
-  <div id="btnViewToggle" class="pointer-events-auto" style="position:fixed;left:50%;transform:translateX(-50%);z-index:40;bottom:calc(86px + var(--sb));display:none">
+  <!-- Toggle Map/List button (Airbnb-style) — above the carousel when visible -->
+  <div id="btnViewToggle" class="pointer-events-auto" style="position:fixed;left:50%;transform:translateX(-50%);z-index:40;bottom:calc(240px + var(--sb));display:none;transition:bottom .2s ease">
     <button onclick="toggleMapList()" class="bg-bg/95 backdrop-blur-xl text-on-surface px-4 py-2.5 rounded-full shadow-2xl flex items-center gap-2 border border-outline-var/20 active:scale-95 transition-transform">
       <span class="icon text-gold text-base" id="iViewToggle">list</span>
       <span class="text-xs font-bold uppercase tracking-wider" id="iViewToggleLbl">Liste</span>
     </button>
   </div>
   <!-- Geolocation button -->
-  <div class="pointer-events-auto" style="position:fixed;right:16px;z-index:40;bottom:calc(86px + var(--sb))">
+  <div id="btnGeo" class="pointer-events-auto" style="position:fixed;right:16px;z-index:40;bottom:calc(240px + var(--sb));transition:bottom .2s ease">
     <button onclick="geolocate()" class="w-12 h-12 bg-surface-high/90 backdrop-blur-xl rounded-full shadow-2xl flex items-center justify-center border border-outline-var/20 active:scale-90 transition-transform">
       <span class="icon text-gold text-xl">my_location</span>
     </button>
@@ -1290,6 +1290,17 @@ function openPhoto(restoId, startIndex){
 
 // Toggle Map/List view (Airbnb-style)
 var listViewMode = false;
+// Repositionne les FAB (Liste/Carte + géoloc) selon la visibilité du carousel
+function repositionFabs(){
+  var carousel = document.getElementById('iCarousel');
+  var carouselVisible = carousel && carousel.style.display !== 'none';
+  var btn = document.getElementById('btnViewToggle');
+  var geo = document.getElementById('btnGeo');
+  // 86px = juste au-dessus bnav ; 240px = au-dessus du carousel (qui fait ~140px + 82px gap)
+  var bottomVal = carouselVisible ? 'calc(240px + var(--sb))' : 'calc(86px + var(--sb))';
+  if(btn) btn.style.bottom = bottomVal;
+  if(geo) geo.style.bottom = bottomVal;
+}
 function toggleMapList(){
   listViewMode = !listViewMode;
   var listEl = document.getElementById('exploreList');
@@ -1308,6 +1319,7 @@ function toggleMapList(){
     if(btnIc) btnIc.textContent = 'list';
     if(typeof updateCarousel==='function') setTimeout(updateCarousel, 100);
   }
+  repositionFabs();
 }
 
 function renderExploreList(){
@@ -1327,11 +1339,12 @@ function renderExploreList(){
     if(bBoth !== aBoth) return bBoth - aBoth;
     return (b.confidence_score||0) - (a.confidence_score||0);
   });
+  var label = fEntity==='hotel' ? 'hôtel' : 'restaurant';
   if(!visible.length){
-    listEl.innerHTML = '<div class="text-center pt-12"><span class="icon text-outline/40 text-[48px]">map</span><p class="text-outline text-sm mt-2">Aucun restaurant dans cette zone</p><p class="text-outline/60 text-xs mt-1">Dézoome ou bouge la carte</p></div>';
+    listEl.innerHTML = '<div class="text-center pt-12"><span class="icon text-outline/40 text-[48px]">map</span><p class="text-outline text-sm mt-2">Aucun '+label+' dans cette zone</p><p class="text-outline/60 text-xs mt-1">Dézoome ou bouge la carte</p></div>';
     return;
   }
-  var html = '<p class="text-xs text-outline mb-3">'+visible.length+' restaurant'+(visible.length>1?'s':'')+' dans cette zone</p>';
+  var html = '<p class="text-xs text-outline mb-3">'+visible.length+' '+label+(visible.length>1?'s':'')+' dans cette zone</p>';
   visible.forEach(function(r){
     var src = r.source_type||'chef';
     var isH = isHotel(r);
@@ -1508,6 +1521,8 @@ var cLastIds='';
 function updateCarousel(){
   var el=document.getElementById('iCarousel');
   if(!map||cScrollLock)return;
+  // Ne pas afficher le carousel en mode liste
+  if(listViewMode){ if(el)el.style.display='none'; repositionFabs(); return; }
   var b=map.getBounds(),vis=[],seen={};
   R.forEach(function(r){
     if(!r.coordinates||!MK[r.id]||!CG.hasLayer(MK[r.id]))return;
@@ -1528,8 +1543,9 @@ function updateCarousel(){
   cLastIds=newIds;
   cVis=vis;
 
-  if(!vis.length){el.style.display='none';highlightPin(null);return}
+  if(!vis.length){el.style.display='none';highlightPin(null);repositionFabs();return}
   el.style.display='block';
+  repositionFabs();
   var cards='';vis.forEach(function(r){cards+=buildCard(r)});
   el.innerHTML='<div id="cscrollEl" class="flex gap-2 overflow-x-auto cscroll noscroll py-1" style="scroll-padding:0 40vw">'+cards+'</div>';
 
@@ -1607,6 +1623,8 @@ function onCarouselSnap(sc){
 }
 
 function showPreview(r){
+  // En mode liste, ne pas afficher de carousel — ouvre directement la fiche
+  if(listViewMode){ openResto(r.id); return; }
   // Lock carousel rebuild during the whole sequence
   cScrollLock=true;
 
