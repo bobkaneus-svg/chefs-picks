@@ -237,13 +237,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
         <span class="font-headline text-[11px] font-semibold tracking-wider text-gold uppercase" id="selBannerText">La sélection</span>
       </div>
     </div>
-    <!-- Row 1: Entity segmented control (Restos / Hôtels) -->
-    <div class="flex justify-center px-3 mb-2">
-      <div class="seg" role="tablist" aria-label="Type d'adresse">
-        <button id="segRest" onclick="setEntity('restaurant')" class="on" role="tab"><span class="icon">restaurant</span>Restaurants</button>
-        <button id="segHotel" onclick="setEntity('hotel')" role="tab"><span class="icon">hotel</span>Hôtels</button>
-      </div>
-    </div>
+    <!-- (Segmented control Restos/Hôtels retiré — focus restaurants uniquement) -->
     <!-- Row 2: Search + filter button -->
     <div class="flex items-center gap-2 px-3">
       <div class="flex items-center bg-surface-high/85 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 flex-1 min-w-0">
@@ -260,7 +254,6 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
     <!-- Row 3: Quick chips — occasions (quand y aller, avec qui) -->
     <div id="quickChips" class="chip-row mt-2">
       <button id="oAll" onclick="setOccasion('all')" class="pill on">Toutes</button>
-      <button id="oNew" onclick="setOccasion('new')" class="pill">✦ Nouveautés</button>
       <button id="oDate" onclick="setOccasion('date')" class="pill">❤️ En amoureux</button>
       <button id="oSunday" onclick="setOccasion('sunday_lunch')" class="pill">🥐 Dimanche midi</button>
       <button id="oFamily" onclick="setOccasion('family')" class="pill">👨‍👩‍👧 En famille</button>
@@ -461,7 +454,7 @@ function mealMatch(r){
 
 function setOccasion(t){
   fOccasion=t;
-  ['All','New','Date','Sunday','Family','Business','Group','View'].forEach(function(n){
+  ['All','Date','Sunday','Family','Business','Group','View'].forEach(function(n){
     var el=document.getElementById('o'+n);
     if(el){ var v = n==='Sunday'?'sunday_lunch': n.toLowerCase(); if(n==='All')v='all'; el.classList.toggle('on', fOccasion===v)}
   });
@@ -474,7 +467,6 @@ function setOccasion(t){
 
 function occasionMatch(r){
   if(fOccasion==='all') return true;
-  if(fOccasion==='new') return r.freshness_badge==='new';
   return (r.occasion_tags||[]).indexOf(fOccasion) !== -1;
 }
 
@@ -501,8 +493,8 @@ document.addEventListener('DOMContentLoaded',function(){
     }catch(e){}
   }
   fetch('data.json').then(function(r){return r.json()}).then(function(d){
-    // Filter v4 : only items passing the editorial selection gate (in_selection === true)
-    R = d.filter(function(r){ return r.in_selection === true });
+    // Filter v4 : only restaurants in_selection (hotels removed from app scope)
+    R = d.filter(function(r){ return r.in_selection === true && r.entity_type !== 'hotel' });
     boot();
   }).catch(function(){R=[];boot()});
 });
@@ -832,8 +824,6 @@ function openResto(id){
           '<button class="fav-btn w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+esc(r.id)+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\')"><span class="icon text-gold text-xl '+(isFav(r.id)?'icon-fill':'')+'">'+(isFav(r.id)?'favorite':'favorite_border')+'</span></button>'+
         '</div>'+
         '<div class="absolute bottom-3 left-5 right-5 flex flex-col gap-2">'+
-          // Badge NEW (violet) si freshness_badge === 'new'
-          (r.freshness_badge==='new'?'<div class="inline-flex items-center gap-1.5 self-start px-2.5 py-1 rounded-full bg-gradient-to-r from-[#8a7dff] to-[#b0aaff] text-white shadow-lg"><span class="text-[9px] font-black uppercase tracking-widest">✦ Nouveau</span></div>':'')+
           '<div class="flex flex-wrap gap-1.5">'+
             '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-gold border border-gold/10">'+esc(r.cuisine_type)+'</span>'+
             '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.price_range)+'</span>'+
@@ -841,18 +831,7 @@ function openResto(id){
           '<h2 class="font-headline font-extrabold tracking-tighter drop-shadow-lg leading-[0.95] '+(r.name.length>22?'text-3xl':'text-4xl')+'">'+esc(r.name)+'</h2>'+
         '</div>'+
       '</section>'+
-      // Pitch éditorial — le message du curateur en haut de la fiche
-      (r.editorial_pitch?
-        '<section class="px-5 mt-6">'+
-          '<div class="p-5 rounded-2xl bg-gradient-to-br from-gold/[0.08] to-transparent border border-gold/20">'+
-            '<div class="flex items-center gap-2 mb-2">'+
-              '<span class="icon text-gold text-base">auto_awesome</span>'+
-              '<span class="text-[10px] font-bold uppercase tracking-widest text-gold">Pourquoi c\'est une pépite</span>'+
-            '</div>'+
-            '<p class="serif text-[16px] leading-relaxed text-on-surface">'+esc(r.editorial_pitch)+'</p>'+
-          '</div>'+
-        '</section>':'')+
-      // Occasion tags (si dispo)
+      // Occasion tags (si dispo) — plus de 'Pourquoi c'est une pépite', trop d'erreurs
       (r.occasion_tags&&r.occasion_tags.length?
         '<section class="px-5 mt-4">'+
           '<div class="flex flex-wrap gap-2">'+
@@ -891,12 +870,7 @@ function openResto(id){
       })()+
       // Chef recommendations section masquée temporairement (focus trending + hôtels)
       ''+
-      // Top dishes legacy — affiché uniquement si pas de must_try (sinon redondant)
-      ((!r.must_try&&r.top_dishes&&r.top_dishes.length>0)?
-        '<section class="px-5 mt-8"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">🍽️ A goûter</h3>'+
-        '<div class="flex flex-wrap gap-2">'+
-        r.top_dishes.map(function(d){return '<span class="px-3 py-1.5 bg-gradient-to-br from-gold/15 to-[#ffa534]/15 border border-gold/30 rounded-full text-xs font-medium capitalize">'+esc(d)+'</span>'}).join('')+
-        '</div><p class="text-[10px] text-outline mt-2">Plats les plus cités dans les avis récents</p></section>':'')+
+      // (Section 'À goûter' légacy retirée — doublon avec 'À goûter absolument' ci-dessous)
       // Nos coups de fourchette / Les indispensables — signature_dishes uniquement
       // (le signature_phrase + vibes sont désormais synthétisés dans l'editorial_pitch en hero)
       ((r.signature_dishes&&r.signature_dishes.length>0)||(r.must_try&&r.must_try.length>0)?
@@ -910,7 +884,13 @@ function openResto(id){
             '<div class="mb-4">'+
               '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">'+L.dishesIcon+'</span>'+L.dishesTitle+'</h4>'+
               '<div class="space-y-2">'+
-              r.signature_dishes.map(function(d){
+              (function(){
+                // Helper local : prend phrase_fr si dispo, sinon phrase
+                return r.signature_dishes.map(function(d){
+                  d = Object.assign({}, d, {phrase: d.phrase_fr || d.phrase});
+                  return d;
+                });
+              })().map(function(d){
                 return '<div class="flex items-start gap-2.5 py-2.5 px-3.5 bg-gradient-to-br from-gold/10 to-[#ffa534]/5 border border-gold/20 rounded-xl">'+
                   '<span class="text-lg flex-shrink-0 leading-none mt-0.5">'+esc(d.icon)+'</span>'+
                   '<span class="text-[13px] text-on-surface flex-1 leading-snug">'+esc(d.phrase)+
@@ -1033,7 +1013,8 @@ function openResto(id){
             return iso;
           }
           quotes.forEach(function(q, i){
-            var txt = q.text || '';
+            // Priorité à la version FR si l'original n'est pas en français
+            var txt = q.text_fr || q.text || '';
             var isLong = txt.length > 280;
             var shortTxt = isLong ? txt.slice(0, 260).replace(/\s+\S*$/, '') + '…' : txt;
             var hidden = i >= initial ? ' hidden' : '';
@@ -1185,9 +1166,7 @@ function initMap(){
       sz=n>=3?48:n>=2?40:32;
       content=String(n);
     }
-    // Badge NEW si freshness_badge === 'new' (petit dot violet sur le pin)
-    var newDot = r.freshness_badge==='new' ? '<div style="position:absolute;top:-4px;right:-4px;width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,#8a7dff,#b0aaff);border:2px solid #131313;box-shadow:0 0 8px rgba(138,125,255,.8);z-index:1"></div>' : '';
-    var ic=L.divIcon({className:'',html:'<div class="pin '+cls+'" style="position:relative">'+newDot+'<div class="pc" style="width:'+sz+'px;height:'+sz+'px">'+content+'</div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]});
+    var ic=L.divIcon({className:'',html:'<div class="pin '+cls+'"><div class="pc" style="width:'+sz+'px;height:'+sz+'px">'+content+'</div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]});
     var m=L.marker([r.coordinates.lat,r.coordinates.lng],{icon:ic,srcType:src,entityType:r.entity_type||''});
     m.on('click',function(e){L.DomEvent.stopPropagation(e);showPreview(r)});
     MK[r.id]=m;CG.addLayer(m);
@@ -1437,11 +1416,10 @@ function renderExploreList(){
     } else if(r.signature_phrase){ teaserText = r.signature_phrase; }
     else if(r.vibes&&r.vibes.length>0){ teaserText = r.vibes[0]; }
     var teaserHtml = teaserText ? '<p class="serif text-[11px] text-on-surface-var/90 truncate mt-1 italic">'+esc(teaserText)+'</p>' : '';
-    var newLabel = r.freshness_badge==='new' ? '<span class="px-1.5 py-0.5 rounded-md bg-gradient-to-r from-[#8a7dff] to-[#b0aaff] text-white text-[8px] font-black uppercase tracking-widest">✦ Nouveau</span>' : '';
     html += '<div onclick="openResto(\''+ea(r.id)+'\')" class="bg-surface-low rounded-2xl overflow-hidden flex cursor-pointer active:scale-[.98] transition-transform border border-outline-var/5">'+
       '<div class="w-24 h-24 flex-shrink-0 relative">'+img+'</div>'+
       '<div class="flex-1 p-3 min-w-0">'+
-        '<div class="flex items-center gap-1.5"><h3 class="font-headline font-bold text-sm truncate">'+esc(r.name)+'</h3>'+newLabel+'</div>'+
+        '<h3 class="font-headline font-bold text-sm truncate">'+esc(r.name)+'</h3>'+
         '<p class="text-[10px] text-outline uppercase tracking-wider truncate mt-0.5">'+esc(r.cuisine_type||'Restaurant')+' · '+esc(r.price_range||'€€')+'</p>'+
         teaserHtml+
         '<div class="mt-2 flex items-center gap-2">'+srcBadge+'</div>'+
@@ -1579,12 +1557,9 @@ function buildCard(r){
   } else {
     badge='<div class="mt-2.5 flex items-center gap-2"><span class="text-[13px]">🔥</span><span class="text-[10px] font-bold uppercase" style="color:#ff8a3d">'+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span></div>';
   }
-  var cornerEmoji = isH ? '🏨' : '🔥';
-  var cornerGradient = isH ? 'from-[#8a7dff] to-[#b0aaff]' : 'from-[#ff6b3d] to-[#ffa534]';
-  var newChip = r.freshness_badge==='new' ? '<div class="absolute top-1 left-1 px-1.5 py-0.5 rounded-md bg-gradient-to-r from-[#8a7dff] to-[#b0aaff] text-white text-[8px] font-black uppercase tracking-widest shadow-lg">✦ New</div>' : '';
   return '<div class="ccard" data-rid="'+esc(r.id)+'" onclick="openResto(\''+ea(r.id)+'\')">'+
     '<div class="bg-surface-low/90 backdrop-blur-2xl rounded-2xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,.5)] border border-outline-var/10 flex cursor-pointer active:scale-[.98] transition-transform">'+
-      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden relative">'+img+newChip+'<div class="absolute top-1 right-1 bg-gradient-to-br '+cornerGradient+' rounded-full w-6 h-6 flex items-center justify-center text-[11px]">'+cornerEmoji+'</div></div>'+
+      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden relative">'+img+'<div class="absolute top-1 right-1 bg-gradient-to-br from-[#ff6b3d] to-[#ffa534] rounded-full w-6 h-6 flex items-center justify-center text-[11px]">🔥</div></div>'+
       '<div class="flex-1 p-4 flex flex-col justify-center min-w-0">'+
         '<h3 class="text-base font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
         '<p class="text-[11px] text-outline uppercase tracking-wider truncate mt-1">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p>'+
