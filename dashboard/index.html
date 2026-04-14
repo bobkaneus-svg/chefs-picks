@@ -705,12 +705,14 @@ function openResto(id){
           '<button class="fav-btn w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+esc(r.id)+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\')"><span class="icon text-gold text-xl '+(isFav(r.id)?'icon-fill':'')+'">'+(isFav(r.id)?'favorite':'favorite_border')+'</span></button>'+
           '<div class="bg-bg/80 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[8px] text-outline uppercase font-bold">Fiabilit\u00e9</span></div>'+
         '</div>'+
-        '<div class="absolute bottom-14 left-5 flex flex-wrap gap-1.5">'+
-          '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-gold border border-gold/10">'+esc(r.cuisine_type)+'</span>'+
-          '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.price_range)+'</span>'+
-          (r.vibe?'<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.vibe)+'</span>':'')+
+        '<div class="absolute bottom-3 left-5 right-5 flex flex-col gap-2">'+
+          '<div class="flex flex-wrap gap-1.5">'+
+            '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-gold border border-gold/10">'+esc(r.cuisine_type)+'</span>'+
+            '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.price_range)+'</span>'+
+            (r.vibe?'<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.vibe)+'</span>':'')+
+          '</div>'+
+          '<h2 class="font-headline font-extrabold tracking-tighter drop-shadow-lg leading-[0.95] '+(r.name.length>22?'text-3xl':'text-4xl')+'">'+esc(r.name)+'</h2>'+
         '</div>'+
-        '<h2 class="absolute bottom-3 left-5 right-5 font-headline font-extrabold text-4xl tracking-tighter drop-shadow-lg">'+esc(r.name)+'</h2>'+
       '</section>'+
       '<section class="px-5 mt-5 space-y-3">'+
         '<a href="'+mu+'" target="_blank" rel="noopener" class="flex items-center gap-2.5 text-outline hover:text-gold transition-colors"><span class="icon text-base">location_on</span><span class="text-sm font-light border-b border-outline-var/30 hover:border-gold/50">'+esc(r.address||'')+( r.address?', ':'')+esc(r.city)+'</span></a>'+

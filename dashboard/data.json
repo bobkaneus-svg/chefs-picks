@@ -476,9 +476,18 @@
         "source_url": "https://www.yonder.fr/destinations/72-heures-a/cote-azur-bonnes-adresses-week-end-antibes",
         "date": "2023",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Nicolas Rondelli",
+        "chef_restaurant": "Les Pecheurs (1 etoile Michelin, Cap d'Antibes)",
+        "quote": "Le Cap est le restaurant decontracte de Nicolas Rondelli, en complement de son etoile Les Pecheurs. Grillades, ceviches et cuisine de plage en journee, face a la Mediterranee.",
+        "source": "180C La revue culture food",
+        "source_url": "https://www.180c.fr/la-gazette/reportages/nicolas-rondelli-cap-antibes-beach-hotel-restaurant-les-pecheurs/",
+        "date": "2023",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweppQDbZknM_skebq-CPiCLBRfQcOZVm2uYWJFUTK1par-KbJUENJKeL_EcRsw59IWZ8aFUTgn1uX3kqosedh-z9_djsktCBYMXrMJb4nitrhGRycb-PE03Sl9RSOk9EUAvcgh4qQiTFaQ=w426-h240-k-no",
@@ -580,9 +589,18 @@
         "source_url": "https://fr.gaultmillau.com/en/news/10-creperies-incontournables-en-bretagne",
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Bertrand Larcher (fondateur Breizh Cafe)",
+        "chef_restaurant": "Breizh Cafe (Cancale)",
+        "quote": "Un comptoir decontracte melant influences bretonnes et japonaises, avec des galettes et makis accompagnes de cidre",
+        "source": "Fine Dining Lovers - Ou manger a Saint-Malo",
+        "source_url": "https://www.finedininglovers.fr/explorer/listes/ou-manger-saint-malo",
+        "date": "2025",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr-z_JMvrAkgMP5A4gpEYAbNRY98qmXbX6zVVUXUldimhICuplmExZagKFBy3P0SewoS4NIVsXu6hEfzIYtrJYSfVNFJm4FSfUoBsV-KpLCBa33da51ZikpZvBu0w6lswvqfCY=w408-h281-k-no",
@@ -765,41 +783,6 @@
     "reviews_count": 346,
     "phone": "+33 2 99 89 64 76",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Bistrot%20de%20Cancale&query_place_id=ChIJF92JKFidDkgRDg8FMwGX2Wg",
-    "source_type": "chef"
-  },
-  {
-    "id": "comptoir-breizh-cafe-saint-malo",
-    "name": "Comptoir Breizh Cafe",
-    "address": "7 Quai Admis en Chef Thomas, 35260 Cancale, France",
-    "city": "Saint-Malo",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.64725,
-      "lng": -2.00439
-    },
-    "cuisine_type": "Bistrot breton-japonais, galettes et makis",
-    "price_range": "€€",
-    "vibe": "bistrot",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Bertrand Larcher (fondateur Breizh Cafe)",
-        "chef_restaurant": "Breizh Cafe (Cancale)",
-        "quote": "Un comptoir decontracte melant influences bretonnes et japonaises, avec des galettes et makis accompagnes de cidre",
-        "source": "Fine Dining Lovers - Ou manger a Saint-Malo",
-        "source_url": "https://www.finedininglovers.fr/explorer/listes/ou-manger-saint-malo",
-        "date": "2025",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEr-z_JMvrAkgMP5A4gpEYAbNRY98qmXbX6zVVUXUldimhICuplmExZagKFBy3P0SewoS4NIVsXu6hEfzIYtrJYSfVNFJm4FSfUoBsV-KpLCBa33da51ZikpZvBu0w6lswvqfCY=w408-h281-k-no",
-    "rating": 4.5,
-    "reviews_count": 1495,
-    "phone": "+33 2 99 89 61 76",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Breizh%20Caf%C3%A9%20Cancale&query_place_id=ChIJGzp3Jq6dDkgRQcS6yM2rX8o",
     "source_type": "chef"
   },
   {
@@ -1205,9 +1188,18 @@
         "source_url": "https://www.finedininglovers.fr/explorer/listes/ou-manger-saint-malo",
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Olivier Nasti",
+        "chef_restaurant": "Le Chambard (2 etoiles Michelin)",
+        "quote": "",
+        "source": "Omnia Restaurant - Adresses secretes des chefs",
+        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAlx7wA2ZI_-j9QJHmazck7a2HmCsX2PCbx5Fmrz0pR8fEpvy7CXUmIb7qZKeYhKmhwj2UWSeDrGGySc9JZZp25GJ94qF0GzAxoxqzIxRYI0G0tMMyCwZyYuQtZh-Mvs1PwqAU6A=w408-h306-k-no",
@@ -1537,9 +1529,27 @@
         "source_url": "https://www.750g.com/du-kebab-au-gastro-l-ex-top-chef-adrien-cachot-devoile-ses-adresses-favorites-a-paris-pour-bien-manger-a37645.htm",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Bertrand Grébaut",
+        "chef_restaurant": "Septime",
+        "quote": "",
+        "source": "Service95 - Where to Eat in Paris",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Bertrand Grebaut",
+        "chef_restaurant": "Septime",
+        "quote": "Best beef pho",
+        "source": "Service95",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024-08",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
+    "recommendation_count": 4,
     "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3ga7GUIP7TayFwilPW8JyXdY085ufQgjPdtYC2pFAxtJHRhlz4FrAu5rJkSh1qkfx_B1ddPJubnnMgsQwqvHFl62myoyT6BqKwhsM1IrLqBRypYjsFHZT2xdXc5XnR25Kl5cJEQ=w427-h240-k-no",
@@ -1902,9 +1912,18 @@
         "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/paris-chefs-share-their-favorite-restaurants-to-dine-when-not-in-the-kitchen",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Alexander Lobrano",
+        "chef_restaurant": "(critique gastronomique)",
+        "quote": "Merges Korean culinary techniques with contemporary French bistro cooking",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepss5EsrNLTf3BKq50KxNfYq44jJd4Tvh6xBGvymSW-nK9NbPnL6H4Ubos7ZiMWH2D7_sToIp1R48spwewU821LCDKl4Ky2ROiweJaturrkXAZLnoAmhYqDWZGyUNK7nGTvcmmHCoYdnIs=w408-h408-k-no",
@@ -2180,9 +2199,18 @@
         "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Chefs Picks",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerPR5tcUM7K-3ogxjdV04a43iWUpfSRlyHV23nJN2AvflavmOQ0DQqaQ16_n7b4BQDuTDl-vHjHOonnTq5pED5U-5yHwQwsvT1pGy2_YvTZyn05QtbWCmyJ1lp88HL-YF-UkMmT=w408-h306-k-no",
@@ -2329,9 +2357,18 @@
         "source_url": null,
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Akira Back",
+        "chef_restaurant": "Akira Back (etoile Michelin)",
+        "quote": "Delicious croissants, extra flakey, classic.",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
+    "recommendation_count": 3,
     "confidence_score": 70,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqhAH1oSdtE0f465W_kEfttqMVUTGcQfE1Qo-7y0NMwY-Zdx7m452aFkpM5zHqnADIQsDkLNxZmf7IBQULP9u8haFJH0_4e75puGq_-f9cWDjX4z3hIkRkfXUAHwjiYESnhUBqS=w426-h240-k-no",
@@ -2339,41 +2376,6 @@
     "reviews_count": 574,
     "phone": "+33 1 43 71 67 69",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Osteria%20Ferrara&query_place_id=ChIJP4_7zAhy5kcRbb5uWi2ie1M",
-    "source_type": "chef"
-  },
-  {
-    "id": "cafe-les-deux-gares-paris",
-    "name": "Cafe Les Deux Gares",
-    "address": "1 Rue des Deux Gares, 75010 Paris, France",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8783302,
-      "lng": 2.3582835
-    },
-    "cuisine_type": "Francais",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Bruno Verjus",
-        "chef_restaurant": "Table (2 etoiles Michelin)",
-        "quote": "Offers intelligent cuisine that respects products at very affordable and low prices",
-        "source": "Fodors - A Chef's Guide to Eating in Paris",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcHdYsI_njhKr6KyV8YHwPVamaLjZa7ZE6VojaMZbADoOZ7dqtJY3vOi5pXUp3ppIGr9gM8MMA7KhpGg2W3afyqeg2ojkdCUJtDqx3hpBEilurUb8vBJhEsvCiWCHNNoiDnZTr=w408-h306-k-no",
-    "rating": 4.4,
-    "reviews_count": 543,
-    "phone": "+33 1 40 38 17 05",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20les%20Deux%20Gares&query_place_id=ChIJ9Rc2j3Ju5kcRQyqSw-rNPT0",
     "source_type": "chef"
   },
   {
@@ -2591,9 +2593,18 @@
         "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Chefs Picks",
+        "chef_restaurant": "",
+        "quote": "",
+        "source": "The Chefs Guide",
+        "source_url": null,
+        "date": "2025",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoKmGVY_P_lwgod2WZgfOT9Xdg07InJC8W1MuTCCbB5AgYNi3kMyl6XSxdJH1S9sDwEbT45pHuRvE62a17a1vp21r6C7S9qYsXkGCdtgu32pukx4mfhazwOCOx4cQpEvcnQhxdFnQ=w408-h541-k-no",
@@ -2916,9 +2927,18 @@
         "source_url": "https://www.valleedelagastronomie.com/en/gastronomie/the-seven-best-bouchons-in-lyon",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Bruno Verjus",
+        "chef_restaurant": "Table (2 etoiles Michelin)",
+        "quote": "Offers intelligent cuisine that respects products at very affordable and low prices",
+        "source": "Fodors - A Chef's Guide to Eating in Paris",
+        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
+    "recommendation_count": 3,
     "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcHdYsI_njhKr6KyV8YHwPVamaLjZa7ZE6VojaMZbADoOZ7dqtJY3vOi5pXUp3ppIGr9gM8MMA7KhpGg2W3afyqeg2ojkdCUJtDqx3hpBEilurUb8vBJhEsvCiWCHNNoiDnZTr=w408-h306-k-no",
@@ -3021,9 +3041,27 @@
         "source_url": "https://luxeadventuretraveler.com/best-restaurants-in-bordeaux/",
         "date": "2023",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Rene et Maxime Meilleur",
+        "chef_restaurant": "La Bouitte (3 etoiles Michelin)",
+        "quote": "",
+        "source": "Omnia Restaurant - Adresses secretes des chefs",
+        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
+        "date": "2024",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Gerald Passedat (proprietaire)",
+        "chef_restaurant": "Le Petit Nice",
+        "quote": "",
+        "source": "Michelin Guide - Where to Eat in France",
+        "source_url": "https://guide.michelin.com/us/en/article/travel/where-to-eat-in-france",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 3,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
@@ -3912,40 +3950,6 @@
     "source_type": "chef"
   },
   {
-    "id": "le-mary-celeste-paris",
-    "name": "Le Mary Celeste",
-    "address": "1 Rue Commines, 75003 Paris, France",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8617412,
-      "lng": 2.3650124
-    },
-    "cuisine_type": "Bar a vins / Petites assiettes",
-    "price_range": "€€",
-    "vibe": "bar à vins",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Barney O'Kane",
-        "chef_restaurant": "De Vie",
-        "quote": "Devilled eggs... non-negotiable. They've been on the menu since day one.",
-        "source": "Service95 - Where to eat and drink in Paris",
-        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqbMXB9o_1XyWE_aLt22FCygFfzoPXPqpkD-0OtlgHHq7P804BLc2yaVCcGoVFZ_tp-tfWAI1xA9rrqJFU7T86rZCyFh979QvMeZf8YrZsUHkdojHMg1Uazo0AI0J7djUBnhC81=w408-h306-k-no",
-    "rating": 4.3,
-    "reviews_count": 1546,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Mary%20Celeste&query_place_id=ChIJh8xrJAdu5kcRa9A63MddGww",
-    "source_type": "chef"
-  },
-  {
     "id": "tapisserie-paris",
     "name": "Tapisserie",
     "address": "65 Rue de Charonne, 75011 Paris, France",
@@ -4214,41 +4218,6 @@
     "rating": 4.2,
     "reviews_count": 283,
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chambre%20Noire%20STUDIO&query_place_id=ChIJk7EE2uJt5kcRSQ9ktDuHLyE",
-    "source_type": "chef"
-  },
-  {
-    "id": "gontran-cherrier-paris",
-    "name": "Gontran Cherrier",
-    "address": "7 Rue du Dahomey, 75011 Paris, France",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8512483,
-      "lng": 2.3832944
-    },
-    "cuisine_type": "Boulangerie / Patisserie",
-    "price_range": "€",
-    "vibe": "café",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Akira Back",
-        "chef_restaurant": "Akira Back (etoile Michelin)",
-        "quote": "Delicious croissants, extra flakey, classic.",
-        "source": "Fodors - A Chef's Guide to Eating in Paris",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqhAH1oSdtE0f465W_kEfttqMVUTGcQfE1Qo-7y0NMwY-Zdx7m452aFkpM5zHqnADIQsDkLNxZmf7IBQULP9u8haFJH0_4e75puGq_-f9cWDjX4z3hIkRkfXUAHwjiYESnhUBqS=w426-h240-k-no",
-    "rating": 4.4,
-    "reviews_count": 574,
-    "phone": "+33 1 43 71 67 69",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Osteria%20Ferrara&query_place_id=ChIJP4_7zAhy5kcRbb5uWi2ie1M",
     "source_type": "chef"
   },
   {
@@ -4602,41 +4571,6 @@
     "source_type": "chef"
   },
   {
-    "id": "l-picerie-l-id-ale-marseille",
-    "name": "L'Épicerie l'Idéale",
-    "address": "11 Rue d'Aubagne, 13001 Marseille, France",
-    "city": "Marseille",
-    "country": "France",
-    "coordinates": {
-      "lat": 43.2958107,
-      "lng": 5.3790985
-    },
-    "cuisine_type": "Épicerie fine, comptoir, produits locaux",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Alexandre Mazzia",
-        "chef_restaurant": "AM par Alexandre Mazzia, Marseille (3 étoiles Michelin)",
-        "quote": "De beaux produits et des formules dans l'air du temps, qui donnent accès aux clients aux produits des professionnels",
-        "source": "Guide Michelin - Un chef, une ville : les adresses préférées d'Alexandre Mazzia à Marseille",
-        "source_url": "https://guide.michelin.com/fr/fr/article/people/un-chef-une-ville-les-adresses-preferees-d-alexandre-mazzia-a-marseille",
-        "date": "2023",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepYHVqBx378MKvSpa8mnjqND0T-KyhUptoKTZomAHBW_Bz43n-URHqBIhAzrZUzMnwQa5pZWAUbm7Q2jvbKMiAr4EANTFmgQX6s4-ACaMv4OAKALDVwS3DqE2NgNNW4ogKo92HtASu6wzCy=w426-h240-k-no",
-    "rating": 4.3,
-    "reviews_count": 489,
-    "phone": "+33 9 80 39 99 41",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Epicerie%20L'IDEAL&query_place_id=ChIJ73vTFrzAyRIRdh1zLwqLjYw",
-    "source_type": "chef"
-  },
-  {
     "id": "le-mas-de-peint-arles-camargue",
     "name": "Le Mas de Peint",
     "address": "Route de Salin-de-Giraud, 13200 Arles, France",
@@ -4956,9 +4890,18 @@
         "source_url": "https://www.cotemagazine.com/decouvrez-le-nouveau-concept-du-bistrot-san-felice",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Alexandre Gauthier",
+        "chef_restaurant": "La Grenouillere (2 etoiles Michelin)",
+        "quote": "",
+        "source": "Omnia Restaurant - Adresses secretes des chefs",
+        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfjWYL3XGSOtMQR3KDhkv2gLoWBnpLRWxsN8Wfgo7x_MRa_rwftEU4votnZKvGqo0NdEFL3OUpuPGh3LX5GTFQyA31O6lN-E03kOiCyvUyPsJmu5_pjDY2VG0BdLX8B_4QLDU=w408-h272-k-no",
@@ -5309,9 +5252,18 @@
         "source_url": "https://www.portdattache.bzh/cantine-des-chefs-fast-good-breton/",
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Christopher Coutanceau",
+        "chef_restaurant": "Restaurant Christopher Coutanceau (2 etoiles Michelin)",
+        "quote": "",
+        "source": "Omnia Restaurant - Adresses secretes des chefs",
+        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqIq5iWKOkcmpy0FtOijLYJgAW9vJ2KMayhhBm74RNuiJrzqJNXvs9cDgGQdJcTWqJHWAZt2AGF6sDfXbeU5zfdo-zk5UZD4ijkuRS0x71E9apVytKX3FVy9-zbZ27knwLvGmU5ew9iccbM=w408-h306-k-no",
@@ -5319,41 +5271,6 @@
     "reviews_count": 224,
     "phone": "+33 2 98 93 71 56",
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Cantine%20Des%20Chefs&query_place_id=ChIJkS9qwO4LEUgR55CgKYagJP8",
-    "source_type": "chef"
-  },
-  {
-    "id": "pertinence-paris",
-    "name": "Pertinence",
-    "address": "31 Av. Franklin Delano Roosevelt, 75008 Paris, France",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8674268,
-      "lng": 2.3097739
-    },
-    "cuisine_type": "Franco-coreen fusion",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Alexander Lobrano",
-        "chef_restaurant": "(critique gastronomique)",
-        "quote": "Merges Korean culinary techniques with contemporary French bistro cooking",
-        "source": "Fodors - A Chef's Guide to Eating in Paris",
-        "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepss5EsrNLTf3BKq50KxNfYq44jJd4Tvh6xBGvymSW-nK9NbPnL6H4Ubos7ZiMWH2D7_sToIp1R48spwewU821LCDKl4Ky2ROiweJaturrkXAZLnoAmhYqDWZGyUNK7nGTvcmmHCoYdnIs=w408-h408-k-no",
-    "rating": 4.7,
-    "reviews_count": 823,
-    "phone": "+33 1 82 82 10 10",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Clarence&query_place_id=ChIJH5K8McVv5kcRHrJn-zUA3KQ",
     "source_type": "chef"
   },
   {
@@ -5388,9 +5305,18 @@
         "source_url": "https://www.fodors.com/world/europe/france/paris/experiences/news/photos/a-chefs-guide-to-eating-in-paris-france",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Barney O'Kane",
+        "chef_restaurant": "De Vie",
+        "quote": "Devilled eggs... non-negotiable. They've been on the menu since day one.",
+        "source": "Service95 - Where to eat and drink in Paris",
+        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 2,
+    "recommendation_count": 3,
     "confidence_score": 80,
     "last_updated": "2025-01-15",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqbMXB9o_1XyWE_aLt22FCygFfzoPXPqpkD-0OtlgHHq7P804BLc2yaVCcGoVFZ_tp-tfWAI1xA9rrqJFU7T86rZCyFh979QvMeZf8YrZsUHkdojHMg1Uazo0AI0J7djUBnhC81=w408-h306-k-no",
@@ -5429,225 +5355,6 @@
     "recommendation_count": 1,
     "confidence_score": 40,
     "last_updated": "2025-01-15",
-    "source_type": "chef"
-  },
-  {
-    "id": "le-winstub-du-chambard-kaysersberg-alsace",
-    "name": "Le Winstub du Chambard",
-    "address": "19 Rue de Toulouse, 35400 Saint-Malo, France",
-    "city": "Kaysersberg, Alsace",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.6467181,
-      "lng": -2.0262231
-    },
-    "cuisine_type": "Alsacien revisite",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Olivier Nasti",
-        "chef_restaurant": "Le Chambard (2 etoiles Michelin)",
-        "quote": "",
-        "source": "Omnia Restaurant - Adresses secretes des chefs",
-        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 35,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAlx7wA2ZI_-j9QJHmazck7a2HmCsX2PCbx5Fmrz0pR8fEpvy7CXUmIb7qZKeYhKmhwj2UWSeDrGGySc9JZZp25GJ94qF0GzAxoxqzIxRYI0G0tMMyCwZyYuQtZh-Mvs1PwqAU6A=w408-h306-k-no",
-    "rating": 4.7,
-    "reviews_count": 396,
-    "phone": "+33 2 99 40 82 05",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Bistrot%20du%20Rocher&query_place_id=ChIJR2vRrxCBDkgR9TNjlSgwDXM",
-    "source_type": "chef"
-  },
-  {
-    "id": "la-yole-de-chris-la-rochelle",
-    "name": "La Yole de Chris",
-    "address": "74 Av. Victor Hugo, 29270 Carhaix-Plouguer, France",
-    "city": "La Rochelle",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.2779413,
-      "lng": -3.5541056
-    },
-    "cuisine_type": "Cuisine raffinee / Fruits de mer",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Christopher Coutanceau",
-        "chef_restaurant": "Restaurant Christopher Coutanceau (2 etoiles Michelin)",
-        "quote": "",
-        "source": "Omnia Restaurant - Adresses secretes des chefs",
-        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 35,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqIq5iWKOkcmpy0FtOijLYJgAW9vJ2KMayhhBm74RNuiJrzqJNXvs9cDgGQdJcTWqJHWAZt2AGF6sDfXbeU5zfdo-zk5UZD4ijkuRS0x71E9apVytKX3FVy9-zbZ27knwLvGmU5ew9iccbM=w408-h306-k-no",
-    "rating": 4.6,
-    "reviews_count": 224,
-    "phone": "+33 2 98 93 71 56",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Cantine%20Des%20Chefs&query_place_id=ChIJkS9qwO4LEUgR55CgKYagJP8",
-    "source_type": "chef"
-  },
-  {
-    "id": "anecdote-montreuil-sur-mer",
-    "name": "Anecdote",
-    "address": "3001 Rte des Hauts du Camp, 83330 Le Castellet, France",
-    "city": "Montreuil-sur-Mer",
-    "country": "France",
-    "coordinates": {
-      "lat": 50.4653,
-      "lng": 1.76243
-    },
-    "cuisine_type": "Creative et simple",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Alexandre Gauthier",
-        "chef_restaurant": "La Grenouillere (2 etoiles Michelin)",
-        "quote": "",
-        "source": "Omnia Restaurant - Adresses secretes des chefs",
-        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 35,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfjWYL3XGSOtMQR3KDhkv2gLoWBnpLRWxsN8Wfgo7x_MRa_rwftEU4votnZKvGqo0NdEFL3OUpuPGh3LX5GTFQyA31O6lN-E03kOiCyvUyPsJmu5_pjDY2VG0BdLX8B_4QLDU=w408-h272-k-no",
-    "rating": 4.4,
-    "reviews_count": 331,
-    "phone": "+33 4 94 98 37 77",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=San%20Felice&query_place_id=ChIJ_9xovUcJyRIRtnZCwBF0wrE",
-    "source_type": "chef"
-  },
-  {
-    "id": "simple-et-meilleur-saint-martin-de-belleville-savoie",
-    "name": "Simple et Meilleur",
-    "address": "22 Rue Parlement Saint-Pierre, 33000 Bordeaux, France",
-    "city": "Saint-Martin-de-Belleville, Savoie",
-    "country": "France",
-    "coordinates": {
-      "lat": 44.8401688,
-      "lng": -0.5712857
-    },
-    "cuisine_type": "Cuisine de montagne raffinee",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Rene et Maxime Meilleur",
-        "chef_restaurant": "La Bouitte (3 etoiles Michelin)",
-        "quote": "",
-        "source": "Omnia Restaurant - Adresses secretes des chefs",
-        "source_url": "https://www.omnia-restaurant.com/adresses-secretes-chefs/",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 35,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
-    "rating": 4,
-    "reviews_count": 1508,
-    "phone": "+33 5 56 79 76 58",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Commerce&query_place_id=ChIJU3eUL9AnVQ0RFzulhFPb2_c",
-    "source_type": "chef"
-  },
-  {
-    "id": "song-heng-paris",
-    "name": "Song Heng",
-    "address": "14 Rue Louis Bonnet, 75011 Paris, France",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.871216,
-      "lng": 2.3768997
-    },
-    "cuisine_type": "Vietnamien / Pho",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Bertrand Grébaut",
-        "chef_restaurant": "Septime",
-        "quote": "",
-        "source": "Service95 - Where to Eat in Paris",
-        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
-        "date": "2024",
-        "platform": "presse"
-      },
-      {
-        "chef_name": "Bertrand Grebaut",
-        "chef_restaurant": "Septime",
-        "quote": "Best beef pho",
-        "source": "Service95",
-        "source_url": "https://www.service95.com/where-to-eat-and-drink-in-paris-recommendations",
-        "date": "2024-08",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 2,
-    "confidence_score": 75,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq3ga7GUIP7TayFwilPW8JyXdY085ufQgjPdtYC2pFAxtJHRhlz4FrAu5rJkSh1qkfx_B1ddPJubnnMgsQwqvHFl62myoyT6BqKwhsM1IrLqBRypYjsFHZT2xdXc5XnR25Kl5cJEQ=w427-h240-k-no",
-    "rating": 4.2,
-    "reviews_count": 1788,
-    "phone": "+33 1 43 57 42 81",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Dong%20Huong&query_place_id=ChIJpUyVfOZt5kcR2gQIUb0KM28",
-    "source_type": "chef"
-  },
-  {
-    "id": "le-petit-nice-marseille",
-    "name": "Le Petit Nice",
-    "address": "22 Rue Parlement Saint-Pierre, 33000 Bordeaux, France",
-    "city": "Marseille",
-    "country": "France",
-    "coordinates": {
-      "lat": 43.29793,
-      "lng": 5.37156
-    },
-    "cuisine_type": "Francais gastronomique / Mediterraneen (3 etoiles Michelin)",
-    "price_range": "€€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Gerald Passedat (proprietaire)",
-        "chef_restaurant": "Le Petit Nice",
-        "quote": "",
-        "source": "Michelin Guide - Where to Eat in France",
-        "source_url": "https://guide.michelin.com/us/en/article/travel/where-to-eat-in-france",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 35,
-    "last_updated": "2025-01-15",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQCyvId8vjHmJKiafHDcw6zTTLcxVIlx9nnCMIHpumZYoCTrLUdx4w3oFdG-sOWhPUIoLSb8QdMLHXRKgqp3fOuZ_eFENj_Llriglq8VsLsA3JpZwaMVgeXJaW_KtGXDZ2uzbFgA=w408-h284-k-no",
-    "rating": 4,
-    "reviews_count": 1508,
-    "phone": "+33 5 56 79 76 58",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Commerce&query_place_id=ChIJU3eUL9AnVQ0RFzulhFPb2_c",
     "source_type": "chef"
   },
   {
@@ -5913,12 +5620,30 @@
         "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Christian Morisset",
+        "chef_restaurant": "Le Figuier de Saint-Esprit (1 etoile Michelin, Antibes)",
+        "quote": "Cache au coeur du vieil Antibes, Le Comptoir de la Tourraque propose un menu bistronomique qui change toutes les 3 semaines, avec des produits frais et de qualite. Note 9.6/10.",
+        "source": "See Antibes / The Fork",
+        "source_url": "https://www.seeantibes.com/restaurants/le-comptoir-de-la-tourraque-restaurant-antibes-679528",
+        "date": "2024",
+        "platform": "presse"
+      },
+      {
+        "chef_name": "Lucas Marini",
+        "chef_restaurant": "L'Arazur (1 etoile Michelin, Antibes) - forme au Mirazur 3 etoiles",
+        "quote": "La Tour Antique est un restaurant italien intime au coeur du vieil Antibes, tenu par Federica et Davide, experts en restauration, avec des plats traditionnels et revisites prepares avec des produits frais importes d'Italie.",
+        "source": "French Riviera Coast / See Antibes",
+        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 3,
     "confidence_score": 40,
     "last_updated": "2026-04-13",
-    "source_type": "chef"
+    "source_type": "both"
   },
   {
     "id": "la-cafetiere-felee-antibes",
@@ -5979,187 +5704,6 @@
     "confidence_score": 40,
     "last_updated": "2026-04-13",
     "source_type": "chef"
-  },
-  {
-    "id": "le-comptoir-de-la-tourraque-antibes",
-    "name": "Le Comptoir de la Tourraque",
-    "address": "Vieil Antibes",
-    "city": "Antibes",
-    "country": "France",
-    "coordinates": {
-      "lat": 43.581311,
-      "lng": 7.12498
-    },
-    "cuisine_type": "Bistronomique, cuisine du marche",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Christian Morisset",
-        "chef_restaurant": "Le Figuier de Saint-Esprit (1 etoile Michelin, Antibes)",
-        "quote": "Cache au coeur du vieil Antibes, Le Comptoir de la Tourraque propose un menu bistronomique qui change toutes les 3 semaines, avec des produits frais et de qualite. Note 9.6/10.",
-        "source": "See Antibes / The Fork",
-        "source_url": "https://www.seeantibes.com/restaurants/le-comptoir-de-la-tourraque-restaurant-antibes-679528",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "both",
-    "google_rating": 4.6,
-    "reviews_count_google": 410,
-    "latest_review_date": "2026-04-06",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Comptoir%20de%20La%20Tourraque&query_place_id=ChIJs3ZeQnDVzRIRbJTrpy3-dZ4",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-ig7WUvgPhkf1yGh23CtVMa4U8RP-cvC-Ec7BWOzxWIvWh5qzRxth0gnPLx8LlbuFSZYXeox0WysYWUCXQle8e4Qrmr8sntFchhm6vje6T3c7OMIAGt6xXppB7WjiT1J6Nc7zyQ=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2025-11-11",
-        "stars": 5,
-        "text": "Vous verrez peut être plusieurs de nos commentaires sur d'autres restaurants d'Antibes :en séjour avec mon conjoint, nous avons testé 4 adresses du vieil Antibes du 7 au 11 novembre. Nous mangions tôt le matin à l'hotel (type brunch) puis nous partio",
-        "author": "Oksana Hus"
-      },
-      {
-        "date": "2026-03-17",
-        "stars": 5,
-        "text": "We had dinner here last night- it was a superb experience. The food was out of this world, taste sensation- full of flavour but not overpowering. The restaurant has a nice athmosphere . The apperitif of champagne mousse is a must have. Perfect servic",
-        "author": "Niamh Corcoran"
-      },
-      {
-        "date": "2026-04-04",
-        "stars": 5,
-        "text": "Wir wurden super freundlich begrüßt. Das Ambiente ist sehr angenehm! Der Service ist zuvorkommend und sehr humorvoll. Man fühlt sich sofort wohl. Das Essen ist ausgesprochen geschmackvoll und kreativ! Die Getränkeauswahl ist spitze! Wir freuen uns sc",
-        "author": "Juliams"
-      }
-    ],
-    "top_dishes": [
-      "dessert"
-    ],
-    "top_qualities": [
-      "Service",
-      "Ambiance"
-    ],
-    "review_photos": [
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQfdwxPZM0S4IYlT4jvSMhVVK_1devTBkeZWMjoeT7_8qneQls06Aqvu-BZHSV8vHI5uKieUXhvMeVZylg_sT4fIgaLcJPLab5kjbT7jukg4HLZhwcdZJsauA1rvkJN-_5WVaiw29COVmgC",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lETyghN_dzXb1m_j0SUlUQcQL1C_DpsxXL9ZLix_-UGDJ7LhcM7YvpORcr-sRjctz82Ih8sQ68fLZCzghjF-3kmJ74K_0E3O9lAyOA7QScWK-NhqePuoqopXGf8RtKLTvxLisIasLj6xblWD",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lEThLObU3C_eKOjMCYYE-l5EHgcQYkV0jA6YBM7zsBLixZ_CMOC9FEs7OB_jPsV25t235APSW6f5AYrMrdG8GuoaluTe9FCzaR3ToBGlrx9GiV1LNwJs1qXcut6NZhFYuESlHuQsaVLAnWnj",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lERcEr5GmhF5QzIScrZ59QYaK4AiyfduRBYgr88cR0pNCTAaBpn8BvI6wxPTlYixRBIxTdPFhWX-cJQHPq5D_pFNIrxgHfAvGlsrjP6BBOn0vTghPtf47fujI9VVo6AqOK6qGzxrb9peFEz0",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lESdN0ZllC3Lu5QagCL-9HWotqbeHf9cq4xC6lzjsIu_3s4VqMmTuCQ82yHI-KGGrt89zdFHQbcLnKtab92FAGigglQX-qlcvBTOwIxUOaUoXlsRcfYEVESKmhrNWZdn2fhFv38nsDO88Geh",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQWidk2OPTU9ztsj-WPJdhmnPYWjpdWQ3zyH0NEMiY2LUool8uO9su6Sc6g1MQRRvURXDW88LxwrbWMcaeqRrSaa4nLtMQkOjNJKJoE3iOlfeCDdvnMkrbH6NjVwdet12eBqUXN1NpMvsY"
-    ],
-    "vibes": [
-      "✨ Un moment d'exception à vivre absolument"
-    ],
-    "must_try": [
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
-    "id": "la-tour-antique-antibes",
-    "name": "La Tour Antique",
-    "address": "Vieil Antibes",
-    "city": "Antibes",
-    "country": "France",
-    "coordinates": {
-      "lat": 43.581311,
-      "lng": 7.12498
-    },
-    "cuisine_type": "Italien, trattoria",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Lucas Marini",
-        "chef_restaurant": "L'Arazur (1 etoile Michelin, Antibes) - forme au Mirazur 3 etoiles",
-        "quote": "La Tour Antique est un restaurant italien intime au coeur du vieil Antibes, tenu par Federica et Davide, experts en restauration, avec des plats traditionnels et revisites prepares avec des produits frais importes d'Italie.",
-        "source": "French Riviera Coast / See Antibes",
-        "source_url": "https://frenchrivieracoast.com/restaurants/antibes",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "both",
-    "google_rating": 4.5,
-    "reviews_count_google": 248,
-    "latest_review_date": "2026-04-04",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Tour%20Antique&query_place_id=ChIJn6uQRHDVzRIRiHnShwC6MOc",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1jHCyypAxrBSL8_BxuM34dZkmSWK-6MRlua7TuE_FuzfxJcm_7S6nYzAk-yd_bjM2IUwIqr_rVV69A1as5gtMRBRhEexSLlKRp-Jbm-1jSK9MPSoDSpTtgZFz6g8B86g_EeGI=w408-h304-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-01-19",
-        "stars": 5,
-        "text": "Ce restaurant est une véritable perle rare. Je préfère personnellement y venir en dehors de la saison touristique, lorsque l’on peut vraiment profiter d’une expérience locale, avec seulement quelques tables à l’intérieur.\n\nLa cuisine, l’ambiance et l",
-        "author": "Markus E"
-      },
-      {
-        "date": "2025-08-17",
-        "stars": 5,
-        "text": "Ottimo ristorante con opzioni senza glutine\nHanno primi e secondi e dolci con opzioni senza glutine.\nIo ho preso penne allo scoglio (una delle più buone che abbia mai mangiato, e lo dico da italiano), di secondo ho preso il filetto di bue con la sena",
-        "author": "Cesare Corso"
-      },
-      {
-        "date": "2026-01-01",
-        "stars": 5,
-        "text": "Esperienza bellissima. Ci siamo andati per il cenone di capodanno... temevamo che essendo questa serata di non rimanere delusi invece hanno superato ampliamente tutte le nostre aspettative. Tutto squisito. Dall'antipasto ad dolce è stato tutto molto ",
-        "author": "Franca Delfino"
-      }
-    ],
-    "top_dishes": [
-      "salade",
-      "salad"
-    ],
-    "top_qualities": [
-      "Service",
-      "Cadre",
-      "Cuisine",
-      "Qualité-prix"
-    ],
-    "review_photos": [
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lESxuOqleKyuF8bBRqxYGJYJvoVJfgbpI72olPbfKCaJddPsR1e08c2i2g6xg3xEcAX1UkwQeNs3GjxY68AHBx0Q_ztfF4TXpAaIWysT93o-6Mwn7rtIP0o7P3hF_m3J7B7Lc5a3B4zOUlNr",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lETp_GjIWakZP1om5QcndvrlkGh7EE6ph6atXaUUkAiZgYpIRJnLHayx1p1J4FJqU45xYmYTt2uzJ4vYrJC8fsKY-TZ_REGz9J_KCidfXSxIluHhwcqv6citWhPToBIXqkE7zCXb5nL6G7z1",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQJQAAEamayBBj5NL7ME7Wi3Di86AuOxIkjuePAaeKVhQSLZVntLNznGQ8f7dtCv6gDuYold7cnAw7XUp6B8WavlFOXoBmG5HkKoIbkbkJRv-dpE_pcXuX_hgg-ZN-Xocx3hxW_UctkTqIY",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lERZo3--2DxK8PJaTGVKoI709GfiezwutCJUwHja7NnHMFKTM15-cNvygqvmB8K1zZfCt1iUgmM40_zrVTiKBclwTrZO8RNRiDW0ewd25gi4U7PHPLe2f6NfgoF87ywE2XGrzieLM3Wm1lg",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lETymmCumOSGgv2S7J5wtLuGcrqpxDDe4L9pTg29JhHDLIOhBUBFX0dh7tDTTDef2oJl9HxlzZc6OutoZ9X5NuMZLrahZ7LYxqT_pFKcfJqyM0WRj-GjqR3HTRIWJTp11xmq3SsTd9cfTG0",
-      "https://lh3.googleusercontent.com/geougc-cs/AMG9lETyBBTAonTyTT5_NUJ0oU1VHQDyp1bZwVTaNz5aFiBZ2Pk0pLIACYhAFHyaVvqO8C39Y39A7kzKR3XzoGNGvRoQrkmf9YurGH0ihb2uZKcw0pl6tpUK-_ZjMBQApm5MrCvD7eKMeAAEdi_8"
-    ],
-    "vibes": [
-      "🤗 Un accueil comme à la maison"
-    ],
-    "must_try": [
-      {
-        "icon": "🍝",
-        "label": "Spaghetti aux fruits de mer",
-        "kind": "dish",
-        "mentions": 1
-      },
-      {
-        "icon": "🥩",
-        "label": "Filet de bœuf",
-        "kind": "dish",
-        "mentions": 1
-      },
-      {
-        "icon": "🥗",
-        "label": "Les options sans gluten / végé",
-        "kind": "experience",
-        "mentions": 2
-      }
-    ]
   },
   {
     "id": "le-p-tit-cageot-antibes",
@@ -6234,36 +5778,6 @@
     "vibes": [
       "🐟 Des produits ultra-frais, choisis avec soin"
     ]
-  },
-  {
-    "id": "le-cap-restaurant-de-plage-cap-d-antibes",
-    "name": "Le Cap - Restaurant de plage",
-    "address": "Cap d'Antibes Beach Hotel, 10 Boulevard Marechal Juin",
-    "city": "Cap d'Antibes",
-    "country": "France",
-    "coordinates": {
-      "lat": 43.561372,
-      "lng": 7.117961
-    },
-    "cuisine_type": "Restaurant de plage, grillades, ceviches",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Nicolas Rondelli",
-        "chef_restaurant": "Les Pecheurs (1 etoile Michelin, Cap d'Antibes)",
-        "quote": "Le Cap est le restaurant decontracte de Nicolas Rondelli, en complement de son etoile Les Pecheurs. Grillades, ceviches et cuisine de plage en journee, face a la Mediterranee.",
-        "source": "180C La revue culture food",
-        "source_url": "https://www.180c.fr/la-gazette/reportages/nicolas-rondelli-cap-antibes-beach-hotel-restaurant-les-pecheurs/",
-        "date": "2023",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
   },
   {
     "id": "la-fontaine-saint-paul-de-vence",
@@ -6452,8 +5966,8 @@
     "city": "Villeneuve-Loubet",
     "country": "France",
     "coordinates": {
-      "lat": 35.893893,
-      "lng": 10.598407
+      "lat": 43.6326,
+      "lng": 7.1325
     },
     "cuisine_type": "Gastronomique creative, produits de la mer",
     "price_range": "€€€",
@@ -7713,9 +7227,18 @@
         "source_url": "https://guide.michelin.com/ca/fr/article/travel/les-adresses-preferees-de-dominique-crenn-a-paris",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Etheliya Hananova",
+        "chef_restaurant": "Comice",
+        "quote": "Unique, no frou-frou, sophisticated cocktails served in beautiful glassware",
+        "source": "TripAdvisor",
+        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
+        "date": "2024-06",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2026-04-13",
     "source_type": "chef"
@@ -8120,36 +7643,6 @@
     "source_type": "chef"
   },
   {
-    "id": "cravan-paris",
-    "name": "Cravan",
-    "address": "Saint-Germain",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.432493,
-      "lng": 6.338674
-    },
-    "cuisine_type": "Bar a cocktails / Cafe",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Etheliya Hananova",
-        "chef_restaurant": "Comice",
-        "quote": "Unique, no frou-frou, sophisticated cocktails served in beautiful glassware",
-        "source": "TripAdvisor",
-        "source_url": "https://www.tripadvisor.com/Articles-l7LX7dqz2ZZE-Where_chefs_eat_in_paris.html",
-        "date": "2024-06",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
     "id": "la-merenda-nice",
     "name": "La Merenda",
     "address": "4 rue Raoul Bosio, 06300 Nice",
@@ -8319,9 +7812,18 @@
         "source_url": "https://www.lasourisglobe-trotteuse.fr/ou-manger-a-nice-adresses/",
         "date": "2024",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Samuel Victori",
+        "chef_restaurant": "Les Agitateurs (1 étoile, Nice)",
+        "quote": "Néo-bistrot ouvert en 2023 par l'équipe des Agitateurs, à proximité de leur restaurant étoilé",
+        "source": "Les Agitateurs",
+        "source_url": "https://lesagitateurs.com/pirouette",
+        "date": "2023",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2026-04-13",
     "source_type": "chef"
@@ -8348,36 +7850,6 @@
         "source": "Côte d'Azur France",
         "source_url": "https://cotedazurfrance.com/discover/cities-of-the-cote-dazur/visit-nice-the-cote-dazurs-multi-faceted-city/restaurants-where-to-eat-in-nice-our-top-addresses-in-nice/",
         "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
-    "id": "pirouette-nice",
-    "name": "Pirouette",
-    "address": "Quartier du Port, 06300 Nice",
-    "city": "Nice",
-    "country": "France",
-    "coordinates": {
-      "lat": 43.700482,
-      "lng": 7.28496
-    },
-    "cuisine_type": "Néo-bistrot",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Samuel Victori",
-        "chef_restaurant": "Les Agitateurs (1 étoile, Nice)",
-        "quote": "Néo-bistrot ouvert en 2023 par l'équipe des Agitateurs, à proximité de leur restaurant étoilé",
-        "source": "Les Agitateurs",
-        "source_url": "https://lesagitateurs.com/pirouette",
-        "date": "2023",
         "platform": "presse"
       }
     ],
@@ -9078,9 +8550,18 @@
         "source_url": "https://www.franceinfo.fr/replay-radio/c-est-mon-assiette/a-lille-une-brasserie-francaise-appreciee-par-un-jeune-chef-etoile_7648973.html",
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Florent Ladeyn",
+        "chef_restaurant": "Auberge du Vert Mont (1 étoile, Boeschèpe)",
+        "quote": "Distingué comme meilleure cantine par Très Très Bon en 2020. Cuisine 100% locale, terroir flamand",
+        "source": "BierBuik site officiel",
+        "source_url": "https://bierbuik.fr/",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2026-04-13",
     "source_type": "chef"
@@ -9106,36 +8587,6 @@
         "quote": "Cuisine basée sur les produits de notre belle région, dans un ancien atelier de menuisier du vieux Lille",
         "source": "Le Bloempot site officiel",
         "source_url": "https://www.bloempot.fr/?lang=en",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
-    "id": "bierbuik-lille",
-    "name": "BierBuik",
-    "address": "Vieux-Lille, 59000 Lille",
-    "city": "Lille",
-    "country": "France",
-    "coordinates": {
-      "lat": 50.644147,
-      "lng": 3.060339
-    },
-    "cuisine_type": "Estaminet / Brewpub flamand",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Florent Ladeyn",
-        "chef_restaurant": "Auberge du Vert Mont (1 étoile, Boeschèpe)",
-        "quote": "Distingué comme meilleure cantine par Très Très Bon en 2020. Cuisine 100% locale, terroir flamand",
-        "source": "BierBuik site officiel",
-        "source_url": "https://bierbuik.fr/",
         "date": "2024",
         "platform": "presse"
       }
@@ -9226,36 +8677,6 @@
         "quote": "Inspiré des produits de saison et du marché de Talensac",
         "source": "Yonder",
         "source_url": "https://www.yonder.fr/les-tops/restaurants/meilleurs-restaurants-a-nantes",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
-    "id": "sain-nantes",
-    "name": "Sain",
-    "address": "Nantes, 44000",
-    "city": "Nantes",
-    "country": "France",
-    "coordinates": {
-      "lat": 47.223283,
-      "lng": -1.553268
-    },
-    "cuisine_type": "Bistrot / Vins naturels",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Ludovic Pouzelgues",
-        "chef_restaurant": "LuluRouget (1 étoile, Nantes)",
-        "quote": "Bistrot cool des frères Samuel et Josselin Huitric, cuisine de qualité et accords vins percutants",
-        "source": "France.fr",
-        "source_url": "https://www.france.fr/en/article/restaurants-nantes/",
         "date": "2024",
         "platform": "presse"
       }
@@ -9761,8 +9182,8 @@
     "city": "Arenys de Mar (Barcelona)",
     "country": "Espagne",
     "coordinates": {
-      "lat": 18.293553,
-      "lng": -65.935095
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Catalan traditionnel, fruits de mer",
     "price_range": "€",
@@ -9881,8 +9302,8 @@
     "city": "San Sebastian",
     "country": "Espagne",
     "coordinates": {
-      "lat": 35.728967,
-      "lng": -105.951771
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Cuisine contemporaine basque",
     "price_range": "€",
@@ -10001,8 +9422,8 @@
     "city": "San Sebastian",
     "country": "Espagne",
     "coordinates": {
-      "lat": 19.426999,
-      "lng": -99.138648
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Pintxos, fruits de mer",
     "price_range": "€",
@@ -10790,8 +10211,8 @@
     "city": "Megève",
     "country": "France",
     "coordinates": {
-      "lat": 46.055344,
-      "lng": -64.242188
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Cuisine de marché, bistrot alpin",
     "price_range": "€€",
@@ -10806,9 +10227,18 @@
         "source_url": "https://www.franceinfo.fr/replay-radio/c-est-mon-assiette/le-chef-triple-etoile-emmanuel-renaut-conseille-la-table-de-raymond-sanchis-a-megeve_7824677.html",
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Kévin Gardien",
+        "chef_restaurant": "L'Auberge du XIIe siècle, Saché (1* - chef-patron)",
+        "quote": "Sublimer les produits locaux dans un cadre historique du XIIe siècle, entre Tours et Chinon.",
+        "source": "Val de Loire France",
+        "source_url": "https://www.valdeloire-france.com/restaurants-etoiles-val-de-loire/",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 40,
     "last_updated": "2026-04-13",
     "source_type": "chef"
@@ -10884,58 +10314,7 @@
         "source_url": "https://www.artdevivrealachampenoise.com/arnaud-lallement-chef-3-etoiles/",
         "date": "2023",
         "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
-    "id": "wine-bar-by-le-vintage-reims",
-    "name": "Wine Bar by Le Vintage",
-    "address": "Centre-ville",
-    "city": "Reims",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.908951,
-      "lng": 2.290992
-    },
-    "cuisine_type": "Bar à vins, tapas",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Arnaud Lallement",
-        "chef_restaurant": "L'Assiette Champenoise, Tinqueux (3*)",
-        "quote": "Un bar à vins sur Reims avec une ambiance très sympa et décontractée, des tapas de qualité.",
-        "source": "Art de Vivre à la Champenoise - Interview Arnaud Lallement",
-        "source_url": "https://www.artdevivrealachampenoise.com/arnaud-lallement-chef-3-etoiles/",
-        "date": "2023",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
-    "id": "les-petits-tabliers-vence",
-    "name": "Les Petits Tabliers",
-    "address": "Centre-ville",
-    "city": "Vence",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.908951,
-      "lng": 2.290992
-    },
-    "cuisine_type": "Bistrot à la française, cuisine de terroir",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
+      },
       {
         "chef_name": "Alain Llorca",
         "chef_restaurant": "Restaurant Alain Llorca, La Colle-sur-Loup (1*)",
@@ -10944,9 +10323,18 @@
         "source_url": "https://www.franceinfo.fr/replay-radio/c-est-mon-assiette/de-l-etoile-alain-llorca-la-colle-sur-loup-au-jeune-chef-talentueux-jean-chaillan-vence_7809152.html",
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Gilles Goujon",
+        "chef_restaurant": "Auberge du Vieux Puits, Fontjoncouse (3*)",
+        "quote": "Ma seconde table avec une cuisine inventive centrée sur le poisson et les légumes, portant ma vision du terroir languedocien dans une ville dynamique.",
+        "source": "France Bleu - Gilles Goujon",
+        "source_url": "https://www.francebleu.fr/emissions/suivez-le-guide-les-bonnes-adresses/roussillon/gilles-goujon-le-chef-3-etoiles-de-fontjoncouse-va-lancer-une-nouvelle-table-a-beziers-l-alter",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 3,
     "confidence_score": 40,
     "last_updated": "2026-04-13",
     "source_type": "chef"
@@ -11321,36 +10709,6 @@
     "source_type": "chef"
   },
   {
-    "id": "l-alter-native-b-ziers",
-    "name": "L'Alter-Native",
-    "address": "Centre-ville",
-    "city": "Béziers",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.908951,
-      "lng": 2.290992
-    },
-    "cuisine_type": "Poissons et légumes créatifs, Méditerranée",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Gilles Goujon",
-        "chef_restaurant": "Auberge du Vieux Puits, Fontjoncouse (3*)",
-        "quote": "Ma seconde table avec une cuisine inventive centrée sur le poisson et les légumes, portant ma vision du terroir languedocien dans une ville dynamique.",
-        "source": "France Bleu - Gilles Goujon",
-        "source_url": "https://www.francebleu.fr/emissions/suivez-le-guide-les-bonnes-adresses/roussillon/gilles-goujon-le-chef-3-etoiles-de-fontjoncouse-va-lancer-une-nouvelle-table-a-beziers-l-alter",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
     "id": "froggy-s-tavern-montreuil-sur-mer",
     "name": "Froggy's Tavern",
     "address": "Rue du Clape en Bas",
@@ -11417,8 +10775,8 @@
     "city": "Roanne",
     "country": "France",
     "coordinates": {
-      "lat": 45.390879,
-      "lng": -74.054831
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Café-restaurant-épicerie, cuisine italienne et française",
     "price_range": "€€",
@@ -11711,36 +11069,6 @@
     "source_type": "chef"
   },
   {
-    "id": "l-auberge-du-xiie-si-cle-sach",
-    "name": "L'Auberge du XIIe siècle",
-    "address": "Centre village",
-    "city": "Saché",
-    "country": "France",
-    "coordinates": {
-      "lat": 46.055344,
-      "lng": -64.242188
-    },
-    "cuisine_type": "Française, produits locaux Val de Loire",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Kévin Gardien",
-        "chef_restaurant": "L'Auberge du XIIe siècle, Saché (1* - chef-patron)",
-        "quote": "Sublimer les produits locaux dans un cadre historique du XIIe siècle, entre Tours et Chinon.",
-        "source": "Val de Loire France",
-        "source_url": "https://www.valdeloire-france.com/restaurants-etoiles-val-de-loire/",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
     "id": "la-table-d-lise-devenue-lise-noirmoutier-en-l-le",
     "name": "La Table d'Élise (devenue Élise)",
     "address": "Port de L'Herbaudière",
@@ -11837,8 +11165,8 @@
     "city": "Megève",
     "country": "France",
     "coordinates": {
-      "lat": 45.427989,
-      "lng": -75.749443
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Restaurant de montagne, fromages, braises",
     "price_range": "€€",
@@ -12407,8 +11735,8 @@
     "city": "Baiao",
     "country": "Portugal",
     "coordinates": {
-      "lat": 46.59676,
-      "lng": 2.00189
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Tasca rurale, cozido a portuguesa",
     "price_range": "€",
@@ -15405,8 +14733,8 @@
     "city": "Sant Llorenç de Balàfia",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60362,
-      "lng": 2.00227
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -16605,8 +15933,8 @@
     "city": "Costa Teguise",
     "country": "Espagne",
     "coordinates": {
-      "lat": 28.991731,
-      "lng": -13.504614
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -16665,8 +15993,8 @@
     "city": "Balearic Islands",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60293,
-      "lng": 1.99628
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -18915,8 +18243,8 @@
     "city": "Playa Blanca",
     "country": "Espagne",
     "coordinates": {
-      "lat": 28.861118,
-      "lng": -13.865734
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -20595,8 +19923,8 @@
     "city": "Porinatx",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60179,
-      "lng": 2.00234
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -20625,8 +19953,8 @@
     "city": "CA 90033",
     "country": "France",
     "coordinates": {
-      "lat": 34.048325,
-      "lng": -118.211399
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -21225,8 +20553,8 @@
     "city": "Chau. d'Alsemberg 812/A",
     "country": "Belgique",
     "coordinates": {
-      "lat": 46.59996,
-      "lng": 1.99601
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -22335,8 +21663,8 @@
     "city": "Maó",
     "country": "Espagne",
     "coordinates": {
-      "lat": 35.447195,
-      "lng": 139.628469
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -22695,8 +22023,8 @@
     "city": "Oaxaca de Juárez",
     "country": "France",
     "coordinates": {
-      "lat": 17.07165,
-      "lng": -96.72989
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -23355,8 +22683,8 @@
     "city": "Arrieta",
     "country": "Espagne",
     "coordinates": {
-      "lat": 29.130939,
-      "lng": -13.461656
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -23865,8 +23193,8 @@
     "city": "Chau. de Wavre 167A",
     "country": "Belgique",
     "coordinates": {
-      "lat": 46.60182,
-      "lng": 1.99717
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -24541,9 +23869,18 @@
         "source_url": null,
         "date": "2025",
         "platform": "presse"
+      },
+      {
+        "chef_name": "Louise Bourrat",
+        "chef_restaurant": "Boubou's (Lisbonne)",
+        "quote": "Belle vue sur les toits de Paris et la simplicite de la carte",
+        "source": "Infrarouge",
+        "source_url": "https://www.infrarouge.fr/les-bonnes-adresses-de-louise-bourrat-et-robin-le-texier/",
+        "date": "2024",
+        "platform": "presse"
       }
     ],
-    "recommendation_count": 1,
+    "recommendation_count": 2,
     "confidence_score": 30,
     "last_updated": "2026-04-13",
     "source_type": "chef"
@@ -24705,8 +24042,8 @@
     "city": "Santa Eulària des Riu",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.59977,
-      "lng": 2.00283
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -25635,8 +24972,8 @@
     "city": "El Golfo",
     "country": "Espagne",
     "coordinates": {
-      "lat": 28.980018,
-      "lng": -13.82922
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -25965,8 +25302,8 @@
     "city": "Prenafeta",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60331,
-      "lng": 1.99683
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -26415,8 +25752,8 @@
     "city": "Puerto del Carmen",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.59854,
-      "lng": 2.00217
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -26655,8 +25992,8 @@
     "city": "Sant Miquel de Balansàt",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60091,
-      "lng": 2.00317
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -27915,8 +27252,8 @@
     "city": "Cala Mastella",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.59835,
-      "lng": 1.99674
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -28575,8 +27912,8 @@
     "city": "Doca do Bom Sucesso",
     "country": "Portugal",
     "coordinates": {
-      "lat": 46.59801,
-      "lng": 2.00359
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -28605,8 +27942,8 @@
     "city": "CDMX 06700",
     "country": "France",
     "coordinates": {
-      "lat": 19.416095,
-      "lng": -99.171886
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -28697,36 +28034,6 @@
     "coordinates": {
       "lat": 46.6005,
       "lng": 2.00208
-    },
-    "cuisine_type": "",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Chefs Picks",
-        "chef_restaurant": "",
-        "quote": "",
-        "source": "The Chefs Guide",
-        "source_url": null,
-        "date": "2025",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 30,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
-    "id": "le-doyenn-saint-vrain",
-    "name": "Le Doyenné",
-    "address": "5 Rue Saint-Antoine, 91770 Saint-Vrain, France",
-    "city": "Saint-Vrain",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.53741,
-      "lng": 2.325441
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -29627,36 +28934,6 @@
     "coordinates": {
       "lat": 51.517265,
       "lng": -0.063461
-    },
-    "cuisine_type": "",
-    "price_range": "€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Chefs Picks",
-        "chef_restaurant": "",
-        "quote": "",
-        "source": "The Chefs Guide",
-        "source_url": null,
-        "date": "2025",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 30,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
-    "id": "caf-des-minist-res-paris",
-    "name": "Café des Ministères",
-    "address": "83 Rue de l'Université, 75007 Paris, France",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.860628,
-      "lng": 2.319299
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -30615,8 +29892,8 @@
     "city": "Sant Llorenç de Balafia",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60122,
-      "lng": 2.00353
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "",
     "price_range": "€€",
@@ -31725,8 +31002,8 @@
     "city": "Cadaques",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.59942,
-      "lng": 1.9982
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Mediterraneenne creative",
     "price_range": "€€€€",
@@ -31755,8 +31032,8 @@
     "city": "Cadaques",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.59807,
-      "lng": 1.99849
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Izakaya mediterraneo (fusion nippo-mediterraneenne)",
     "price_range": "€€€€",
@@ -31935,8 +31212,8 @@
     "city": "Girona",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60241,
-      "lng": 1.99924
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Cuisine de saison, produits locaux",
     "price_range": "€€",
@@ -31965,8 +31242,8 @@
     "city": "Girona",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.59933,
-      "lng": 2.00109
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Bar a vins naturels, tapas",
     "price_range": "€€€",
@@ -32565,8 +31842,8 @@
     "city": "Elche",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.5982,
-      "lng": 2.00172
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Haute cuisine contemporaine ilicitaine",
     "price_range": "€€€",
@@ -32814,8 +32091,8 @@
     "city": "Londres",
     "country": "Royaume-Uni",
     "coordinates": {
-      "lat": 46.59758,
-      "lng": 1.99786
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Mexicaine revisitee, produits britanniques",
     "price_range": "€€€",
@@ -32904,8 +32181,8 @@
     "city": "Irun",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60037,
-      "lng": 2.00162
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Asador traditionnel",
     "price_range": "€€",
@@ -32934,8 +32211,8 @@
     "city": "Plentzia (Bizkaia)",
     "country": "Espagne",
     "coordinates": {
-      "lat": 46.60179,
-      "lng": 2.00208
+      "lat": null,
+      "lng": null
     },
     "cuisine_type": "Bar, conserves, pintxos",
     "price_range": "€",
@@ -33108,36 +32385,6 @@
     "source_type": "chef"
   },
   {
-    "id": "le-perchoir-menilmontant-paris",
-    "name": "Le Perchoir Menilmontant",
-    "address": "14 rue Crespin du Gast, 75011 Paris",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.8564,
-      "lng": 2.35148
-    },
-    "cuisine_type": "Francais contemporain, rooftop",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Louise Bourrat",
-        "chef_restaurant": "Boubou's (Lisbonne)",
-        "quote": "Belle vue sur les toits de Paris et la simplicite de la carte",
-        "source": "Infrarouge",
-        "source_url": "https://www.infrarouge.fr/les-bonnes-adresses-de-louise-bourrat-et-robin-le-texier/",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
     "id": "bouillon-chartier-paris",
     "name": "Bouillon Chartier",
     "address": "7 rue du Faubourg Montmartre, 75009 Paris",
@@ -33246,36 +32493,6 @@
         "chef_name": "Laurent Mariotte",
         "chef_restaurant": "Presentateur Petits Plats en Equilibre (TF1)",
         "quote": "Un bon Italien",
-        "source": "750g",
-        "source_url": "https://www.750g.com/j-aime-bien-les-bons-bistrots-laurent-mariotte-devoile-ses-adresses-preferees-pour-bien-manger-a-paris-a38838.htm",
-        "date": "2024",
-        "platform": "presse"
-      }
-    ],
-    "recommendation_count": 1,
-    "confidence_score": 40,
-    "last_updated": "2026-04-13",
-    "source_type": "chef"
-  },
-  {
-    "id": "soma-paris",
-    "name": "Soma",
-    "address": "3e arrondissement, Paris",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.85793,
-      "lng": 2.35292
-    },
-    "cuisine_type": "Bistrot japonais",
-    "price_range": "€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [
-      {
-        "chef_name": "Laurent Mariotte",
-        "chef_restaurant": "Presentateur Petits Plats en Equilibre (TF1)",
-        "quote": "J'apprecie la diversite des cuisines a Paris",
         "source": "750g",
         "source_url": "https://www.750g.com/j-aime-bien-les-bons-bistrots-laurent-mariotte-devoile-ses-adresses-preferees-pour-bien-manger-a-paris-a38838.htm",
         "date": "2024",
@@ -36951,56 +36168,6 @@
     ]
   },
   {
-    "id": "le-palmyre-cannes",
-    "name": "Le Palmyre",
-    "address": "5 Rue du Dr Baloux, 06150 Cannes, France",
-    "city": "Cannes",
-    "country": "France",
-    "coordinates": {
-      "lat": 43.5498387,
-      "lng": 6.9768552
-    },
-    "cuisine_type": "Restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 98,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.9,
-    "reviews_count_google": 206,
-    "latest_review_date": "2026-02-27",
-    "is_seasonal": false,
-    "currently_open": false,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Palmyre&query_place_id=ChIJb0u1m0eDzhIR0U2T52HW4rA",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1qqR2S0Y7Ha03g4VPzaij3BKO-e79wmPtTa1-bf862aaXMv0k2rOqUYaLItI0mQp_TU8Xo-jh-lEVqi40CJGPP8Qomf5cYho_dIs6XwGjOuJbntbnEtjV2d3SrAhzxjwvs9Y=w408-h405-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2025-09-17",
-        "stars": 5,
-        "text": "SUPERBE RESTAURANT\nLes propriétaires sont adorables et extrêmement serviables. Toujours le sourire! Les plats sont succulents, tout est frais, de qualité et fait maison!\nMention spéciale en dessert pour les baklavas à la pistache incroyablement bons ",
-        "author": "Elodie Peyrouty"
-      },
-      {
-        "date": "2025-11-19",
-        "stars": 5,
-        "text": "Une première visite mais pas la dernière, un bon accueil, un service plein de gentillesse, un beau voyage gustatif, les saveurs sont là, les assiettes sont généreuses. Nous y retournerons avec plaisir et recommanderons cette adresse autour de nous.",
-        "author": "cathy corteggiani"
-      },
-      {
-        "date": "2025-10-24",
-        "stars": 5,
-        "text": "Waou!!!!\nQuel restaurant !!!!\nAgréablement surpris par ce petit restaurant\nUne explosion de saveur, un couple plus que charmant.\nTrès très bien servi à des prix plus que correct.\nQuelle merveille.\nNe changez rien\nÀ recommander +++++\nStéphane",
-        "author": "Chel’image studio"
-      }
-    ],
-    "vibes": [
-      "🌟 Une vraie pépite à découvrir"
-    ]
-  },
-  {
     "id": "parthenopi-cannes",
     "name": "Parthenopi",
     "address": "3 Rue Emile Négrin, 06400 Cannes, France",
@@ -37421,61 +36588,6 @@
     ]
   },
   {
-    "id": "somm-s-kitchen-bordeaux",
-    "name": "Somm's Kitchen",
-    "address": "849 13th St, Paso Robles, CA 93446",
-    "city": "Bordeaux",
-    "country": "France",
-    "coordinates": {
-      "lat": 35.6279874,
-      "lng": -120.6891027
-    },
-    "cuisine_type": "Restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 96,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.8,
-    "reviews_count_google": 152,
-    "latest_review_date": "2026-04-03",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Somm's%20Kitchen&query_place_id=ChIJiRfn92fF7IARkHh7q9erH5M",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVfNm70yuXPURfXIrDtdZbT83n9obey_r8Cjt_2_m0gb_T7qcWD2aA92zWKW4llukzEO8W3Pc2PfXQGj3BAbWI7RZ7Z3Kwkok6ShzzFGynAiM4XSAGKTxOnfABxbznJPOZur4yOA=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2025-09-19",
-        "stars": 5,
-        "text": "A thousand \"thank you\"s to Somm's Kitchen would never be enough. In 2022 I reached out because I was surprising my Mom with a trip to Paso Robles. Although I planned over a month in advance, of course, Somm's Kitchen was already booked up. I reached ",
-        "author": "Lindsey Wallace"
-      },
-      {
-        "date": "2025-05-23",
-        "stars": 5,
-        "text": "Dining at Somm’s Kitchen is so much more than just a meal, it’s a unique, interactive experience that lingers in your memory long after the last course. From start to finish, everything about the evening was exceptional.\n\nIan, the mastermind behind t",
-        "author": "R Falfal"
-      },
-      {
-        "date": "2025-11-23",
-        "stars": 5,
-        "text": "I have to say this experience was beyond incredible. The wine, the food, the clear personal connection the guy had to what he is serving is worth reserving and going. It’s clear he puts so much time into choosing the wines and preparing the food. It’",
-        "author": "Justin Levy"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
     "id": "alivetu-table-m-diterran-enne-marseille",
     "name": "Alivetu - Table Méditerranéenne",
     "address": "145 Rue Sainte, 13007 Marseille, France",
@@ -37620,65 +36732,6 @@
         "stars": 5,
         "text": "Une expérience singulière. Des mets et saveurs exquis, délicieusement travaillés par un chef et sa brigade.\nUne serveuse aux petits soins, encore merci pour la bougie!\nKeep up the good work!\nÀ très vite dans le 8ème.",
         "author": "Mathieu Bruckert"
-      }
-    ]
-  },
-  {
-    "id": "french-kitchen-le-petit-prince-marseille",
-    "name": "French Kitchen - Le Petit Prince",
-    "address": "80 N Pecos Rd F, Henderson, NV 89074",
-    "city": "Marseille",
-    "country": "France",
-    "coordinates": {
-      "lat": 36.0331693,
-      "lng": -115.0998388
-    },
-    "cuisine_type": "Restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 98,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.9,
-    "reviews_count_google": 218,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=French%20Kitchen%20-%20Le%20Petit%20Prince&query_place_id=ChIJXfByTpDPyIARoUmX4X0QjyA",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjaH_Lo8-iKlWCMgZ5r02TEs1AzhUuu7DTbUK5QB4M_B7YMNQpnhJ-vIfzNSZbTSY2-9Q-EDQEEpmYJFPXRS4uS9xDSmAC4rfr7DqrT2J3DvNELnCjUwgt2D-VNJsezuNSzcw0GQ=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-02-08",
-        "stars": 5,
-        "text": "What an amazing breakfast place and everything was so tasty! Plus it wasn't heavy.\n\nMy boyfriend found this place and surprised me, as I am a \"coffee for breakfast\" person but this will absolutely be on my short list for breakfast.\n\nI ordered the pet",
-        "author": "Kat Jaquez"
-      },
-      {
-        "date": "2026-03-25",
-        "stars": 5,
-        "text": "Henderson could use more family-owned, original restaurants like Le Petit Prince. The owners have created a warm, inviting space with food that feels like being welcomed into a French home for a meal.\n\nWe ordered the Beef Bourguignon (beautifully ser",
-        "author": "Michael Siva"
-      },
-      {
-        "date": "2026-03-01",
-        "stars": 5,
-        "text": "Love this place can't wait to go back. Great service, fantastic food. A hidden gem for sure.\n\nThe house made jams are out of this world, paired wonderfully with the nice and light croissant perfection. The avocado toast was awesome lots of avocado bu",
-        "author": "Alex Schubert"
-      }
-    ],
-    "vibes": [
-      "🌟 Une vraie pépite à découvrir",
-      "✨ Un moment d'exception à vivre absolument"
-    ],
-    "must_try": [
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 2
       }
     ]
   },
@@ -38009,117 +37062,6 @@
     ]
   },
   {
-    "id": "black-duck-spirits-hearth-marseille",
-    "name": "Black Duck Spirits & Hearth",
-    "address": "2900 Johnson St NE, Minneapolis, MN 55418",
-    "city": "Marseille",
-    "country": "France",
-    "coordinates": {
-      "lat": 45.0206405,
-      "lng": -93.2374658
-    },
-    "cuisine_type": "Restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 96,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.8,
-    "reviews_count_google": 288,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Black%20Duck%20Spirits%20%26%20Hearth&query_place_id=ChIJT-YEB90ts1IRY3_Av0nuA2I",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1MuQd7uAFc6MMU7XwdGt35ttG8TxzHoUpBoptb9CSXOAoxeWqW7vL_yVdBEKcG8xgG9gKQ5CH7J_lgj8IwL_7J9HKUuERX_fhWC7pmCK8v9bsjjVg7HaWbAQdk0v8wzUbPttyug=w426-h240-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-24",
-        "stars": 5,
-        "text": "The restaurant is amazing and very well taken care of. Love the food variety and everything we ate at the restaurant was top notch. We also were big fans of the carefully crafted cocktails at Black Duck Spirits & Hearth. After eating, we even went an",
-        "author": "Cody M"
-      },
-      {
-        "date": "2026-04-02",
-        "stars": 5,
-        "text": "Absolutely delicious duck burger! Made my afternoon into a more comforting one. The execution on detail with the harvati cheese and pickles and onions makes this burger a “moment of bliss” thanks for the great sandwich. If your close stop by and try!",
-        "author": "Andrew Parker"
-      },
-      {
-        "date": "2026-03-25",
-        "stars": 5,
-        "text": "Great neighborhood spot with a full bar and delicious/versatile menu! Classy joint where you can go full fine dining or stick with casual burger vibes. Loving the BBQ on Monday nights and Friday fish fry. Highly recommend!",
-        "author": "Marlo Henry"
-      }
-    ],
-    "vibes": [
-      "✨ Un moment d'exception à vivre absolument"
-    ],
-    "must_try": [
-      {
-        "icon": "🍔",
-        "label": "Burger",
-        "kind": "dish",
-        "mentions": 3
-      },
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 3
-      }
-    ]
-  },
-  {
-    "id": "massilia-dtla-marseille",
-    "name": "Massilia - DTLA",
-    "address": "54 S Grand Ave, Los Angeles, CA 90012",
-    "city": "Marseille",
-    "country": "France",
-    "coordinates": {
-      "lat": 34.0554066,
-      "lng": -118.2487258
-    },
-    "cuisine_type": "French restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 96,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.8,
-    "reviews_count_google": 90,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Massilia%20-%20DTLA&query_place_id=ChIJv2UCzD3HwoAR2jZtJlj4UEI",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmR3lBomYyNkBsnCo7VwXMTsvqFzzCPlLBpCx9ZYuUn-A-ROuUcjemJLmu6158Kg2l-jzRsLXac8jpobTeAJ8v_thFgcs7zWGpq1npoNXQFa2rYEQayQdjUbkaAaPibLIi5UYwNE5v1g3I=w408-h272-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-04-12",
-        "stars": 5,
-        "text": "Grand Ave needed this! Just had lunch after a matinee at CTG. Delicious and easy - good food and a great drink menu. Will definitely be back.",
-        "author": "Taylor Heisley-Cook"
-      },
-      {
-        "date": "2026-04-11",
-        "stars": 5,
-        "text": "Delicious food.  Great view of the Music Center and Disney Concert Hall.  Very good service",
-        "author": "Paul Picard"
-      },
-      {
-        "date": "2026-04-12",
-        "stars": 5,
-        "text": "Delicious spins on classics, great service and chill ambiance",
-        "author": "juan vazquez"
-      }
-    ]
-  },
-  {
     "id": "maison-charlie-marseille",
     "name": "Maison Charlie",
     "address": "38 Rue Caisserie, 13002 Marseille, France",
@@ -38218,159 +37160,6 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🍷 Une carte des vins qui fait voyager"
-    ]
-  },
-  {
-    "id": "ruah-caf-conroe-lyon",
-    "name": "Ruah Café - Conroe",
-    "address": "1219 Grand Central Parkway Suite 100, Conroe, TX 77304",
-    "city": "Lyon",
-    "country": "France",
-    "coordinates": {
-      "lat": 30.2663046,
-      "lng": -95.4588196
-    },
-    "cuisine_type": "Cafe",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 98,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.9,
-    "reviews_count_google": 517,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ruah%20Caf%C3%A9%20-%20Conroe&query_place_id=ChIJGTjoC9Q5R4YRuVKNvESd7XI",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxxNz6Yb7Q_p5YCpsR017H5teV1Km9cn9o4rhTTk6dniERjZvTOLJX6Mas3ygEOh-k-Da_rPhF1Y7bWs-e9ZEfvNdU2LXOI_InVWLUGFW-NQjFNfNVInNloHpdJrkFcIYvXRil_fkFmIRg=w408-h271-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-04-08",
-        "stars": 5,
-        "text": "I was invited here by somebody I know. I met the owner, Daniel. This guy is doing this for all the right reasons. I love his story. He's giving back to the community and helping others. He's also a believer. Come support him.\n\nI tried the Rome Toast.",
-        "author": "John E"
-      },
-      {
-        "date": "2026-04-11",
-        "stars": 5,
-        "text": "Wonderful little restaurant with a unique, diverse, and eclectic menu. We tried three different bruschettas for brunch. To be honest, I felt like ordering more food simply out of greed and curiosity. But I behaved myself. However, we’re going to be b",
-        "author": "Shar Self"
-      },
-      {
-        "date": "2026-04-05",
-        "stars": 5,
-        "text": "We came in with massive group and without a reservation and not only was the owner + staff super accommodating  and friendly but the service + food was impeccable. I loved every bite. And I’m from Vancouver. My only wish is if they were also in Austi",
-        "author": "Seena Vajed"
-      }
-    ]
-  },
-  {
-    "id": "ruah-caf-lyon",
-    "name": "Ruah Café",
-    "address": "30420 FM2978 Suite 430, The Woodlands, TX 77354",
-    "city": "Lyon",
-    "country": "France",
-    "coordinates": {
-      "lat": 30.1937798,
-      "lng": -95.5885204
-    },
-    "cuisine_type": "Cafe",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 98,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.9,
-    "reviews_count_google": 454,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ruah%20Caf%C3%A9&query_place_id=ChIJVZUfOJUvR4YRu1ICaf4HCk8",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEmK7Mj9DORacDf2sRZ8fEYNHK8wwiMqcK1uKqRHhOGydQ2A9FOXC5UeqElGvc6GdBff9gSyh1OnbgQSndCCuhEURRdUeHEaY6B-qc1xlgClAmeRDtWczXGGrTXbRZSAnhhRrVXYpE0XvSC=w408-h272-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-29",
-        "stars": 5,
-        "text": "This café was amazing! The food was delicious with authentic flavors, and they offer a great variety of toasts to choose from. The staff is very kind, the atmosphere is warm and cozy, and everything is very clean. I highly recommend this place and wi",
-        "author": "Adri.g.p"
-      },
-      {
-        "date": "2026-03-26",
-        "stars": 5,
-        "text": "Lily was very sweet and helpful in deciding what to try. We split a trio of bruschetta, which turned out to be the perfect amount of food with our chai and hot chocolate. The jalapeno cream cheese is pretty spicy, but we still enjoyed everything.",
-        "author": "JMHC LLC"
-      },
-      {
-        "date": "2026-03-28",
-        "stars": 5,
-        "text": "I love the place, the food and the service. The owner even came to see us and offered us to taste one of the delicacies. This is real food! Thank you",
-        "author": "Wassi Moumouni"
-      }
-    ],
-    "vibes": [
-      "🎉 Une ambiance qui rend la soirée magique",
-      "✨ Un moment d'exception à vivre absolument"
-    ]
-  },
-  {
-    "id": "shorts-top-burgers-lyon",
-    "name": "Shorts Top Burgers",
-    "address": "120 SH 30, Huntsville, TX 77320",
-    "city": "Lyon",
-    "country": "France",
-    "coordinates": {
-      "lat": 30.7239527,
-      "lng": -95.5397795
-    },
-    "cuisine_type": "Hamburger restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 98,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.9,
-    "reviews_count_google": 339,
-    "latest_review_date": "2026-04-10",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Shorts%20Top%20Burgers&query_place_id=ChIJoaz018cJR4YReR3Mx0mxXz0",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEyKu1q1kOkYejkxxtnjLVgeysAzuVFpePguTDrCRAlAoAqCJtdG3bPLUEY3aJJ8gVGYiwBgY4DOAH6cT-rHc0PBYt_fOUUGDvlzuHU7DWMR5Ldir17ncCfZ3fAfm1qnsSgGI-q_g=w408-h307-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-01-03",
-        "stars": 5,
-        "text": "Some of the best burgers I’ve had.\nI had the bacon cheese senior burger and I was struggling to finish it. It was huge! Definitely the “best bang for your buck” type of burger. The bun brought the whole burger together but I think the burger patty al",
-        "author": "Iris"
-      },
-      {
-        "date": "2026-03-05",
-        "stars": 5,
-        "text": "I’ve been all over the country, this is a top burger, not just in Texas, but nationally. Wow! What a surprise. I’m visiting from Austin and we have a ton of great burger options. This might be better than any of them.",
-        "author": "neal boren"
-      },
-      {
-        "date": "2026-03-03",
-        "stars": 5,
-        "text": "Amazing burgers from a gas station grill. The burgers are big and the fries are crisp. Not really much space to eat there so to go is best.",
-        "author": "David Vann"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "🍔",
-        "label": "Burger",
-        "kind": "dish",
-        "mentions": 9
-      }
     ]
   },
   {
@@ -38765,61 +37554,6 @@
     ]
   },
   {
-    "id": "le-carousel-patisserie-at-tilden-paris",
-    "name": "Le Carousel Patisserie at Tilden",
-    "address": "345 Taylor St, San Francisco, CA 94102",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7856074,
-      "lng": -122.4114919
-    },
-    "cuisine_type": "Bakery",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 98,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.9,
-    "reviews_count_google": 51,
-    "latest_review_date": "2026-04-09",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Carousel%20Patisserie%20at%20Tilden&query_place_id=ChIJR8xbYlyBhYARRV6XgTsFEbY",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFUp5rKzulsF8yMuO92G6ZNj6MhuJCJZUYqfcc0HFztOJD2BwZbbhgsvbJx113IrHQ1bU9Q5t-rJhvf1Ie-vNTXghwcrZhRkYaQrFzU2Y6COpcwi-YprxmlDvS6dJlyX7D5AWX6Yb_CLDXY=w408-h510-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-23",
-        "stars": 5,
-        "text": "Elusive used to describe Le Carousel Patisserie, best known for its carefully crafted Viennoiserie but available only in popups around town, or pre-ordering for pick up later. But the patisserie recently found a brick and mortar home, although still ",
-        "author": "Frank Wing"
-      },
-      {
-        "date": "2026-03-31",
-        "stars": 5,
-        "text": "Looking for my morning caffeine fix and a quick bite to eat before hitting the road home, I came to Le Carousel Patisserie which was located across the street from my hotel. I was warmly and promptly greeted.\n\nI placed my order for an iced oat milk h",
-        "author": "Courtney Fenton"
-      },
-      {
-        "date": "2026-03-31",
-        "stars": 5,
-        "text": "Nadir is a generous and welcoming host who makes this my favorite spot in the morning. The croissants and every pastry is mindblowing. I went for the pesto tomato croissant and it was amazing. Then I tried a sweet everyday and also amazing. Must visi",
-        "author": "Grace Rector"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
     "id": "mosuke-par-mory-sacko-paris",
     "name": "Mosuke par Mory Sacko",
     "address": "11 Rue Raymond Losserand, 75014 Paris, France",
@@ -38925,116 +37659,6 @@
     ]
   },
   {
-    "id": "larkin-restaurant-paris",
-    "name": "Larkin Restaurant",
-    "address": "607 Larkin St, San Francisco, CA 94109",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7835093,
-      "lng": -122.4178262
-    },
-    "cuisine_type": "Vietnamese restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 96,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.8,
-    "reviews_count_google": 100,
-    "latest_review_date": "2026-04-11",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Larkin%20Restaurant&query_place_id=ChIJNyENwXGBhYARL4yrrBJyPmg",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFjNACgelcHBwkXvkI9ezDMEkhLf4i_4KwQaiwuvpkD874dZje_X_mifym9XdfocyYJxots9-nBjEGEJl3SSmUG63AnxVr3hFiBBDhq5YYQN3TUZqVyMxOwDTTSsfdCxsl-LN7C=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2025-10-12",
-        "stars": 5,
-        "text": "Bru I gotta write one! This place is one of the great spots for pho! Youhearrrrmeeee?!\n\nI won’t forget the young gentle man and how he was so soft spoken and kind.\n\nIt was all worth $14+!!! With big portion too.\n\nI gotta TikTok n I’m tryna share spot",
-        "author": "Mel D"
-      },
-      {
-        "date": "2025-09-03",
-        "stars": 5,
-        "text": "The star of the restaurant is the \"Hu Tieu Nam Vang\" or Phnom Penh noodles.  The menu only says noodle soup, but ask for the dry version.  The noodles will be tossed in a sauce, but the broth and proteins will be served separately in a small bowl.  T",
-        "author": "Bob Ngu"
-      },
-      {
-        "date": "2025-07-14",
-        "stars": 5,
-        "text": "We had very good pho here. They serve both wide and thin noodles which is a plus, and they use high quality ingredients. The restaurant was clean and the presentation was nice. Very good value for the price, too.",
-        "author": "Darren Xu"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "🍜",
-        "label": "Pho",
-        "kind": "dish",
-        "mentions": 2
-      }
-    ]
-  },
-  {
-    "id": "l-ardoise-bistro-paris",
-    "name": "L'Ardoise Bistro",
-    "address": "151 Noe St, San Francisco, CA 94114",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7665737,
-      "lng": -122.4330147
-    },
-    "cuisine_type": "Bistro",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 783,
-    "latest_review_date": "2026-04-02",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=L'Ardoise%20Bistro&query_place_id=ChIJ59pRbR1-j4ARKfQUFqmo33o",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6zSh5gIgu6iasCqpeEysYN1KaeQU2y62hqO4u123H5MamySoWK0TmF-klLtWV8zzLcoJRqKzQAkNzaEKLrJcUC_RhEeKmzEXzgLp2e_LVehxeqCUHU3WUqEiihrW9xOe1uVAJ=w408-h612-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-02-24",
-        "stars": 5,
-        "text": "We went there the day after Valentine’s Day and good thing we did because I asked the waiter how it was and he said it was BUSY. We had a 5:15pm reservation and arrived just the right time. I was able to find parking a few feet away. It was raining t",
-        "author": "joel reyes"
-      },
-      {
-        "date": "2026-03-25",
-        "stars": 5,
-        "text": "We arrived quite late, but the waiter kindly welcomed us anyway, and we’re so grateful he did. It turned out to be the best dining experience of our entire trip to San Francisco. From the savoury starters to the delicious mains, everything was except",
-        "author": "Marie B."
-      },
-      {
-        "date": "2026-03-29",
-        "stars": 5,
-        "text": "The most exquisite meal I've had in years.  Refinement and simplicity combined to perfection. The excellence of the duck breast in raspberry glaze cannot be described. Ideal wine pairings. And the atmosphere is also marvelous, elegant but not modern.",
-        "author": "Tim Parise"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
     "id": "pur-jean-fran-ois-rouquette-paris",
     "name": "Pur' - Jean-François Rouquette",
     "address": "5 Rue de la Paix, 75002 Paris, France",
@@ -39085,235 +37709,6 @@
     ]
   },
   {
-    "id": "c-te-ouest-bistro-paris",
-    "name": "Côte Ouest Bistro",
-    "address": "2953 Baker St, San Francisco, CA 94123",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.798338,
-      "lng": -122.4460913
-    },
-    "cuisine_type": "French restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 500,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=C%C3%B4te%20Ouest%20Bistro&query_place_id=ChIJ2SsDlYSBhYARNlV6--dxjHg",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4xrWk59qxQ29ZzI-t82xH3-x8gyM8FWdFSQx6rHrqTmU-dG2ra6k1MhVf4P8AYspEQDPVIkyR7SKafCr4IAJXUOppCkcu6D1bBcAqYimgfMdKKNryoQ7PG_o-_APiCpI7TXZSM_D8skH-=w408-h291-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-17",
-        "stars": 5,
-        "text": "It’s a small restaurant, though the street patio adds some welcome breathing room. Soft background music creates a pleasant atmosphere, and the elegant tableware sets a nice tone. Warm complimentary bread with butter is a thoughtful touch. Service is",
-        "author": "Ivan Yushin"
-      },
-      {
-        "date": "2026-02-02",
-        "stars": 5,
-        "text": "Each dining experience feels like an unforgettable one at Côte Ouest. From the moment we walk in, everything just clicked—warm hospitality, cozy vibes, and truly excellent food. Reminded me of a fond visit to a bistro in Bordeaux. Hubby and I chose t",
-        "author": "Gia Punjabi"
-      },
-      {
-        "date": "2026-02-16",
-        "stars": 5,
-        "text": "It was Valentine’s Day.  The restaurant was fully booked but the lady was kind enough to ask us to wait for a while to get us seats at the bar.  I ordered chicken liver mousse and frites while my friend ordered benedict croissant.  Both were deliciou",
-        "author": "wicket warrick"
-      }
-    ],
-    "vibes": [
-      "🌟 Une vraie pépite à découvrir",
-      "🎉 Une ambiance qui rend la soirée magique"
-    ],
-    "must_try": [
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 2
-      }
-    ]
-  },
-  {
-    "id": "magnin-street-cafe-bistro-paris",
-    "name": "Magnin Street Cafe & Bistro",
-    "address": "138 Cyril Magnin St, San Francisco, CA 94102",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.785709,
-      "lng": -122.4086975
-    },
-    "cuisine_type": "Restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 404,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Magnin%20Street%20Cafe%20%26%20Bistro&query_place_id=ChIJt4S8_XuBhYARzDbXXYAiuno",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF6wiWsvUr7SmVJz4lLGkiDSrZNkq6RxU_mr47uYrm6zwA3hn5QTOT72x9imlDNQWmQvHJbzx-IUrwWEjGKt2O982AntL3kc1TIWcGLniQ4zUc9an8CDyxwX9Kdrp1ELrYBjAs6O9ZkeE2D=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-04-03",
-        "stars": 5,
-        "text": "Service was a little slow but there was only one server acting as hostess and bartender and server, with another person assisting with bussing. We were not in a rush so we did not mind. Food was delicious. We got the salmon, a burger, chicken tenders",
-        "author": "Allison S"
-      },
-      {
-        "date": "2026-04-06",
-        "stars": 5,
-        "text": "Place was awesome and definitely one to check out if you have the time. Cindy my server seemed to really enjoy her job and it showed. The coffee had great flavor. My veggie omelet had lots of flavor and was stuffed full of fresh veggies other than th",
-        "author": "Enrique Robinson II"
-      },
-      {
-        "date": "2026-04-02",
-        "stars": 5,
-        "text": "We stumbled upon this place, and had amazing breakfast! above our expectations\nThe food was amazing, great portion, the coffee was very good as well.\nAs well the staff is so friendly, that make you feel instantly at home\nHighly recommend the place!",
-        "author": "miyu hosokawa cohen"
-      }
-    ],
-    "vibes": [
-      "✨ Un moment d'exception à vivre absolument"
-    ],
-    "must_try": [
-      {
-        "icon": "🍔",
-        "label": "Burger",
-        "kind": "dish",
-        "mentions": 1
-      },
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
-    "id": "sons-daughters-paris",
-    "name": "Sons & Daughters",
-    "address": "2875 18th St, San Francisco, CA 94110",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7616252,
-      "lng": -122.4108486
-    },
-    "cuisine_type": "Fine dining restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 375,
-    "latest_review_date": "2026-02-28",
-    "is_seasonal": false,
-    "currently_open": false,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sons%20%26%20Daughters&query_place_id=ChIJvXXIOoyAhYARe-ixq3WdmrY",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNB6HjINj0VlTsgMIR86QHzg-YkcpJ4mPAdOIvMNrBVvA4yKgq0VpTDW6kEAnv2tftLtXo1tedcyjp6yzDceTfvnntAUrrfnTmdoGDIzHktj_GnkOlI5XnsnAO4BfAVOfe8TyAjg=w418-h240-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-02-28",
-        "stars": 5,
-        "text": "I had dinner at Sons and Daughters last night and have been dreaming about the experience all day today. I would refer to this as an \"experience' rather than just a meal - everything from the moment I walked in the door was perfectly curated for an a",
-        "author": "Natalie Johnson"
-      },
-      {
-        "date": "2025-12-19",
-        "stars": 5,
-        "text": "Came here for dinner and was taken on a thoughtful and whimsical culinary adventure. Each moment and dish are highly curated to elevate the senses. Imagine table settings for fairy royalty, but not in a cheesy way.\n\nIt did feel a little formal for a ",
-        "author": "Vanessa Von Wagner"
-      },
-      {
-        "date": "2025-12-20",
-        "stars": 5,
-        "text": "Hands down the best burrito in the Mission (and maybe the city)! Went for the carnitas dorado style—crispy grilled tortilla, tender pork, perfect rice/beans/pico ratio, no unnecessary filler like rice overload. Fresh salsa bar adds great heat. Casual",
-        "author": "Johnny Bates"
-      }
-    ]
-  },
-  {
-    "id": "cafe-du-soleil-paris",
-    "name": "Cafe du Soleil",
-    "address": "345 3rd St, San Francisco, CA 94107",
-    "city": "Paris",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7832838,
-      "lng": -122.3979155
-    },
-    "cuisine_type": "Cafe",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 226,
-    "latest_review_date": "2026-04-10",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe%20du%20Soleil&query_place_id=ChIJhwSxnH6AhYAR6_sYQNRHt2U",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG95BtAb2_vrYJJpNNFwGJYOC23c3XMQN6h25rgRn6bzuKthjMjJVzMMYs8TpFSA2p40Gx5fdVmJiTo3VOe4KaEnvKoy76dSYxOKZvKujymQFwNZqDP81JdgSyFsnFYzowLvrVJDQ=w408-h543-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2025-11-11",
-        "stars": 5,
-        "text": "My friends live across the street and suggested we meet here for lunch today.  Absolutely magnificent little spot.  I had the salad Niçoise and my husband had a soup and sandwich.  Such huge and high quality portions.  Although I live on the West sid",
-        "author": "Abra Castle"
-      },
-      {
-        "date": "2025-09-04",
-        "stars": 5,
-        "text": "Fantastic meal and experience. I ordered takeout for three people around lunch. Two salad/sandwich combos and a full sandwich. Servings were SO generous, the ingredients were very flavorful, and the staff were incredibly friendly. I would definitely ",
-        "author": "Camille Bosley"
-      },
-      {
-        "date": "2026-01-19",
-        "stars": 5,
-        "text": "This is one of the best cafes for lunch I’ve ever been too. Everything was super fresh and made to order. The gentlemen running the place is incredibly nice as well. Highly recommend",
-        "author": "Andrew Weiss"
-      }
-    ],
-    "vibes": [
-      "🏡 Une cuisine locale qui raconte le terroir",
-      "✨ Un moment d'exception à vivre absolument"
-    ],
-    "must_try": [
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
     "id": "chez-pierre-french-restaurant-in-monaco-with-bar-monaco",
     "name": "Chez Pierre - French Restaurant in Monaco with Bar",
     "address": "Metropole Shopping, 4 Av. de la Madone Level 2, 98000 Monaco",
@@ -39357,514 +37752,6 @@
         "stars": 5,
         "text": "We had a great time. Food was great. We loved the attention and meeting Pierre. Service was awesome too. Will definitely come back when we visit Monaco again",
         "author": "Robert Gillis"
-      }
-    ]
-  },
-  {
-    "id": "al-vicolo-pizza-birra-monaco",
-    "name": "Al Vicolo Pizza & Birra",
-    "address": "Gertrud-Grunow-Straße 36, 80807 München, Germany",
-    "city": "Monaco",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.1848137,
-      "lng": 11.5949814
-    },
-    "cuisine_type": "Italian restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 96,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.8,
-    "reviews_count_google": 530,
-    "latest_review_date": "2026-04-07",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Al%20Vicolo%20Pizza%20%26%20Birra&query_place_id=ChIJTRgiBqN1nkcRX1MwvNJac5A",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGeBf4DudgOlAvoKeaF8urnqqXHPv0PZNFyq8uNC5D4P6-H5gYBQSckWlzOchTJ7_D-PYqz97LVMN48tg_LTso_13y9xmP3htSAgfmvqQXl_4sDjNFPCcC4Jh0o8rLMxATTxBs=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-18",
-        "stars": 5,
-        "text": "Complimenti un ristorante Italiano pizze pasta carne molto buona , fantastiche sembra  di stare in Italia un vero italiano in tutta la zona , siete i migliori complimenti altamente raccomandato provare per credere !!!",
-        "author": "Morgan Gomes"
-      },
-      {
-        "date": "2026-04-03",
-        "stars": 5,
-        "text": "Mangiato benissimo, pagato il giusto ma soprattutto bravissimi a gestirci come gruppo...visto che eravamo in parecchi! Consigliatissimo!",
-        "author": "Michele Rossi"
-      },
-      {
-        "date": "2026-03-17",
-        "stars": 5,
-        "text": "This is the best pizza and pasta italian!!!👍",
-        "author": "Gian luigi Melis"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "🍕",
-        "label": "Pizza",
-        "kind": "dish",
-        "mentions": 1
-      }
-    ]
-  },
-  {
-    "id": "giesinger-br-ust-berl-monaco",
-    "name": "Giesinger Bräustüberl",
-    "address": "Martin-Luther-Straße 2, 81539 München, Germany",
-    "city": "Monaco",
-    "country": "France",
-    "coordinates": {
-      "lat": 48.1155998,
-      "lng": 11.576744
-    },
-    "cuisine_type": "Bavarian restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 5250,
-    "latest_review_date": "2026-04-11",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Giesinger%20Br%C3%A4ust%C3%BCberl&query_place_id=ChIJncacPm3fnUcRBf_v2M49cGc",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgXAb5NzqKK35c0_VuG2MvO52dI5VnneyL6GaUdVIUrRB0R2dGurZn2o64aSq0FhLTzGSGKO9P4WcrYlDCczLpNpw-2ktUkpJOyVEuSkFgR2uwFeEiBHfqbyE8LuH7LnccdkQQ=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-04-08",
-        "stars": 5,
-        "text": "Fermata simpatica e un po’ alternativa per quanto riguarda l’universo birrario cittadino. Stanno provando a diventare un’altra delle “sorelle” che partecipano all’Oktoberfest e a giusto merito. Non abbiamo mangiato, ma abbiamo bevuto bene e leggermen",
-        "author": "G F"
-      },
-      {
-        "date": "2026-04-11",
-        "stars": 5,
-        "text": "Ein schönes Lokal für Jung und Alt. Das Sudhaus im Bräustüberl ist nicht zu laut und sehr angenehm, um sich zu unterhalten. Das Bier ist sowieso lecker, aber wir waren überrascht über das mitunter tolle vegane Essensangebot. Für Veganer sehr zu empfe",
-        "author": "Doris Huber"
-      },
-      {
-        "date": "2026-04-08",
-        "stars": 5,
-        "text": "Wir waren sehr begeistert! Eine wirklich sehr gute Küche mit ein paar landestypischen bayrischen Spezialitäten. Das Bier natürlich auch erstklassig! Service sehr zuvorkommend und freundlich, alles in allem - ein gelungener Abend. Wir kommen definitiv",
-        "author": "Marcus Dupuis"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "🥗",
-        "label": "Les options sans gluten / végé",
-        "kind": "experience",
-        "mentions": 4
-      }
-    ]
-  },
-  {
-    "id": "trad-bone-broth-nice",
-    "name": "Trad Bone Broth",
-    "address": "3903 24th St, San Francisco, CA 94114",
-    "city": "Nice",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7514232,
-      "lng": -122.4298668
-    },
-    "cuisine_type": "Health food restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 96,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.8,
-    "reviews_count_google": 141,
-    "latest_review_date": "2026-03-30",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Trad%20Bone%20Broth&query_place_id=ChIJ17GWGgZ_j4ARaH_iB6ri14U",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOZwI6y_WpFtMshu6LgzAy5F8b9XcxP2jcVIIKpp4lxT-I-ohi0irGYmtyqm4bbq0COXHpWr3wQHZEmSd1ALab5oGEOqIF0IP_meu2X0BX9qmIz8e__cbszZQusYzlq8QJlFav_g=w408-h408-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-02",
-        "stars": 5,
-        "text": "I'm from Minneapolis but I heard about this place through a good friend so when I was in San Fran for work, I made it a point to visit Trad Bone Broth.  The broths I tried exceeded my expectations. Bc of travel and eating out, I had an upset stomach ",
-        "author": "Mary March"
-      },
-      {
-        "date": "2026-03-30",
-        "stars": 5,
-        "text": "Wow, a super health conscious place and love the unique bone broth concept. I got the beef broth and chicken broth to go and made it into soup at home after adding veggies and meat. So delicious and nourishing!! I’ll be back to try the drinks (made f",
-        "author": "Mary Shi"
-      },
-      {
-        "date": "2026-02-19",
-        "stars": 5,
-        "text": "Delicious broth (tried the chicken and the chocolate version - never would've thought of sweet broth before but it's such a delicious recipe), got to talk with the owners and admire how much they care about their product and their mission with their ",
-        "author": "Brady Anderson"
-      }
-    ]
-  },
-  {
-    "id": "anchor-oyster-bar-nice",
-    "name": "Anchor Oyster Bar",
-    "address": "579 Castro St, San Francisco, CA 94114",
-    "city": "Nice",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7597022,
-      "lng": -122.4347069
-    },
-    "cuisine_type": "Seafood restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 1266,
-    "latest_review_date": "2026-04-10",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Anchor%20Oyster%20Bar&query_place_id=ChIJwRgt0Bp-j4ARfsBKlfJ4v1M",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKDs9Aj8lQAzpBufFmwkjk1yKGQwlAmxEmK6gDLobW2Dg-rgh3v6FOn8P1-wbkcRRI5sB8imVMlXwwfu51n6lumFYhCkrOh2zRnIckuUbgcZBC7H21QakXKo7WPEQ3HhD4dVao=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-01",
-        "stars": 5,
-        "text": "My daughter and I were visiting San Francisco for a museum exhibit and wanted fresh oysters.  We found the Anchor Oyster Bar and had an amazing meal.  We had to wait for a seat for over an hour, but the way they work their list means everyone on it g",
-        "author": "Lesley Hazleton"
-      },
-      {
-        "date": "2026-02-17",
-        "stars": 5,
-        "text": "I’ve been to restaurants all over the world and this is up there in the top for seafood.  We tried just about everything on the menu.\n\nThe Ciopinno with garlic bread is an absolute dream.  Save the sauce from the clams for more dipping.  Order severa",
-        "author": "William Keck"
-      },
-      {
-        "date": "2026-02-09",
-        "stars": 5,
-        "text": "We visited on a weekend evening and waited over an hour, as they do not take reservations and the space is small. It is a popular spot and still worth trying, though a less busy night may be more enjoyable. We ordered the Caesar salad and the large c",
-        "author": "Ariel Servin"
-      }
-    ],
-    "vibes": [
-      "🌟 Une vraie pépite à découvrir"
-    ],
-    "must_try": [
-      {
-        "icon": "🦪",
-        "label": "Huîtres",
-        "kind": "dish",
-        "mentions": 2
-      },
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
-    "id": "mezze-and-mooore-nice",
-    "name": "Mezze and Mooore",
-    "address": "198 Guerrero St, San Francisco, CA 94103",
-    "city": "Nice",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7681355,
-      "lng": -122.424627
-    },
-    "cuisine_type": "Lebanese restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 522,
-    "latest_review_date": "2026-04-13",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mezze%20and%20Mooore&query_place_id=ChIJT1vMouV_j4ARiVE3T76PVY8",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFlvD4BDKPb9iG3bMDwvYljnCCsjkRrFgStb15oSAT5zbnsn44e0qI6rn6gUAAhEeMoSUiovy4VmTZtzkMhjqpiezNlBKYRUGQzR5kMgDuHou2dbwoV3K-rMcrWWH0EHt8mbq5wUQ=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-24",
-        "stars": 5,
-        "text": "Ive been wanting to try this spot out for years. Stopped in for a late lunch and it was outstanding. The place has a great vibe with Middle Eastern music playing in the background. The crowd was a mix of business men, families, as well as moms catchi",
-        "author": "SF mama"
-      },
-      {
-        "date": "2026-03-20",
-        "stars": 5,
-        "text": "My go-to Mediterranean food is Beit Rima. And now Mezze and Mooore becomes a worthy rival! The hummus here is smooth and flavorful. I actually leans toward flavorful and sour hummus, and this place has it. The salads we got are pleasantly fresh and r",
-        "author": "Tee Ponsukcharoen"
-      },
-      {
-        "date": "2026-03-01",
-        "stars": 5,
-        "text": "Our 3rd time to dine. Love the relaxing atmosphere and delicious meal. We were there last night meeting friends that we have not seen in some time. So nice to relax, enjoy a meal without feeling rushed like most restaurants. They understand people co",
-        "author": "B C"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "🫒",
-        "label": "Mezze",
-        "kind": "dish",
-        "mentions": 1
-      }
-    ]
-  },
-  {
-    "id": "billingsgate-nice",
-    "name": "Billingsgate",
-    "address": "3859 24th St, San Francisco, CA 94114",
-    "city": "Nice",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.751541,
-      "lng": -122.4287947
-    },
-    "cuisine_type": "Restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 94,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.7,
-    "reviews_count_google": 150,
-    "latest_review_date": "2026-03-18",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Billingsgate&query_place_id=ChIJCYfGUyF_j4ARYBrD_S9XlsU",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEp-JDQPwgZtufN1hQjet_9FQZpB6p2fM8dYoqBaqqhLkWI3z5oStNtZb093aocwlevDCuINqgoinLr9a5x4wm_9_nk_CZ5FM4vAVk8YnqI2vBUIY0hF6AVUDXsko9K-O2kl4ka=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2025-11-24",
-        "stars": 5,
-        "text": "Love this place. I am a loyal Sun Fat guy for the past 10+ years, but Billingsgate is a welcomed addition to the mix.\n\nPrices are competitive for the quality.\n\nHappy hour Mondays is great (oysters, carpaccio, chowder), esp for parents who are droppin",
-        "author": "Joshua Nguyen"
-      },
-      {
-        "date": "2026-03-06",
-        "stars": 5,
-        "text": "Amazing fresh seafood options. The staff is so friendly and helpful and everything is so delicious. Their catering is top notch too!  My guests loved the chowder, poke and oysters. I can’t wait to use them for another party.",
-        "author": "Premila Anand"
-      },
-      {
-        "date": "2026-03-16",
-        "stars": 5,
-        "text": "Scallops are to die for! They are my weekend treat.\n\nI love this place in general though! Great fish, fun happy hours, and friendly staff. Definitely check them out!",
-        "author": "Katherine Gilbert"
-      }
-    ],
-    "vibes": [
-      "🐟 Des produits ultra-frais, choisis avec soin"
-    ],
-    "must_try": [
-      {
-        "icon": "🦪",
-        "label": "Huîtres",
-        "kind": "dish",
-        "mentions": 2
-      }
-    ]
-  },
-  {
-    "id": "spruce-nice",
-    "name": "Spruce",
-    "address": "3640 Sacramento St, San Francisco, CA 94118",
-    "city": "Nice",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7876049,
-      "lng": -122.4527851
-    },
-    "cuisine_type": "New American restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 92,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.6,
-    "reviews_count_google": 1730,
-    "latest_review_date": "2026-04-10",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Spruce&query_place_id=ChIJ_075ezGHhYARMb6UkSpmbbE",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHr5CV9Z8VVYZVk0JKf6PjkF-UypKiOj8GGVQ0Ntr5IsqDVF71EaqYrRPn-PlfO83E-k3A2CfEXwVof2hkTbOptq9N3ymE7PbohsXyfImI_zlgILpjM2VYMPHZY-bzEX3Qd_-LiLw=w408-h544-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-01",
-        "stars": 5,
-        "text": "We came here for the Valentine’s Day menu and overall had a lovely experience.\n\nThe cheese course was absolutely the highlight for me. It featured three different cheeses, each with an incredibly bold and intense flavor profile. It was powerful, comp",
-        "author": "Yay H"
-      },
-      {
-        "date": "2026-03-04",
-        "stars": 5,
-        "text": "Spruce embodies the elegance and precision of a true gourmet kitchen, making it a wonderful choice for an intimate and refined dinner.\n\nThe wine selection is impressive, and the three course menu is thoughtfully designed, allowing guests to choose th",
-        "author": "Mary Maldonado"
-      },
-      {
-        "date": "2026-03-15",
-        "stars": 5,
-        "text": "If you make a reservation then you will be hosted in the dining area with fixed menu.\nIf you walk in, you can sit in the lounge and bar area which is a first come first serve basis. They also have some tables in this area.\nStaff were super friendly a",
-        "author": "Kasra"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "🍷",
-        "label": "La sélection de vins",
-        "kind": "experience",
-        "mentions": 1
-      },
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
-    "id": "trestle-restaurant-nice",
-    "name": "Trestle Restaurant",
-    "address": "531 Jackson St, San Francisco, CA 94133",
-    "city": "Nice",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7961962,
-      "lng": -122.4045409
-    },
-    "cuisine_type": "New American restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 92,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.6,
-    "reviews_count_google": 1302,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Trestle%20Restaurant&query_place_id=ChIJXX7b1vSAhYARvD0AU-P83P8",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHB2PDTsn1b4Zp6AO5hw67691nEukd2bTAQfvHmjnZlMz3xWGYpQB4GwVgrTSRnco-s2FgAnFYeB0rCoHXOrmQ2fNA7bn3EQxD6-4iy33aC0UgHZu2QT7McoecxxQNh5YEfZqznuw=w408-h306-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-03-31",
-        "stars": 5,
-        "text": "Trestle is one of those places that really gets everything right.\n\nThe prix fixe menu is excellent, well balanced, seasonal, and thoughtfully put together. Every dish feels intentional without being overly complicated.\n\nThe grilled salmon and the car",
-        "author": "Elizabeth Wang"
-      },
-      {
-        "date": "2026-04-10",
-        "stars": 5,
-        "text": "This place gave me the single best dining experience I have ever had.\n\nI almost don't want to spoil it in a review, but if you are a foodie in any capacity you NEED to go here immediately. The price was only $52 per person for a 4 course dinner. The ",
-        "author": "Lenny Doiron"
-      },
-      {
-        "date": "2026-03-17",
-        "stars": 5,
-        "text": "We've visited Trestle on several of our San Francisco trips in the past 10 years or s, including a visit when it relocated to The Vault. It has offered a consistently good overall experience,  with fantastic food (how do they manage to make everythin",
-        "author": "simon L"
-      }
-    ],
-    "must_try": [
-      {
-        "icon": "📅",
-        "label": "Réserver à l'avance (très demandé)",
-        "kind": "experience",
-        "mentions": 1
-      }
-    ]
-  },
-  {
-    "id": "firefly-restaurant-nice",
-    "name": "Firefly Restaurant",
-    "address": "4288 24th St, San Francisco, CA 94114",
-    "city": "Nice",
-    "country": "France",
-    "coordinates": {
-      "lat": 37.7511917,
-      "lng": -122.4382376
-    },
-    "cuisine_type": "American restaurant",
-    "price_range": "€€€",
-    "vibe": "casual",
-    "tags": [],
-    "recommendations": [],
-    "recommendation_count": 0,
-    "confidence_score": 92,
-    "last_updated": "2026-04-14",
-    "source_type": "trending",
-    "google_rating": 4.6,
-    "reviews_count_google": 801,
-    "latest_review_date": "2026-04-12",
-    "is_seasonal": false,
-    "currently_open": true,
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Firefly%20Restaurant&query_place_id=ChIJofWUNAx-j4ARnQzSL9SlBq0",
-    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGXs8Bp2_kQZ-N1mEsKKdI5y-jMSSORjtjTlKORgUzc76cO0nbsP5_biNB6rmlGB5rY9k4pnQls0LRaMrOm-0h6EjDqhP1ealyKMHmJrYw1dsjROp_6T-EABLsrDeKUSoLgq3kd6g=w408-h275-k-no",
-    "top_recent_quotes": [
-      {
-        "date": "2026-02-15",
-        "stars": 5,
-        "text": "Food was delicious. Highly recommend the sweet potatoes tostones and fried chicken and the crepes florentine. The atmosphere was magical. Really kind people. Fireflies remind me of home and I miss them as california does not have any lightning bugs t",
-        "author": "Marissa Beyer"
-      },
-      {
-        "date": "2026-04-12",
-        "stars": 5,
-        "text": "Just had a DELICIOUS 100% gluten free dinner. Our table tried all three salads and liked them all. I loved the ocean trout and gumbo. Our table also loved the crepes florentine, mac and cheese, and fried chicken. They even have gluten free stout beer",
-        "author": "David Shafton"
-      },
-      {
-        "date": "2026-02-15",
-        "stars": 5,
-        "text": "I love this place so much. Every dish feels like a hug. The staff is so fun and warm. The interior is beautiful and feels like a fairytale.",
-        "author": "Joseph T Nallen"
-      }
-    ],
-    "vibes": [
-      "✨ Un moment d'exception à vivre absolument"
-    ],
-    "must_try": [
-      {
-        "icon": "🥗",
-        "label": "Les options sans gluten / végé",
-        "kind": "experience",
-        "mentions": 2
       }
     ]
   }

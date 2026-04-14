@@ -66,12 +66,45 @@ def get_existing_place_ids():
 # ─────────────────────────────────────────
 # PASS 1: Places — MULTIPLEX (1 run pour N villes)
 # ─────────────────────────────────────────
+# Bbox approximative par ville pour valider les coords (anti-bogus)
+CITY_BBOX = {
+    "paris": {"lat": (48.7, 49.0), "lng": (2.2, 2.5)},
+    "nice": {"lat": (43.6, 43.8), "lng": (7.18, 7.35)},
+    "monaco": {"lat": (43.7, 43.78), "lng": (7.4, 7.5)},
+    "cannes": {"lat": (43.5, 43.6), "lng": (6.95, 7.10)},
+    "antibes": {"lat": (43.55, 43.65), "lng": (7.10, 7.20)},
+    "marseille": {"lat": (43.18, 43.40), "lng": (5.20, 5.55)},
+    "lyon": {"lat": (45.70, 45.82), "lng": (4.78, 4.92)},
+    "bordeaux": {"lat": (44.78, 44.92), "lng": (-0.65, -0.50)},
+    "toulouse": {"lat": (43.55, 43.68), "lng": (1.38, 1.50)},
+    "nantes": {"lat": (47.18, 47.28), "lng": (-1.62, -1.48)},
+}
+
+
+def in_bbox(lat, lng, city):
+    """Valide que les coords sont bien dans la ville déclarée."""
+    if lat is None or lng is None:
+        return False
+    bbox = CITY_BBOX.get(city.lower())
+    if not bbox:
+        return True  # Pas de référence → on accepte
+    return bbox["lat"][0] <= lat <= bbox["lat"][1] and bbox["lng"][0] <= lng <= bbox["lng"][1]
+
+
 def scrape_places_batch(cities, max_places_per_city=50):
-    """Scrape plusieurs villes en 1 seul run pour économiser les frais fixes (~$0.20/run)."""
+    """Scrape plusieurs villes en 1 seul run pour économiser les frais fixes (~$0.20/run).
+    Ajoute ', France' au search query pour éviter les matches sur Paris,TX / Monaco→Munich."""
     print(f"  [Pass 1 BATCH] Scraping {len(cities)} villes en 1 run...")
+    # Toujours préciser le pays pour éviter les ambiguïtés Paris→TX, Monaco→Munich, etc.
+    search_strings = []
+    for c in cities:
+        if "," not in c:
+            search_strings.append(f"restaurants {c}, France")
+        else:
+            search_strings.append(f"restaurants {c}")
     run = client.actor("compass/crawler-google-places").call(
         run_input={
-            "searchStringsArray": [f"restaurants {c}" for c in cities],
+            "searchStringsArray": search_strings,
             "maxCrawledPlacesPerSearch": max_places_per_city,
             "language": "en",
             "includeWebResults": False,
@@ -130,14 +163,23 @@ def scrape_places(city, max_places=100):
 # ─────────────────────────────────────────
 # PASS 2: Pre-filter local (gratuit)
 # ─────────────────────────────────────────
-def prefilter(places, existing_ids, max_candidates=15):
-    """Garder uniquement les meilleurs candidats avec critères stricts."""
-    candidates = [
-        p for p in places
-        if p["rating"] >= 4.5
-        and p["reviews_count"] >= 50
-        and p["placeId"] not in existing_ids
-    ]
+def prefilter(places, existing_ids, max_candidates=15, city=None):
+    """Garder uniquement les meilleurs candidats avec critères stricts.
+    Si `city` est fourni, valide aussi que les coords sont dans la bbox de la ville
+    (évite d'importer des restos US/Allemagne quand on cherche Paris/Monaco)."""
+    rejected_geo = 0
+    candidates = []
+    for p in places:
+        if not (p["rating"] >= 4.5 and p["reviews_count"] >= 50):
+            continue
+        if p["placeId"] in existing_ids:
+            continue
+        if city and not in_bbox(p.get("lat"), p.get("lng"), city):
+            rejected_geo += 1
+            continue
+        candidates.append(p)
+    if rejected_geo:
+        print(f"    ⚠️  {rejected_geo} candidats rejetés (coords hors {city})")
     candidates.sort(key=lambda p: (p["rating"], p["reviews_count"]), reverse=True)
     return candidates[:max_candidates]
 
@@ -216,7 +258,7 @@ def process_city(city, cache, total_cost):
     places, cost1 = scrape_places(city)
     total_cost["places"] += cost1
 
-    candidates = prefilter(places, existing_ids, max_candidates=15)
+    candidates = prefilter(places, existing_ids, max_candidates=15, city=city)
     print(f"  [Pass 2] Pre-filter: {len(candidates)} candidats sur {len(places)} places (≥4.5★, ≥50 avis, non doublons)")
 
     if not candidates:
@@ -350,7 +392,7 @@ if __name__ == "__main__":
     all_candidates = []
     candidates_by_city = {}
     for city, places in by_city.items():
-        c = prefilter(places, existing_ids, max_candidates=15)
+        c = prefilter(places, existing_ids, max_candidates=15, city=city)
         candidates_by_city[city] = c
         all_candidates.extend([(city, p) for p in c])
         print(f"    {city}: {len(c)} candidats")
