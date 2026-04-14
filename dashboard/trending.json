@@ -1,5 +1,140 @@
 [
   {
+    "name": "Miam Antibes",
+    "address": "6 Rue Thuret, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 5,
+    "reviews_count": 190,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-04-14",
+    "last_review_days_ago": -1,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "11/15 avis détaillés, 5 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-14",
+        "stars": 5,
+        "text": "We visited Miam as a couple and had a very pleasant experience. The interior is minimalist, stylish, and very comfortable, creating a relaxed atmosphere. The staff were extremely polite, attentive, and welcoming.\n\nThe crêpes were delicious — very aut",
+        "author": "Artur Vetershpan"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "I found this recommended by goggle reviews and it was right on. Extremely immaculate restaurant  I enjoyed wonderful bottle of orange juice, cappuccino, prosciutto and burrata crepe with a creative salad on the side.  Delicious and highly recommend t",
+        "author": "tricia"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Pour moi, la meilleure crêperie Antiboise. Et j'en ai fait des crêperies ! Tout est parfait, et certains détails comme la façon dont est disposé le jambon dans la crêpe ou le poivre sur l'œuf ainsi que les fruits secs dans la salade ont su retenir mo",
+        "author": "Axel P"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5821169,
+      "lng": 7.1265671
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Miam%20Antibes&query_place_id=ChIJrwPq563VzRIRIRf0KF_AUSw",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcv8-Ph5650u44sRcV5Ia4JElbikQ6yGbdy8j8u956ACbKzLoU6ZFR_NCEP8_WZ-ukION3h88XIaI-pmpuYTLlEnwDrBkfA1159Tkiou1Cu16edKkAAPF-p_UQXjM78e_hb3zpK_FZKraR=w408-h544-k-no"
+  },
+  {
+    "name": "Picnic Antibes",
+    "address": "25 Rue de Fersen, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Vegetarian restaurant",
+    "price_range": "€€€",
+    "google_rating": 5,
+    "reviews_count": 127,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-04-09",
+    "last_review_days_ago": 4,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "15/15 avis détaillés, 3 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "Une très belle découverte ✨\n\nUn petit restaurant plein de charme, végétarien, vegan, avec même des options sans gluten — et surtout, tout est fait maison… et c’est absolument délicieux !\n\nJ’ai pris une salade sans gluten, elle était incroyable, et la",
+        "author": "Mathilde Mougeot"
+      },
+      {
+        "date": "2026-03-19",
+        "stars": 5,
+        "text": "A very delicious and friendly, warm place in the old town of Antibes.\nThe owners can always recommend you the dish of the day and help to choose. The menu is changing regularly and you can try dishes from different cultures!\nI love taking sandwiches ",
+        "author": "Stasia Nikulina"
+      },
+      {
+        "date": "2026-01-17",
+        "stars": 5,
+        "text": "Mon endroit préféré !! J'y suis allée plusoeurs fois avec mon copain et aujourd'hui avec une amie. En tant que vegane c'est compliqué de trouvé du choix et de la qualité mais  au PICNIC je n'ai jamais été déçue ! Tout est toujours délicieux, les toas",
+        "author": "Alice Lopes"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5803576,
+      "lng": 7.1250955
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Picnic%20Antibes&query_place_id=ChIJH7oFiRDVzRIRmtIg7jA_qSo",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6aQWVBnKGPWiCUw0KxtcIDmdEBFV6qexvniYa7r6g9V8Om5VVgjGjo1j9m0VDVUc2tmBepPa-QK2nB58AL2MVjKLUdC_t2dTB2_LRMp2Ahrhx0CfU1F7SPvJC_Ho_fUNUGHoncEYcqTk=w426-h240-k-no"
+  },
+  {
+    "name": "Jeanne",
+    "address": "10 Rue Sade, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.9,
+    "reviews_count": 904,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-04-13",
+    "last_review_days_ago": 0,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "10/15 avis détaillés, 5 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-28",
+        "stars": 5,
+        "text": "toujours une réussite de venir dîner chez Jeanne ! j'y emmène souvent des copains, et c'est un sans faute systématique : les portions sont adaptées, les assiettes sont hyper bien travaillées, les produits raffinés et goutus, les plats se déclinent en",
+        "author": "Jil Ko"
+      },
+      {
+        "date": "2026-04-02",
+        "stars": 5,
+        "text": "Nous voulions aller dîner chez Jeanne depuis longtemps, et nous n’avons pas été déçus ! Cuisine engagée produits locaux et de saison et le petit twist qui change la donne. Mention spéciale pour la carte courte équilibrée et avec un plat végétarien pa",
+        "author": "Nathalie Bret"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Toute l’équipe est magique.\n\nLe vin nature trône tel un roi dans l’établissement où l’enivrement ne provient pas seulement du raison juste fermenté mais aussi des saveurs présentes dans l’assiette.\n\nCourez y!\n\nLa bise à toute l’équipe\n\nUlrich",
+        "author": "Ulrich Girolami"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5810087,
+      "lng": 7.1268879
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jeanne&query_place_id=ChIJl_SHs3HVzRIRdOlAC7cQ9gM",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF56Ki85lpEqsYrCXOS-Y9rvfY_jl3mmCNCz6KkJXUHOlynNaHtxgaV6Px3mFkclgmvOOSjjCKegLdoONEuug91KIljTYVEEdoiCBFolhiw7kOFewVt4N1N3NlxYPNYn-zIOeouHw=w408-h312-k-no"
+  },
+  {
     "name": "Oli Bar",
     "address": "Carrer d'en Guillem de Bruguera, 10, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -9,7 +144,7 @@
     "google_rating": 4.9,
     "reviews_count": 454,
     "recent_trend": "hausse",
-    "last_15_pattern": "15/15 en 5★, OUVERT",
+    "last_15_pattern": "15/15 en 5★",
     "latest_review_date": "2026-04-13",
     "last_review_days_ago": 0,
     "is_seasonal": false,
@@ -45,6 +180,51 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwegfwVVvoZm5kcfyYgNjxyIuaq6bKyNMmkTKVSV12cqQzw6AbactSRArC1urL8IMLUQkQ0CnflsFw9EvOnGLfbQ4Z7MuXwgzb80SHpGAYOdwXwc3VRFo5p8-IOUsRYIx2iX14bj_smwgc=w408-h272-k-no"
   },
   {
+    "name": "la petite escale",
+    "address": "30 Rue Fourmillière, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.9,
+    "reviews_count": 402,
+    "recent_trend": "hausse",
+    "last_15_pattern": "15/15 en 5★",
+    "latest_review_date": "2026-04-10",
+    "last_review_days_ago": 3,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "10/15 avis détaillés, 2 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "We love this small restaurant in Antibes. Reservations recommended - popular restaurant and limited tables.\n\nService is very friendly. The menu is small but with a delicious selection of French classics with modern twists and seasonal produce. We hav",
+        "author": "Katie Horsfield"
+      },
+      {
+        "date": "2026-03-06",
+        "stars": 5,
+        "text": "Visited after reading all the positive reviews and it didn’t disappoint.  Cute little restaurant with a simple menu.  Friendly service and delicious foods.  Enjoyed this type of genuine foods.  Suggest making a reservation in advance as it’s a popula",
+        "author": "B WO"
+      },
+      {
+        "date": "2026-02-27",
+        "stars": 5,
+        "text": "Excellente découverte pour ce beau petit restaurant niché dans une des ruelles Antiboises..\nUne cuisine raffinée qui met à l’honneur des produits d’une grande fraîcheur, des légumes savoureux et des associations de saveurs délicates.\nJ’y reviendrai a",
+        "author": "helene lemaire"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5799014,
+      "lng": 7.1230009
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=la%20petite%20escale&query_place_id=ChIJRU6Bom_VzRIR8ZfePeXSWMY",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHk85bHtowNpTfNVhyTzj3KvMuatSiC2bFw9jk4je04187TSuuQTYED6KKt2YYaLXPQnHLgKNlYJiT7PJblyhI4ULIo_vCIWdIV2QWUfeHz2uafyNuMRgHmMm8ri6RfKqtL3jaQ=w408-h544-k-no"
+  },
+  {
     "name": "Restaurant Norai",
     "address": "Carrer del Doctor Bartomeus, 37, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -54,7 +234,7 @@
     "google_rating": 4.9,
     "reviews_count": 271,
     "recent_trend": "hausse",
-    "last_15_pattern": "14/15 en 5★, SAISONNIER FERMÉ",
+    "last_15_pattern": "14/15 en 5★",
     "latest_review_date": "2026-04-12",
     "last_review_days_ago": 1,
     "is_seasonal": true,
@@ -90,6 +270,51 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUS1brUDgApXdGbE0hErgeNwHCJHwG8uhcYrmXlu1fQ7RI2HE5MACoI0YftIzN3FclqU6QUBBL9C-sTTzsSFO3W_ba3p8kPfezwEJmOUybis6FQTBeHDYVUDvtNm8HmaGp=w408-h306-k-no"
   },
   {
+    "name": "Le Migrainier",
+    "address": "11 Rue du Migrainier, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.9,
+    "reviews_count": 224,
+    "recent_trend": "hausse",
+    "last_15_pattern": "13/15 en 5★",
+    "latest_review_date": "2026-04-11",
+    "last_review_days_ago": 2,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "13/15 avis détaillés, 3 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-14",
+        "stars": 5,
+        "text": "Quelle découverte incroyable. L’ambiance est géniale avec une excellente musique qui ajoute vraiment à l’expérience, mais la vraie star ici, c’est la cuisine. J’ai pris le steak de Black Angus avec crème de bleu, et c’était honnêtement le meilleur st",
+        "author": "MJ"
+      },
+      {
+        "date": "2026-03-26",
+        "stars": 5,
+        "text": "Un endroit où il est magique de se perdre ! A l’abri des regards, des places bondées de monde… et de pizzas, dans une ruelle où le soleil ne se présente que 30min par jour l’été (pas besoin de clim ici c’est un avantage), vous trouverez un lieu authe",
+        "author": "Lolo"
+      },
+      {
+        "date": "2026-03-25",
+        "stars": 5,
+        "text": "Manu and Octave provide not only the most mind blowing and creative dishes, but they also make you feel at home. The service Octave provides is warm, laid back and genuine. I felt like I could really sense that the chef was expressing himself through",
+        "author": "Christian Farrugia"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5818975,
+      "lng": 7.1257662
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Migrainier&query_place_id=ChIJfUheSDXVzRIRQXwWzI1hIOc",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVVTfnVhbNneUMrvpc7XjlycRNP3MbBKk3uMfFOUUVP4_KPcCyt625GuQcuMMBv-seuEQtlptQlsNAeank_ObujPQhI8Dg0JnMtK9rj5-4qb9qBL4zjgiYTZfEWCVg2U3EmwZOwM_RMm9b=w408-h544-k-no"
+  },
+  {
     "name": "Celeste",
     "address": "Carrer Nou, 1, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -99,7 +324,7 @@
     "google_rating": 4.8,
     "reviews_count": 1520,
     "recent_trend": "hausse",
-    "last_15_pattern": "15/15 en 5★, OUVERT",
+    "last_15_pattern": "15/15 en 5★",
     "latest_review_date": "2026-04-12",
     "last_review_days_ago": 1,
     "is_seasonal": false,
@@ -135,6 +360,51 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1LP6KkGAGr1oICGDL_tiEQ_WlavKFthkhixnNsVYrjggx9mb3UW-ACCnEd2IYA9-Qs2oGaWDf0opDLFMw5mCEDNm_oYkSTpW1GCgkRufMHsjoMZdw0A9U6D8iiSwyraX3FtxgDRcTWchD=w426-h240-k-no"
   },
   {
+    "name": "Restaurant La Cafetière Fêlée",
+    "address": "18 Rue du Marc, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Fusion restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.8,
+    "reviews_count": 1104,
+    "recent_trend": "hausse",
+    "last_15_pattern": "15/15 en 5★",
+    "latest_review_date": "2026-04-10",
+    "last_review_days_ago": 3,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "10/15 avis détaillés, 1 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Quel moment de bonheur ! Tout était parfait et que dire de la cuisine : sublime ! Nous avions connu La Cafetière fêlée il y a quelques années où nous avions été déjà épatés par la qualité et l'originalité des mets ainsi que la qualité de l'accueil. M",
+        "author": "HUGUETTE KAZMIERCZAK"
+      },
+      {
+        "date": "2026-03-28",
+        "stars": 5,
+        "text": "Deuxième fois que nous nous rendons à la cafetière fêlé, c’est tout simplement devenue notre restaurant préféré et de loin. La cuisine est exceptionnel, et c’est très familial.\nNous y reviendrons, et merci pour votre accueil.",
+        "author": "Valentin Svo"
+      },
+      {
+        "date": "2026-03-19",
+        "stars": 5,
+        "text": "Lite avsides från huvudstråken i  gamla staden men ändå mycket centralt!\nTrevlig atmosfär, service och framförallt mycket goda maträtter. Spännande fusion mellan asiatiska och franska smaker! Absolut värt ett besök!",
+        "author": "Frederic Bouvier"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5807172,
+      "lng": 7.1246904
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20La%20Cafeti%C3%A8re%20F%C3%AAl%C3%A9e&query_place_id=ChIJNQ4n0m_VzRIRGwop2uBdBNQ",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH24syR5B0iUajXTv1fZLW51vVov_n6D3e1jeMypCWWpufNFfS6DHf1muutTsYCWc4-_wWgtqL1sqmGkI3peU35P27mL69MBaTqRZbkfURcR5WLjXrib__xsSq8iZ8mhxMFTwo=w426-h240-k-no"
+  },
+  {
     "name": "Cadaq’s",
     "address": "Plaça del Passeig, 3, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -144,7 +414,7 @@
     "google_rating": 4.8,
     "reviews_count": 1067,
     "recent_trend": "hausse",
-    "last_15_pattern": "12/15 en 5★, OUVERT",
+    "last_15_pattern": "12/15 en 5★",
     "latest_review_date": "2026-04-14",
     "last_review_days_ago": -1,
     "is_seasonal": false,
@@ -180,6 +450,51 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEkNR_FVft69tl3VJCNeOL-R-Yv3MGKGNGgGRbR5eyl4gp1TE-sAgPsxGw-Y1uXLBXZsGqLpgUGuTS3iYIxOJQnsZETsRoWQwd73UofBTG6L8142k0ijKMiPn48k0euVEKwnlViQ=w408-h408-k-no"
   },
   {
+    "name": "La Taille de Guêpe",
+    "address": "24 Rue de Fersen, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.8,
+    "reviews_count": 951,
+    "recent_trend": "hausse",
+    "last_15_pattern": "12/15 en 5★",
+    "latest_review_date": "2026-04-09",
+    "last_review_days_ago": 4,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "10/15 avis détaillés, 4 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-26",
+        "stars": 5,
+        "text": "Siamo capitati per caso in questo ristorante ed è stata una scoperta meravigliosa ✨\n\nAbbiamo scelto piatti locali… semplicemente deliziosi, preparati con cura e pieni di sapore. Il rosé della Provenza era fantastico, perfetto per accompagnare la cena",
+        "author": "E QUEEN"
+      },
+      {
+        "date": "2025-12-25",
+        "stars": 5,
+        "text": "Jamais déçu, tjrs au top\nL’alchimie entre la fierté de présenter un plat délicat et la sélection de bon produits pour le réaliser est là depuis le début et perdure dans le temps, faisant de ce restaurant une petite perle dans le vieil Antibes\n\nIf you",
+        "author": "stephen esteve"
+      },
+      {
+        "date": "2025-11-23",
+        "stars": 5,
+        "text": "Très bien rapport qualité prix. Les plats sont présentés avec soin et avec goût et c'est très bon.  Le cadre est agréable et le service parfait. Très bon accueil. Une très bonne adresse.",
+        "author": "Lilou SLC"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5802675,
+      "lng": 7.1250067
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Taille%20de%20Gu%C3%AApe&query_place_id=ChIJZ2gj2G_VzRIRUAV-NMDdgLA",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEc1zJD3biKMZGHMW4PCT8tZd_BkrAMzXtAxSV1J69hRT8l3lWNA7Bs-qVrCFOh7T2UorYI98hHDlQvy1QNwBPj_Ws9qH5DkOS43X13eUI9FeVV-b9-IRHK5vsD_H1MTqzedoX-Iw=w408-h544-k-no"
+  },
+  {
     "name": "Restaurant El Viatge",
     "address": "Plaça del Dr. Pont, 5, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -189,7 +504,7 @@
     "google_rating": 4.8,
     "reviews_count": 918,
     "recent_trend": "hausse",
-    "last_15_pattern": "13/15 en 5★, OUVERT",
+    "last_15_pattern": "13/15 en 5★",
     "latest_review_date": "2026-04-13",
     "last_review_days_ago": 0,
     "is_seasonal": false,
@@ -225,6 +540,231 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVLqU56HF_CUV4E0-Nip1CjzUb1YmYNUsUtTyhIOnmgwj0GQNvSiTPNdX3hrDjCiMaEYBlMek4NW_fFW57bv5Ayfd39d4Hna0erGwRr-wF624-4g0vXlPgHCXWEdnap9gAhPHd=w408-h305-k-no"
   },
   {
+    "name": "Restaurant le Vauban",
+    "address": "7bis Rue Thuret, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.8,
+    "reviews_count": 788,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-03-29",
+    "last_review_days_ago": 15,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "11/15 avis détaillés, 1 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "We love this place and have been going here for years as we have family living in Antibes and Biot - but this time it was a notch better than all other times - we thought to have booked online and arrived finding out our booking was not registered an",
+        "author": "Tom Meggle"
+      },
+      {
+        "date": "2026-03-20",
+        "stars": 5,
+        "text": "Restaurant découvert par le bouche à oreille,  très bel établissement !\nLe cadre magique dans le vieil Antibes.\nL'accueil et le service parfait.\nLe sommelier très à l'aise dans ces explications.\nLa cuisine exquise,  produits de qualité,  cuisson maît",
+        "author": "Phil Denice"
+      },
+      {
+        "date": "2026-03-09",
+        "stars": 5,
+        "text": "Toujours un pur plaisir de passer un moment dans cet etablissement. Mercredi dernier midi, le menu du midi est simplement parfait, avec des combinaisons de saveurs excellentes. Service irreprochable, cuisine très réussie,  choix de vin au verre large",
+        "author": "philippe lorenzini"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5819426,
+      "lng": 7.1264587
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20le%20Vauban&query_place_id=ChIJhxRzwHHVzRIReYciHQNskx0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhDZmOwkgz7hd-1D_wVTQoh3eZtffcw4yI-dTPGX1RgHM7lMCZA3rU2XvfcWEDArsaBC-amROYnYcInyFc2B48ZUujJPvI3s26hqEQdztmtM3gkZXNFHZ8enWAz5EiVLx_YRkk=w408-h306-k-no"
+  },
+  {
+    "name": "Restaurant Le J",
+    "address": "17 Av. Dr Dautheville, 06160 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.8,
+    "reviews_count": 355,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-04-04",
+    "last_review_days_ago": 9,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "11/15 avis détaillés, 6 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2025-10-24",
+        "stars": 5,
+        "text": "Modern French cuisine with a creative twist. The whole atmosphere has its own charm. It’s a small restaurant with a small menu and few staff, but everything runs smoothly. They clearly know what they’re doing and take pride in it. Excellent wine sele",
+        "author": "Swiss Brownie"
+      },
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Toujours une excellente expérience ici dans cet établissement! Patrons géniaux, service au top! La qualité des mets et toujours au rendez-vous, le chef est remarquable en plus que très sympathique!\nTous simplement on adore!\nMerci infiniment, à tout b",
+        "author": "Martina Bernardi"
+      },
+      {
+        "date": "2025-10-04",
+        "stars": 5,
+        "text": "Très rarement vu un restaurant aussi complet et agréable. Les plats sont justes et délicieux, le cadre est agréable, le service et la convivialité sont tout bonnement parfaits. Même pas encore partit que j’ai déjà envie de revenir. Gros coup de cœur ",
+        "author": "SpleenSupercars"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5684141,
+      "lng": 7.1133252
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Le%20J&query_place_id=ChIJZTEiP_V_zhIR4_AYTKsKCV4",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEl5zBLbCEXIui6zd0u5HqvI9PmgxoChNsoHuXTm1PDHsoQkCfHMlKnuYj6hIOVEVu6MaK6QQ_MKAD_CQSFEHi-PIG594S0m7kT_Tb6vQmkxFYDCKjZn_NmZ53_KfD_Z1ou-c7aig=w408-h306-k-no"
+  },
+  {
+    "name": "Bistrot du coin",
+    "address": "7 Rue de la Pompe, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.8,
+    "reviews_count": 256,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-03-29",
+    "last_review_days_ago": 15,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "14/15 avis détaillés, 3 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2025-09-20",
+        "stars": 5,
+        "text": "Aïoli exceptionnelle...Roland est au petit soin pour ses clients...très aimable cuisinier hors pair avec des produits hyper frais...de bonnes bouteilles de vin corse et une très bonne ambiance..je recommande vivement\nRéservation obligatoire car petit",
+        "author": "Jean Marie Laborde"
+      },
+      {
+        "date": "2026-02-07",
+        "stars": 5,
+        "text": "Je suis allé déjeuner aujourd’hui avec des amis, accueil sympa en famille, le père et sa fille. Mais surtout un délicieux aïoli.\nJe conseille 🥳 quoique je me mets une balle dans le pied…C’est pas très grand, et je risque de me faire jeter 🙏\nRéservons",
+        "author": "Philippe Tasimovicz"
+      },
+      {
+        "date": "2026-03-15",
+        "stars": 5,
+        "text": "Quelle bonne experience! On est passés au bon endroit au bon moment et nous avons adoré ce petit restaurant. Bon service et très bons plats!\nMerci et à une prochaine",
+        "author": "Gonzalo del Barrio"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5796077,
+      "lng": 7.1268581
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bistrot%20du%20coin&query_place_id=ChIJjbz5aXDVzRIRygkvD-IkQW4",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpKs1oWDrpX61AlbvrYf7mmKg03f5Vb1MJTY9R5Ibzb6MR42r5mm4EbvA0xlTOnSbDWymVtT2Gb9CeT7ydHRkUP9bhHrd2TGabmK1WfHXnanaz8vJh_pHxKCpLem0lHLngMHWIEQ=w426-h240-k-no"
+  },
+  {
+    "name": "Casa Gi",
+    "address": "1 Rue James Close, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.8,
+    "reviews_count": 118,
+    "recent_trend": "hausse",
+    "last_15_pattern": "12/15 en 5★",
+    "latest_review_date": "2026-04-02",
+    "last_review_days_ago": 11,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "11/15 avis détaillés, 1 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-10",
+        "stars": 5,
+        "text": "Che bella sorpresa!\n\nIn una grigia giornata di febbraio ci siamo fermati qui a pranzo, io e mio marito insieme ai miei genitori, in visita dall’Italia. Cercavamo qualcosa di buono e casereccio, con un’atmosfera accogliente e senza troppi fronzoli: Ca",
+        "author": "Martina Roth"
+      },
+      {
+        "date": "2025-12-23",
+        "stars": 5,
+        "text": "Pour fêter cette fin d'année, les bénévoles du service de l'alimentaire de la Croix Rouge à Antibes ont décidé de partager un repas. Nous avons choisi le Casa Gi pour sa situation au centre du vieil Antibes et pour les retours positifs que nous avion",
+        "author": "Christiane Garrant"
+      },
+      {
+        "date": "2026-04-02",
+        "stars": 5,
+        "text": "Sono rimasta piacevolmente sorpresa dalla gestione familiare di 2 fantastiche persone marito e moglie molto umili gentili e premurosi.\nNon ha tantissimi piatti ma quelli in menù sono abbondanti e molto curati.\nOttima qualità prezzo.\nLo consiglio a ch",
+        "author": "Francesca Salsi"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5802031,
+      "lng": 7.125412
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Casa%20Gi&query_place_id=ChIJeR_B_izVzRIRtXsPZ1-t4zg",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9RF1le9fIpWGcugcuAKBU8fA_ZUx9NXOvzu-NGYMU8-iIMrzvq3hYsBnS8hGY4OYPHdWXlXPCU9xEZTyZ0E7Jkpk8WZ3CIqKxVM0mXH3tIIOlEjwZsZpEkkkcHDRjAh1BK4JU=w408-h306-k-no"
+  },
+  {
+    "name": "Il Tinello",
+    "address": "35 Bd Charles Guillaumont, 06160 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Italian restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 658,
+    "recent_trend": "hausse",
+    "last_15_pattern": "12/15 en 5★",
+    "latest_review_date": "2026-04-14",
+    "last_review_days_ago": -1,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "12/15 avis détaillés, 2 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-01",
+        "stars": 5,
+        "text": "Habitués de ce restaurant à chaque vacances, il tinello est une véritable pépite du bord de mer de Juan les Pins.\nLes pâtes au homard, le fritto misto, le baba au limoncello sont quelques uns des classiques dont nous ne nous lassons pas.\nAccueil et s",
+        "author": "Pascal ABRAHAM"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Ottimo ristorante italiano in costa azzurra, ogni piatto e' preparato con cura, freschezza e,,,abbondante!!\nAmbiente famigliare, accoglienza al top, con sorrisi,,,sinceri!!\nPrezzi corretti,\nSempre un piacere essere vostri ospiti,,grazie, à presto",
+        "author": "Gil Pizzi"
+      },
+      {
+        "date": "2026-03-06",
+        "stars": 5,
+        "text": "Ein authentisches italienisches Restaurant in Frankreich - für Liebhaber italienischer Küche ein Muss. Die Spaghetti alla chitarra mit vongole waren ein Traum. Und die Preise sind für die Qualität günstig.",
+        "author": "Wolfgang Budde"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5701463,
+      "lng": 7.1060362
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Il%20Tinello&query_place_id=ChIJN627yDt_zhIReelq-7Nq9Fs",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEIh0L0m3Z9EgQ6Qn2L73nHY4YtHzB9KnPV5O1_AcGBHMQJS6rnnOXHJyjGwu-4HRnUWdaJI_owDjzQF6VjcTRrQUfKbksJ5qso_cF1inyj87gLK12oShJlCr4ET8_6PA3UOkY=w426-h240-k-no"
+  },
+  {
     "name": "Restaurant Es Grec",
     "address": "Carrer Unió, 11, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -234,7 +774,7 @@
     "google_rating": 4.7,
     "reviews_count": 602,
     "recent_trend": "hausse",
-    "last_15_pattern": "14/15 en 5★, OUVERT",
+    "last_15_pattern": "14/15 en 5★",
     "latest_review_date": "2026-04-09",
     "last_review_days_ago": 4,
     "is_seasonal": false,
@@ -279,7 +819,7 @@
     "google_rating": 4.7,
     "reviews_count": 597,
     "recent_trend": "hausse",
-    "last_15_pattern": "15/15 en 5★, OUVERT",
+    "last_15_pattern": "15/15 en 5★",
     "latest_review_date": "2026-04-12",
     "last_review_days_ago": 1,
     "is_seasonal": false,
@@ -315,6 +855,141 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6Zmnjp_ZrME1_lBXGJw47zcmxlEuZ90etKM2lLCigklz6BXW_SAqeDiqzOFk0rUd_lpF6MIkC9XoQbo8PFoAzUmcTkyJTc02jdevyqZckFcbogrPI-ntWeXFqYsFo5pATXNEvUQ=w408-h306-k-no"
   },
   {
+    "name": "Romagna Mia",
+    "address": "14 Av. Maréchal Reille, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Italian restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 590,
+    "recent_trend": "hausse",
+    "last_15_pattern": "11/15 en 5★",
+    "latest_review_date": "2026-04-11",
+    "last_review_days_ago": 2,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "13/15 avis détaillés, 4 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-06",
+        "stars": 5,
+        "text": "UNE PANNA COTTA SEXY = UN COMMENTAIRE SEXY\nNous nous sommes présentés un peu par hasard  un samedi soir dans cet établissement italien qui ne paie pas de mine de l'extérieur. Au regard de notre expérience, je suis étonnée que le restau n'affiche pas ",
+        "author": "Juline Grosjean"
+      },
+      {
+        "date": "2026-02-27",
+        "stars": 5,
+        "text": "Delicieux .Si vous voulez vous retrouver en italie ,allez y les yeux fermes .\nNon seulement les proprietaires sont passionnes et adorables mais la cuisine ...mamamia ...j ai adore .\nA commencer par l apero ,le spritz etait super bien dose .L assiette",
+        "author": "ELISABETH PREVOST"
+      },
+      {
+        "date": "2026-04-06",
+        "stars": 5,
+        "text": "Nous sommes tombés par hasard sur le restaurant… et c’était un magnifique hasard !!\nUn endroit tenu par un couple d’italiens passionnés par leur région !!\nTout est excellent (entrées, pâtes, desserts, vin…) et l’ambiance est chaleureuse et familiale ",
+        "author": "Benjamin ROBINET"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5783323,
+      "lng": 7.1239287
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Romagna%20Mia&query_place_id=ChIJO-VP0mjVzRIRNOJX9kUOIb8",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmUIii1fSU7Mr2kzrzPAlTYy-koHoE78WhU98XwLgJsqJHED8a7blRRv3KqrJQynytAUrKWg_1VVw68C7YKjdQ8YBzA1dc6J5NY-Tk2ZKQhtGn1NPTGibjWRPwSh1Q6p8lyfK8Hw=w426-h240-k-no"
+  },
+  {
+    "name": "La Trattoria",
+    "address": "avenue 06600, 21 Av. Pasteur, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Italian restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 586,
+    "recent_trend": "hausse",
+    "last_15_pattern": "13/15 en 5★",
+    "latest_review_date": "2026-04-10",
+    "last_review_days_ago": 3,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "10/15 avis détaillés, 3 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Immer wieder ein Genuss! Man sollte jedoch mit genügend Appetit kommen, da die Portionen sehr ausreichend sind. Wir sind dazu gekommen, uns die Vorspeise hier zu teilen, damit man die Hauptspeise schafft. Ich kann die Pasta di Mare absolut empfehlen.",
+        "author": "Juliams"
+      },
+      {
+        "date": "2026-03-28",
+        "stars": 5,
+        "text": "Petit resto ,bijou à L'italienne, dans une ruelle calme , nous avons dégusté les plats phare et nous en sommes très satisfait!!\nTrès large choix de vins , très bon choix des plats traditionnels, et pour finir un Tiramisu vraiment gourmand et léger,co",
+        "author": "Akuna Matata"
+      },
+      {
+        "date": "2026-04-10",
+        "stars": 5,
+        "text": "La Trattoria is a hidden gem in Antibes that specialises in Italian cuisine and is tucked away on Louis Pasteur and worth checking out.\n\nTheir Mozzarella di Bufala and the Camembert di Buffalo au Miel is served on Focaccia is its heavenly.\n\nThe Poupl",
+        "author": "Jonathan & Cathy Sharpe"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5821672,
+      "lng": 7.1214271
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Trattoria&query_place_id=ChIJh95j7G7VzRIRqqeNTy8EgWQ",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6D44XeQnL3WpJvP2oudWBCEtMxcA3-xyccscpk0phmz1vgXGaawTNpDMl0majsr6CD8mpOSKexRhNILpkax1ooMmOaqNPtsNmTlw2dJ-Ys5z5bOxdZ6oPacjbzT83cMjwA9JmVA=w408-h306-k-no"
+  },
+  {
+    "name": "Ti Toques",
+    "address": "9 Av. Louis Gallet, 06160 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 499,
+    "recent_trend": "hausse",
+    "last_15_pattern": "13/15 en 5★",
+    "latest_review_date": "2026-04-11",
+    "last_review_days_ago": 2,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "12/15 avis détaillés, 3 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-03",
+        "stars": 5,
+        "text": "Se vi trovate ad Antibes o Juan-Les-Pins non potete non fare una piacevole tappa presso questo ristorante tipico francese nel centro di Juan-Les-Pins .\nL'ambiente è molto caldo, accogliente e i proprietari molto gentili e scrupolosi. La cameriera par",
+        "author": "E&D"
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "Une très belle découverte que ce Ti Toques ! Dans un cadre calme et chaleureux, loin de l'agitation du bord de mer, on se sent immédiatement à l'aise. Le service est agréable et attentionné, sans jamais être envahissant.\n\nLa cuisine est généreuse, sa",
+        "author": "Matthieu PREVOT"
+      },
+      {
+        "date": "2025-09-16",
+        "stars": 5,
+        "text": "Un véritable bijou. Chaque plat est une explosion de saveurs, à la fois raffiné et réconfortant. La soupe de poisson inoubliable en entrée, a été gentiment partagée en 2 portions pour pouvoir garder une place pour le dessert… et heureusement. La brio",
+        "author": "céline Marin"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5694444,
+      "lng": 7.1102778
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ti%20Toques&query_place_id=ChIJfWoX8fV_zhIRWalk5N6BAzU",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMwplNPfsPROCLC7I6WArDqxF4pQl2mH8LnoMddOhOFsUsHQ4aSO6xi1nIdzz54GwEbf9qiMPqi0lUUAXiGmOKmXanQ6lJtzt0T1BsXTBuqlswzWNamt8WoZdVWt5VSivVTjWMfw=w426-h240-k-no"
+  },
+  {
     "name": "El Rebost de Cadaqués",
     "address": "Carrer Miquel Rosset, 13, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -324,7 +999,7 @@
     "google_rating": 4.7,
     "reviews_count": 428,
     "recent_trend": "hausse",
-    "last_15_pattern": "14/15 en 5★, OUVERT",
+    "last_15_pattern": "14/15 en 5★",
     "latest_review_date": "2026-04-08",
     "last_review_days_ago": 5,
     "is_seasonal": false,
@@ -369,7 +1044,7 @@
     "google_rating": 4.7,
     "reviews_count": 397,
     "recent_trend": "hausse",
-    "last_15_pattern": "15/15 en 5★, OUVERT",
+    "last_15_pattern": "15/15 en 5★",
     "latest_review_date": "2026-04-13",
     "last_review_days_ago": 0,
     "is_seasonal": false,
@@ -405,6 +1080,51 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFP3t5DJF86Npfj_eEdSc_lnGlMAiNyyr9WrBmyO0V56HvN9z02mDHS022popapxD-Zro3en1lgwKP7OX0ce7ZzCNsz_yzhoeqUX2YLFiro0qxI9xFRWPz9D_PhTjx6W5G1OBlbEiCmc0L1=w408-h544-k-no"
   },
   {
+    "name": "LA PESCHERIA",
+    "address": "35 Cr Masséna, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Seafood restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 259,
+    "recent_trend": "hausse",
+    "last_15_pattern": "12/15 en 5★",
+    "latest_review_date": "2026-04-07",
+    "last_review_days_ago": 6,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "12/15 avis détaillés, 10 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2025-12-14",
+        "stars": 5,
+        "text": "🇬🇧 ENGLISH\n\nLa Pescheria – my favourite address after the market in Antibes.\n\nA place that truly celebrates the sea – pure, honest and uncompromising.\nAn excellent price–quality ratio, exceptional freshness and an offer deliberately focused exclusive",
+        "author": "Eric Lassiaille"
+      },
+      {
+        "date": "2025-10-27",
+        "stars": 5,
+        "text": "Ein Zufallsfund beim Schlendern durch die Markthalle. Frische Fischgerichte und Meeresfrüchte direkt beim Fischhändler. Authentisch, urig und ein flotter freundlicher Service. Von dort lässt sich gut das bunte Treiben in der offenen Markthalle beobac",
+        "author": "Stein Wolfgang"
+      },
+      {
+        "date": "2026-03-30",
+        "stars": 5,
+        "text": "Siete amanti del pesce e delle cruditès? Allora dovete provare La Pescheria, solo pesce freschissimo, specialitá tartarre e ostriche di varie specie. Ottima la scelta dei vini, si mangia nei tavolini fuori di fronte al mercato coperto. Spesa assolura",
+        "author": "Guido Caramelli"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5812817,
+      "lng": 7.1274248
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=LA%20PESCHERIA&query_place_id=ChIJtwNj-FbVzRIRZ1D1WtQwcio",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEml_lud_7Exx_WpqPSZd0rUPZgAnP4EJ3lyQ3QIBrIVFa1dDhmgTtPj2anrplqB_9pFqUFvzcyYtHdDWInQuLVS5bFtyyySoSZghqVKhNb2rEYNsGsZJLKslINyY901931Jhf6=w408-h544-k-no"
+  },
+  {
     "name": "Restaurant Vincle Cadaqués",
     "address": "Carrer Vigilant, 8, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -414,7 +1134,7 @@
     "google_rating": 4.7,
     "reviews_count": 227,
     "recent_trend": "hausse",
-    "last_15_pattern": "11/15 en 5★, OUVERT",
+    "last_15_pattern": "11/15 en 5★",
     "latest_review_date": "2026-04-08",
     "last_review_days_ago": 5,
     "is_seasonal": false,
@@ -459,7 +1179,7 @@
     "google_rating": 4.7,
     "reviews_count": 184,
     "recent_trend": "hausse",
-    "last_15_pattern": "14/15 en 5★, OUVERT",
+    "last_15_pattern": "14/15 en 5★",
     "latest_review_date": "2026-04-09",
     "last_review_days_ago": 4,
     "is_seasonal": false,
@@ -495,6 +1215,51 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9dLi1Bt3xfOjhPFVpoUZoD3QxhMtgbPmjtf1Ia3m9LoqlPGahzGp9rWjOMCLh9jzWxa6mRkkZlYzLmzJ14Q3EwiGXakyDU_-vQmVmz0bj6P6nJd6bAaXpHzCLoFb5qT89ynfAeQAPg1Xy=w408-h261-k-no"
   },
   {
+    "name": "Pasta e Basta - Antibes",
+    "address": "16 Rue Thuret, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Italian restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.7,
+    "reviews_count": 176,
+    "recent_trend": "hausse",
+    "last_15_pattern": "11/15 en 5★",
+    "latest_review_date": "2026-04-07",
+    "last_review_days_ago": 6,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "B",
+    "authenticity_notes": "8/15 avis détaillés, 7 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-03",
+        "stars": 5,
+        "text": "Charmant petit restaurant niché au cœur de la vieille ville d’Antibes, où l’on comprend vite que “petite carte” rime avec “grande qualité” ! Ici, pas besoin de 12 pages de menu : quelques plats suffisent pour garantir des produits frais et savoureux…",
+        "author": "I D"
+      },
+      {
+        "date": "2026-03-09",
+        "stars": 5,
+        "text": "Sono stata da Pasta e Basta e ne sono rimasta davvero entusiasta! È un ristorante italiano gestito da Federico e Ciro, due ragazzi giovani, volenterosi e con una passione pazzesca per quello che fanno.\nLa cucina è veramente italiana, buonissima e di ",
+        "author": "clara rubis"
+      },
+      {
+        "date": "2026-03-19",
+        "stars": 5,
+        "text": "Ein absolut tolles Restaurant! Die handgemachte Pasta ist einfach hervorragend und man schmeckt sofort, mit wie viel Liebe hier gekocht wird. Auch das Tiramisu war unglaublich lecker – definitiv ein Highlight zum Abschluss.\n\nDas Personal ist sehr fre",
+        "author": "Tobias Allweier"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5825697,
+      "lng": 7.1267997
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pasta%20e%20Basta%20-%20Antibes&query_place_id=ChIJibC6DP3VzRIRCwpU5LWQTl8",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHb0rYPagbd4rU2BhyUrotuXjOZFGyMl4_Z9d3ow-awjtmGwoPd1BSUPhE2Mzm33F4RPRQwpEJrOoEWLtAkHQsXFOVpnl7RAxT68MYFxlKRVcLfuyQgu9_6PUKf4M8XI2rr_WbK2MaVDR2v=w408-h306-k-no"
+  },
+  {
     "name": "Compartir",
     "address": "Riera de Sant Vicenç, s/n, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -504,7 +1269,7 @@
     "google_rating": 4.6,
     "reviews_count": 2848,
     "recent_trend": "hausse",
-    "last_15_pattern": "11/15 en 5★, OUVERT",
+    "last_15_pattern": "11/15 en 5★",
     "latest_review_date": "2026-04-11",
     "last_review_days_ago": 2,
     "is_seasonal": false,
@@ -549,7 +1314,7 @@
     "google_rating": 4.6,
     "reviews_count": 1966,
     "recent_trend": "hausse",
-    "last_15_pattern": "13/15 en 5★, OUVERT",
+    "last_15_pattern": "13/15 en 5★",
     "latest_review_date": "2026-04-13",
     "last_review_days_ago": 0,
     "is_seasonal": false,
@@ -585,6 +1350,51 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKqhBP_XNRxPW1ARS2nJSz7gWx5w5nDpFMlH9ttTMudkj3Qeiz7mo3Nyog6N0O05Y61WeUPGGmLuJIVpS93KUz1BH36SR5_X9dX06ly6odFkUDwozkuUsZtxfGdnDqvp0-1b6Z=w408-h306-k-no"
   },
   {
+    "name": "Cap Riviera",
+    "address": "13 Bd Edouard Baudoin, 06160 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.6,
+    "reviews_count": 1197,
+    "recent_trend": "hausse",
+    "last_15_pattern": "11/15 en 5★",
+    "latest_review_date": "2026-04-08",
+    "last_review_days_ago": 5,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "12/15 avis détaillés, 2 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2025-12-28",
+        "stars": 5,
+        "text": "Le personnel est vraiment au petit soin. La soupe de poisson un pur délice. Le risotto manquait à mon goût un peu de crémeux mais sinon il était très bon. Très bon conseil sur le choix du vin. Très bon restaurant je recommande fortement.",
+        "author": "CHRISTELLE PAUL"
+      },
+      {
+        "date": "2026-02-08",
+        "stars": 5,
+        "text": "Superbe vue mer sans rien entre le restaurant et la plage, service agréable et charmant, repas délicat et agréable au palais. Un endroit où je suis certain de retourner.",
+        "author": "Alessandro"
+      },
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Reserva a las 19:30 para 2\nServicio impecable\nComida excelente\nAtención única de parte del camarero de nuestra mesa\nSiempre recomendable!!\nMuchas gracias",
+        "author": "Jose Ignacio Sanchez Viñuales"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5673502,
+      "lng": 7.1128092
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cap%20Riviera&query_place_id=ChIJ_Wg4J_V_zhIRTQ1pEuWGbG0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEmhbhifAh19zJnY7IH5gvIMkpjMxGsA0-lFLd71ujTnk5JElU-HPgrqy8QHjpJ2Bj9YPrbjg23CV7nakIpNrl1aINuKpz0_8MZZ2Ts2dPVgcHEk5zzCfmKOJ37eRvt99AUUgY1gQ=w408-h306-k-no"
+  },
+  {
     "name": "Lua Cadaqués",
     "address": "Carrer de Santa Maria, 1, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -594,7 +1404,7 @@
     "google_rating": 4.6,
     "reviews_count": 877,
     "recent_trend": "hausse",
-    "last_15_pattern": "15/15 en 5★, OUVERT",
+    "last_15_pattern": "15/15 en 5★",
     "latest_review_date": "2026-04-13",
     "last_review_days_ago": 0,
     "is_seasonal": false,
@@ -630,6 +1440,186 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4umBVZfRs4nIk4pESK2B-QiTuVUhji5kS6VrVQH9ci0SJCljWZo9oAIt-KmLUSoljkqKcatxJYfSI1JrjS4prWkbAJ_kdgshOSroB9Cq1jrIxUFMNcBQg0xwZjbMG2vXMfuNs=w408-h306-k-no"
   },
   {
+    "name": "Le Bistrot",
+    "address": "27 Av. Amiral Courbet, 06160 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.6,
+    "reviews_count": 814,
+    "recent_trend": "hausse",
+    "last_15_pattern": "10/15 en 5★",
+    "latest_review_date": "2026-04-13",
+    "last_review_days_ago": 0,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "10/15 avis détaillés, 0 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-23",
+        "stars": 5,
+        "text": "Waouuuw !!!! mais quelle adresse ! Du début à la fin, de l'apéro, aux entrées, aux plats, le service, l'ambiance, le cadre!\nTout était parfait, tout était excellent, succulent.\nMerci encore pour cet accueil, et nous n'étions pas des clients faciles (",
+        "author": "Sandra T"
+      },
+      {
+        "date": "2025-11-15",
+        "stars": 5,
+        "text": "Nous y avons déjeuné le 15 novembre, avec une amie... ce restaurant m'avait été conseillé. Resto familial : le cadre est simple mais agréable, et le personnel (la famille) sympathique. La souris d'agneau était délicieuse. Nous y reviendrons et consei",
+        "author": "genevieve gabrielli"
+      },
+      {
+        "date": "2025-11-21",
+        "stars": 5,
+        "text": "Affaire familiale avec une cuisine de haute qualité\nJe vous conseille vivement de découvrir l’établissement que de vous faire avoir sur le front de mer\nMerci pour ce délicieux moment passé vous\nAlex et Chloé",
+        "author": "Alex Stern"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5698716,
+      "lng": 7.1088261
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Bistrot&query_place_id=ChIJxxmuAfZ_zhIRd4gqdaJTJjg",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_5DL4_EEhC_CcdMq8UkWlePe2heSwYn6wUYmwnYmWvI6kuuieYTHLU5E2i57r7JhAKmfSAAECfDlD1PanalShO41vfVNetW4ml4egnJoDzQmas7Pkx973h14Q3U8oA5Pi5A3F=w408-h306-k-no"
+  },
+  {
+    "name": "Angelo’s by Le Milano Antibes",
+    "address": "2 Rue de la Tourraque, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.6,
+    "reviews_count": 517,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-04-10",
+    "last_review_days_ago": 3,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "B",
+    "authenticity_notes": "9/15 avis détaillés, 4 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Angelo’s by Le Milano Antibes is a family-run restaurant, and from the moment we walked in, the hospitality was extraordinary. We were greeted with prosecco. We had a salmon tartare to start and I had bronzino for my main course. At the end of the me",
+        "author": "David Heyman"
+      },
+      {
+        "date": "2026-04-02",
+        "stars": 5,
+        "text": "Very small family run restaurant,  it is best to book. We had poulpe on bed of polenta, squid salade, pizza, grilled sea bass and pasta with Nduja. Very good and efficient service with reasonable prices.\nTo note that some of the photos and menu (even",
+        "author": "Ronald Pritchard"
+      },
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Accueil chaleureux. Personnel souriant, aimable et drôle ! Pas d'attente entre les plats. Produits frais et de qualité et quantite généreuse ! J'ai retrouvé le goût des plats de mon enfance ! (Mezze maniche alla 'nduja). La cuisson du bar et des peti",
+        "author": "Séverine Cabridens"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5800303,
+      "lng": 7.1270941
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Angelo%E2%80%99s%20by%20Le%20Milano%20Antibes&query_place_id=ChIJS6DMRHDVzRIRgnWW6LNz_Uc",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErfRsziMW1x5KHN23XV3EeKv9fx8MjKQmk29L8CoZUO1lcucJvo0pUYtID3kqY8p5DUnxvOY-g5ku5m2-cbBCu1kB3Q5DavsejvHbURuRIOZ7X_TkQL6rvqWgOrEbTCQS7UuoW=w408-h306-k-no"
+  },
+  {
+    "name": "Salé/Sucré",
+    "address": "5 Av. 24 Août, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.6,
+    "reviews_count": 498,
+    "recent_trend": "hausse",
+    "last_15_pattern": "15/15 en 5★",
+    "latest_review_date": "2026-04-11",
+    "last_review_days_ago": 2,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "12/15 avis détaillés, 4 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-15",
+        "stars": 5,
+        "text": "Une expérience absolument parfaite. Un immense merci aux deux propriétaires qui nous ont accueillis avec beaucoup de chaleur et qui nous ont servis de façon impeccable tout au long du repas.\n\nTous les plats étaient délicieux, d’une fraîcheur remarqua",
+        "author": "PL Gareau"
+      },
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "We found this restaurant by chance and must say it was our favorite place. The owner is very kind and friendly to all guests and jokes around with them. The food although on the pricier side is worth every penny. We had gnocchi, which were creamy wit",
+        "author": "Ayreen Linares"
+      },
+      {
+        "date": "2026-02-10",
+        "stars": 5,
+        "text": "C'était un pur délice, le couple qui gérait le resto était chaleureux et très sympathique. Je suis allée en avril de l'an dernier et nous avions beaucoup aimé le steak et les gnocci à la truffe. L'ambiance était parfaite aussi et nous avons envie de ",
+        "author": "Nasrine Harouna Amani"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5797186,
+      "lng": 7.1229619
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sal%C3%A9%2FSucr%C3%A9&query_place_id=ChIJq6oGmW_VzRIRU-zHfq-nFG8",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFnOcKvgZ46pBOEgp17n64PVlHXwZ5FOY_R_c5Og-gavc0YMk1NwjKWLhJsnIzRhbNOsuuFQ5R7cMyekzOy1LY73y2NN_OdUgsl-y55aWLM-chexK3rDBwRKSMkZoKZ3RtTMbBm9g=w408-h306-k-no"
+  },
+  {
+    "name": "Le Comptoir de La Tourraque",
+    "address": "1 Rue de la Tourraque, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.6,
+    "reviews_count": 410,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-04-06",
+    "last_review_days_ago": 7,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "10/15 avis détaillés, 3 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2025-11-11",
+        "stars": 5,
+        "text": "Vous verrez peut être plusieurs de nos commentaires sur d'autres restaurants d'Antibes :en séjour avec mon conjoint, nous avons testé 4 adresses du vieil Antibes du 7 au 11 novembre. Nous mangions tôt le matin à l'hotel (type brunch) puis nous partio",
+        "author": "Oksana Hus"
+      },
+      {
+        "date": "2026-03-17",
+        "stars": 5,
+        "text": "We had dinner here last night- it was a superb experience. The food was out of this world, taste sensation- full of flavour but not overpowering. The restaurant has a nice athmosphere . The apperitif of champagne mousse is a must have. Perfect servic",
+        "author": "Niamh Corcoran"
+      },
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Wir wurden super freundlich begrüßt. Das Ambiente ist sehr angenehm! Der Service ist zuvorkommend und sehr humorvoll. Man fühlt sich sofort wohl. Das Essen ist ausgesprochen geschmackvoll und kreativ! Die Getränkeauswahl ist spitze! Wir freuen uns sc",
+        "author": "Juliams"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5797033,
+      "lng": 7.1270044
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Comptoir%20de%20La%20Tourraque&query_place_id=ChIJs3ZeQnDVzRIRbJTrpy3-dZ4",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-ig7WUvgPhkf1yGh23CtVMa4U8RP-cvC-Ec7BWOzxWIvWh5qzRxth0gnPLx8LlbuFSZYXeox0WysYWUCXQle8e4Qrmr8sntFchhm6vje6T3c7OMIAGt6xXppB7WjiT1J6Nc7zyQ=w408-h306-k-no"
+  },
+  {
     "name": "Restaurant Nord Est",
     "address": "Pujada des Pianc, 5, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -639,7 +1629,7 @@
     "google_rating": 4.5,
     "reviews_count": 4840,
     "recent_trend": "hausse",
-    "last_15_pattern": "12/15 en 5★, OUVERT",
+    "last_15_pattern": "12/15 en 5★",
     "latest_review_date": "2026-04-13",
     "last_review_days_ago": 0,
     "is_seasonal": false,
@@ -684,7 +1674,7 @@
     "google_rating": 4.5,
     "reviews_count": 2313,
     "recent_trend": "hausse",
-    "last_15_pattern": "11/15 en 5★, OUVERT",
+    "last_15_pattern": "11/15 en 5★",
     "latest_review_date": "2026-04-12",
     "last_review_days_ago": 1,
     "is_seasonal": false,
@@ -729,7 +1719,7 @@
     "google_rating": 4.5,
     "reviews_count": 1063,
     "recent_trend": "hausse",
-    "last_15_pattern": "13/15 en 5★, OUVERT",
+    "last_15_pattern": "13/15 en 5★",
     "latest_review_date": "2026-04-13",
     "last_review_days_ago": 0,
     "is_seasonal": false,
@@ -774,7 +1764,7 @@
     "google_rating": 4.5,
     "reviews_count": 877,
     "recent_trend": "hausse",
-    "last_15_pattern": "12/15 en 5★, OUVERT",
+    "last_15_pattern": "12/15 en 5★",
     "latest_review_date": "2026-04-10",
     "last_review_days_ago": 3,
     "is_seasonal": false,
@@ -810,6 +1800,51 @@
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0YWnrq1iYtWLMKvzPNSidU_g-mVdaY2mYQux7dFEK_Ru-pH5NZKNV37jJ_w5vGpOXSYrp1fLqB42z7g5Gr8whc5J4jWFpKCNHG4g4eg1ooKTbnmQrbH9WCxX_CH-IdEzQE9mN=w408-h272-k-no"
   },
   {
+    "name": "Le P'tit Cageot",
+    "address": "5 Rue du Dr Rostan, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.5,
+    "reviews_count": 857,
+    "recent_trend": "hausse",
+    "last_15_pattern": "14/15 en 5★",
+    "latest_review_date": "2026-04-09",
+    "last_review_days_ago": 4,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "B",
+    "authenticity_notes": "7/15 avis détaillés, 4 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-26",
+        "stars": 5,
+        "text": "Место , где действительно французская традиционная кухня ! Мы ели петуха в вине и маринованную макрель , это удивительно вкусно ! Если вы в Антибе , загляните сюда . И кстати на Гугл пишется, что они закрыты , но они открыты. Советуем от души .",
+        "author": "alexandra jdanova"
+      },
+      {
+        "date": "2026-03-14",
+        "stars": 5,
+        "text": "La cuisine est délicieuse,  avec des produits frais et savoureux. Le cadre est très sympathique. Le serveur est très professionnel, très gentil et aux petits soins. Je recommande vivement.",
+        "author": "Isabelle BERRY"
+      },
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Amazing food, barely seasoned and all you taste is the freshness of the ingredients. Service was great and all in all the lunch was as beautiful and delicious as this little town",
+        "author": "Kuan Song"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5815723,
+      "lng": 7.1246965
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20P'tit%20Cageot&query_place_id=ChIJA3EDMG7VzRIR6V4A_fQ23_M",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGscSKlowKC2kjmqhj7ChfMhfG1Ernro_G7Sw9AhY8Q9R394ad9k-ag7LwjHhclRPvLm_tkciqzHulTQV0Bwz1Ct24GfccJpNXCm2rFnfmPgGbtfo6SrMFeVX6rQlazvTG3o43f=w408-h544-k-no"
+  },
+  {
     "name": "Es Racó",
     "address": "Carrer del Dr. Callís, 3, 17488 Cadaqués, Girona, Spain",
     "city": "Cadaqués",
@@ -819,7 +1854,7 @@
     "google_rating": 4.5,
     "reviews_count": 519,
     "recent_trend": "hausse",
-    "last_15_pattern": "9/15 en 5★, OUVERT",
+    "last_15_pattern": "9/15 en 5★",
     "latest_review_date": "2026-04-04",
     "last_review_days_ago": 9,
     "is_seasonal": false,
@@ -853,5 +1888,140 @@
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Es%20Rac%C3%B3&query_place_id=ChIJ9wz0m2pvuhIRX_7nG172VZE",
     "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIy0c7Idr1SouTvLDgSuKlgcYMusZTWCWw0h6NbOov8dyMLF5OyuJd_NGF_mdgKlB7CCMozT0HFaJLz_2X5WoFhNIt2OtMfXq2BFGHTfWz5sbF7ygMFBSajkz90KvOOjofPOxT=w408-h272-k-no"
+  },
+  {
+    "name": "Le Sophocle",
+    "address": "282 Rue des Cistes, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.5,
+    "reviews_count": 372,
+    "recent_trend": "hausse",
+    "last_15_pattern": "13/15 en 5★",
+    "latest_review_date": "2026-04-13",
+    "last_review_days_ago": 0,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "11/15 avis détaillés, 1 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2025-10-21",
+        "stars": 5,
+        "text": "Une expérience culinaire exceptionnelle !”\nLa Brasserie Sophocle à Antibes est un vrai coup de cœur. L’accueil est chaleureux et le service impeccable. Tous les plats étaient savoureux, mais ce qui m’a vraiment marqué, ce sont les desserts fantastiqu",
+        "author": "Christophe Magalhaes"
+      },
+      {
+        "date": "2025-09-11",
+        "stars": 5,
+        "text": "Ça fait des années que je viens au Sophocle et c'est toujours un plaisir de voir Franck et Valérie dans ce restaurant où nous sommes accueillis comme des membres de la famille.\n\nTrès bonne cuisine avec du choix à la carte, des prix raisonnables et un",
+        "author": "Laforet Thomas"
+      },
+      {
+        "date": "2026-02-17",
+        "stars": 5,
+        "text": "Super !\nUne cuisine excellente avec un bon rapport qualité prix\nUn personnel au top\nJ'y ai invité des collègues pour mon départ en retraite\nEt d'ailleurs on va y retourner la semaine prochaine avec une autre équipe...\nJe recommande vivement !",
+        "author": "muriel balty"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.6089657,
+      "lng": 7.0734682
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Sophocle&query_place_id=ChIJ503xo98qzBIRkp2EzBlm2O4",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGE5iWKJUX6AB8FMf-WMFgdgqOYrJ9B4Wl3awhyOc7Thlr9cVSW5FXMId66ZDGcQsNBJvOxi_pCxhTnsfv1rB389wX4TAnsqOG0oLzWkWjdttTd-EpMfux3fFDpz1mc35zsGfW6bw=w408-h272-k-no"
+  },
+  {
+    "name": "La Tour Antique",
+    "address": "4 Rue de la Tourraque, 06600 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Italian restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.5,
+    "reviews_count": 248,
+    "recent_trend": "hausse",
+    "last_15_pattern": "11/15 en 5★",
+    "latest_review_date": "2026-04-04",
+    "last_review_days_ago": 9,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "12/15 avis détaillés, 4 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-01-19",
+        "stars": 5,
+        "text": "Ce restaurant est une véritable perle rare. Je préfère personnellement y venir en dehors de la saison touristique, lorsque l’on peut vraiment profiter d’une expérience locale, avec seulement quelques tables à l’intérieur.\n\nLa cuisine, l’ambiance et l",
+        "author": "Markus E"
+      },
+      {
+        "date": "2025-08-17",
+        "stars": 5,
+        "text": "Ottimo ristorante con opzioni senza glutine\nHanno primi e secondi e dolci con opzioni senza glutine.\nIo ho preso penne allo scoglio (una delle più buone che abbia mai mangiato, e lo dico da italiano), di secondo ho preso il filetto di bue con la sena",
+        "author": "Cesare Corso"
+      },
+      {
+        "date": "2026-01-01",
+        "stars": 5,
+        "text": "Esperienza bellissima. Ci siamo andati per il cenone di capodanno... temevamo che essendo questa serata di non rimanere delusi invece hanno superato ampliamente tutte le nostre aspettative. Tutto squisito. Dall'antipasto ad dolce è stato tutto molto ",
+        "author": "Franca Delfino"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5799521,
+      "lng": 7.1269995
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Tour%20Antique&query_place_id=ChIJn6uQRHDVzRIRiHnShwC6MOc",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1jHCyypAxrBSL8_BxuM34dZkmSWK-6MRlua7TuE_FuzfxJcm_7S6nYzAk-yd_bjM2IUwIqr_rVV69A1as5gtMRBRhEexSLlKRp-Jbm-1jSK9MPSoDSpTtgZFz6g8B86g_EeGI=w408-h304-k-no"
+  },
+  {
+    "name": "Unique Restaurant Antibes Juan-les-Pins",
+    "address": "17 Av. Georges Gallice, 06160 Antibes, France",
+    "city": "Antibes",
+    "country": "France",
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "google_rating": 4.5,
+    "reviews_count": 93,
+    "recent_trend": "hausse",
+    "last_15_pattern": "15/15 en 5★",
+    "latest_review_date": "2026-04-08",
+    "last_review_days_ago": 5,
+    "is_seasonal": false,
+    "currently_open": true,
+    "status": "🟢 Ouvert",
+    "authenticity_score": "A",
+    "authenticity_notes": "13/15 avis détaillés, 3 avec photos",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Wonderful food and friendly service. The staff were amazing, not only serving delicious food but they also gave us advice on local amenities and sites of interest to see while we are here in Juan le Pins and Antibes. They also speak several languages",
+        "author": "Sydney Davies"
+      },
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Этот ресторан стал для меня настоящим местом с душой ✨\n\nЯ впервые пришла сюда на завтрак — и уже тогда поняла, что это особенное место: уютная атмосфера, невероятно вкусная еда и внимательное, тёплое обслуживание. Но именно здесь я решила провести св",
+        "author": "Olga Yavkina"
+      },
+      {
+        "date": "2025-12-01",
+        "stars": 5,
+        "text": "Effectivement, ce fut une expérience unique, un vrai plaisir à tout point de vue et enfin une carte qui propose autre chose que la plus part des cuisines du coin. L'équipe est très professionnelle et la qualité des plats proposés créent cette émotion",
+        "author": "Régis Noël"
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5680472,
+      "lng": 7.1148454
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Unique%20Restaurant%20Antibes%20Juan-les-Pins&query_place_id=ChIJw1nQ6Gt_zhIRKopf4sAmK-0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfqddBKemigqFu9ejoqX96VU28gDR00BVN-sfT5Z904eq5WPUnsiRyC_MJbsG9aa9NjMhNZgTMb8Afrp3UpYBE3O2j3bLft8hfBhCibqzW856kAc9Ifp7GoSjVjIr2u7p9Aqj2rQ=w426-h240-k-no"
   }
 ]
