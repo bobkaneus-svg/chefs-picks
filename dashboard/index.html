@@ -27,7 +27,9 @@ fontFamily:{headline:["Plus Jakarta Sans"],body:["Manrope"],label:["Manrope"]}
 <style>
 :root{--st:calc(env(safe-area-inset-top,0px) + var(--tg-content-safe-area-inset-top,0px));--sb:env(safe-area-inset-bottom,0px)}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#131313;color:#e5e2e1;font-family:Manrope,sans-serif;height:100dvh;overflow:hidden}
+html,body{background:#131313;color:#e5e2e1;font-family:Manrope,sans-serif;height:100dvh;overflow:hidden;overscroll-behavior:none;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y}
+/* Prevent body scroll/bounce on map */
+#map,.leaflet-container{touch-action:none;overscroll-behavior:none}
 a{text-decoration:none;color:inherit}
 .icon{font-family:'Material Symbols Outlined';font-variation-settings:'FILL' 0,'wght' 300;font-size:24px}
 .icon-fill{font-variation-settings:'FILL' 1,'wght' 300}
@@ -360,7 +362,21 @@ function ea(s){return s?s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g
 // INIT
 // ══════════════════════════════════
 document.addEventListener('DOMContentLoaded',function(){
-  if(window.Telegram&&window.Telegram.WebApp){try{Telegram.WebApp.ready();Telegram.WebApp.expand();Telegram.WebApp.setHeaderColor('#131313');Telegram.WebApp.setBackgroundColor('#131313')}catch(e){}}
+  if(window.Telegram&&window.Telegram.WebApp){
+    try{
+      var tg=Telegram.WebApp;
+      tg.ready();
+      tg.expand();
+      tg.setHeaderColor('#131313');
+      tg.setBackgroundColor('#131313');
+      // Prevent accidental swipe-down to close (Bot API 7.7+)
+      if(tg.disableVerticalSwipes) tg.disableVerticalSwipes();
+      // Request full screen mode (Bot API 8.0+)
+      if(tg.requestFullscreen) try{tg.requestFullscreen()}catch(e){}
+      // Prevent app close on swipe down
+      if(tg.enableClosingConfirmation) tg.enableClosingConfirmation();
+    }catch(e){}
+  }
   fetch('data.json').then(function(r){return r.json()}).then(function(d){R=d;boot()}).catch(function(){R=[];boot()});
 });
 
