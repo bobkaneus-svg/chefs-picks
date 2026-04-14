@@ -251,6 +251,14 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
         <span id="filtersBadge" class="fab-badge" style="display:none">0</span>
       </button>
     </div>
+    <!-- Row 2b: Aide-moi à choisir (CTA vers wizard) -->
+    <div class="px-3 mt-2">
+      <button onclick="openWizard()" class="w-full py-3 rounded-2xl bg-gradient-to-r from-gold/20 via-[#ffa534]/15 to-gold/20 border border-gold/40 flex items-center justify-center gap-2 active:scale-[.98] transition-transform">
+        <span class="text-base">✨</span>
+        <span class="font-headline font-bold text-sm text-gold">Aide-moi à choisir</span>
+        <span class="icon text-gold text-base">chevron_right</span>
+      </button>
+    </div>
     <!-- Row 3: Quick chips — occasions (quand y aller, avec qui) -->
     <div id="quickChips" class="chip-row mt-2">
       <button id="oAll" onclick="setOccasion('all')" class="pill on">Toutes</button>
@@ -361,6 +369,71 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
       </a>
     </div>
   </main>
+</div>
+
+<!-- ═══════ VIEW: WIZARD (guided discovery) ═══════ -->
+<div class="view" id="v-wizard" style="z-index:55;background:#131313">
+  <div class="wizard-container" style="display:flex;flex-direction:column;height:100%;padding:calc(16px + var(--st)) 20px calc(16px + var(--sb))">
+    <!-- Progress bar + close -->
+    <div class="flex items-center gap-3 mb-6">
+      <button id="wizClose" onclick="closeWizard()" class="w-9 h-9 bg-surface-high/70 rounded-full flex items-center justify-center active:scale-95 transition-transform"><span class="icon text-on-surface">close</span></button>
+      <div class="flex-1 flex gap-1.5">
+        <div class="h-1 flex-1 bg-surface-high rounded-full overflow-hidden"><div id="wizBar1" class="h-full bg-gold transition-all duration-300" style="width:25%"></div></div>
+        <div class="h-1 flex-1 bg-surface-high rounded-full overflow-hidden"><div id="wizBar2" class="h-full bg-gold transition-all duration-300" style="width:0"></div></div>
+        <div class="h-1 flex-1 bg-surface-high rounded-full overflow-hidden"><div id="wizBar3" class="h-full bg-gold transition-all duration-300" style="width:0"></div></div>
+        <div class="h-1 flex-1 bg-surface-high rounded-full overflow-hidden"><div id="wizBar4" class="h-full bg-gold transition-all duration-300" style="width:0"></div></div>
+      </div>
+      <button id="wizBack" onclick="wizardBack()" class="w-9 h-9 bg-surface-high/70 rounded-full flex items-center justify-center active:scale-95 transition-transform" style="visibility:hidden"><span class="icon text-on-surface">arrow_back</span></button>
+    </div>
+
+    <!-- Step 1: Location -->
+    <div id="wizStep1" class="wiz-step flex-1 flex flex-col">
+      <div class="mb-1"><span class="text-[11px] text-outline uppercase tracking-widest font-bold">Étape 1/4</span></div>
+      <h2 class="font-headline font-light text-3xl mb-2 leading-tight">Tu es <span class="text-gold font-bold">où</span> ?</h2>
+      <p class="text-outline text-sm mb-8">On te géolocalise, ou tu choisis une ville.</p>
+
+      <button onclick="wizGeolocate()" class="p-5 mb-3 rounded-2xl bg-gradient-to-br from-gold/20 to-[#ffa534]/10 border border-gold/30 text-left active:scale-[.98] transition-transform flex items-center gap-4">
+        <span class="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center flex-shrink-0"><span class="icon text-gold text-2xl">my_location</span></span>
+        <div><div class="font-headline font-bold">Me géolocaliser</div><div class="text-xs text-outline mt-0.5">On trouve ce qui est autour de toi</div></div>
+      </button>
+
+      <div class="text-center my-3 text-xs text-outline uppercase tracking-widest">ou</div>
+
+      <div class="bg-surface-high rounded-2xl p-3 mb-3 flex items-center gap-3">
+        <span class="icon text-outline pl-2">location_city</span>
+        <input id="wizCityInput" class="bg-transparent outline-none flex-1 text-sm py-2" placeholder="Choisis une ville" autocomplete="off"/>
+      </div>
+      <div id="wizCitySuggestions" class="space-y-1.5 overflow-y-auto flex-1" style="max-height:260px"></div>
+    </div>
+
+    <!-- Step 2: What -->
+    <div id="wizStep2" class="wiz-step flex-1 flex flex-col" style="display:none">
+      <div class="mb-1"><span class="text-[11px] text-outline uppercase tracking-widest font-bold">Étape 2/4</span></div>
+      <h2 id="wizStep2Title" class="font-headline font-light text-3xl mb-2 leading-tight"></h2>
+      <p id="wizStep2Sub" class="text-outline text-sm mb-6"></p>
+      <div id="wizStep2Grid" class="grid grid-cols-2 gap-3 overflow-y-auto pb-4"></div>
+    </div>
+
+    <!-- Step 3: Vibe -->
+    <div id="wizStep3" class="wiz-step flex-1 flex flex-col" style="display:none">
+      <div class="mb-1"><span class="text-[11px] text-outline uppercase tracking-widest font-bold">Étape 3/4</span></div>
+      <h2 class="font-headline font-light text-3xl mb-2 leading-tight">Tu es d'<span class="text-gold font-bold">humeur</span>...</h2>
+      <p class="text-outline text-sm mb-6">Clique sur ce qui te parle. Plusieurs réponses OK.</p>
+      <div id="wizStep3Grid" class="grid grid-cols-2 gap-3 overflow-y-auto pb-20"></div>
+      <div class="fixed bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-bg to-transparent" style="padding-bottom:calc(16px + var(--sb))">
+        <button id="wizStep3Next" onclick="wizardSubmit()" class="w-full py-4 rounded-2xl bg-gradient-to-r from-gold to-gold-light text-gold-dark font-black uppercase tracking-widest text-sm active:scale-[.98] transition-transform shadow-2xl">Voir les pépites</button>
+      </div>
+    </div>
+
+    <!-- Step 4: Results -->
+    <div id="wizStep4" class="wiz-step flex-1 flex flex-col overflow-y-auto" style="display:none">
+      <div class="mb-1"><span class="text-[11px] text-outline uppercase tracking-widest font-bold">Pour toi</span></div>
+      <h2 id="wizStep4Title" class="font-headline font-light text-3xl mb-1 leading-tight"></h2>
+      <p id="wizStep4Sub" class="text-outline text-sm mb-5"></p>
+      <div id="wizStep4Results" class="space-y-3 pb-6"></div>
+      <button onclick="closeWizard()" class="mt-4 w-full py-3 rounded-2xl bg-surface-high border border-outline-var/20 text-sm font-semibold active:scale-[.98] transition-transform">Voir tout sur la carte</button>
+    </div>
+  </div>
 </div>
 
 <!-- ═══════ VIEW: DETAIL ═══════ -->
@@ -544,7 +617,319 @@ function boot(){
   window.addEventListener('hashchange', handleHash);
   // Show install banner for non-Telegram mobile users (après boot)
   setTimeout(maybeShowInstallBanner, 2000);
+  // Wizard: ouvre automatiquement au premier lancement (sauf si deep-link)
+  if(!location.hash && !localStorage.getItem('otb_wiz_seen')){
+    setTimeout(openWizard, 400);
+  }
 }
+
+// ══════════════════════════════════
+// WIZARD — guided discovery (4 étapes)
+// ══════════════════════════════════
+var wizState = {step:1, city:null, wants:[], vibes:[]};
+
+function openWizard(){
+  wizState = {step:1, city:null, wants:[], vibes:[]};
+  var v = document.getElementById('v-wizard');
+  if(v){ v.classList.add('on'); v.style.display='block'; }
+  wizShowStep(1);
+  renderCitySuggestions();
+}
+function closeWizard(){
+  localStorage.setItem('otb_wiz_seen','1');
+  var v = document.getElementById('v-wizard');
+  if(v){ v.classList.remove('on'); v.style.display='none'; }
+  // Pan la map sur la ville choisie si on avait été jusqu'à step 4
+  if(wizState.city && map){
+    var pts = [];
+    R.forEach(function(r){ if(r.city===wizState.city && r.coordinates && r.coordinates.lat) pts.push([r.coordinates.lat, r.coordinates.lng]) });
+    if(pts.length){ try{ map.fitBounds(L.latLngBounds(pts), {padding:[80,80], maxZoom:15}) }catch(e){} }
+  }
+}
+function wizShowStep(n){
+  wizState.step = n;
+  for(var i=1;i<=4;i++){
+    var el = document.getElementById('wizStep'+i);
+    if(el) el.style.display = (i===n ? 'flex' : 'none');
+    var bar = document.getElementById('wizBar'+i);
+    if(bar) bar.style.width = (i<=n ? '100%' : '0');
+  }
+  var back = document.getElementById('wizBack');
+  if(back) back.style.visibility = (n > 1 && n < 4) ? 'visible' : 'hidden';
+  // Populate contextual content
+  if(n===2) populateWants();
+  if(n===3) populateVibes();
+  if(n===4) renderWizardResults();
+}
+function wizardBack(){ if(wizState.step>1) wizShowStep(wizState.step-1) }
+
+// --- STEP 1: City picker
+function renderCitySuggestions(){
+  var cities = {};
+  R.forEach(function(r){ if(r.city){ cities[r.city] = (cities[r.city]||0)+1 } });
+  var sorted = Object.keys(cities).sort(function(a,b){ return cities[b]-cities[a] });
+  var container = document.getElementById('wizCitySuggestions');
+  if(!container) return;
+  var q = (document.getElementById('wizCityInput').value||'').toLowerCase().trim();
+  var filtered = q ? sorted.filter(function(c){ return c.toLowerCase().indexOf(q)!==-1 }) : sorted.slice(0,8);
+  container.innerHTML = filtered.map(function(c){
+    return '<button onclick="wizSetCity(\''+ea(c)+'\')" class="w-full p-3 rounded-xl bg-surface-high hover:bg-surface-highest border border-outline-var/10 flex items-center justify-between active:scale-[.98] transition-transform"><div class="flex items-center gap-3"><span class="icon text-gold">place</span><span class="text-sm font-semibold">'+esc(c)+'</span></div><span class="text-[10px] text-outline">'+cities[c]+' pépites</span></button>';
+  }).join('');
+}
+function wizSetCity(c){ wizState.city = c; wizShowStep(2) }
+function wizGeolocate(){
+  if(!navigator.geolocation){ alert('Géoloc non dispo — choisis une ville'); return }
+  navigator.geolocation.getCurrentPosition(function(pos){
+    var lat = pos.coords.latitude, lng = pos.coords.longitude;
+    // Trouve la ville la plus proche parmi nos pépites
+    var best=null, bestDist=1e9;
+    R.forEach(function(r){
+      if(!r.coordinates||!r.coordinates.lat)return;
+      var dLat = (r.coordinates.lat-lat)*111;
+      var dLng = (r.coordinates.lng-lng)*111*Math.cos(lat*Math.PI/180);
+      var d = Math.sqrt(dLat*dLat+dLng*dLng);
+      if(d<bestDist){ bestDist=d; best=r.city }
+    });
+    if(best && bestDist < 50){ wizSetCity(best) }
+    else { alert("On n'a pas de pépites à moins de 50 km. Choisis une ville."); }
+  }, function(){ alert('Géoloc refusée — choisis une ville'); });
+}
+
+// --- STEP 2: What (context-aware)
+function getTimeContext(){
+  var d = new Date();
+  var day = d.getDay(); // 0=dim, 6=sam
+  var h = d.getHours();
+  var isWeekend = (day===0 || day===6);
+  var isSunday = (day===0);
+  var isFriday = (day===5);
+  var moment;
+  if(h<10) moment = 'morning';
+  else if(h<14) moment = 'lunch';
+  else if(h<17) moment = 'afternoon';
+  else if(h<21) moment = 'dinner';
+  else moment = 'late';
+  return {day:day, hour:h, isWeekend:isWeekend, isSunday:isSunday, isFriday:isFriday, moment:moment};
+}
+
+function populateWants(){
+  var ctx = getTimeContext();
+  var titles = {
+    morning: {sun:"Dimanche matin, ça sent le <span class='text-gold font-bold'>brunch</span>", wk:"Ce matin, tu as envie de...", def:"Ce matin, tu as envie de..."},
+    lunch: {sun:"Dimanche midi, c'est <span class='text-gold font-bold'>le grand repas</span>", wk:"Ce midi, tu veux...", fri:"Vendredi midi, chill ou tonique ?", def:"Ce midi, tu veux..."},
+    afternoon: {def:"À cette heure-ci...", wk:"Après-midi cool, tu veux..."},
+    dinner: {fri:"Vendredi soir, on est d'accord : <span class='text-gold font-bold'>resto</span>", sun:"Dimanche soir, tranquille ou...", wk:"Ce soir, on fait...", def:"Ce soir, tu veux..."},
+    late: {def:"Un petit creux ?"}
+  };
+  var titleSet = titles[ctx.moment] || titles.dinner;
+  var title = ctx.isSunday ? (titleSet.sun || titleSet.def) : ctx.isFriday ? (titleSet.fri || titleSet.def) : ctx.isWeekend ? (titleSet.wk || titleSet.def) : titleSet.def;
+  document.getElementById('wizStep2Title').innerHTML = title;
+  document.getElementById('wizStep2Sub').textContent = "Sélectionne 1 ou plusieurs envies.";
+
+  // Options contextuelles (base commune + saveurs du moment)
+  var base = [
+    {key:'meat', emoji:'🥩', label:'Une bonne viande', match:['viande','bœuf','beef','steak','magret','canard','agneau','lamb','carpaccio','tartare','côte']},
+    {key:'fish', emoji:'🐟', label:'Poisson frais', match:['poisson','fish','saumon','salmon','bar','loup','daurade','thon','tuna','bouillabaisse','crevette','poulpe','octopus','huître','oyster','ceviche','sushi','sashimi']},
+    {key:'veggie', emoji:'🥗', label:'Léger & healthy', match:['salade','salad','veggie','veg','légumes','vegetarian','vegan','bowl']},
+    {key:'italian', emoji:'🍝', label:"Italien à l'ancienne", match:['pasta','pâtes','pizza','risotto','gnocchi','tiramisu','burrata','italian']},
+    {key:'asian', emoji:'🥢', label:'Asie (rapide & frais)', match:['sushi','pho','ramen','gyoza','wonton','bao','dim sum','bento','japanese','thai','vietnamese','asian']},
+    {key:'comfort', emoji:'🍲', label:'Comfort food', match:['blanquette','daube','bourguignon','raclette','fondue','rôti','roast','cassoulet','confit','choucroute']},
+    {key:'gastro', emoji:'✨', label:'Vrai resto gastro', match:['gastro','gastronomique','étoilé','michelin','gastronomic']},
+    {key:'bistro', emoji:'🍷', label:'Bistro de qualité', match:['bistro','bistrot','brasserie','tradition']}
+  ];
+
+  // Contextual additions
+  if(ctx.moment==='morning' || (ctx.isSunday && ctx.moment==='lunch')){
+    base.unshift({key:'brunch', emoji:'🥞', label:'Brunch qui claque', match:['brunch','crêpe','pancake','œuf','egg','café','coffee','pâtisserie']});
+  }
+  if(ctx.isSunday && ctx.moment==='lunch'){
+    base.unshift({key:'family', emoji:'🍗', label:'Repas de famille', match:['famille','family','rôti','blanquette','poulet','chicken','côte']});
+  }
+  if(ctx.isFriday && ctx.moment==='dinner'){
+    base.unshift({key:'party', emoji:'🎉', label:'Soirée entre amis', match:['partager','sharing','tapas','apéro','cocktail','fun']});
+  }
+
+  var grid = document.getElementById('wizStep2Grid');
+  grid.innerHTML = base.map(function(o){
+    var selected = wizState.wants.indexOf(o.key)!==-1;
+    return '<button data-wkey="'+o.key+'" onclick="wizToggleWant(\''+o.key+'\')" class="p-4 rounded-2xl text-left active:scale-[.98] transition-all '+(selected?'bg-gradient-to-br from-gold/25 to-[#ffa534]/10 border-2 border-gold':'bg-surface-high border border-outline-var/10')+'">'+
+      '<div class="text-3xl mb-2">'+o.emoji+'</div>'+
+      '<div class="text-sm font-semibold leading-tight">'+o.label+'</div>'+
+    '</button>';
+  }).join('');
+
+  // Ajoute un bouton "Continuer" en bas si au moins 1 sélection
+  if(!document.getElementById('wizStep2Next')){
+    var btn = document.createElement('div');
+    btn.id = 'wizStep2NextWrap';
+    btn.className = 'fixed bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-bg to-transparent';
+    btn.style.paddingBottom = 'calc(16px + var(--sb))';
+    btn.innerHTML = '<button id="wizStep2Next" onclick="wizShowStep(3)" class="w-full py-4 rounded-2xl bg-gradient-to-r from-gold to-gold-light text-gold-dark font-black uppercase tracking-widest text-sm active:scale-[.98] transition-transform shadow-2xl disabled:opacity-40" disabled>Continuer</button>';
+    document.getElementById('wizStep2').appendChild(btn);
+  }
+  updateWizStep2Btn();
+}
+function updateWizStep2Btn(){
+  var btn = document.getElementById('wizStep2Next');
+  if(btn){ btn.disabled = wizState.wants.length === 0; btn.style.opacity = wizState.wants.length ? '1' : '0.4' }
+}
+function wizToggleWant(k){
+  var i = wizState.wants.indexOf(k);
+  if(i===-1) wizState.wants.push(k); else wizState.wants.splice(i,1);
+  populateWants();
+  updateWizStep2Btn();
+}
+
+// --- STEP 3: Vibes
+function populateVibes(){
+  var options = [
+    {key:'cosy', emoji:'🕯️', label:'Cosy & intime', match:['cozy','cosy','intime','chaleureux','feutré']},
+    {key:'view', emoji:'🌊', label:'Avec une belle vue', match:['view','vue','mer','port','terrasse','rooftop']},
+    {key:'lounge', emoji:'🍸', label:'Ambiance lounge', match:['lounge','bar','cocktail','musique','music','ambiance']},
+    {key:'romantic', emoji:'💕', label:'En amoureux', match:['romantic','amoureux','date','candle']},
+    {key:'chill', emoji:'😌', label:'Juste bien manger', match:[]}, // no filter, trust rating
+    {key:'chic', emoji:'🎩', label:'Chic, pour marquer le coup', match:['gastronomique','chic','élégant','fine','michelin','gastro','étoilé']},
+    {key:'authentic', emoji:'🏡', label:'Authentique, local', match:['local','traditional','terroir','authentique','traditionnel','regional','tradicional']},
+    {key:'lively', emoji:'🎉', label:'Ambiancé / animé', match:['animé','lively','buzz','fun','festive','party']}
+  ];
+  var grid = document.getElementById('wizStep3Grid');
+  grid.innerHTML = options.map(function(o){
+    var selected = wizState.vibes.indexOf(o.key)!==-1;
+    return '<button onclick="wizToggleVibe(\''+o.key+'\')" class="p-4 rounded-2xl text-left active:scale-[.98] transition-all '+(selected?'bg-gradient-to-br from-gold/25 to-[#ffa534]/10 border-2 border-gold':'bg-surface-high border border-outline-var/10')+'">'+
+      '<div class="text-3xl mb-2">'+o.emoji+'</div>'+
+      '<div class="text-sm font-semibold leading-tight">'+o.label+'</div>'+
+    '</button>';
+  }).join('');
+}
+function wizToggleVibe(k){
+  var i = wizState.vibes.indexOf(k);
+  if(i===-1) wizState.vibes.push(k); else wizState.vibes.splice(i,1);
+  populateVibes();
+}
+function wizardSubmit(){
+  if(wizState.vibes.length === 0) wizState.vibes.push('chill'); // default fallback
+  wizShowStep(4);
+}
+
+// --- STEP 4: Results
+function renderWizardResults(){
+  // Définit les regex de match pour wants et vibes
+  var wantMatchers = {
+    brunch:['brunch','crêpe','pancake','œuf','café','pâtisserie'],
+    meat:['viande','bœuf','beef','steak','magret','canard','agneau','lamb','carpaccio','tartare','côte'],
+    fish:['poisson','fish','saumon','salmon','bar','loup','daurade','thon','tuna','bouillabaisse','crevette','poulpe','octopus','huître','oyster','ceviche','sushi','sashimi'],
+    veggie:['salade','salad','veggie','légumes','vegetarian','vegan','bowl','plant'],
+    italian:['pasta','pâtes','pizza','risotto','gnocchi','tiramisu','burrata','italian'],
+    asian:['sushi','pho','ramen','gyoza','wonton','bao','dim sum','bento','japanese','thai','vietnamese','asian'],
+    comfort:['blanquette','daube','bourguignon','raclette','fondue','rôti','roast','cassoulet','confit'],
+    gastro:['gastro','gastronomique','étoilé','michelin','gastronomic'],
+    bistro:['bistro','bistrot','brasserie','tradition'],
+    family:['famille','family','rôti','blanquette','poulet'],
+    party:['partager','sharing','tapas','apéro','cocktail']
+  };
+  var vibeTagMap = {
+    cosy: ['tete_a_tete'],
+    view: ['view'],
+    romantic: ['date'],
+    lively: ['group'],
+    chic: ['business', 'celebration']
+  };
+  var vibeTextMatchers = {
+    cosy:['cosy','cozy','intime','chaleureux','feutré'],
+    lounge:['lounge','cocktail','ambiance'],
+    chic:['gastronomique','chic','élégant','fine','michelin','étoilé'],
+    authentic:['local','traditional','terroir','authentique','traditionnel'],
+    lively:['animé','lively','buzz','festive']
+  };
+
+  function getAllText(r){
+    var parts = [r.cuisine_type||'', r.name||''];
+    (r.signature_dishes||[]).forEach(function(d){ parts.push(d.phrase_fr||d.phrase||'') });
+    (r.top_recent_quotes||[]).forEach(function(q){ parts.push(q.text_fr||q.text||'') });
+    if(r.vibe) parts.push(r.vibe);
+    return parts.join(' ').toLowerCase();
+  }
+
+  function matchWant(r, wantKey){
+    var kw = wantMatchers[wantKey]; if(!kw) return false;
+    var t = getAllText(r);
+    return kw.some(function(k){ return t.indexOf(k) !== -1 });
+  }
+  function matchVibe(r, vibeKey){
+    if(vibeKey==='chill') return true; // pas de contrainte
+    var tagMatch = vibeTagMap[vibeKey];
+    if(tagMatch){
+      var tags = r.occasion_tags||[];
+      if(tagMatch.some(function(t){ return tags.indexOf(t)!==-1 })) return true;
+    }
+    var kw = vibeTextMatchers[vibeKey];
+    if(kw){
+      var t = getAllText(r);
+      return kw.some(function(k){ return t.indexOf(k) !== -1 });
+    }
+    return false;
+  }
+
+  // Filter sur la ville + score les wants/vibes
+  var candidates = R.filter(function(r){ return r.city === wizState.city });
+  var scored = candidates.map(function(r){
+    var wantHits = wizState.wants.filter(function(w){ return matchWant(r,w) });
+    var vibeHits = wizState.vibes.filter(function(v){ return matchVibe(r,v) });
+    // Score : wants comptent double, vibes comptent, rating contribue
+    var score = wantHits.length*3 + vibeHits.length*2 + (r.google_rating||0)/5;
+    return {r:r, score:score, wantHits:wantHits, vibeHits:vibeHits};
+  }).filter(function(x){
+    // On veut au moins 1 match sur wants (sinon pas pertinent)
+    return wizState.wants.length === 0 || x.wantHits.length > 0;
+  });
+  scored.sort(function(a,b){ return b.score - a.score });
+  var top = scored.slice(0,6);
+
+  // Titre et sous-titre
+  var wantLabels = {meat:'viande',fish:'poisson',veggie:'healthy',italian:'italien',asian:'asiatique',comfort:'comfort food',gastro:'gastro',bistro:'bistro',brunch:'brunch',family:'famille',party:'soirée'};
+  var vibeLabels = {cosy:'cosy',view:'vue',lounge:'lounge',romantic:'romantique',chill:'bien manger',chic:'chic',authentic:'authentique',lively:'animé'};
+  var wantTxt = wizState.wants.map(function(w){return wantLabels[w]||w}).join(' · ');
+  var vibeTxt = wizState.vibes.map(function(v){return vibeLabels[v]||v}).join(' · ');
+  document.getElementById('wizStep4Title').innerHTML = 'Tes pépites à <span class="text-gold font-bold">'+esc(wizState.city)+'</span>';
+  document.getElementById('wizStep4Sub').textContent = (wantTxt ? wantTxt : '') + (wantTxt && vibeTxt ? ' · ' : '') + (vibeTxt ? vibeTxt : '');
+
+  var container = document.getElementById('wizStep4Results');
+  if(!top.length){
+    container.innerHTML = '<div class="p-6 text-center text-outline"><span class="icon text-[48px] text-outline/30">search_off</span><p class="text-sm mt-2">Aucune pépite ne matche parfaitement. Essaie d\'élargir tes envies.</p><button onclick="wizShowStep(2)" class="mt-4 px-4 py-2 bg-surface-high rounded-xl text-sm">Changer mes choix</button></div>';
+    return;
+  }
+
+  container.innerHTML = top.map(function(x,idx){
+    var r = x.r;
+    var img = r.photo_url ? '<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>' : '<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[32px] text-outline/30">restaurant</span></div>';
+    var matchBadges = '';
+    x.wantHits.forEach(function(w){
+      matchBadges += '<span class="px-2 py-1 rounded-full bg-gold/20 border border-gold/40 text-[10px] font-bold text-gold">✓ '+esc(wantLabels[w]||w)+'</span>';
+    });
+    x.vibeHits.forEach(function(v){
+      matchBadges += '<span class="px-2 py-1 rounded-full bg-[#b0aaff]/15 border border-[#b0aaff]/30 text-[10px] font-bold text-[#b0aaff]">✓ '+esc(vibeLabels[v]||v)+'</span>';
+    });
+    var rankEmoji = idx===0 ? '🥇' : idx===1 ? '🥈' : idx===2 ? '🥉' : '✨';
+    return '<div onclick="closeWizard();openResto(\''+ea(r.id)+'\')" class="bg-surface-low rounded-2xl overflow-hidden border border-outline-var/10 cursor-pointer active:scale-[.98] transition-transform">'+
+      '<div class="relative h-40 overflow-hidden">'+img+
+        '<div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-bg/80 backdrop-blur-md text-xs font-bold">'+rankEmoji+' #'+(idx+1)+'</div>'+
+        '<div class="absolute top-2 right-2 px-2 py-0.5 rounded-full bg-bg/80 backdrop-blur-md text-xs font-bold text-[#ff8a3d]">🔥 '+(r.google_rating||'')+'★</div>'+
+      '</div>'+
+      '<div class="p-4">'+
+        '<h3 class="font-headline font-bold text-lg leading-tight">'+esc(r.name)+'</h3>'+
+        '<p class="text-xs text-outline uppercase tracking-wider mt-0.5">'+esc(r.cuisine_type||'Restaurant')+' · '+esc(r.price_range||'€€')+'</p>'+
+        (matchBadges ? '<div class="mt-3 flex flex-wrap gap-1.5">'+matchBadges+'</div>' : '')+
+      '</div>'+
+    '</div>';
+  }).join('');
+}
+
+// Intercept wizard input typing for city filter
+document.addEventListener('DOMContentLoaded', function(){
+  var inp = document.getElementById('wizCityInput');
+  if(inp) inp.addEventListener('input', function(){ renderCitySuggestions() });
+});
+
 
 // Deep linking: #r=resto-id ou #chef=nom
 function handleHash(){
