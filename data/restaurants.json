@@ -33302,7 +33302,14 @@
       "order": [
         "Extremely immaculate restaurant I enjoyed wonderful bottle of orange juice, cappuccino, prosciutto and burrata crepe with a creative salad on the side"
       ]
-    }
+    },
+    "signature_dishes": [
+      {
+        "icon": "🧀",
+        "phrase": "Prosciutto and burrata crepe with a creative salad on the side",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "picnic-antibes-antibes",
@@ -33682,7 +33689,8 @@
         "kind": "experience",
         "mentions": 1
       }
-    ]
+    ],
+    "signature_phrase": "L’ambiance est géniale avec une excellente musique qui ajoute vraiment à l’expérience, mais la vraie star ici, c’est la cuisine"
   },
   {
     "id": "celeste-cadaqu-s",
@@ -33781,7 +33789,14 @@
           "text": "Viens en petit comité, le lieu est intime"
         }
       ]
-    }
+    },
+    "signature_dishes": [
+      {
+        "icon": "🐙",
+        "phrase": "The food is very afforadable and delicious: I ordered the octopus pasta for 14 euros and it was a…",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "restaurant-la-cafeti-re-f-l-e-antibes",
@@ -33909,7 +33924,14 @@
       "order": [
         "We ordered some croquetas to start (all of them delicious - couldnt decide which one was best - jamon, gorgonzola or chicken)"
       ]
-    }
+    },
+    "signature_dishes": [
+      {
+        "icon": "🍗",
+        "phrase": "Gorgonzola or chicken",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "la-taille-de-gu-pe-antibes",
@@ -34397,6 +34419,13 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍝",
+        "phrase": "Les pâtes au homard",
+        "mentions": 2
+      }
     ]
   },
   {
@@ -34461,7 +34490,14 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lERCT_G3Rh6OlsZzrbbYdajszJUgxulqCnVyzNtmJhbELZsOGy3ivo6JWgS1GmgzyEg1_BA3Cv08p-V0nJ_WdX3htkj77jw05gSbrUyiyU6mSwLQZBDM5Mpl4WyVw7Z933kz8YPJ5LGlRmE",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQxvicTXPi7retuxvUTBtkYpkg4Tq5nXZYpweYY1YOPpNNcmy1wS7edB0L2II37AfR6z5WrvwAMWVag8u_HDs8qdZ0z5YBGl_9OCvv91m_eXkrIK4oKrDrPqkj9QzNQY8ZS5GhyawqgNSGq"
     ],
-    "vibes": []
+    "vibes": [],
+    "signature_dishes": [
+      {
+        "icon": "🥩",
+        "phrase": "Escogimos un arroz con un carpaccio de gamba por encima que eso señores no lo he visto en ningún otro sitio",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "el-gato-azul-cadaqu-s",
@@ -34530,6 +34566,13 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🤗 Un accueil chaleureux comme à la maison"
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🥩",
+        "phrase": "On s’est régalé avec une joue de bœuf exceptionnelle",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -34601,6 +34644,13 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍮",
+        "phrase": "UNE PANNA COTTA SEXY = UN COMMENTAIRE SEXY",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -34685,6 +34735,18 @@
         "kind": "dish",
         "mentions": 1
       }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍝",
+        "phrase": "Ich kann die Pasta di Mare absolut empfehlen",
+        "mentions": 1
+      },
+      {
+        "icon": "🧀",
+        "phrase": "Their Mozzarella di Bufala and the Camembert di Buffalo au Miel is served on Focaccia is its heavenly",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -34752,7 +34814,15 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
-    ]
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🐟",
+        "phrase": "La soupe de poisson inoubliable en entrée",
+        "mentions": 1
+      }
+    ],
+    "signature_phrase": "Dans un cadre calme et chaleureux, loin de l'agitation du bord de mer, on se sent immédiatement à l'aise"
   },
   {
     "id": "el-rebost-de-cadaqu-s-cadaqu-s",
@@ -35044,7 +35114,20 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍖",
+        "phrase": "Ne manquez pas les morilles à la crème et à la \"poudre de foie gras\"",
+        "mentions": 1
+      },
+      {
+        "icon": "🫒",
+        "phrase": "Mention spéciale pour les croquettes de crevettes et le gâteau au chocolat praliné",
+        "mentions": 1
+      }
+    ],
+    "signature_phrase": "La cuisine est excellente, mention spéciale pour les croquettes de crevettes et le gâteau au chocolat praliné"
   },
   {
     "id": "el-sue-o-cadaqu-s-cadaqu-s",
@@ -35114,6 +35197,13 @@
         "icon": "🫒",
         "label": "Tapas",
         "kind": "dish",
+        "mentions": 1
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🫒",
+        "phrase": "Tomamos tanto tapas como plato principal como cócteles y todo fue muy bien",
         "mentions": 1
       }
     ]
@@ -35190,6 +35280,18 @@
         "icon": "🇮🇹",
         "label": "Tiramisu",
         "kind": "dish",
+        "mentions": 1
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍝",
+        "phrase": "Die handgemachte Pasta ist einfach hervorragend und man schmeckt sofort",
+        "mentions": 2
+      },
+      {
+        "icon": "🍰",
+        "phrase": "Auch das Tiramisu war unglaublich lecker",
         "mentions": 1
       }
     ]
@@ -35383,7 +35485,20 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🐟",
+        "phrase": "La soupe de poisson un pur délice",
+        "mentions": 1
+      },
+      {
+        "icon": "🍲",
+        "phrase": "Le risotto manquait à mon goût un peu de crémeux",
+        "mentions": 1
+      }
+    ],
+    "signature_phrase": "Un endroit où je suis certain de retourner"
   },
   {
     "id": "lua-cadaqu-s-cadaqu-s",
@@ -35446,6 +35561,18 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🥗",
+        "phrase": "We had the avocado and tomato salad",
+        "mentions": 1
+      },
+      {
+        "icon": "🍰",
+        "phrase": "Followed by the mango and coconut dessert and the chestnut tiramisù",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -35513,6 +35640,13 @@
         "icon": "🍖",
         "label": "Agneau",
         "kind": "dish",
+        "mentions": 1
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍖",
+        "phrase": "La souris d'agneau était délicieuse",
         "mentions": 1
       }
     ]
@@ -35609,6 +35743,28 @@
         "kind": "dish",
         "mentions": 1
       }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🐟",
+        "phrase": "We had a salmon tartare to start and I had bronzino for my main course",
+        "mentions": 1
+      },
+      {
+        "icon": "🐙",
+        "phrase": "We had poulpe on bed of polenta",
+        "mentions": 1
+      },
+      {
+        "icon": "🍝",
+        "phrase": "Grilled sea bass and pasta with Nduja",
+        "mentions": 1
+      },
+      {
+        "icon": "🫒",
+        "phrase": "Mezze maniche alla 'nduja",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -35692,7 +35848,14 @@
           "text": "Reste raisonnable, le rapport qualité-prix est excellent"
         }
       ]
-    }
+    },
+    "signature_dishes": [
+      {
+        "icon": "🥩",
+        "phrase": "Je suis allée en avril de l'an dernier et nous avions beaucoup aimé le steak et les gnocci à la truffe",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "restaurant-nord-est-cadaqu-s",
@@ -35824,6 +35987,13 @@
         "icon": "🦐",
         "label": "Crevettes",
         "kind": "dish",
+        "mentions": 1
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🦐",
+        "phrase": "Recomiendo la paella de gambas y cigalas está riquísima",
         "mentions": 1
       }
     ]
@@ -36239,7 +36409,8 @@
           "text": "Garde de la place pour le pain maison"
         }
       ]
-    }
+    },
+    "signature_phrase": "Gros coup de cœur pour la soupe aux lentilles, absolument incroyable"
   },
   {
     "id": "parthenopi-cannes",
@@ -36297,7 +36468,8 @@
         "kind": "dish",
         "mentions": 2
       }
-    ]
+    ],
+    "signature_phrase": "The atmosphere is warm, the service is fantastic, and the ingredients are incredibly fresh"
   },
   {
     "id": "sens-restaurant-cannes-cannes",
@@ -36407,7 +36579,8 @@
     "vibes": [
       "🤗 Un accueil chaleureux comme à la maison",
       "🎉 Une ambiance qui rend la soirée magique"
-    ]
+    ],
+    "signature_phrase": "Des produits de grande qualité, des prix plus que raisonnables, un service irréprochable et une ambiance au top, on se sent comme à la maison"
   },
   {
     "id": "au-fou-de-la-reine-cannes",
@@ -36613,7 +36786,14 @@
       "order": [
         "Nous avons pris le veau à partager en plat : il était délicieux"
       ]
-    }
+    },
+    "signature_dishes": [
+      {
+        "icon": "🍖",
+        "phrase": "Nous avons pris le veau à partager en plat : il était délicieux",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "arcada-bordeaux",
@@ -36812,7 +36992,8 @@
         "text": "Une expérience singulière. Des mets et saveurs exquis, délicieusement travaillés par un chef et sa brigade.\nUne serveuse aux petits soins, encore merci pour la bougie!\nKeep up the good work!\nÀ très vite dans le 8ème.",
         "author": "Mathieu Bruckert"
       }
-    ]
+    ],
+    "signature_phrase": "La cuisine ouverte permet de voir le chef Préparer les assiettes minute"
   },
   {
     "id": "suffren-marseille",
@@ -36910,7 +37091,8 @@
     "vibes": [
       "🤗 Un accueil chaleureux comme à la maison",
       "🏡 Une cuisine locale qui raconte le terroir"
-    ]
+    ],
+    "signature_phrase": "The restaurant quickly filled up with regular customers"
   },
   {
     "id": "la-pagaille-restaurant-lounge-cocktail-marseille",
@@ -36986,7 +37168,19 @@
           "text": "Ne pars pas sans un dessert"
         }
       ]
-    }
+    },
+    "signature_dishes": [
+      {
+        "icon": "🫒",
+        "phrase": "Le concept est de prendre plusieurs plats en mode tapas",
+        "mentions": 1
+      },
+      {
+        "icon": "🦐",
+        "phrase": "Les gambas incroyable juste parfaitement griller c'étais fantastique",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "le-bistro-du-panier-marseille",
@@ -37040,6 +37234,13 @@
         "label": "Burger",
         "kind": "dish",
         "mentions": 3
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍔",
+        "phrase": "De mozza burger en burger met kip waren zeer lekker",
+        "mentions": 1
       }
     ]
   },
@@ -37207,7 +37408,8 @@
           "text": "Viens en petit comité, le lieu est intime"
         }
       ]
-    }
+    },
+    "signature_phrase": "L’ambiance est cosy et accueillante, parfaite pour une pause déjeuner ou un goûter"
   },
   {
     "id": "restaurant-circle-lyon",
@@ -37430,6 +37632,13 @@
         "kind": "experience",
         "mentions": 1
       }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍖",
+        "phrase": "Cuisine gastronomique maîtrisée de bout en bout : ravioles au foie gras délicieuses",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -37631,7 +37840,14 @@
           "text": "Viens en petit comité, le lieu est intime"
         }
       ]
-    }
+    },
+    "signature_dishes": [
+      {
+        "icon": "🥩",
+        "phrase": "Tataki de bœuf et poulet",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "upstairs-bistro-paris-paris",
@@ -37693,6 +37909,13 @@
         "icon": "📅",
         "label": "Réserver à l'avance (très demandé)",
         "kind": "experience",
+        "mentions": 1
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🦐",
+        "phrase": "Je vous conseille fortement les crevettes mangues et coco",
         "mentions": 1
       }
     ]

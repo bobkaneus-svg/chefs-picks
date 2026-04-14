@@ -822,54 +822,69 @@ function openResto(id){
         '<div class="flex flex-wrap gap-2">'+
         r.top_dishes.map(function(d){return '<span class="px-3 py-1.5 bg-gradient-to-br from-gold/15 to-[#ffa534]/15 border border-gold/30 rounded-full text-xs font-medium capitalize">'+esc(d)+'</span>'}).join('')+
         '</div><p class="text-[10px] text-outline mt-2">Plats les plus cités dans les avis récents</p></section>':'')+
-      // Pourquoi on adore — vibes + must_try extraits des derniers avis
-      ((r.vibes&&r.vibes.length>0)||(r.must_try&&r.must_try.length>0)?
+      // Pourquoi on adore — priorise signature (personnalisé) sur vibes/must_try (génériques)
+      ((r.signature_phrase)||(r.signature_dishes&&r.signature_dishes.length>0)||(r.vibes&&r.vibes.length>0)||(r.must_try&&r.must_try.length>0)?
         '<section class="px-5 mt-8">'+
           '<div class="flex items-center gap-2 mb-1">'+
             '<span class="icon text-gold text-lg">auto_awesome</span>'+
             '<h3 class="font-headline font-light text-lg tracking-tight">Pourquoi on <span class="text-gold font-bold">adore</span></h3>'+
           '</div>'+
           '<p class="text-[10px] text-outline uppercase tracking-wider mb-4">D\'après les derniers avis Google</p>'+
-          // Vibes éditorialisées
-          ((r.vibes&&r.vibes.length>0)?
+          // 1) Signature phrase (la plus personnalisée) en premier si elle existe
+          (r.signature_phrase?
+            '<div class="mb-5 py-4 px-4 bg-gradient-to-r from-gold/[0.12] to-[#ffa534]/[0.05] border-l-[3px] border-gold rounded-r-xl">'+
+              '<p class="serif text-[15px] leading-relaxed text-on-surface italic">"'+esc(r.signature_phrase)+'"</p>'+
+            '</div>':'')+
+          // 2) Vibes génériques — uniquement si pas de signature_phrase
+          ((!r.signature_phrase&&r.vibes&&r.vibes.length>0)?
             '<div class="space-y-2.5 mb-5">'+
             r.vibes.map(function(v){
               return '<div class="serif text-[15px] leading-snug text-on-surface py-3 px-4 bg-gradient-to-r from-gold/[0.08] to-transparent border-l-2 border-gold/60 rounded-r-lg">'+esc(v)+'</div>'
             }).join('')+
             '</div>':'')+
-          // Must-try : plats + expériences extraits des avis
-          ((r.must_try&&r.must_try.length>0)?
+          // 3) Signature dishes (phrases réelles des avis) ou fallback must_try (tags génériques)
+          ((r.signature_dishes&&r.signature_dishes.length>0)?
+            '<div class="mb-4">'+
+              '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">restaurant_menu</span>À goûter absolument</h4>'+
+              '<div class="space-y-2">'+
+              r.signature_dishes.map(function(d){
+                return '<div class="flex items-start gap-2.5 py-2.5 px-3.5 bg-gradient-to-br from-gold/10 to-[#ffa534]/5 border border-gold/20 rounded-xl">'+
+                  '<span class="text-lg flex-shrink-0 leading-none mt-0.5">'+esc(d.icon)+'</span>'+
+                  '<span class="text-[13px] text-on-surface flex-1 leading-snug">'+esc(d.phrase)+
+                  (d.mentions>1?' <span class="text-[10px] text-gold/70 font-bold">×'+d.mentions+'</span>':'')+
+                  '</span>'+
+                '</div>'
+              }).join('')+
+              '</div></div>'
+          : (r.must_try&&r.must_try.filter(function(m){return m.kind==='dish'}).length>0?
             (function(){
               var dishes=r.must_try.filter(function(m){return m.kind==='dish'});
+              return '<div class="mb-4">'+
+                '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">restaurant_menu</span>À goûter absolument</h4>'+
+                '<div class="flex flex-wrap gap-2">'+
+                dishes.map(function(m){
+                  return '<span class="px-3 py-2 bg-gradient-to-br from-gold/15 to-[#ffa534]/10 border border-gold/30 rounded-xl text-sm font-medium flex items-center gap-1.5">'+
+                    '<span class="text-base">'+esc(m.icon)+'</span>'+esc(m.label)+
+                    (m.mentions>1?'<span class="text-[10px] text-gold/80 font-bold ml-0.5">×'+m.mentions+'</span>':'')+
+                  '</span>'
+                }).join('')+
+                '</div></div>';
+            })() : ''))+
+          // 4) À ne pas rater (expériences de must_try, inchangé)
+          ((r.must_try&&r.must_try.filter(function(m){return m.kind==='experience'}).length>0)?
+            (function(){
               var exps=r.must_try.filter(function(m){return m.kind==='experience'});
-              var out='';
-              if(dishes.length>0){
-                out+='<div class="mb-4">'+
-                  '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">restaurant_menu</span>À goûter absolument</h4>'+
-                  '<div class="flex flex-wrap gap-2">'+
-                  dishes.map(function(m){
-                    return '<span class="px-3 py-2 bg-gradient-to-br from-gold/15 to-[#ffa534]/10 border border-gold/30 rounded-xl text-sm font-medium flex items-center gap-1.5">'+
-                      '<span class="text-base">'+esc(m.icon)+'</span>'+esc(m.label)+
-                      (m.mentions>1?'<span class="text-[10px] text-gold/80 font-bold ml-0.5">×'+m.mentions+'</span>':'')+
-                    '</span>'
-                  }).join('')+
-                  '</div></div>';
-              }
-              if(exps.length>0){
-                out+='<div class="mb-2">'+
-                  '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">stars</span>À ne pas rater</h4>'+
-                  '<div class="space-y-1.5">'+
-                  exps.map(function(m){
-                    return '<div class="flex items-start gap-2.5 py-2 px-3 bg-surface-high/60 rounded-lg border border-outline-var/10">'+
-                      '<span class="text-base flex-shrink-0">'+esc(m.icon)+'</span>'+
-                      '<span class="text-sm text-on-surface flex-1">'+esc(m.label)+'</span>'+
-                    '</div>'
-                  }).join('')+
-                  '</div></div>';
-              }
-              return out;
-            })()
-          :'')+
+              return '<div class="mb-2">'+
+                '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">stars</span>À ne pas rater</h4>'+
+                '<div class="space-y-1.5">'+
+                exps.map(function(m){
+                  return '<div class="flex items-start gap-2.5 py-2 px-3 bg-surface-high/60 rounded-lg border border-outline-var/10">'+
+                    '<span class="text-base flex-shrink-0">'+esc(m.icon)+'</span>'+
+                    '<span class="text-sm text-on-surface flex-1">'+esc(m.label)+'</span>'+
+                  '</div>'
+                }).join('')+
+                '</div></div>';
+            })() : '')+
         '</section>'
       :
         // Fallback : anciens top_qualities si pas de vibes ni de must_try
