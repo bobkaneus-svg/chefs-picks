@@ -210,6 +210,20 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 /* Utility */
 .scroll-y{padding-top:calc(56px + var(--st));padding-bottom:calc(70px + var(--sb))}
 .card-img{aspect-ratio:16/10;overflow:hidden;border-radius:16px;background:#2a2a2a}
+
+/* ═══════ WIZARD CHAT (typewriter, typing dots, fade-in) ═══════ */
+.wiz-bubble-enter{animation:wizBubbleIn .32s cubic-bezier(.2,.9,.3,1.1) both}
+@keyframes wizBubbleIn{from{opacity:0;transform:translateY(8px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+.wiz-options-enter{animation:wizOptsIn .4s cubic-bezier(.2,.9,.3,1) .05s both}
+@keyframes wizOptsIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.wiz-typing{display:inline-flex;gap:5px;padding:4px 2px;align-items:center}
+.wiz-typing span{width:7px;height:7px;border-radius:50%;background:#9d8e7c;opacity:.55;animation:wizDot 1.2s infinite ease-in-out}
+.wiz-typing span:nth-child(2){animation-delay:.18s}
+.wiz-typing span:nth-child(3){animation-delay:.36s}
+@keyframes wizDot{0%,60%,100%{transform:translateY(0);opacity:.35}30%{transform:translateY(-4px);opacity:.95}}
+.wiz-caret{display:inline-block;width:2px;height:1em;background:#e8a838;vertical-align:text-bottom;margin-left:2px;animation:wizCaret 1s infinite steps(1)}
+@keyframes wizCaret{50%{opacity:0}}
+.wiz-caret.done{display:none}
 </style>
 </head>
 
@@ -398,7 +412,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
     </div>
 
     <!-- Chat body (scrollable) -->
-    <div id="wizChat" class="flex-1 overflow-y-auto px-4 py-4 space-y-4" style="padding-bottom:calc(140px + var(--sb))">
+    <div id="wizChat" class="flex-1 overflow-y-auto px-4 py-4" style="padding-bottom:calc(140px + var(--sb));display:flex;flex-direction:column;gap:14px">
       <!-- Steps injected here -->
     </div>
 
@@ -597,28 +611,159 @@ function boot(){
 }
 
 // ══════════════════════════════════
-// WIZARD — conversationnel, pote foodie (5 étapes)
+// WIZARD — chat IA "pote foodie" (typewriter + contexte réel)
 // ══════════════════════════════════
-var wizState = {step:1, city:null, userLat:null, userLng:null, distance:null, wants:[], vibes:[]};
-var wizSteps = []; // tracks step outputs (for scrolling chat feel)
+var wizState = {step:1, city:null, userLat:null, userLng:null, distance:null, wants:[], vibes:[], ctx:null, expandedCities:[]};
+var wizBusy = false; // true pendant un typewriter — évite les clics parasites
+var wizTypewriterToken = 0; // pour annuler un typewriter en cours
 
-var WIZ_WANT_LABELS = {meat:'viande',fish:'poisson',veggie:'healthy',italian:'italien',asian:'asiatique',comfort:'comfort food',gastro:'gastro',bistro:'bistro',brunch:'brunch',family:'famille',party:'soirée'};
+var WIZ_WANT_LABELS = {meat:'viande',fish:'poisson',veggie:'healthy',italian:'italien',asian:'asiatique',comfort:'comfort food',gastro:'gastro',bistro:'bistro',brunch:'brunch',family:'famille',party:'soirée',apero:'apéro',pastry:'pâtisserie',quick:'sur le pouce',night:'bar / tard'};
 var WIZ_VIBE_LABELS = {cosy:'cosy',view:'vue',lounge:'lounge',romantic:'romantique',chill:'bien manger',chic:'chic',authentic:'authentique',lively:'animé'};
 var WIZ_DIST_LABELS = {flemme:'juste à côté', walk:'à pied',car_short:'petite voiture',car_long:'roule un peu'};
 
+// Centres approximatifs des villes couvertes — permet calcul de distance sans géoloc
+// + élargissement "villes voisines" quand user accepte de rouler.
+var CITY_CENTERS = {
+  'Nice':        {lat:43.7034, lng:7.2663},
+  'Antibes':     {lat:43.5808, lng:7.1251},
+  'Cannes':      {lat:43.5528, lng:7.0174},
+  'Juan-les-Pins':{lat:43.5667, lng:7.1042},
+  'Monaco':      {lat:43.7384, lng:7.4246},
+  'Marseille':   {lat:43.2965, lng:5.3698},
+  'Paris':       {lat:48.8566, lng:2.3522},
+  'Lyon':        {lat:45.7640, lng:4.8357},
+  'Bordeaux':    {lat:44.8378, lng:-0.5792},
+  'Cadaqués':    {lat:42.2885, lng:3.2778}
+};
+
+// ─── Distance haversine approximatif (km)
+function distanceKm(lat1,lng1,lat2,lng2){
+  if(lat1==null||lng1==null||lat2==null||lng2==null) return null;
+  var dLat = (lat2-lat1)*111;
+  var dLng = (lng2-lng1)*111*Math.cos(lat1*Math.PI/180);
+  return Math.sqrt(dLat*dLat+dLng*dLng);
+}
+
+// ─── Contexte horaire → profil (titre + wants priorisés + wants masqués)
+function getTimeContext(){
+  var d = new Date();
+  var day = d.getDay(); var h = d.getHours();
+  var isWeekend = (day===0 || day===6), isSunday = (day===0), isFriday = (day===5);
+  // moment: morning / lunch / afternoon / apero / dinner / late
+  var moment;
+  if(h<10) moment='morning';
+  else if(h<14) moment='lunch';
+  else if(h<17) moment='afternoon';
+  else if(h<19) moment='apero';
+  else if(h<23) moment='dinner';
+  else moment='late';
+  return {day:day, hour:h, isWeekend:isWeekend, isSunday:isSunday, isFriday:isFriday, moment:moment};
+}
+// Retourne le profil wants pour l'heure: {priority:[keys…], banned:[keys…], greeting:txt, label:txt}
+function wizGetTimeProfile(ctx){
+  var h = ctx.hour;
+  // Weekend matin → brunch obligé
+  if(ctx.isWeekend && ctx.moment==='morning'){
+    return {
+      greeting:"Weekend, encore au lit ? 🛌 Un <b>brunch qui claque</b> ou une <b>pâtisserie</b> ?",
+      priority:['brunch','pastry','veggie','comfort'],
+      banned:['party','night','apero'],
+      label:'brunch du weekend'
+    };
+  }
+  if(ctx.isSunday && ctx.moment==='lunch'){
+    return {
+      greeting:"Dimanche midi, c'est sacré 🍗. <b>Repas de famille</b>, rôti, comfort food ?",
+      priority:['family','comfort','bistro','meat','fish'],
+      banned:['quick','party','night','brunch'],
+      label:'repas du dimanche'
+    };
+  }
+  if(ctx.moment==='morning'){
+    return {
+      greeting:"Bien matinal 👋 <b>Petit-déj</b>, café, pâtisserie ?",
+      priority:['pastry','brunch','veggie'],
+      banned:['party','night','apero','gastro','italian','asian','meat','comfort','bistro','family'],
+      label:'petit-déjeuner'
+    };
+  }
+  if(ctx.moment==='lunch'){
+    // Semaine vs weekend
+    if(ctx.isWeekend) return {
+      greeting:"Ce midi, grand repas tranquille ? 🍽️",
+      priority:['meat','fish','gastro','italian','bistro','comfort'],
+      banned:['night','party','brunch'],
+      label:'déjeuner weekend'
+    };
+    return {
+      greeting:"Ce midi, tu veux quoi ? (pause déj', healthy, sur le pouce ?)",
+      priority:['quick','veggie','bistro','italian','asian','fish'],
+      banned:['night','party','brunch'],
+      label:'déjeuner'
+    };
+  }
+  if(ctx.moment==='afternoon'){
+    return {
+      greeting:"L'après-midi… <b>goûter</b>, pâtisserie, brunch tardif ?",
+      priority:['pastry','brunch','veggie'],
+      banned:['party','night','meat','gastro','family'],
+      label:'goûter'
+    };
+  }
+  if(ctx.moment==='apero'){
+    return {
+      greeting:"C'est l'heure de l'<b>apéro</b> 🍹 Un verre, des tapas ?",
+      priority:['apero','bistro','italian'],
+      banned:['brunch','family','night','gastro'],
+      label:'apéro'
+    };
+  }
+  if(ctx.moment==='dinner'){
+    if(ctx.isFriday) return {
+      greeting:"Vendredi soir 🎉 — <b>restos à ambiance</b>, entre amis, belle table ?",
+      priority:['party','gastro','italian','meat','fish','bistro'],
+      banned:['brunch','pastry','quick'],
+      label:'vendredi soir'
+    };
+    if(ctx.isWeekend) return {
+      greeting:"Soirée weekend — <b>belle table</b>, ambiance, date ?",
+      priority:['gastro','italian','meat','fish','bistro','party'],
+      banned:['brunch','pastry','quick'],
+      label:'dîner weekend'
+    };
+    return {
+      greeting:"Ce soir, <b>dîner</b> chic ou tradi ?",
+      priority:['gastro','italian','meat','fish','bistro','comfort','asian'],
+      banned:['brunch','pastry','quick'],
+      label:'dîner'
+    };
+  }
+  // late (≥23h)
+  return {
+    greeting:"Ça devient tard 🌙 <b>Bar</b>, verre de nuit, after ?",
+    priority:['night','apero','party'],
+    banned:['brunch','pastry','family','quick','gastro'],
+    label:'after'
+  };
+}
+
+// ─── openWizard / closeWizard
 function openWizard(){
-  wizState = {step:1, city:null, userLat:null, userLng:null, distance:null, wants:[], vibes:[]};
-  wizSteps = [];
+  wizState = {step:1, city:null, userLat:null, userLng:null, distance:null, wants:[], vibes:[], ctx:getTimeContext(), expandedCities:[]};
+  wizBusy = false; wizTypewriterToken++;
   var v = document.getElementById('v-wizard');
   if(v){ v.classList.add('on'); v.style.display='block'; }
   document.getElementById('wizChat').innerHTML = '';
-  document.getElementById('wizStatus').textContent = 'Écrit un message...';
-  setTimeout(function(){ wizShowStep(1) }, 350);
+  document.getElementById('wizStatus').textContent = 'En ligne';
+  setTimeout(function(){ wizShowStep(1) }, 300);
 }
 function closeWizard(){
   localStorage.setItem('otb_wiz_seen','1');
+  wizTypewriterToken++; // cancel typewriter
+  wizBusy = false;
   var v = document.getElementById('v-wizard');
   if(v){ v.classList.remove('on'); v.style.display='none'; }
+  // Pan sur la ville choisie (préservé)
   if(wizState.city && map){
     var pts = [];
     R.forEach(function(r){ if(r.city===wizState.city && r.coordinates && r.coordinates.lat) pts.push([r.coordinates.lat, r.coordinates.lng]) });
@@ -626,23 +771,135 @@ function closeWizard(){
   }
 }
 
-function wizBubble(type, html){
-  // type: 'bot' | 'user'
-  var side = type==='user' ? 'self-end' : 'self-start';
-  var bg = type==='user' ? 'bg-gold/25 border border-gold/40 text-on-surface' : 'bg-surface-high border border-outline-var/10';
-  return '<div class="max-w-[85%] '+side+' '+bg+' rounded-2xl p-4 shadow-sm">'+html+'</div>';
+// ─── Chat primitives
+function wizStatus(txt){ var el=document.getElementById('wizStatus'); if(el) el.textContent=txt }
+function wizScroll(){
+  var chat=document.getElementById('wizChat');
+  if(chat) chat.scrollTo({top:chat.scrollHeight, behavior:'smooth'});
 }
-function wizAppend(html){
-  var chat = document.getElementById('wizChat');
-  chat.insertAdjacentHTML('beforeend', html);
-  setTimeout(function(){ chat.scrollTo({top: chat.scrollHeight, behavior:'smooth'}) }, 50);
+function wizAppendUser(html){
+  var chat=document.getElementById('wizChat');
+  var node=document.createElement('div');
+  node.className='max-w-[85%] self-end bg-gold/25 border border-gold/40 text-on-surface rounded-2xl p-4 shadow-sm wiz-bubble-enter';
+  node.style.alignSelf='flex-end';
+  node.innerHTML=html;
+  chat.appendChild(node);
+  setTimeout(wizScroll,30);
 }
-function wizStatus(txt){ document.getElementById('wizStatus').textContent = txt }
-function wizAction(btnLabel, onClick){
+function wizAppendOptions(html){
+  // Conteneur options (apparaît en fade-in après le dernier message bot)
+  var chat=document.getElementById('wizChat');
+  var node=document.createElement('div');
+  node.className='self-start max-w-[95%] w-full wiz-options-enter';
+  node.style.alignSelf='flex-start';
+  node.innerHTML=html;
+  chat.appendChild(node);
+  setTimeout(wizScroll,60);
+  return node;
+}
+// Typing indicator (3 dots). Retourne le node pour pouvoir le remplacer.
+function wizShowTyping(){
+  var chat=document.getElementById('wizChat');
+  var node=document.createElement('div');
+  node.className='max-w-[85%] self-start bg-surface-high border border-outline-var/10 rounded-2xl px-4 py-3 shadow-sm wiz-bubble-enter';
+  node.style.alignSelf='flex-start';
+  node.innerHTML='<div class="wiz-typing"><span></span><span></span><span></span></div>';
+  chat.appendChild(node);
+  wizStatus('écrit…');
+  setTimeout(wizScroll,30);
+  return node;
+}
+
+// Tokenize un HTML string en "atomes": soit un tag complet (<b>, </b>, <span …>), soit 1 caractère visible.
+// Ça permet d'écrire caractère par caractère en préservant le HTML inline.
+function wizTokenize(html){
+  var out=[]; var i=0;
+  while(i<html.length){
+    if(html[i]==='<'){
+      var end=html.indexOf('>', i);
+      if(end===-1){ out.push(html[i]); i++; continue }
+      out.push(html.slice(i, end+1));
+      i=end+1;
+    } else {
+      // Gérer surrogate pairs (emoji) comme 1 atome
+      var code=html.charCodeAt(i);
+      if(code>=0xD800 && code<=0xDBFF && i+1<html.length){
+        out.push(html.slice(i,i+2)); i+=2;
+      } else {
+        out.push(html[i]); i++;
+      }
+    }
+  }
+  return out;
+}
+
+// wizBotSay(text, cb) — montre "typing…" 800-1200 ms, puis typewriter la bulle, puis cb().
+// Supporte <b>, <span class=…>, <br>, etc. Long text → découpe en 2 bulles.
+function wizBotSay(text, cb){
+  wizBusy = true;
+  var token = ++wizTypewriterToken;
+  // Découpe si trop long
+  if(text.length > 400){
+    var cut = text.indexOf('. ', 180);
+    if(cut === -1 || cut > 340) cut = Math.min(340, text.length);
+    else cut += 1; // inclure le point
+    var p1 = text.slice(0, cut).trim();
+    var p2 = text.slice(cut).trim();
+    return wizBotSay(p1, function(){
+      setTimeout(function(){
+        if(token !== wizTypewriterToken) return;
+        wizBotSay(p2, cb);
+      }, 280);
+    });
+  }
+
+  var typing = wizShowTyping();
+  var typingDelay = 650 + Math.min(650, text.length * 4); // plus long = attend un peu plus
+  setTimeout(function(){
+    if(token !== wizTypewriterToken){ return }
+    // Remplace le typing par une bulle vide qu'on va remplir
+    typing.innerHTML = '<p class="text-sm leading-relaxed"><span class="wiz-text"></span><span class="wiz-caret"></span></p>';
+    var target = typing.querySelector('.wiz-text');
+    var caret = typing.querySelector('.wiz-caret');
+    var atoms = wizTokenize(text);
+    var idx = 0;
+    var baseDelay = text.length > 120 ? 14 : 24;
+    function tick(){
+      if(token !== wizTypewriterToken){ return } // annulé
+      if(idx >= atoms.length){
+        if(caret) caret.classList.add('done');
+        wizStatus('en ligne');
+        wizBusy = false;
+        if(cb) cb();
+        return;
+      }
+      var a = atoms[idx++];
+      // Pour les tags, on les injecte directement
+      if(a.length>1 && a[0]==='<'){
+        target.insertAdjacentHTML('beforeend', a);
+        tick(); return;
+      }
+      target.insertAdjacentText('beforeend', a);
+      // Jitter un peu + pause sur ponctuation
+      var extra = 0;
+      if(a==='.'||a==='!'||a==='?') extra = 180;
+      else if(a===','||a===';') extra = 80;
+      wizScroll();
+      setTimeout(tick, baseDelay + extra + Math.random()*12);
+    }
+    tick();
+  }, typingDelay);
+}
+
+// Action bar (bouton principal)
+function wizAction(btnLabel, onClick, opts){
+  opts = opts || {};
   var bar = document.getElementById('wizActionBar');
   var btn = document.getElementById('wizActionBtn');
-  btn.textContent = btnLabel;
-  btn.onclick = onClick;
+  btn.innerHTML = btnLabel;
+  btn.onclick = function(){ if(!wizBusy) onClick() };
+  btn.disabled = !!opts.disabled;
+  btn.style.opacity = opts.disabled ? '0.4' : '1';
   bar.style.display = 'block';
 }
 function wizHideAction(){ document.getElementById('wizActionBar').style.display='none' }
@@ -651,9 +908,10 @@ function wizShowStep(n){
   wizState.step = n;
   for(var i=1;i<=5;i++){
     var bar = document.getElementById('wizBar'+i);
-    if(bar) bar.style.width = (i<=n ? '100%' : (i===n+1?'0':'0'));
+    if(bar) bar.style.width = (i<=n ? '100%' : '0');
   }
-  document.getElementById('wizBack').style.visibility = (n>1 && n<5) ? 'visible' : 'hidden';
+  var backBtn = document.getElementById('wizBack');
+  if(backBtn) backBtn.style.visibility = (n>1 && n<5) ? 'visible' : 'hidden';
   wizHideAction();
   if(n===1) wizRenderStep1();
   else if(n===2) wizRenderStep2();
@@ -662,175 +920,197 @@ function wizShowStep(n){
   else if(n===5) wizRenderStep5();
 }
 function wizardBack(){
-  if(wizState.step>1){
-    // Rewind : on ré-affiche toute la conversation depuis le début jusqu'à l'étape précédente
+  if(wizState.step>1 && !wizBusy){
     var target = wizState.step - 1;
     document.getElementById('wizChat').innerHTML = '';
-    wizSteps = [];
-    // Replay en sautant les choix (on reset seulement le step cible)
-    if(target < 5){ /* ok */ }
     if(target < 4) wizState.vibes = [];
     if(target < 3) wizState.wants = [];
-    if(target < 2) wizState.distance = null;
+    if(target < 2){ wizState.distance = null; wizState.expandedCities = []; }
     wizShowStep(target);
   }
 }
 
-// --- STEP 1: Hello + ville
+// ─── STEP 1: Hello + ville
 function wizRenderStep1(){
-  wizStatus('En ligne');
-  // Message de salutation
   var greets = ["Hey toi 👋","Salut !","Yo 👋","Hello !"];
   var greet = greets[Math.floor(Math.random()*greets.length)];
-  wizAppend(wizBubble('bot',
-    '<p class="text-sm leading-relaxed">'+greet+' Je suis ton pote foodie. Je t\'aide à trouver <span class="font-bold text-gold">ta prochaine bonne table</span> en 1 min.</p>'+
-    '<p class="text-sm leading-relaxed mt-2">D\'abord… <b>tu es où ?</b> 📍</p>'
-  ));
-  // Options : géoloc + liste villes
-  var cities = {};
-  R.forEach(function(r){ if(r.city){ cities[r.city] = (cities[r.city]||0)+1 } });
-  var sorted = Object.keys(cities).sort(function(a,b){ return cities[b]-cities[a] });
-  var cityOpts = sorted.slice(0,8).map(function(c){
-    return '<button onclick="wizSetCity(\''+ea(c)+'\')" class="px-3 py-2 rounded-xl bg-surface-high border border-outline-var/10 text-sm font-medium active:scale-95 transition-transform flex items-center gap-1.5">'+esc(c)+' <span class="text-[10px] text-outline">('+cities[c]+')</span></button>';
-  }).join('');
-  wizAppend('<div class="self-start max-w-[90%] space-y-2">'+
-    '<button onclick="wizGeolocate()" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-gold/25 to-[#ffa534]/10 border border-gold/40 text-sm font-bold active:scale-95 transition-transform flex items-center gap-2"><span class="icon text-gold">my_location</span>Me géolocaliser</button>'+
-    '<p class="text-[10px] text-outline uppercase tracking-widest pl-2">Ou pick une ville :</p>'+
-    '<div class="flex flex-wrap gap-2">'+cityOpts+'</div>'+
-    '</div>');
+  var ctx = wizState.ctx;
+  var profile = wizGetTimeProfile(ctx);
+  var hello = greet + " Je suis ton pote foodie. En 3 questions je te trouve <b>ta prochaine bonne table</b>.";
+  wizBotSay(hello, function(){
+    wizBotSay("D'abord… <b>tu es où ?</b> 📍", function(){
+      var cities = {};
+      R.forEach(function(r){ if(r.city){ cities[r.city] = (cities[r.city]||0)+1 } });
+      var sorted = Object.keys(cities).sort(function(a,b){ return cities[b]-cities[a] });
+      var cityOpts = sorted.slice(0,8).map(function(c){
+        return '<button onclick="wizSetCity(\''+ea(c)+'\')" class="px-3 py-2 rounded-xl bg-surface-high border border-outline-var/10 text-sm font-medium active:scale-95 transition-transform flex items-center gap-1.5">'+esc(c)+' <span class="text-[10px] text-outline">('+cities[c]+')</span></button>';
+      }).join('');
+      wizAppendOptions(
+        '<div class="space-y-2">'+
+          '<button onclick="wizGeolocate()" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-gold/25 to-[#ffa534]/10 border border-gold/40 text-sm font-bold active:scale-95 transition-transform flex items-center gap-2"><span class="icon text-gold">my_location</span>Me géolocaliser</button>'+
+          '<p class="text-[10px] text-outline uppercase tracking-widest pl-2">Ou pick une ville :</p>'+
+          '<div class="flex flex-wrap gap-2">'+cityOpts+'</div>'+
+        '</div>'
+      );
+    });
+  });
 }
 function wizSetCity(c){
+  if(wizBusy) return;
   wizState.city = c;
-  wizAppend(wizBubble('user','<p class="text-sm font-semibold">📍 '+esc(c)+'</p>'));
-  setTimeout(function(){ wizShowStep(2) }, 400);
+  wizAppendUser('<p class="text-sm font-semibold">📍 '+esc(c)+'</p>');
+  // Bot reacts
+  var reply = "Ah, <b>"+c+"</b>, bon choix 👌";
+  wizBotSay(reply, function(){ setTimeout(function(){ wizShowStep(2) }, 200) });
 }
 function wizGeolocate(){
+  if(wizBusy) return;
   if(!navigator.geolocation){ alert('Géoloc non dispo — pick une ville'); return }
-  wizAppend(wizBubble('user','<p class="text-sm font-semibold">📍 Me géolocaliser</p>'));
-  wizStatus('On cherche où tu es...');
+  wizAppendUser('<p class="text-sm font-semibold">📍 Me géolocaliser</p>');
+  wizStatus('on cherche où tu es…');
   navigator.geolocation.getCurrentPosition(function(pos){
     wizState.userLat = pos.coords.latitude;
     wizState.userLng = pos.coords.longitude;
-    // Ville la plus proche
+    // Ville la plus proche via CITY_CENTERS (plus fiable que "resto le plus proche")
     var best=null, bestDist=1e9;
-    R.forEach(function(r){
-      if(!r.coordinates||!r.coordinates.lat)return;
-      var dLat = (r.coordinates.lat-wizState.userLat)*111;
-      var dLng = (r.coordinates.lng-wizState.userLng)*111*Math.cos(wizState.userLat*Math.PI/180);
-      var d = Math.sqrt(dLat*dLat+dLng*dLng);
-      if(d<bestDist){ bestDist=d; best=r.city }
+    Object.keys(CITY_CENTERS).forEach(function(name){
+      var c=CITY_CENTERS[name];
+      var d=distanceKm(wizState.userLat, wizState.userLng, c.lat, c.lng);
+      if(d!=null && d<bestDist){ bestDist=d; best=name }
     });
-    wizStatus('En ligne');
-    if(best && bestDist < 50){
+    wizStatus('en ligne');
+    if(best && bestDist < 40){
       wizState.city = best;
-      wizAppend(wizBubble('bot','<p class="text-sm">Cool, t\'es pas loin de <b>'+esc(best)+'</b> ! ('+Math.round(bestDist)+' km)</p>'));
-      setTimeout(function(){ wizShowStep(2) }, 700);
+      wizBotSay("Cool, t'es à <b>"+Math.round(bestDist)+" km</b> de <b>"+best+"</b> 🎯", function(){
+        setTimeout(function(){ wizShowStep(2) }, 250);
+      });
+    } else if(best){
+      wizBotSay("Hmm, tu es à <b>"+Math.round(bestDist)+" km</b> de notre ville la plus proche (<b>"+best+"</b>). On peut y regarder quand même ?", function(){
+        wizAppendOptions(
+          '<div class="flex flex-wrap gap-2">'+
+            '<button onclick="wizSetCity(\''+ea(best)+'\')" class="px-4 py-2 rounded-xl bg-gold/25 border border-gold/40 text-sm font-bold active:scale-95">Oui, '+esc(best)+'</button>'+
+            '<button onclick="wizRenderStep1()" class="px-4 py-2 rounded-xl bg-surface-high border border-outline-var/10 text-sm font-medium active:scale-95">Choisir une autre ville</button>'+
+          '</div>'
+        );
+      });
     } else {
-      wizAppend(wizBubble('bot','<p class="text-sm">Hmm, j\'ai pas de pépite à moins de 50 km de toi 😕<br>Pick une ville manuellement :</p>'));
+      wizBotSay("J'ai pas réussi à situer ta position 😕. Pick une ville manuellement :", function(){
+        wizRenderStep1();
+      });
     }
   }, function(){
-    wizStatus('En ligne');
-    wizAppend(wizBubble('bot','<p class="text-sm">Géoloc refusée 🙈 Pas de souci, pick une ville :</p>'));
-  });
+    wizStatus('en ligne');
+    wizBotSay("Géoloc refusée 🙈 pas de souci, pick une ville juste en dessous.", function(){});
+  }, {timeout:8000});
 }
 
-// --- STEP 2: Distance (nouveau !)
+// ─── STEP 2: Distance (dépend de géoloc)
 function wizRenderStep2(){
-  wizStatus('Écrit un message...');
-  setTimeout(function(){
-    wizStatus('En ligne');
-    var prompts = [
-      "Et là, tu as la flemme de bouger ou tu es chaud pour rouler un peu ? 🚗",
-      "Niveau déplacement, tu es plutôt <b>flemmard</b> ou <b>en mission</b> ? 😄",
-      "Dis-moi, tu es prêt à bouger comment ?"
-    ];
-    wizAppend(wizBubble('bot','<p class="text-sm leading-relaxed">'+prompts[Math.floor(Math.random()*prompts.length)]+'</p>'));
-
-    var hasGeoloc = wizState.userLat !== null;
-    var opts = [
-      {key:'flemme', emoji:'🛋️', label:"J'ai la flemme", sub:'Juste à côté'},
-      {key:'walk', emoji:'🚶', label:'À pied, ça va', sub:'<1 km'},
-      {key:'car_short', emoji:'🚗', label:'Je prends la voiture', sub:'5-10 min'},
-      {key:'car_long', emoji:'🏎️', label:'Je peux rouler', sub:'Toute la ville / alentours'}
-    ];
-    if(!hasGeoloc){
-      // Si pas de géoloc, on ne peut pas vraiment filtrer par distance, on simplifie
+  var hasGeoloc = wizState.userLat !== null;
+  var q = hasGeoloc
+    ? "Là, tu as <b>la flemme de bouger</b> ou tu es chaud pour rouler un peu ? 🚗"
+    : "Niveau déplacement dans <b>"+wizState.city+"</b>, tu veux rester dans le coin ou élargir autour ?";
+  wizBotSay(q, function(){
+    var opts;
+    if(hasGeoloc){
       opts = [
-        {key:'car_short', emoji:'🚗', label:'Dans '+esc(wizState.city), sub:'Centre-ville'},
-        {key:'car_long', emoji:'🏎️', label:'Autour de '+esc(wizState.city), sub:'Alentours proches'}
+        {key:'flemme',   emoji:'🛋️', label:"J'ai la flemme",   sub:'< 1,5 km'},
+        {key:'walk',     emoji:'🚶', label:'À pied, ça va',    sub:'< 2,5 km'},
+        {key:'car_short',emoji:'🚗', label:'Je prends la voiture', sub:'< 12 km'},
+        {key:'car_long', emoji:'🏎️', label:'Je peux rouler',   sub:'Villes alentour (< 50 km)'}
+      ];
+    } else {
+      opts = [
+        {key:'car_short',emoji:'🚗', label:'Dans '+wizState.city, sub:'Centre-ville (< 12 km)'},
+        {key:'car_long', emoji:'🏎️', label:'Autour de '+wizState.city, sub:'Villes alentour (< 50 km)'}
       ];
     }
     var btns = opts.map(function(o){
       return '<button onclick="wizSetDistance(\''+o.key+'\')" class="p-4 rounded-2xl bg-surface-high border border-outline-var/10 text-left active:scale-95 transition-transform w-full">'+
         '<div class="flex items-center gap-3">'+
           '<span class="text-3xl flex-shrink-0">'+o.emoji+'</span>'+
-          '<div><div class="font-semibold text-sm">'+o.label+'</div><div class="text-[11px] text-outline mt-0.5">'+o.sub+'</div></div>'+
+          '<div><div class="font-semibold text-sm">'+esc(o.label)+'</div><div class="text-[11px] text-outline mt-0.5">'+esc(o.sub)+'</div></div>'+
         '</div></button>';
     }).join('');
-    wizAppend('<div class="self-start max-w-[90%] w-full space-y-2">'+btns+'</div>');
-  }, 500);
+    wizAppendOptions('<div class="space-y-2">'+btns+'</div>');
+  });
 }
 function wizSetDistance(k){
+  if(wizBusy) return;
   wizState.distance = k;
   var labels = {flemme:"🛋️ J'ai la flemme", walk:'🚶 À pied', car_short:'🚗 En voiture vite fait', car_long:'🏎️ Je peux rouler'};
-  wizAppend(wizBubble('user','<p class="text-sm font-semibold">'+labels[k]+'</p>'));
-  setTimeout(function(){ wizShowStep(3) }, 400);
+  wizAppendUser('<p class="text-sm font-semibold">'+esc(labels[k]||k)+'</p>');
+  var reply = ({
+    flemme:"Compris, on reste dans un <b>rayon d'1,5 km</b> 🏠. Je vais chercher serré.",
+    walk:"OK, balade à pied, <b>2,5 km max</b> 🚶.",
+    car_short:"Parfait, <b>jusqu'à 12 km</b>, on a de la marge 🚗.",
+    car_long:"Super, je vais élargir aux <b>villes voisines</b> aussi 🏎️."
+  })[k] || "Noté.";
+  wizBotSay(reply, function(){ setTimeout(function(){ wizShowStep(3) }, 200) });
 }
 
-// --- STEP 3: What (contextuel)
-function getTimeContext(){
-  var d = new Date();
-  var day = d.getDay(); var h = d.getHours();
-  var isWeekend = (day===0 || day===6), isSunday = (day===0), isFriday = (day===5);
-  var moment;
-  if(h<10) moment='morning'; else if(h<14) moment='lunch'; else if(h<17) moment='afternoon'; else if(h<21) moment='dinner'; else moment='late';
-  return {day:day, hour:h, isWeekend:isWeekend, isSunday:isSunday, isFriday:isFriday, moment:moment};
-}
+// ─── STEP 3: Wants (filtré par le profil horaire)
 function wizRenderStep3(){
-  wizStatus('Écrit un message...');
-  setTimeout(function(){
-    wizStatus('En ligne');
-    var ctx = getTimeContext();
-    var prompt;
-    if(ctx.isSunday && ctx.moment==='morning') prompt = "Dimanche matin, on a tous envie d'un <b>brunch qui claque</b> 🥞. Sinon, dis-moi ce qui te ferait plaisir ?";
-    else if(ctx.isSunday && ctx.moment==='lunch') prompt = "Dimanche midi, c'est sacré 🍗. Un bon <b>repas de famille</b> ? Ou autre chose ?";
-    else if(ctx.isFriday && ctx.moment==='dinner') prompt = "Vendredi soir 🎉 — qu'est-ce qui te ferait plaisir ?";
-    else if(ctx.moment==='lunch') prompt = "Ce midi, tu veux quoi ?";
-    else if(ctx.moment==='dinner') prompt = "Ce soir, ça te dit de manger quoi ?";
-    else if(ctx.moment==='morning') prompt = "Ce matin, tu te sens plutôt... ?";
-    else prompt = "Qu'est-ce qui te ferait plaisir, là ?";
-    wizAppend(wizBubble('bot','<p class="text-sm leading-relaxed">'+prompt+'</p><p class="text-[11px] text-outline mt-2">Tape plusieurs options si tu hésites.</p>'));
-
-    // Options de base + contextuelles
-    var base = [
-      {key:'meat', emoji:'🥩', label:'Une bonne viande'},
-      {key:'fish', emoji:'🐟', label:'Du poisson frais'},
-      {key:'veggie', emoji:'🥗', label:'Léger, healthy'},
-      {key:'italian', emoji:'🍝', label:"Italien"},
-      {key:'asian', emoji:'🥢', label:'Asiatique'},
-      {key:'comfort', emoji:'🍲', label:'Comfort food'},
-      {key:'gastro', emoji:'✨', label:'Gastro, belle table'},
-      {key:'bistro', emoji:'🍷', label:'Bistro tradi'}
-    ];
-    if(ctx.moment==='morning' || (ctx.isSunday && ctx.moment==='lunch')) base.unshift({key:'brunch', emoji:'🥞', label:'Brunch qui claque'});
-    if(ctx.isSunday && ctx.moment==='lunch') base.unshift({key:'family', emoji:'🍗', label:'Repas de famille'});
-    if(ctx.isFriday && ctx.moment==='dinner') base.unshift({key:'party', emoji:'🎉', label:'Soirée entre amis'});
-    wizRenderWantOptions(base);
-    wizAction('Continuer', function(){ if(wizState.wants.length){ wizAppendWantsRecap(); setTimeout(function(){ wizShowStep(4) }, 400) } });
-    wizRefreshWantsBtn();
-  }, 500);
+  var ctx = wizState.ctx;
+  var profile = wizGetTimeProfile(ctx);
+  wizBotSay(profile.greeting, function(){
+    wizBotSay("<span class='text-[11px] text-outline'>Plusieurs options possibles 👇</span>", function(){
+      // Base catalog
+      var catalog = {
+        meat:    {emoji:'🥩', label:'Une bonne viande'},
+        fish:    {emoji:'🐟', label:'Du poisson frais'},
+        veggie:  {emoji:'🥗', label:'Léger, healthy'},
+        italian: {emoji:'🍝', label:'Italien'},
+        asian:   {emoji:'🥢', label:'Asiatique'},
+        comfort: {emoji:'🍲', label:'Comfort food'},
+        gastro:  {emoji:'✨', label:'Gastro, belle table'},
+        bistro:  {emoji:'🍷', label:'Bistro tradi'},
+        brunch:  {emoji:'🥞', label:'Brunch qui claque'},
+        family:  {emoji:'🍗', label:'Repas de famille'},
+        party:   {emoji:'🎉', label:'Soirée entre amis'},
+        apero:   {emoji:'🍹', label:"Apéro / à partager"},
+        pastry:  {emoji:'🥐', label:'Pâtisserie, café'},
+        quick:   {emoji:'🥪', label:'Sur le pouce'},
+        night:   {emoji:'🍸', label:'Bar, verre tardif'}
+      };
+      // Ordre: priority d'abord, puis tout ce qui n'est pas banni
+      var banned = profile.banned || [];
+      var priority = (profile.priority || []).filter(function(k){ return catalog[k] });
+      var others = Object.keys(catalog).filter(function(k){
+        return priority.indexOf(k)===-1 && banned.indexOf(k)===-1;
+      });
+      var order = priority.concat(others);
+      var base = order.map(function(k){ return Object.assign({key:k}, catalog[k]) });
+      wizRenderWantOptions(base);
+      wizAction('Continuer', function(){
+        if(wizState.wants.length){
+          wizAppendWantsRecap();
+          // Réaction + contrôle cohérence horaire
+          var bannedPicks = wizState.wants.filter(function(w){ return banned.indexOf(w)!==-1 });
+          if(bannedPicks.length){
+            wizBotSay("Hmm, <b>"+(WIZ_WANT_LABELS[bannedPicks[0]]||bannedPicks[0])+"</b> à "+wizState.ctx.hour+"h, t'es sûr·e ? 😄 Je te propose quand même, mais je vais prioriser ce qui matche l'heure.", function(){
+              setTimeout(function(){ wizShowStep(4) }, 250);
+            });
+          } else {
+            wizBotSay("Bon goût 👌", function(){ setTimeout(function(){ wizShowStep(4) }, 200) });
+          }
+        }
+      }, {disabled:true});
+      wizRefreshWantsBtn();
+    });
+  });
 }
 function wizRenderWantOptions(base){
   var btns = base.map(function(o){
     var selected = wizState.wants.indexOf(o.key)!==-1;
     return '<button data-want="'+o.key+'" onclick="wizToggleWant(\''+o.key+'\')" class="px-3 py-2 rounded-full border text-sm font-medium active:scale-95 transition-all '+(selected?'bg-gradient-to-br from-gold/25 to-[#ffa534]/10 border-gold text-gold':'bg-surface-high border-outline-var/20 text-on-surface')+'">'+o.emoji+' '+esc(o.label)+'</button>';
   }).join('');
-  wizAppend('<div id="wizWantsWrap" class="self-start max-w-[95%] flex flex-wrap gap-2">'+btns+'</div>');
+  wizAppendOptions('<div id="wizWantsWrap" class="flex flex-wrap gap-2">'+btns+'</div>');
 }
 function wizToggleWant(k){
+  if(wizBusy) return;
   var i = wizState.wants.indexOf(k);
   if(i===-1) wizState.wants.push(k); else wizState.wants.splice(i,1);
-  // Update buttons
   document.querySelectorAll('[data-want]').forEach(function(b){
     var s = wizState.wants.indexOf(b.dataset.want)!==-1;
     b.className = 'px-3 py-2 rounded-full border text-sm font-medium active:scale-95 transition-all '+(s?'bg-gradient-to-br from-gold/25 to-[#ffa534]/10 border-gold text-gold':'bg-surface-high border-outline-var/20 text-on-surface');
@@ -843,20 +1123,17 @@ function wizRefreshWantsBtn(){
 }
 function wizAppendWantsRecap(){
   var labels = wizState.wants.map(function(w){return WIZ_WANT_LABELS[w]||w});
-  wizAppend(wizBubble('user','<p class="text-sm font-semibold">🎯 '+labels.join(' · ')+'</p>'));
+  wizAppendUser('<p class="text-sm font-semibold">🎯 '+esc(labels.join(' · '))+'</p>');
 }
 
-// --- STEP 4: Vibes
+// ─── STEP 4: Vibes
 function wizRenderStep4(){
-  wizStatus('Écrit un message...');
-  setTimeout(function(){
-    wizStatus('En ligne');
-    var prompts = [
-      "Dernière question ! Tu es d'<b>humeur</b> quoi ? 😊",
-      "Et l'ambiance que tu cherches, c'est plutôt... ?",
-      "Tu veux ça <b>comment</b> comme vibe ?"
-    ];
-    wizAppend(wizBubble('bot','<p class="text-sm leading-relaxed">'+prompts[Math.floor(Math.random()*prompts.length)]+'</p><p class="text-[11px] text-outline mt-1">Choisis ce qui te parle (plusieurs OK).</p>'));
+  var prompts = [
+    "Dernière question ! L'<b>ambiance</b> que tu cherches, c'est plutôt… ?",
+    "Tu veux ça <b>comment</b> comme vibe ?",
+    "On termine : quelle <b>ambiance</b> te parle ? 😊"
+  ];
+  wizBotSay(prompts[Math.floor(Math.random()*prompts.length)], function(){
     var opts = [
       {key:'cosy', emoji:'🕯️', label:'Cosy & intime'},
       {key:'view', emoji:'🌊', label:'Avec la vue'},
@@ -871,16 +1148,17 @@ function wizRenderStep4(){
       var selected = wizState.vibes.indexOf(o.key)!==-1;
       return '<button data-vibe="'+o.key+'" onclick="wizToggleVibe(\''+o.key+'\')" class="px-3 py-2 rounded-full border text-sm font-medium active:scale-95 transition-all '+(selected?'bg-gradient-to-br from-gold/25 to-[#ffa534]/10 border-gold text-gold':'bg-surface-high border-outline-var/20 text-on-surface')+'">'+o.emoji+' '+esc(o.label)+'</button>';
     }).join('');
-    wizAppend('<div class="self-start max-w-[95%] flex flex-wrap gap-2">'+btns+'</div>');
+    wizAppendOptions('<div class="flex flex-wrap gap-2">'+btns+'</div>');
     wizAction('Trouve-moi des pépites ✨', function(){
       if(wizState.vibes.length===0) wizState.vibes.push('chill');
       var labels = wizState.vibes.map(function(v){return WIZ_VIBE_LABELS[v]||v});
-      wizAppend(wizBubble('user','<p class="text-sm font-semibold">✨ '+labels.join(' · ')+'</p>'));
-      setTimeout(function(){ wizShowStep(5) }, 400);
+      wizAppendUser('<p class="text-sm font-semibold">✨ '+esc(labels.join(' · '))+'</p>');
+      setTimeout(function(){ wizShowStep(5) }, 250);
     });
-  }, 500);
+  });
 }
 function wizToggleVibe(k){
+  if(wizBusy) return;
   var i = wizState.vibes.indexOf(k);
   if(i===-1) wizState.vibes.push(k); else wizState.vibes.splice(i,1);
   document.querySelectorAll('[data-vibe]').forEach(function(b){
@@ -889,29 +1167,46 @@ function wizToggleVibe(k){
   });
 }
 
-// --- STEP 5: Résultats riches (max 5)
-function distanceKm(lat1,lng1,lat2,lng2){
-  if(lat1==null||lat2==null) return null;
-  var dLat = (lat2-lat1)*111;
-  var dLng = (lng2-lng1)*111*Math.cos(lat1*Math.PI/180);
-  return Math.sqrt(dLat*dLat+dLng*dLng);
+// ─── STEP 5: Matching
+// Point de référence pour la distance : géoloc user, sinon centre de la ville.
+function wizRefPoint(){
+  if(wizState.userLat!=null) return {lat:wizState.userLat, lng:wizState.userLng, source:'user'};
+  var c=CITY_CENTERS[wizState.city];
+  if(c) return {lat:c.lat, lng:c.lng, source:'city'};
+  return null;
 }
+// Retourne les villes voisines (≤50 km) de la ville principale, triées par proximité.
+function wizNearbyCities(mainCity, radiusKm){
+  var c0 = CITY_CENTERS[mainCity]; if(!c0) return [];
+  return Object.keys(CITY_CENTERS)
+    .filter(function(n){ return n!==mainCity })
+    .map(function(n){ return {name:n, dist:distanceKm(c0.lat,c0.lng, CITY_CENTERS[n].lat, CITY_CENTERS[n].lng)} })
+    .filter(function(x){ return x.dist!=null && x.dist<=radiusKm })
+    .sort(function(a,b){ return a.dist-b.dist });
+}
+
 function wizRenderStep5(){
-  wizStatus('Écrit un message...');
+  wizStatus('écrit…');
   setTimeout(function(){
-    wizStatus('En ligne');
+    wizStatus('en ligne');
+
+    // Matchers (inchangés vs version précédente, enrichis pour apero/pastry/quick/night)
     var wantMatchers = {
-      brunch:['brunch','crêpe','pancake','œuf','café','pâtisserie'],
+      brunch:['brunch','crêpe','pancake','œuf','egg','café','coffee','pâtisserie','viennoiserie'],
       meat:['viande','bœuf','beef','steak','magret','canard','agneau','lamb','carpaccio','tartare','côte'],
       fish:['poisson','fish','saumon','salmon','loup','daurade','thon','tuna','bouillabaisse','crevette','poulpe','octopus','huître','oyster','ceviche','sushi','sashimi'],
       veggie:['salade','salad','veggie','légumes','vegetarian','vegan','bowl','plant'],
-      italian:['pasta','pâtes','pizza','risotto','gnocchi','tiramisu','burrata','italian'],
-      asian:['sushi','pho','ramen','gyoza','wonton','bao','dim sum','bento','japanese','thai','vietnamese','asian'],
+      italian:['pasta','pâtes','pizza','risotto','gnocchi','tiramisu','burrata','italian','italien'],
+      asian:['sushi','pho','ramen','gyoza','wonton','bao','dim sum','bento','japanese','thai','vietnamese','asian','asiatique'],
       comfort:['blanquette','daube','bourguignon','raclette','fondue','rôti','roast','cassoulet','confit'],
-      gastro:['gastro','gastronomique','étoilé','michelin','gastronomic'],
+      gastro:['gastro','gastronomique','étoilé','michelin','gastronomic','fine dining'],
       bistro:['bistro','bistrot','brasserie','tradition'],
-      family:['famille','family','rôti','blanquette','poulet'],
-      party:['partager','sharing','tapas','apéro','cocktail']
+      family:['famille','family','rôti','blanquette','poulet','partag'],
+      party:['partager','sharing','tapas','apéro','cocktail','festif','buzz'],
+      apero:['apéro','apero','tapas','cocktail','partage','sharing','planche'],
+      pastry:['pâtisserie','viennoiserie','croissant','éclair','tarte','gâteau','cake','café','coffee'],
+      quick:['sandwich','bowl','rapide','quick','take','pause','salad','healthy','pizza'],
+      night:['bar','cocktail','speakeasy','lounge','late','after']
     };
     var vibeTagMap = {cosy:['tete_a_tete'], view:['view'], romantic:['date'], lively:['group'], chic:['business','celebration']};
     var vibeTextMatchers = {
@@ -936,59 +1231,101 @@ function wizRenderStep5(){
       var t=getText(r); return kw.some(function(x){return t.indexOf(x)!==-1});
     }
 
-    // Distance threshold selon le choix
+    // 1) Rayon selon choix distance
     var distMax = {flemme:1.5, walk:2.5, car_short:12, car_long:50}[wizState.distance] || 50;
-    var candidates = R.filter(function(r){ return r.city === wizState.city || wizState.distance==='car_long' });
-    // Si géoloc dispo, filtrer par distance utilisateur
-    if(wizState.userLat){
-      candidates = candidates.filter(function(r){
-        if(!r.coordinates||!r.coordinates.lat) return false;
-        var d = distanceKm(wizState.userLat, wizState.userLng, r.coordinates.lat, r.coordinates.lng);
-        return d !== null && d <= distMax;
+    var ref = wizRefPoint(); // point de référence (user ou centre-ville)
+
+    // 2) Liste de villes autorisées
+    var allowedCities = [wizState.city];
+    var expanded = [];
+    if(wizState.distance === 'car_long'){
+      expanded = wizNearbyCities(wizState.city, 50);
+      expanded.forEach(function(x){ allowedCities.push(x.name) });
+    }
+
+    // 3) Premier passage : dans la ville principale uniquement
+    function buildCandidates(cityList){
+      return R.filter(function(r){
+        if(!r.in_selection && r.in_selection!==undefined) { /* keep going */ }
+        if(cityList.indexOf(r.city)===-1) return false;
+        if(!r.coordinates||r.coordinates.lat==null) return cityList.length>1; // sans coord on accepte uniquement si city match
+        if(ref){
+          var d = distanceKm(ref.lat, ref.lng, r.coordinates.lat, r.coordinates.lng);
+          if(d==null) return false;
+          return d <= distMax;
+        }
+        return true;
       });
     }
 
-    var scored = candidates.map(function(r){
-      var wH = wizState.wants.filter(function(w){ return matchW(r,w) });
-      var vH = wizState.vibes.filter(function(v){ return matchV(r,v) });
-      var d = wizState.userLat ? distanceKm(wizState.userLat,wizState.userLng,r.coordinates.lat,r.coordinates.lng) : null;
-      var score = wH.length*3 + vH.length*2 + (r.google_rating||0)/5 - (d ? d*0.02 : 0);
-      return {r:r, score:score, wantHits:wH, vibeHits:vH, dist:d};
-    }).filter(function(x){ return wizState.wants.length===0 || x.wantHits.length>0 });
-    scored.sort(function(a,b){ return b.score-a.score });
-    var top = scored.slice(0,5);
-
-    // Intro bulle bot
-    var intros = [
-      "Voilà mes "+top.length+" propositions 🔥",
-      "J'ai trouvé ça pour toi 👌",
-      "Top "+top.length+" sélectionné rien que pour toi ✨"
-    ];
-    wizAppend(wizBubble('bot','<p class="text-sm leading-relaxed">'+intros[Math.floor(Math.random()*intros.length)]+'<br><span class="text-[11px] text-outline">Tape sur une card pour tout voir.</span></p>'));
-
-    if(!top.length){
-      wizAppend(wizBubble('bot','<p class="text-sm">Hmm, rien qui colle parfaitement 😕. Essaie de relâcher la distance ou les envies.</p>'));
-      wizAction('Modifier mes choix', function(){ wizardBack() });
-      return;
+    var primary = buildCandidates([wizState.city]);
+    var expandedNoteCities = [];
+    // Si car_long ET peu de résultats dans la ville principale → élargir vraiment
+    if(wizState.distance==='car_long' && primary.length < 3 && expanded.length){
+      primary = buildCandidates(allowedCities);
+      expandedNoteCities = expanded.slice(0,4); // pour mentionner dans le chat
+      wizState.expandedCities = expandedNoteCities.map(function(x){return x.name});
     }
 
-    top.forEach(function(x, idx){
-      wizAppend(wizRenderResultCard(x, idx));
+    // 4) Scoring
+    var scored = primary.map(function(r){
+      var wH = wizState.wants.filter(function(w){ return matchW(r,w) });
+      var vH = wizState.vibes.filter(function(v){ return matchV(r,v) });
+      var d = (ref && r.coordinates) ? distanceKm(ref.lat, ref.lng, r.coordinates.lat, r.coordinates.lng) : null;
+      var score = wH.length*3 + vH.length*2 + (r.google_rating||0)/5 - (d ? d*0.03 : 0);
+      return {r:r, score:score, wantHits:wH, vibeHits:vH, dist:d};
+    }).filter(function(x){ return wizState.wants.length===0 || x.wantHits.length>0 });
+    scored.sort(function(a,b){
+      if(b.score !== a.score) return b.score - a.score;
+      return (a.dist==null?999:a.dist) - (b.dist==null?999:b.dist);
     });
+    var top = scored.slice(0,5);
 
-    wizAction('Voir tout sur la carte', function(){ closeWizard() });
-  }, 600);
+    // 5) Messages IA contextualisés
+    function showResults(){
+      if(!top.length){
+        var emptyMsg;
+        if(wizState.distance==='flemme') emptyMsg = "Rien de fou dans un rayon d'1,5 km 😕 On relâche la distance ?";
+        else if(wizState.distance==='walk') emptyMsg = "Rien à moins de 2,5 km qui matche tes envies 😕 On prend la voiture ?";
+        else emptyMsg = "Hmm, rien qui colle exactement 😕. Essaie de relâcher tes envies ou la distance.";
+        wizBotSay(emptyMsg, function(){
+          wizAction('Modifier mes choix', function(){ wizardBack() });
+        });
+        return;
+      }
+      var countTxt = top.length===1 ? "une pépite" : top.length+" pépites";
+      var intro = "J'ai "+countTxt+" pour toi 🔥";
+      if(expandedNoteCities.length){
+        var cityNote = expandedNoteCities.slice(0,2).map(function(x){ return x.name+' ('+Math.round(x.dist)+' km)' }).join(', ');
+        intro = "Pas grand-chose à "+wizState.city+" seul, j'ai aussi regardé autour : voici des pépites à "+cityNote+" 🎯";
+      }
+      wizBotSay(intro, function(){
+        top.forEach(function(x, idx){
+          var chat=document.getElementById('wizChat');
+          var node=document.createElement('div');
+          node.className='wiz-options-enter';
+          node.style.alignSelf='flex-start';
+          node.style.width='100%';
+          node.innerHTML = wizRenderResultCard(x, idx);
+          chat.appendChild(node);
+        });
+        setTimeout(wizScroll, 80);
+        wizAction('Voir tout sur la carte', function(){ closeWizard() });
+      });
+    }
+    showResults();
+  }, 500);
 }
+
 function wizRenderResultCard(x, idx){
   var r = x.r;
   var img = r.photo_url ? '<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>' : '<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[40px] text-outline/30">restaurant</span></div>';
   var matchBadges = '';
   x.wantHits.forEach(function(w){ matchBadges += '<span class="px-2 py-0.5 rounded-full bg-gold/25 border border-gold/40 text-[10px] font-bold text-gold">✓ '+esc(WIZ_WANT_LABELS[w]||w)+'</span>' });
   x.vibeHits.forEach(function(v){ matchBadges += '<span class="px-2 py-0.5 rounded-full bg-[#b0aaff]/20 border border-[#b0aaff]/30 text-[10px] font-bold text-[#b0aaff]">✓ '+esc(WIZ_VIBE_LABELS[v]||v)+'</span>' });
-  var distTxt = x.dist ? '<span class="px-2 py-0.5 rounded-full bg-bg/80 text-[10px] font-bold text-on-surface">🚗 '+x.dist.toFixed(1)+' km</span>' : '';
+  var distTxt = (x.dist!=null) ? '<span class="px-2 py-0.5 rounded-full bg-bg/80 text-[10px] font-bold text-on-surface">📍 '+x.dist.toFixed(1)+' km</span>' : '';
   var rank = idx===0 ? '🥇 Mon top' : idx===1 ? '🥈' : idx===2 ? '🥉' : '✨';
 
-  // Top dish + review snippet
   var dishSnip = '';
   if(r.signature_dishes && r.signature_dishes.length){
     var d0 = r.signature_dishes[0];
@@ -1004,7 +1341,7 @@ function wizRenderResultCard(x, idx){
     reviewSnip = '<div class="mt-3 pt-3 border-t border-outline-var/10"><p class="serif text-[12px] text-on-surface-var italic leading-snug">"'+esc(t)+'"</p></div>';
   }
 
-  return '<div class="self-start max-w-[95%] w-full bg-surface-low rounded-2xl overflow-hidden border border-outline-var/10 shadow-lg cursor-pointer active:scale-[.98] transition-transform" onclick="closeWizard();openResto(\''+ea(r.id)+'\')">'+
+  return '<div class="max-w-[95%] w-full bg-surface-low rounded-2xl overflow-hidden border border-outline-var/10 shadow-lg cursor-pointer active:scale-[.98] transition-transform" onclick="closeWizard();openResto(\''+ea(r.id)+'\')">'+
     '<div class="relative h-44 overflow-hidden">'+img+
       '<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>'+
       '<div class="absolute top-2 left-2 px-2.5 py-1 rounded-full bg-gold/95 text-gold-dark text-[11px] font-black">'+rank+'</div>'+
