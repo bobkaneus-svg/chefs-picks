@@ -917,15 +917,41 @@ function openResto(id){
       ((r.review_photos&&r.review_photos.length>0)?
         '<section class="mt-8"><div class="px-5 mb-3"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold">📸 Photos récentes</h3></div>'+
         '<div class="flex gap-2 overflow-x-auto noscroll px-5 pb-2">'+
-        r.review_photos.map(function(p){return '<div onclick="openPhoto(\''+esc(p)+'\')" class="flex-shrink-0 w-32 h-32 rounded-2xl overflow-hidden cursor-pointer active:scale-95 transition-transform"><img src="'+esc(p)+'" class="w-full h-full object-cover" loading="lazy"/></div>'}).join('')+
+        r.review_photos.map(function(p,i){return '<div onclick="openPhoto(\''+ea(r.id)+'\','+i+')" class="flex-shrink-0 w-32 h-32 rounded-2xl overflow-hidden cursor-pointer active:scale-95 transition-transform"><img src="'+esc(p)+'" class="w-full h-full object-cover" loading="lazy"/></div>'}).join('')+
         '</div></section>':'')+
       (r.top_recent_quotes&&r.top_recent_quotes.length>0?
-        '<section class="mt-10 bg-surface-low py-8">'+
-          '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">🔥 Avis Google <span class="text-[#ffa534] font-bold">récents</span></h3></div>'+
-          '<div class="flex gap-4 overflow-x-auto noscroll px-5 pb-2">'+
-          r.top_recent_quotes.map(function(q){return '<div class="min-w-[280px] bg-surface-high rounded-2xl p-4 border border-outline-var/5 flex-shrink-0"><div class="flex items-center gap-2 mb-2"><span class="text-gold font-bold">'+(q.stars||'')+'★</span><span class="text-[10px] text-outline">'+esc(q.date||'')+' · '+esc(q.author||'')+'</span></div><p class="text-sm text-on-surface-var leading-relaxed">"'+esc(q.text||'')+'"</p></div>'}).join('')+
-          '</div>'+
-        '</section>':'')+
+        (function(){
+          var quotes = r.top_recent_quotes;
+          var initial = 2;
+          var more = quotes.length - initial;
+          var html = '<section class="mt-10 bg-surface-low py-8" id="reviewsSec-'+esc(r.id)+'">'+
+            '<div class="px-5 mb-5 flex items-center justify-between gap-3">'+
+              '<h3 class="font-headline font-light text-xl uppercase tracking-tighter">🔥 Avis Google <span class="text-[#ffa534] font-bold">récents</span></h3>'+
+              '<span class="text-[10px] text-outline uppercase tracking-wider">'+quotes.length+' avis</span>'+
+            '</div>'+
+            '<div class="px-5 space-y-3" id="reviewsList-'+esc(r.id)+'">';
+          quotes.forEach(function(q, i){
+            var txt = q.text || '';
+            var isLong = txt.length > 280;
+            var shortTxt = isLong ? txt.slice(0, 260).replace(/\s+\S*$/, '') + '…' : txt;
+            var hidden = i >= initial ? ' hidden' : '';
+            html += '<div class="bg-surface-high rounded-2xl p-4 border border-outline-var/5 review-card'+hidden+'" data-rid="'+i+'">'+
+              '<div class="flex items-center gap-2 mb-2">'+
+                '<span class="text-gold font-bold text-sm">'+(q.stars||'')+'★</span>'+
+                '<span class="text-[10px] text-outline flex-1 truncate">'+esc(q.date||'')+' · '+esc(q.author||'')+'</span>'+
+              '</div>'+
+              '<p class="text-sm text-on-surface-var leading-relaxed serif review-text" data-full="'+esc(txt)+'" data-short="'+esc(shortTxt)+'">"'+esc(shortTxt)+'"</p>'+
+              (isLong ? '<button onclick="toggleReview(this)" class="text-[11px] text-gold font-bold uppercase tracking-wider mt-2 cursor-pointer">Lire la suite</button>' : '')+
+            '</div>';
+          });
+          html += '</div>';
+          if(more > 0){
+            html += '<div class="px-5 mt-4"><button onclick="expandReviews(\''+ea(r.id)+'\')" class="w-full py-3 rounded-xl bg-surface-high border border-outline-var/20 text-sm font-headline font-semibold text-gold active:scale-[.98] transition-transform" id="reviewsMoreBtn-'+esc(r.id)+'">Voir les '+more+' autres avis</button></div>';
+          }
+          html += '</section>';
+          return html;
+        })()
+      :'')+
       '<section class="px-5 mt-10 grid grid-cols-2 gap-3">'+
         '<a href="'+mu+'" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-gradient-to-tr from-gold to-gold-light text-gold-dark font-bold uppercase tracking-widest text-sm active:scale-95 transition-transform shadow-lg"><span class="icon text-xl">directions</span>Y ALLER</a>'+
         '<button onclick="share(\''+ea(r.id)+'\')" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-surface-high border border-outline-var/20 font-semibold uppercase tracking-widest text-sm active:scale-95 transition-transform"><span class="icon text-xl">share</span>PARTAGER</button>'+
@@ -1122,15 +1148,107 @@ function sourceMatch(r){
 }
 
 // Photo lightbox
-function openPhoto(url){
+function toggleReview(btn){
+  var card = btn.parentNode;
+  var p = card.querySelector('.review-text');
+  var expanded = btn.dataset.expanded === '1';
+  if(expanded){
+    p.textContent = '"' + p.dataset.short + '"';
+    btn.textContent = 'Lire la suite';
+    btn.dataset.expanded = '0';
+  } else {
+    p.textContent = '"' + p.dataset.full + '"';
+    btn.textContent = 'R\u00e9duire';
+    btn.dataset.expanded = '1';
+  }
+}
+function expandReviews(rid){
+  var list = document.getElementById('reviewsList-'+rid);
+  if(list) list.querySelectorAll('.review-card.hidden').forEach(function(el){ el.classList.remove('hidden') });
+  var btn = document.getElementById('reviewsMoreBtn-'+rid);
+  if(btn) btn.parentNode.style.display = 'none';
+}
+
+var _lbState = null;
+function openPhoto(restoId, startIndex){
+  // Compat: ancien appel openPhoto(url)
+  var photos, idx;
+  if(typeof restoId === 'string' && restoId.indexOf('http') === 0){
+    photos = [restoId]; idx = 0;
+  } else {
+    var r = R.find(function(x){return x.id===restoId});
+    if(!r || !r.review_photos || !r.review_photos.length) return;
+    photos = r.review_photos; idx = startIndex || 0;
+  }
   var existing = document.getElementById('photoLightbox');
   if(existing) existing.remove();
   var lb = document.createElement('div');
   lb.id = 'photoLightbox';
-  lb.style.cssText = 'position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.95);display:flex;align-items:center;justify-content:center;cursor:pointer';
-  lb.innerHTML = '<img src="'+url+'" style="max-width:95vw;max-height:95vh;object-fit:contain"/><button style="position:absolute;top:calc(20px + var(--st));right:20px;background:rgba(255,255,255,.2);border:none;border-radius:50%;width:40px;height:40px;color:white;font-size:24px;cursor:pointer">×</button>';
-  lb.onclick = function(){ lb.remove() };
+  lb.style.cssText = 'position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.95);display:flex;align-items:center;justify-content:center;touch-action:pan-y;user-select:none';
+  lb.innerHTML =
+    '<img id="lbImg" src="'+photos[idx]+'" style="max-width:95vw;max-height:95vh;object-fit:contain;transition:transform .15s ease-out"/>'+
+    '<div id="lbCount" style="position:absolute;bottom:calc(30px + var(--sb));left:50%;transform:translateX(-50%);background:rgba(0,0,0,.6);color:#fff;padding:6px 14px;border-radius:20px;font-size:13px;font-weight:600;font-family:Manrope">'+(idx+1)+' / '+photos.length+'</div>'+
+    (photos.length > 1 ?
+      '<button id="lbPrev" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);border:0;width:44px;height:44px;border-radius:50%;color:#fff;font-size:24px;cursor:pointer;display:flex;align-items:center;justify-content:center">‹</button>'+
+      '<button id="lbNext" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);border:0;width:44px;height:44px;border-radius:50%;color:#fff;font-size:24px;cursor:pointer;display:flex;align-items:center;justify-content:center">›</button>'
+      : '')+
+    '<button id="lbClose" style="position:absolute;top:calc(20px + var(--st));right:20px;background:rgba(255,255,255,.2);border:0;border-radius:50%;width:40px;height:40px;color:#fff;font-size:24px;cursor:pointer">×</button>';
   document.body.appendChild(lb);
+  _lbState = {photos: photos, idx: idx};
+
+  function updateImg(){
+    document.getElementById('lbImg').src = photos[_lbState.idx];
+    document.getElementById('lbCount').textContent = (_lbState.idx+1)+' / '+photos.length;
+  }
+  function prev(){ _lbState.idx = (_lbState.idx - 1 + photos.length) % photos.length; updateImg() }
+  function next(){ _lbState.idx = (_lbState.idx + 1) % photos.length; updateImg() }
+  function close(){ lb.remove(); _lbState = null; document.removeEventListener('keydown', keyHandler) }
+
+  var prevBtn = document.getElementById('lbPrev');
+  var nextBtn = document.getElementById('lbNext');
+  if(prevBtn) prevBtn.onclick = function(e){ e.stopPropagation(); prev() };
+  if(nextBtn) nextBtn.onclick = function(e){ e.stopPropagation(); next() };
+  document.getElementById('lbClose').onclick = function(e){ e.stopPropagation(); close() };
+
+  // Tap on empty area closes
+  lb.addEventListener('click', function(e){
+    if(e.target === lb) close();
+  });
+
+  // Swipe navigation
+  var sx = 0, sy = 0, dx = 0, dy = 0, tracking = false;
+  lb.addEventListener('touchstart', function(e){
+    if(e.touches.length !== 1) return;
+    sx = e.touches[0].clientX; sy = e.touches[0].clientY; dx = 0; dy = 0; tracking = true;
+  }, {passive: true});
+  lb.addEventListener('touchmove', function(e){
+    if(!tracking) return;
+    dx = e.touches[0].clientX - sx;
+    dy = e.touches[0].clientY - sy;
+    if(Math.abs(dx) > Math.abs(dy)){
+      var img = document.getElementById('lbImg');
+      if(img) img.style.transform = 'translateX('+(dx*0.3)+'px)';
+    }
+  }, {passive: true});
+  lb.addEventListener('touchend', function(){
+    if(!tracking) return;
+    tracking = false;
+    var img = document.getElementById('lbImg');
+    if(img) img.style.transform = '';
+    if(Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)){
+      if(dx < 0) next(); else prev();
+    } else if(Math.abs(dy) > 120 && Math.abs(dy) > Math.abs(dx)){
+      close();
+    }
+  });
+
+  // Keyboard nav
+  function keyHandler(e){
+    if(e.key === 'ArrowLeft') prev();
+    else if(e.key === 'ArrowRight') next();
+    else if(e.key === 'Escape') close();
+  }
+  document.addEventListener('keydown', keyHandler);
 }
 
 // Toggle Map/List view (Airbnb-style)
