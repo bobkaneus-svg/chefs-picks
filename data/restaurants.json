@@ -36852,5 +36852,1180 @@
         "author": "Bassem Debbabi"
       }
     ]
+  },
+  {
+    "id": "restaurant-son-bordeaux",
+    "name": "Restaurant Son'",
+    "address": "14 Rue Paul Louis Lande, 33000 Bordeaux, France",
+    "city": "Bordeaux",
+    "country": "France",
+    "coordinates": {
+      "lat": 44.8345709,
+      "lng": -0.5753652
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 1279,
+    "latest_review_date": "2026-04-08",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Son'&query_place_id=ChIJgcc_Us4nVQ0RlTnfZ8vS5Jk",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHBNFpEW5updURRAaNfx3iDRquri9VNT1dSK7DYwOzsm0lqJ4Im09blqolQbNgd98nUESNXr7nfGWF6FI8SDal94BK5JeNx_XwHsC0BIaO8pYf3nWSxLEraStKAMn9NXknRfcY=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-18",
+        "stars": 5,
+        "text": "Deze Gault&Millau chef neemt je mee op een hoogstaande culinaire ontdekkingsreis.\nEens je over de drempel van dit prachtige etablissement stapt, begint het avontuur.\nSluit je ogen en geef je over aan de wondere wereld van smaken en aroma's - en zelfs",
+        "author": "Hermione LAmiral"
+      },
+      {
+        "date": "2026-03-15",
+        "stars": 5,
+        "text": "Excellente expérience au sein de ce restaurant où nous ne mangeons pas seulement bien mais aussi où l’on passe un moment de réelle découverte avec pleins de surprises à chaque plat dégusté. Nous reviendrons sans hésiter !",
+        "author": "Bertille Sgr"
+      },
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Cuisine et contexte surprenant ! Un plus pour le très grand professionnalisme de l'équipe de serveuses. Un petit conseil. Prendre le 5 service et partager l'assiette de fromage. Le dessert vous replonge en enfance !",
+        "author": "Maxime Irigoyen"
+      }
+    ]
+  },
+  {
+    "id": "z-phirine-bordeaux",
+    "name": "Zéphirine",
+    "address": "62 Rue Abbé de l'Épée, 33000 Bordeaux, France",
+    "city": "Bordeaux",
+    "country": "France",
+    "coordinates": {
+      "lat": 44.8419924,
+      "lng": -0.5825626
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 644,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Z%C3%A9phirine&query_place_id=ChIJM8aX7GcnVQ0R5YQrF_bi1eQ",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzlEFLeedWkYM6qsFxR0ASKBE-Yc3JkXD0f0ysz6ER24lE3rEDuwsnkDzxlllX4PQE1TLpLwj92wu-5yV1Ebeyf8UVRR_TQv2lbFbiZ8s5UdT5iu3XetvBnvRrp3_0O6RqrVPX=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-10",
+        "stars": 5,
+        "text": "Quelle délicieuse expérience !!!\nNous sommes venus à 3 pour dîner.\nAccueil des plus chaleureux et expérience culinaire au delà de nos espérances.\nRomain et son équipe ont à cœur de vous faire passer un moment merveilleux.\nNous avons goûté à tout et a",
+        "author": "ALIENOR PARQUET"
+      },
+      {
+        "date": "2026-03-01",
+        "stars": 5,
+        "text": "Le dîner et le service étaient parfaits !\nLes entrées à partager permettent à chacun et chacune de découvrir toutes les saveurs. Nous avons pris le veau à partager en plat : il était délicieux !\nMention spéciale au dessert, le Zéphirin, qui, au-delà ",
+        "author": "Juan Manuel Anghileri"
+      },
+      {
+        "date": "2026-03-27",
+        "stars": 5,
+        "text": "Nous avons vécu chez Zephirine une expérience culinaire exceptionnelle, comme jamais auparavant. En disant un délice absolu, je n'exagère en rien. J'ai mis 5 étoiles parce qu'il n'y en a pas plus, mais la cuisine, la gentillesse, l'accueil valent 10.",
+        "author": "Marie"
+      }
+    ]
+  },
+  {
+    "id": "arcada-bordeaux",
+    "name": "Arcada",
+    "address": "13 Rue de la Rousselle, 33000 Bordeaux, France",
+    "city": "Bordeaux",
+    "country": "France",
+    "coordinates": {
+      "lat": 44.8375214,
+      "lng": -0.5691006
+    },
+    "cuisine_type": "Fine dining restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 1152,
+    "latest_review_date": "2026-04-07",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Arcada&query_place_id=ChIJc-kygzEnVQ0Rg5t8tCx_l3c",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaQq7QN1E5j5MGvsG2TBLPqCZ_zvgkVZfF4Nxr8Z2elZkPDcR3E-T7AHWxi2w0yG56FIYBSUnPv_0i-LWRUWY-rVNSNpJYdH3ATccqRCRs6WvWW2pj6kZO_uVxLxZZNPxdhotlsg=w408-h544-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-01",
+        "stars": 5,
+        "text": "Très belle soirée pour nous avec une belle équipe qui nous accompagne parfaitement tout au long du repas. Cuisine créative et délicieuse qui mériterait bien un bib gourmand au Michelin. Beaux produits, belles saveurs et un prix en adéquation... Bravo",
+        "author": "Fred Gimeno"
+      },
+      {
+        "date": "2026-04-07",
+        "stars": 5,
+        "text": "Sehr hochgelobtes Restaurant, das auch von uns als solches gewürdigt wurde. Sehr junges, aber kompetentes Team, schönes Ambiente und wirklich tolles Essen.\nWer mag, kann anschließend noch ein Glas Wein im dazugehörenden Keller trinken. Wir hatten dor",
+        "author": "Birgit Barklage"
+      },
+      {
+        "date": "2026-03-26",
+        "stars": 5,
+        "text": "Un moment excellent,\nUne magnifique découverte !\nL’accueil est ultra sympathique.\nL’ambiance vraiment chaleureuse dans un cadre très soigné.\nC'est un plaisir de voir autant de qualité dans les assiettes. On s'y sent bien, un grand merci à toute l'équ",
+        "author": "Sue L."
+      }
+    ]
+  },
+  {
+    "id": "somm-s-kitchen-bordeaux",
+    "name": "Somm's Kitchen",
+    "address": "849 13th St, Paso Robles, CA 93446",
+    "city": "Bordeaux",
+    "country": "France",
+    "coordinates": {
+      "lat": 35.6279874,
+      "lng": -120.6891027
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 152,
+    "latest_review_date": "2026-04-03",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Somm's%20Kitchen&query_place_id=ChIJiRfn92fF7IARkHh7q9erH5M",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVfNm70yuXPURfXIrDtdZbT83n9obey_r8Cjt_2_m0gb_T7qcWD2aA92zWKW4llukzEO8W3Pc2PfXQGj3BAbWI7RZ7Z3Kwkok6ShzzFGynAiM4XSAGKTxOnfABxbznJPOZur4yOA=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-09-19",
+        "stars": 5,
+        "text": "A thousand \"thank you\"s to Somm's Kitchen would never be enough. In 2022 I reached out because I was surprising my Mom with a trip to Paso Robles. Although I planned over a month in advance, of course, Somm's Kitchen was already booked up. I reached ",
+        "author": "Lindsey Wallace"
+      },
+      {
+        "date": "2025-05-23",
+        "stars": 5,
+        "text": "Dining at Somm’s Kitchen is so much more than just a meal, it’s a unique, interactive experience that lingers in your memory long after the last course. From start to finish, everything about the evening was exceptional.\n\nIan, the mastermind behind t",
+        "author": "R Falfal"
+      },
+      {
+        "date": "2025-11-23",
+        "stars": 5,
+        "text": "I have to say this experience was beyond incredible. The wine, the food, the clear personal connection the guy had to what he is serving is worth reserving and going. It’s clear he puts so much time into choosing the wines and preparing the food. It’",
+        "author": "Justin Levy"
+      }
+    ]
+  },
+  {
+    "id": "alivetu-table-m-diterran-enne-marseille",
+    "name": "Alivetu - Table Méditerranéenne",
+    "address": "145 Rue Sainte, 13007 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29073,
+      "lng": 5.3670703
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 869,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Alivetu%20-%20Table%20M%C3%A9diterran%C3%A9enne&query_place_id=ChIJ05cLo5zByRIR3TG6pmUXGJg",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFge5etbmLSU6vmr9VoinlfhFxXquMsy2onwiiY44rEjYUjzK3iFIInUI88zATa0HJTtZJtT74sncce7xIgLbRI0tUKHo3R6mZbC1WO9kUX0C-WruomrcqMNDBkZ20RRj9uTSrTvA=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "From the moment we arrived at Alivetu Restaurant, the experience was exceptional. Marie welcomed us warmly, and it was clear the team had already taken note of our dietary requirements, a thoughtful touch that set the tone for the evening.\n\nThe 7-cou",
+        "author": "Mina Sagoo-Reddy"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Le cadre est impeccable et la déco, bois et noir, est soignée mais le lieu manque un peu d’âme et de personnalité.\nLes plats sont bien exécutés, originaux et savoureux même si un peu plus de générosité dans les accompagnements serait appréciable. Une",
+        "author": "Poisson"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Tout était parfait : des plats pleins de finesse et de saveurs.\nOn sent la passion derrière chaque détail.\nPremière expérience d’un menu à l'aveugle : génial !\nMerci beaucoup pour ce moment, nous reviendrons avec grand plaisir !",
+        "author": "Mélanie et Laurent Pichavant"
+      }
+    ]
+  },
+  {
+    "id": "o-bidul-marseille",
+    "name": "O'Bidul",
+    "address": "79 Rue de la Palud, 13006 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2919566,
+      "lng": 5.3807047
+    },
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 838,
+    "latest_review_date": "2026-03-29",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=O'Bidul&query_place_id=ChIJyUuaVrrAyRIRUOOP1mTDjRg",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHohWUP_ZK5lwLh6df3ltmRx78Wl4ul6LR2aoaNXmk5p3R3kSENQqP3gxcPi1d82Q77SJRiq7dgbLDHrovEpOaY5Ip__Mhr9ro79NGdjajeZydvdJ6KCG-IAsHLmttSyOWX5oehZQ=w408-h272-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-21",
+        "stars": 5,
+        "text": "On a mangé plusieurs fois chez O’Bidule, et c’est à chaque fois un vrai bonheur ! La cuisine est délicieuse, pleine de saveurs, et on sent que tout est fait maison avec passion. Il est adorable, aux petits soins, et gère tout seul (cuisine, service, ",
+        "author": "Floriane Dahman"
+      },
+      {
+        "date": "2026-02-12",
+        "stars": 5,
+        "text": "Super découverte ! Dans une ville où l’on peut parfois se tromper, cette adresse est une vraie pépite. Je me suis régalée du début à la fin et le chef m’a fait sortir des sentiers battus avec des plats pleins de personnalité. Toujours souriant, aux f",
+        "author": "Béatrice Lalaux"
+      },
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "Ce chef passionné de cuisine vous fait partager son plaisir de vous faire découvrir de très beaux mélanges de saveurs.  Il est seul en cuisine et au service alors réservé pour être sûr d'y manger. Très belle découverte.  Très bonne adresse.",
+        "author": "Anne BERTHE"
+      }
+    ]
+  },
+  {
+    "id": "belle-de-mars-marseille",
+    "name": "Belle de Mars",
+    "address": "56 Rue de Forbin, 13002 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3049083,
+      "lng": 5.3676343
+    },
+    "cuisine_type": "Fine dining restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 278,
+    "latest_review_date": "2026-04-04",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Belle%20de%20Mars&query_place_id=ChIJV0Prw_nByRIR3Uw-2vnGRjk",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGS3ADvVf5Sp7dJDWie02d84waLqmp5LAcZWCcH_Yl8Pj05gGdgyQsUlSuWmkeDoV4DtIS6b0rPR62wSUg0aB2MOl5xHMoX7-HP_tUz0x2mXZZ5I80E_URmpimGq8npJz2K59tQ=w408-h544-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-26",
+        "stars": 5,
+        "text": "Nous avons eu la chance de déjeuner ici ce midi. Sûrement suite à une annulation, car nous avons réservé la veille et nous avions vu que les autres jours étaient complets. Tout était délicieux, avec des saveurs originales que l’on n’a pas souvent l’o",
+        "author": "Fernandes Joana"
+      },
+      {
+        "date": "2026-03-12",
+        "stars": 5,
+        "text": "Excellent\nexplosion de couleurs et de saveur dans l assiette\nLa cuisine ouverte permet de voir le chef   Préparer les assiettes minute\nSalle  un peu triste   Pas de charme\nMais on oublie vite  l environnement en vu  de l assiette",
+        "author": "Tine"
+      },
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Une expérience singulière. Des mets et saveurs exquis, délicieusement travaillés par un chef et sa brigade.\nUne serveuse aux petits soins, encore merci pour la bougie!\nKeep up the good work!\nÀ très vite dans le 8ème.",
+        "author": "Mathieu Bruckert"
+      }
+    ]
+  },
+  {
+    "id": "french-kitchen-le-petit-prince-marseille",
+    "name": "French Kitchen - Le Petit Prince",
+    "address": "80 N Pecos Rd F, Henderson, NV 89074",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 36.0331693,
+      "lng": -115.0998388
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 218,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=French%20Kitchen%20-%20Le%20Petit%20Prince&query_place_id=ChIJXfByTpDPyIARoUmX4X0QjyA",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjaH_Lo8-iKlWCMgZ5r02TEs1AzhUuu7DTbUK5QB4M_B7YMNQpnhJ-vIfzNSZbTSY2-9Q-EDQEEpmYJFPXRS4uS9xDSmAC4rfr7DqrT2J3DvNELnCjUwgt2D-VNJsezuNSzcw0GQ=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-08",
+        "stars": 5,
+        "text": "What an amazing breakfast place and everything was so tasty! Plus it wasn't heavy.\n\nMy boyfriend found this place and surprised me, as I am a \"coffee for breakfast\" person but this will absolutely be on my short list for breakfast.\n\nI ordered the pet",
+        "author": "Kat Jaquez"
+      },
+      {
+        "date": "2026-03-25",
+        "stars": 5,
+        "text": "Henderson could use more family-owned, original restaurants like Le Petit Prince. The owners have created a warm, inviting space with food that feels like being welcomed into a French home for a meal.\n\nWe ordered the Beef Bourguignon (beautifully ser",
+        "author": "Michael Siva"
+      },
+      {
+        "date": "2026-03-01",
+        "stars": 5,
+        "text": "Love this place can't wait to go back. Great service, fantastic food. A hidden gem for sure.\n\nThe house made jams are out of this world, paired wonderfully with the nice and light croissant perfection. The avocado toast was awesome lots of avocado bu",
+        "author": "Alex Schubert"
+      }
+    ]
+  },
+  {
+    "id": "suffren-marseille",
+    "name": "Suffren",
+    "address": "44 Rue Saint-Suffren, 13006 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2873697,
+      "lng": 5.3813671
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 139,
+    "latest_review_date": "2026-04-06",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Suffren&query_place_id=ChIJkSy3c8zByRIR-M7R3XZtZow",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuraa7D06lAYR0UbUfYY4uAcputXU47WPtNW14F1L9FJysAdehWQ4s75r2T9epUck4qVoKKdYMcFcKVSccluity89y2hW3z5EFSJKBDEX0YOQN4GPB22WJiTGdDJ-uV3IE31eb3aROvZ4=w408-h725-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-02",
+        "stars": 5,
+        "text": "Quelle excellente adresse !! Des saveurs en pagaille (de saison of course), un bon choix de vins, une déco élégante comme on aime (sans chichi, un peu de couleur et de béton brut, un bel éclairage...) et un staff qui sait accueillir, avec le sourire ",
+        "author": "Françoise cottin"
+      },
+      {
+        "date": "2026-03-06",
+        "stars": 5,
+        "text": "Comment dire, c'est comme un délice mais encore meilleur.\nPlats variés et notamment viandes de grande qualité.\n\nEt le service a pris la relève haut la main, aux petits soins, super ambiance, supers conseils pour le vin.\n\nAllez-y tout de suite, n'atte",
+        "author": "Olivier Casassus"
+      },
+      {
+        "date": "2026-03-31",
+        "stars": 5,
+        "text": "Franchement Bravo !\nUne salle et une cuisine nickel !\nUn plat du jour très bon (purée boudin noir), à un prix plus que correct 20€ !\nLes prix sont doux et le service très gentil.\nNe changez rien ! Merci",
+        "author": "Xavier Domenach"
+      }
+    ]
+  },
+  {
+    "id": "chez-nous-marseille",
+    "name": "Chez Nous",
+    "address": "22 Pl. Notre Dame du Mont, 13006 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.291782,
+      "lng": 5.3841738
+    },
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 821,
+    "latest_review_date": "2026-04-13",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chez%20Nous&query_place_id=ChIJF9KJJaXAyRIRuMRRPYsl4uI",
+    "photo_url": "http://download.viamichelin.com/media/image2/max/tj/Rt/Yn/vDSnWtZ2T7jds40Q.jpg?ns_mchannel=partner&ns_source=gmap&ns_campaign=gmap_mr",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "Wow!\nThe only thing I’m upset about is that I may never eat here again.\nThe woman in the front was so kind and worked with us in a mix of French, Spanish and English (we speak basically no French). Their menu was SO fantastic!\nSo glad that we tried t",
+        "author": "Ms Love (Gem)"
+      },
+      {
+        "date": "2026-03-05",
+        "stars": 5,
+        "text": "Friendly service, this is an old Marseille restaurant. The food is delicious and has a deep flavor that reflects the passage of time. I was impressed by the owner's friendly service. The restaurant quickly filled up with regular customers. I will lea",
+        "author": "Jenki"
+      },
+      {
+        "date": "2026-02-21",
+        "stars": 5,
+        "text": "Une très bonne expérience. De passage à Marseille et souhaitant goûter la cuisine provençale, je me fie aux avis et je ne suis pas déçu. La cuisine est excellente et copieuse et l'accueil formidable, la patronne est aux petits oignons. Je recommande ",
+        "author": "Sylvain Bancal"
+      }
+    ]
+  },
+  {
+    "id": "la-pagaille-restaurant-lounge-cocktail-marseille",
+    "name": "La Pagaille Restaurant, Lounge & Cocktail",
+    "address": "37 Rue Caisserie, 13002 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2970037,
+      "lng": 5.3660642
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 747,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Pagaille%20Restaurant%2C%20Lounge%20%26%20Cocktail&query_place_id=ChIJcWPxLabByRIRUE2oQv6VBqs",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHR_Eyq46X5rDKyU-DYusfCMTEdrYZiubqWaRcJ6EKvA643Rcca-WRDcs7mG8Sf10F3N-QqOVJyDi5JDSMcYCqX-ZyxtnqdZEbVf8XURimKnLu-R2KWuy_zVQuva6azmM5C53oE8A=w408-h541-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-07",
+        "stars": 5,
+        "text": "Service parfait dans cet établissement à la décoration et aux plats raffinés.\nConcept intéressant pour découvrir différentes saveurs, nous avons apprécié tout ce que nous avons commandé et mention particulière pour les desserts divins ou encore le co",
+        "author": "Mathieu MAXIMIN"
+      },
+      {
+        "date": "2026-03-22",
+        "stars": 5,
+        "text": "Très belle adresse\nTout est maison. Le concept est de prendre plusieurs plats en mode tapas\nPeu de choix car maison, c'est ce qu'on recherche. De jolies découvertes.\nJe recommande le cordon bleu raclette, le tataki\nÀ découvrir",
+        "author": "Cynthia CRESPIN"
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "Trop trop bon on s'est régaler , prix abordable pour des produits de qualités, les gambas incroyable juste parfaitement griller c'étais fantastique. Je recommande",
+        "author": "Frédéric CHEN"
+      }
+    ]
+  },
+  {
+    "id": "le-bistro-du-panier-marseille",
+    "name": "Le Bistro Du Panier",
+    "address": "58 Rue Caisserie, 13002 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2969832,
+      "lng": 5.3665808
+    },
+    "cuisine_type": "Hamburger restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 739,
+    "latest_review_date": "2026-04-11",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Bistro%20Du%20Panier&query_place_id=ChIJ18WXk8zByRIRD6WoReliwKw",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNb-pUJ4Ewc7Dw_4iopmM3pQMttozi13QYtoC5gfJg3atSDULV3GfLgsn-UnY8X7pOF-c9vKYFlwPXgN6_hcz481AyIGmhVBWOLdPTVoHQwkXCSziuxJEcAdKvA8rz0uw0Q1NB=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Dit restaurant ligt een beetje verscholen in wegje achter de oude haven. Het is zeker de moeite om tot daar te gaan. We werden gisteren warm ontvangen. De bediening was snel en vriendelijk. De mozza burger en burger met kip waren zeer lekker. We hebb",
+        "author": "Toon Machiels"
+      },
+      {
+        "date": "2026-03-08",
+        "stars": 5,
+        "text": "Excellents burgers. Les frites aussi d'ailleurs. On y vient quand on est à Marseille et on n'est jamais déçus.\nSi on devait trouver un petit défaut, je trouve les frites un peu trop salées même si elles sont très bonnes.",
+        "author": "Sébastien CLARIANA (Seb.C)"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Ho pranzato in questo locale durante un weekend a Marsiglia. Hamburger con combinazioni tipiche (io ho preso quello con il roquefort) veramente ottimi, posizione comodissima e personale molto gentile. Consigliatissimo",
+        "author": "Eleonora Pagani"
+      }
+    ]
+  },
+  {
+    "id": "ekume-marseille",
+    "name": "Ekume",
+    "address": "139 Rue Sainte, 13007 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2908016,
+      "lng": 5.3674697
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 641,
+    "latest_review_date": "2026-04-10",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ekume&query_place_id=ChIJGfJvirvByRIRvGp9zju1Njk",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMUFcOSRhi9dpTgSNkSaW9Ku0cVYaKQEFQFstsSYz9A70khdSldRyOvGvooA8gXwjIqlI2JUyiUbTNToIy30ftONmuBaCFQQIsMoNjmToVl75H1rOySRm1ZLlNnDR5qC8-Lls8ow=w408-h259-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "From the moment you step through the door into the warm and inviting décor, you know you’re in for a special treat.\nI adore the front‑of‑house staff. The sommelier truly shines. The servers worked hard to provide attentive, personalized service to ea",
+        "author": "Eric Bellamy"
+      },
+      {
+        "date": "2026-03-26",
+        "stars": 5,
+        "text": "Le voyage a son prix et celui‑ci mérite le détour, une équipe engagée à chaque geste, un service qui vous accueille avec douceur, presque en murmure.\nLe blanc avait le charme des embruns de #SaintMalo #GLAZ après un verre la quille était de mise mais",
+        "author": "kristo LANDER"
+      },
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Exceptional cuisine, service and hospitality!   Each dish brought well balanced and exciting flavors, with beautiful presentation.   The wine list was well curated, and I enjoyed the pairings.    I look forward to returning as soon as possible!",
+        "author": "Andy S"
+      }
+    ]
+  },
+  {
+    "id": "caf-bovo-marseille",
+    "name": "Café Bovo",
+    "address": "9 Rue Beauvau, 13001 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.29428,
+      "lng": 5.3756673
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 584,
+    "latest_review_date": "2026-04-10",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Bovo&query_place_id=ChIJ34-32bjAyRIRSlMpCoEXNoI",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWLPVSlGWfbUAdL9y_PbpKLMguyvdNNWODR0O96FJnFQPQIn_R3BZ-YNpskrEm05s5yzKBtzHa-ahah60vAnvPNUT4bDuM4PG1CmliwbK9BFLep271hNg0ky8j98_zdCDMVBvf=w408-h544-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-01-22",
+        "stars": 5,
+        "text": "FR: Si vous cherchez une adresse authentique à Marseille, loin des attrapes-touristes, foncez au Café Bovo. C’est une expérience chaleureuse du début à la fin, on s’y sent tout de suite bien, comme à la maison.\n\nCe qui fait la différence ici, c'est l",
+        "author": "Thomas Ruitort"
+      },
+      {
+        "date": "2026-01-27",
+        "stars": 5,
+        "text": "Aaaaaah !!!\nMais que ça fait du bien de rencontrer des gens À TOUS LES NIVEAUX DE LA HIÉRARCHIE, qui aiment leur travail et qui ne se forcent pas !!!\n\nAccueil chaleureux, sincère et spontané.\nService de qualité et rapide en gardant l'humour .\nCUISINE",
+        "author": "Sylvie Ruitort"
+      },
+      {
+        "date": "2026-02-15",
+        "stars": 5,
+        "text": "Certainement la meilleure adresse que je retiendrai de mon séjour à Marseille. L’accueil a été parfait et le service tout autant, la cuisine excellente. Merci à toute l’équipe pour ce très beau moment !\nJe vous conseille de prendre un peu de tout et ",
+        "author": "teo mouton"
+      }
+    ]
+  },
+  {
+    "id": "black-duck-spirits-hearth-marseille",
+    "name": "Black Duck Spirits & Hearth",
+    "address": "2900 Johnson St NE, Minneapolis, MN 55418",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.0206405,
+      "lng": -93.2374658
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 288,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Black%20Duck%20Spirits%20%26%20Hearth&query_place_id=ChIJT-YEB90ts1IRY3_Av0nuA2I",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1MuQd7uAFc6MMU7XwdGt35ttG8TxzHoUpBoptb9CSXOAoxeWqW7vL_yVdBEKcG8xgG9gKQ5CH7J_lgj8IwL_7J9HKUuERX_fhWC7pmCK8v9bsjjVg7HaWbAQdk0v8wzUbPttyug=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-24",
+        "stars": 5,
+        "text": "The restaurant is amazing and very well taken care of. Love the food variety and everything we ate at the restaurant was top notch. We also were big fans of the carefully crafted cocktails at Black Duck Spirits & Hearth. After eating, we even went an",
+        "author": "Cody M"
+      },
+      {
+        "date": "2026-04-02",
+        "stars": 5,
+        "text": "Absolutely delicious duck burger! Made my afternoon into a more comforting one. The execution on detail with the harvati cheese and pickles and onions makes this burger a “moment of bliss” thanks for the great sandwich. If your close stop by and try!",
+        "author": "Andrew Parker"
+      },
+      {
+        "date": "2026-03-25",
+        "stars": 5,
+        "text": "Great neighborhood spot with a full bar and delicious/versatile menu! Classy joint where you can go full fine dining or stick with casual burger vibes. Loving the BBQ on Monday nights and Friday fish fry. Highly recommend!",
+        "author": "Marlo Henry"
+      }
+    ]
+  },
+  {
+    "id": "massilia-dtla-marseille",
+    "name": "Massilia - DTLA",
+    "address": "54 S Grand Ave, Los Angeles, CA 90012",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 34.0554066,
+      "lng": -118.2487258
+    },
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 90,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Massilia%20-%20DTLA&query_place_id=ChIJv2UCzD3HwoAR2jZtJlj4UEI",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmR3lBomYyNkBsnCo7VwXMTsvqFzzCPlLBpCx9ZYuUn-A-ROuUcjemJLmu6158Kg2l-jzRsLXac8jpobTeAJ8v_thFgcs7zWGpq1npoNXQFa2rYEQayQdjUbkaAaPibLIi5UYwNE5v1g3I=w408-h272-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Grand Ave needed this! Just had lunch after a matinee at CTG. Delicious and easy - good food and a great drink menu. Will definitely be back.",
+        "author": "Taylor Heisley-Cook"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Delicious food.  Great view of the Music Center and Disney Concert Hall.  Very good service",
+        "author": "Paul Picard"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Delicious spins on classics, great service and chill ambiance",
+        "author": "juan vazquez"
+      }
+    ]
+  },
+  {
+    "id": "maison-charlie-marseille",
+    "name": "Maison Charlie",
+    "address": "38 Rue Caisserie, 13002 Marseille, France",
+    "city": "Marseille",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.296977,
+      "lng": 5.367349
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 1049,
+    "latest_review_date": "2026-04-08",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Maison%20Charlie&query_place_id=ChIJi_GO28PAyRIR8lA2xszYZW0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGF_5fO2IK8jlgpYKVf5M25Oi-w9b8v5kVYtRuYcR08WleGCbWQmh8hFuQg-SawLjHEB84ujV4-2aKozVeKYFAyHEZDUeLTw1haJNUyvFsDTIVrwC1YEegjopNc8ds9Rs-HxBNtWQ=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-02",
+        "stars": 5,
+        "text": "Adresse super sympa à Marseille ! La cuisine est fraîche, savoureuse et fait maison, que ce soit pour les salades, sandwichs ou pâtisseries. L’ambiance est cosy et accueillante, parfaite pour une pause déjeuner ou un goûter. Le personnel est agréable",
+        "author": "Manon Tarento"
+      },
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Hot spot for a local vibe experience!! Great staff and delicious fare, we chose the pick 3,,,focaccia+drink+dessert for 9.50!!!! Food was delicious and perfect temperature!! We had Maison Charlie at the foot of our rental and the location cannot be b",
+        "author": "Chris Fung"
+      },
+      {
+        "date": "2026-03-03",
+        "stars": 5,
+        "text": "Agréablement surpris. Je m’attendais à des prix élevé. À ma grande surprise pas du tout. Pas très cher, 9.90 pour une focaccia un dessert au choix et une citronnade. Je recommande.\nCependant j’ai trouvé un petit peu mal reçu de la part de la personne",
+        "author": "Marvin"
+      }
+    ]
+  },
+  {
+    "id": "restaurant-circle-lyon",
+    "name": "Restaurant Circle",
+    "address": "11 Rue Chavanne, 69001 Lyon, France",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.764925,
+      "lng": 4.8325185
+    },
+    "cuisine_type": "Haute French restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 100,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 5,
+    "reviews_count_google": 417,
+    "latest_review_date": "2026-04-10",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Circle&query_place_id=ChIJc13tB_Lr9EcR76IsZYw9Wss",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFU1yr4s7HNiKqCckiv6SYK05Ggd7pyN-sRT20va4DThHEsCfj3DUhrLgzhl3Re6brAlRDvQPkU64bgvYziztDqhyJpK4JrmTtLDLudxuy2Vm8egkHUW1NsLxXZdiFl4nWBXFsQ=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-10",
+        "stars": 5,
+        "text": "Deuxième passage chez Circle… et toujours aussi conquise.\n\nNous y étions allés juste avant l’obtention de son étoile, et très honnêtement, c’était déjà une évidence : cette table la méritait largement.\n\nLa cuisine est d’une grande finesse, avec des a",
+        "author": "Shlo_foodie"
+      },
+      {
+        "date": "2026-03-21",
+        "stars": 5,
+        "text": "Superbe expérience, nous avions pris le menu complet avec l'accord mets et vins, toutes les associations et choix sont parfaitement judicieux; une cuisine raffinée, un service aux petits soins et discret, des explications passionnantes sur chaque ins",
+        "author": "Juliette Bn"
+      },
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "Nous sommes venus pour célébrer mon anniversaire et je n’aurais pas pu rêver mieux. Tout était excellent, deux des plats font partie des meilleures choses que j’ai mangées dans ma vie. L’expérience gastronomique exceptionnelle a été couronnée par la ",
+        "author": "Pau. M."
+      }
+    ]
+  },
+  {
+    "id": "ruah-caf-conroe-lyon",
+    "name": "Ruah Café - Conroe",
+    "address": "1219 Grand Central Parkway Suite 100, Conroe, TX 77304",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 30.2663046,
+      "lng": -95.4588196
+    },
+    "cuisine_type": "Cafe",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 517,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ruah%20Caf%C3%A9%20-%20Conroe&query_place_id=ChIJGTjoC9Q5R4YRuVKNvESd7XI",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxxNz6Yb7Q_p5YCpsR017H5teV1Km9cn9o4rhTTk6dniERjZvTOLJX6Mas3ygEOh-k-Da_rPhF1Y7bWs-e9ZEfvNdU2LXOI_InVWLUGFW-NQjFNfNVInNloHpdJrkFcIYvXRil_fkFmIRg=w408-h271-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "I was invited here by somebody I know. I met the owner, Daniel. This guy is doing this for all the right reasons. I love his story. He's giving back to the community and helping others. He's also a believer. Come support him.\n\nI tried the Rome Toast.",
+        "author": "John E"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Wonderful little restaurant with a unique, diverse, and eclectic menu. We tried three different bruschettas for brunch. To be honest, I felt like ordering more food simply out of greed and curiosity. But I behaved myself. However, we’re going to be b",
+        "author": "Shar Self"
+      },
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "We came in with massive group and without a reservation and not only was the owner + staff super accommodating  and friendly but the service + food was impeccable. I loved every bite. And I’m from Vancouver. My only wish is if they were also in Austi",
+        "author": "Seena Vajed"
+      }
+    ]
+  },
+  {
+    "id": "ruah-caf-lyon",
+    "name": "Ruah Café",
+    "address": "30420 FM2978 Suite 430, The Woodlands, TX 77354",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 30.1937798,
+      "lng": -95.5885204
+    },
+    "cuisine_type": "Cafe",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 454,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Ruah%20Caf%C3%A9&query_place_id=ChIJVZUfOJUvR4YRu1ICaf4HCk8",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEmK7Mj9DORacDf2sRZ8fEYNHK8wwiMqcK1uKqRHhOGydQ2A9FOXC5UeqElGvc6GdBff9gSyh1OnbgQSndCCuhEURRdUeHEaY6B-qc1xlgClAmeRDtWczXGGrTXbRZSAnhhRrVXYpE0XvSC=w408-h272-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "This café was amazing! The food was delicious with authentic flavors, and they offer a great variety of toasts to choose from. The staff is very kind, the atmosphere is warm and cozy, and everything is very clean. I highly recommend this place and wi",
+        "author": "Adri.g.p"
+      },
+      {
+        "date": "2026-03-26",
+        "stars": 5,
+        "text": "Lily was very sweet and helpful in deciding what to try. We split a trio of bruschetta, which turned out to be the perfect amount of food with our chai and hot chocolate. The jalapeno cream cheese is pretty spicy, but we still enjoyed everything.",
+        "author": "JMHC LLC"
+      },
+      {
+        "date": "2026-03-28",
+        "stars": 5,
+        "text": "I love the place, the food and the service. The owner even came to see us and offered us to taste one of the delicacies. This is real food! Thank you",
+        "author": "Wassi Moumouni"
+      }
+    ]
+  },
+  {
+    "id": "shorts-top-burgers-lyon",
+    "name": "Shorts Top Burgers",
+    "address": "120 SH 30, Huntsville, TX 77320",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 30.7239527,
+      "lng": -95.5397795
+    },
+    "cuisine_type": "Hamburger restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 339,
+    "latest_review_date": "2026-04-10",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Shorts%20Top%20Burgers&query_place_id=ChIJoaz018cJR4YReR3Mx0mxXz0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEyKu1q1kOkYejkxxtnjLVgeysAzuVFpePguTDrCRAlAoAqCJtdG3bPLUEY3aJJ8gVGYiwBgY4DOAH6cT-rHc0PBYt_fOUUGDvlzuHU7DWMR5Ldir17ncCfZ3fAfm1qnsSgGI-q_g=w408-h307-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-01-03",
+        "stars": 5,
+        "text": "Some of the best burgers I’ve had.\nI had the bacon cheese senior burger and I was struggling to finish it. It was huge! Definitely the “best bang for your buck” type of burger. The bun brought the whole burger together but I think the burger patty al",
+        "author": "Iris"
+      },
+      {
+        "date": "2026-03-05",
+        "stars": 5,
+        "text": "I’ve been all over the country, this is a top burger, not just in Texas, but nationally. Wow! What a surprise. I’m visiting from Austin and we have a ton of great burger options. This might be better than any of them.",
+        "author": "neal boren"
+      },
+      {
+        "date": "2026-03-03",
+        "stars": 5,
+        "text": "Amazing burgers from a gas station grill. The burgers are big and the fries are crisp. Not really much space to eat there so to go is best.",
+        "author": "David Vann"
+      }
+    ]
+  },
+  {
+    "id": "restaurant-le-mus-e-lyon",
+    "name": "Restaurant Le Musée",
+    "address": "2 Rue des Forces, 69002 Lyon, France",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.7645565,
+      "lng": 4.8346783
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 1335,
+    "latest_review_date": "2026-04-13",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Le%20Mus%C3%A9e&query_place_id=ChIJucCFuZLr9EcRH4uFT-uHNKI",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEX5UF5xfJZqSomn92lvLGXUdviC6D0VgW-8QmRsj_uIRHNGbweC6nF4YbOoPFKSDLUmfFE0i7qTMI6T07bvJFnyLIYuLMDcOOD5n3tIAQqr2qq5wexeHMPFc99gRahuY_YjQFaYA=w408-h544-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Comme d'habitude pour nos anniversaires nous allons manger au Musée. Le changement de propriétaire n'a rien changé au lieu. Le personnel est accueillant, les plats succulents et l'ambiance excellente. On a partagé un pot de vin avec nos voisins de la",
+        "author": "JoN"
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "Je suis revenue avec des amis. Toute l'équipe souriante et de bonne humeur. Très bon rapport qualité/prix. Service impeccable. Je reviendrai volontiers.",
+        "author": "Edith Sontheimer"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Nous étions très bien sur notre petite terrasse, sauf.... les clients qui sortent de la salle  pour fumer dehors juste à côté de nous....",
+        "author": "Ghislaine Montloin"
+      }
+    ]
+  },
+  {
+    "id": "regain-restaurant-lyon-lyon",
+    "name": "Regain restaurant LYON",
+    "address": "3 Rue d'Algérie, 69001 Lyon, France",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.7671011,
+      "lng": 4.8302041
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 1124,
+    "latest_review_date": "2026-04-11",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Regain%20restaurant%20LYON&query_place_id=ChIJszFIqU3r9EcREnbKOObG2Bo",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErHJ_V0uAvamGtGPGukRjA2AVTkk4Vld81qZYqloDkJCZKHM5RoJfp-LNenazaZrKdUv2ONicYQVQwVgftrU3bdO0_Q9iFRKUZfymJuHbqG04-wlJNOuslId6RWoe4z_qY1W1J=w408-h544-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-02",
+        "stars": 5,
+        "text": "Le cadre est sobre mais raffiné. Le déjeuner était excellent des entrées au dessert, avec un menu resserré (et au prix très raisonnable) qui allie originalité, qualité et fraîcheur des produits, recherche et travail dans l’assiette. Un régal. Le choi",
+        "author": "Julien Berenger"
+      },
+      {
+        "date": "2026-04-06",
+        "stars": 5,
+        "text": "Unbelievably great food. Had heard about this place the first time we came to Lyon. This is our 3rd visit to the city and finally got in. Service was great. Comfortable. No rush. Just a little cramped with the other tables would be my only reason not",
+        "author": "David Shafran"
+      },
+      {
+        "date": "2026-04-01",
+        "stars": 5,
+        "text": "Tout simplement divin ! Cuisine créative et parfaitement exécutée, un super service et un restaurant dans lequel on se sent bien. Hâte d’y retourner :)",
+        "author": "Caroline Bernard"
+      }
+    ]
+  },
+  {
+    "id": "monsieur-p-lyon",
+    "name": "Monsieur P",
+    "address": "8 Pl. des Célestins, 69002 Lyon, France",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.7595294,
+      "lng": 4.8316954
+    },
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 1122,
+    "latest_review_date": "2026-04-09",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Monsieur%20P&query_place_id=ChIJq6oadPvq9EcRU4EEtEsBI3k",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEifccg2FailPK_81jHCOXM5pjfme531orCWeOudrk6AsvuIkCXCQIMIEkhPBWJXSAid8xM5QDwjoSTIj2Cyv1_G04WT2l_9TIga1jCqPGWL-l39Nnl_z4-8F2wQdP0E0s2d978=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-20",
+        "stars": 5,
+        "text": "Excellente expérience chez Monsieur P.\n\nCuisine gastronomique maîtrisée de bout en bout : ravioles au foie gras délicieuses, rôtisseries parfaites, et un “talent terre ou mer” aussi prometteur que réussi. Le tout dans un cadre chic et soigné jusque d",
+        "author": "Géraldine Garbit"
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "We have visited 3 times during the past 3 months, twice for lunch and another time for dinner. Each time we dined the food was delicious and creatively prepared and presented and their wine list is impressive. The service was excellent, both friendly",
+        "author": "Dennis Goettl"
+      },
+      {
+        "date": "2026-03-24",
+        "stars": 5,
+        "text": "Repas improvisé chez Monsieur P… Quelle claque !\nQue ce soit dans l’assiette, le service ou le style du restaurant, tout est un 20/20 sans aucune hésitation.\nLa qualité des produits est remarquable et l’assemblage des saveurs est parfaitement maîtris",
+        "author": "singre louis"
+      }
+    ]
+  },
+  {
+    "id": "le-neuvi-me-art-lyon",
+    "name": "Le Neuvième Art",
+    "address": "173 Rue Cuvier, 69006 Lyon, France",
+    "city": "Lyon",
+    "country": "France",
+    "coordinates": {
+      "lat": 45.7679844,
+      "lng": 4.8563522
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-14",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 844,
+    "latest_review_date": "2026-04-11",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Neuvi%C3%A8me%20Art&query_place_id=ChIJzZhX5juz9UcR74W_XDtOxIo",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHynFKxcR1vHHB1r8tNJJe5R6oS6kNIieuRXTEh-XGaOyBJTPbe5jTOUujfET8tfjD-oKFe5XlIwZDZVsJt3fAqWuuHpx2QyG2R_fgYNdv-Ee2e9F2FrVsvmmCKJJ4nkOpqoC_m=w408-h272-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Une expérience inoubliable où chaque détail est pensé pour l'émerveillement. La cuisine du chef est une démonstration de maîtrise technique et de créativité, sublimant des produits d'une qualité exceptionnelle.\nL'assiette : Des saveurs percutantes, d",
+        "author": "Celine Visco"
+      },
+      {
+        "date": "2026-02-09",
+        "stars": 5,
+        "text": "Très belle expérience au Neuvième Art avec un service pro mais pas guindé qui met rapidement à l'aise. Impossible de classer les plats par ordre de préférence tant tout était différent. Si vous ne conduisez pas, je recommande l'accord mets et vins qu",
+        "author": "Laetitia B"
+      },
+      {
+        "date": "2026-02-21",
+        "stars": 5,
+        "text": "Salle contemporaine et service précis, parfaitement en ligne avec les standards d’une table doublement étoilée.\nAccueil attentif, rythme maîtrisé, discours juste.\nLa cuisine s’exprime avec une grande technicité, au service de saveurs nettes et lisibl",
+        "author": "Pierre Artige"
+      }
+    ]
   }
 ]

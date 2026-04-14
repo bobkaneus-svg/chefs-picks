@@ -64,22 +64,22 @@ def get_existing_place_ids():
     return ids
 
 # ─────────────────────────────────────────
-# PASS 1: Places (économique)
+# PASS 1: Places — MULTIPLEX (1 run pour N villes)
 # ─────────────────────────────────────────
-def scrape_places(city, max_places=100):
-    print(f"  [Pass 1] Scraping places for '{city}'...")
+def scrape_places_batch(cities, max_places_per_city=50):
+    """Scrape plusieurs villes en 1 seul run pour économiser les frais fixes (~$0.20/run)."""
+    print(f"  [Pass 1 BATCH] Scraping {len(cities)} villes en 1 run...")
     run = client.actor("compass/crawler-google-places").call(
         run_input={
-            "searchStringsArray": [f"restaurants {city}"],
-            "locationQuery": city,
-            "maxCrawledPlacesPerSearch": max_places,
+            "searchStringsArray": [f"restaurants {c}" for c in cities],
+            "maxCrawledPlacesPerSearch": max_places_per_city,
             "language": "en",
             "includeWebResults": False,
         },
-        timeout_secs=300,
+        timeout_secs=600,
     )
     cost = run.get("usageTotalUsd", 0) or 0
-    places = []
+    by_city = {c: [] for c in cities}
     seen = set()
     for item in client.dataset(run["defaultDatasetId"]).iterate_items():
         pid = item.get("placeId", "")
@@ -87,10 +87,24 @@ def scrape_places(city, max_places=100):
         seen.add(pid)
         if item.get("permanentlyClosed") or item.get("temporarilyClosed"): continue
         cat = (item.get("categoryName") or "").lower()
-        # Garder uniquement les vrais restos/cafes (pas hotels, bars, etc.)
         if not any(k in cat for k in ["restaurant","bistro","brasserie","trattoria","pizz","sushi","tapas","cafe","bakery","gastro"]):
             continue
-        places.append({
+        # Find which city this belongs to (from search query)
+        search_term = (item.get("searchString") or item.get("searchQuery") or "").lower()
+        city_match = None
+        for c in cities:
+            if c.lower() in search_term:
+                city_match = c
+                break
+        if not city_match:
+            # Fallback: use address
+            addr = (item.get("address") or "").lower()
+            for c in cities:
+                if c.lower() in addr:
+                    city_match = c
+                    break
+        if not city_match: city_match = cities[0]
+        by_city[city_match].append({
             "name": item.get("title", ""),
             "address": item.get("address", ""),
             "rating": item.get("totalScore", 0) or 0,
@@ -103,8 +117,15 @@ def scrape_places(city, max_places=100):
             "price_level": item.get("price", ""),
             "photo_url": item.get("imageUrl", ""),
         })
-    print(f"    → {len(places)} places, coût: ${cost:.3f}")
-    return places, cost
+    total_places = sum(len(v) for v in by_city.values())
+    print(f"    → {total_places} places (réparties sur {len([c for c in by_city if by_city[c]])} villes), coût: ${cost:.3f}")
+    print(f"    → Coût/ville: ${cost/len(cities):.3f}")
+    return by_city, cost
+
+# Backward compat
+def scrape_places(city, max_places=100):
+    by_city, cost = scrape_places_batch([city], max_places_per_city=max_places)
+    return by_city.get(city, []), cost
 
 # ─────────────────────────────────────────
 # PASS 2: Pre-filter local (gratuit)
@@ -319,9 +340,61 @@ if __name__ == "__main__":
     all_validated = []
     total_cost = {"places": 0, "reviews": 0}
 
-    for city in cities:
-        validated, _ = process_city(city, cache, total_cost)
-        all_validated.extend(validated)
+    # ── BATCH MODE: 1 places run pour toutes les villes ──
+    print(f"\n🚀 BATCH MODE: {len(cities)} ville(s) en 1 run places")
+    by_city, cost1 = scrape_places_batch(cities, max_places_per_city=50)
+    total_cost["places"] += cost1
+
+    # Pre-filter et collect placeIds pour 1 run reviews global
+    existing_ids = get_existing_place_ids() | set(cache.get("places", {}).keys())
+    all_candidates = []
+    candidates_by_city = {}
+    for city, places in by_city.items():
+        c = prefilter(places, existing_ids, max_candidates=15)
+        candidates_by_city[city] = c
+        all_candidates.extend([(city, p) for p in c])
+        print(f"    {city}: {len(c)} candidats")
+
+    if not all_candidates:
+        print("\n  ⚠️  Aucun candidat éligible.")
+        sys.exit(0)
+
+    # ── 1 SEUL run reviews pour tous les candidats ──
+    print(f"\n🚀 BATCH MODE: {len(all_candidates)} restos × 15 reviews en 1 run")
+    all_pids = [c[1]["placeId"] for c in all_candidates]
+    reviews, cost2 = scrape_reviews(all_pids)
+    total_cost["reviews"] += cost2
+
+    # Group reviews
+    by_pid = defaultdict(list)
+    for rev in reviews:
+        by_pid[rev.get("placeId", "")].append(rev)
+    for pid in by_pid:
+        by_pid[pid].sort(key=lambda r: r.get("publishedAtDate","") or "", reverse=True)
+
+    # Apply rule v3 per city
+    for city, candidate in all_candidates:
+        recs = by_pid.get(candidate["placeId"], [])
+        ok, info = apply_rule_v3(candidate, recs)
+        if not ok: continue
+        season = info if isinstance(info, dict) else {}
+        texts = [r.get("text") or "" for r in recs[:15]]
+        top_quotes = sorted([r for r in recs[:15] if (r.get("stars") or 0) == 5 and r.get("text")],
+                           key=lambda r: len(r.get("text","")), reverse=True)[:3]
+        candidate["_validation"] = info if isinstance(info, str) else f"{sum(1 for s in [(r.get('stars') or 0) for r in recs[:15]] if s==5)}/15 en 5★"
+        candidate["_season"] = season
+        candidate["_authenticity"] = {
+            "with_text": sum(1 for t in texts if len(t) > 30),
+            "with_photos": sum(1 for r in recs[:15] if r.get("reviewImageUrls")),
+        }
+        candidate["_top_quotes"] = [{"date": q.get("publishedAtDate","")[:10], "stars": q.get("stars"),
+                                     "text": (q.get("text") or "")[:250], "author": q.get("name","")} for q in top_quotes]
+        candidate["_city"] = city
+        all_validated.append(candidate)
+
+    # Update cache
+    for city, candidate in all_candidates:
+        cache.setdefault("places", {})[candidate["placeId"]] = {"scraped_at": datetime.now().isoformat(), "city": city}
 
     save_cache(cache)
     added = merge_into_data(all_validated)
