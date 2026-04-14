@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
-<title>Chefs' Picks — Les restos recommandés par les chefs</title>
-<meta name="description" content="Les adresses secrètes des grands chefs + les restos trending validés par les vrais avis. 1000+ restos en France, Espagne et Italie."/>
+<title>Only The Best — Restaurants & hôtels recommandés</title>
+<meta name="description" content="Les meilleures adresses, validées par les chefs et par les vrais avis Google. Restaurants + hôtels en France, Espagne et Italie."/>
 <meta name="theme-color" content="#131313"/>
 <!-- Open Graph / social share preview -->
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Chefs' Picks — Les restos recommandés par les chefs"/>
-<meta property="og:description" content="1000+ restos recommandés par des chefs étoilés + les meilleurs trending. Trouve ton prochain coup de cœur."/>
+<meta property="og:title" content="Only The Best — Restaurants & hôtels recommandés"/>
+<meta property="og:description" content="Les meilleures adresses validées par les chefs et par les vrais avis. Restos et hôtels triés sur le volet."/>
 <meta property="og:image" content="https://bobkaneus-svg.github.io/chefs-picks/og-image.png"/>
 <meta property="og:url" content="https://bobkaneus-svg.github.io/chefs-picks/"/>
-<meta property="og:site_name" content="Chefs' Picks"/>
+<meta property="og:site_name" content="Only The Best"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Chefs' Picks"/>
+<meta name="twitter:title" content="Only The Best"/>
 <meta name="twitter:description" content="1000+ restos recommandés par des chefs étoilés."/>
 <meta name="twitter:image" content="https://bobkaneus-svg.github.io/chefs-picks/og-image.png"/>
 <!-- PWA -->
@@ -22,7 +22,7 @@
 <link rel="apple-touch-icon" href="icon-192.png"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-<meta name="apple-mobile-web-app-title" content="Chefs' Picks"/>
+<meta name="apple-mobile-web-app-title" content="Only The Best"/>
 <link rel="icon" type="image/png" href="icon-192.png"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"/>
@@ -200,7 +200,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 <!-- ═══════ LOADING STATE ═══════ -->
 <div id="loadingOverlay" class="loading-overlay">
   <div class="spinner"></div>
-  <span class="text-gold font-headline text-sm tracking-[.3em] uppercase">Chefs' Picks</span>
+  <span class="text-gold font-headline text-sm tracking-[.3em] uppercase">Only The Best</span>
   <span class="text-outline text-xs">Chargement des recommandations...</span>
 </div>
 
@@ -369,7 +369,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 <aside id="drawer" class="fixed inset-y-0 left-0 z-[100] w-72 rounded-r-3xl bg-surface-low shadow-2xl transform -translate-x-full transition-transform duration-300 flex flex-col" style="padding:calc(24px + var(--st)) 24px calc(24px + var(--sb))">
   <div class="flex items-center gap-3 pb-6 mb-4 border-b border-outline-var/10">
     <span class="w-10 h-10 rounded-full bg-surface-highest flex items-center justify-center"><span class="icon text-gold">restaurant</span></span>
-    <div><b class="text-gold font-headline text-sm">Chefs' Picks</b><p class="text-[9px] text-outline uppercase tracking-widest" id="oDrawerStats"></p></div>
+    <div><b class="text-gold font-headline text-sm">Only The Best</b><p class="text-[9px] text-outline uppercase tracking-widest" id="oDrawerStats"></p></div>
   </div>
   <nav class="space-y-1">
     <a onclick="go('explore');toggleDrawer()" class="flex items-center gap-3 p-3 text-on-surface hover:bg-surface-highest/50 rounded-xl cursor-pointer text-sm font-headline font-light"><span class="icon text-gold text-xl">map</span>Explorer</a>
@@ -523,7 +523,7 @@ function maybeShowInstallBanner(){
   if(!isMobile) return;
   var isIOS = /iPhone|iPad/i.test(navigator.userAgent);
   var html = '<div style="position:fixed;bottom:calc(80px + var(--sb));left:12px;right:12px;background:linear-gradient(135deg,#e8a838 0%,#ffc66b 100%);color:#131313;padding:12px 14px;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.4);z-index:9999;display:flex;align-items:center;gap:10px;font-family:Manrope">'+
-    '<div style="flex:1"><div style="font-weight:800;font-size:13px">Installer Chefs\' Picks</div>'+
+    '<div style="flex:1"><div style="font-weight:800;font-size:13px">Installer Only The Best</div>'+
     '<div style="font-size:11px;opacity:.8;margin-top:2px">'+(isIOS?'Appuie sur Partager puis \u201cSur l\'\u00e9cran d\'accueil\u201d':'Appuie sur \u201cInstaller l\'app\u201d dans ton navigateur')+'</div></div>'+
     '<button id="dismissInstall" style="background:rgba(19,19,19,.15);border:0;padding:6px 10px;border-radius:8px;font-weight:700;font-size:12px;cursor:pointer">OK</button></div>';
   var div = document.createElement('div');
@@ -1026,9 +1026,9 @@ function goBack(){
 
 function shareApp(){
   var url = location.origin + location.pathname;
-  var t = "Chefs' Picks \u2014 l'app qui te donne les adresses secr\u00e8tes des grands chefs + les restos trending valid\u00e9s par de vrais avis Google.\n\n1000+ restos en France, Espagne et Italie.\n\n"+url;
+  var t = "Only The Best \u2014 l'app qui te donne les adresses secr\u00e8tes des grands chefs + les restos trending valid\u00e9s par de vrais avis Google.\n\n1000+ restos en France, Espagne et Italie.\n\n"+url;
   if(navigator.share){
-    navigator.share({title:"Chefs' Picks", text:t, url:url}).catch(function(){});
+    navigator.share({title:"Only The Best", text:t, url:url}).catch(function(){});
   } else if(navigator.clipboard){
     navigator.clipboard.writeText(t).then(function(){alert('Lien copi\u00e9 ! Partage-le \u00e0 tes amis \ud83c\udf74')});
   }
@@ -1040,7 +1040,7 @@ function share(id){
   var base = location.origin + location.pathname;
   var deepLink = base + '#r=' + encodeURIComponent(r.id);
   var chefs = (r.recommendations||[]).map(function(c){return c.chef_name}).slice(0,2).join(', ');
-  var line = r.recommendation_count>0 ? ('Recommandé par '+chefs+(r.recommendation_count>2?' +'+(r.recommendation_count-2)+' autres':'')) : 'Restaurant trending sur Chefs\' Picks';
+  var line = r.recommendation_count>0 ? ('Recommandé par '+chefs+(r.recommendation_count>2?' +'+(r.recommendation_count-2)+' autres':'')) : 'Adresse trending sur Only The Best';
   var t = r.name+' — '+r.city+'\n'+
           (r.cuisine_type||'Restaurant')+' · '+(r.price_range||'')+'\n'+
           line+'\n\n'+

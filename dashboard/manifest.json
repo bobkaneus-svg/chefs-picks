@@ -1,7 +1,7 @@
 {
-  "name": "Chefs' Picks",
-  "short_name": "Chefs' Picks",
-  "description": "Les restos recommandés par les chefs + les trending validés par de vrais avis.",
+  "name": "Only The Best",
+  "short_name": "Only The Best",
+  "description": "Les meilleurs restos & hôtels, validés par les chefs et par les vrais avis.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
