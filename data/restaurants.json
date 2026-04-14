@@ -5643,7 +5643,10 @@
     "recommendation_count": 3,
     "confidence_score": 40,
     "last_updated": "2026-04-13",
-    "source_type": "both"
+    "source_type": "both",
+    "editorial_pitch": "Une pépite comme on les aime.",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "la-cafetiere-felee-antibes",
@@ -5777,7 +5780,13 @@
     ],
     "vibes": [
       "🐟 Des produits ultra-frais, choisis avec soin"
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (857 avis enthousiastes).",
+    "editorial_score": 17.0,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "la-fontaine-saint-paul-de-vence",
@@ -13524,7 +13533,16 @@
         "kind": "experience",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "solo"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. On y va même seul·e. Régulièrement plein (904 avis enthousiastes).",
+    "editorial_score": 19.03,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "amarea-bordighera",
@@ -33309,7 +33327,10 @@
         "phrase": "Prosciutto and burrata crepe with a creative salad on the side",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : prosciutto and burrata crepe with a creative salad on the side.",
+    "editorial_score": 14.675,
+    "in_selection": false
   },
   {
     "id": "picnic-antibes-antibes",
@@ -33390,7 +33411,10 @@
       "order": [
         "J’ai pris une salade sans gluten, elle était incroyable, et la"
       ]
-    }
+    },
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Un des mieux notés de la ville.",
+    "editorial_score": 13.548,
+    "in_selection": false
   },
   {
     "id": "oli-bar-cadaqu-s",
@@ -33456,7 +33480,18 @@
     ],
     "vibes": [
       "🌊 Une vue qui coupe le souffle"
-    ]
+    ],
+    "occasion_tags": [
+      "date",
+      "solo",
+      "view"
+    ],
+    "editorial_pitch": "On adore cet endroit. Parfait pour un dîner romantique. Une adresse consensuelle (4.9★).",
+    "editorial_score": 17.105,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "la-petite-escale-antibes",
@@ -33530,7 +33565,13 @@
           "text": "Viens en petit comité, le lieu est intime"
         }
       ]
-    }
+    },
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Un des mieux notés de la ville.",
+    "editorial_score": 16.929,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-norai-cadaqu-s",
@@ -33606,7 +33647,10 @@
           "text": "Réserve plusieurs jours à l'avance, c'est souvent complet"
         }
       ]
-    }
+    },
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (271 avis enthousiastes).",
+    "editorial_score": 15.816,
+    "in_selection": false
   },
   {
     "id": "le-migrainier-antibes",
@@ -33690,7 +33734,10 @@
         "mentions": 1
       }
     ],
-    "signature_phrase": "L’ambiance est géniale avec une excellente musique qui ajoute vraiment à l’expérience, mais la vraie star ici, c’est la cuisine"
+    "signature_phrase": "L’ambiance est géniale avec une excellente musique qui ajoute vraiment à l’expérience, mais la vraie star ici, c’est la cuisine",
+    "editorial_pitch": "L'adresse qu'on garde pour soi. L’ambiance est géniale avec une excellente musique qui ajoute vraiment à l’expérience, mais la vraie star ici.",
+    "editorial_score": 15.575,
+    "in_selection": false
   },
   {
     "id": "celeste-cadaqu-s",
@@ -33796,7 +33843,18 @@
         "phrase": "The food is very afforadable and delicious: I ordered the octopus pasta for 14 euros and it was a…",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "date",
+      "tete_a_tete",
+      "business"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : the food is very afforadable and delicious: I ordered the octopus…. Parfait pour un dîner romantique.",
+    "editorial_score": 20.655,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-la-cafeti-re-f-l-e-antibes",
@@ -33858,7 +33916,17 @@
     "vibes": [
       "🎨 Une cuisine créative qui surprend",
       "✨ Un moment d'exception à vivre absolument"
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete",
+      "family"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Antibes. Idéal pour un tête-à-tête. Très forte notoriété locale (4.8★, 1104 avis).",
+    "editorial_score": 18.161,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "cadaq-s-cadaqu-s",
@@ -33931,7 +33999,13 @@
         "phrase": "Gorgonzola or chicken",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : gorgonzola or chicken.",
+    "editorial_score": 18.721,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "la-taille-de-gu-pe-antibes",
@@ -34000,7 +34074,13 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lERJxxaDny3ofNSS8mY7BHvzIsZOW82Ru3xkcw98dk5MBvioCUmQ-6YilzXbA2OZseUmpNUpr7JDTqLaWepNclZOHNqCB1csQZqW6D1EAyNlUR45tEGI8TOlRKDOzKhJjxIDuDYdVMjl6oez",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lETROlU5CiRO9Ly7nvGkzeUP02umyHWAIYn7ihcvOguzdTcZ5RTlCNSC3P9xMDNG1xePowVPKS8Eu104FtlXCOQPIjVEgL1vcX6ADXMDZaMVSXC6mkWGYsay9753nkzz3NjkJ44gR45e_FY"
     ],
-    "vibes": []
+    "vibes": [],
+    "editorial_pitch": "On adore cet endroit. Une adresse consensuelle (4.8★).",
+    "editorial_score": 18.412,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-el-viatge-cadaqu-s",
@@ -34067,7 +34147,13 @@
     ],
     "vibes": [
       "🎉 Une ambiance qui rend la soirée magique"
-    ]
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Un des mieux notés de la ville.",
+    "editorial_score": 18.317,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-le-vauban-antibes",
@@ -34150,7 +34236,13 @@
         "kind": "experience",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Antibes. Très forte notoriété locale (4.8★, 788 avis).",
+    "editorial_score": 17.907,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-le-j-antibes",
@@ -34223,7 +34315,17 @@
           "text": "Viens en petit comité, le lieu est intime"
         }
       ]
-    }
+    },
+    "occasion_tags": [
+      "date",
+      "family"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Parfait pour un dîner romantique. Un des mieux notés de la ville.",
+    "editorial_score": 16.555,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "bistrot-du-coin-antibes",
@@ -34287,7 +34389,14 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
-    ]
+    ],
+    "occasion_tags": [
+      "family",
+      "business"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Très bien en famille. Un des mieux notés de la ville.",
+    "editorial_score": 14.644,
+    "in_selection": false
   },
   {
     "id": "casa-gi-antibes",
@@ -34356,7 +34465,14 @@
     "vibes": [
       "🐟 Produits ultra-frais du jour",
       "💎 Le rapport qualité-prix qui fait la diff"
-    ]
+    ],
+    "occasion_tags": [
+      "family",
+      "celebration"
+    ],
+    "editorial_pitch": "Un incontournable local. Très bien en famille. Les avis récents sont unanimes.",
+    "editorial_score": 13.065,
+    "in_selection": false
   },
   {
     "id": "il-tinello-antibes",
@@ -34426,7 +34542,13 @@
         "phrase": "Les pâtes au homard",
         "mentions": 2
       }
-    ]
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : les pâtes au homard.",
+    "editorial_score": 16.756,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-es-grec-cadaqu-s",
@@ -34497,7 +34619,13 @@
         "phrase": "Escogimos un arroz con un carpaccio de gamba por encima que eso señores no lo he visto en ningún otro sitio",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : escogimos un arroz con un carpaccio de gamba por encima que eso….",
+    "editorial_score": 16.827,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "el-gato-azul-cadaqu-s",
@@ -34573,7 +34701,18 @@
         "phrase": "On s’est régalé avec une joue de bœuf exceptionnelle",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete",
+      "family",
+      "quick_bite"
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : on s’est régalé avec une joue de bœuf exceptionnelle. Idéal pour un tête-à-tête.",
+    "editorial_score": 17.141,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "romagna-mia-antibes",
@@ -34651,7 +34790,17 @@
         "phrase": "UNE PANNA COTTA SEXY = UN COMMENTAIRE SEXY",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "family",
+      "solo"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : UNE PANNA COTTA SEXY = UN COMMENTAIRE SEXY. Très bien en famille.",
+    "editorial_score": 17.109,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "la-trattoria-antibes",
@@ -34747,7 +34896,13 @@
         "phrase": "Their Mozzarella di Bufala and the Camembert di Buffalo au Miel is served on Focaccia is its heavenly",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : ich kann die Pasta di Mare absolut empfehlen.",
+    "editorial_score": 17.594,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "ti-toques-antibes",
@@ -34822,7 +34977,13 @@
         "mentions": 1
       }
     ],
-    "signature_phrase": "Dans un cadre calme et chaleureux, loin de l'agitation du bord de mer, on se sent immédiatement à l'aise"
+    "signature_phrase": "Dans un cadre calme et chaleureux, loin de l'agitation du bord de mer, on se sent immédiatement à l'aise",
+    "editorial_pitch": "On adore cet endroit. Dans un cadre calme et chaleureux, loin de l'agitation du bord de mer, on se sent immédiatement à l'aise. On ne repart pas sans la soupe de poisson inoubliable en entrée.",
+    "editorial_score": 17.15,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "el-rebost-de-cadaqu-s-cadaqu-s",
@@ -34896,7 +35057,16 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "business"
+    ],
+    "editorial_pitch": "On adore cet endroit. Bonne adresse pour un déjeuner d'affaires. Une adresse consensuelle (4.7★).",
+    "editorial_score": 16.248,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "remei-restaurant-cadaqu-s-cadaqu-s",
@@ -34967,7 +35137,17 @@
           "text": "Viens en petit comité, le lieu est intime"
         }
       ]
-    }
+    },
+    "occasion_tags": [
+      "tete_a_tete",
+      "business"
+    ],
+    "editorial_pitch": "Un incontournable local. Idéal pour un tête-à-tête. Les avis récents sont unanimes.",
+    "editorial_score": 16.519,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "la-pescheria-antibes",
@@ -35038,7 +35218,10 @@
     ],
     "vibes": [
       "🐟 Produits ultra-frais du jour"
-    ]
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Antibes. Très forte notoriété locale (4.7★, 259 avis).",
+    "editorial_score": 14.609,
+    "in_selection": false
   },
   {
     "id": "restaurant-vincle-cadaqu-s-cadaqu-s",
@@ -35127,7 +35310,13 @@
         "mentions": 1
       }
     ],
-    "signature_phrase": "La cuisine est excellente, mention spéciale pour les croquettes de crevettes et le gâteau au chocolat praliné"
+    "signature_phrase": "La cuisine est excellente, mention spéciale pour les croquettes de crevettes et le gâteau au chocolat praliné",
+    "editorial_pitch": "L'adresse qu'on garde pour soi. La cuisine est excellente, mention spéciale pour les croquettes de crevettes et le gâteau au chocolat praliné. Le plat signature : ne manquez pas les morilles à la crème et à la \"poudre de foie gras\".",
+    "editorial_score": 15.689,
+    "in_selection": false,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "el-sue-o-cadaqu-s-cadaqu-s",
@@ -35206,7 +35395,10 @@
         "phrase": "Tomamos tanto tapas como plato principal como cócteles y todo fue muy bien",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : tomamos tanto tapas como plato principal como cócteles y todo fue….",
+    "editorial_score": 13.71,
+    "in_selection": false
   },
   {
     "id": "pasta-e-basta-antibes-antibes",
@@ -35294,7 +35486,10 @@
         "phrase": "Auch das Tiramisu war unglaublich lecker",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Antibes. À commander sans hésiter : die handgemachte Pasta ist einfach hervorragend und man schmeckt….",
+    "editorial_score": 14.273,
+    "in_selection": false
   },
   {
     "id": "compartir-cadaqu-s",
@@ -35358,7 +35553,13 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lESFWTuj_dJGCzSRY8cKBZzoWMY7sv7M2i8NKaQm1P6uuJKlmT3ffapUtPtXUJ6rw0TJTMFD7Fs0M5xtwQp0l-rB6I6lR9WdyLGHoRpICyZXn15KJjalqPefV-Tqt238PhbhllQ5GMLM_JG0",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lESEb9uTK_vPFIya4CTxUvhfRdCmuBAbWmzcQwcUODL3X6DHOV4sbJosQ34Zkvy74GuCbw7zbTFJyRc-wmAdbsCYrZdAmi_Lbyrhg5RcusgIn2nir3KhBLb9Atuqaetn5Ar23JkIT64I6-uB"
     ],
-    "vibes": []
+    "vibes": [],
+    "editorial_pitch": "Notre coup de cœur dans Cadaqués. Très forte notoriété locale (4.6★, 2848 avis).",
+    "editorial_score": 20.467,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "talla-restaurant-cadaqu-s",
@@ -35418,7 +35619,13 @@
     ],
     "vibes": [
       "✨ Un moment d'exception à vivre absolument"
-    ]
+    ],
+    "editorial_pitch": "On adore cet endroit. Une adresse consensuelle (4.6★).",
+    "editorial_score": 18.817,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "cap-riviera-antibes",
@@ -35498,7 +35705,13 @@
         "mentions": 1
       }
     ],
-    "signature_phrase": "Un endroit où je suis certain de retourner"
+    "signature_phrase": "Un endroit où je suis certain de retourner",
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Un endroit où je suis certain de retourner. Le plat signature : la soupe de poisson un pur délice.",
+    "editorial_score": 18.986,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "lua-cadaqu-s-cadaqu-s",
@@ -35573,7 +35786,16 @@
         "phrase": "Followed by the mango and coconut dessert and the chestnut tiramisù",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : we had the avocado and tomato salad. Très bien en famille.",
+    "editorial_score": 18.657,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "le-bistrot-antibes",
@@ -35649,7 +35871,17 @@
         "phrase": "La souris d'agneau était délicieuse",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "family",
+      "business"
+    ],
+    "editorial_pitch": "On adore cet endroit. On ne repart pas sans la souris d'agneau était délicieuse. Très bien en famille.",
+    "editorial_score": 15.705,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "angelo-s-by-le-milano-antibes-antibes",
@@ -35765,7 +35997,13 @@
         "phrase": "Mezze maniche alla 'nduja",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Ne ratez pas we had a salmon tartare to start and I had bronzino for my main course.",
+    "editorial_score": 16.881,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "sal-sucr-antibes",
@@ -35855,7 +36093,16 @@
         "phrase": "Je suis allée en avril de l'an dernier et nous avions beaucoup aimé le steak et les gnocci à la truffe",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Ne ratez pas je suis allée en avril de l'an dernier et nous avions beaucoup…. Idéal pour un tête-à-tête.",
+    "editorial_score": 16.78,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-nord-est-cadaqu-s",
@@ -35916,7 +36163,13 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lESXOIuPWzyIwpixjDKegHE2PFHM5TkJ5KOWjg2J9AoDrfubYRMQqJguMb-mrc2slI1KGhvnCyLsg6fGT2b-UQDL1MKNRYdHoCNyR1lRGx0YXrxZkx3BgPAZ3WZJ3WVP8tp7JeCNYLT7LSA",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQx7gzU-BgSgpbiSZJxFGC1dj5l0CoK-XUBshWZUlW5BlOPe9e94vz0kplvPHn7r66pRIrBFM5ocaE3I4IxYymu0aqQrrdH5IPHY991huejQxo0UgRA7Bl7bO_JXTPKU2QVzjM36lrFG6I"
     ],
-    "vibes": []
+    "vibes": [],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (4840 avis enthousiastes).",
+    "editorial_score": 21.357,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "ses-paelles-de-cadaqu-s-cadaqu-s",
@@ -35996,7 +36249,16 @@
         "phrase": "Recomiendo la paella de gambas y cigalas está riquísima",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "business"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Cadaqués. À commander sans hésiter : recomiendo la paella de gambas y cigalas está riquísima. Bonne adresse pour un déjeuner d'affaires.",
+    "editorial_score": 19.889,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-la-sirena-cadaqu-s-cadaqu-s",
@@ -36076,7 +36338,16 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Cadaqués. Très bien en famille. Très forte notoriété locale (4.5★, 1063 avis).",
+    "editorial_score": 17.893,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-es-baluard-cadaqu-s",
@@ -36141,7 +36412,13 @@
     "vibes": [
       "🌊 Une vue qui coupe le souffle",
       "✨ Un moment d'exception à vivre absolument"
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (877 avis enthousiastes).",
+    "editorial_score": 17.058,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "es-rac-cadaqu-s",
@@ -36204,7 +36481,10 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lETwEnqxNsEZr28m1Wt8AMGdfKSZLA-xuHbv7KYlGkY-gRik44YcGrHFB115yzcy3vSoBJMbR-zncFYAzDhIwfTkS7v_2oZRyiU_h-QN2zoaUxvMtQFCcINd0qCKbiY7av3jMmlAKXMERWC8",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lES3oFGBBWzAAc39SROGOGidu8AhIXxa3H328fgDA1wTsAxIEMvVOrVnQhgCc7hXjIuBoX9OJTC6iHd9Ruh3NdfDgQpNhPu5YgsugW3u0Umav-TabipBlcXa9JBL-XpxlAI7Pd601KyLZuSK"
     ],
-    "vibes": []
+    "vibes": [],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Un des mieux notés de la ville.",
+    "editorial_score": 15.737,
+    "in_selection": false
   },
   {
     "id": "le-sophocle-antibes",
@@ -36270,7 +36550,10 @@
       "🌟 Une vraie pépite à découvrir",
       "🤗 Un accueil chaleureux comme à la maison",
       "💎 Un rapport qualité-prix imbattable"
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (372 avis enthousiastes).",
+    "editorial_score": 12.875,
+    "in_selection": false
   },
   {
     "id": "unique-restaurant-antibes-juan-les-pins-antibes",
@@ -36336,7 +36619,10 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lESV3oYNA7mPfrTIr-3pryuolfjE9AttkjGT2seiRGSNd3bFp6Rf7kAPLkTD3z81HB0uuosN3AD-J7LunK-6cZy4pO_7vUkY7KqLcURH6a-D-d1-O51faDqNciYQFbLEpJQ7Gb44epkmYmr0",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lET_09EYvoqxqFz5t5r9GhIyIIDVGAa_ZTs0WyPRyG66XafZ0x_fZHR-QvMOgxaPn5G5qwWQ4Th_OsmgPOlIIqvFfS8vXmsmPKTNuHQ5_q-5QcrcjSEelVgbrduEqT5N9zYtLIgR0kD_WcyM"
     ],
-    "vibes": []
+    "vibes": [],
+    "editorial_pitch": "Notre coup de cœur dans Antibes. Très forte notoriété locale (4.5★, 93 avis).",
+    "editorial_score": 11.409,
+    "in_selection": false
   },
   {
     "id": "bleu-d-antalya-cannes",
@@ -36410,7 +36696,16 @@
         }
       ]
     },
-    "signature_phrase": "Gros coup de cœur pour la soupe aux lentilles, absolument incroyable"
+    "signature_phrase": "Gros coup de cœur pour la soupe aux lentilles, absolument incroyable",
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Gros coup de cœur pour la soupe aux lentilles, absolument incroyable. Très bien en famille.",
+    "editorial_score": 12.516,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "parthenopi-cannes",
@@ -36469,7 +36764,13 @@
         "mentions": 2
       }
     ],
-    "signature_phrase": "The atmosphere is warm, the service is fantastic, and the ingredients are incredibly fresh"
+    "signature_phrase": "The atmosphere is warm, the service is fantastic, and the ingredients are incredibly fresh",
+    "editorial_pitch": "L'adresse qu'on garde pour soi. The atmosphere is warm, the service is fantastic, and the ingredients are incredibly fresh.",
+    "editorial_score": 18.437,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "sens-restaurant-cannes-cannes",
@@ -36528,7 +36829,10 @@
         "kind": "experience",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (545 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "la-pe-a-cannes",
@@ -36580,7 +36884,17 @@
       "🤗 Un accueil chaleureux comme à la maison",
       "🎉 Une ambiance qui rend la soirée magique"
     ],
-    "signature_phrase": "Des produits de grande qualité, des prix plus que raisonnables, un service irréprochable et une ambiance au top, on se sent comme à la maison"
+    "signature_phrase": "Des produits de grande qualité, des prix plus que raisonnables, un service irréprochable et une ambiance au top, on se sent comme à la maison",
+    "occasion_tags": [
+      "family",
+      "celebration"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Des produits de grande qualité, des prix plus que raisonnables. Très bien en famille.",
+    "editorial_score": 12.523,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "au-fou-de-la-reine-cannes",
@@ -36630,7 +36944,14 @@
     ],
     "vibes": [
       "🐟 Des produits ultra-frais, choisis avec soin"
-    ]
+    ],
+    "occasion_tags": [
+      "family",
+      "business"
+    ],
+    "editorial_pitch": "Un incontournable local. Très bien en famille. Les avis récents sont unanimes.",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "dolcevita-napoletana-farooj-cannes",
@@ -36681,7 +37002,10 @@
     "vibes": [
       "🤗 Un accueil chaleureux comme à la maison",
       "💎 Un rapport qualité-prix imbattable"
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (106 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "restaurant-son-bordeaux",
@@ -36731,7 +37055,13 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
-    ]
+    ],
+    "occasion_tags": [
+      "solo"
+    ],
+    "editorial_pitch": "On adore cet endroit. On y va même seul·e. Une adresse consensuelle (4.9★).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "z-phirine-bordeaux",
@@ -36793,7 +37123,13 @@
         "phrase": "Nous avons pris le veau à partager en plat : il était délicieux",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "On adore cet endroit. On ne repart pas sans nous avons pris le veau à partager en plat : il était délicieux.",
+    "editorial_score": 15.828,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "arcada-bordeaux",
@@ -36844,7 +37180,10 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🎨 Une cuisine créative qui surprend"
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (1152 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "alivetu-table-m-diterran-enne-marseille",
@@ -36894,7 +37233,10 @@
     ],
     "vibes": [
       "✨ Un moment d'exception à vivre absolument"
-    ]
+    ],
+    "editorial_pitch": "Un incontournable local. Les avis récents sont unanimes.",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "o-bidul-marseille",
@@ -36945,7 +37287,13 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "👨‍🍳 Un chef qui met de l'âme dans l'assiette"
-    ]
+    ],
+    "occasion_tags": [
+      "solo"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. On y va même seul·e. Régulièrement plein (838 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "belle-de-mars-marseille",
@@ -36993,7 +37341,13 @@
         "author": "Mathieu Bruckert"
       }
     ],
-    "signature_phrase": "La cuisine ouverte permet de voir le chef Préparer les assiettes minute"
+    "signature_phrase": "La cuisine ouverte permet de voir le chef Préparer les assiettes minute",
+    "editorial_pitch": "Notre coup de cœur dans Marseille. La cuisine ouverte permet de voir le chef Préparer les assiettes minute.",
+    "editorial_score": 14.461,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "suffren-marseille",
@@ -37040,7 +37394,10 @@
         "text": "Franchement Bravo !\nUne salle et une cuisine nickel !\nUn plat du jour très bon (purée boudin noir), à un prix plus que correct 20€ !\nLes prix sont doux et le service très gentil.\nNe changez rien ! Merci",
         "author": "Xavier Domenach"
       }
-    ]
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Un des mieux notés de la ville.",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "chez-nous-marseille",
@@ -37092,7 +37449,13 @@
       "🤗 Un accueil chaleureux comme à la maison",
       "🏡 Une cuisine locale qui raconte le terroir"
     ],
-    "signature_phrase": "The restaurant quickly filled up with regular customers"
+    "signature_phrase": "The restaurant quickly filled up with regular customers",
+    "editorial_pitch": "Une pépite comme on les aime. The restaurant quickly filled up with regular customers.",
+    "editorial_score": 16.892,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "la-pagaille-restaurant-lounge-cocktail-marseille",
@@ -37180,7 +37543,13 @@
         "phrase": "Les gambas incroyable juste parfaitement griller c'étais fantastique",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : le concept est de prendre plusieurs plats en mode tapas.",
+    "editorial_score": 17.13,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "le-bistro-du-panier-marseille",
@@ -37242,7 +37611,13 @@
         "phrase": "De mozza burger en burger met kip waren zeer lekker",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Ne ratez pas de mozza burger en burger met kip waren zeer lekker.",
+    "editorial_score": 15.835,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "ekume-marseille",
@@ -37300,7 +37675,10 @@
         "kind": "experience",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "Un incontournable local. Les avis récents sont unanimes.",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "caf-bovo-marseille",
@@ -37350,7 +37728,13 @@
     ],
     "vibes": [
       "🤗 Un accueil chaleureux comme à la maison"
-    ]
+    ],
+    "occasion_tags": [
+      "quick_bite"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Idéal pour un repas rapide. Un des mieux notés de la ville.",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "maison-charlie-marseille",
@@ -37409,7 +37793,16 @@
         }
       ]
     },
-    "signature_phrase": "L’ambiance est cosy et accueillante, parfaite pour une pause déjeuner ou un goûter"
+    "signature_phrase": "L’ambiance est cosy et accueillante, parfaite pour une pause déjeuner ou un goûter",
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Un incontournable local. L’ambiance est cosy et accueillante, parfaite pour une pause déjeuner ou un goûter. Idéal pour un tête-à-tête.",
+    "editorial_score": 17.96,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "restaurant-circle-lyon",
@@ -37471,7 +37864,14 @@
           "text": "Fais-toi conseiller sur les accords mets & vins"
         }
       ]
-    }
+    },
+    "occasion_tags": [
+      "tete_a_tete",
+      "celebration"
+    ],
+    "editorial_pitch": "Un incontournable local. Idéal pour un tête-à-tête. Les avis récents sont unanimes.",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "restaurant-le-mus-e-lyon",
@@ -37526,7 +37926,14 @@
           "text": "Reste raisonnable, le rapport qualité-prix est excellent"
         }
       ]
-    }
+    },
+    "occasion_tags": [
+      "business",
+      "celebration"
+    ],
+    "editorial_pitch": "Un incontournable local. Bonne adresse pour un déjeuner d'affaires. Les avis récents sont unanimes.",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "regain-restaurant-lyon-lyon",
@@ -37577,7 +37984,10 @@
     "vibes": [
       "🎨 Une cuisine créative qui surprend",
       "💎 Un rapport qualité-prix imbattable"
-    ]
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (1124 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "monsieur-p-lyon",
@@ -37639,7 +38049,13 @@
         "phrase": "Cuisine gastronomique maîtrisée de bout en bout : ravioles au foie gras délicieuses",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : cuisine gastronomique maîtrisée de bout en bout : ravioles au foie….",
+    "editorial_score": 16.836,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "le-neuvi-me-art-lyon",
@@ -37698,7 +38114,13 @@
           "text": "Fais-toi conseiller sur les accords mets & vins"
         }
       ]
-    }
+    },
+    "occasion_tags": [
+      "quick_bite"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Idéal pour un repas rapide. Régulièrement plein (844 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "la-petite-rose-des-sables-paris",
@@ -37764,7 +38186,13 @@
           "text": "Viens en petit comité, le lieu est intime"
         }
       ]
-    }
+    },
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Paris. Idéal pour un tête-à-tête. Très forte notoriété locale (4.9★, 1163 avis).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "baguette-restaurant-paris",
@@ -37847,7 +38275,17 @@
         "phrase": "Tataki de bœuf et poulet",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete",
+      "family"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : tataki de bœuf et poulet. Idéal pour un tête-à-tête.",
+    "editorial_score": 16.48,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "upstairs-bistro-paris-paris",
@@ -37918,7 +38356,13 @@
         "phrase": "Je vous conseille fortement les crevettes mangues et coco",
         "mentions": 1
       }
-    ]
+    ],
+    "editorial_pitch": "On adore cet endroit. On ne repart pas sans je vous conseille fortement les crevettes mangues et coco.",
+    "editorial_score": 9.762,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "mosuke-par-mory-sacko-paris",
@@ -37968,7 +38412,10 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
-    ]
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Paris. Très forte notoriété locale (4.8★, 1736 avis).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "bar-tapas-paris-maison-brochettes-cocktails-signature-brunch-piano-bar-paris",
@@ -38023,7 +38470,15 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "occasion_tags": [
+      "sunday_lunch",
+      "date",
+      "solo"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Paris. À tester un dimanche midi. Très forte notoriété locale (4.8★, 525 avis).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "pur-jean-fran-ois-rouquette-paris",
@@ -38073,7 +38528,14 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
-    ]
+    ],
+    "occasion_tags": [
+      "solo",
+      "celebration"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Paris. On y va même seul·e. Très forte notoriété locale (4.7★, 557 avis).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "chez-pierre-french-restaurant-in-monaco-with-bar-monaco",
@@ -38120,7 +38582,15 @@
         "text": "We had a great time. Food was great. We loved the attention and meeting Pierre. Service was awesome too. Will definitely come back when we visit Monaco again",
         "author": "Robert Gillis"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "business",
+      "group",
+      "celebration"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Bonne adresse pour un déjeuner d'affaires. Régulièrement plein (603 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
   },
   {
     "id": "hotel-h-tel-de-france-nice-un-h-tel-ammi-nice",
@@ -38179,7 +38649,16 @@
         "text": "Sehr kleine aber nette Zimmer, sehr Zentrale gelegen und überaus nette und hilfsbereiten Personal",
         "author": "Harry Suppan"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Une valeur sûre à Nice. Idéal pour un tête-à-tête. Un des mieux notés de la ville.",
+    "editorial_score": 17.61,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-okko-hotels-nice-a-roport-nice",
@@ -38238,7 +38717,18 @@
         "text": "Merci pour tout notamment le service de Yasmine a été très professionnel et de qualité. Au plaisir de revenir vous voir lors de mon prochain séjour à Nice.",
         "author": "Mathieu Ravix"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete",
+      "view",
+      "quick_bite"
+    ],
+    "editorial_pitch": "Une adresse à retenir. Idéal pour un tête-à-tête. Une adresse consensuelle (4.7★).",
+    "editorial_score": 17.489,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-palm-boutique-h-tel-nice-nice",
@@ -38297,7 +38787,16 @@
         "text": "We were welcomed so warmly by Karine, who not only gave us recommendations and advice, but also a choice of an upgrade.  Our room was wonderful -- and the location just perfect for everything!  Highly recommend the Palm Hotel!",
         "author": "Jill Savage"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "On y va comme chez soi. Très bien en famille. Les avis récents sont unanimes.",
+    "editorial_score": 10.111,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-le-negresco-nice",
@@ -38356,7 +38855,13 @@
         "text": "What an amazing hotel.  We didn’t stay there but did go into the lounge for a glass of wine and to admire the hotel.   Staff was amazing, the lounge area and lobby were off the charts. A must see if you are there.",
         "author": "Dave W"
       }
-    ]
+    ],
+    "editorial_pitch": "On y va comme chez soi. Les avis récents sont unanimes.",
+    "editorial_score": 20.136,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-h-tel-nice-excelsior-by-happyculture-nice",
@@ -38415,7 +38920,13 @@
         "text": "Super hôtel. Top rapport qualité prix. Chambre propre et confortable",
         "author": "Stephane Bocskay"
       }
-    ]
+    ],
+    "editorial_pitch": "Un hôtel qu'on recommande les yeux fermés. Très forte notoriété locale (4.6★, 2131 avis).",
+    "editorial_score": 17.608,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-h-tel-la-jabotte-antibes",
@@ -38474,7 +38985,13 @@
         "text": "What a charming hotel. We very much enjoyed staying here - the room was very comfortable, the hotel atmosphere very peaceful, and the hosts extremely kind and helpful.  Perfectly located with a 2 minute walk to the beach and a short walk into the old",
         "author": "M en M Art Amsterdam Australia"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "business"
+    ],
+    "editorial_pitch": "Une adresse à retenir. Bonne adresse pour un déjeuner d'affaires. Une adresse consensuelle (4.8★).",
+    "editorial_score": 11.426,
+    "in_selection": false
   },
   {
     "id": "hotel-h-tel-spa-la-villa-port-d-antibes-antibes",
@@ -38533,7 +39050,13 @@
         "text": "Spacious and clean room. Excellent location (± 5min to station and beach). The spa is a plus. We enjoyed quite very much during our stay.",
         "author": "Zeyu Wang"
       }
-    ]
+    ],
+    "editorial_pitch": "Une adresse à retenir. Une adresse consensuelle (4.7★).",
+    "editorial_score": 14.392,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-h-tel-la-villa-cap-d-antibes-antibes",
@@ -38592,7 +39115,16 @@
         "text": "Magnifique hôtel situé dans un très beau quartier d'antibes à quelques centaines de mètres de la mer.\nLes chambres sont en très bon état et surtout extrêmement propre.\nUne très belle découverte !",
         "author": "christophe gutehrle"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "view"
+    ],
+    "editorial_pitch": "Notre pick hébergement pour Antibes. Pour profiter de la vue. Régulièrement plein (445 avis enthousiastes).",
+    "editorial_score": 14.601,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-the-1932-hotel-spa-cap-d-antibes-mgallery-collection-antibes",
@@ -38651,7 +39183,18 @@
         "text": "Hôtel très charmant avec un personnel chaleureux. Le buffet du petit déjeuner n’est pas très grand mais cela suffît amplement grâce a une sélection de produit de qualité.",
         "author": "Alexandre Benazet-Iannone"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "family",
+      "view",
+      "celebration"
+    ],
+    "editorial_pitch": "On y va comme chez soi. Très bien en famille. Les avis récents sont unanimes.",
+    "editorial_score": 15.443,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-h-tel-la-place-antibes",
@@ -38710,7 +39253,13 @@
         "text": "Hôtel bien placé, accueil chaleureux, chambre très bien, je recommande",
         "author": "Perraud Elodie"
       }
-    ]
+    ],
+    "editorial_pitch": "On y va comme chez soi. Les avis récents sont unanimes.",
+    "editorial_score": 12.7,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-h-tel-la-villa-sainte-val-rie-adults-only-antibes",
@@ -38769,7 +39318,10 @@
         "text": "Liebevoll gestaltetes Hotel mit schönem Garten. Das Personal ist sehr freundlich und professionell. Entspannte Atmosphäre. Gutes Frühstück. In Summe ein schöner Aufenthalt und gerne wieder!",
         "author": "Björn"
       }
-    ]
+    ],
+    "editorial_pitch": "Notre pick hébergement pour Antibes. Régulièrement plein (163 avis enthousiastes).",
+    "editorial_score": 11.702,
+    "in_selection": false
   },
   {
     "id": "hotel-h-tel-le-petit-castel-antibes",
@@ -38828,7 +39380,13 @@
         "text": "Petit hôtel charmant, idéalement placé pour tout faire à pied, ce qui est très appréciable. L’hôte est très accueillant et sympathique !\nLe petit-déjeuner est bon, à la française.\nMerci beaucoup !",
         "author": "Marion Donné"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "view"
+    ],
+    "editorial_pitch": "Une adresse à retenir. Pour profiter de la vue. Une adresse consensuelle (4.6★).",
+    "editorial_score": 11.406,
+    "in_selection": false
   },
   {
     "id": "hotel-h-tel-josse-antibes",
@@ -38887,7 +39445,13 @@
         "text": "Hôtel sympathique calme avec des chambres très spacieuse literie au top 👌 très propre et situé face à la plage.\nJe recommande 👍",
         "author": "Cédric DALKMANN"
       }
-    ]
+    ],
+    "editorial_pitch": "Une valeur sûre à Antibes. Un des mieux notés de la ville.",
+    "editorial_score": 12.774,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-h-tel-miramar-cap-d-antibes-antibes",
@@ -38946,7 +39510,14 @@
         "text": "Philippine et Jonathan de l'hotel Miramar sont  adorables. Tout est fait pour faire plaisir aux clients. L'hotel est plaisant et calme. Le cadre est merveilleux",
         "author": "gallice elsa"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "business",
+      "family"
+    ],
+    "editorial_pitch": "Une adresse à retenir. Bonne adresse pour un déjeuner d'affaires. Une adresse consensuelle (4.5★).",
+    "editorial_score": 9.51,
+    "in_selection": false
   },
   {
     "id": "hotel-h-tel-la-bastide-de-l-oliveraie-spa-cannes",
@@ -39005,7 +39576,17 @@
         "text": "Accueil très agréable, personnel très sympathique et aidant, établissement charmant et propre.\nSoins (massage duo) très très bien par 2 dames très sympa et prévenantes.\nChambre et salle de bain super chouette !",
         "author": "Olivier M."
       }
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete",
+      "celebration"
+    ],
+    "editorial_pitch": "Une adresse à retenir. Idéal pour un tête-à-tête. Une adresse consensuelle (4.7★).",
+    "editorial_score": 15.786,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-carlton-cannes-a-regent-hotel-cannes",
@@ -39064,7 +39645,13 @@
         "text": "An incredible hotel with incredible staff\n\nI wish to thank all hotel staff especially aida and Cathy who were so courteous and attentive throughout the stay\n\nYou made my son and myslf holiday\n\nFor a hotel this truly is the best place in Cannes if not",
         "author": "Patrick Hickey"
       }
-    ]
+    ],
+    "editorial_pitch": "Une adresse à retenir. Une adresse consensuelle (4.6★).",
+    "editorial_score": 19.707,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-id-al-s-jour-cannes-h-tel-de-charme-cannes",
@@ -39123,7 +39710,10 @@
         "text": "Chambre propre et à la déco cinéma accueil parfait personnel bienveillant endroit très calme avec un petit jardin proche du centre ville avec place gratuite autour de l'hôtel petit déjeuner copieux varié avec des produits de qualite c'est sur je vais",
         "author": "Laurent Caput"
       }
-    ]
+    ],
+    "editorial_pitch": "Une adresse à retenir. Une adresse consensuelle (4.6★).",
+    "editorial_score": 11.999,
+    "in_selection": false
   },
   {
     "id": "hotel-hotel-martinez-in-the-unbound-collection-by-hyatt-cannes",
@@ -39182,7 +39772,13 @@
         "text": "Superbe établissement\nRestaurant extra",
         "author": "Blabla Blablabla"
       }
-    ]
+    ],
+    "editorial_pitch": "Une adresse à retenir. Une adresse consensuelle (4.5★).",
+    "editorial_score": 18.945,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-h-tel-barri-re-le-majestic-cannes-cannes",
@@ -39241,7 +39837,13 @@
         "text": "Unexpected room upgrade, outstanding breakfast, beautiful beach — and a children’s area that kept our kids busy from morning to evening. As a parent and someone who works in hospitality, I know good service when I see it. This team genuinely cares🤌🏼",
         "author": "Andre Erlich"
       }
-    ]
+    ],
+    "editorial_pitch": "On y va comme chez soi. Les avis récents sont unanimes.",
+    "editorial_score": 18.738,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-h-tel-splendid-cannes-cannes",
@@ -39300,7 +39902,16 @@
         "text": "Excellent hotel, extremely friendly staff and service.\n\nHighly recommend.",
         "author": "Neil Butcher"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "view"
+    ],
+    "editorial_pitch": "Une valeur sûre à Cannes. Pour profiter de la vue. Un des mieux notés de la ville.",
+    "editorial_score": 15.001,
+    "in_selection": true,
+    "added_at": "2026-04-14",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
   },
   {
     "id": "hotel-best-western-premier-le-patio-des-artistes-cannes-cannes",
@@ -39359,7 +39970,13 @@
         "text": "Excellent moment dans cet hotel du centre ville\nAccueil sympa et professionnel, chambre spacieuse, propre, confortable avec vue sur un très beau patio\nHotel Bien chauffé et cosy\nParking dispo en sous-sol mais attention l acces est très serré",
         "author": "baux cedric"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Une adresse à retenir. Idéal pour un tête-à-tête. Une adresse consensuelle (4.5★).",
+    "editorial_score": 13.003,
+    "in_selection": false
   },
   {
     "id": "hotel-hotel-le-suquet-cannes-cannes",
@@ -39418,7 +40035,14 @@
         "text": "Malgré la très faible activité liée à la période, nous avons été très bien reçu et nos demandes ont été écoutées.\nChambres agréable\nMerci ! !",
         "author": "William Heckel"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "tete_a_tete",
+      "family"
+    ],
+    "editorial_pitch": "Notre pick hébergement pour Cannes. Idéal pour un tête-à-tête. Régulièrement plein (273 avis enthousiastes).",
+    "editorial_score": 12.859,
+    "in_selection": false
   },
   {
     "id": "hotel-mob-hotel-cannes-cannes",
@@ -39477,6 +40101,12 @@
         "text": "Superbe hôtel très confortable et le personnel super !",
         "author": "aurelie fau"
       }
-    ]
+    ],
+    "occasion_tags": [
+      "solo"
+    ],
+    "editorial_pitch": "Notre pick hébergement pour Cannes. On y va même seul·e. Régulièrement plein (179 avis enthousiastes).",
+    "editorial_score": 11.892,
+    "in_selection": false
   }
 ]

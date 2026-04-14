@@ -228,8 +228,15 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 
 <!-- Explore overlays (OUTSIDE view to avoid fixed-in-scrollable bug in mobile WebViews) -->
 <div id="exploreUI" class="fixed inset-0 z-30 pointer-events-none" style="display:block">
-  <!-- Top stack: entity switch + search bar + chip row -->
+  <!-- Top stack: selection banner + entity switch + search bar + chip row -->
   <div class="pointer-events-auto" style="position:fixed;top:calc(10px + var(--st));left:0;right:0;z-index:35">
+    <!-- Row 0: Selection banner -->
+    <div class="flex justify-center px-3 mb-2">
+      <div id="selBanner" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gradient-to-r from-gold/[0.15] via-[#ffa534]/[0.10] to-transparent border border-gold/30 backdrop-blur-xl shadow-lg">
+        <span class="text-[10px]">✦</span>
+        <span class="font-headline text-[11px] font-semibold tracking-wider text-gold uppercase" id="selBannerText">La sélection</span>
+      </div>
+    </div>
     <!-- Row 1: Entity segmented control (Restos / Hôtels) -->
     <div class="flex justify-center px-3 mb-2">
       <div class="seg" role="tablist" aria-label="Type d'adresse">
@@ -250,13 +257,16 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
         <span id="filtersBadge" class="fab-badge" style="display:none">0</span>
       </button>
     </div>
-    <!-- Row 3: Quick chips (meal type — restos uniquement) — scrolls horizontally -->
+    <!-- Row 3: Quick chips — occasions (quand y aller, avec qui) -->
     <div id="quickChips" class="chip-row mt-2">
-      <button id="mAll" onclick="setMealType('all')" class="pill on" data-rest-only>Tous</button>
-      <button id="mQuick" onclick="setMealType('quick')" class="pill" data-rest-only>Sur le pouce</button>
-      <button id="mCasual" onclick="setMealType('casual')" class="pill" data-rest-only>Casual</button>
-      <button id="mSitdown" onclick="setMealType('sitdown')" class="pill" data-rest-only>À table</button>
-      <button id="mGastro" onclick="setMealType('gastro')" class="pill" data-rest-only>Gastro</button>
+      <button id="oAll" onclick="setOccasion('all')" class="pill on">Toutes</button>
+      <button id="oNew" onclick="setOccasion('new')" class="pill">✦ Nouveautés</button>
+      <button id="oDate" onclick="setOccasion('date')" class="pill">❤️ En amoureux</button>
+      <button id="oSunday" onclick="setOccasion('sunday_lunch')" class="pill">🥐 Dimanche midi</button>
+      <button id="oFamily" onclick="setOccasion('family')" class="pill">👨‍👩‍👧 En famille</button>
+      <button id="oBusiness" onclick="setOccasion('business')" class="pill">💼 Business</button>
+      <button id="oGroup" onclick="setOccasion('group')" class="pill">🎉 Entre amis</button>
+      <button id="oView" onclick="setOccasion('view')" class="pill">🌊 Avec la vue</button>
     </div>
     <!-- Autocomplete suggestions -->
     <div id="iSuggestions" class="mx-3 mt-2 bg-surface-high/95 backdrop-blur-xl rounded-2xl border border-outline-var/10 overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,.5)]" style="display:none;max-height:420px;overflow-y:auto"></div>
@@ -342,6 +352,21 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
       <p class="text-outline/50 text-xs mt-1">Appuie sur le coeur d'un restaurant pour le sauvegarder</p>
     </div>
     <div class="space-y-8 pb-4" id="oSavedCards"></div>
+
+    <!-- Teaser premium: capture d'intérêt -->
+    <div class="mt-8 mb-8 p-5 rounded-2xl bg-gradient-to-br from-[#8a7dff]/[0.12] to-[#ffa534]/[0.08] border border-[#8a7dff]/30">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-lg">✦</span>
+        <span class="font-headline font-bold text-xs uppercase tracking-widest text-[#b0aaff]">Bientôt · Only The Best Premium</span>
+      </div>
+      <p class="text-sm text-on-surface leading-relaxed mb-3">
+        Accès anticipé aux pépites du mois suivant · 2-3 adresses confidentielles par ville réservées aux membres · notifs personnalisées sur tes villes favorites.
+      </p>
+      <a href="mailto:hello@onlythebest.app?subject=Je%20veux%20%C3%AAtre%20pr%C3%A9venu%20Premium&amp;body=Bonjour,%0A%0AJe%20veux%20%C3%AAtre%20parmi%20les%20premiers%20inform%C3%A9s%20quand%20Only%20The%20Best%20Premium%20est%20disponible.%0A%0AMerci%20!" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-[#8a7dff] to-[#b0aaff] text-white font-bold text-sm active:scale-95 transition-transform">
+        <span class="icon text-base">notifications</span>
+        Me prévenir
+      </a>
+    </div>
   </main>
 </div>
 
@@ -364,7 +389,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 // ══════════════════════════════════
 // DATA & STATE
 // ══════════════════════════════════
-var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null,geoPulse=null,fSource='both',fMeal='all',fEntity='restaurant';
+var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null,geoPulse=null,fSource='both',fMeal='all',fEntity='restaurant',fOccasion='all';
 
 // Is this record a hotel?
 function isHotel(r){return (r.entity_type||'')==='hotel'}
@@ -434,6 +459,25 @@ function mealMatch(r){
   return getMealType(r)===fMeal;
 }
 
+function setOccasion(t){
+  fOccasion=t;
+  ['All','New','Date','Sunday','Family','Business','Group','View'].forEach(function(n){
+    var el=document.getElementById('o'+n);
+    if(el){ var v = n==='Sunday'?'sunday_lunch': n.toLowerCase(); if(n==='All')v='all'; el.classList.toggle('on', fOccasion===v)}
+  });
+  rebuildCG(function(){return true});
+  var cEl=document.getElementById('iCarousel');if(cEl)cEl.style.display='none';
+  if(typeof updateCarousel==='function')setTimeout(updateCarousel,100);
+  if(listViewMode)renderExploreList();
+  if(typeof updateFiltersBadge==='function')updateFiltersBadge();
+}
+
+function occasionMatch(r){
+  if(fOccasion==='all') return true;
+  if(fOccasion==='new') return r.freshness_badge==='new';
+  return (r.occasion_tags||[]).indexOf(fOccasion) !== -1;
+}
+
 function esc(s){return s?s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'):''}
 function ea(s){return s?s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"').replace(/\n/g,'\\n').replace(/\r/g,'\\r').replace(/`/g,'\\`'):''}
 
@@ -457,11 +501,8 @@ document.addEventListener('DOMContentLoaded',function(){
     }catch(e){}
   }
   fetch('data.json').then(function(r){return r.json()}).then(function(d){
-    // Filter: only trending restaurants + hotels (chef-only recommendations hidden for now)
-    R = d.filter(function(r){
-      if(r.entity_type==='hotel') return true;
-      return r.source_type==='trending' || r.source_type==='both';
-    });
+    // Filter v4 : only items passing the editorial selection gate (in_selection === true)
+    R = d.filter(function(r){ return r.in_selection === true });
     boot();
   }).catch(function(){R=[];boot()});
 });
@@ -494,6 +535,15 @@ function boot(){
   var ch={};R.forEach(function(r){r.recommendations.forEach(function(c){ch[c.chef_name]=1})});
   var se=document.getElementById('oDrawerStats');
   if(se)se.textContent=R.length+' adresses \u00b7 '+Object.keys(ch).length+' chefs';
+  // Populate selection banner with current month + count
+  var sb = document.getElementById('selBannerText');
+  if(sb){
+    var months = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+    var d = new Date();
+    var m = months[d.getMonth()];
+    var y = d.getFullYear();
+    sb.textContent = 'Sélection de '+m+' '+y+' · '+R.length+' pépites';
+  }
   // Hide loading overlay
   var lo=document.getElementById('loadingOverlay');
   if(lo){lo.classList.add('hide');setTimeout(function(){lo.style.display='none'},500)}
@@ -780,17 +830,39 @@ function openResto(id){
         '<button onclick="goBack()" class="absolute left-5 w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center z-10" style="top:calc(20px + var(--st))"><span class="icon text-gold">arrow_back</span></button>'+
         '<div class="absolute right-5 flex gap-2 items-center" style="top:calc(20px + var(--st))">'+
           '<button class="fav-btn w-10 h-10 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+esc(r.id)+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\')"><span class="icon text-gold text-xl '+(isFav(r.id)?'icon-fill':'')+'">'+(isFav(r.id)?'favorite':'favorite_border')+'</span></button>'+
-          '<div class="bg-bg/80 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1"><span class="text-gold font-bold text-sm">'+r.confidence_score+'</span><span class="text-[8px] text-outline uppercase font-bold">Fiabilit\u00e9</span></div>'+
         '</div>'+
         '<div class="absolute bottom-3 left-5 right-5 flex flex-col gap-2">'+
+          // Badge NEW (violet) si freshness_badge === 'new'
+          (r.freshness_badge==='new'?'<div class="inline-flex items-center gap-1.5 self-start px-2.5 py-1 rounded-full bg-gradient-to-r from-[#8a7dff] to-[#b0aaff] text-white shadow-lg"><span class="text-[9px] font-black uppercase tracking-widest">✦ Nouveau</span></div>':'')+
           '<div class="flex flex-wrap gap-1.5">'+
             '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-gold border border-gold/10">'+esc(r.cuisine_type)+'</span>'+
             '<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.price_range)+'</span>'+
-            (r.vibe?'<span class="px-2.5 py-1 bg-surface-highest/80 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-wider text-on-surface border border-outline-var/10">'+esc(r.vibe)+'</span>':'')+
           '</div>'+
           '<h2 class="font-headline font-extrabold tracking-tighter drop-shadow-lg leading-[0.95] '+(r.name.length>22?'text-3xl':'text-4xl')+'">'+esc(r.name)+'</h2>'+
         '</div>'+
       '</section>'+
+      // Pitch éditorial — le message du curateur en haut de la fiche
+      (r.editorial_pitch?
+        '<section class="px-5 mt-6">'+
+          '<div class="p-5 rounded-2xl bg-gradient-to-br from-gold/[0.08] to-transparent border border-gold/20">'+
+            '<div class="flex items-center gap-2 mb-2">'+
+              '<span class="icon text-gold text-base">auto_awesome</span>'+
+              '<span class="text-[10px] font-bold uppercase tracking-widest text-gold">Pourquoi c\'est une pépite</span>'+
+            '</div>'+
+            '<p class="serif text-[16px] leading-relaxed text-on-surface">'+esc(r.editorial_pitch)+'</p>'+
+          '</div>'+
+        '</section>':'')+
+      // Occasion tags (si dispo)
+      (r.occasion_tags&&r.occasion_tags.length?
+        '<section class="px-5 mt-4">'+
+          '<div class="flex flex-wrap gap-2">'+
+          r.occasion_tags.map(function(t){
+            var lbl={'date':'❤️ En amoureux','tete_a_tete':'👫 Tête-à-tête','business':'💼 Dîner business','family':'👨‍👩‍👧 En famille','sunday_lunch':'🥐 Dimanche midi','group':'🎉 Entre amis','solo':'🪑 En solo','view':'🌊 Avec la vue','quick_bite':'⚡ Sur le pouce','celebration':'🥂 Pour célébrer'}[t];
+            if(!lbl)return '';
+            return '<span class="px-3 py-1.5 bg-surface-high/70 border border-outline-var/20 rounded-full text-xs font-medium">'+esc(lbl)+'</span>';
+          }).join('')+
+          '</div>'+
+        '</section>':'')+
       '<section class="px-5 mt-5 space-y-3">'+
         '<a href="'+mu+'" target="_blank" rel="noopener" class="flex items-center gap-2.5 text-outline hover:text-gold transition-colors"><span class="icon text-base">location_on</span><span class="text-sm font-light border-b border-outline-var/30 hover:border-gold/50">'+esc(r.address||'')+( r.address?', ':'')+esc(r.city)+'</span></a>'+
         rat+tel+
@@ -825,27 +897,15 @@ function openResto(id){
         '<div class="flex flex-wrap gap-2">'+
         r.top_dishes.map(function(d){return '<span class="px-3 py-1.5 bg-gradient-to-br from-gold/15 to-[#ffa534]/15 border border-gold/30 rounded-full text-xs font-medium capitalize">'+esc(d)+'</span>'}).join('')+
         '</div><p class="text-[10px] text-outline mt-2">Plats les plus cités dans les avis récents</p></section>':'')+
-      // Pourquoi on adore — priorise signature (personnalisé) sur vibes/must_try (génériques)
-      ((r.signature_phrase)||(r.signature_dishes&&r.signature_dishes.length>0)||(r.vibes&&r.vibes.length>0)||(r.must_try&&r.must_try.length>0)?
+      // Nos coups de fourchette / Les indispensables — signature_dishes uniquement
+      // (le signature_phrase + vibes sont désormais synthétisés dans l'editorial_pitch en hero)
+      ((r.signature_dishes&&r.signature_dishes.length>0)||(r.must_try&&r.must_try.length>0)?
         '<section class="px-5 mt-8">'+
-          '<div class="flex items-center gap-2 mb-1">'+
-            '<span class="icon text-gold text-lg">auto_awesome</span>'+
-            '<h3 class="font-headline font-light text-lg tracking-tight">Pourquoi on <span class="text-gold font-bold">adore</span></h3>'+
+          '<div class="flex items-center gap-2 mb-4">'+
+            '<span class="icon text-gold text-lg">'+(isH?'hotel_class':'restaurant_menu')+'</span>'+
+            '<h3 class="font-headline font-light text-lg tracking-tight">'+(isH?'Les <span class="text-gold font-bold">indispensables</span>':'Nos coups de <span class="text-gold font-bold">fourchette</span>')+'</h3>'+
           '</div>'+
-          '<p class="text-[10px] text-outline uppercase tracking-wider mb-4">D\'après les derniers avis Google</p>'+
-          // 1) Signature phrase (la plus personnalisée) en premier si elle existe
-          (r.signature_phrase?
-            '<div class="mb-5 py-4 px-4 bg-gradient-to-r from-gold/[0.12] to-[#ffa534]/[0.05] border-l-[3px] border-gold rounded-r-xl">'+
-              '<p class="serif text-[15px] leading-relaxed text-on-surface italic">"'+esc(r.signature_phrase)+'"</p>'+
-            '</div>':'')+
-          // 2) Vibes génériques — uniquement si pas de signature_phrase
-          ((!r.signature_phrase&&r.vibes&&r.vibes.length>0)?
-            '<div class="space-y-2.5 mb-5">'+
-            r.vibes.map(function(v){
-              return '<div class="serif text-[15px] leading-snug text-on-surface py-3 px-4 bg-gradient-to-r from-gold/[0.08] to-transparent border-l-2 border-gold/60 rounded-r-lg">'+esc(v)+'</div>'
-            }).join('')+
-            '</div>':'')+
-          // 3) Signature dishes (phrases réelles des avis) ou fallback must_try (tags génériques)
+          // Signature dishes (phrases réelles des avis) ou fallback must_try
           ((r.signature_dishes&&r.signature_dishes.length>0)?
             '<div class="mb-4">'+
               '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">'+L.dishesIcon+'</span>'+L.dishesTitle+'</h4>'+
@@ -1125,7 +1185,9 @@ function initMap(){
       sz=n>=3?48:n>=2?40:32;
       content=String(n);
     }
-    var ic=L.divIcon({className:'',html:'<div class="pin '+cls+'"><div class="pc" style="width:'+sz+'px;height:'+sz+'px">'+content+'</div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]});
+    // Badge NEW si freshness_badge === 'new' (petit dot violet sur le pin)
+    var newDot = r.freshness_badge==='new' ? '<div style="position:absolute;top:-4px;right:-4px;width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,#8a7dff,#b0aaff);border:2px solid #131313;box-shadow:0 0 8px rgba(138,125,255,.8);z-index:1"></div>' : '';
+    var ic=L.divIcon({className:'',html:'<div class="pin '+cls+'" style="position:relative">'+newDot+'<div class="pc" style="width:'+sz+'px;height:'+sz+'px">'+content+'</div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]});
     var m=L.marker([r.coordinates.lat,r.coordinates.lng],{icon:ic,srcType:src,entityType:r.entity_type||''});
     m.on('click',function(e){L.DomEvent.stopPropagation(e);showPreview(r)});
     MK[r.id]=m;CG.addLayer(m);
@@ -1185,7 +1247,7 @@ function chipCity(btn){
 
 var RMap={};// id->restaurant lookup, built once
 function ensureRMap(){if(Object.keys(RMap).length!==R.length){RMap={};R.forEach(function(r){RMap[r.id]=r})}}
-function rebuildCG(fn){ensureRMap();CG.clearLayers();for(var id in MK){var r=RMap[id];if(r&&fn(r)&&entityMatch(r)&&sourceMatch(r)&&mealMatch(r))CG.addLayer(MK[id])}}
+function rebuildCG(fn){ensureRMap();CG.clearLayers();for(var id in MK){var r=RMap[id];if(r&&fn(r)&&entityMatch(r)&&sourceMatch(r)&&occasionMatch(r))CG.addLayer(MK[id])}}
 
 // Source filter (chefs/trending/both)
 function sourceMatch(r){
@@ -1341,7 +1403,8 @@ function renderExploreList(){
   var b = map.getBounds();
   var visible = R.filter(function(r){
     if(!r.coordinates||!r.coordinates.lat) return false;
-    if(!sourceMatch(r)) return false;
+    if(!entityMatch(r)) return false;
+    if(!occasionMatch(r)) return false;
     if(!MK[r.id]||!CG.hasLayer(MK[r.id])) return false;
     return b.contains([r.coordinates.lat, r.coordinates.lng]);
   });
@@ -1366,13 +1429,21 @@ function renderExploreList(){
     var srcBadge = '';
     if(isH) srcBadge = '<span class="text-[9px] font-bold text-[#b0aaff] uppercase">🏨 '+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span>';
     else srcBadge = '<span class="text-[9px] font-bold text-[#ff8a3d] uppercase">🔥 '+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span>';
-    var vibeTeaser = (r.vibes&&r.vibes.length>0) ? '<p class="serif text-[11px] text-on-surface-var/90 truncate mt-1 italic">'+esc(r.vibes[0])+'</p>' : '';
+    // Teaser : editorial_pitch (1re phrase) ou signature_phrase ou vibe
+    var teaserText = '';
+    if(r.editorial_pitch){
+      var firstSentence = (r.editorial_pitch.match(/^[^.!?]+[.!?]/) || [r.editorial_pitch.slice(0,80)])[0];
+      teaserText = firstSentence.trim();
+    } else if(r.signature_phrase){ teaserText = r.signature_phrase; }
+    else if(r.vibes&&r.vibes.length>0){ teaserText = r.vibes[0]; }
+    var teaserHtml = teaserText ? '<p class="serif text-[11px] text-on-surface-var/90 truncate mt-1 italic">'+esc(teaserText)+'</p>' : '';
+    var newLabel = r.freshness_badge==='new' ? '<span class="px-1.5 py-0.5 rounded-md bg-gradient-to-r from-[#8a7dff] to-[#b0aaff] text-white text-[8px] font-black uppercase tracking-widest">✦ Nouveau</span>' : '';
     html += '<div onclick="openResto(\''+ea(r.id)+'\')" class="bg-surface-low rounded-2xl overflow-hidden flex cursor-pointer active:scale-[.98] transition-transform border border-outline-var/5">'+
-      '<div class="w-24 h-24 flex-shrink-0">'+img+'</div>'+
+      '<div class="w-24 h-24 flex-shrink-0 relative">'+img+'</div>'+
       '<div class="flex-1 p-3 min-w-0">'+
-        '<h3 class="font-headline font-bold text-sm truncate">'+esc(r.name)+'</h3>'+
+        '<div class="flex items-center gap-1.5"><h3 class="font-headline font-bold text-sm truncate">'+esc(r.name)+'</h3>'+newLabel+'</div>'+
         '<p class="text-[10px] text-outline uppercase tracking-wider truncate mt-0.5">'+esc(r.cuisine_type||'Restaurant')+' · '+esc(r.price_range||'€€')+'</p>'+
-        vibeTeaser+
+        teaserHtml+
         '<div class="mt-2 flex items-center gap-2">'+srcBadge+'</div>'+
       '</div>'+
     '</div>';
@@ -1510,9 +1581,10 @@ function buildCard(r){
   }
   var cornerEmoji = isH ? '🏨' : '🔥';
   var cornerGradient = isH ? 'from-[#8a7dff] to-[#b0aaff]' : 'from-[#ff6b3d] to-[#ffa534]';
+  var newChip = r.freshness_badge==='new' ? '<div class="absolute top-1 left-1 px-1.5 py-0.5 rounded-md bg-gradient-to-r from-[#8a7dff] to-[#b0aaff] text-white text-[8px] font-black uppercase tracking-widest shadow-lg">✦ New</div>' : '';
   return '<div class="ccard" data-rid="'+esc(r.id)+'" onclick="openResto(\''+ea(r.id)+'\')">'+
     '<div class="bg-surface-low/90 backdrop-blur-2xl rounded-2xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,.5)] border border-outline-var/10 flex cursor-pointer active:scale-[.98] transition-transform">'+
-      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden relative">'+img+'<div class="absolute top-1 right-1 bg-gradient-to-br '+cornerGradient+' rounded-full w-6 h-6 flex items-center justify-center text-[11px]">'+cornerEmoji+'</div></div>'+
+      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden relative">'+img+newChip+'<div class="absolute top-1 right-1 bg-gradient-to-br '+cornerGradient+' rounded-full w-6 h-6 flex items-center justify-center text-[11px]">'+cornerEmoji+'</div></div>'+
       '<div class="flex-1 p-4 flex flex-col justify-center min-w-0">'+
         '<h3 class="text-base font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
         '<p class="text-[11px] text-outline uppercase tracking-wider truncate mt-1">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p>'+
