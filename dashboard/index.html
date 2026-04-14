@@ -85,6 +85,9 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 .src-btn{color:#9d8e7c;background:transparent;transition:.2s}
 .src-btn.on{background:#e8a838;color:#281800}
 .src-btn:hover:not(.on){background:rgba(232,168,56,.15);color:#ffc66b}
+.meal-btn{background:rgba(42,42,42,.8);color:#9d8e7c;backdrop-filter:blur(8px);border:1px solid rgba(80,69,53,.2);transition:.2s}
+.meal-btn.on{background:#e8a838;color:#281800;border-color:#e8a838}
+.meal-btn:hover:not(.on){background:rgba(232,168,56,.15);color:#ffc66b}
 
 /* Cluster */
 .marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background:rgba(19,19,19,.8)!important;border:2px solid rgba(232,168,56,.4)!important;box-shadow:0 0 20px rgba(232,168,56,.25)}
@@ -164,8 +167,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
   <!-- Search with autocomplete -->
   <div class="pointer-events-auto" style="position:fixed;top:calc(12px + var(--st));left:0;right:0;z-index:35;padding:0 12px">
     <div class="flex items-center bg-surface-high/80 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 mb-2">
-      <span class="icon text-gold pl-3 pr-1 text-xl cursor-pointer" onclick="toggleDrawer()">menu</span>
-      <span class="icon text-outline pl-1 pr-1 text-xl">search</span>
+      <span class="icon text-outline pl-3 pr-2 text-xl">search</span>
       <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label" placeholder="Ville, chef, restaurant..." autocomplete="off"/>
       <button id="btnSearchGo" onclick="confirmSearch()" class="px-3 py-1.5 bg-gold rounded-xl text-gold-dark text-xs font-bold mr-1 uppercase tracking-wider" style="display:none">Go</button>
       <button id="btnSearchClear" onclick="clearSearch()" class="p-2 text-outline mr-1" style="display:none"><span class="icon text-xl">close</span></button>
@@ -178,15 +180,34 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
       <button id="fChef" onclick="setSource('chef')" class="src-btn px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">👨‍🍳 Chefs</button>
       <button id="fTrending" onclick="setSource('trending')" class="src-btn px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">🔥 Trending</button>
     </div>
+    <!-- Meal type filter: Quick / Casual / Sit-down -->
+    <div class="flex gap-1.5 overflow-x-auto noscroll pb-1 mb-1">
+      <button id="mAll" onclick="setMealType('all')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">Tous</button>
+      <button id="mQuick" onclick="setMealType('quick')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">⚡ Sur le pouce</button>
+      <button id="mCasual" onclick="setMealType('casual')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">🍕 Casual</button>
+      <button id="mSitdown" onclick="setMealType('sitdown')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">🍷 À table</button>
+      <button id="mGastro" onclick="setMealType('gastro')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">✨ Gastronomique</button>
+    </div>
     <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1"></div>
   </div>
   <!-- Carousel -->
   <div id="iCarousel" class="pointer-events-auto" style="position:fixed;left:0;right:0;z-index:35;bottom:calc(82px + var(--sb));padding:0 8px;display:none"></div>
-  <!-- Geolocation button (replaces FAB +) -->
+  <!-- Toggle Map/List button (Airbnb-style) -->
+  <div id="btnViewToggle" class="pointer-events-auto" style="position:fixed;left:50%;transform:translateX(-50%);z-index:40;bottom:calc(86px + var(--sb));display:none">
+    <button onclick="toggleMapList()" class="bg-bg/95 backdrop-blur-xl text-on-surface px-4 py-2.5 rounded-full shadow-2xl flex items-center gap-2 border border-outline-var/20 active:scale-95 transition-transform">
+      <span class="icon text-gold text-base" id="iViewToggle">list</span>
+      <span class="text-xs font-bold uppercase tracking-wider" id="iViewToggleLbl">Liste</span>
+    </button>
+  </div>
+  <!-- Geolocation button -->
   <div class="pointer-events-auto" style="position:fixed;right:16px;z-index:40;bottom:calc(86px + var(--sb))">
     <button onclick="geolocate()" class="w-12 h-12 bg-surface-high/90 backdrop-blur-xl rounded-full shadow-2xl flex items-center justify-center border border-outline-var/20 active:scale-90 transition-transform">
       <span class="icon text-gold text-xl">my_location</span>
     </button>
+  </div>
+  <!-- List view overlay (toggled) -->
+  <div id="exploreList" class="pointer-events-auto" style="position:fixed;left:0;right:0;top:calc(160px + var(--st));bottom:calc(70px + var(--sb));z-index:34;background:#131313;overflow-y:auto;padding:0 16px 16px;display:none">
+    <div class="space-y-3 pt-2" id="exploreListCards"></div>
   </div>
 </div>
 
@@ -293,7 +314,44 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 // ══════════════════════════════════
 // DATA & STATE
 // ══════════════════════════════════
-var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null,geoPulse=null,fSource='both';
+var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null,geoPulse=null,fSource='both',fMeal='all';
+
+// Categorize a restaurant by meal type
+function getMealType(r){
+  var c = (r.cuisine_type||r.categoryName||'').toLowerCase();
+  var p = r.price_range||'€€';
+  // Quick: street food, sandwich, snack
+  if(/snack|bakery|boulangerie|fast|street|takeaway|food truck|sandwich|burger|crepe|crêpe|kebab|pizza takeout|deli|coffee|café|cafe|patisserie|gelato|ice cream|glace/.test(c) || (c==='restaurant' && p==='€')){
+    return 'quick';
+  }
+  // Gastro: starred, fine dining, very expensive
+  if(/gastro|gastronom|fine dining|haute cuisine|étoil|michelin/.test(c) || p==='€€€€'){
+    return 'gastro';
+  }
+  // Sitdown: nice restaurant, sit-down, mid-range to expensive
+  if(p==='€€€' || /french restaurant|italian restaurant|seafood|fine|chef/.test(c)){
+    return 'sitdown';
+  }
+  // Casual: bistro, brasserie, trattoria, pizza, casual restaurant
+  return 'casual';
+}
+
+function setMealType(t){
+  fMeal=t;
+  ['All','Quick','Casual','Sitdown','Gastro'].forEach(function(n){
+    var el=document.getElementById('m'+n);
+    if(el){var active=t===n.toLowerCase();el.classList.toggle('on',active)}
+  });
+  rebuildCG(function(){return true});
+  var cEl=document.getElementById('iCarousel');if(cEl)cEl.style.display='none';
+  if(typeof updateCarousel==='function')setTimeout(updateCarousel,100);
+  if(listViewMode)renderExploreList();
+}
+
+function mealMatch(r){
+  if(fMeal==='all') return true;
+  return getMealType(r)===fMeal;
+}
 
 function esc(s){return s?s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'):''}
 function ea(s){return s?s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"').replace(/\n/g,'\\n').replace(/\r/g,'\\r').replace(/`/g,'\\`'):''}
@@ -312,6 +370,7 @@ function boot(){
 
   initMap();
   setSource('both'); // Initialize source filter button states
+  setMealType('all'); // Initialize meal type filter
   go('explore');
   var el;
   el=document.getElementById('iMapQ');if(el){
@@ -616,6 +675,27 @@ function openResto(id){
           '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">Recommandé par <span class="text-gold font-bold">'+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span></h3></div>'+
           '<div class="flex gap-5 overflow-x-auto noscroll px-5 pb-2">'+recs+'</div>'+
         '</section>':'')+
+      // Top dishes section (from Google reviews analysis)
+      ((r.top_dishes&&r.top_dishes.length>0)?
+        '<section class="px-5 mt-8"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">🍽️ A goûter</h3>'+
+        '<div class="flex flex-wrap gap-2">'+
+        r.top_dishes.map(function(d){return '<span class="px-3 py-1.5 bg-gradient-to-br from-gold/15 to-[#ffa534]/15 border border-gold/30 rounded-full text-xs font-medium capitalize">'+esc(d)+'</span>'}).join('')+
+        '</div><p class="text-[10px] text-outline mt-2">Plats les plus cités dans les avis récents</p></section>':'')+
+      // Top qualities section
+      ((r.top_qualities&&r.top_qualities.length>0)?
+        '<section class="px-5 mt-6"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">✨ Points forts</h3>'+
+        '<div class="flex flex-wrap gap-2">'+
+        r.top_qualities.map(function(q){
+          var icons={'Service':'room_service','Cadre':'landscape','Décoration':'palette','Ambiance':'sentiment_satisfied','Cuisine':'restaurant','Qualité-prix':'savings','Vins':'wine_bar'};
+          return '<span class="px-3 py-1.5 bg-surface-high border border-outline-var/20 rounded-full text-xs font-medium flex items-center gap-1.5"><span class="icon text-gold text-base">'+(icons[q]||'star')+'</span>'+esc(q)+'</span>'
+        }).join('')+
+        '</div></section>':'')+
+      // Photos from reviews (gallery)
+      ((r.review_photos&&r.review_photos.length>0)?
+        '<section class="mt-8"><div class="px-5 mb-3"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold">📸 Photos récentes</h3></div>'+
+        '<div class="flex gap-2 overflow-x-auto noscroll px-5 pb-2">'+
+        r.review_photos.map(function(p){return '<div onclick="openPhoto(\''+esc(p)+'\')" class="flex-shrink-0 w-32 h-32 rounded-2xl overflow-hidden cursor-pointer active:scale-95 transition-transform"><img src="'+esc(p)+'" class="w-full h-full object-cover" loading="lazy"/></div>'}).join('')+
+        '</div></section>':'')+
       (r.top_recent_quotes&&r.top_recent_quotes.length>0?
         '<section class="mt-10 bg-surface-low py-8">'+
           '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">🔥 Avis Google <span class="text-[#ffa534] font-bold">récents</span></h3></div>'+
@@ -726,7 +806,15 @@ function initMap(){
   map.addLayer(CG);
 
   var cto=null;
-  map.on('moveend zoomend',function(){clearTimeout(cto);cto=setTimeout(updateCarousel,300)});
+  map.on('moveend zoomend',function(){
+    clearTimeout(cto);
+    cto=setTimeout(function(){
+      updateCarousel();
+      updateToggleVisibility();
+      if(listViewMode) renderExploreList();
+    },300);
+  });
+  map.on('zoomend', updateToggleVisibility);
   map.on('click',function(){document.getElementById('iCarousel').style.display='none'});
   // Initial carousel after map is ready
   setTimeout(updateCarousel,500);
@@ -766,7 +854,7 @@ function chipCity(btn){
 
 var RMap={};// id->restaurant lookup, built once
 function ensureRMap(){if(Object.keys(RMap).length!==R.length){RMap={};R.forEach(function(r){RMap[r.id]=r})}}
-function rebuildCG(fn){ensureRMap();CG.clearLayers();for(var id in MK){var r=RMap[id];if(r&&fn(r)&&sourceMatch(r))CG.addLayer(MK[id])}}
+function rebuildCG(fn){ensureRMap();CG.clearLayers();for(var id in MK){var r=RMap[id];if(r&&fn(r)&&sourceMatch(r)&&mealMatch(r))CG.addLayer(MK[id])}}
 
 // Source filter (chefs/trending/both)
 function sourceMatch(r){
@@ -775,6 +863,81 @@ function sourceMatch(r){
   if(fSource==='chef') return src==='chef'||src==='both';
   if(fSource==='trending') return src==='trending'||src==='both';
   return true;
+}
+
+// Photo lightbox
+function openPhoto(url){
+  var existing = document.getElementById('photoLightbox');
+  if(existing) existing.remove();
+  var lb = document.createElement('div');
+  lb.id = 'photoLightbox';
+  lb.style.cssText = 'position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.95);display:flex;align-items:center;justify-content:center;cursor:pointer';
+  lb.innerHTML = '<img src="'+url+'" style="max-width:95vw;max-height:95vh;object-fit:contain"/><button style="position:absolute;top:calc(20px + var(--st));right:20px;background:rgba(255,255,255,.2);border:none;border-radius:50%;width:40px;height:40px;color:white;font-size:24px;cursor:pointer">×</button>';
+  lb.onclick = function(){ lb.remove() };
+  document.body.appendChild(lb);
+}
+
+// Toggle Map/List view (Airbnb-style)
+var listViewMode = false;
+function toggleMapList(){
+  listViewMode = !listViewMode;
+  var listEl = document.getElementById('exploreList');
+  var carousel = document.getElementById('iCarousel');
+  var btnLbl = document.getElementById('iViewToggleLbl');
+  var btnIc = document.getElementById('iViewToggle');
+  if(listViewMode){
+    listEl.style.display = 'block';
+    if(carousel) carousel.style.display = 'none';
+    if(btnLbl) btnLbl.textContent = 'Carte';
+    if(btnIc) btnIc.textContent = 'map';
+    renderExploreList();
+  } else {
+    listEl.style.display = 'none';
+    if(btnLbl) btnLbl.textContent = 'Liste';
+    if(btnIc) btnIc.textContent = 'list';
+    if(typeof updateCarousel==='function') setTimeout(updateCarousel, 100);
+  }
+}
+
+function renderExploreList(){
+  var listEl = document.getElementById('exploreListCards');
+  if(!listEl||!map) return;
+  var b = map.getBounds();
+  var visible = R.filter(function(r){
+    if(!r.coordinates||!r.coordinates.lat) return false;
+    if(!sourceMatch(r)) return false;
+    if(!MK[r.id]||!CG.hasLayer(MK[r.id])) return false;
+    return b.contains([r.coordinates.lat, r.coordinates.lng]);
+  });
+  visible.sort(function(a,b){
+    // Sort: chef recos first, then by score
+    var aBoth = a.source_type==='both' ? 2 : (a.source_type==='chef' ? 1 : 0);
+    var bBoth = b.source_type==='both' ? 2 : (b.source_type==='chef' ? 1 : 0);
+    if(bBoth !== aBoth) return bBoth - aBoth;
+    return (b.confidence_score||0) - (a.confidence_score||0);
+  });
+  if(!visible.length){
+    listEl.innerHTML = '<div class="text-center pt-12"><span class="icon text-outline/40 text-[48px]">map</span><p class="text-outline text-sm mt-2">Aucun restaurant dans cette zone</p><p class="text-outline/60 text-xs mt-1">Dézoome ou bouge la carte</p></div>';
+    return;
+  }
+  var html = '<p class="text-xs text-outline mb-3">'+visible.length+' restaurant'+(visible.length>1?'s':'')+' dans cette zone</p>';
+  visible.forEach(function(r){
+    var src = r.source_type||'chef';
+    var img = r.photo_url ? '<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>' : '<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[28px] text-outline/30">restaurant</span></div>';
+    var srcBadge = '';
+    if(src==='trending') srcBadge = '<span class="text-[9px] font-bold text-[#ff8a3d] uppercase">🔥 '+(r.google_rating||'')+'★</span>';
+    else if(src==='both') srcBadge = '<span class="text-[9px] font-bold text-gold uppercase">👨‍🍳🔥 '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span>';
+    else srcBadge = '<span class="text-[9px] font-bold text-gold uppercase">👨‍🍳 '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span>';
+    html += '<div onclick="openResto(\''+ea(r.id)+'\')" class="bg-surface-low rounded-2xl overflow-hidden flex cursor-pointer active:scale-[.98] transition-transform border border-outline-var/5">'+
+      '<div class="w-24 h-24 flex-shrink-0">'+img+'</div>'+
+      '<div class="flex-1 p-3 min-w-0">'+
+        '<h3 class="font-headline font-bold text-sm truncate">'+esc(r.name)+'</h3>'+
+        '<p class="text-[10px] text-outline uppercase tracking-wider truncate mt-0.5">'+esc(r.cuisine_type||'Restaurant')+' · '+esc(r.price_range||'€€')+'</p>'+
+        '<div class="mt-2 flex items-center gap-2">'+srcBadge+'</div>'+
+      '</div>'+
+    '</div>';
+  });
+  listEl.innerHTML = html;
 }
 
 function setSource(s){
@@ -790,9 +953,20 @@ function setSource(s){
   var cEl=document.getElementById('iCarousel');if(cEl)cEl.style.display='none';
   // Refresh carousel
   if(typeof updateCarousel==='function')setTimeout(updateCarousel,100);
+  // Refresh list view if active
+  if(listViewMode)renderExploreList();
   // Refresh discover/chefs lists if open
   if(curView==='discover')renderList();
   if(curView==='chefs')renderChefs();
+}
+
+// Show map/list toggle button when zoomed enough or after search/geoloc
+function updateToggleVisibility(){
+  var btn = document.getElementById('btnViewToggle');
+  if(!btn||!map) return;
+  var z = map.getZoom();
+  // Show the toggle when zoomed close enough to see specific neighborhood
+  btn.style.display = z >= 11 ? 'block' : 'none';
 }
 
 function onMapQ(e){
@@ -880,6 +1054,9 @@ function updateCarousel(){
   vis.sort(function(a,b){return(b.confidence_score||0)-(a.confidence_score||0)});
   vis=vis.slice(0,30);
 
+  // Remember currently focused restaurant ID before potential rebuild
+  var currentFocusId = (cVis && cVis[cIdx]) ? cVis[cIdx].id : null;
+
   // Check if content actually changed
   var newIds=vis.map(function(r){return r.id}).join(',');
   if(newIds===cLastIds){return} // same cards, don't rebuild
@@ -917,7 +1094,25 @@ function updateCarousel(){
       },150);
     },{passive:true});
   }
-  // Highlight first
+  // Restore scroll position to the previously focused restaurant
+  if(currentFocusId && sc){
+    var newIdx = -1;
+    for(var i=0;i<vis.length;i++){if(vis[i].id===currentFocusId){newIdx=i;break}}
+    if(newIdx>=0){
+      cIdx = newIdx;
+      // Scroll to that card without triggering snap
+      cScrollLock = true;
+      var card = sc.children[newIdx];
+      if(card){
+        var cardLeft = card.offsetLeft - sc.offsetLeft - (sc.offsetWidth - card.offsetWidth) / 2;
+        sc.scrollLeft = Math.max(0, cardLeft); // instant, no animation
+      }
+      setTimeout(function(){cScrollLock=false}, 100);
+      highlightPin(currentFocusId);
+      return;
+    }
+  }
+  // Default: highlight first
   if(vis.length>0){cIdx=0;highlightPin(vis[0].id)}
 }
 
@@ -939,11 +1134,11 @@ function onCarouselSnap(sc){
   // Highlight pin
   highlightPin(r.id);
 
-  // Zoom + pan to the restaurant (lock carousel so moveend doesn't rebuild)
+  // Pan map smoothly without rebuild
   cScrollLock=true;
-  cLastIds='LOCKED'; // force rebuild after unlock
-  map.setView([r.coordinates.lat,r.coordinates.lng],Math.max(map.getZoom(),15),{animate:true,duration:0.5});
-  setTimeout(function(){cScrollLock=false},800);
+  // Use panTo (no zoom change) to keep current zoom level, no rebuild
+  map.panTo([r.coordinates.lat,r.coordinates.lng],{animate:true,duration:0.4});
+  setTimeout(function(){cScrollLock=false},700);
 }
 
 function showPreview(r){
