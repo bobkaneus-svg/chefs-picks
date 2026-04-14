@@ -881,6 +881,38 @@ function openResto(id){
             return '<span class="px-3 py-1.5 bg-surface-high border border-outline-var/20 rounded-full text-xs font-medium flex items-center gap-1.5"><span class="icon text-gold text-base">'+(icons[q]||'star')+'</span>'+esc(q)+'</span>'
           }).join('')+
           '</div></section>':''))+
+      // 🎯 Pour ta première visite — plats exacts + conseils pratiques (table, timing, résa)
+      ((r.first_visit&&((r.first_visit.order&&r.first_visit.order.length)||(r.first_visit.tips&&r.first_visit.tips.length)))?
+        '<section class="mt-8 mx-5 rounded-2xl bg-gradient-to-br from-[#ff6b3d]/[0.08] via-gold/[0.05] to-transparent border border-gold/20 p-5">'+
+          '<div class="flex items-center gap-2 mb-1">'+
+            '<span class="icon text-gold text-xl">menu_book</span>'+
+            '<h3 class="font-headline font-light text-lg tracking-tight">Pour ta <span class="text-gold font-bold">première visite</span></h3>'+
+          '</div>'+
+          '<p class="text-[10px] text-outline uppercase tracking-wider mb-5">Le bon setup, d\'après les vrais habitués</p>'+
+          // Plats extraits des avis (phrases réelles)
+          ((r.first_visit.order&&r.first_visit.order.length>0)?
+            '<div class="mb-5">'+
+              '<div class="flex items-center gap-1.5 mb-3"><span class="icon text-gold text-base">restaurant_menu</span><h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var">Commande ça</h4></div>'+
+              '<div class="space-y-2.5">'+
+              r.first_visit.order.map(function(o){
+                return '<div class="serif text-[14px] leading-snug text-on-surface italic py-2.5 px-3.5 bg-surface-high/50 rounded-lg border-l-2 border-gold">"'+esc(o)+'"</div>'
+              }).join('')+
+              '</div>'+
+            '</div>':'')+
+          // Conseils pratiques
+          ((r.first_visit.tips&&r.first_visit.tips.length>0)?
+            '<div>'+
+              '<div class="flex items-center gap-1.5 mb-3"><span class="icon text-gold text-base">tips_and_updates</span><h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var">Le bon plan</h4></div>'+
+              '<div class="space-y-1.5">'+
+              r.first_visit.tips.map(function(t){
+                return '<div class="flex items-start gap-2.5 py-2 px-3 bg-surface-high/40 rounded-lg">'+
+                  '<span class="text-base flex-shrink-0">'+esc(t.icon)+'</span>'+
+                  '<span class="text-sm text-on-surface flex-1 leading-snug">'+esc(t.text)+'</span>'+
+                '</div>'
+              }).join('')+
+              '</div>'+
+            '</div>':'')+
+        '</section>':'')+
       // Photos from reviews (gallery)
       ((r.review_photos&&r.review_photos.length>0)?
         '<section class="mt-8"><div class="px-5 mb-3"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold">📸 Photos récentes</h3></div>'+

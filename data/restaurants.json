@@ -33297,7 +33297,12 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "first_visit": {
+      "order": [
+        "Extremely immaculate restaurant I enjoyed wonderful bottle of orange juice, cappuccino, prosciutto and burrata crepe with a creative salad on the side"
+      ]
+    }
   },
   {
     "id": "picnic-antibes-antibes",
@@ -33373,7 +33378,12 @@
         "kind": "experience",
         "mentions": 7
       }
-    ]
+    ],
+    "first_visit": {
+      "order": [
+        "J’ai pris une salade sans gluten, elle était incroyable, et la"
+      ]
+    }
   },
   {
     "id": "oli-bar-cadaqu-s",
@@ -33505,7 +33515,15 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🎨 Une cuisine créative qui surprend"
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "👥",
+          "text": "Viens en petit comité, le lieu est intime"
+        }
+      ]
+    }
   },
   {
     "id": "restaurant-norai-cadaqu-s",
@@ -33573,7 +33591,15 @@
         "kind": "experience",
         "mentions": 1
       }
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "📞",
+          "text": "Réserve plusieurs jours à l'avance, c'est souvent complet"
+        }
+      ]
+    }
   },
   {
     "id": "le-migrainier-antibes",
@@ -33744,7 +33770,18 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "first_visit": {
+      "order": [
+        "The atmosphere is lovely (small, cozy, candle lit) the food is very afforadable and delicious: I ordered the octopus pasta for 14 euros and it was a surprisi…"
+      ],
+      "tips": [
+        {
+          "icon": "👥",
+          "text": "Viens en petit comité, le lieu est intime"
+        }
+      ]
+    }
   },
   {
     "id": "restaurant-la-cafeti-re-f-l-e-antibes",
@@ -33867,7 +33904,12 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQnJBzxqfuG1YBpPbULw_NJMGUAPqjaHKq62-wxXufNG8mogZyk1qFmLqL13aMB2KHsbqW5QEKooaycX5kQ5svF3kigD5wzzE0tOpDkKN_ksCj3Td-i3ZURYBYTkIjXwOzbDTNfYcnUKcg",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lERXBa2ZbptTo_tpJqbT5AJvjI_UYn8PX8XUjJyVqHztLkh4E4v9zk3XAR3-lr7fSsW6T3dg_iizeTcwMxsjz5xx6qlaEAnHUb-UkKTKjN4Fs6gt01ZtfNQv0rYsxG9bNu_kacDXq8YzxeoA"
     ],
-    "vibes": []
+    "vibes": [],
+    "first_visit": {
+      "order": [
+        "We ordered some croquetas to start (all of them delicious - couldnt decide which one was best - jamon, gorgonzola or chicken)"
+      ]
+    }
   },
   {
     "id": "la-taille-de-gu-pe-antibes",
@@ -34151,7 +34193,15 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🎨 Une cuisine créative qui surprend"
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "👥",
+          "text": "Viens en petit comité, le lieu est intime"
+        }
+      ]
+    }
   },
   {
     "id": "bistrot-du-coin-antibes",
@@ -34839,7 +34889,15 @@
     ],
     "vibes": [
       "🎉 Une ambiance qui rend la soirée magique"
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "👥",
+          "text": "Viens en petit comité, le lieu est intime"
+        }
+      ]
+    }
   },
   {
     "id": "la-pescheria-antibes",
@@ -35626,7 +35684,15 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "💰",
+          "text": "Reste raisonnable, le rapport qualité-prix est excellent"
+        }
+      ]
+    }
   },
   {
     "id": "restaurant-nord-est-cadaqu-s",
@@ -36165,7 +36231,15 @@
         "kind": "experience",
         "mentions": 1
       }
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "🍞",
+          "text": "Garde de la place pour le pain maison"
+        }
+      ]
+    }
   },
   {
     "id": "parthenopi-cannes",
@@ -36534,7 +36608,12 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
-    ]
+    ],
+    "first_visit": {
+      "order": [
+        "Nous avons pris le veau à partager en plat : il était délicieux"
+      ]
+    }
   },
   {
     "id": "arcada-bordeaux",
@@ -36896,7 +36975,18 @@
         "kind": "dish",
         "mentions": 1
       }
-    ]
+    ],
+    "first_visit": {
+      "order": [
+        "Concept intéressant pour découvrir différentes saveurs, nous avons apprécié tout ce que nous avons commandé et mention particulière pour les desserts divins …"
+      ],
+      "tips": [
+        {
+          "icon": "🍰",
+          "text": "Ne pars pas sans un dessert"
+        }
+      ]
+    }
   },
   {
     "id": "le-bistro-du-panier-marseille",
@@ -37109,7 +37199,15 @@
     ],
     "vibes": [
       "🎉 Une ambiance qui rend la soirée magique"
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "👥",
+          "text": "Viens en petit comité, le lieu est intime"
+        }
+      ]
+    }
   },
   {
     "id": "restaurant-circle-lyon",
@@ -37160,7 +37258,18 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🍷 Une carte des vins qui fait voyager"
-    ]
+    ],
+    "first_visit": {
+      "order": [
+        "Tout était excellent, deux des plats font partie des meilleures choses que j’ai mangées dans ma vie"
+      ],
+      "tips": [
+        {
+          "icon": "🍷",
+          "text": "Fais-toi conseiller sur les accords mets & vins"
+        }
+      ]
+    }
   },
   {
     "id": "restaurant-le-mus-e-lyon",
@@ -37207,7 +37316,15 @@
         "text": "Nous étions très bien sur notre petite terrasse, sauf.... les clients qui sortent de la salle  pour fumer dehors juste à côté de nous....",
         "author": "Ghislaine Montloin"
       }
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "💰",
+          "text": "Reste raisonnable, le rapport qualité-prix est excellent"
+        }
+      ]
+    }
   },
   {
     "id": "regain-restaurant-lyon-lyon",
@@ -37364,7 +37481,15 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🍷 Une carte des vins qui fait voyager"
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "🍷",
+          "text": "Fais-toi conseiller sur les accords mets & vins"
+        }
+      ]
+    }
   },
   {
     "id": "la-petite-rose-des-sables-paris",
@@ -37422,7 +37547,15 @@
         "kind": "experience",
         "mentions": 3
       }
-    ]
+    ],
+    "first_visit": {
+      "tips": [
+        {
+          "icon": "👥",
+          "text": "Viens en petit comité, le lieu est intime"
+        }
+      ]
+    }
   },
   {
     "id": "baguette-restaurant-paris",
@@ -37487,7 +37620,18 @@
         "kind": "experience",
         "mentions": 1
       }
-    ]
+    ],
+    "first_visit": {
+      "order": [
+        "Pour deux, nous avons pris 4 plats à partager (risotto, champignons, tataki de bœuf et poulet), absolument délicieux"
+      ],
+      "tips": [
+        {
+          "icon": "👥",
+          "text": "Viens en petit comité, le lieu est intime"
+        }
+      ]
+    }
   },
   {
     "id": "upstairs-bistro-paris-paris",
