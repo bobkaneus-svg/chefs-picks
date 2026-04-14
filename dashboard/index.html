@@ -91,6 +91,27 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 .meal-btn.on{background:#e8a838;color:#281800;border-color:#e8a838}
 .meal-btn:hover:not(.on){background:rgba(232,168,56,.15);color:#ffc66b}
 
+/* Filters bottom sheet (Airbnb-style) */
+.filters-fab{position:relative;display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:12px;background:rgba(232,168,56,.12);border:1px solid rgba(232,168,56,.25);color:#ffc66b;transition:.2s;cursor:pointer;flex-shrink:0}
+.filters-fab:active{transform:scale(.92)}
+.filters-fab.has-active{background:#e8a838;color:#281800;border-color:#e8a838}
+.filters-fab .fab-badge{position:absolute;top:-4px;right:-4px;min-width:16px;height:16px;padding:0 4px;border-radius:8px;background:#ff6b3d;color:#fff;font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center;border:2px solid #131313;font-family:Manrope}
+.filters-fab.has-active .fab-badge{background:#131313;color:#ffc66b;border-color:#e8a838}
+
+.sheet-backdrop{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.55);backdrop-filter:blur(4px);opacity:0;pointer-events:none;transition:opacity .25s ease}
+.sheet-backdrop.on{opacity:1;pointer-events:auto}
+.filters-sheet{position:fixed;left:0;right:0;bottom:0;z-index:61;background:rgba(19,19,19,.98);backdrop-filter:blur(22px);border-top-left-radius:24px;border-top-right-radius:24px;border-top:1px solid rgba(232,168,56,.12);box-shadow:0 -20px 50px rgba(0,0,0,.6);transform:translateY(100%);transition:transform .3s cubic-bezier(.2,.9,.25,1);padding:8px 20px calc(24px + var(--sb));max-height:85dvh;overflow-y:auto}
+.filters-sheet.on{transform:translateY(0)}
+.sheet-grab{width:40px;height:4px;background:rgba(157,142,124,.35);border-radius:2px;margin:8px auto 16px}
+.sheet-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+.sheet-title h3{font-family:'Plus Jakarta Sans';font-weight:700;font-size:18px;color:#e5e2e1}
+.sheet-title button{color:#9d8e7c;font-size:12px;text-transform:uppercase;letter-spacing:.8px;font-weight:600;padding:6px 10px;border-radius:8px}
+.sheet-title button:active{background:rgba(232,168,56,.1);color:#ffc66b}
+.sheet-section{margin-bottom:22px}
+.sheet-section h4{font-family:Manrope;font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:#9d8e7c;font-weight:700;margin-bottom:10px}
+.sheet-done{width:100%;padding:14px;background:#e8a838;color:#281800;border-radius:14px;font-weight:800;text-transform:uppercase;letter-spacing:1px;font-size:13px;margin-top:8px}
+.sheet-done:active{transform:scale(.98)}
+
 /* Cluster */
 .marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background:rgba(19,19,19,.8)!important;border:2px solid rgba(232,168,56,.4)!important;box-shadow:0 0 20px rgba(232,168,56,.25)}
 .marker-cluster-small div,.marker-cluster-medium div,.marker-cluster-large div{background:#e8a838!important;color:#281800!important;font-family:Manrope!important;font-weight:700!important;font-size:13px!important}
@@ -166,31 +187,62 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 
 <!-- Explore overlays (OUTSIDE view to avoid fixed-in-scrollable bug in mobile WebViews) -->
 <div id="exploreUI" class="fixed inset-0 z-30 pointer-events-none" style="display:block">
-  <!-- Search with autocomplete -->
+  <!-- Compact top bar: search + filters button (Airbnb-style) -->
   <div class="pointer-events-auto" style="position:fixed;top:calc(12px + var(--st));left:0;right:0;z-index:35;padding:0 12px">
-    <div class="flex items-center bg-surface-high/80 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 mb-2">
-      <span class="icon text-outline pl-3 pr-2 text-xl">search</span>
-      <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label" placeholder="Ville, chef, restaurant..." autocomplete="off"/>
-      <button id="btnSearchGo" onclick="confirmSearch()" class="px-3 py-1.5 bg-gold rounded-xl text-gold-dark text-xs font-bold mr-1 uppercase tracking-wider" style="display:none">Go</button>
-      <button id="btnSearchClear" onclick="clearSearch()" class="p-2 text-outline mr-1" style="display:none"><span class="icon text-xl">close</span></button>
+    <div class="flex items-center gap-2">
+      <div class="flex items-center bg-surface-high/80 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 flex-1 min-w-0">
+        <span class="icon text-outline pl-3 pr-2 text-xl">search</span>
+        <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label min-w-0" placeholder="Ville, chef, restaurant..." autocomplete="off"/>
+        <button id="btnSearchGo" onclick="confirmSearch()" class="px-3 py-1.5 bg-gold rounded-xl text-gold-dark text-xs font-bold mr-1 uppercase tracking-wider" style="display:none">Go</button>
+        <button id="btnSearchClear" onclick="clearSearch()" class="p-2 text-outline mr-1" style="display:none"><span class="icon text-xl">close</span></button>
+      </div>
+      <button id="btnFilters" onclick="openFiltersSheet()" class="filters-fab shadow-2xl" aria-label="Filtres">
+        <span class="icon text-[20px]">tune</span>
+        <span id="filtersBadge" class="fab-badge" style="display:none">0</span>
+      </button>
     </div>
     <!-- Autocomplete suggestions -->
-    <div id="iSuggestions" class="bg-surface-high/95 backdrop-blur-xl rounded-2xl border border-outline-var/10 overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,.5)]" style="display:none;max-height:420px;overflow-y:auto"></div>
+    <div id="iSuggestions" class="bg-surface-high/95 backdrop-blur-xl rounded-2xl border border-outline-var/10 overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,.5)] mt-2" style="display:none;max-height:420px;overflow-y:auto"></div>
+  </div>
+
+  <!-- Filters bottom sheet -->
+  <div id="filtersBackdrop" class="sheet-backdrop" onclick="closeFiltersSheet()"></div>
+  <div id="filtersSheet" class="filters-sheet pointer-events-auto">
+    <div class="sheet-grab"></div>
+    <div class="sheet-title">
+      <h3>Filtres</h3>
+      <button onclick="resetFilters()">Réinitialiser</button>
+    </div>
+
     <!-- Source filter: Chefs / Trending / Both -->
-    <div class="flex gap-1.5 bg-surface-high/80 backdrop-blur-xl rounded-full p-1 border border-outline-var/10 mb-2 w-fit">
-      <button id="fBoth" onclick="setSource('both')" class="src-btn px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">Tout</button>
-      <button id="fChef" onclick="setSource('chef')" class="src-btn px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">👨‍🍳 Chefs</button>
-      <button id="fTrending" onclick="setSource('trending')" class="src-btn px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">🔥 Trending</button>
+    <div class="sheet-section">
+      <h4>Source</h4>
+      <div class="flex gap-1.5 bg-surface-high/60 rounded-full p-1 border border-outline-var/10 w-fit">
+        <button id="fBoth" onclick="setSource('both')" class="src-btn px-4 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider">Tout</button>
+        <button id="fChef" onclick="setSource('chef')" class="src-btn px-4 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider">👨‍🍳 Chefs</button>
+        <button id="fTrending" onclick="setSource('trending')" class="src-btn px-4 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider">🔥 Trending</button>
+      </div>
     </div>
-    <!-- Meal type filter: Quick / Casual / Sit-down -->
-    <div class="flex gap-1.5 overflow-x-auto noscroll pb-1 mb-1">
-      <button id="mAll" onclick="setMealType('all')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">Tous</button>
-      <button id="mQuick" onclick="setMealType('quick')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">⚡ Sur le pouce</button>
-      <button id="mCasual" onclick="setMealType('casual')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">🍕 Casual</button>
-      <button id="mSitdown" onclick="setMealType('sitdown')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">🍷 À table</button>
-      <button id="mGastro" onclick="setMealType('gastro')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">✨ Gastronomique</button>
+
+    <!-- Meal type filter -->
+    <div class="sheet-section">
+      <h4>Type de repas</h4>
+      <div class="flex gap-1.5 flex-wrap">
+        <button id="mAll" onclick="setMealType('all')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">Tous</button>
+        <button id="mQuick" onclick="setMealType('quick')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">⚡ Sur le pouce</button>
+        <button id="mCasual" onclick="setMealType('casual')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">🍕 Casual</button>
+        <button id="mSitdown" onclick="setMealType('sitdown')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">🍷 À table</button>
+        <button id="mGastro" onclick="setMealType('gastro')" class="meal-btn px-3 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">✨ Gastronomique</button>
+      </div>
     </div>
-    <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1"></div>
+
+    <!-- City chips -->
+    <div class="sheet-section">
+      <h4>Villes populaires</h4>
+      <div id="iMapChips" class="flex gap-2 flex-wrap"></div>
+    </div>
+
+    <button class="sheet-done" onclick="closeFiltersSheet()">Voir les résultats</button>
   </div>
   <!-- Carousel -->
   <div id="iCarousel" class="pointer-events-auto" style="position:fixed;left:0;right:0;z-index:35;bottom:calc(82px + var(--sb));padding:0 8px;display:none"></div>
@@ -208,7 +260,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
     </button>
   </div>
   <!-- List view overlay (toggled) -->
-  <div id="exploreList" class="pointer-events-auto" style="position:fixed;left:0;right:0;top:calc(160px + var(--st));bottom:calc(70px + var(--sb));z-index:34;background:#131313;overflow-y:auto;padding:0 16px 16px;display:none">
+  <div id="exploreList" class="pointer-events-auto" style="position:fixed;left:0;right:0;top:calc(72px + var(--st));bottom:calc(70px + var(--sb));z-index:34;background:#131313;overflow-y:auto;padding:0 16px 16px;display:none">
     <div class="space-y-3 pt-2" id="exploreListCards"></div>
   </div>
 </div>
@@ -348,6 +400,7 @@ function setMealType(t){
   var cEl=document.getElementById('iCarousel');if(cEl)cEl.style.display='none';
   if(typeof updateCarousel==='function')setTimeout(updateCarousel,100);
   if(listViewMode)renderExploreList();
+  if(typeof updateFiltersBadge==='function') updateFiltersBadge();
 }
 
 function mealMatch(r){
@@ -697,15 +750,29 @@ function openResto(id){
         '<div class="flex flex-wrap gap-2">'+
         r.top_dishes.map(function(d){return '<span class="px-3 py-1.5 bg-gradient-to-br from-gold/15 to-[#ffa534]/15 border border-gold/30 rounded-full text-xs font-medium capitalize">'+esc(d)+'</span>'}).join('')+
         '</div><p class="text-[10px] text-outline mt-2">Plats les plus cités dans les avis récents</p></section>':'')+
-      // Top qualities section
-      ((r.top_qualities&&r.top_qualities.length>0)?
-        '<section class="px-5 mt-6"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">✨ Points forts</h3>'+
-        '<div class="flex flex-wrap gap-2">'+
-        r.top_qualities.map(function(q){
-          var icons={'Service':'room_service','Cadre':'landscape','Décoration':'palette','Ambiance':'sentiment_satisfied','Cuisine':'restaurant','Qualité-prix':'savings','Vins':'wine_bar'};
-          return '<span class="px-3 py-1.5 bg-surface-high border border-outline-var/20 rounded-full text-xs font-medium flex items-center gap-1.5"><span class="icon text-gold text-base">'+(icons[q]||'star')+'</span>'+esc(q)+'</span>'
-        }).join('')+
-        '</div></section>':'')+
+      // Vibes section — le conseiller culinaire parle (humanisé)
+      ((r.vibes&&r.vibes.length>0)?
+        '<section class="px-5 mt-8">'+
+          '<div class="flex items-center gap-2 mb-4">'+
+            '<span class="icon text-gold text-lg">auto_awesome</span>'+
+            '<h3 class="font-headline font-light text-lg tracking-tight">Pourquoi on <span class="text-gold font-bold">adore</span></h3>'+
+          '</div>'+
+          '<div class="space-y-2.5">'+
+          r.vibes.map(function(v){
+            return '<div class="serif text-[15px] leading-snug text-on-surface py-3 px-4 bg-gradient-to-r from-gold/[0.08] to-transparent border-l-2 border-gold/60 rounded-r-lg">'+esc(v)+'</div>'
+          }).join('')+
+          '</div>'+
+        '</section>'
+        :
+        // Fallback: anciens top_qualities si pas encore de vibes
+        ((r.top_qualities&&r.top_qualities.length>0)?
+          '<section class="px-5 mt-6"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">✨ Points forts</h3>'+
+          '<div class="flex flex-wrap gap-2">'+
+          r.top_qualities.map(function(q){
+            var icons={'Service':'room_service','Cadre':'landscape','Décoration':'palette','Ambiance':'sentiment_satisfied','Cuisine':'restaurant','Qualité-prix':'savings','Vins':'wine_bar'};
+            return '<span class="px-3 py-1.5 bg-surface-high border border-outline-var/20 rounded-full text-xs font-medium flex items-center gap-1.5"><span class="icon text-gold text-base">'+(icons[q]||'star')+'</span>'+esc(q)+'</span>'
+          }).join('')+
+          '</div></section>':''))+
       // Photos from reviews (gallery)
       ((r.review_photos&&r.review_photos.length>0)?
         '<section class="mt-8"><div class="px-5 mb-3"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold">📸 Photos récentes</h3></div>'+
@@ -866,6 +933,7 @@ function chipCity(btn){
     if(pts.length)map.fitBounds(L.latLngBounds(pts),{padding:[80,80],maxZoom:15});
   }
   document.getElementById('iCarousel').style.display='none';
+  if(typeof updateFiltersBadge==='function') updateFiltersBadge();
 }
 
 var RMap={};// id->restaurant lookup, built once
@@ -944,11 +1012,13 @@ function renderExploreList(){
     if(src==='trending') srcBadge = '<span class="text-[9px] font-bold text-[#ff8a3d] uppercase">🔥 '+(r.google_rating||'')+'★</span>';
     else if(src==='both') srcBadge = '<span class="text-[9px] font-bold text-gold uppercase">👨‍🍳🔥 '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span>';
     else srcBadge = '<span class="text-[9px] font-bold text-gold uppercase">👨‍🍳 '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span>';
+    var vibeTeaser = (r.vibes&&r.vibes.length>0) ? '<p class="serif text-[11px] text-on-surface-var/90 truncate mt-1 italic">'+esc(r.vibes[0])+'</p>' : '';
     html += '<div onclick="openResto(\''+ea(r.id)+'\')" class="bg-surface-low rounded-2xl overflow-hidden flex cursor-pointer active:scale-[.98] transition-transform border border-outline-var/5">'+
       '<div class="w-24 h-24 flex-shrink-0">'+img+'</div>'+
       '<div class="flex-1 p-3 min-w-0">'+
         '<h3 class="font-headline font-bold text-sm truncate">'+esc(r.name)+'</h3>'+
         '<p class="text-[10px] text-outline uppercase tracking-wider truncate mt-0.5">'+esc(r.cuisine_type||'Restaurant')+' · '+esc(r.price_range||'€€')+'</p>'+
+        vibeTeaser+
         '<div class="mt-2 flex items-center gap-2">'+srcBadge+'</div>'+
       '</div>'+
     '</div>';
@@ -974,6 +1044,49 @@ function setSource(s){
   // Refresh discover/chefs lists if open
   if(curView==='discover')renderList();
   if(curView==='chefs')renderChefs();
+  updateFiltersBadge();
+}
+
+// ══════════════════════════════════
+// FILTERS BOTTOM SHEET
+// ══════════════════════════════════
+function openFiltersSheet(){
+  var bd=document.getElementById('filtersBackdrop');
+  var sh=document.getElementById('filtersSheet');
+  if(bd)bd.classList.add('on');
+  if(sh)sh.classList.add('on');
+}
+function closeFiltersSheet(){
+  var bd=document.getElementById('filtersBackdrop');
+  var sh=document.getElementById('filtersSheet');
+  if(bd)bd.classList.remove('on');
+  if(sh)sh.classList.remove('on');
+}
+function resetFilters(){
+  setSource('both');
+  setMealType('all');
+  // Clear active city chip
+  var activeChip=document.querySelector('#iMapChips .chip.bg-gold');
+  if(activeChip) chipCity(activeChip);
+  updateFiltersBadge();
+}
+function updateFiltersBadge(){
+  var count=0;
+  if(typeof fSource!=='undefined' && fSource && fSource!=='both') count++;
+  if(typeof fMeal!=='undefined' && fMeal && fMeal!=='all') count++;
+  var activeChip=document.querySelector('#iMapChips .chip.bg-gold');
+  if(activeChip) count++;
+  var fab=document.getElementById('btnFilters');
+  var badge=document.getElementById('filtersBadge');
+  if(!fab||!badge) return;
+  if(count>0){
+    fab.classList.add('has-active');
+    badge.style.display='flex';
+    badge.textContent=count;
+  } else {
+    fab.classList.remove('has-active');
+    badge.style.display='none';
+  }
 }
 
 // Show map/list toggle button when zoomed enough or after search/geoloc
