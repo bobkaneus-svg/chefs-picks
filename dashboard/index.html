@@ -102,6 +102,10 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 .pin-trend .ps{width:3px;height:10px;background:#ff6b3d}
 .pin-both .pc{background:linear-gradient(135deg,#e8a838,#ff6b3d);color:#fff;border:3px solid #131313;box-shadow:0 0 22px rgba(255,140,50,.6)}
 .pin-both .ps{width:3px;height:10px;background:#ff8a3d}
+.pin-trend-cluster .pc{background:linear-gradient(135deg,#ff6b3d,#ffa534);color:#fff;border:3px solid #131313;font-weight:800;box-shadow:0 0 22px rgba(255,107,61,.5)}
+.pin-trend-cluster .ps{width:3px;height:10px;background:#ff6b3d}
+.pin-mix-cluster .pc{background:linear-gradient(135deg,#e8a838,#ff6b3d);color:#fff;border:3px solid #131313;font-weight:800;box-shadow:0 0 22px rgba(255,140,50,.6)}
+.pin-mix-cluster .ps{width:3px;height:10px;background:#ff8a3d}
 
 /* Source filter buttons */
 .src-btn{color:#9d8e7c;background:transparent;transition:.2s}
@@ -985,7 +989,18 @@ function initMap(){
 
   CG=L.markerClusterGroup({maxClusterRadius:40,showCoverageOnHover:false,zoomToBoundsOnClick:true,disableClusteringAtZoom:15,
     iconCreateFunction:function(cl){
-      var n=cl.getChildCount(),sz=n>20?52:n>5?44:36,c=n>20?'pin-h':n>5?'pin-w':'pin-c';
+      var n=cl.getChildCount(),sz=n>20?52:n>5?44:36;
+      // Compte les trending dans le cluster pour choisir le style
+      var kids=cl.getAllChildMarkers(),nTrend=0,nBoth=0;
+      for(var i=0;i<kids.length;i++){
+        var s=kids[i].options.srcType;
+        if(s==='trending')nTrend++;
+        else if(s==='both')nBoth++;
+      }
+      var c;
+      if(nTrend+nBoth===kids.length && nTrend>0){c='pin-trend-cluster'} // 100% trending
+      else if(nTrend+nBoth>kids.length*0.5){c='pin-mix-cluster'} // majorité trending
+      else c=n>20?'pin-h':n>5?'pin-w':'pin-c';
       return L.divIcon({className:'',html:'<div class="pin '+c+'"><div class="pc" style="width:'+sz+'px;height:'+sz+'px"><span>'+n+'</span></div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]})
     }
   });
@@ -1007,7 +1022,7 @@ function initMap(){
       content=String(n);
     }
     var ic=L.divIcon({className:'',html:'<div class="pin '+cls+'"><div class="pc" style="width:'+sz+'px;height:'+sz+'px">'+content+'</div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]});
-    var m=L.marker([r.coordinates.lat,r.coordinates.lng],{icon:ic});
+    var m=L.marker([r.coordinates.lat,r.coordinates.lng],{icon:ic,srcType:src});
     m.on('click',function(e){L.DomEvent.stopPropagation(e);showPreview(r)});
     MK[r.id]=m;CG.addLayer(m);
   });
