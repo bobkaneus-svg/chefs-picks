@@ -744,27 +744,63 @@ function openResto(id){
           '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">Recommandé par <span class="text-gold font-bold">'+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span></h3></div>'+
           '<div class="flex gap-5 overflow-x-auto noscroll px-5 pb-2">'+recs+'</div>'+
         '</section>':'')+
-      // Top dishes section (from Google reviews analysis)
-      ((r.top_dishes&&r.top_dishes.length>0)?
+      // Top dishes legacy — affiché uniquement si pas de must_try (sinon redondant)
+      ((!r.must_try&&r.top_dishes&&r.top_dishes.length>0)?
         '<section class="px-5 mt-8"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">🍽️ A goûter</h3>'+
         '<div class="flex flex-wrap gap-2">'+
         r.top_dishes.map(function(d){return '<span class="px-3 py-1.5 bg-gradient-to-br from-gold/15 to-[#ffa534]/15 border border-gold/30 rounded-full text-xs font-medium capitalize">'+esc(d)+'</span>'}).join('')+
         '</div><p class="text-[10px] text-outline mt-2">Plats les plus cités dans les avis récents</p></section>':'')+
-      // Vibes section — le conseiller culinaire parle (humanisé)
-      ((r.vibes&&r.vibes.length>0)?
+      // Pourquoi on adore — vibes + must_try extraits des derniers avis
+      ((r.vibes&&r.vibes.length>0)||(r.must_try&&r.must_try.length>0)?
         '<section class="px-5 mt-8">'+
-          '<div class="flex items-center gap-2 mb-4">'+
+          '<div class="flex items-center gap-2 mb-1">'+
             '<span class="icon text-gold text-lg">auto_awesome</span>'+
             '<h3 class="font-headline font-light text-lg tracking-tight">Pourquoi on <span class="text-gold font-bold">adore</span></h3>'+
           '</div>'+
-          '<div class="space-y-2.5">'+
-          r.vibes.map(function(v){
-            return '<div class="serif text-[15px] leading-snug text-on-surface py-3 px-4 bg-gradient-to-r from-gold/[0.08] to-transparent border-l-2 border-gold/60 rounded-r-lg">'+esc(v)+'</div>'
-          }).join('')+
-          '</div>'+
+          '<p class="text-[10px] text-outline uppercase tracking-wider mb-4">D\'après les derniers avis Google</p>'+
+          // Vibes éditorialisées
+          ((r.vibes&&r.vibes.length>0)?
+            '<div class="space-y-2.5 mb-5">'+
+            r.vibes.map(function(v){
+              return '<div class="serif text-[15px] leading-snug text-on-surface py-3 px-4 bg-gradient-to-r from-gold/[0.08] to-transparent border-l-2 border-gold/60 rounded-r-lg">'+esc(v)+'</div>'
+            }).join('')+
+            '</div>':'')+
+          // Must-try : plats + expériences extraits des avis
+          ((r.must_try&&r.must_try.length>0)?
+            (function(){
+              var dishes=r.must_try.filter(function(m){return m.kind==='dish'});
+              var exps=r.must_try.filter(function(m){return m.kind==='experience'});
+              var out='';
+              if(dishes.length>0){
+                out+='<div class="mb-4">'+
+                  '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">restaurant_menu</span>À goûter absolument</h4>'+
+                  '<div class="flex flex-wrap gap-2">'+
+                  dishes.map(function(m){
+                    return '<span class="px-3 py-2 bg-gradient-to-br from-gold/15 to-[#ffa534]/10 border border-gold/30 rounded-xl text-sm font-medium flex items-center gap-1.5">'+
+                      '<span class="text-base">'+esc(m.icon)+'</span>'+esc(m.label)+
+                      (m.mentions>1?'<span class="text-[10px] text-gold/80 font-bold ml-0.5">×'+m.mentions+'</span>':'')+
+                    '</span>'
+                  }).join('')+
+                  '</div></div>';
+              }
+              if(exps.length>0){
+                out+='<div class="mb-2">'+
+                  '<h4 class="font-headline font-semibold text-xs uppercase tracking-wider text-on-surface-var mb-2.5 flex items-center gap-1.5"><span class="icon text-gold text-base">stars</span>À ne pas rater</h4>'+
+                  '<div class="space-y-1.5">'+
+                  exps.map(function(m){
+                    return '<div class="flex items-start gap-2.5 py-2 px-3 bg-surface-high/60 rounded-lg border border-outline-var/10">'+
+                      '<span class="text-base flex-shrink-0">'+esc(m.icon)+'</span>'+
+                      '<span class="text-sm text-on-surface flex-1">'+esc(m.label)+'</span>'+
+                    '</div>'
+                  }).join('')+
+                  '</div></div>';
+              }
+              return out;
+            })()
+          :'')+
         '</section>'
-        :
-        // Fallback: anciens top_qualities si pas encore de vibes
+      :
+        // Fallback : anciens top_qualities si pas de vibes ni de must_try
         ((r.top_qualities&&r.top_qualities.length>0)?
           '<section class="px-5 mt-6"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">✨ Points forts</h3>'+
           '<div class="flex flex-wrap gap-2">'+

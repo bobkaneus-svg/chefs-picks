@@ -6053,6 +6053,14 @@
     ],
     "vibes": [
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -6131,6 +6139,26 @@
     ],
     "vibes": [
       "🤗 Un accueil comme à la maison"
+    ],
+    "must_try": [
+      {
+        "icon": "🍝",
+        "label": "Spaghetti aux fruits de mer",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🥩",
+        "label": "Filet de bœuf",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🥗",
+        "label": "Les options sans gluten / végé",
+        "kind": "experience",
+        "mentions": 2
+      }
     ]
   },
   {
@@ -14154,6 +14182,20 @@
       "🎨 Une cuisine créative qui surprend",
       "🐟 Des produits ultra-frais, choisis avec soin",
       "🍷 Une carte des vins qui fait voyager"
+    ],
+    "must_try": [
+      {
+        "icon": "🍷",
+        "label": "La carte des vins naturels",
+        "kind": "experience",
+        "mentions": 1
+      },
+      {
+        "icon": "🥗",
+        "label": "Les options sans gluten / végé",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -34030,6 +34072,14 @@
     ],
     "vibes": [
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "🧀",
+        "label": "Burrata",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -34098,6 +34148,14 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "must_try": [
+      {
+        "icon": "🥗",
+        "label": "Les options sans gluten / végé",
+        "kind": "experience",
+        "mentions": 7
+      }
     ]
   },
   {
@@ -34290,6 +34348,14 @@
     ],
     "vibes": [
       "🤗 Un accueil chaleureux comme à la maison"
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -34359,6 +34425,20 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🎨 Une cuisine créative qui surprend"
+    ],
+    "must_try": [
+      {
+        "icon": "🥩",
+        "label": "Black Angus",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🎶",
+        "label": "L'ambiance musicale",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -34427,6 +34507,26 @@
       "🌟 Une vraie pépite à découvrir",
       "🎉 Une ambiance qui rend la soirée magique",
       "💕 L'endroit parfait pour un dîner à deux"
+    ],
+    "must_try": [
+      {
+        "icon": "🐙",
+        "label": "Poulpe",
+        "kind": "dish",
+        "mentions": 3
+      },
+      {
+        "icon": "🇮🇹",
+        "label": "Tiramisu",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🐠",
+        "label": "Ceviche",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -34755,6 +34855,20 @@
     "vibes": [
       "🐟 Des produits ultra-frais, choisis avec soin",
       "🍷 Une carte des vins qui fait voyager"
+    ],
+    "must_try": [
+      {
+        "icon": "🍷",
+        "label": "La sélection de vins",
+        "kind": "experience",
+        "mentions": 1
+      },
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -35290,6 +35404,20 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "must_try": [
+      {
+        "icon": "🧀",
+        "label": "Mozzarella",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🇮🇹",
+        "label": "Tiramisu",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -35423,6 +35551,14 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "🫒",
+        "label": "Tapas",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -35625,6 +35761,14 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🤗 Un accueil chaleureux comme à la maison"
+    ],
+    "must_try": [
+      {
+        "icon": "🦐",
+        "label": "Crevettes",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -35689,7 +35833,15 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lETiC04UxPuMSCIyErOs-aHWevJNuuW2A8ghqUv2T9UMiH5TdRj-ZDA2zqC3SrxQfIOi9EM96DhIPyBBlBGgTBNzorjxi7pe4BCa1ks7klr_C8G_TP3RyoqhNzqjPZa72dwRlfa_wL3MeYXd",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lETafQ8kKUjcUAM_59wloIPFG-h56uK-AM7sQsI1Rb76UgHNjXQgCxMrw4o4kiABNYqArBDiGZ0QcgYrYt6eiaSHAJnmYt2nv6Q0XOnB0REuWlNs66zxSxoRECB2WGCysDKZoC-rA7FYrYgG"
     ],
-    "vibes": []
+    "vibes": [],
+    "must_try": [
+      {
+        "icon": "🫒",
+        "label": "Tapas",
+        "kind": "dish",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "pasta-e-basta-antibes-antibes",
@@ -35757,6 +35909,14 @@
     ],
     "vibes": [
       "🐟 Des produits ultra-frais, choisis avec soin"
+    ],
+    "must_try": [
+      {
+        "icon": "🇮🇹",
+        "label": "Tiramisu",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -35940,7 +36100,15 @@
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lESwPjS8OgOk4-QKIimVMRyphXJVIcbZlQDrQQu4_YVM8bPy031CqKHKPf8KZgN8bFFS-QhjPMmUvuK4tWJLJNFULiBvb5OGdPOaDCxE36dOR1iTX2hjIqMOrBGfcac_yRE1cMIUP9fiy4BY",
       "https://lh3.googleusercontent.com/geougc-cs/AMG9lESG-nt2H_cG9awJ6JuE-nM-vmQXTe4PlCl9hvf9rDRSah2574nbdLvPeI28h19ejG-edmosHUvRxtEapVPaHv2j7HoSC6gUGRT2Iv6-RS0pQLKIElI8XO3rsi9AZuj5_ZryBGfggL2aHZXO"
     ],
-    "vibes": []
+    "vibes": [],
+    "must_try": [
+      {
+        "icon": "🇮🇹",
+        "label": "Risotto",
+        "kind": "dish",
+        "mentions": 1
+      }
+    ]
   },
   {
     "id": "lua-cadaqu-s-cadaqu-s",
@@ -36064,6 +36232,14 @@
     "review_photos": [],
     "vibes": [
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "🍖",
+        "label": "Agneau",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -36132,6 +36308,32 @@
     "vibes": [
       "🤗 Un accueil chaleureux comme à la maison",
       "🐟 Des produits ultra-frais, choisis avec soin"
+    ],
+    "must_try": [
+      {
+        "icon": "🍕",
+        "label": "Pizza",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🐙",
+        "label": "Poulpe",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🦑",
+        "label": "Calamars",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🫒",
+        "label": "Mezze",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -36199,6 +36401,14 @@
     ],
     "vibes": [
       "💎 Un rapport qualité-prix imbattable"
+    ],
+    "must_try": [
+      {
+        "icon": "🍝",
+        "label": "Gnocchi",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -36325,6 +36535,14 @@
     ],
     "vibes": [
       "🤗 Un accueil chaleureux comme à la maison"
+    ],
+    "must_try": [
+      {
+        "icon": "🦐",
+        "label": "Crevettes",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -36397,6 +36615,14 @@
     "vibes": [
       "🤗 Un accueil chaleureux comme à la maison",
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "🐠",
+        "label": "Ceviche",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -36708,6 +36934,20 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "💎 Un rapport qualité-prix imbattable"
+    ],
+    "must_try": [
+      {
+        "icon": "🥖",
+        "label": "Pain maison",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🍞",
+        "label": "Le pain maison",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -36808,6 +37048,14 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "must_try": [
+      {
+        "icon": "🍖",
+        "label": "Agneau",
+        "kind": "dish",
+        "mentions": 2
+      }
     ]
   },
   {
@@ -36859,6 +37107,14 @@
     "vibes": [
       "🎨 Une cuisine créative qui surprend",
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "🍸",
+        "label": "Les cocktails maison",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -37209,6 +37465,14 @@
         "text": "I have to say this experience was beyond incredible. The wine, the food, the clear personal connection the guy had to what he is serving is worth reserving and going. It’s clear he puts so much time into choosing the wines and preparing the food. It’",
         "author": "Justin Levy"
       }
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -37408,6 +37672,14 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 2
+      }
     ]
   },
   {
@@ -37557,6 +37829,20 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🐟 Des produits ultra-frais, choisis avec soin"
+    ],
+    "must_try": [
+      {
+        "icon": "🦐",
+        "label": "Crevettes",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "🫒",
+        "label": "Tapas",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -37603,6 +37889,14 @@
         "stars": 5,
         "text": "Ho pranzato in questo locale durante un weekend a Marsiglia. Hamburger con combinazioni tipiche (io ho preso quello con il roquefort) veramente ottimi, posizione comodissima e personale molto gentile. Consigliatissimo",
         "author": "Eleonora Pagani"
+      }
+    ],
+    "must_try": [
+      {
+        "icon": "🍔",
+        "label": "Burger",
+        "kind": "dish",
+        "mentions": 3
       }
     ]
   },
@@ -37654,6 +37948,14 @@
     ],
     "vibes": [
       "🍷 Une carte des vins qui fait voyager"
+    ],
+    "must_try": [
+      {
+        "icon": "🍷",
+        "label": "La sélection de vins",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -37754,6 +38056,20 @@
     ],
     "vibes": [
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "🍔",
+        "label": "Burger",
+        "kind": "dish",
+        "mentions": 3
+      },
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 3
+      }
     ]
   },
   {
@@ -38047,6 +38363,14 @@
         "text": "Amazing burgers from a gas station grill. The burgers are big and the fries are crisp. Not really much space to eat there so to go is best.",
         "author": "David Vann"
       }
+    ],
+    "must_try": [
+      {
+        "icon": "🍔",
+        "label": "Burger",
+        "kind": "dish",
+        "mentions": 9
+      }
     ]
   },
   {
@@ -38192,6 +38516,14 @@
         "text": "Repas improvisé chez Monsieur P… Quelle claque !\nQue ce soit dans l’assiette, le service ou le style du restaurant, tout est un 20/20 sans aucune hésitation.\nLa qualité des produits est remarquable et l’assemblage des saveurs est parfaitement maîtris",
         "author": "singre louis"
       }
+    ],
+    "must_try": [
+      {
+        "icon": "🍷",
+        "label": "La sélection de vins",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -38293,6 +38625,14 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 3
+      }
     ]
   },
   {
@@ -38344,6 +38684,20 @@
     "vibes": [
       "🎉 Une ambiance qui rend la soirée magique",
       "🔥 Des petits plats à partager qu'on s'arrache"
+    ],
+    "must_try": [
+      {
+        "icon": "🇮🇹",
+        "label": "Risotto",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -38394,6 +38748,20 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "must_try": [
+      {
+        "icon": "🦐",
+        "label": "Crevettes",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -38440,6 +38808,14 @@
         "stars": 5,
         "text": "Nadir is a generous and welcoming host who makes this my favorite spot in the morning. The croissants and every pastry is mindblowing. I went for the pesto tomato croissant and it was amazing. Then I tried a sweet everyday and also amazing. Must visi",
         "author": "Grace Rector"
+      }
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
       }
     ]
   },
@@ -38538,6 +38914,14 @@
         "text": "5/5 pour Maison Brochettes ! J'ai fêté mon anniversaire avec tous mes amis en privatisation le restaurant ! Le buffet etait genial, les serveur trop sympas. On a pu mettre notre propre playlist, c'était top top top !!",
         "author": "Emmanuel Pascaud"
       }
+    ],
+    "must_try": [
+      {
+        "icon": "🫒",
+        "label": "Tapas",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -38585,6 +38969,14 @@
         "text": "We had very good pho here. They serve both wide and thin noodles which is a plus, and they use high quality ingredients. The restaurant was clean and the presentation was nice. Very good value for the price, too.",
         "author": "Darren Xu"
       }
+    ],
+    "must_try": [
+      {
+        "icon": "🍜",
+        "label": "Pho",
+        "kind": "dish",
+        "mentions": 2
+      }
     ]
   },
   {
@@ -38631,6 +39023,14 @@
         "stars": 5,
         "text": "The most exquisite meal I've had in years.  Refinement and simplicity combined to perfection. The excellence of the duck breast in raspberry glaze cannot be described. Ideal wine pairings. And the atmosphere is also marvelous, elegant but not modern.",
         "author": "Tim Parise"
+      }
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
       }
     ]
   },
@@ -38733,6 +39133,14 @@
     "vibes": [
       "🌟 Une vraie pépite à découvrir",
       "🎉 Une ambiance qui rend la soirée magique"
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 2
+      }
     ]
   },
   {
@@ -38783,6 +39191,20 @@
     ],
     "vibes": [
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "🍔",
+        "label": "Burger",
+        "kind": "dish",
+        "mentions": 1
+      },
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -38881,6 +39303,14 @@
     "vibes": [
       "🏡 Une cuisine locale qui raconte le terroir",
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -38975,6 +39405,14 @@
         "text": "This is the best pizza and pasta italian!!!👍",
         "author": "Gian luigi Melis"
       }
+    ],
+    "must_try": [
+      {
+        "icon": "🍕",
+        "label": "Pizza",
+        "kind": "dish",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -39021,6 +39459,14 @@
         "stars": 5,
         "text": "Wir waren sehr begeistert! Eine wirklich sehr gute Küche mit ein paar landestypischen bayrischen Spezialitäten. Das Bier natürlich auch erstklassig! Service sehr zuvorkommend und freundlich, alles in allem - ein gelungener Abend. Wir kommen definitiv",
         "author": "Marcus Dupuis"
+      }
+    ],
+    "must_try": [
+      {
+        "icon": "🥗",
+        "label": "Les options sans gluten / végé",
+        "kind": "experience",
+        "mentions": 4
       }
     ]
   },
@@ -39119,6 +39565,20 @@
     ],
     "vibes": [
       "🌟 Une vraie pépite à découvrir"
+    ],
+    "must_try": [
+      {
+        "icon": "🦪",
+        "label": "Huîtres",
+        "kind": "dish",
+        "mentions": 2
+      },
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -39165,6 +39625,14 @@
         "stars": 5,
         "text": "Our 3rd time to dine. Love the relaxing atmosphere and delicious meal. We were there last night meeting friends that we have not seen in some time. So nice to relax, enjoy a meal without feeling rushed like most restaurants. They understand people co",
         "author": "B C"
+      }
+    ],
+    "must_try": [
+      {
+        "icon": "🫒",
+        "label": "Mezze",
+        "kind": "dish",
+        "mentions": 1
       }
     ]
   },
@@ -39216,6 +39684,14 @@
     ],
     "vibes": [
       "🐟 Des produits ultra-frais, choisis avec soin"
+    ],
+    "must_try": [
+      {
+        "icon": "🦪",
+        "label": "Huîtres",
+        "kind": "dish",
+        "mentions": 2
+      }
     ]
   },
   {
@@ -39263,6 +39739,20 @@
         "text": "If you make a reservation then you will be hosted in the dining area with fixed menu.\nIf you walk in, you can sit in the lounge and bar area which is a first come first serve basis. They also have some tables in this area.\nStaff were super friendly a",
         "author": "Kasra"
       }
+    ],
+    "must_try": [
+      {
+        "icon": "🍷",
+        "label": "La sélection de vins",
+        "kind": "experience",
+        "mentions": 1
+      },
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
+      }
     ]
   },
   {
@@ -39309,6 +39799,14 @@
         "stars": 5,
         "text": "We've visited Trestle on several of our San Francisco trips in the past 10 years or s, including a visit when it relocated to The Vault. It has offered a consistently good overall experience,  with fantastic food (how do they manage to make everythin",
         "author": "simon L"
+      }
+    ],
+    "must_try": [
+      {
+        "icon": "📅",
+        "label": "Réserver à l'avance (très demandé)",
+        "kind": "experience",
+        "mentions": 1
       }
     ]
   },
@@ -39360,6 +39858,14 @@
     ],
     "vibes": [
       "✨ Un moment d'exception à vivre absolument"
+    ],
+    "must_try": [
+      {
+        "icon": "🥗",
+        "label": "Les options sans gluten / végé",
+        "kind": "experience",
+        "mentions": 2
+      }
     ]
   }
 ]
