@@ -75,6 +75,16 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 .pin-w .ps{width:2px;height:8px;background:rgba(232,168,56,.4)}
 .pin-c .pc{background:#2a2a2a;color:#9d8e7c;border:2px solid #353534}
 .pin-c .ps{width:2px;height:6px;background:#353534}
+/* Trending pins - fire red/orange gradient (distinct from gold chef pins) */
+.pin-trend .pc{background:linear-gradient(135deg,#ff6b3d,#ffa534);color:#fff;border:3px solid #131313;box-shadow:0 0 20px rgba(255,107,61,.5)}
+.pin-trend .ps{width:3px;height:10px;background:#ff6b3d}
+.pin-both .pc{background:linear-gradient(135deg,#e8a838,#ff6b3d);color:#fff;border:3px solid #131313;box-shadow:0 0 22px rgba(255,140,50,.6)}
+.pin-both .ps{width:3px;height:10px;background:#ff8a3d}
+
+/* Source filter buttons */
+.src-btn{color:#9d8e7c;background:transparent;transition:.2s}
+.src-btn.on{background:#e8a838;color:#281800}
+.src-btn:hover:not(.on){background:rgba(232,168,56,.15);color:#ffc66b}
 
 /* Cluster */
 .marker-cluster-small,.marker-cluster-medium,.marker-cluster-large{background:rgba(19,19,19,.8)!important;border:2px solid rgba(232,168,56,.4)!important;box-shadow:0 0 20px rgba(232,168,56,.25)}
@@ -162,7 +172,13 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
     </div>
     <!-- Autocomplete suggestions -->
     <div id="iSuggestions" class="bg-surface-high/95 backdrop-blur-xl rounded-2xl border border-outline-var/10 overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,.5)]" style="display:none;max-height:420px;overflow-y:auto"></div>
-    <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1 mt-1"></div>
+    <!-- Source filter: Chefs / Trending / Both -->
+    <div class="flex gap-1.5 bg-surface-high/80 backdrop-blur-xl rounded-full p-1 border border-outline-var/10 mb-2 w-fit">
+      <button id="fBoth" onclick="setSource('both')" class="src-btn px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">Tout</button>
+      <button id="fChef" onclick="setSource('chef')" class="src-btn px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">👨‍🍳 Chefs</button>
+      <button id="fTrending" onclick="setSource('trending')" class="src-btn px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider">🔥 Trending</button>
+    </div>
+    <div id="iMapChips" class="flex gap-2 overflow-x-auto noscroll pb-1"></div>
   </div>
   <!-- Carousel -->
   <div id="iCarousel" class="pointer-events-auto" style="position:fixed;left:0;right:0;z-index:35;bottom:calc(82px + var(--sb));padding:0 8px;display:none"></div>
@@ -229,29 +245,6 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
   </main>
 </div>
 
-<!-- ═══════ VIEW: TRENDING ═══════ -->
-<div class="view" id="v-trending">
-  <div class="hdr">
-    <span class="icon text-gold cursor-pointer" onclick="toggleDrawer()">menu</span>
-    <span class="text-lg tracking-[.2em] font-light text-gold font-headline uppercase">TRENDING</span>
-    <span class="text-xs text-outline font-label" id="oTrendingN"></span>
-  </div>
-  <main class="scroll-y px-5 overflow-y-auto h-full">
-    <p class="text-on-surface-var text-xs mb-4">Les restaurants les mieux notés récemment, avec des avis vérifiés authentiques.</p>
-    <div class="mb-4">
-      <select id="iTrendingCity" onchange="renderTrending()" class="bg-surface-high border-none rounded-full px-4 py-2 text-sm text-on-surface-var w-full">
-        <option value="">Toutes les villes</option>
-      </select>
-    </div>
-    <div class="space-y-4 pb-4" id="oTrendingCards"></div>
-    <div id="oTrendingEmpty" class="flex flex-col items-center justify-center pt-16 text-center" style="display:none">
-      <span class="icon text-outline/30 text-[56px] mb-3">trending_up</span>
-      <p class="text-outline text-sm">Bientôt disponible pour cette ville</p>
-      <p class="text-outline/50 text-xs mt-1">Les données trending arrivent ville par ville</p>
-    </div>
-  </main>
-</div>
-
 <!-- ═══════ VIEW: SAVED ═══════ -->
 <div class="view" id="v-saved">
   <div class="hdr">
@@ -290,7 +283,6 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 <nav class="bnav">
   <a onclick="go('explore')" data-t="explore" class="on"><span class="icon icon-fill">map</span><span>Explore</span></a>
   <a onclick="go('discover')" data-t="discover"><span class="icon">restaurant</span><span>Discover</span></a>
-  <a onclick="go('trending')" data-t="trending"><span class="icon">trending_up</span><span>Trending</span></a>
   <a onclick="go('chefs')" data-t="chefs"><span class="icon">person_pin</span><span>Chefs</span></a>
   <a onclick="go('saved')" data-t="saved"><span class="icon">bookmark</span><span>Saved</span></a>
 </nav>
@@ -301,7 +293,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
 // ══════════════════════════════════
 // DATA & STATE
 // ══════════════════════════════════
-var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null,geoPulse=null;
+var R=[],map,CG,MK={},curView='explore',sort='score',fCity='',fPrice='',hist=[],favs={},geoMarker=null,geoPulse=null,fSource='both';
 
 function esc(s){return s?s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'):''}
 function ea(s){return s?s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"').replace(/\n/g,'\\n').replace(/\r/g,'\\r').replace(/`/g,'\\`'):''}
@@ -319,7 +311,7 @@ function boot(){
   try{var f=localStorage.getItem('chefspicks_favs');if(f)favs=JSON.parse(f)}catch(e){}
 
   initMap();
-  loadTrending();
+  setSource('both'); // Initialize source filter button states
   go('explore');
   var el;
   el=document.getElementById('iMapQ');if(el){
@@ -528,7 +520,7 @@ function clearSearch(){
 // ══════════════════════════════════
 function go(v){
   if(v!=='detail')document.getElementById('v-detail').classList.remove('on','view-slide');
-  ['explore','discover','chefs','saved','trending'].forEach(function(n){var e=document.getElementById('v-'+n);if(e){e.classList.remove('view-fade-in');e.classList.toggle('on',n===v);if(n===v&&n!=='explore'){e.classList.add('view-fade-in')}}});
+  ['explore','discover','chefs','saved'].forEach(function(n){var e=document.getElementById('v-'+n);if(e){e.classList.remove('view-fade-in');e.classList.toggle('on',n===v);if(n===v&&n!=='explore'){e.classList.add('view-fade-in')}}});
   // Show/hide explore overlays
   var eui=document.getElementById('exploreUI');
   if(eui)eui.style.display=(v==='explore')?'block':'none';
@@ -543,7 +535,6 @@ function go(v){
   if(v==='discover')renderList();
   if(v==='chefs')renderChefs();
   if(v==='saved')renderSaved();
-  if(v==='trending')renderTrending();
   hist=[];
 }
 
@@ -598,14 +589,40 @@ function openResto(id){
         rat+tel+
         '<div class="flex gap-2.5 overflow-x-auto noscroll pt-1">'+tgs+'</div>'+
       '</section>'+
-      '<section class="px-5 mt-8"><div class="about-section"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">A propos</h3><p class="text-on-surface-var text-sm leading-relaxed">'+
-      (function(){var desc=[];if(r.cuisine_type)desc.push('Restaurant '+esc(r.cuisine_type).toLowerCase());if(r.vibe)desc.push(esc(r.vibe).toLowerCase());desc.push(r.price_range);if(r.city)desc.push('a '+esc(r.city));var tagStr='';(r.tags||[]).forEach(function(t,i){if(i<3)tagStr+=(i>0?', ':'')+esc(t)});if(tagStr)desc.push('— '+tagStr);return desc.join(' ')+'.'})()+'</p>'+
-      '<p class="text-outline text-xs mt-3">Recommande par '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+' de renom.</p>'+
-      '</div></section>'+
-      '<section class="mt-10 bg-surface-low py-8">'+
-        '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">Recommandé par <span class="text-gold font-bold">'+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span></h3></div>'+
-        '<div class="flex gap-5 overflow-x-auto noscroll px-5 pb-2">'+recs+'</div>'+
-      '</section>'+
+      (function(){
+        var src=r.source_type||'chef';
+        var out='<section class="px-5 mt-8"><div class="about-section"><h3 class="font-headline font-semibold text-sm uppercase tracking-wider text-gold mb-3">A propos</h3><p class="text-on-surface-var text-sm leading-relaxed">';
+        var desc=[];
+        if(r.cuisine_type)desc.push('Restaurant '+esc(r.cuisine_type).toLowerCase());
+        if(r.vibe)desc.push(esc(r.vibe).toLowerCase());
+        desc.push(r.price_range);
+        if(r.city)desc.push('a '+esc(r.city));
+        var tagStr='';(r.tags||[]).forEach(function(t,i){if(i<3)tagStr+=(i>0?', ':'')+esc(t)});
+        if(tagStr)desc.push('— '+tagStr);
+        out+=desc.join(' ')+'.</p>';
+        // Badge source
+        if(src==='trending'){
+          out+='<div class="mt-4 p-3 rounded-xl bg-gradient-to-br from-[#ff6b3d]/10 to-[#ffa534]/10 border border-[#ff6b3d]/20"><div class="flex items-center gap-2 mb-1"><span class="text-lg">🔥</span><span class="font-bold text-[#ffa534] text-sm">TRENDING GOOGLE</span></div><p class="text-xs text-on-surface-var">Note '+(r.google_rating||'')+'★ sur '+(r.reviews_count_google||0)+' avis. Les avis récents sont majoritairement 5 étoiles.</p></div>';
+        }else if(src==='both'){
+          out+='<div class="mt-4 p-3 rounded-xl bg-gradient-to-br from-gold/10 to-[#ff6b3d]/10 border border-gold/20"><div class="flex items-center gap-2 mb-1"><span class="text-lg">👨‍🍳🔥</span><span class="font-bold text-gold text-sm">CHEF + TRENDING</span></div><p class="text-xs text-on-surface-var">Recommande par '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+' ET validé par les avis Google ('+(r.google_rating||'')+'★).</p></div>';
+        }else{
+          out+='<p class="text-outline text-xs mt-3">Recommande par '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+' de renom.</p>';
+        }
+        out+='</div></section>';
+        return out;
+      })()+
+      (r.recommendations&&r.recommendations.length>0?
+        '<section class="mt-10 bg-surface-low py-8">'+
+          '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">Recommandé par <span class="text-gold font-bold">'+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span></h3></div>'+
+          '<div class="flex gap-5 overflow-x-auto noscroll px-5 pb-2">'+recs+'</div>'+
+        '</section>':'')+
+      (r.top_recent_quotes&&r.top_recent_quotes.length>0?
+        '<section class="mt-10 bg-surface-low py-8">'+
+          '<div class="px-5 mb-5"><h3 class="font-headline font-light text-xl uppercase tracking-tighter">🔥 Avis Google <span class="text-[#ffa534] font-bold">récents</span></h3></div>'+
+          '<div class="flex gap-4 overflow-x-auto noscroll px-5 pb-2">'+
+          r.top_recent_quotes.map(function(q){return '<div class="min-w-[280px] bg-surface-high rounded-2xl p-4 border border-outline-var/5 flex-shrink-0"><div class="flex items-center gap-2 mb-2"><span class="text-gold font-bold">'+(q.stars||'')+'★</span><span class="text-[10px] text-outline">'+esc(q.date||'')+' · '+esc(q.author||'')+'</span></div><p class="text-sm text-on-surface-var leading-relaxed">"'+esc(q.text||'')+'"</p></div>'}).join('')+
+          '</div>'+
+        '</section>':'')+
       '<section class="px-5 mt-10 grid grid-cols-2 gap-3">'+
         '<a href="'+mu+'" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-gradient-to-tr from-gold to-gold-light text-gold-dark font-bold uppercase tracking-widest text-sm active:scale-95 transition-transform shadow-lg"><span class="icon text-xl">directions</span>Y ALLER</a>'+
         '<button onclick="share(\''+ea(r.id)+'\')" class="flex items-center justify-center gap-2 py-3.5 rounded-xl bg-surface-high border border-outline-var/20 font-semibold uppercase tracking-widest text-sm active:scale-95 transition-transform"><span class="icon text-xl">share</span>PARTAGER</button>'+
@@ -687,8 +704,21 @@ function initMap(){
 
   R.forEach(function(r){
     if(!r.coordinates||!r.coordinates.lat||!r.coordinates.lng)return;
-    var n=r.recommendation_count||1,c=n>=3?'pin-h':n>=2?'pin-w':'pin-c',sz=n>=3?48:n>=2?40:32;
-    var ic=L.divIcon({className:'',html:'<div class="pin '+c+'"><div class="pc" style="width:'+sz+'px;height:'+sz+'px"><span>'+n+'</span></div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]});
+    var src=r.source_type||'chef';
+    var n=r.recommendation_count||1;
+    var content, cls, sz;
+    if(src==='trending'){
+      cls='pin-trend'; sz=36;
+      content='<span style="font-size:14px">🔥</span>';
+    }else if(src==='both'){
+      cls='pin-both'; sz=42;
+      content=String(n);
+    }else{
+      cls=n>=3?'pin-h':n>=2?'pin-w':'pin-c';
+      sz=n>=3?48:n>=2?40:32;
+      content=String(n);
+    }
+    var ic=L.divIcon({className:'',html:'<div class="pin '+cls+'"><div class="pc" style="width:'+sz+'px;height:'+sz+'px">'+content+'</div><div class="ps"></div></div>',iconSize:[sz,sz+12],iconAnchor:[sz/2,sz+12]});
     var m=L.marker([r.coordinates.lat,r.coordinates.lng],{icon:ic});
     m.on('click',function(e){L.DomEvent.stopPropagation(e);showPreview(r)});
     MK[r.id]=m;CG.addLayer(m);
@@ -736,7 +766,34 @@ function chipCity(btn){
 
 var RMap={};// id->restaurant lookup, built once
 function ensureRMap(){if(Object.keys(RMap).length!==R.length){RMap={};R.forEach(function(r){RMap[r.id]=r})}}
-function rebuildCG(fn){ensureRMap();CG.clearLayers();for(var id in MK){var r=RMap[id];if(r&&fn(r))CG.addLayer(MK[id])}}
+function rebuildCG(fn){ensureRMap();CG.clearLayers();for(var id in MK){var r=RMap[id];if(r&&fn(r)&&sourceMatch(r))CG.addLayer(MK[id])}}
+
+// Source filter (chefs/trending/both)
+function sourceMatch(r){
+  var src=r.source_type||'chef';
+  if(fSource==='both') return true;
+  if(fSource==='chef') return src==='chef'||src==='both';
+  if(fSource==='trending') return src==='trending'||src==='both';
+  return true;
+}
+
+function setSource(s){
+  fSource=s;
+  // Update button states
+  ['Both','Chef','Trending'].forEach(function(n){
+    var el=document.getElementById('f'+n);
+    if(el){var active=s===n.toLowerCase();el.classList.toggle('on',active)}
+  });
+  // Rebuild map markers
+  rebuildCG(function(){return true});
+  // Close preview
+  var cEl=document.getElementById('iCarousel');if(cEl)cEl.style.display='none';
+  // Refresh carousel
+  if(typeof updateCarousel==='function')setTimeout(updateCarousel,100);
+  // Refresh discover/chefs lists if open
+  if(curView==='discover')renderList();
+  if(curView==='chefs')renderChefs();
+}
 
 function onMapQ(e){
   var q=e.target.value.toLowerCase().trim();
@@ -781,17 +838,26 @@ function highlightPin(id){
 }
 
 function buildCard(r){
+  var src=r.source_type||'chef';
   var img=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[40px] text-outline/30">restaurant</span></div>';
-  var av='';var lm=Math.min(r.recommendations.length,2);
-  for(var i=0;i<lm;i++)av+='<span class="w-6 h-6 rounded-full bg-surface-highest border border-surface-low flex items-center justify-center text-[9px] font-bold text-gold">'+r.recommendations[i].chef_name.charAt(0)+'</span>';
-  if(r.recommendation_count>2)av+='<span class="w-6 h-6 rounded-full bg-gold flex items-center justify-center text-[9px] font-bold text-gold-dark border border-surface-low">+'+(r.recommendation_count-2)+'</span>';
+  var badge='';
+  if(src==='trending'){
+    badge='<div class="mt-2.5 flex items-center gap-2"><span class="text-[13px]">🔥</span><span class="text-[10px] font-bold uppercase" style="color:#ff8a3d">'+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span></div>';
+  } else if(src==='both') {
+    badge='<div class="mt-2.5 flex items-center gap-2"><span class="text-[13px]">👨‍🍳🔥</span><span class="text-[10px] font-bold text-gold uppercase">'+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+' · '+(r.google_rating||'')+'★</span></div>';
+  } else {
+    var av='';var lm=Math.min(r.recommendations.length,2);
+    for(var i=0;i<lm;i++)av+='<span class="w-6 h-6 rounded-full bg-surface-highest border border-surface-low flex items-center justify-center text-[9px] font-bold text-gold">'+r.recommendations[i].chef_name.charAt(0)+'</span>';
+    if(r.recommendation_count>2)av+='<span class="w-6 h-6 rounded-full bg-gold flex items-center justify-center text-[9px] font-bold text-gold-dark border border-surface-low">+'+(r.recommendation_count-2)+'</span>';
+    badge='<div class="mt-2.5 flex items-center gap-2.5"><div class="flex -space-x-1.5">'+av+'</div><span class="text-[10px] font-bold text-gold uppercase">'+r.recommendation_count+' Chef'+(r.recommendation_count>1?'s':'')+'</span></div>';
+  }
   return '<div class="ccard" data-rid="'+esc(r.id)+'" onclick="openResto(\''+ea(r.id)+'\')">'+
     '<div class="bg-surface-low/90 backdrop-blur-2xl rounded-2xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,.5)] border border-outline-var/10 flex cursor-pointer active:scale-[.98] transition-transform">'+
-      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden">'+img+'</div>'+
+      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden relative">'+img+(src==='trending'?'<div class="absolute top-1 right-1 bg-gradient-to-br from-[#ff6b3d] to-[#ffa534] rounded-full w-6 h-6 flex items-center justify-center text-[11px]">🔥</div>':'')+'</div>'+
       '<div class="flex-1 p-4 flex flex-col justify-center min-w-0">'+
         '<h3 class="text-base font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
         '<p class="text-[11px] text-outline uppercase tracking-wider truncate mt-1">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p>'+
-        '<div class="mt-2.5 flex items-center gap-2.5"><div class="flex -space-x-1.5">'+av+'</div><span class="text-[10px] font-bold text-gold uppercase">'+r.recommendation_count+' Chef'+(r.recommendation_count>1?'s':'')+'</span></div>'+
+        badge+
       '</div>'+
     '</div>'+
   '</div>';
@@ -921,6 +987,7 @@ function showPreview(r){
 function renderList(){
   var q=(document.getElementById('iListQ')||{}).value||'';q=q.toLowerCase();
   var d=R.filter(function(r){
+    if(!sourceMatch(r))return false;
     if(fCity&&r.city!==fCity)return false;
     if(fPrice&&r.price_range!==fPrice)return false;
     if(q){var h=[r.name,r.city,r.cuisine_type].concat(r.tags||[]);r.recommendations.forEach(function(c){h.push(c.chef_name)});if(h.join(' ').toLowerCase().indexOf(q)===-1)return false}
