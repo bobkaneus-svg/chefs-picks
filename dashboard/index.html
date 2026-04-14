@@ -241,7 +241,7 @@ display:flex;justify-content:space-around;align-items:center;border-top:1px soli
     <div class="flex items-center gap-2 px-3">
       <div class="flex items-center bg-surface-high/85 backdrop-blur-xl rounded-2xl border border-outline-var/10 shadow-2xl p-1 flex-1 min-w-0">
         <span class="icon text-outline pl-3 pr-2 text-xl">search</span>
-        <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label min-w-0" placeholder="Ville, chef, restaurant..." autocomplete="off"/>
+        <input id="iMapQ" class="bg-transparent border-none outline-none text-on-surface placeholder:text-outline w-full py-2.5 text-sm font-label min-w-0" placeholder="Ville, restaurant, hôtel..." autocomplete="off"/>
         <button id="btnSearchGo" onclick="confirmSearch()" class="px-3 py-1.5 bg-gold rounded-xl text-gold-dark text-xs font-bold mr-1 uppercase tracking-wider" style="display:none">Go</button>
         <button id="btnSearchClear" onclick="clearSearch()" class="p-2 text-outline mr-1" style="display:none"><span class="icon text-xl">close</span></button>
       </div>
@@ -385,7 +385,7 @@ function setEntity(t){
   });
   // Update placeholder
   var inp=document.getElementById('iMapQ');
-  if(inp) inp.placeholder=t==='hotel'?'Ville, hôtel...':'Ville, chef, restaurant...';
+  if(inp) inp.placeholder=t==='hotel'?'Ville, hôtel...':'Ville, restaurant...';
   rebuildCG(function(){return true});
   var cEl=document.getElementById('iCarousel');if(cEl)cEl.style.display='none';
   if(typeof buildChips==='function') buildChips();
@@ -625,11 +625,10 @@ function onSearchInput(e){
 function showSuggestions(q){
   var ql=q.toLowerCase();
   var sg=document.getElementById('iSuggestions');
-  // Collect matching cities, chefs, restaurants
-  var cityMatch={},chefMatch={},restoMatch=[];
+  // Collect matching cities, restaurants (chef suggestions masquées)
+  var cityMatch={},restoMatch=[];
   R.forEach(function(r){
     if(r.city.toLowerCase().indexOf(ql)!==-1)cityMatch[r.city]=(cityMatch[r.city]||0)+1;
-    r.recommendations.forEach(function(c){if(c.chef_name.toLowerCase().indexOf(ql)!==-1)chefMatch[c.chef_name]=c.chef_restaurant||''});
     if(r.name.toLowerCase().indexOf(ql)!==-1)restoMatch.push(r);
   });
   var html='',totalCount=0,maxResults=8;
@@ -639,24 +638,16 @@ function showSuggestions(q){
   if(cityArr.length>0)html+='<div class="px-4 pt-3 pb-1"><span class="text-[9px] text-outline uppercase tracking-widest font-bold">Villes</span></div>';
   cityArr.slice(0,3).forEach(function(c){
     if(totalCount>=maxResults)return;totalCount++;
+    var labelCount = fEntity==='hotel' ? 'hôtels' : 'restos';
     html+='<div onclick="selectSuggestion(\'city\',\''+ea(c[0])+'\')" class="suggest-item">'+
       '<div class="suggest-icon suggest-icon-city"><span class="icon text-gold text-lg">location_city</span></div>'+
       '<div class="flex-1 min-w-0"><p class="text-sm font-semibold truncate">'+esc(c[0])+'</p></div>'+
-      '<span class="text-[11px] text-outline bg-surface-highest px-2 py-0.5 rounded-full">'+c[1]+' restos</span>'+
+      '<span class="text-[11px] text-outline bg-surface-highest px-2 py-0.5 rounded-full">'+c[1]+' '+labelCount+'</span>'+
     '</div>';
   });
-  // Chefs
-  var chefArr=[];for(var c in chefMatch)chefArr.push([c,chefMatch[c]]);
-  if(chefArr.length>0&&totalCount<maxResults)html+='<div class="px-4 pt-3 pb-1"><span class="text-[9px] text-outline uppercase tracking-widest font-bold">Chefs</span></div>';
-  chefArr.slice(0,3).forEach(function(c){
-    if(totalCount>=maxResults)return;totalCount++;
-    html+='<div onclick="selectSuggestion(\'chef\',\''+ea(c[0])+'\')" class="suggest-item">'+
-      '<div class="suggest-icon suggest-icon-chef"><span class="icon text-badge-purple text-lg">person</span></div>'+
-      '<div class="min-w-0"><p class="text-sm font-semibold truncate">'+esc(c[0])+'</p>'+(c[1]?'<p class="text-[10px] text-outline truncate">'+esc(c[1])+'</p>':'')+'</div>'+
-    '</div>';
-  });
-  // Restaurants
-  if(restoMatch.length>0&&totalCount<maxResults)html+='<div class="px-4 pt-3 pb-1"><span class="text-[9px] text-outline uppercase tracking-widest font-bold">Restaurants</span></div>';
+  // Restaurants / hôtels
+  var labelSection = fEntity==='hotel' ? 'Hôtels' : 'Restaurants';
+  if(restoMatch.length>0&&totalCount<maxResults)html+='<div class="px-4 pt-3 pb-1"><span class="text-[9px] text-outline uppercase tracking-widest font-bold">'+labelSection+'</span></div>';
   restoMatch.slice(0,4).forEach(function(r){
     if(totalCount>=maxResults)return;totalCount++;
     html+='<div onclick="selectSuggestion(\'resto\',\''+ea(r.id)+'\')" class="suggest-item">'+
@@ -817,15 +808,11 @@ function openResto(id){
         var tagStr='';(r.tags||[]).forEach(function(t,i){if(i<3)tagStr+=(i>0?', ':'')+esc(t)});
         if(tagStr)desc.push('— '+tagStr);
         out+=desc.join(' ')+'.</p>';
-        // Badge source
+        // Badge source : trending + both sont traités identiquement (la partie chef est masquée pour l'instant)
         if(isH){
           out+='<div class="mt-4 p-3 rounded-xl bg-gradient-to-br from-[#8a7dff]/10 to-[#b0aaff]/10 border border-[#8a7dff]/20"><div class="flex items-center gap-2 mb-1"><span class="text-lg">🏨</span><span class="font-bold text-[#b0aaff] text-sm">HÔTEL TRENDING</span></div><p class="text-xs text-on-surface-var">Note '+(r.google_rating||'')+'★ sur '+(r.reviews_count_google||0)+' avis Google. Sélectionné pour la qualité de ses avis récents.</p></div>';
-        }else if(src==='trending'){
-          out+='<div class="mt-4 p-3 rounded-xl bg-gradient-to-br from-[#ff6b3d]/10 to-[#ffa534]/10 border border-[#ff6b3d]/20"><div class="flex items-center gap-2 mb-1"><span class="text-lg">🔥</span><span class="font-bold text-[#ffa534] text-sm">TRENDING GOOGLE</span></div><p class="text-xs text-on-surface-var">Note '+(r.google_rating||'')+'★ sur '+(r.reviews_count_google||0)+' avis. Les avis récents sont majoritairement 5 étoiles.</p></div>';
-        }else if(src==='both'){
-          out+='<div class="mt-4 p-3 rounded-xl bg-gradient-to-br from-gold/10 to-[#ff6b3d]/10 border border-gold/20"><div class="flex items-center gap-2 mb-1"><span class="text-lg">👨‍🍳🔥</span><span class="font-bold text-gold text-sm">CHEF + TRENDING</span></div><p class="text-xs text-on-surface-var">Recommande par '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+' ET validé par les avis Google ('+(r.google_rating||'')+'★).</p></div>';
         }else{
-          out+='<p class="text-outline text-xs mt-3">Recommande par '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+' de renom.</p>';
+          out+='<div class="mt-4 p-3 rounded-xl bg-gradient-to-br from-[#ff6b3d]/10 to-[#ffa534]/10 border border-[#ff6b3d]/20"><div class="flex items-center gap-2 mb-1"><span class="text-lg">🔥</span><span class="font-bold text-[#ffa534] text-sm">TRENDING GOOGLE</span></div><p class="text-xs text-on-surface-var">Note '+(r.google_rating||'')+'★ sur '+(r.reviews_count_google||0)+' avis. Les avis récents sont majoritairement 5 étoiles.</p></div>';
         }
         out+='</div></section>';
         return out;
@@ -1377,10 +1364,8 @@ function renderExploreList(){
     var fallbackIcon = isH?'hotel':'restaurant';
     var img = r.photo_url ? '<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>' : '<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[28px] text-outline/30">'+fallbackIcon+'</span></div>';
     var srcBadge = '';
-    if(isH) srcBadge = '<span class="text-[9px] font-bold text-[#ff8a3d] uppercase">🏨 '+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span>';
-    else if(src==='trending') srcBadge = '<span class="text-[9px] font-bold text-[#ff8a3d] uppercase">🔥 '+(r.google_rating||'')+'★</span>';
-    else if(src==='both') srcBadge = '<span class="text-[9px] font-bold text-gold uppercase">👨‍🍳🔥 '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span>';
-    else srcBadge = '<span class="text-[9px] font-bold text-gold uppercase">👨‍🍳 '+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+'</span>';
+    if(isH) srcBadge = '<span class="text-[9px] font-bold text-[#b0aaff] uppercase">🏨 '+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span>';
+    else srcBadge = '<span class="text-[9px] font-bold text-[#ff8a3d] uppercase">🔥 '+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span>';
     var vibeTeaser = (r.vibes&&r.vibes.length>0) ? '<p class="serif text-[11px] text-on-surface-var/90 truncate mt-1 italic">'+esc(r.vibes[0])+'</p>' : '';
     html += '<div onclick="openResto(\''+ea(r.id)+'\')" class="bg-surface-low rounded-2xl overflow-hidden flex cursor-pointer active:scale-[.98] transition-transform border border-outline-var/5">'+
       '<div class="w-24 h-24 flex-shrink-0">'+img+'</div>'+
@@ -1516,22 +1501,18 @@ function buildCard(r){
   var isH=isHotel(r);
   var fallbackIcon=isH?'hotel':'restaurant';
   var img=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full bg-surface-high flex items-center justify-center"><span class="icon text-[40px] text-outline/30">'+fallbackIcon+'</span></div>';
+  // Badge unique : hôtel (violet) ou trending (orange) — plus de distinction chef
   var badge='';
   if(isH){
-    badge='<div class="mt-2.5 flex items-center gap-2"><span class="text-[13px]">🏨</span><span class="text-[10px] font-bold uppercase" style="color:#ff8a3d">'+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span></div>';
-  } else if(src==='trending'){
-    badge='<div class="mt-2.5 flex items-center gap-2"><span class="text-[13px]">🔥</span><span class="text-[10px] font-bold uppercase" style="color:#ff8a3d">'+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span></div>';
-  } else if(src==='both') {
-    badge='<div class="mt-2.5 flex items-center gap-2"><span class="text-[13px]">👨‍🍳🔥</span><span class="text-[10px] font-bold text-gold uppercase">'+r.recommendation_count+' chef'+(r.recommendation_count>1?'s':'')+' · '+(r.google_rating||'')+'★</span></div>';
+    badge='<div class="mt-2.5 flex items-center gap-2"><span class="text-[13px]">🏨</span><span class="text-[10px] font-bold uppercase" style="color:#b0aaff">'+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span></div>';
   } else {
-    var av='';var lm=Math.min(r.recommendations.length,2);
-    for(var i=0;i<lm;i++)av+='<span class="w-6 h-6 rounded-full bg-surface-highest border border-surface-low flex items-center justify-center text-[9px] font-bold text-gold">'+r.recommendations[i].chef_name.charAt(0)+'</span>';
-    if(r.recommendation_count>2)av+='<span class="w-6 h-6 rounded-full bg-gold flex items-center justify-center text-[9px] font-bold text-gold-dark border border-surface-low">+'+(r.recommendation_count-2)+'</span>';
-    badge='<div class="mt-2.5 flex items-center gap-2.5"><div class="flex -space-x-1.5">'+av+'</div><span class="text-[10px] font-bold text-gold uppercase">'+r.recommendation_count+' Chef'+(r.recommendation_count>1?'s':'')+'</span></div>';
+    badge='<div class="mt-2.5 flex items-center gap-2"><span class="text-[13px]">🔥</span><span class="text-[10px] font-bold uppercase" style="color:#ff8a3d">'+(r.google_rating||'')+'★ · '+(r.reviews_count_google||0)+' avis</span></div>';
   }
+  var cornerEmoji = isH ? '🏨' : '🔥';
+  var cornerGradient = isH ? 'from-[#8a7dff] to-[#b0aaff]' : 'from-[#ff6b3d] to-[#ffa534]';
   return '<div class="ccard" data-rid="'+esc(r.id)+'" onclick="openResto(\''+ea(r.id)+'\')">'+
     '<div class="bg-surface-low/90 backdrop-blur-2xl rounded-2xl overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,.5)] border border-outline-var/10 flex cursor-pointer active:scale-[.98] transition-transform">'+
-      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden relative">'+img+(src==='trending'?'<div class="absolute top-1 right-1 bg-gradient-to-br from-[#ff6b3d] to-[#ffa534] rounded-full w-6 h-6 flex items-center justify-center text-[11px]">🔥</div>':'')+'</div>'+
+      '<div class="w-28 h-28 flex-shrink-0 overflow-hidden relative">'+img+'<div class="absolute top-1 right-1 bg-gradient-to-br '+cornerGradient+' rounded-full w-6 h-6 flex items-center justify-center text-[11px]">'+cornerEmoji+'</div></div>'+
       '<div class="flex-1 p-4 flex flex-col justify-center min-w-0">'+
         '<h3 class="text-base font-headline font-bold truncate">'+esc(r.name)+'</h3>'+
         '<p class="text-[11px] text-outline uppercase tracking-wider truncate mt-1">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p>'+
@@ -1824,15 +1805,19 @@ function renderSaved(){
   if(!saved.length){if(emptyEl)emptyEl.style.display='flex';if(cardsEl)cardsEl.innerHTML='';return}
   if(emptyEl)emptyEl.style.display='none';
   var h='';saved.forEach(function(r){
-    var img=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full flex items-center justify-center"><span class="icon text-[56px] text-outline/10">restaurant</span></div>';
-    var av='';r.recommendations.slice(0,2).forEach(function(c){av+='<span class="w-7 h-7 rounded-full bg-surface-highest border-2 border-bg flex items-center justify-center text-[9px] font-bold text-gold">'+c.chef_name.charAt(0)+'</span>'});
+    var isH = isHotel(r);
+    var fallbackIcon = isH?'hotel':'restaurant';
+    var img=r.photo_url?'<img src="'+esc(r.photo_url)+'" class="w-full h-full object-cover"/>':'<div class="w-full h-full flex items-center justify-center"><span class="icon text-[56px] text-outline/10">'+fallbackIcon+'</span></div>';
+    var badge = isH
+      ? '<span class="text-[10px] font-bold uppercase" style="color:#b0aaff">🏨 '+(r.google_rating||'')+'★</span>'
+      : '<span class="text-[10px] font-bold uppercase" style="color:#ff8a3d">🔥 '+(r.google_rating||'')+'★</span>';
     h+='<article onclick="openResto(\''+ea(r.id)+'\')" class="cursor-pointer">'+
       '<div class="card-img relative mb-3">'+img+
         '<button class="fav-btn absolute top-3 right-3 w-9 h-9 bg-bg/60 backdrop-blur-md rounded-full flex items-center justify-center" data-id="'+esc(r.id)+'" onclick="event.stopPropagation();toggleFav(\''+ea(r.id)+'\');renderSaved()"><span class="icon text-gold icon-fill text-lg">favorite</span></button>'+
       '</div>'+
       '<div class="flex justify-between items-start">'+
         '<div><h3 class="text-xl font-light font-headline tracking-tight">'+esc(r.name)+'</h3><p class="text-outline text-xs mt-0.5">'+esc(r.city)+' · '+esc(r.cuisine_type)+' · '+esc(r.price_range)+'</p></div>'+
-        '<div class="flex -space-x-2 mt-0.5">'+av+'</div>'+
+        badge+
       '</div>'+
     '</article>';
   });
