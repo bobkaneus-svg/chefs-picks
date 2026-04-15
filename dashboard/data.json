@@ -34414,7 +34414,7 @@
       "business"
     ],
     "editorial_pitch": "L'adresse qu'on garde pour soi. Très bien en famille. Un des mieux notés de la ville.",
-    "editorial_score": 14.644,
+    "editorial_score": 13.371,
     "in_selection": false
   },
   {
@@ -39409,9 +39409,10 @@
         "author": "Björn"
       }
     ],
-    "editorial_pitch": "Notre pick hébergement pour Antibes. Régulièrement plein (163 avis enthousiastes).",
-    "editorial_score": 11.702,
-    "in_selection": false
+    "editorial_pitch": "Notre pick hébergement pour Antibes. On se sent tellement bien chez vous.",
+    "editorial_score": 12.288,
+    "in_selection": false,
+    "signature_phrase": "On se sent tellement bien chez vous"
   },
   {
     "id": "hotel-h-tel-le-petit-castel-antibes",
@@ -40213,6 +40214,443 @@
     ],
     "editorial_pitch": "Notre pick hébergement pour Cannes. On y va même seul·e. Régulièrement plein (179 avis enthousiastes).",
     "editorial_score": 11.892,
+    "in_selection": false
+  },
+  {
+    "id": "le-bouchon-proven-al-saint-raphael",
+    "name": "Le Bouchon Provençal",
+    "address": "59 Rue de la Vieille Église, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.42569,
+      "lng": 6.76912
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 486,
+    "latest_review_date": "2026-04-13",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Bouchon%20Proven%C3%A7al&query_place_id=ChIJm_o9Hu2XzhIRSpP9dq3yRxE",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHs9iinMVgj-iVOFqt0SFJ2JR_wqE3PkQy9UozsccfWmc9PHH1NJiW1TRTPUJnuW60x3zci7GKGMzejidS_nVYQA6vZmx_xWwH9yGmogQXfjJ1iWeuJ-gasfq25VqsjW3NyTopl=w408-h724-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-14",
+        "stars": 5,
+        "text": "Plaisir de trouver une carte réduite qui change toutes les semaines ✌️. Préparation en cuisine par un chef discret,  qui entend tout paraît il 😂, et efficace .Le Risoto et son lapin un vrai plaisir..les autres plats du même accabi !! Il a fallu se ba",
+        "author": "Papet de L'espi P"
+      },
+      {
+        "date": "2026-02-21",
+        "stars": 5,
+        "text": "Un restaurant charmant et chaleureux à l’image de ses propriétaires.\nMonsieur aux fourneaux vous concocte des plats délicats inventifs et généreux, pendant que Madame virevolte entre les tables pour assurer un service joyeux et efficace.\nUn duo de ch",
+        "author": "Beatrice Falcoz"
+      },
+      {
+        "date": "2026-04-13",
+        "stars": 5,
+        "text": "N hésitez  pas...!! On y mange très bien  pour un prix tout à  fait  raisonnable.\nLa \"patronne\" est adorable  et  son sourire et sa bonne humeur rend l'endroit incontournable.\nSurtout réservez...(visite avec ma soeur et chouchou)..bonne continuation ",
+        "author": "Veronique Le Borgne"
+      }
+    ],
+    "editorial_pitch": "On adore cet endroit. Une adresse consensuelle (4.8★).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "la-menara-saint-raphael",
+    "name": "La Menara",
+    "address": "Galerie du Parvis, 170 Bd Félix Martin, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4225424,
+      "lng": 6.7668451
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 313,
+    "latest_review_date": "2026-03-28",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Menara&query_place_id=ChIJIV1GjeuXzhIRx-H9zHE78ck",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFoRSfwYg7BovaubLhsVKKVtfUvWHUV4x1tDyZMD3HiLpuB2Jg1QGTY9x_FuUld6NG5mtZaJ2r7Z-9Y9455mQA32K6tBjin8Od3AhRJW9h9OObBWht8TMK6squvRiI3m_o_2tsc=w408-h271-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-10-24",
+        "stars": 5,
+        "text": "\"Un véritable voyage culinaire ! La Menara mérite amplement ses cinq étoiles. Le couscous Royal est sans conteste l'un des meilleurs que j'aie jamais dégustés : semoule fine, bouillon savoureux, et des viandes d'une tendreté et d'une saveur exception",
+        "author": "Patrick Louis"
+      },
+      {
+        "date": "2026-01-23",
+        "stars": 5,
+        "text": "Un immense merci à Fatiha pour son couscous… une vraie merveille ! 😍\nAvec le temps catastrophique d’aujourd’hui, on a préféré le prendre à emporter, et franchement… ça nous a réchauffé le cœur autant que le ventre. Un pur bonheur, comme toujours …",
+        "author": "Julie"
+      },
+      {
+        "date": "2025-08-15",
+        "stars": 5,
+        "text": "Restaurant familial où on est super bien accueilli depuis des années ! La cuisine est excellente, vraiment le meilleur restaurant marocain qu’on ait fait ! C'est simple, tous nos amis nous demandent d’y revenir quand ils viennent dans le coin.",
+        "author": "milon caroline"
+      }
+    ],
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Très bien en famille. Un des mieux notés de la ville.",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "mamma-mia-ristorante-saint-raphael",
+    "name": "Mamma Mia Ristorante",
+    "address": "123 Rue Amiral Baux, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4232028,
+      "lng": 6.7670513
+    },
+    "cuisine_type": "Italian restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 1225,
+    "latest_review_date": "2026-04-10",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mamma%20Mia%20Ristorante&query_place_id=ChIJ-S4YdeyXzhIRG54xNT6q97M",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGF5BqGkkmDjxUt8f8qUi-CrsDbt7kAyZcDN8nd19BcOoE7AAdtOYNlT50KKcYDiuS-oRh84MN4e8mMPRqFNG67ojp0SUp6hZ9Ol8pTM7SksQzeqP5mKzkRUq49XRor8lywkjlsTw=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-25",
+        "stars": 5,
+        "text": "\"Un cadre chaleureux et accueillant, avec un service impeccable. Chaque plat était savamment préparé, et les pâtes étaient parfaitement al dente, un vrai régal. L'attention portée aux détails, comme les amuse-bouches offerts, montre un véritable soin",
+        "author": "Corinne Lucky"
+      },
+      {
+        "date": "2026-03-14",
+        "stars": 5,
+        "text": "Un lieux suspendu très simple mais chaleureux. Le personnel est accueillant et sympathique. Le meilleur pour la fin une cuisine della Mama équilibré généreuse et raffiné. Gros coup de coeur pour le baba au rhum. Une adresse sûre dans le temps. Merci ",
+        "author": "Jerome Marin"
+      },
+      {
+        "date": "2026-03-30",
+        "stars": 5,
+        "text": "Accueil agréable et très agréable.\nUne cuisine italienne comme si on y était.\nTrès bon moment je le conseil les yeux fermés",
+        "author": "Emmanuel GARNIER"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍝",
+        "phrase": "Les pâtes étaient parfaitement al dente",
+        "mentions": 1
+      }
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Ne ratez pas les pâtes étaient parfaitement al dente.",
+    "editorial_score": 16.691,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "chez-gaston-saint-raphael",
+    "name": "Chez Gaston",
+    "address": "36 Rue Charabois, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4253589,
+      "lng": 6.7682315
+    },
+    "cuisine_type": "Bistro",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 704,
+    "latest_review_date": "2026-04-05",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chez%20Gaston&query_place_id=ChIJqStORFy9zhIRu_cPjZefYOY",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHa8G5irECWOWBbfd6I39VmK8dXWUIev7iyEpy-OeLJwdlMLvULi-4KJ5IBr9UcYh5krAt4Vd9XCVBkKemsg1QPYbEmBQegmree59T2vGm50JQhsCYmievWD3ur5Jk8SJBt5UfN=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-01-10",
+        "stars": 5,
+        "text": "Il existe tant d’adjectifs dans la langue française pour exprimer le bien-être que la cuisine peut procurer, mais ils ne semblent pas encore assez forts. Cela faisait des années que je cherchais un restaurant digne de ce nom — ou devrais-je dire un \"",
+        "author": "Guillaume Zarb"
+      },
+      {
+        "date": "2026-02-10",
+        "stars": 5,
+        "text": "Si vous cherchez une adresse où la cuisine a du sens, courez Chez Gaston. Dès l'arrivée, on sent que l'on va passer un bon moment, mais c'est dans l'assiette que la magie opère vraiment.\nLa fraîcheur absolue : On sent immédiatement que les produits s",
+        "author": "Patrick Louis"
+      },
+      {
+        "date": "2026-03-21",
+        "stars": 5,
+        "text": "Très belle surprise. Endroit où l’on on se sent immédiatement bien.\nLa cuisine est merveilleuse. Elle a du goût, elle est travaillée et généreuse. Le chef, cuisinier lyonnais, reproduit l’esprit des bouchons lyonnais.\nLes profiteroles sont à tomber.\n",
+        "author": "Jean Paul Claustres"
+      }
+    ],
+    "signature_phrase": "Endroit où l’on on se sent immédiatement bien",
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Endroit où l’on on se sent immédiatement bien.",
+    "editorial_score": 16.161,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "l-annexe-saint-raphael",
+    "name": "L'Annexe",
+    "address": "23 Rue Thiers, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4246079,
+      "lng": 6.7664905
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 660,
+    "latest_review_date": "2026-04-07",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=L'Annexe&query_place_id=ChIJkfetPuyXzhIRqdlbw-4bXH0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcrR-Qw30aHRoHPOW15oQgmQscsm2cEMQLUGz6myL0BVf4D-BrfBnjcNaOKYfCLd0Q7nN7NwY28dJVoFPv7nmjiFohbXFlt73kQk0dL9EI53VapgWcqbfdbAd8NhyDh8YM8zfIHw=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-07",
+        "stars": 5,
+        "text": "Je suis passée plusieurs fois devant sans jamais m'arrêter.. sauf ce soir, où j'ai pris le temps de regarder la carte et nous arrêter manger.\nLe repas était excellent (black angus et escalope milanaise), la cuisson, la viande, l'accompagnement, le se",
+        "author": "hélène malfroy"
+      },
+      {
+        "date": "2026-02-19",
+        "stars": 5,
+        "text": "Une expérience forte agréable, des ingrédients au gout plaisant, une préparation pleine de saveur, une mention spéciale pour Nana et Crystal: un service d'un grand professionnalisme doté d'une gentillesse hors du commun. En fait la gentillesse est en",
+        "author": "Pascalus Sailplane RC Glider"
+      },
+      {
+        "date": "2026-01-03",
+        "stars": 5,
+        "text": "Le top! Parfait du début à la fin! Accueil avec le sourire, une carte très sympa. Serveuse dynamique,avec de l 'humour et efficace. Nous conseillons les raviolis en entrée, le persillée de Black angus et sa purée maison et les profiteroles !\nA tester",
+        "author": "Florent Maree"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍝",
+        "phrase": "Nous conseillons les raviolis en entrée",
+        "mentions": 1
+      }
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : nous conseillons les raviolis en entrée.",
+    "editorial_score": 15.24,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "caf-paradis-saint-raphael",
+    "name": "Café Paradis",
+    "address": "56 Av. Général Leclerc, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4266667,
+      "lng": 6.7683333
+    },
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 551,
+    "latest_review_date": "2026-04-08",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Paradis&query_place_id=ChIJJ3xfdO2XzhIRPi-z1bOtWxk",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEtuL6pRG6XdUniFoxZJrN0MYZ9ziU3qgdXko2jqFbWXcyv5w9Q7WEdtKWyPIckmR2zuRIgxKTZmzAq0_N9qbpPbZTixTvHU25RfaeZXhg9DckDV-f7hSDrUw634A3Ul8RU1qolrA=w408-h408-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-11-18",
+        "stars": 5,
+        "text": "Nous avons passé une merveilleuse soirée tout d'abord Une superbe découverte à Saint-Raphaël ! Nous avons été accueillis de manière exceptionnelle par la patronne, Marie, dont la gentillesse et l’attention ont rendu la soirée inoubliable.\n\nNous avons",
+        "author": "La Rivière"
+      },
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "Une adresse tout simplement incontournable ! Pour ma première fois au café paradis, je découvre un endroit cosi, élégant,  chaleureux , où l'on se sent bien dès l'endroit. Nous sommes accueillis par un personnel adorable, par une patronne d'établisse",
+        "author": "Lonnie Guittet"
+      },
+      {
+        "date": "2025-11-11",
+        "stars": 5,
+        "text": "Ce 11 novembre 2025 nous avons été déjeuner dans ce bel établissement.\nUn cadre magnifique, une musique d'ambiance parfaite et un service aux petits soins...\nEn ce qui concerne les plats, que dire ? Générosité et amour du produits se ressentent dans ",
+        "author": "Vincenzo Lampo"
+      }
+    ],
+    "signature_phrase": "Pour ma première fois au café paradis, je découvre un endroit cosi, élégant, chaleureux , où l'on se sent bien dès l'endroit",
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Pour ma première fois au café paradis, je découvre un endroit cosi, élégant, chaleureux.",
+    "editorial_score": 15.557,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "le-pescadou-saint-raphael",
+    "name": "Le Pescadou",
+    "address": "2 Place Amiral Ortoli Port, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.414064,
+      "lng": 6.7794619
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 419,
+    "latest_review_date": "2026-04-13",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Pescadou&query_place_id=ChIJiQRpNXKXzhIRwUEyerPUEkg",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF671-HY-syWfjAKLo5Ec8qgIPYLVG7HVXeM8F2cN9OspqBnt2emK-_rBFTu1mBNrukTkZSzgJJlZZsbscCknrZBoiwOCA7Yx5tN8Q74vAgyCynaWAQq6HT2EXFkTtZiMxAAyaO=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-03",
+        "stars": 5,
+        "text": "Belle découverte sur le port Santa Lucia !\nLe pescadou est un restaurant essentiellement basé sur les produits de la mer, un patron au top qui explique la carte de produits frais à tous ces clients.\nNous avons goûté le poulpe et la seiche géante, un ",
+        "author": "Eve Martel"
+      },
+      {
+        "date": "2026-04-12",
+        "stars": 5,
+        "text": "Petite escale sur St Raphaël, difficile de choisir un restaurant parmi tous les restaurants sur ce port…\nIci, Tout est super, les plats sont généreux et bons!\nL’accueil est extra, d’une authenticité comme on en voit peu… tout est fait maison, des ent",
+        "author": "Pécot Louise"
+      },
+      {
+        "date": "2026-02-21",
+        "stars": 5,
+        "text": "Parmi tous les restaurants de Santa Lucia, il est celui qui propose la carte la plus élaborée. Le résultat est a la hauteur des attentes car les plats sont excellents et justifient leur prix. Cerise sur le gâteau : l'accueil est très chaleureux. On n",
+        "author": "Philippe MK"
+      }
+    ],
+    "occasion_tags": [
+      "business"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Bonne adresse pour un déjeuner d'affaires. Régulièrement plein (419 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "le-coelacanthe-saint-raphael",
+    "name": "Le Coelacanthe",
+    "address": "Port Santa Lucia, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4140055,
+      "lng": 6.7792253
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 92,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.6,
+    "reviews_count_google": 1268,
+    "latest_review_date": "2026-04-13",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Coelacanthe&query_place_id=ChIJEyREA-yXzhIRDwfiLF4n9gQ",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2T-6F8iyMAB_thwzwHp6ABqySUw_Iqa5GCignuOQSxrLiA9-7KHziAUWQKwg99BcAN2qhfV6PHWZPUqrOSZdJzd7cooFCCeikEn1g5MPnWT7JKlbo6gzWUAG8M4Wo2XQXnNiNEQ=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-24",
+        "stars": 5,
+        "text": "C’est la deuxième fois que je vais dans ce restaurant, la cuisine est excellente , les plats très bien présentés, le personnel est vraiment adorable et au petit soin. J’y retournerais volontiers les yeux fermer, j’ai passer une très bonne soirée merc",
+        "author": "Noemie Espitalier"
+      },
+      {
+        "date": "2026-01-24",
+        "stars": 5,
+        "text": "Excellent repas au Coelacanthe, tout était parfait ! Les plats délicieux, le service irréprochable et chaleureux, je recommande fortement cette adresse. Merci pour ce très bon moment.",
+        "author": "Thibault DESMETTRE"
+      },
+      {
+        "date": "2026-02-21",
+        "stars": 5,
+        "text": "Excellent restaurant qui travaille des produits de grande qualité. Un excellent moment dans un lieu tranquille et a l'écart. Une équipe très accueillante.",
+        "author": "Philippe MK"
+      }
+    ],
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Un incontournable local. Idéal pour un tête-à-tête. Les avis récents sont unanimes.",
+    "editorial_score": 0,
     "in_selection": false
   }
 ]
