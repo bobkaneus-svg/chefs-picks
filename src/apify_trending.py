@@ -80,6 +80,11 @@ CITY_BBOX = {
     "nantes": {"lat": (47.18, 47.28), "lng": (-1.62, -1.48)},
     "saint-raphael": {"lat": (43.38, 43.48), "lng": (6.72, 6.92)},
     "saint raphael": {"lat": (43.38, 43.48), "lng": (6.72, 6.92)},
+    "frejus": {"lat": (43.38, 43.50), "lng": (6.68, 6.80)},
+    "fréjus": {"lat": (43.38, 43.50), "lng": (6.68, 6.80)},
+    "agay": {"lat": (43.40, 43.47), "lng": (6.82, 6.92)},
+    "saint-aygulf": {"lat": (43.37, 43.42), "lng": (6.70, 6.76)},
+    "les issambres": {"lat": (43.32, 43.38), "lng": (6.65, 6.72)},
 }
 
 
@@ -386,7 +391,7 @@ if __name__ == "__main__":
 
     # ── BATCH MODE: 1 places run pour toutes les villes ──
     print(f"\n🚀 BATCH MODE: {len(cities)} ville(s) en 1 run places")
-    by_city, cost1 = scrape_places_batch(cities, max_places_per_city=50)
+    by_city, cost1 = scrape_places_batch(cities, max_places_per_city=80)
     total_cost["places"] += cost1
 
     # Pre-filter et collect placeIds pour 1 run reviews global

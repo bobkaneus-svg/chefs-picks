@@ -40652,5 +40652,1503 @@
     "editorial_pitch": "Un incontournable local. Idéal pour un tête-à-tête. Les avis récents sont unanimes.",
     "editorial_score": 0,
     "in_selection": false
+  },
+  {
+    "id": "le-ch-teau-by-emilie-arnaudo-saint-raphael",
+    "name": "Le Château by Emilie Arnaudo",
+    "address": "37 allée de Vaulongue, Bd du Cerceron, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4371855,
+      "lng": 6.7852164
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 100,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 5,
+    "reviews_count_google": 251,
+    "latest_review_date": "2026-03-21",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Ch%C3%A2teau%20by%20Emilie%20Arnaudo&query_place_id=ChIJISHLl3KXzhIRYd08pkCRq4M",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNV75Hnb5aOUCoUNBNZSJRi_2N7b0nAqa2H1wooeK7zba_HctjkGJi6F35f1-khO6r5fdKzyVlackU6OaFAa8Z4pzlkbVog-RuRZyrm-i5y-2L7FaPlShEmtP_bMqU80L-gX8uSw=w408-h409-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-05",
+        "stars": 5,
+        "text": "Superbe découverte ! Le cadre est agréable et la carte offre un beau choix de spécialités. J'ai adoré le Pad Thaï au crevette, très parfumé, bien garni, assaisonnement parfait. Le service est attentionné et tu sent que c'est cuisiner avec amour. Une ",
+        "author": "Bernard Bonnouvrier"
+      },
+      {
+        "date": "2025-09-28",
+        "stars": 5,
+        "text": "Kleines Bestellrestaurant\nEssen zum Mitnehmen\nMan kann den beiden Damen in der Küche zuschauen, alles blitzt und blinkt und ist sauber.\nWir nahmen unsere Bestellung und mußten dann auch noch 3 der köstlich aussehenden Nachtische mitnehmen 😁\nDas Essen",
+        "author": "Doktor Who fan"
+      },
+      {
+        "date": "2026-02-28",
+        "stars": 5,
+        "text": "J’ai prix un rougail saucisses aujourd’hui, il est très bon et portion très généreuse ainsi qu’un rouleau de printemps au crevette également portion énorme. Je recommande cette établissement",
+        "author": "Jean-Charles Vaillant"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🦐",
+        "phrase": "J'ai adoré le Pad Thaï au crevette",
+        "mentions": 2
+      }
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : j'ai adoré le Pad Thaï au crevette.",
+    "editorial_score": 12.598,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "la-mezza-saint-raphael",
+    "name": "La Mezza",
+    "address": "52 Rue de la Vieille Église, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4256515,
+      "lng": 6.769244
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 100,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 5,
+    "reviews_count_google": 215,
+    "latest_review_date": "2026-04-15",
+    "is_seasonal": true,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Mezza&query_place_id=ChIJZ7taYYiXzhIRTwbAbrVFWyE",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5DBTvrkpcTA2rGKX25NUBjSyLG_P7gHOzz7UDGQ7qoNqLqbs20MJlrObFehQ4U2ZP1RRIb9DeWD6DGPsAPhwOaWNd8ORGCUAeyYxgRDb0CcE1jC0MK1k9tW2UQaDcs4Yx_XDS=w408-h544-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-08-20",
+        "stars": 5,
+        "text": "Une excellente adresse ! Les produits sont frais et d’une qualité irréprochable, on sent vraiment le fait maison à chaque bouchée. L’accueil est chaleureux, souriant et attentionné, ce qui rend l’expérience encore plus agréable. Le service est rapide",
+        "author": "Patricia FERRAIOLI"
+      },
+      {
+        "date": "2025-08-21",
+        "stars": 5,
+        "text": "Un excellent restaurant !\nLe service est rapide et agréable, le personnel est toujours souriant et attentionné.\nLa nourriture est vraiment très bonne, on sent la qualité des produits et le soin apporté aux plats.\nL’ambiance est chaleureuse et convivi",
+        "author": "Alexandra Proust"
+      },
+      {
+        "date": "2025-10-23",
+        "stars": 5,
+        "text": "Nous venons manger chaque fois que nous venons à Saint-Raphaël. Les enfants et les adultes adorent.\nTrès bonne cuisine, service et accueil au top, déco sympa.\nTerrasse agréable proche du musée archéologique et sans voiture donc les enfants peuvent jo",
+        "author": "Julie Effantin-Brun"
+      }
+    ],
+    "occasion_tags": [
+      "quick_bite"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Idéal pour un repas rapide. Régulièrement plein (215 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "le-bistrot-de-paulette-saint-raphael",
+    "name": "Le bistrot de Paulette",
+    "address": "5 Pl. Sadi Carnot, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4254189,
+      "lng": 6.7688127
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 100,
+    "latest_review_date": "2026-04-14",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20bistrot%20de%20Paulette&query_place_id=ChIJQ3FJCJmXzhIRtqtfoB40vM4",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqbtPDrb9YK0lqvuICeJ53HdVG8GcDB5OOR9erGr4K4YYxQNbMEXgvbTn1MPMvFaCXPkYWX9607SxNgBVMvnuleBrkkEWh54jhKswtDJBOt2FeV4oUP3hoT_rU3BaHNexQqulK=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-15",
+        "stars": 5,
+        "text": "Tout simplement : EXCELLENT !\nEn couple nous recherchions un petit restau Trankil et abordable :\nEt là : Nous sommes tomber chez Paulette\nDe l'accueil, en passant par l'apéro, bien-sûr le repas... Tout était Génial\n\nTout est fait pour que soyez à l'a",
+        "author": "kiki.de. marseille13"
+      },
+      {
+        "date": "2026-04-13",
+        "stars": 5,
+        "text": "J'adooore !!!!\nDès l'accueil, on s'y sent bien et le plaisir monte crescendo ...que ce soit le service dans la bonne humeur, la carte qui permet de combler toutes les envies, les plats avec de bons produits...de vraies frites !!!, les sauces, les des",
+        "author": "val B"
+      },
+      {
+        "date": "2026-03-28",
+        "stars": 5,
+        "text": "Une très bonne adresse trouvée par suprise ! Un peu à l'écart du centre-ville, nous avons largement apprécié ce Bistrot à l'ambiance conviviale. Tout est fait maison avec des produits frais et de qualité. Les frites sont faites maison et la viande ét",
+        "author": "Ellena Brensovic"
+      }
+    ],
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Très bien en famille. Un des mieux notés de la ville.",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "pizzeria-ischia-mia-saint-raphael",
+    "name": "Pizzeria ISCHIA MIA",
+    "address": "29 Rue Pierre Auble, 83700 Saint-Raphaël, France",
+    "city": "Saint-Raphael",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4228976,
+      "lng": 6.7668002
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 92,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.6,
+    "reviews_count_google": 598,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20ISCHIA%20MIA&query_place_id=ChIJlVByfzuXzhIRnsx9Ab1v5vU",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJrK2cZco4LhsXH4TRe0Vzz11kcOjP7rrw-HkmfGCk47suqSvXLu42KXt5g62jQKPCfcw0Tk3y2NJo48XNSIZQ4jWkyNL9Wp9G5Sl6GT0HrJXiOCmO_ZmBACyBTKp9fu2ua63Gig=w427-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-17",
+        "stars": 5,
+        "text": "Super endroit !\n\nNous avons été très bien accueillis. Le restaurant se remplit très vite du fait de sa popularité, alors réservez 😊!\n\nLes pizzas sont gourmandes, délicieuses et énooormes - ne changez rien 😋😋😋 !!! Et le tiramisu est à se taper les fes",
+        "author": "R. D. (Laroms)"
+      },
+      {
+        "date": "2026-03-14",
+        "stars": 5,
+        "text": "THE PLACE TO BE pour manger une VRAIE pizza à Saint-Raphaël ! Accueil et service professionnel , du début à la fin par Gina et Jérôme qui vous reçoivent comme à la maison ! Les pizzas sont excellentes , bien garnis avec des ingrédients de qualité ; m",
+        "author": "GAMT"
+      },
+      {
+        "date": "2026-03-03",
+        "stars": 5,
+        "text": "È un posto straordinario, in un attimo ti ritrovi in un ambiente caldo e accogliente, dove hai l'occasione di mangiare la vera pizza napoletana! Provare per credere! Una margherita con la mozzarella di bufala di tutto rispetto, il personale è molto p",
+        "author": "Elena Napolitano"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍕",
+        "phrase": "Les pizzas sont gourmandes",
+        "mentions": 3
+      }
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Saint-Raphael. À commander sans hésiter : les pizzas sont gourmandes.",
+    "editorial_score": 13.411,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "calm-restaurant-bar-hu-tres-port-fr-jus-frejus",
+    "name": "CALM Restaurant • Bar à huîtres Port Fréjus",
+    "address": "Pl. dei Tresmast, 83600 Fréjus, France",
+    "city": "Frejus",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4227359,
+      "lng": 6.7459116
+    },
+    "cuisine_type": "Seafood restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 161,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=CALM%20Restaurant%20%E2%80%A2%20Bar%20%C3%A0%20hu%C3%AEtres%20Port%20Fr%C3%A9jus&query_place_id=ChIJe-iUUKO9zhIRH2l8uEGcT1E",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqVVedOIn8t0oiGDqWFzBIvKD8erGh74RSEr59uxTgvGOvMI7I7guh5NYQug3jj8TrzcdvlnRzVnOhka_AtBxur89xIiAp-MqnbRw0tDufPvn6QVefgcbDkuGXfeKsbO6-lN9Sh2aXAjLw=w408-h544-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-15",
+        "stars": 5,
+        "text": "Gem of an oyster and seafood bar. I had oysters and also the daurade with fries and salad. It was cooked and seasoned to perfection. The fries crispy and the oysters were plump and tasted like a summer breeze on the beach. I will be back soon. If you",
+        "author": "Ellen Scott Grable"
+      },
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Accueil et service excellent, cuisine faite maison est excellente ! Les escargots, la brandade de morue, le carpaccio, les huîtres tout est parfait! Et copieux ;) avec une belle sélection de vins! Sur le Port de Frejus c est super agréable! Je recomm",
+        "author": "Virginie BOURGAULT"
+      },
+      {
+        "date": "2026-02-14",
+        "stars": 5,
+        "text": "We both had salmon and it was delicious.  The chocolate mousse was lovingly homeade and also great! Friendly owners that always offer a warm welcome. Great seafood and a lovely Winter menu with lots of options. See you again soon.",
+        "author": "Joanna"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🦪",
+        "phrase": "Gem of an oyster and seafood…",
+        "mentions": 4
+      },
+      {
+        "icon": "🐟",
+        "phrase": "We both had salmon and it was delicious",
+        "mentions": 1
+      }
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : gem of an oyster and seafood….",
+    "editorial_score": 13.057,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "le-cap-horn-frejus",
+    "name": "Le Cap Horn",
+    "address": "Place des galoubets, 83600 Fréjus, France",
+    "city": "Frejus",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4233531,
+      "lng": 6.7482442
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 430,
+    "latest_review_date": "2026-04-14",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Cap%20Horn&query_place_id=ChIJwTjdQF-9zhIR5VNn_9tfRlk",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIYYGh7ksQ65G43cDO3R9L3AsSIbky5isTD1UX9aKDI90tt5hd3qXRMcgLJz_-7bkqeRSAtFP-te11Yn6qbZWCOObjI9pvJ8DYVxx1uWFfSwhJMJnJBtEg-tnjZV7lGWqrIaRz=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Nous avons été mangé avec les enfants samedi soir et nous avons été très bien accueillis. Un puissance 4 nous a été donné pour nous faire patienter pendant l'apéro. Les hamburger étaient copieux et les frites fraîches. Nous recommandons vivement et r",
+        "author": "JULIE FRISETTI"
+      },
+      {
+        "date": "2026-03-01",
+        "stars": 5,
+        "text": "Tout est parfait : cuisine au top, accueil chaleureux, service impeccable ! Des portions généreuses et gourmandes pour des prix très attractifs. On se régale du début à la fin, je recommande à 100 % !\nOn reviendra cet été avec plaisir",
+        "author": "Amandine Bakbir"
+      },
+      {
+        "date": "2026-03-21",
+        "stars": 5,
+        "text": "Une envie de burger ? Alors n'hésitez pas ! C'est bon, tout est fait maison, l'ambiance est top, l'équipe très accueillante, vous pouvez y aller les yeux fermés. Ce sera un bon moment à coup sûr !!",
+        "author": "Guillaume"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍔",
+        "phrase": "Une envie de burger",
+        "mentions": 1
+      }
+    ],
+    "signature_phrase": "C'est bon, tout est fait maison, l'ambiance est top, l'équipe très accueillante, vous pouvez y aller les yeux fermés",
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "On adore cet endroit. C'est bon, tout est fait maison, l'ambiance est top, l'équipe très accueillante, vous pouvez y aller les yeux fermés. On ne repart pas sans une envie de burger.",
+    "editorial_score": 15.554,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "les-copains-d-abord-frejus",
+    "name": "LES COPAINS D'ABORD",
+    "address": "107 Rue du Dr Ciamin, 83600 Fréjus, France",
+    "city": "Frejus",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4323924,
+      "lng": 6.735582
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 204,
+    "latest_review_date": "2026-04-14",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=LES%20COPAINS%20D'ABORD&query_place_id=ChIJ1e_G-3S9zhIRmZmXAHZNGrY",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4fr2sVnhrOgeU7kK_TDhNVFK6S_efPsj59a3XuAjPic1wW2coL3uyeQGkU6km1plSEaLKiG8IlGj5b1fxV_i_-Mwp60jnfLyKWB_Kaau8QczhSWwcGQimFmXR5Rw0AJbLwQccQCC5mk6t=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-20",
+        "stars": 5,
+        "text": "Cela me fait vraiment plaisir de voir qu'il existe encore des restaurants à prix raisonnables ! d'excellente qualité ! Et très copieux ( alors que je suis un bon mangeur 😅, les photos ne rendent pas hommage aux plats ).  Mais alors vraiment une menti",
+        "author": "Jérémie Bressy"
+      },
+      {
+        "date": "2026-03-07",
+        "stars": 5,
+        "text": "Nous avons mangé cette semaine c’était vraiment délicieux et copieux j’avais pris un thon mi cuit avec petit légumes du riz et une petite salade c’était parfait excellent, la présentation et l’attente nickel et une superbe ambiance chaleureuse du Sud",
+        "author": "Tatiana TRIVES"
+      },
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Je recommande ce \"petit\" restaurant qui sous un air tout à fait anodin, cache une \"équipe\" de professionnels! J'ai fêté mon mariage chez Fredo! Et tout s'est merveilleusement bien passé ! Un grand Merci à EUX!",
+        "author": "France Farrugia"
+      }
+    ],
+    "editorial_pitch": "Un incontournable local. Les avis récents sont unanimes.",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "le-tire-bouchon-frejus",
+    "name": "Le Tire Bouchon",
+    "address": "9 Pl. de la République, 83600 Fréjus, France",
+    "city": "Frejus",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4245726,
+      "lng": 6.7572093
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 340,
+    "latest_review_date": "2026-04-03",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Tire%20Bouchon&query_place_id=ChIJmaqvPgiXzhIRXJYAlW4jdYM",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMk1nAxAqQhdmtEsJr93-piAmQHHb-sYDtVMxxVcgnxfIlBvjlf2VVQUlhYrnucus1jDU-UM82m_ktAVNm8AAY0CTupGZeJBNgDNqM1szh89vKRr7BNgIJIJfDu40DhRp9tyo3=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-06",
+        "stars": 5,
+        "text": "Una bella esperienza! Amo molto l'aringa preparata sul letto di patate tiepide e olio di oliva e in Italia non lo fa praticamente nessuno. Qui la fanno buonissima e la servono in porzione davvero generosa (vedi foto ). Il dolce, poi, è stato una vera",
+        "author": "pier paolo silvestri"
+      },
+      {
+        "date": "2025-09-30",
+        "stars": 5,
+        "text": "Eine Stunde vorher reserviert und einen schönen Platz für 2 Personen erhalten. Die junge Frau die uns bediente, war ganz entzückend und superfreundlich. Das Essen war ein Traum! Wir sind viel in Frankreich unterwegs und gehen gerne in Restaurants.  E",
+        "author": "Michael Maurer"
+      },
+      {
+        "date": "2026-04-03",
+        "stars": 5,
+        "text": "Je suis venu ce midi par hasard et franchement tout était au top .\nTerrasse super cosy . Accueil et service au top et très souriant . Les plats sont vraiment fait maison et prix très correct.\nContente de vous avoir trouver et à très bientôt .",
+        "author": "Chloé"
+      }
+    ],
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Frejus. Idéal pour un tête-à-tête. Très forte notoriété locale (4.7★, 340 avis).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "la-table-de-guill-me-l-h-tel-l-arena-frejus",
+    "name": "La table de Guillôme à l’hôtel l’Arena",
+    "address": "145 Rue du Général de Gaulle, 83600 Fréjus, France",
+    "city": "Frejus",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4323705,
+      "lng": 6.7333221
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 244,
+    "latest_review_date": "2026-04-08",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20table%20de%20Guill%C3%B4me%20%C3%A0%20l%E2%80%99h%C3%B4tel%20l%E2%80%99Arena&query_place_id=ChIJ4fLHIF-9zhIRORuBLejejzg",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAAPvyP-F7cidpnGnOV6aCyhoESBWCv8xJjrV1DbkzMLNJyRaQBfJ2dShI7tnvo6u8G3jFRKH_RXhEhhPycBD5GPJ4_QtA5Oj651BWA6fdnvron6zlZotwtmCbxIPkhipsjDTT=w408-h272-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-26",
+        "stars": 5,
+        "text": "Je recommande les yeux fermés! C'était une première pour nous , nous avons été très bien accueillis et la formule entrée plat dessert à 35,90 euros est un bonheur !! Cuisine raffinée et très bien servie niveau quantité pour un menu ! Je dirai juste p",
+        "author": "LONG Marjorie"
+      },
+      {
+        "date": "2026-03-08",
+        "stars": 5,
+        "text": "Cuisine raffinée de bonne qualité avec de bons produits frais. Le service adorable, décoration très plaisante et moderne. très bon rapport qualité prix. Ce fut un réel moment de plaisir et nous recommanderons et reviendrons avec grand plaisir.",
+        "author": "Laure"
+      },
+      {
+        "date": "2026-03-11",
+        "stars": 5,
+        "text": "Excellent déjeuner à La Table de Guillôme.\nUne cuisine d’une grande subtilité, aux accords gustatifs remarquablement maîtrisés. Une expérience gastronomique délicate et parfaitement exécutée. Nous nous sommes véritablement régalés.",
+        "author": "pat Marras"
+      }
+    ],
+    "occasion_tags": [
+      "date"
+    ],
+    "editorial_pitch": "On adore cet endroit. Parfait pour un dîner romantique. Une adresse consensuelle (4.7★).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "la-boh-me-frejus",
+    "name": "La Bohème",
+    "address": "140 Rue Eugène Joly, 83600 Fréjus, France",
+    "city": "Frejus",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4251412,
+      "lng": 6.736416
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 189,
+    "latest_review_date": "2026-04-07",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Boh%C3%A8me&query_place_id=ChIJV2xM49O9zhIRZkVdII1GeJU",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFOojE6zd_k-ebruP2i30J_8DxML67D7H65DH7aPrqiCWqsjrJ5r_d6RJNcskmWkuIKO_Z9KiN9yVVKZ4K06z1hGwcKx7Aect92szJNKpsyJlItK5Y_Sk6f6jMLE5Zfp2deIEjlADSX07dm=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "Cet endroit porte bien son nom ! C’est un endroit plein de charme. Le personnel est toujours souriant et très accueillant avec une super ambiance.\n\nEn plus la cuisine est délicieuse et bien garnie. Chaque plat est plein de saveurs. C'est un endroit p",
+        "author": "louise laforest"
+      },
+      {
+        "date": "2026-02-20",
+        "stars": 5,
+        "text": "10/10 ce restaurant papa  c’est les dire de mon fils de 7 ans\nTrès bon moment passé à la bohème\nAccueil et endroit chaleureux et convivial\nUne belle terrasse ensoleillée\nLes plats sont délicieux et très bien garnis\nLe service a été impeccable\nMerci\nN",
+        "author": "Anthony Perrier"
+      },
+      {
+        "date": "2026-02-20",
+        "stars": 5,
+        "text": "Merveilleuse découverte\nDe l'entrée au dessert tout était somptueux.\nJ'ai mis 4 étoile car si la perfection n'existe pas, on s'en approche au restaurant la Bohême. Le saumon risotto était une pure merveille.\nJe recommande cette adresse, vous pouvez y",
+        "author": "MARQ Henry"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🐟",
+        "phrase": "Le saumon risotto était une pure merveille",
+        "mentions": 1
+      }
+    ],
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : le saumon risotto était une pure merveille. Très bien en famille.",
+    "editorial_score": 12.55,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "la-paillote-restaurant-balneo-spa-frejus",
+    "name": "La Paillote Restaurant, Balneo & Spa",
+    "address": "1052 Rue des Combattants d'Afrique du N, 83600 Fréjus, France",
+    "city": "Frejus",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4479531,
+      "lng": 6.731858
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 59,
+    "latest_review_date": "2025-09-22",
+    "is_seasonal": true,
+    "currently_open": false,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Paillote%20Restaurant%2C%20Balneo%20%26%20Spa&query_place_id=ChIJH5uqo_ujzhIRBqm5AkbL-X8",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtfnKOQ9L0Tn2mN1HLbUFZ577ymEX2yvXBgWHc7QIbp2oYRkiICcFDzFoMpFQT3ekklRT4cffUdksI03BSvQ1lMVEJbqGSgxHCQ64ujBhaON6FftsrXh_l7NUkiyrDcs8kin87vaePaPit=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-08-16",
+        "stars": 5,
+        "text": "Idéalement placé en bas du camping 5* du domaine du Colombier.\n\nDécoration impeccable qui nous fait voyager dans les îles.\n\nLe temps s'arrête dans ce restaurant car nous nous y sentons très bien.\n\nProduits Frais et bien préparés.\nMerci aux cuisiniers",
+        "author": "Patrice Maillard"
+      },
+      {
+        "date": "2025-06-29",
+        "stars": 5,
+        "text": "Une petite pépite nichée au milieu d'un grand camping 5 étoiles.\nCadre magnifique d'inspiration balinaise. Un joli havre de paix. Immense piscine avec jacuzzi, aquabike et différents endroits pour se reposer et profiter.\nTrès propre.\nFormules interre",
+        "author": "Sabine Niviere"
+      },
+      {
+        "date": "2025-08-12",
+        "stars": 5,
+        "text": "Restaurant testé il y a deux jours, j’ignorais qu’il était accessible aux personnes extérieures au domaine. Déjà le cadre vous dépayse totalement, ensuite la maîtrise parfaite des cuissons des différents plats est un enchantement, ajouter à cela, un ",
+        "author": "isabelle di terlizzi"
+      }
+    ],
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Idéal pour un tête-à-tête. Un des mieux notés de la ville.",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "autres-ray-son-frejus",
+    "name": "Autres Ray'Son",
+    "address": "37 Quai Marc Antoine, 83600 Fréjus, France",
+    "city": "Frejus",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4227774,
+      "lng": 6.7487922
+    },
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 92,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.6,
+    "reviews_count_google": 845,
+    "latest_review_date": "2026-03-20",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Autres%20Ray'Son&query_place_id=ChIJL9cR1OGXzhIRPaT_KTPQlN0",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcA0Z8LZi9JTQ-RCjDasqVuiePQ1Yn9BvWjFKA7al4XMukzdpYb91r0mOx0sJzuNCKf44lIQpCNA90sE4VHY_XrtfYFbpKO1Tm6G7VkLaQNkKmDZOGZKWQPBIBiDhVXCN3OjfdBQ=w408-h725-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-12-14",
+        "stars": 5,
+        "text": "Excellente cuisine.vous ne serait pas deçu.je vous recommande le menu à 41€.les gambas en entrée sont délicieuses .la dorade et la gratin dauphinois un régal.j’y retournerai pour goûter leur souris d’agneau.",
+        "author": "Gilles Vanet"
+      },
+      {
+        "date": "2026-03-20",
+        "stars": 5,
+        "text": "Patronne hyper gentille souriante et repas délicieusement préparés avec beaucoup de finesse de l'entrée au dessert, n'hésitez pas vous ne serez pas déçus. Nous reviendrons très vite encore merci",
+        "author": "Clarisse Rive"
+      },
+      {
+        "date": "2025-10-16",
+        "stars": 5,
+        "text": "Restaurant excellentissime.\nL'accueil est top. Personne souriante, très professionnelle  Repas excellent de très bonne qualité ++, très copieux.\nRESTAURANT QUI MÉRITE LE DÉTOUR.",
+        "author": "marie leblond"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🦐",
+        "phrase": "Les gambas en entrée sont délicieuses",
+        "mentions": 1
+      },
+      {
+        "icon": "🐟",
+        "phrase": "La dorade et la gratin dauphinois un régal",
+        "mentions": 1
+      },
+      {
+        "icon": "🍖",
+        "phrase": "J’y retournerai pour goûter leur souris d’agneau",
+        "mentions": 1
+      }
+    ],
+    "editorial_pitch": "Un incontournable local. Notre conseil : les gambas en entrée sont délicieuses.",
+    "editorial_score": 16.257,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "le-tire-bouchon-restaurant-agay",
+    "name": "Le Tire Bouchon Restaurant",
+    "address": "1620 Bd de la 36ème division du Texas, 83700 Saint-Raphaël, France",
+    "city": "Agay",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4198783,
+      "lng": 6.8552593
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 588,
+    "latest_review_date": "2026-04-13",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Tire%20Bouchon%20Restaurant&query_place_id=ChIJJ3GJ_-eRzhIRxEcuJ_T9e-c",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHj0-xvqaC6NbaDehMKRNXsTwqgiMOkX1rzvhbRqeh-UhS4LGIx8E9DhwX_UCKlFUjyV_0JrH4Rf74OMGpbT6joRZfTTshj3PFIoh9mY-IDvuM-cHArLgZX_WCssjeWM0U_PQoWTQ=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-29",
+        "stars": 5,
+        "text": "Excellent restaurant, très bonne cuisine généreuse, goûteuse,fait maison, le chef au top et l' accueil parfait.\nNous habitons sur la région et y retournons souvent y compris pour des évènements privés.\nUne adresse très précieuse sur la région.\nMerci",
+        "author": "Marie-France Mathieu"
+      },
+      {
+        "date": "2026-02-19",
+        "stars": 5,
+        "text": "Au-delà de la carte, on sent ce feeling tranquille, j’ai apprécié cet accueil pour une semaine amoureux dans la continuité d’une St Valentin avec congés différés. Merci ce resto pr une carte innovée et polyvalente. Venez !",
+        "author": "Antoine Tiberghien"
+      },
+      {
+        "date": "2026-03-30",
+        "stars": 5,
+        "text": "Accueil et ambiance chaleureux, excellents cocktails, nous avons très bien mangé, belles assiettes, consistantes et bien présentées, bravo au chef ! Serveuses souriantes et aux petits soins, je recommande à 100%.",
+        "author": "Laeti Gosset"
+      }
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Agay. Très forte notoriété locale (4.8★, 588 avis).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "la-villa-matuzia-agay-restaurant-saint-rapha-l-agay",
+    "name": "la Villa Matuzia - Agay - Restaurant Saint-Raphaël",
+    "address": "15 Bd de Sainte-Guitté, 83700 Saint-Raphaël, France",
+    "city": "Agay",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4348814,
+      "lng": 6.8565614
+    },
+    "cuisine_type": "French restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 610,
+    "latest_review_date": "2026-04-11",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=la%20Villa%20Matuzia%20-%20Agay%20-%20Restaurant%20Saint-Rapha%C3%ABl&query_place_id=ChIJYajI1HSazhIR8mlmSqTWvDw",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8zxjiucKX3QsC0FYyDscTD8j3JtM_ddBSDsJSX4bGZh084F366OppOo-p1cBczQepVJsT_zo1hU1jPsnWyg6kDn7e8dIATZ-3gMtf6eNactG3p0D3enG9LgaiJIX3dyykmg0s=w408-h305-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-06",
+        "stars": 5,
+        "text": "Un vrai coup de cœur. La cuisine est tout simplement succulente, avec des produits parfaitement travaillés et des saveurs qui font vraiment la différence. L’accueil et le service sont à la hauteur : chaleureux, attentionnés et très professionnels. No",
+        "author": "Laurent Basso (lencrenoire)"
+      },
+      {
+        "date": "2026-03-08",
+        "stars": 5,
+        "text": "Nous avons découvert à tout grand hasard le restaurant La villa Matuzia et quelle excellente surprise !\nUn service irréprochable, un rapport qualité excellent et un équilibre des saveurs très bons !\nMerci à William le chef cuisinier et Jean pour leur",
+        "author": "Kim Rotger"
+      },
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "LA surprise, découverte  de nos vacances. Que dire : le service de qualité avec un serveur aux petits soins, la musique de fond agréable et surtout des mets & saveurs qui affolent nos papilles. Un prix très correct. Un moment que nous avons partagé à",
+        "author": "David J"
+      }
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Régulièrement plein (610 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "poutou-agay",
+    "name": "Poutou",
+    "address": "197 Bd de la Plage, 83700 Saint-Raphaël, France",
+    "city": "Agay",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4334273,
+      "lng": 6.858576
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 94,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.7,
+    "reviews_count_google": 196,
+    "latest_review_date": "2026-04-11",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Poutou&query_place_id=ChIJG15OM7-bzhIRyPtoBL2QeVQ",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH3fXqJOicQoQ3vo3fO3mYStdi5WEcsXwSKLsNodTpdcsSxnb7vF83_gOPCj7Fgy8E_vGM1BXYae8PqXUsWAZs9Xgm6gUmhqZKd8DMAyV8Ph6OsVOmvgOO8QLGbfF_sSjmiCnugAIHbSWvg=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Superbe établissement niché dans cette magnifique baie d'Agay, où Pamela vous accueille chaleureusement dans une ambiance cosy, pendant que Christophe s'affaire en cuisine. Les plats sont généreux et emplis de saveurs italiennes et de la méditerranée",
+        "author": "Alexandre Guille"
+      },
+      {
+        "date": "2026-04-10",
+        "stars": 5,
+        "text": "A big 5 stars! 5 étoiles c'est trop peu pour évaluer ce pur moment de plaisir. Accueil, service, cuisine. Tout est parfaitement harmonieux. De la qualité, en quantité. A faire, et à refaire. Merci. Et ... désolé 🫣 (il se reconnaîtra en salle).",
+        "author": "Mathias DURANT"
+      },
+      {
+        "date": "2025-11-08",
+        "stars": 5,
+        "text": "Gorgeous and cosy, this is Coastal Gem with generous tasty and fresh dishes, informal set up yet attenrion to détail is everywhere !! We recommend with no hésitation !",
+        "author": "Beatrice ducloud"
+      }
+    ],
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Idéal pour un tête-à-tête. Régulièrement plein (196 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "bay-beach-club-agay-agay",
+    "name": "Bay Beach Club - Agay",
+    "address": "896 Bd de la Plage, 83700 Saint-Raphaël, France",
+    "city": "Agay",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4319346,
+      "lng": 6.8687331
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 92,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.6,
+    "reviews_count_google": 150,
+    "latest_review_date": "2026-04-15",
+    "is_seasonal": true,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bay%20Beach%20Club%20-%20Agay&query_place_id=ChIJW-jIuVWbzhIRP1e_dKROZ8w",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8QC2gAYfvuvgPTE81k2T04zJEmbTq1RrLICaq5GfnTOzBQHrnwgzz5riKLapy5hWihpZAS0qObfc07hwsZtdM1TFG1ZPJaOD-yfIp4REsR3rze3-NGi8PIEgjPnk68cHWIwW_ZTgcb-Zg=w408-h510-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-08-08",
+        "stars": 5,
+        "text": "Nous avons passé un super moment, tout d’abord très bien accueilli par Alexandre.\nLes cocktails sont très bon, le repas aussi très bon. Très bien servis par les différentes personnes au service.\nUne vue magnifique avec un beau couché de soleil.\nEn ré",
+        "author": "Juliann Sielvy"
+      },
+      {
+        "date": "2026-04-15",
+        "stars": 5,
+        "text": "Je recommande fortement ce Restaurant.\nCadre sublime, personnel au top!\nLe meilleur pour la fin ....\nCe qu il y a dans vos assiettes c'est impossible à décrire il faut venir tester et vos papilles gustatives vont vous remercier.",
+        "author": "L L"
+      },
+      {
+        "date": "2025-09-09",
+        "stars": 5,
+        "text": "Dîner très agréable avec vue panoramique magnifique !!\nJe ne mets pas 5 étoiles pour la cuisine car les frites étaient surgelées et les desserts sont à améliorer !\nPrix raisonnables.\nJe recommande 👍",
+        "author": "Chrilange83 T"
+      }
+    ],
+    "occasion_tags": [
+      "view"
+    ],
+    "editorial_pitch": "Un incontournable local. Pour profiter de la vue. Les avis récents sont unanimes.",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "restaurant-agay-soleil-agay",
+    "name": "Restaurant Agay Soleil",
+    "address": "1152 Bd de la Plage, 83530 Saint-Raphaël, France",
+    "city": "Agay",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4327836,
+      "lng": 6.8683459
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 90,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.5,
+    "reviews_count_google": 445,
+    "latest_review_date": "2026-04-08",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Agay%20Soleil&query_place_id=ChIJd2B8e4KQzhIRsBO-ExDzfi8",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGKyVHqkBd-4TJFAnjOqR-fBMQVuYWHmaSctFsSsfN9cwHtRmVgn4K0Hc20GpJjdjqgEIRZn8fxLhByfNPXS351OA06IG7uZd02_Ml25yuXnkpFWH90Fy13RoTZAMmRWsF9rMw=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-17",
+        "stars": 5,
+        "text": "Nous avons passé un très beau moment au sein de votre restaurant.\nAccueil chaleureux, très bon repas accompagné de produits de qualité.\nPour couronner le tout la vue est imprenable sur la baie d’Agay !\nNous reviendrons avec plaisir !\nMerci à vous.\nSo",
+        "author": "Eleonore Guenin"
+      },
+      {
+        "date": "2026-04-08",
+        "stars": 5,
+        "text": "Juste dîner au restaurant du camping, on a profité du plat du jour, un samedi soir, moules marinières frites et pizza avec pâte maison très bien garnie\nTout à fait copieux  vin rosé agréable\nService au top par Sabrina\nBelle terrasse au bord de mer",
+        "author": "pascale leterme"
+      },
+      {
+        "date": "2026-03-26",
+        "stars": 5,
+        "text": "Tout était parfait, le service, les plats qui étaient à la fois généreux et qualitatifs et la bonne humeur de l’équipe.\n\nOn nous a même offert un limoncello que l’on a bu en terrasse. Encore merci à vous! Nous reviendrons à l’occasion.",
+        "author": "Cozic Mael"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍕",
+        "phrase": "Moules marinières frites et pizza avec pâte maison très bien garnie",
+        "mentions": 1
+      }
+    ],
+    "editorial_pitch": "On adore cet endroit. On ne repart pas sans moules marinières frites et pizza avec pâte maison très bien garnie.",
+    "editorial_score": 13.705,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "charlie-s-bistro-agay",
+    "name": "Charlie's Bistro",
+    "address": "639 Bd de la Plage, 83530 Saint-Raphaël, France",
+    "city": "Agay",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.4342648,
+      "lng": 6.8627167
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 90,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.5,
+    "reviews_count_google": 418,
+    "latest_review_date": "2026-04-11",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Charlie's%20Bistro&query_place_id=ChIJ-TBM0PKbzhIRu0wiFnWj9hU",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHR8y8KuOv1l_ZD5LboERU-50eqZqq4BeOxG5CVhkJo2Xl3p0kb7jIhnFyc4P3LVA3OTHW69rY4U9qq1yeUC0COieQRYE3EEO0fg_zr9WY9oJ7tP0w2HMkQccFCjjP8qbRe34_huQ=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Went here for lunch as it was well reviewed for mussels and chips in the surrounding area. We weren't disappointed either, the mussels and chips were excellent. Two of our party had the Roquefort mussels and one classic mules marinier. Both were real",
+        "author": "Gareth Edwards"
+      },
+      {
+        "date": "2025-10-24",
+        "stars": 5,
+        "text": "Très bon accueil. Petite terrasse bord de route, vue plage, très agréable. Nous avons très bien mangé. Moules marinières et tartare de bœuf accompagnées de frites maisons. Un délice.\nPetit bémol sur le menu enfant, la volaille panée était sèche donc ",
+        "author": "Charlène Tissier"
+      },
+      {
+        "date": "2026-04-06",
+        "stars": 5,
+        "text": "Überragendes Essen. Moules Frites 1A! Menu enfants ist super…. Service war sehr gut. Der Koch hört gerne 80er Musik!\nMerci a Fabian (unser Wander- und Kajakführer) pour la recommandation !!!!",
+        "author": "J. L."
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🥩",
+        "phrase": "Moules marinières et tartare de bœuf accompagnées de frites maisons",
+        "mentions": 1
+      }
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Agay. À commander sans hésiter : moules marinières et tartare de bœuf accompagnées de frites maisons.",
+    "editorial_score": 13.565,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "le-tortuga-restaurant-tapas-moules-frites-bord-de-mer-saint-aygulf-saint-aygulf",
+    "name": "Le Tortuga – Restaurant - Tapas - Moules Frites - Bord de Mer à Saint Aygulf",
+    "address": "313 Av. de la Cor d'Azur, 83370 Fréjus, France",
+    "city": "Saint-Aygulf",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.391369,
+      "lng": 6.7276997
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 98,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.9,
+    "reviews_count_google": 54,
+    "latest_review_date": "2026-04-14",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Tortuga%20%E2%80%93%20Restaurant%20-%20Tapas%20-%20Moules%20Frites%20-%20Bord%20de%20Mer%20%C3%A0%20Saint%20Aygulf&query_place_id=ChIJQaUtky-9zhIRhZDRU7gpDq8",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhWIWhq7dcjQ53is9Paj5_mrlmgICzorllCFw-zG1BIVmHWC7CA09BZvv6DQh4JwtOVl0efWTqFvZCjvpgu7xKneQODxgu1s-o-PP5U7gI0ePS9-3tKwPvP7vC4PMismwCcfEcnX2r35I=w519-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Je tiens à mettre un point d'honneur à se restaurant au décor de pirates avec des patrons extrêmement professionnels et bienveillants avec leurs clients. Les plats sont copieux et de qualités. Places de parking à proximité. Un restaurant que je conse",
+        "author": "Stefy Gleizes"
+      },
+      {
+        "date": "2026-03-06",
+        "stars": 5,
+        "text": "Restaurant très bien situé et à la décoration unique inspirée du film Pirate des Caraïbes...On cherche le perroquet du pirate dans l'entrée et il arrive au dessert avec une belle glace chocolat menthe délicieuse lol\nL'accueil est chaleureux et les gé",
+        "author": "Violette Jalabert"
+      },
+      {
+        "date": "2026-03-14",
+        "stars": 5,
+        "text": "Je tiens à souligner le fait que ma viande étant trop cuite, la serveuse a gentiment proposé de me servir un autre faux-filet à la cuisson demandée, avec le sourire en prime ! et très très bonne viande ! Merci pour ce professionnalisme",
+        "author": "Isa Belle"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🥩",
+        "phrase": "La serveuse a gentiment proposé de me servir un autre faux-filet à la cuisson demandée",
+        "mentions": 1
+      }
+    ],
+    "occasion_tags": [
+      "business"
+    ],
+    "editorial_pitch": "On adore cet endroit. On ne repart pas sans la serveuse a gentiment proposé de me servir un autre faux-filet à…. Bonne adresse pour un déjeuner d'affaires.",
+    "editorial_score": 9.957,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "restaurant-2mondes-saint-aygulf",
+    "name": "Restaurant \"2Mondes\"",
+    "address": "23 Rue Garnier Pages, 83370 Fréjus, France",
+    "city": "Saint-Aygulf",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.386678,
+      "lng": 6.7228291
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 449,
+    "latest_review_date": "2026-04-07",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20%222Mondes%22&query_place_id=ChIJhSyMrb69zhIRU0FppEpHrKM",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF8GKpHwix6RjukW1gjlwjxdNcAmzrMxUihv9B3Baz_cv4BKUHEp35Q-JFda7TGLawGxueUTGVx6Zw2z8DkdSe8l8AeXuzCAGksxUsLzaAFzLiqOfvKTm4IkUUE9bfF_jj6lcbS=w408-h544-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-14",
+        "stars": 5,
+        "text": "C’est en famille (avec nos 2 filles) que nous sommes venus passer cette soirée de St Valentin aux 2 mondes (que nous avons trouvé par hasard la veille, en nous promenant en ville) Nous n’avons pas regretté notre choix : une cuisine qui nous a régalé ",
+        "author": "valérie Güttlé"
+      },
+      {
+        "date": "2026-02-28",
+        "stars": 5,
+        "text": "Un délice à chaque fois que nous venons.\nTous les plats sont fait maison et variés\nDeise et Philippe sont tellement gentils et serviable. Ils s'adaptent facilement aux régimes alimentaire spécifiques si besoin.\nMention +++ pour les petites attentions",
+        "author": "Olivier Payet"
+      },
+      {
+        "date": "2026-04-07",
+        "stars": 5,
+        "text": "Super bon !\nLa carte est excellente : des caïpirinhas en apéritif, ainsi que de la picanha en plat principal, sans oublier le poisson.\nVraiment, on y mange très bien et les propriétaires sont extrêmement sympathiques.\nNous leur souhaitons beaucoup de",
+        "author": "Maag Anthony"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🐟",
+        "phrase": "Sans oublier le poisson",
+        "mentions": 1
+      }
+    ],
+    "occasion_tags": [
+      "family"
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Le plat signature : sans oublier le poisson. Très bien en famille.",
+    "editorial_score": 14.933,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "le-quatre-saisons-saint-aygulf",
+    "name": "Le Quatre Saisons",
+    "address": "82 Av. Lucien Bœuf, 83370 Fréjus, France",
+    "city": "Saint-Aygulf",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3836172,
+      "lng": 6.7220264
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 186,
+    "latest_review_date": "2026-04-12",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Le%20Quatre%20Saisons&query_place_id=ChIJ75sEt7i9zhIRHO6xQwgaUac",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNSasd6by9lBVf0JEOqRPl10fEw5EKsa8wwxE5w9-vk839FIJF62-zwZQ9itD8qs32fg-B7ON79yIjQt6hMPaXoVDjDKJySWhSfqZfJBarAG8PP_Cku0OFrNRqnW8bLUa2DJA=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-08-15",
+        "stars": 5,
+        "text": "Parfait.\nNotre expérience a très bien commencé : un service professionnel, accueillant et égal avec chaque client. Ce qui a rendu le repas chaleureux.\nUne cuisine excellente : des produits de qualité, travaillés avec raffinement. De l’entrée au desse",
+        "author": "Emma Becquet"
+      },
+      {
+        "date": "2026-04-04",
+        "stars": 5,
+        "text": "Une très chouette expérience!\nRecommandé par des amis, cet établissement nous a agréablement surpris … une formule « entrée plat dessert » Incroyable ! …  avec un excellent rapport « qualité / prix » , la déco bonne ambiance …sans compter l’excellent",
+        "author": "83 OngFamily"
+      },
+      {
+        "date": "2026-04-05",
+        "stars": 5,
+        "text": "Découvert par hasard, ce restaurant est une vraie pépite : tout d'abord un grand merci à la patronne qui nous accueille chaleureusement, et la cuisine est une cuisine du terroir, excellente et succulente. Nos papilles s'en rappellent encore !!! Bravo",
+        "author": "JEPUN"
+      }
+    ],
+    "occasion_tags": [
+      "business"
+    ],
+    "editorial_pitch": "On adore cet endroit. Bonne adresse pour un déjeuner d'affaires. Une adresse consensuelle (4.8★).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "kabana-saint-aygulf",
+    "name": "Kabana",
+    "address": "1 Bd du Muy, 83370 Fréjus, France",
+    "city": "Saint-Aygulf",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3913454,
+      "lng": 6.7306857
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 111,
+    "latest_review_date": "2026-04-14",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kabana&query_place_id=ChIJKaadAQC9zhIR5_BzTPpcAAo",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwjK5faCH8Gxt8qm5yKkwCqAc607aTMB8L1KnVIhZOMEs9Rf-59_tIU7vEQaPCfqppyR_9BYiYMWi8a8C60fpNPJDOte_E72q5uFHu3ZLM7ho7_FR9l0fC0fN9RbuBPZn3GpgdjXlXapYN=w426-h240-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-23",
+        "stars": 5,
+        "text": "Une parenthèse enchantée lors de mon passage à Marrakech ! Le cadre du Kabana est tout simplement magique : un rooftop verdoyant avec une ambiance chic et décontractée, et surtout une vue magnifique.\nCôté cuisine, nous nous sommes régalés du début à ",
+        "author": "Martial ARNOU"
+      },
+      {
+        "date": "2026-04-14",
+        "stars": 5,
+        "text": "Le KABANA est une très belle adresse que je recommande sans hésitation. La cuisine y est excellente, chaque plat est savoureux, et la vue sur le port est tout simplement magnifique. Les gérants sont toujours souriants et attentionnés, ce qui rend l’e",
+        "author": "FcT Jess"
+      },
+      {
+        "date": "2025-08-26",
+        "stars": 5,
+        "text": "Nous avons découvert ce restaurant par hasards, et ce fut une superbe surprise.\nUne restauration avec du goût, mais surtout avec un service exemplaire.\nSourire, convivialité était au rendez-vous. Encore merci pour ce bel accueil et félicitations chef",
+        "author": "Jean-Pierre Lavoix"
+      }
+    ],
+    "occasion_tags": [
+      "view",
+      "date",
+      "family"
+    ],
+    "editorial_pitch": "Une pépite comme on les aime. Pour profiter de la vue. Régulièrement plein (111 avis enthousiastes).",
+    "editorial_score": 0,
+    "in_selection": false
+  },
+  {
+    "id": "la-valentina-saint-aygulf",
+    "name": "La Valentina",
+    "address": "21 Rue Vauvenargues, 83370 Fréjus, France",
+    "city": "Saint-Aygulf",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3871896,
+      "lng": 6.723303
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 96,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.8,
+    "reviews_count_google": 59,
+    "latest_review_date": "2026-04-07",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Valentina&query_place_id=ChIJwR7WYIOjzhIRU7ZBAwuuIGo",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH7dNoopWJV9TXNxzSDrzO-eFqlcTmmOvBl23m2AtWbUxHSQluzSH30lp6WNjIHOBOe8XeM8Tar2jg_Jpk0YxExu2Ll8uNdPA8Io_ZJKZ1d5miKpsthJVSWrKxkRfqvKwVcWjd4F72OtTbr=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2025-08-19",
+        "stars": 5,
+        "text": "Très beau moment partagé entre amis dans ce petit restaurant. Un accueil sympathique, un lieu propre, vue sur la cuisine où la chef prépare ses plats. Une cuisine très bonne et totalement maison, frites maison excellentes, viande de qualité, accompag",
+        "author": "Jules Demaret"
+      },
+      {
+        "date": "2025-08-15",
+        "stars": 5,
+        "text": "Cela fait 4 fois que je viens dîner en week-end. À chaque fois je passe une excellente soirée.  Les patrons sont au top , le serveur un feu follet,🔥 . La cuisine nous emmène tout droit en Amérique du Sud comme l'accent de la patronne ( Venezuela ou C",
+        "author": "Eric Darves-Bornoz"
+      },
+      {
+        "date": "2026-03-30",
+        "stars": 5,
+        "text": "Jolie découverte pour le déjeuner.  Accueil très chaleureux, tout comme le lieu avec une très jolie déco qui fait qu'on se sent bien dans ce restaurant. On a pris 2 bo bun qui étaient très bons.\nSi vous êtes de passage à saint aygulf,  je vous recomm",
+        "author": "sandduc70"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍜",
+        "phrase": "On a pris 2 bo bun qui étaient très bons",
+        "mentions": 1
+      }
+    ],
+    "signature_phrase": "Un accueil sympathique, un lieu propre, vue sur la cuisine où la chef prépare ses plats",
+    "occasion_tags": [
+      "group"
+    ],
+    "editorial_pitch": "Un incontournable local. Un accueil sympathique, un lieu propre, vue sur la cuisine où la chef prépare ses plats. Notre conseil : on a pris 2 bo bun qui étaient très bons. Parfait entre amis.",
+    "editorial_score": 10.459,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "la-tarantella-saint-aygulf",
+    "name": "La Tarantella",
+    "address": "558 Bd Honoré de Balzac, 83370 Fréjus, France",
+    "city": "Saint-Aygulf",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3870504,
+      "lng": 6.7208514
+    },
+    "cuisine_type": "Italian restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 92,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.6,
+    "reviews_count_google": 590,
+    "latest_review_date": "2026-04-14",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Tarantella&query_place_id=ChIJ9WMWZbm9zhIR0WXbm2iNAP4",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJJrgDIR8atXFHtcKH0CVHxKC4_xLsjNSyRVqx8H1Z0mWc4qYWrConcac83Orltc-IqcjsPQ5ecKF6sN7CDSSiuxYR1NOgl2GMBk3nuwGKBSP_cB2WGq2ad-ry_HNqpG41N8jHWg=w408-h306-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-03-07",
+        "stars": 5,
+        "text": "Un agréable restaurant italien, on est très bien accueilli, on discute avec le patron qui prépare les pizzas à côté de vous, nous n'en avons pas pris mais elles sont très appétissantes. Les plats sont délicieux et généreux et le service bien fait et ",
+        "author": "Murielle Recope"
+      },
+      {
+        "date": "2026-01-19",
+        "stars": 5,
+        "text": "Ambiànce  familiale.  Cuisine  au top. Accueil  très agréable.  Pizzas... trop bonnes sans'oublier le dessert . La crème brûlée.... excellente.  On recommande sans hesiter",
+        "author": "nathalie bellery"
+      },
+      {
+        "date": "2026-03-01",
+        "stars": 5,
+        "text": "Accueil chaleureux et sympathique, service rapide et efficace, pizzas très bonnes servies avec le sourire. Très bon rapport qualité/prix . Belles assiettes !",
+        "author": "Louis Cimadomo"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🍕",
+        "phrase": "Pizzas très bonnes servies avec le sourire",
+        "mentions": 2
+      }
+    ],
+    "occasion_tags": [
+      "family",
+      "quick_bite"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Saint-Aygulf. À commander sans hésiter : pizzas très bonnes servies avec le sourire. Très bien en famille.",
+    "editorial_score": 13.651,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "oh-p-brier-saint-aygulf",
+    "name": "Oh! Pébrier",
+    "address": "98 Av. des Rives d'Or, 83370 Fréjus, France",
+    "city": "Saint-Aygulf",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3801521,
+      "lng": 6.7196325
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 92,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.6,
+    "reviews_count_google": 363,
+    "latest_review_date": "2026-04-11",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Oh!%20P%C3%A9brier&query_place_id=ChIJvY9fVMa9zhIRfJLzKnREt1Y",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF8WzfSVzlIeFgdU6i3CK1h77fuavad-V-LQcfBo34Am3wYQ7EjAB-7e74kP4q16Cz94wxaQiu1ameEx2Hqmu6XXbw_FyXoY0AFrGKTug9B8pYirh3GtDgEkaVxC2tqpVDm8S9gNw=w408-h890-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-02-28",
+        "stars": 5,
+        "text": "Tout était au plus haut niveau. Nous avons vraiment beaucoup aimé être chez vous.\n\nJ’ai commandé de la viande (cuisson saignante) et mon épouse un tartare.\nLes deux plats étaient parmi les mieux préparés que nous ayons mangés depuis longtemps en Fran",
+        "author": "Igor MAIEVSKYI"
+      },
+      {
+        "date": "2026-04-11",
+        "stars": 5,
+        "text": "Une expérience gastronomique incroyable ! ⭐⭐⭐⭐⭐\n​\"Quelle découverte fantastique à Fréjus ! Nous avons passé une soirée inoubliable chez \"Oh! Prébier\"\n\n​Tout était d'une qualité exceptionnelle : l'Avocat et crevettes en entrée était d'une fraîcheur pa",
+        "author": "Mauro Darman"
+      },
+      {
+        "date": "2025-09-14",
+        "stars": 5,
+        "text": "Wir haben hier sehr gut gegessen. Auch der Service ist ausgesprochen gut. Die Lage ist auch sehr gut und praktisch in der oberen Parallelstraße zum Meer gelegen. Dort ist der Verkehr auch nicht so hoch.\nWir empfehlen Ihnen zu reservieren. Wir hatten ",
+        "author": "Ralf Kriesche"
+      }
+    ],
+    "signature_dishes": [
+      {
+        "icon": "🥩",
+        "phrase": "Mon épouse un tartare",
+        "mentions": 1
+      }
+    ],
+    "occasion_tags": [
+      "tete_a_tete"
+    ],
+    "editorial_pitch": "Notre coup de cœur dans Saint-Aygulf. À commander sans hésiter : mon épouse un tartare. Idéal pour un tête-à-tête.",
+    "editorial_score": 13.813,
+    "in_selection": true,
+    "added_at": "2026-04-15",
+    "selection_month": "2026-04",
+    "freshness_badge": "new"
+  },
+  {
+    "id": "la-flamme-gourmande-saint-aygulf",
+    "name": "La Flamme Gourmande",
+    "address": "39 Pl. de la Galiote, 83370 Fréjus, France",
+    "city": "Saint-Aygulf",
+    "country": "France",
+    "coordinates": {
+      "lat": 43.3918407,
+      "lng": 6.7282864
+    },
+    "cuisine_type": "Restaurant",
+    "price_range": "€€€",
+    "vibe": "casual",
+    "tags": [],
+    "recommendations": [],
+    "recommendation_count": 0,
+    "confidence_score": 90,
+    "last_updated": "2026-04-15",
+    "source_type": "trending",
+    "google_rating": 4.5,
+    "reviews_count_google": 255,
+    "latest_review_date": "2026-04-11",
+    "is_seasonal": false,
+    "currently_open": true,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=La%20Flamme%20Gourmande&query_place_id=ChIJFalgM8W9zhIRHX6wKI-jVtE",
+    "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWpYuyqcIcZE-eE6X5uH2bJWPpJAMPhm5PEfCP_e6Q8-azL1e7RnQ5HLmm_ZzGOAGQR4hoeKUZf-xh5zCD2508GFSrf73CTyj1Bi3woJDTsuh5AJyT2CCZQMIYNk6PaXHRqkKFsw=w408-h408-k-no",
+    "top_recent_quotes": [
+      {
+        "date": "2026-04-02",
+        "stars": 5,
+        "text": "Nous conseillons ce restaurant très bon rapport qualité prix\nNous avons mangé des steaks d’espadon servis avec une poêlée de légumes frais\nLes patrons et le serveur sont très agréables et attentionnés !\nHâte d’y retourner avec en plus les beaux jours",
+        "author": "Franck Bourgois"
+      },
+      {
+        "date": "2025-10-12",
+        "stars": 5,
+        "text": "Menu varié, tout a l'air bon et ça l'ai parceque je me suis régalée avec les sardines grillées au feu de bois. L'équipe est très accueillante et la patronne est chaleureuse et passionnée en plus il y a une jolie vue. Je recommande à 1000%",
+        "author": "chimene Coppa"
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5,
+        "text": "Fraîcheur des produits, un accueil 5 étoiles ! Un grand merci pour votre sourire et votre professionnalisme. Le cadre est idéal avec, au choix, un coin ombragé ou ensoleillé selon les envies. On recommande à 100 % !",
+        "author": "céline mairot"
+      }
+    ],
+    "editorial_pitch": "L'adresse qu'on garde pour soi. Un des mieux notés de la ville.",
+    "editorial_score": 0,
+    "in_selection": false
   }
 ]
